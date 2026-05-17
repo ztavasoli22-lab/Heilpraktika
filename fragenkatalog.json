@@ -1,0 +1,5032 @@
+{
+  "version": "3.0",
+  "erstellt_am": "2026-05-17",
+  "beschreibung": "Fragenkatalog + Vokabeltrainer Heilpraktikerprüfung - Seite 3-10 (Stoffwechsel: Metabolisches Syndrom, Diabetes mellitus komplett)",
+  "fragenkatalog": [
+    {
+      "id": "STW-003-01",
+      "kapitel": "Stoffwechsel",
+      "thema": "Metabolisches Syndrom",
+      "seite": 3,
+      "typ": "single_choice",
+      "frage": "Was versteht man unter dem metabolischen Syndrom?",
+      "optionen": [
+        "Eine Mangelerkrankung in Entwicklungsländern",
+        "Ein Wohlstandssyndrom durch Überernährung und Bewegungsmangel",
+        "Eine genetisch bedingte Stoffwechselstörung im Kindesalter",
+        "Eine Infektionskrankheit der Bauchspeicheldrüse",
+        "Eine autoimmun bedingte Hormonstörung"
+      ],
+      "richtig": 1,
+      "erklaerung": "Das metabolische Syndrom ist ein Wohlstandssyndrom in hoch entwickelten Industriestaaten, das vor allem Menschen mit starker Überernährung und chronischem Bewegungsmangel betrifft.",
+      "schwierigkeit": "leicht",
+      "tags": [
+        "Stoffwechsel",
+        "Metabolisches Syndrom",
+        "Definition"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-003-02",
+      "kapitel": "Stoffwechsel",
+      "thema": "Metabolisches Syndrom",
+      "seite": 3,
+      "typ": "multiple_choice",
+      "frage": "Welche vier Faktoren gehören zum sogenannten 'tödlichen Quartett'?",
+      "optionen": [
+        "Adipositas",
+        "Arterielle Hypertonie",
+        "Hyperthyreose",
+        "Diabetes mellitus / Glukosetoleranzstörung",
+        "Dyslipoproteinämie",
+        "Hyperurikämie"
+      ],
+      "richtig": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "erklaerung": "Das tödliche Quartett umfasst: Adipositas, arterielle Hypertonie, Diabetes mellitus bzw. Glukosetoleranzstörung sowie Dyslipoproteinämie (Fettstoffwechselstörung).",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Metabolisches Syndrom",
+        "Tödliches Quartett"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-003-03",
+      "kapitel": "Stoffwechsel",
+      "thema": "Metabolisches Syndrom",
+      "seite": 3,
+      "typ": "single_choice",
+      "frage": "Wie viel Prozent der deutschen Bevölkerung sind etwa vom metabolischen Syndrom betroffen?",
+      "optionen": [
+        "ca. 5 %",
+        "ca. 10 %",
+        "ca. 20 %",
+        "ca. 35 %",
+        "ca. 50 %"
+      ],
+      "richtig": 2,
+      "erklaerung": "In Deutschland sind ca. 20 % der Bevölkerung vom metabolischen Syndrom betroffen.",
+      "schwierigkeit": "leicht",
+      "tags": [
+        "Stoffwechsel",
+        "Metabolisches Syndrom",
+        "Epidemiologie"
+      ],
+      "pruefungsrelevanz": "mittel"
+    },
+    {
+      "id": "STW-003-04",
+      "kapitel": "Stoffwechsel",
+      "thema": "Metabolisches Syndrom",
+      "seite": 3,
+      "typ": "single_choice",
+      "frage": "Welche Definition des metabolischen Syndroms wird heute beim Lernen bevorzugt?",
+      "optionen": [
+        "WHO 1999",
+        "NCEP-ATP-III 2002",
+        "IDF 2005",
+        "DGE 2010",
+        "Es gibt keine bevorzugte Definition"
+      ],
+      "richtig": 2,
+      "erklaerung": "Eine allgemein akzeptierte Definition gibt es bislang nicht. Die IDF-Kriterien (International Diabetes Federation, 2005) werden jedoch beim Lernen bevorzugt.",
+      "schwierigkeit": "leicht",
+      "tags": [
+        "Stoffwechsel",
+        "Metabolisches Syndrom",
+        "IDF-Kriterien"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-003-05",
+      "kapitel": "Stoffwechsel",
+      "thema": "Metabolisches Syndrom",
+      "seite": 3,
+      "typ": "single_choice",
+      "frage": "Welcher Bauchumfang gilt nach den IDF-Kriterien bei Männern als pathologisch?",
+      "optionen": [
+        "≥ 80 cm",
+        "≥ 88 cm",
+        "≥ 94 cm",
+        "≥ 102 cm",
+        "≥ 110 cm"
+      ],
+      "richtig": 2,
+      "erklaerung": "Nach IDF: Männer ≥ 94 cm, Frauen ≥ 80 cm. Zum Vergleich NCEP-ATP-III: Männer ≥ 102 cm, Frauen ≥ 88 cm.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Metabolisches Syndrom",
+        "IDF-Kriterien",
+        "Taillenumfang"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-003-06",
+      "kapitel": "Stoffwechsel",
+      "thema": "Metabolisches Syndrom",
+      "seite": 3,
+      "typ": "single_choice",
+      "frage": "Welcher Bauchumfang gilt nach den IDF-Kriterien bei Frauen als pathologisch?",
+      "optionen": [
+        "≥ 70 cm",
+        "≥ 80 cm",
+        "≥ 88 cm",
+        "≥ 94 cm",
+        "≥ 102 cm"
+      ],
+      "richtig": 1,
+      "erklaerung": "Nach IDF gilt bei Frauen ein Bauchumfang ≥ 80 cm als Kriterium.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Metabolisches Syndrom",
+        "IDF-Kriterien",
+        "Taillenumfang"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-003-07",
+      "kapitel": "Stoffwechsel",
+      "thema": "Metabolisches Syndrom",
+      "seite": 3,
+      "typ": "single_choice",
+      "frage": "Ab welchem BMI-Wert spricht die WHO im Rahmen des metabolischen Syndroms von Adipositas?",
+      "optionen": [
+        "≥ 25",
+        "≥ 27",
+        "≥ 30",
+        "≥ 35",
+        "≥ 40"
+      ],
+      "richtig": 2,
+      "erklaerung": "Die WHO-Definition (1999) nennt einen BMI ≥ 30 als Kriterium.",
+      "schwierigkeit": "leicht",
+      "tags": [
+        "Stoffwechsel",
+        "Metabolisches Syndrom",
+        "WHO-Kriterien",
+        "BMI"
+      ],
+      "pruefungsrelevanz": "mittel"
+    },
+    {
+      "id": "STW-003-08",
+      "kapitel": "Stoffwechsel",
+      "thema": "Metabolisches Syndrom",
+      "seite": 3,
+      "typ": "multiple_choice",
+      "frage": "Welche Werte für das Waist-to-Hip-Ratio nennt die WHO-Definition?",
+      "optionen": [
+        "Männer > 0,85",
+        "Männer > 1,0",
+        "Frauen > 0,85",
+        "Frauen > 1,0",
+        "Männer > 0,9"
+      ],
+      "richtig": [
+        1,
+        2
+      ],
+      "erklaerung": "WHO: Männer > 1,0 und Frauen > 0,85.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Metabolisches Syndrom",
+        "WHO-Kriterien",
+        "Waist-to-Hip"
+      ],
+      "pruefungsrelevanz": "mittel"
+    },
+    {
+      "id": "STW-003-09",
+      "kapitel": "Stoffwechsel",
+      "thema": "Metabolisches Syndrom",
+      "seite": 3,
+      "typ": "single_choice",
+      "frage": "Ab welchem Triglyzerid-Wert ist das Kriterium des metabolischen Syndroms erfüllt (alle drei Definitionen)?",
+      "optionen": [
+        "≥ 100 mg/dl",
+        "≥ 130 mg/dl",
+        "≥ 150 mg/dl",
+        "≥ 180 mg/dl",
+        "≥ 200 mg/dl"
+      ],
+      "richtig": 2,
+      "erklaerung": "WHO, NCEP-ATP-III und IDF nennen einheitlich ≥ 150 mg/dl (bei NCEP und IDF auch 'oder in Therapie').",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Metabolisches Syndrom",
+        "Triglyzeride",
+        "Laborwerte"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-003-10",
+      "kapitel": "Stoffwechsel",
+      "thema": "Metabolisches Syndrom",
+      "seite": 3,
+      "typ": "single_choice",
+      "frage": "Welcher HDL-Cholesterin-Wert gilt nach IDF bei Männern als pathologisch?",
+      "optionen": [
+        "< 35 mg/dl",
+        "< 40 mg/dl",
+        "< 45 mg/dl",
+        "< 50 mg/dl",
+        "< 60 mg/dl"
+      ],
+      "richtig": 1,
+      "erklaerung": "IDF und NCEP-ATP-III: Männer < 40 mg/dl, Frauen < 50 mg/dl. WHO: Männer < 35 mg/dl, Frauen < 39 mg/dl.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Metabolisches Syndrom",
+        "IDF-Kriterien",
+        "HDL"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-003-11",
+      "kapitel": "Stoffwechsel",
+      "thema": "Metabolisches Syndrom",
+      "seite": 3,
+      "typ": "single_choice",
+      "frage": "Welcher HDL-Cholesterin-Wert gilt nach IDF bei Frauen als pathologisch?",
+      "optionen": [
+        "< 35 mg/dl",
+        "< 39 mg/dl",
+        "< 45 mg/dl",
+        "< 50 mg/dl",
+        "< 60 mg/dl"
+      ],
+      "richtig": 3,
+      "erklaerung": "IDF und NCEP-ATP-III: Frauen < 50 mg/dl.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Metabolisches Syndrom",
+        "IDF-Kriterien",
+        "HDL"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-003-12",
+      "kapitel": "Stoffwechsel",
+      "thema": "Metabolisches Syndrom",
+      "seite": 3,
+      "typ": "single_choice",
+      "frage": "Ab welchen Blutdruckwerten ist das Kriterium nach IDF erfüllt?",
+      "optionen": [
+        "≥ 120/80 mmHg",
+        "≥ 130/85 mmHg",
+        "≥ 140/90 mmHg",
+        "≥ 160/95 mmHg",
+        "≥ 180/100 mmHg"
+      ],
+      "richtig": 1,
+      "erklaerung": "IDF und NCEP-ATP-III: ≥ 130/85 mmHg oder in Therapie. WHO: ≥ 140/90 mmHg.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Metabolisches Syndrom",
+        "IDF-Kriterien",
+        "Blutdruck"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-003-13",
+      "kapitel": "Stoffwechsel",
+      "thema": "Metabolisches Syndrom",
+      "seite": 3,
+      "typ": "single_choice",
+      "frage": "Ab welchem Nüchternglukose-Wert ist das Kriterium des metabolischen Syndroms erfüllt?",
+      "optionen": [
+        "≥ 80 mg/dl",
+        "≥ 90 mg/dl",
+        "≥ 100 mg/dl",
+        "≥ 110 mg/dl",
+        "≥ 126 mg/dl"
+      ],
+      "richtig": 2,
+      "erklaerung": "Alle drei Definitionen nennen ≥ 100 mg/dl (NCEP und IDF: oder in Therapie / bei bekanntem Diabetes).",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Metabolisches Syndrom",
+        "Nüchternglukose",
+        "Blutzucker"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-003-14",
+      "kapitel": "Stoffwechsel",
+      "thema": "Metabolisches Syndrom",
+      "seite": 3,
+      "typ": "richtig_falsch",
+      "frage": "Bei den IDF-Kriterien müssen neben der Adipositas mit erhöhtem Bauchumfang zusätzlich 2 weitere Faktoren vorhanden sein.",
+      "richtig": true,
+      "erklaerung": "Korrekt – bei der IDF-Definition ist die abdominelle Adipositas Pflicht plus mindestens 2 weitere Kriterien.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Metabolisches Syndrom",
+        "IDF-Kriterien"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-003-15",
+      "kapitel": "Stoffwechsel",
+      "thema": "Metabolisches Syndrom",
+      "seite": 3,
+      "typ": "single_choice",
+      "frage": "Mikroalbuminurie ist nur bei welcher Definition des metabolischen Syndroms ein Kriterium?",
+      "optionen": [
+        "WHO",
+        "NCEP-ATP-III",
+        "IDF",
+        "Bei allen drei",
+        "Bei keiner"
+      ],
+      "richtig": 0,
+      "erklaerung": "Nur die WHO nennt die Mikroalbuminurie als Kriterium: Albumin im Urin ≥ 20 µg/min bzw. Albumin-Kreatinin-Quotient ≥ 30 mg/g.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Metabolisches Syndrom",
+        "WHO-Kriterien",
+        "Mikroalbuminurie"
+      ],
+      "pruefungsrelevanz": "mittel"
+    },
+    {
+      "id": "STW-003-16",
+      "kapitel": "Stoffwechsel",
+      "thema": "Metabolisches Syndrom",
+      "seite": 3,
+      "typ": "multiple_choice",
+      "frage": "Welche Aussagen zum metabolischen Syndrom sind richtig?",
+      "optionen": [
+        "Es betrifft vor allem Menschen in Entwicklungsländern",
+        "Chronischer Bewegungsmangel ist ein wichtiger Risikofaktor",
+        "Die Kombination aller vier Faktoren wird auch 'tödliches Quartett' genannt",
+        "In Deutschland sind ca. 5 % der Bevölkerung betroffen",
+        "Überernährung ist ein Hauptauslöser"
+      ],
+      "richtig": [
+        1,
+        2,
+        4
+      ],
+      "erklaerung": "Es betrifft Industriestaaten (nicht Entwicklungsländer), ca. 20 % (nicht 5 %) der deutschen Bevölkerung. Bewegungsmangel, Überernährung und das 'tödliche Quartett' sind korrekte Aussagen.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Metabolisches Syndrom"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-003-F1",
+      "kapitel": "Stoffwechsel",
+      "thema": "Metabolisches Syndrom",
+      "seite": 3,
+      "typ": "fallbeispiel",
+      "fallbeschreibung": "Ein 52-jähriger Manager (BMI 32, Bauchumfang 106 cm) kommt in Ihre Praxis. Laborwerte: Nüchternglukose 112 mg/dl, Triglyzeride 178 mg/dl, HDL 38 mg/dl. Blutdruck: 145/92 mmHg. Er klagt über Müdigkeit und Bewegungsmangel.",
+      "frage": "Wie viele Kriterien des metabolischen Syndroms (nach IDF) erfüllt dieser Patient?",
+      "optionen": [
+        "2 Kriterien",
+        "3 Kriterien",
+        "4 Kriterien",
+        "Alle 5 Kriterien",
+        "Keine eindeutige Aussage möglich"
+      ],
+      "richtig": 3,
+      "erklaerung": "Der Patient erfüllt ALLE 5 IDF-Kriterien: (1) Bauchumfang ≥ 94 cm (106 cm) ✓ (2) Nüchternglukose ≥ 100 mg/dl (112) ✓ (3) Triglyzeride ≥ 150 mg/dl (178) ✓ (4) HDL < 40 mg/dl (38) ✓ (5) Blutdruck ≥ 130/85 mmHg (145/92) ✓. Diagnose: Vollbild des metabolischen Syndroms (tödliches Quartett).",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Metabolisches Syndrom",
+        "IDF-Kriterien",
+        "Fallbeispiel"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-003-F2",
+      "kapitel": "Stoffwechsel",
+      "thema": "Metabolisches Syndrom",
+      "seite": 3,
+      "typ": "fallbeispiel",
+      "fallbeschreibung": "Eine 45-jährige Patientin (Bauchumfang 78 cm, BMI 24) hat folgende Werte: Triglyzeride 165 mg/dl, HDL 45 mg/dl, Blutdruck 135/88 mmHg, Nüchternglukose 105 mg/dl.",
+      "frage": "Welche Aussage ist nach den IDF-Kriterien korrekt?",
+      "optionen": [
+        "Die Patientin hat ein metabolisches Syndrom, weil sie 3 Kriterien erfüllt",
+        "Die Patientin hat KEIN metabolisches Syndrom nach IDF, da der Bauchumfang < 80 cm beträgt",
+        "Die Patientin hat ein metabolisches Syndrom, weil der BMI < 30 ist",
+        "Die Diagnose ist erst nach OGTT möglich",
+        "Die Patientin erfüllt alle 5 Kriterien"
+      ],
+      "richtig": 1,
+      "erklaerung": "Nach IDF ist die abdominelle Adipositas (Bauchumfang Frauen ≥ 80 cm) eine ZWINGENDE Voraussetzung. Da die Patientin 78 cm hat, liegt nach IDF KEIN metabolisches Syndrom vor – auch wenn andere Kriterien erfüllt wären. Nach NCEP-ATP-III hingegen wäre die Diagnose möglich, da dort 3 von 5 Kriterien ausreichen.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Metabolisches Syndrom",
+        "IDF-Kriterien",
+        "Differenzierung",
+        "Fallbeispiel"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-003-F3",
+      "kapitel": "Stoffwechsel",
+      "thema": "Metabolisches Syndrom",
+      "seite": 3,
+      "typ": "fallbeispiel",
+      "fallbeschreibung": "Ein Patient mit metabolischem Syndrom fragt Sie als Heilpraktiker, welche Maßnahmen er ergreifen kann. Er ist 58 Jahre, übergewichtig und bewegt sich kaum.",
+      "frage": "Welche grundlegenden Empfehlungen sind bei einem metabolischen Syndrom sinnvoll? (Mehrfachauswahl)",
+      "optionen": [
+        "Gewichtsreduktion durch kalorienreduzierte Mischkost",
+        "Regelmäßige körperliche Bewegung (min. 30 min/Tag)",
+        "Reduktion von Zucker und schnell resorbierbaren Kohlenhydraten",
+        "Erhöhung des Konsums gesättigter Fettsäuren",
+        "Stressreduktion und ausreichend Schlaf",
+        "Vermeidung von Ballaststoffen"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "erklaerung": "Therapie der Lebensstilmodifikation: Gewichtsreduktion, Bewegung, Reduktion von Zucker/Kohlenhydraten und Stressreduktion sind zentral. Gesättigte Fettsäuren sollten REDUZIERT (nicht erhöht) werden, Ballaststoffe sollten REICHLICH konsumiert werden.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Metabolisches Syndrom",
+        "Therapie",
+        "Lebensstil",
+        "Fallbeispiel"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-004-01",
+      "kapitel": "Stoffwechsel",
+      "thema": "Diabetes mellitus - Grundlagen",
+      "seite": 4,
+      "typ": "single_choice",
+      "frage": "Was ist die zentrale Stoffwechselstörung beim Diabetes mellitus?",
+      "optionen": [
+        "Störung des Fettstoffwechsels",
+        "Störung des Eiweißstoffwechsels",
+        "Störung des Kohlenhydratstoffwechsels durch absoluten oder relativen Insulinmangel",
+        "Störung des Mineralstoffwechsels",
+        "Störung der Hormonproduktion in der Schilddrüse"
+      ],
+      "richtig": 2,
+      "erklaerung": "Diabetes mellitus ist eine Erkrankung mit Störung des Kohlenhydratstoffwechsels, bei der es durch einen absoluten oder relativen Mangel an Insulin zur Erhöhung des Blutzuckerspiegels kommt.",
+      "schwierigkeit": "leicht",
+      "tags": [
+        "Stoffwechsel",
+        "Diabetes mellitus",
+        "Definition",
+        "Insulin"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-004-02",
+      "kapitel": "Stoffwechsel",
+      "thema": "Diabetes mellitus - Grundlagen",
+      "seite": 4,
+      "typ": "richtig_falsch",
+      "frage": "Insulin ist das einzige Hormon, welches Glukose in die Zelle bringen kann.",
+      "richtig": true,
+      "erklaerung": "Korrekt – Insulin ist das einzige blutzuckersenkende Hormon. Fehlt Insulin, steigt der Blutzuckerspiegel an, gleichzeitig fehlt Glukose in den Körperzellen, was den Energiestoffwechsel beeinträchtigt.",
+      "schwierigkeit": "leicht",
+      "tags": [
+        "Stoffwechsel",
+        "Diabetes mellitus",
+        "Insulin",
+        "Hormone"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-004-03",
+      "kapitel": "Stoffwechsel",
+      "thema": "Diabetes mellitus Typ 1",
+      "seite": 4,
+      "typ": "single_choice",
+      "frage": "Welche Häufigkeit hat der Diabetes mellitus Typ 1 unter allen Diabetes-Fällen?",
+      "optionen": [
+        "ca. 5 %",
+        "ca. 10 %",
+        "ca. 25 %",
+        "ca. 50 %",
+        "ca. 90 %"
+      ],
+      "richtig": 1,
+      "erklaerung": "Typ 1 macht etwa 10 % aller Diabetes-Erkrankungen aus, Typ 2 hingegen ca. 90 %.",
+      "schwierigkeit": "leicht",
+      "tags": [
+        "Stoffwechsel",
+        "Diabetes Typ 1",
+        "Epidemiologie"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-004-04",
+      "kapitel": "Stoffwechsel",
+      "thema": "Diabetes mellitus Typ 1 vs Typ 2",
+      "seite": 4,
+      "typ": "multiple_choice",
+      "frage": "Welche Aussagen treffen auf den Diabetes mellitus Typ 1 zu?",
+      "optionen": [
+        "Typischer Manifestationsbeginn zwischen 12. und 24. Lebensjahr",
+        "Körperbau meist adipös (80 %)",
+        "Absoluter Insulinmangel durch Zerstörung der B-Zellen",
+        "Beginn meist schleichend",
+        "Insulintherapie ist erforderlich",
+        "Tritt häufig nach einer vorausgegangenen Virusinfektion auf"
+      ],
+      "richtig": [
+        0,
+        2,
+        4,
+        5
+      ],
+      "erklaerung": "Typ 1: Manifestation 12.-24. Lebensjahr, asthenischer Körperbau, absoluter Insulinmangel, akuter Beginn (oft als Coma diabeticum), Insulintherapie erforderlich, häufig nach Virusinfektionen. Adipositas und schleichender Beginn sind typisch für Typ 2.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Diabetes Typ 1",
+        "Differenzierung"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-004-05",
+      "kapitel": "Stoffwechsel",
+      "thema": "Diabetes mellitus Typ 1",
+      "seite": 4,
+      "typ": "single_choice",
+      "frage": "Wie wird der Diabetes Typ 1 mit Autoantikörpern gegen B-Zellen oder Insulin auch bezeichnet?",
+      "optionen": [
+        "Typ 1A",
+        "Typ 1B",
+        "Typ 1C",
+        "LADA",
+        "MODY"
+      ],
+      "richtig": 0,
+      "erklaerung": "Typ 1A: Autoantikörper gegen B-Zellen oder Insulin (Sonderform: LADA). Typ 1B: idiopathisch (keine Antikörper nachweisbar).",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Diabetes Typ 1",
+        "Autoimmun",
+        "LADA"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-004-06",
+      "kapitel": "Stoffwechsel",
+      "thema": "Diabetes mellitus Typ 1",
+      "seite": 4,
+      "typ": "single_choice",
+      "frage": "Was bedeutet die Abkürzung LADA?",
+      "optionen": [
+        "Late autoimmune diabetes in adolescents",
+        "Latent autoimmune diabetes in adults",
+        "Long-term acute diabetes attack",
+        "Localized autoimmune diabetes activity",
+        "Late acquired diabetes of adulthood"
+      ],
+      "richtig": 1,
+      "erklaerung": "LADA = Latent Autoimmune Diabetes in Adults. Ein versteckter Autoimmundiabetes bei Erwachsenen, der anfangs noch nicht insulinpflichtig ist (klinisches Erscheinungsbild wie beim Typ-2-Diabetes), bei dem orale Antidiabetika jedoch recht früh versagen.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Diabetes Typ 1",
+        "LADA"
+      ],
+      "pruefungsrelevanz": "mittel"
+    },
+    {
+      "id": "STW-004-07",
+      "kapitel": "Stoffwechsel",
+      "thema": "Diabetes mellitus Typ 2",
+      "seite": 4,
+      "typ": "multiple_choice",
+      "frage": "Welche Aussagen treffen auf den Diabetes mellitus Typ 2 zu?",
+      "optionen": [
+        "Häufigkeit ca. 90 % aller Diabetesfälle",
+        "Manifestation meist ab dem 40. Lebensjahr",
+        "Beginn akut, oft als Coma diabeticum",
+        "Relativer Insulinmangel mit Insulinresistenz",
+        "Asthenischer Körperbau",
+        "Häufig genetische Disposition vorhanden"
+      ],
+      "richtig": [
+        0,
+        1,
+        3,
+        5
+      ],
+      "erklaerung": "Typ 2: 90 % der Fälle, Manifestation ab 40. LJ (zunehmend auch bei Kindern), schleichender Beginn (NICHT akut), relativer Insulinmangel + Insulinresistenz, adipöser Körperbau (80 %), genetische Disposition häufig.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Diabetes Typ 2",
+        "Differenzierung"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-004-08",
+      "kapitel": "Stoffwechsel",
+      "thema": "Pathogenese Typ-2-Diabetes",
+      "seite": 4,
+      "typ": "single_choice",
+      "frage": "Was ist der zentrale Pathomechanismus beim Typ-2-Diabetes?",
+      "optionen": [
+        "Vollständige Zerstörung der B-Zellen durch Autoantikörper",
+        "Insulinresistenz der Zellen mit verminderter Sensitivität und Dichte der Insulinrezeptoren",
+        "Genetischer Defekt des Insulingens",
+        "Virale Infektion der Bauchspeicheldrüse",
+        "Mangel an Glukagon"
+      ],
+      "richtig": 1,
+      "erklaerung": "Durch Adipositas und Fehlernährung werden die Insulinspiegel erhöht. Hohe Insulinspiegel vermindern jedoch die Sensitivität und Dichte der Insulinrezeptoren → Insulinresistenz der Zellen. Eine erhöhte Insulinausschüttung wird erforderlich.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Diabetes Typ 2",
+        "Pathogenese",
+        "Insulinresistenz"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-004-09",
+      "kapitel": "Stoffwechsel",
+      "thema": "Pathogenese Typ-2-Diabetes",
+      "seite": 4,
+      "typ": "richtig_falsch",
+      "frage": "Erhöhte Insulinspiegel steigern das Hungergefühl, was zu Adipositas und damit zur Verschlimmerung der Insulinresistenz führt – ein Teufelskreis.",
+      "richtig": true,
+      "erklaerung": "Korrekt – das ist der klassische Teufelskreis beim Typ-2-Diabetes: hohe Insulinspiegel → mehr Hunger → mehr Adipositas → noch mehr Insulinresistenz.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Diabetes Typ 2",
+        "Pathogenese"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-004-10",
+      "kapitel": "Stoffwechsel",
+      "thema": "Pathogenese Typ-2-Diabetes",
+      "seite": 4,
+      "typ": "single_choice",
+      "frage": "Was ist das therapeutische Grundprinzip beim Typ-2-Diabetes (vor Insulingabe)?",
+      "optionen": [
+        "Sofortige Insulingabe in hohen Dosen",
+        "Beseitigung von Fehlernährung und Adipositas, um Insulinspiegel zu senken",
+        "Hochdosierte Glukokortikoide",
+        "Vermeidung jeglicher Bewegung",
+        "Erhöhung der Kohlenhydrataufnahme"
+      ],
+      "richtig": 1,
+      "erklaerung": "Therapeutisches Prinzip: Beseitigung von Fehlernährung und Adipositas → absinkende Insulinspiegel → Sensitivität und Dichte der Rezeptoren erhöht sich wieder. Gelingt das nicht, manifestiert sich der Diabetes durch Erschöpfung der B-Zellen.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Diabetes Typ 2",
+        "Therapie"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-004-11",
+      "kapitel": "Stoffwechsel",
+      "thema": "Insulinantagonisten",
+      "seite": 4,
+      "typ": "multiple_choice",
+      "frage": "Welche Hormone gehören zu den Insulinantagonisten (Merkhilfe G-CATS)?",
+      "optionen": [
+        "Glukagon",
+        "Cortisol",
+        "Aldosteron",
+        "Adrenalin/Noradrenalin",
+        "T3/T4 (Schilddrüsenhormone)",
+        "STH (Somatotropes Hormon)",
+        "ADH (Antidiuretisches Hormon)"
+      ],
+      "richtig": [
+        0,
+        1,
+        3,
+        4,
+        5
+      ],
+      "erklaerung": "Merkhilfe G-CATS = Glukagon, Cortisol, Adrenalin/Noradrenalin, T3/T4, STH. Diese Hormone wirken der Insulinwirkung entgegen und können den Blutzucker erhöhen. Aldosteron und ADH sind KEINE Insulinantagonisten.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Insulinantagonisten",
+        "G-CATS",
+        "Hormone"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-004-12",
+      "kapitel": "Stoffwechsel",
+      "thema": "Diabetes mellitus Typ 3",
+      "seite": 4,
+      "typ": "multiple_choice",
+      "frage": "Welche Erkrankungen können einen sekundären Diabetes (Typ 3) durch Erhöhung von Insulinantagonisten verursachen?",
+      "optionen": [
+        "Cushing-Syndrom",
+        "Phäochromozytom",
+        "Hyperthyreose",
+        "Akromegalie",
+        "Hypothyreose",
+        "Morbus Addison"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Cushing-Syndrom (Cortisol↑), Phäochromozytom (Adrenalin↑), Hyperthyreose (T3/T4↑) und Akromegalie (STH↑) erhöhen jeweils Insulinantagonisten und können einen Typ-3-Diabetes verursachen. Hypothyreose und M. Addison senken diese Hormone.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Diabetes Typ 3",
+        "Endokrinologie"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-004-13",
+      "kapitel": "Stoffwechsel",
+      "thema": "Diabetes mellitus Typ 3",
+      "seite": 4,
+      "typ": "multiple_choice",
+      "frage": "Welche Infektionen werden als mögliche Ursachen eines Typ-3-Diabetes genannt?",
+      "optionen": [
+        "Konnatale Röteln",
+        "Zytomegalie",
+        "Mumps (selten)",
+        "Influenza",
+        "HIV"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Konnatale Röteln, Zytomegalie und seltener Mumps werden als infektiöse Ursachen eines Typ-3-Diabetes genannt.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Diabetes Typ 3",
+        "Infektionen"
+      ],
+      "pruefungsrelevanz": "mittel"
+    },
+    {
+      "id": "STW-004-14",
+      "kapitel": "Stoffwechsel",
+      "thema": "Diabetes mellitus Typ 3",
+      "seite": 4,
+      "typ": "multiple_choice",
+      "frage": "Welche immunologischen oder genetischen Syndrome werden mit Typ-3-Diabetes assoziiert?",
+      "optionen": [
+        "Down-Syndrom",
+        "Klinefelter-Syndrom",
+        "Turner-Syndrom",
+        "Marfan-Syndrom",
+        "Ehlers-Danlos-Syndrom"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Down-Syndrom (Trisomie 21), Klinefelter-Syndrom (XXY) und Turner-Syndrom (X0) sind mit einem erhöhten Risiko für Typ-3-Diabetes assoziiert.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Diabetes Typ 3",
+        "Syndrome",
+        "Genetik"
+      ],
+      "pruefungsrelevanz": "mittel"
+    },
+    {
+      "id": "STW-004-15",
+      "kapitel": "Stoffwechsel",
+      "thema": "Gestationsdiabetes",
+      "seite": 4,
+      "typ": "single_choice",
+      "frage": "Wie wird der Gestationsdiabetes klassifiziert?",
+      "optionen": [
+        "Diabetes mellitus Typ 1",
+        "Diabetes mellitus Typ 2",
+        "Diabetes mellitus Typ 3",
+        "Diabetes mellitus Typ 4",
+        "Eigene Kategorie außerhalb der Typen"
+      ],
+      "richtig": 3,
+      "erklaerung": "Gestationsdiabetes wird als Diabetes mellitus Typ 4 klassifiziert. Definition: erstmals während der Schwangerschaft erkannte Störung des Kohlenhydratstoffwechsels.",
+      "schwierigkeit": "leicht",
+      "tags": [
+        "Stoffwechsel",
+        "Gestationsdiabetes",
+        "Diabetes Typ 4"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-004-16",
+      "kapitel": "Stoffwechsel",
+      "thema": "Gestationsdiabetes",
+      "seite": 4,
+      "typ": "single_choice",
+      "frage": "Wie häufig tritt der Gestationsdiabetes auf?",
+      "optionen": [
+        "ca. 0,5-1 % aller Schwangerschaften",
+        "ca. 3-8 % aller Schwangerschaften",
+        "ca. 15-20 % aller Schwangerschaften",
+        "ca. 25-30 % aller Schwangerschaften",
+        "ca. 50 % aller Schwangerschaften"
+      ],
+      "richtig": 1,
+      "erklaerung": "Der Gestationsdiabetes betrifft ca. 3-8 % aller Schwangerschaften.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Gestationsdiabetes",
+        "Epidemiologie"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-004-17",
+      "kapitel": "Stoffwechsel",
+      "thema": "Gestationsdiabetes",
+      "seite": 4,
+      "typ": "richtig_falsch",
+      "frage": "Nach der Geburt verschwindet der Gestationsdiabetes meist, jedoch besteht ein um 50 % erhöhtes Risiko, dass er bei nachfolgenden Schwangerschaften wieder auftritt oder sich permanent manifestiert.",
+      "richtig": true,
+      "erklaerung": "Korrekt – Gestationsdiabetes verschwindet meist nach der Geburt, das Rezidivrisiko und das Risiko einer permanenten Manifestation eines Diabetes sind jedoch um etwa 50 % erhöht.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Gestationsdiabetes",
+        "Prognose"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-004-18",
+      "kapitel": "Stoffwechsel",
+      "thema": "Diabetes mellitus",
+      "seite": 4,
+      "typ": "single_choice",
+      "frage": "Welcher Beginn ist typisch für den Diabetes mellitus Typ 1?",
+      "optionen": [
+        "Schleichend über Monate bis Jahre",
+        "Akut, oft als Coma diabeticum",
+        "Nur in der Schwangerschaft",
+        "Symptomlos lebenslang",
+        "Nur nach 60. Lebensjahr"
+      ],
+      "richtig": 1,
+      "erklaerung": "Typ 1 beginnt typischerweise akut, oft als Coma diabeticum als Erstmanifestation. Typ 2 hingegen schleichend.",
+      "schwierigkeit": "leicht",
+      "tags": [
+        "Stoffwechsel",
+        "Diabetes Typ 1",
+        "Symptomatik"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-004-F1",
+      "kapitel": "Stoffwechsel",
+      "thema": "Diabetes mellitus - Differenzialdiagnose",
+      "seite": 4,
+      "typ": "fallbeispiel",
+      "fallbeschreibung": "Ein 14-jähriger Junge wird mit Bewusstseinsstörung, tiefer Atmung (Kussmaul-Atmung) und Acetongeruch in der Atemluft in die Praxis gebracht. Er hat in den letzten Wochen stark abgenommen, viel getrunken und musste häufig zur Toilette. Vor 4 Wochen hatte er eine fieberhafte Virusinfektion.",
+      "frage": "Welche Verdachtsdiagnose ist am wahrscheinlichsten?",
+      "optionen": [
+        "Diabetes mellitus Typ 2 mit Hyperosmolarem Koma",
+        "Diabetes mellitus Typ 1 mit ketoazidotischem Coma diabeticum",
+        "Gestationsdiabetes",
+        "Hypoglykämischer Schock",
+        "Hyperthyreose-Krise"
+      ],
+      "richtig": 1,
+      "erklaerung": "Klassische Erstmanifestation eines Typ-1-Diabetes: junges Alter, Gewichtsverlust, Polyurie/Polydipsie, vorangegangene Virusinfektion, ketoazidotisches Coma diabeticum mit Kussmaul-Atmung und Acetongeruch. Akuter Beginn ist typisch für Typ 1.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Diabetes Typ 1",
+        "Coma diabeticum",
+        "Fallbeispiel"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-004-F2",
+      "kapitel": "Stoffwechsel",
+      "thema": "Diabetes mellitus Typ 2 - Pathogenese",
+      "seite": 4,
+      "typ": "fallbeispiel",
+      "fallbeschreibung": "Ein 55-jähriger adipöser Patient (BMI 34) kommt zu Ihnen. Er berichtet, dass er ständig hungrig sei und immer mehr esse. Sein Hausarzt habe einen erhöhten Insulinspiegel und einen leicht erhöhten Nüchternblutzucker (108 mg/dl) festgestellt.",
+      "frage": "Welche Aussage zum Pathomechanismus ist korrekt?",
+      "optionen": [
+        "Der Patient hat einen absoluten Insulinmangel, daher muss sofort Insulin gegeben werden",
+        "Die erhöhten Insulinspiegel verursachen Insulinresistenz und steigern das Hungergefühl - ein Teufelskreis aus Adipositas und Insulinresistenz",
+        "Der Patient hat einen Typ-1-Diabetes mit Autoantikörpern",
+        "Es liegt ein Gestationsdiabetes vor",
+        "Die Symptomatik ist typisch für ein hypoglykämisches Geschehen"
+      ],
+      "richtig": 1,
+      "erklaerung": "Klassische Typ-2-Pathogenese: Adipositas/Fehlernährung → erhöhte Insulinspiegel → verminderte Rezeptordichte/Sensitivität → Insulinresistenz → kompensatorisch noch mehr Insulin → mehr Hunger → mehr Adipositas → Verschlimmerung. Therapie: Gewichtsreduktion und Ernährungsumstellung.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Diabetes Typ 2",
+        "Pathogenese",
+        "Fallbeispiel"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-004-F3",
+      "kapitel": "Stoffwechsel",
+      "thema": "Sekundärer Diabetes - Insulinantagonisten",
+      "seite": 4,
+      "typ": "fallbeispiel",
+      "fallbeschreibung": "Eine 48-jährige Patientin kommt mit Vollmondgesicht, Stammfettsucht, Striae rubrae am Bauch, Hypertonie und neu aufgetretenem Diabetes mellitus in Ihre Praxis.",
+      "frage": "Welche Grunderkrankung sollte als Ursache des sekundären Diabetes (Typ 3) abgeklärt werden?",
+      "optionen": [
+        "Hypothyreose",
+        "Morbus Addison",
+        "Cushing-Syndrom",
+        "Akromegalie",
+        "Phäochromozytom"
+      ],
+      "richtig": 2,
+      "erklaerung": "Vollmondgesicht, Stammfettsucht, Striae rubrae und Hypertonie sind klassische Symptome eines Cushing-Syndroms. Das erhöhte Cortisol (Insulinantagonist) führt zu einem sekundären Diabetes mellitus Typ 3.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Diabetes Typ 3",
+        "Cushing-Syndrom",
+        "Fallbeispiel"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-005-01",
+      "kapitel": "Stoffwechsel",
+      "thema": "Gestationsdiabetes - Komplikationen Mutter",
+      "seite": 5,
+      "typ": "multiple_choice",
+      "frage": "Welche Komplikationen sind bei der Mutter mit Gestationsdiabetes erhöht?",
+      "optionen": [
+        "Hypertensive Schwangerschaftserkrankungen (Hypertonie, Präeklampsie, Eklampsie, HELLP)",
+        "Harnwegsinfektionen",
+        "Kaiserschnittentbindungen durch erhöhtes Geburtsgewicht",
+        "Erhöhung der Fruchtwassermenge",
+        "Reduktion der Fruchtwassermenge",
+        "Schwangerschaftserbrechen"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Komplikationen für die Mutter: hypertensive Schwangerschaftserkrankungen (Hypertonie, Präeklampsie, Eklampsie, HELLP), Harnwegsinfektionen, Kaiserschnitt durch erhöhtes Geburtsgewicht und Erhöhung (nicht Reduktion!) der Fruchtwassermenge.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Gestationsdiabetes",
+        "Komplikationen",
+        "Schwangerschaft"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-005-02",
+      "kapitel": "Stoffwechsel",
+      "thema": "Gestationsdiabetes - Komplikationen Kind",
+      "seite": 5,
+      "typ": "multiple_choice",
+      "frage": "Welche Risiken bestehen für das Kind bei Gestationsdiabetes?",
+      "optionen": [
+        "Fetale Entwicklungsstörungen, Fehlgeburten, Frühgeburten, Totgeburten",
+        "Geburtskomplikationen durch erhöhtes Geburtsgewicht",
+        "Anpassungsstörungen und Atmungsprobleme nach der Geburt",
+        "Embryofetopathia diabetica (kardiale, neuronale Fehlbildungen)",
+        "Vermindertes Geburtsgewicht",
+        "Untergewicht im späteren Leben"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Risiken fürs Kind: Fetale Entwicklungsstörungen (Fehl-, Früh-, Totgeburten), Geburtskomplikationen durch erhöhtes (nicht vermindertes) Gewicht, Anpassungs-/Atmungsstörungen, Embryofetopathia diabetica.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Gestationsdiabetes",
+        "Komplikationen",
+        "Embryofetopathia"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-005-03",
+      "kapitel": "Stoffwechsel",
+      "thema": "Gestationsdiabetes",
+      "seite": 5,
+      "typ": "single_choice",
+      "frage": "Was bedeutet 'Embryofetopathia diabetica'?",
+      "optionen": [
+        "Diabetes der Mutter ohne Auswirkungen aufs Kind",
+        "Kardiale, neuronale oder sonstige Fehlbildungen infolge Diabetes",
+        "Ein Schwangerschaftstest auf Diabetes",
+        "Eine spezielle Insulin-Therapie für Schwangere",
+        "Verminderte Insulinproduktion beim Säugling"
+      ],
+      "richtig": 1,
+      "erklaerung": "Embryofetopathia diabetica beschreibt kardiale, neuronale oder sonstige Fehlbildungen beim Kind infolge eines mütterlichen Diabetes.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Gestationsdiabetes",
+        "Embryofetopathia"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-005-04",
+      "kapitel": "Stoffwechsel",
+      "thema": "Therapie Gestationsdiabetes",
+      "seite": 5,
+      "typ": "single_choice",
+      "frage": "Wie wird der Gestationsdiabetes therapiert?",
+      "optionen": [
+        "Ausschließlich mit oralen Antidiabetika",
+        "Regelmäßige Blutzuckerkontrollen mit Einstellung durch Diät und/oder Insulin",
+        "Sofortige Geburtseinleitung",
+        "Verzicht auf jede Therapie",
+        "Hochdosierte Glukokortikoide"
+      ],
+      "richtig": 1,
+      "erklaerung": "Therapie: Regelmäßige Blutzuckerkontrollen in der Schwangerschaft mit Einstellung durch Diät und/oder Insulin (orale Antidiabetika sind in der Schwangerschaft kontraindiziert).",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Gestationsdiabetes",
+        "Therapie"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-005-05",
+      "kapitel": "Stoffwechsel",
+      "thema": "Diabetes Typ 5",
+      "seite": 5,
+      "typ": "single_choice",
+      "frage": "Was kennzeichnet den Diabetes mellitus Typ 5?",
+      "optionen": [
+        "Schwangerschaftsdiabetes",
+        "Diabetes durch schwere Mangelernährung im Kindesalter",
+        "Autoimmuner Diabetes bei Erwachsenen",
+        "Sekundärer Diabetes durch Cushing-Syndrom",
+        "Genetisch bedingter Diabetes"
+      ],
+      "richtig": 1,
+      "erklaerung": "Diabetes Typ 5 (2025 als neuer Subtyp eingeführt): Diabetes durch schwere Mangelernährung im Kindesalter. Tritt v.a. in Entwicklungsländern auf. Vermutete Ursache: unzureichende Entwicklung der Bauchspeicheldrüse.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Diabetes Typ 5",
+        "Mangelernährung"
+      ],
+      "pruefungsrelevanz": "mittel"
+    },
+    {
+      "id": "STW-005-06",
+      "kapitel": "Stoffwechsel",
+      "thema": "Klinik Diabetes",
+      "seite": 5,
+      "typ": "richtig_falsch",
+      "frage": "Die Manifestation eines Diabetes Typ 1 verläuft schleichend, während ein Diabetes Typ 2 schnell und akut beginnt.",
+      "richtig": false,
+      "erklaerung": "FALSCH – es ist genau umgekehrt! Diabetes Typ 1 verläuft schnell (oft durch Coma diabeticum), Diabetes Typ 2 beginnt schleichend.",
+      "schwierigkeit": "leicht",
+      "tags": [
+        "Stoffwechsel",
+        "Diabetes",
+        "Klinik"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-005-07",
+      "kapitel": "Stoffwechsel",
+      "thema": "Allgemeinsymptome Diabetes",
+      "seite": 5,
+      "typ": "multiple_choice",
+      "frage": "Welche Allgemeinsymptome treten beim Diabetes mellitus auf?",
+      "optionen": [
+        "Müdigkeit, Schwäche, Leistungsminderung",
+        "Gewichtsabnahme (v.a. Typ 1) durch Kalorienverluste über Urin",
+        "Gewichtszunahme bei Typ 1",
+        "Heißhunger, Schwitzen, Kopfschmerzen",
+        "Diabetische Gesichtsröte (Rubeosis diabetica)",
+        "Pruritus (Juckreiz)"
+      ],
+      "richtig": [
+        0,
+        1,
+        3,
+        4,
+        5
+      ],
+      "erklaerung": "Allgemeinsymptome: Müdigkeit, Schwäche, GewichtsABNAHME (NICHT Zunahme, v.a. Typ 1), Heißhunger, Schwitzen, Kopfschmerzen, Rubeosis diabetica und Pruritus (Juckreiz).",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Diabetes",
+        "Symptome"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-005-08",
+      "kapitel": "Stoffwechsel",
+      "thema": "Symptome Diabetes",
+      "seite": 5,
+      "typ": "single_choice",
+      "frage": "Was bedeutet 'Rubeosis diabetica'?",
+      "optionen": [
+        "Schwellung der Hände bei Diabetes",
+        "Diabetische Gesichtsröte",
+        "Erbliche Diabetes-Form",
+        "Juckreiz im Genitalbereich",
+        "Diabetisches Koma"
+      ],
+      "richtig": 1,
+      "erklaerung": "Rubeosis diabetica = Diabetische Gesichtsröte. Ein klinisches Symptom des Diabetes mellitus (lat. ruber = rot).",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Diabetes",
+        "Rubeosis",
+        "Symptome"
+      ],
+      "pruefungsrelevanz": "mittel"
+    },
+    {
+      "id": "STW-005-09",
+      "kapitel": "Stoffwechsel",
+      "thema": "Merkhilfe Diabetes-Symptome",
+      "seite": 5,
+      "typ": "single_choice",
+      "frage": "Welche Merkhilfe wird für die Klinik/Komplikationen bei Diabetes verwendet?",
+      "optionen": [
+        "G-CATS",
+        "ABCDE",
+        "Magdas Jahr kann nichts",
+        "FAST",
+        "AVPU"
+      ],
+      "richtig": 2,
+      "erklaerung": "Merkhilfe 'Magdas Jahr kann nichts': Müdigkeit, Abgeschlagenheit, Gewichtsabnahme, Durst (Polydipsie) und Polyurie, Abwehrschwäche, Sexuelle Störungen, Juckreiz, Azetongeruch/Kußmaul-Atmung, Heißhunger, Rubeosis diabetica, KHK, AVK/pAVK, Neuropathien, Netzhautschädigung, Insuffizienz der Nieren, Coma diabeticum, Hypoglykämisches Koma, Tod, Schnelle Hilfe wichtig.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Diabetes",
+        "Merkhilfe"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-005-10",
+      "kapitel": "Stoffwechsel",
+      "thema": "Polyurie und Polydipsie",
+      "seite": 5,
+      "typ": "single_choice",
+      "frage": "Wodurch entstehen Polyurie und Polydipsie beim Diabetes mellitus?",
+      "optionen": [
+        "Durch direkten Insulinmangel im Gehirn",
+        "Durch osmotische Wirkung der Glukose",
+        "Durch verminderten Natrium-Spiegel",
+        "Durch Adrenalin-Überschuss",
+        "Durch erhöhten Kalium-Spiegel"
+      ],
+      "richtig": 1,
+      "erklaerung": "Polyurie (vermehrte Harnausscheidung) und Polydipsie (vermehrtes Trinken) entstehen durch die osmotische Wirkung der Glukose. Glukose im Urin zieht Wasser mit, was zur erhöhten Harnmenge und konsekutivem Durst führt.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Diabetes",
+        "Polyurie",
+        "Polydipsie"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-005-11",
+      "kapitel": "Stoffwechsel",
+      "thema": "Pruritus bei Diabetes",
+      "seite": 5,
+      "typ": "single_choice",
+      "frage": "Wo tritt Pruritus (Juckreiz) bei Diabetes besonders häufig auf?",
+      "optionen": [
+        "Nur an den Handinnenflächen",
+        "Lokal oder generalisiert, häufig im Genital- und Analbereich",
+        "Nur am Kopf",
+        "Ausschließlich an den Füßen",
+        "Nur am Rücken"
+      ],
+      "richtig": 1,
+      "erklaerung": "Pruritus (Juckreiz) bei Diabetes kann lokal oder generalisiert auftreten, besonders häufig im Genital- und Analbereich.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Diabetes",
+        "Pruritus"
+      ],
+      "pruefungsrelevanz": "mittel"
+    },
+    {
+      "id": "STW-005-12",
+      "kapitel": "Stoffwechsel",
+      "thema": "Diabetes Abwehrschwäche",
+      "seite": 5,
+      "typ": "multiple_choice",
+      "frage": "Welche Zeichen der Abwehrschwäche treten bei Diabetes auf?",
+      "optionen": [
+        "Häufige Harnwegsinfektionen",
+        "Hautinfektionen (z.B. Furunkulosen, Mykosen)",
+        "Häufige Hörstürze",
+        "Vermehrtes Schwitzen",
+        "Migräne"
+      ],
+      "richtig": [
+        0,
+        1
+      ],
+      "erklaerung": "Zeichen der Abwehrschwäche: häufige Harnwegsinfektionen und Hautinfektionen (z.B. Furunkulosen, Mykosen). Diabetiker sind infektanfälliger.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Diabetes",
+        "Abwehrschwäche"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-005-13",
+      "kapitel": "Stoffwechsel",
+      "thema": "Diabetes Stoffwechselentgleisung",
+      "seite": 5,
+      "typ": "multiple_choice",
+      "frage": "Welche Symptome treten bei zunehmender Entgleisung des Stoffwechsels auf?",
+      "optionen": [
+        "Übelkeit, diffuse Abdominalschmerzen (Pseudoperitonitis)",
+        "Kussmaul-Atmung mit Azetongeruch (v.a. Typ 1)",
+        "Allgemeine Verlangsamung bis hin zum Koma",
+        "Plötzliche Gewichtszunahme",
+        "Hyperthermie über 40°C"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Bei Entgleisung: Pseudoperitonitis (Übelkeit, diffuse Bauchschmerzen), Kussmaul-Atmung mit Azetongeruch (typisch Typ 1), Verlangsamung bis Koma.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Diabetes",
+        "Stoffwechselentgleisung",
+        "Kussmaul"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-005-14",
+      "kapitel": "Stoffwechsel",
+      "thema": "Elektrolythaushalt Diabetes",
+      "seite": 5,
+      "typ": "single_choice",
+      "frage": "Welche Elektrolytstörungen treten beim Diabetes mellitus auf?",
+      "optionen": [
+        "Hyperkalzämie und Hypernatriämie",
+        "Hyporeninämischer Hypoaldosteronismus mit Hyperkaliämie und Hyponatriämie",
+        "Reine Hypokaliämie",
+        "Magnesium-Überschuss",
+        "Phosphat-Mangel"
+      ],
+      "richtig": 1,
+      "erklaerung": "Beim Diabetes kommt es zu hyporeninämischem Hypoaldosteronismus mit Hyperkaliämie (erhöhtes Kalium) und Hyponatriämie (vermindertes Natrium).",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Diabetes",
+        "Elektrolyte"
+      ],
+      "pruefungsrelevanz": "mittel"
+    },
+    {
+      "id": "STW-005-15",
+      "kapitel": "Stoffwechsel",
+      "thema": "Herzfrequenzvariabilität",
+      "seite": 5,
+      "typ": "single_choice",
+      "frage": "Was bedeutet eine verminderte Herzfrequenzvariabilität (HRV) bei Diabetes?",
+      "optionen": [
+        "Verbesserte Herzfunktion",
+        "Hinweis auf diabetische Neuropathie oder kardiovaskuläre Erkrankungen",
+        "Normale altersbedingte Veränderung",
+        "Zeichen guter Stoffwechseleinstellung",
+        "Indikator für Hypoglykämie"
+      ],
+      "richtig": 1,
+      "erklaerung": "Die Herzfrequenzvariabilität (HRV) ist die autonome Funktion des Herzens, die Herzfrequenz an veränderte Bedingungen anzupassen. Eine verminderte HRV besteht u.a. bei diabetischer Neuropathie oder kardiovaskulären Erkrankungen.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Diabetes",
+        "HRV",
+        "Neuropathie"
+      ],
+      "pruefungsrelevanz": "mittel"
+    },
+    {
+      "id": "STW-005-F1",
+      "kapitel": "Stoffwechsel",
+      "thema": "Diabetes - Klinische Symptome",
+      "seite": 5,
+      "typ": "fallbeispiel",
+      "fallbeschreibung": "Eine 32-jährige Schwangere in der 28. SSW kommt zur Untersuchung. Sie hat einen erhöhten Blutdruck (155/95 mmHg), starke Eiweißausscheidung im Urin und sehr viel Fruchtwasser. Ein oGTT zeigt einen Glukosewert von 220 mg/dl.",
+      "frage": "Welche Verdachtsdiagnose und Komplikation liegen vor?",
+      "optionen": [
+        "Diabetes Typ 1 mit normaler Schwangerschaft",
+        "Gestationsdiabetes mit Präeklampsie und Polyhydramnion",
+        "Diabetes Typ 2 mit Hypotonie",
+        "Reine Polyurie ohne Diabetes",
+        "Hyperthyreose in der Schwangerschaft"
+      ],
+      "richtig": 1,
+      "erklaerung": "Klassischer Fall: Gestationsdiabetes (oGTT > 200 mg/dl) mit Präeklampsie (Hypertonie + Eiweißausscheidung) und Polyhydramnion (Erhöhung der Fruchtwassermenge). Alle drei sind typische Komplikationen für die Mutter bei Gestationsdiabetes.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Gestationsdiabetes",
+        "Präeklampsie",
+        "Fallbeispiel"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-005-F2",
+      "kapitel": "Stoffwechsel",
+      "thema": "Diabetes Erstmanifestation",
+      "seite": 5,
+      "typ": "fallbeispiel",
+      "fallbeschreibung": "Eine 16-jährige Patientin kommt mit folgenden Beschwerden: starker Durst (trinkt 5 Liter pro Tag), häufiger Harndrang, Gewichtsabnahme von 8 kg in 6 Wochen, Müdigkeit, Heißhunger und auffallender Gesichtsröte. Im Urin: Glukose ++.",
+      "frage": "Welche typischen Diabetes-Symptome zeigt die Patientin?",
+      "optionen": [
+        "Polydipsie und Polyurie",
+        "Gewichtsabnahme",
+        "Müdigkeit und Heißhunger",
+        "Rubeosis diabetica (Gesichtsröte)",
+        "Alle genannten Symptome"
+      ],
+      "richtig": 4,
+      "erklaerung": "Alle Symptome sind typisch: Polydipsie (5 L Trinken), Polyurie (häufiger Harndrang), Gewichtsabnahme (8 kg/6 Wo), Müdigkeit, Heißhunger und Rubeosis diabetica (Gesichtsröte). Glukose im Urin bestätigt die Diagnose Diabetes Typ 1.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Diabetes Typ 1",
+        "Erstmanifestation",
+        "Fallbeispiel"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-006-01",
+      "kapitel": "Stoffwechsel",
+      "thema": "Diabetes Komplikationen",
+      "seite": 6,
+      "typ": "multiple_choice",
+      "frage": "Welche akuten Komplikationen können bei Diabetes mellitus auftreten?",
+      "optionen": [
+        "Hypoglykämie → hypoglykämisches Koma",
+        "Hyperglykämie → hyperglykämisches Koma",
+        "Anaphylaktischer Schock",
+        "Schlaganfall innerhalb von Sekunden",
+        "Akute Lungenembolie"
+      ],
+      "richtig": [
+        0,
+        1
+      ],
+      "erklaerung": "Akute Komplikationen: Hypoglykämie (zu wenig Insulin/zu viel Insulin) → hypoglykämisches Koma und Hyperglykämie → hyperglykämisches Koma.",
+      "schwierigkeit": "leicht",
+      "tags": [
+        "Stoffwechsel",
+        "Diabetes",
+        "Akute Komplikationen"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-006-02",
+      "kapitel": "Stoffwechsel",
+      "thema": "Makroangiopathien",
+      "seite": 6,
+      "typ": "multiple_choice",
+      "frage": "Welche Makroangiopathien (Erkrankungen der großen Gefäße) treten bei Diabetes auf?",
+      "optionen": [
+        "KHK (Koronare Herzkrankheit) → Herzinfarkt",
+        "AVK der Hirnarterien → ischämischer Hirninfarkt",
+        "pAVK (periphere arterielle Verschlusskrankheit)",
+        "Hämorrhoiden",
+        "Krampfadern"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Makroangiopathien mit Früharteriosklerose bei Diabetes: KHK (viele Diabetiker sterben an stummen Herzinfarkten), AVK der Hirnarterien (Schlaganfall), pAVK (Beinarterien).",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Diabetes",
+        "Makroangiopathien",
+        "Arteriosklerose"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-006-03",
+      "kapitel": "Stoffwechsel",
+      "thema": "Mikroangiopathien",
+      "seite": 6,
+      "typ": "multiple_choice",
+      "frage": "Welche Mikroangiopathien sind typische Spätfolgen des Diabetes mellitus?",
+      "optionen": [
+        "Diabetische Nephropathie (Glomerulosklerose, Kimmelstiel-Wilson-Syndrom)",
+        "Diabetische Retinopathie (Netzhautschädigung)",
+        "Diabetische Neuropathie (Nervenerkrankung)",
+        "Diabetische Hepatopathie",
+        "Diabetische Splenomegalie"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Die drei klassischen Mikroangiopathien beim Diabetes: Nephropathie (Nierenschädigung), Retinopathie (Erblindungsgefahr!) und Neuropathie (Nervenschädigung).",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Diabetes",
+        "Mikroangiopathien"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-006-04",
+      "kapitel": "Stoffwechsel",
+      "thema": "Diabetische Nephropathie",
+      "seite": 6,
+      "typ": "single_choice",
+      "frage": "Wie wird die diabetische Nephropathie auch genannt?",
+      "optionen": [
+        "Glomerulosklerose / Kimmelstiel-Wilson-Syndrom",
+        "Diabetisches Nierenkarzinom",
+        "Pyelonephritis diabetica",
+        "Nephrolithiasis",
+        "Akutes Nierenversagen"
+      ],
+      "richtig": 0,
+      "erklaerung": "Die diabetische Nephropathie ist eine Glomerulosklerose, auch Kimmelstiel-Wilson-Syndrom genannt. Sie führt zur Niereninsuffizienz.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Diabetes",
+        "Nephropathie",
+        "Kimmelstiel-Wilson"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-006-05",
+      "kapitel": "Stoffwechsel",
+      "thema": "Diabetische Retinopathie",
+      "seite": 6,
+      "typ": "single_choice",
+      "frage": "Welche Augenschäden können bei diabetischer Retinopathie auftreten?",
+      "optionen": [
+        "Netzhautschädigung/-ablösung, Glaukom, Makulaödem mit Erblindungsgefahr",
+        "Nur leichte Sehverschlechterung",
+        "Grauer Star als alleinige Folge",
+        "Schielen",
+        "Doppelbilder ohne andere Folgen"
+      ],
+      "richtig": 0,
+      "erklaerung": "Diabetische Retinopathie: Netzhautschädigung/-ablösung, sekundäres Glaukom, Makulaödem – mit Erblindungsgefahr! Augenärztliche Kontrollen sind essentiell.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Diabetes",
+        "Retinopathie",
+        "Erblindung"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-006-06",
+      "kapitel": "Stoffwechsel",
+      "thema": "Sensomotorische Polyneuropathie",
+      "seite": 6,
+      "typ": "multiple_choice",
+      "frage": "Welche Symptome treten bei sensomotorischer Polyneuropathie auf?",
+      "optionen": [
+        "Parästhesien, burning feet, Sensibilitätsstörungen (distal an Füßen)",
+        "Areflexie des Achillessehnenreflexes, Abschwächung des Patellarsehnenreflexes",
+        "Periphere N. facialis-Parese, Augenmuskelparesen",
+        "Karpaltunnelsyndrom, Wadenkrämpfe",
+        "Schwindel beim Aufstehen"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Sensomotorische Polyneuropathie umfasst: Parästhesien/burning feet/Sensibilitätsstörungen (distal symmetrisch), Reflexstörungen (Achillessehne, Patellarsehne), periphere Nervenparesen, Karpaltunnelsyndrom, Wadenkrämpfe.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Diabetes",
+        "Polyneuropathie"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-006-07",
+      "kapitel": "Stoffwechsel",
+      "thema": "Autonome Polyneuropathie",
+      "seite": 6,
+      "typ": "multiple_choice",
+      "frage": "Welche Symptome zeigt eine autonome Polyneuropathie bei Diabetes?",
+      "optionen": [
+        "Ruhetachykardie, Herzfrequenzstarre, schmerzlose 'stumme' Herzinfarkte",
+        "Schluckbeschwerden, Verdauungsstörungen",
+        "Blasenentleerungsstörungen, orthostatische Hypotonie",
+        "Pupillenstörungen, Thermoregulationsstörungen",
+        "Vermehrtes Schwitzen am ganzen Körper"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Autonome Polyneuropathie beeinflusst das vegetative Nervensystem: Ruhetachykardie, Herzfrequenzstarre, stumme Herzinfarkte, Schluck-/Verdauungsstörungen, Blasenentleerungsstörungen, orthostatische Hypotonie, Pupillen- und Thermoregulationsstörungen.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Diabetes",
+        "Autonome Neuropathie"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-006-08",
+      "kapitel": "Stoffwechsel",
+      "thema": "Diabetisches Fußsyndrom",
+      "seite": 6,
+      "typ": "single_choice",
+      "frage": "Was beschreibt die Pathogenese des diabetischen Fußsyndroms?",
+      "optionen": [
+        "Bei bestehender pAVK und Neuropathie können Druckläsionen unbemerkt zu Wunden führen, die schlecht heilen und in Gangrän übergehen",
+        "Eine akute Infektion am Fuß",
+        "Eine angeborene Fußfehlstellung",
+        "Eine rein neurologische Erkrankung",
+        "Eine Folge mangelnder Schuhpflege"
+      ],
+      "richtig": 0,
+      "erklaerung": "Pathogenese: pAVK + diabetische Neuropathie → unbemerkte Druckläsionen (durch fehlende Sensibilität) → Wunden entstehen und heilen schlecht (durch Durchblutungsstörung) → Gangrän bis hin zur Amputation.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Diabetes",
+        "Fußsyndrom"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-006-09",
+      "kapitel": "Stoffwechsel",
+      "thema": "Neuropathischer Fuß",
+      "seite": 6,
+      "typ": "multiple_choice",
+      "frage": "Welche Merkmale zeigt der neuropathische diabetische Fuß?",
+      "optionen": [
+        "Warmer Fuß, trockene Haut, tastbare Fußpulse",
+        "Sensibilitätsstörungen, vermindertes Vibrationsempfinden",
+        "Kribbeln und Brennen, meist nachts",
+        "Kalter, blass-livider Fuß ohne tastbare Pulse",
+        "Komplikationen: Geschwüre und Nekrosen durch Druckstellen, Fußpilz"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "erklaerung": "Neuropathischer Fuß: WARMER Fuß, trockene Haut, TASTBARE Fußpulse, Sensibilitäts-/Vibrationsstörung, nächtliches Kribbeln/Brennen, Geschwüre durch Druck. Kalter, blass-livider Fuß ohne Pulse ist der ISCHÄMISCHE Fuß bei pAVK.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Diabetes",
+        "Fußsyndrom",
+        "Neuropathie"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-006-10",
+      "kapitel": "Stoffwechsel",
+      "thema": "Ischämischer Fuß",
+      "seite": 6,
+      "typ": "multiple_choice",
+      "frage": "Welche Merkmale zeigt der ischämische Fuß bei pAVK?",
+      "optionen": [
+        "Kühler, blass-livider Fuß",
+        "Keine tastbaren Fußpulse",
+        "Nekrosen/Gangrän mit Amputationsgefahr",
+        "Warme, gut durchblutete Haut",
+        "Erhöhte Sensibilität"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Ischämischer Fuß bei pAVK: KÜHLER, blass-livider Fuß, KEINE tastbaren Fußpulse, Komplikationen: Nekrosen/Gangrän mit Amputationsgefahr.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Diabetes",
+        "Fußsyndrom",
+        "pAVK"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-006-11",
+      "kapitel": "Stoffwechsel",
+      "thema": "DD Hypo- vs Hyperglykämisches Koma",
+      "seite": 6,
+      "typ": "single_choice",
+      "frage": "Bei welchem Blutzuckerwert spricht man von einer Hypoglykämie?",
+      "optionen": [
+        "< 100 mg/dl",
+        "< 70 mg/dl (bzw. < 45-50 mg/dl als strenge Grenze)",
+        "< 200 mg/dl",
+        "Erst < 30 mg/dl",
+        "Es gibt keinen Grenzwert"
+      ],
+      "richtig": 1,
+      "erklaerung": "Der Grenzwert für Hypoglykämie ist nicht einheitlich – Werte von < 45-50 mg/dl (strenge Grenze) oder < 70 mg/dl werden genannt.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Hypoglykämie",
+        "Grenzwerte"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-006-12",
+      "kapitel": "Stoffwechsel",
+      "thema": "DD Hypo vs Hyper",
+      "seite": 6,
+      "typ": "multiple_choice",
+      "frage": "Welche Merkmale sprechen für ein hypoglykämisches Koma?",
+      "optionen": [
+        "Plötzliche Entwicklung",
+        "Heißhunger",
+        "Blasse, feuchte Haut",
+        "Beschleunigte Atmung",
+        "Polydipsie und Polyurie"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Hypoglykämisches Koma: PLÖTZLICHE Entwicklung, Heißhunger, BLASSE/FEUCHTE Haut, BESCHLEUNIGTE Atmung. Polydipsie/Polyurie sind typisch für HYPERglykämisches Koma.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Hypoglykämie",
+        "Differenzialdiagnose"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-006-13",
+      "kapitel": "Stoffwechsel",
+      "thema": "DD ketoazidotisches Koma",
+      "seite": 6,
+      "typ": "multiple_choice",
+      "frage": "Welche Merkmale kennzeichnen das ketoazidotische Koma (Diabetes Typ 1)?",
+      "optionen": [
+        "Hyperglykämie 400-700 mg/dl",
+        "Entwicklung innerhalb 24 Stunden",
+        "Appetitlosigkeit, Polydipsie/Polyurie",
+        "Trockene Haut, weiche Augenbulbi",
+        "Kussmaul-Atmung mit Azetongeruch",
+        "Hypoglykämie unter 50 mg/dl"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "erklaerung": "Ketoazidotisches Koma (Typ 1): Hyperglykämie 400-700 mg/dl, Entwicklung in 24 Std, Appetitlosigkeit/Polydipsie/Polyurie, trockene Haut, weiche Augenbulbi (Exsikkose), Kussmaul-Atmung mit Azetongeruch.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Coma diabeticum",
+        "Ketoazidose"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-006-14",
+      "kapitel": "Stoffwechsel",
+      "thema": "DD hyperosmolares Koma",
+      "seite": 6,
+      "typ": "single_choice",
+      "frage": "Wodurch unterscheidet sich das hyperosmolare Koma (Typ 2) vom ketoazidotischen Koma (Typ 1)?",
+      "optionen": [
+        "Niedrigerer Blutzucker beim hyperosmolaren Koma",
+        "Hyperglykämie > 600 mg/dl, schleichende Entwicklung, NORMALE Atmung (keine Kussmaul-Atmung), ohne Ketoazidose",
+        "Schnellere Entwicklung",
+        "Ketoazidose nur beim hyperosmolaren Koma",
+        "Plötzlicher Beginn wie beim hypoglykämischen Koma"
+      ],
+      "richtig": 1,
+      "erklaerung": "Hyperosmolares Koma (Typ 2): Hyperglykämie > 600 mg/dl, SCHLEICHENDE Entwicklung, NORMALE Atmung (Insulinproduktion reicht aus, um Ketoazidose zu verhindern). Daher KEINE Kussmaul-Atmung und KEIN Azetongeruch.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Coma diabeticum",
+        "Hyperosmolar"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-006-15",
+      "kapitel": "Stoffwechsel",
+      "thema": "Babinski-Reflex Hypoglykämie",
+      "seite": 6,
+      "typ": "richtig_falsch",
+      "frage": "Bei einem hypoglykämischen Koma kann der Babinski-Reflex positiv sein.",
+      "richtig": true,
+      "erklaerung": "Richtig – beim hypoglykämischen Koma kann der Babinski-Reflex positiv sein, zusammen mit Reizbarkeit, Unruhe und Tremor.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Hypoglykämie",
+        "Babinski"
+      ],
+      "pruefungsrelevanz": "mittel"
+    },
+    {
+      "id": "STW-006-F1",
+      "kapitel": "Stoffwechsel",
+      "thema": "Diabetisches Fußsyndrom",
+      "seite": 6,
+      "typ": "fallbeispiel",
+      "fallbeschreibung": "Ein 68-jähriger Diabetiker (Typ 2, seit 15 Jahren) hat eine schlecht heilende Wunde am Fußballen. Der Fuß ist warm, die Haut trocken, die Fußpulse sind tastbar. Er bemerkte die Wunde erst nach 3 Wochen, da er kein Schmerzempfinden hat.",
+      "frage": "Welche Diagnose und Pathogenese liegen vor?",
+      "optionen": [
+        "Ischämischer Fuß bei pAVK (kühl, keine Pulse)",
+        "Neuropathischer diabetischer Fuß (warm, trocken, Pulse tastbar, fehlende Sensibilität)",
+        "Erysipel mit Eiterung",
+        "Diabetische Gicht",
+        "Rheumatischer Fuß"
+      ],
+      "richtig": 1,
+      "erklaerung": "Klassischer neuropathischer diabetischer Fuß: WARM, trockene Haut, TASTBARE Pulse, fehlende Sensibilität (deshalb Wunde unbemerkt) und schlechte Heilung. Beim ISCHÄMISCHEN Fuß wäre er KÜHL ohne Pulse.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Diabetisches Fußsyndrom",
+        "Fallbeispiel"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-006-F2",
+      "kapitel": "Stoffwechsel",
+      "thema": "DD Koma",
+      "seite": 6,
+      "typ": "fallbeispiel",
+      "fallbeschreibung": "Ein 19-jähriger Typ-1-Diabetiker wird bewusstlos aufgefunden. Befunde: Blutzucker 580 mg/dl, tiefe schnelle Atmung, Azetongeruch, trockene Haut, weiche Augenbulbi, Bauchschmerzen.",
+      "frage": "Welche Verdachtsdiagnose liegt vor?",
+      "optionen": [
+        "Hypoglykämisches Koma",
+        "Ketoazidotisches Coma diabeticum (Typ 1)",
+        "Hyperosmolares Koma (Typ 2)",
+        "Septischer Schock",
+        "Subarachnoidalblutung"
+      ],
+      "richtig": 1,
+      "erklaerung": "Klassisches ketoazidotisches Coma diabeticum: Typ-1-Diabetiker, Hyperglykämie 400-700 mg/dl, Kussmaul-Atmung mit Azetongeruch, Exsikkose (trockene Haut, weiche Bulbi), Pseudoperitonitis (Bauchschmerzen).",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Coma diabeticum",
+        "Ketoazidose",
+        "Fallbeispiel"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-006-F3",
+      "kapitel": "Stoffwechsel",
+      "thema": "Diabetische Spätfolgen",
+      "seite": 6,
+      "typ": "fallbeispiel",
+      "fallbeschreibung": "Ein 70-jähriger Typ-2-Diabetiker (seit 20 Jahren) zeigt: Sehverschlechterung, Eiweißausscheidung im Urin (Proteinurie), Kribbeln/Brennen in beiden Füßen, schlecht heilende Wunde am Großzeh.",
+      "frage": "Welche typischen Diabetes-Spätkomplikationen liegen vor?",
+      "optionen": [
+        "Nur Retinopathie",
+        "Retinopathie + Nephropathie + Polyneuropathie + diabetisches Fußsyndrom",
+        "Nur Polyneuropathie",
+        "Akute Pankreatitis",
+        "Reine Niereninsuffizienz"
+      ],
+      "richtig": 1,
+      "erklaerung": "Klassische Trias der Mikroangiopathien plus Fußsyndrom: Retinopathie (Sehverschlechterung), Nephropathie (Proteinurie), Polyneuropathie (Kribbeln/Brennen) und diabetisches Fußsyndrom (schlecht heilende Wunde).",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Diabetes",
+        "Mikroangiopathien",
+        "Fallbeispiel"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-007-01",
+      "kapitel": "Stoffwechsel",
+      "thema": "Hypoglykämie - Definition",
+      "seite": 7,
+      "typ": "single_choice",
+      "frage": "Welcher Begriff ist ein Synonym für Hypoglykämie?",
+      "optionen": [
+        "Coma diabeticum",
+        "Hypoglykämischer Schock (wird so jedoch nicht mehr bezeichnet)",
+        "Diabetische Ketoazidose",
+        "Insulinom",
+        "Hyperosmolares Syndrom"
+      ],
+      "richtig": 1,
+      "erklaerung": "Hypoglykämischer Schock war ein Synonym, wird jedoch nicht mehr verwendet, da es kein richtiger Schock ist.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Hypoglykämie",
+        "Definition"
+      ],
+      "pruefungsrelevanz": "mittel"
+    },
+    {
+      "id": "STW-007-02",
+      "kapitel": "Stoffwechsel",
+      "thema": "Ursachen Hypoglykämie",
+      "seite": 7,
+      "typ": "multiple_choice",
+      "frage": "Welche Ursachen können bei Diabetikern eine Hypoglykämie auslösen?",
+      "optionen": [
+        "Überdosierung blutzuckersenkender Medikamente",
+        "Essen nach der Medikamenteneinnahme vergessen",
+        "In der Frühphase Diabetes Typ 2 reaktiv (durch erhöhte Insulinsekretion)",
+        "Erhöhter Sportkonsum nach Insulingabe",
+        "Hypothyreose"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Hypoglykämie bei Diabetes: Überdosierung blutzuckersenkender Medikamente, Vergessen des Essens nach der Medikamenteneinnahme, in der Frühphase Typ 2 reaktiv durch erhöhte Insulinsekretion.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Hypoglykämie",
+        "Ursachen"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-007-03",
+      "kapitel": "Stoffwechsel",
+      "thema": "Ursachen Hypoglykämie (allgemein)",
+      "seite": 7,
+      "typ": "multiple_choice",
+      "frage": "Welche allgemeinen Ursachen können eine Hypoglykämie verursachen?",
+      "optionen": [
+        "Verminderte Glukoseproduktion (z.B. schwere Lebererkrankungen)",
+        "Tumoren: Insulinom, paraneoplastische Syndrome (z.B. Bronchialkarzinom)",
+        "Magenentleerungsstörungen, Dumping-Syndrom",
+        "Nebenniereninsuffizienz, Hypophysenvorderlappeninsuffizienz, Hypothyreose",
+        "Hyperthyreose"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Allgemeine Ursachen: verminderte Glukoseproduktion (Leber), Tumoren (Insulinom, paraneoplastisch), Magenentleerungsstörungen/Dumping-Syndrom, hormonelle Störungen (Nebennieren-, Hypophysen-, Schilddrüsenunterfunktion).",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Hypoglykämie",
+        "Ursachen"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-007-04",
+      "kapitel": "Stoffwechsel",
+      "thema": "Klinik Hypoglykämie",
+      "seite": 7,
+      "typ": "multiple_choice",
+      "frage": "Welche vegetativen Symptome treten bei Hypoglykämie auf?",
+      "optionen": [
+        "Unruhe, Angst, Kaltschweißigkeit",
+        "Mydriasis (Pupillenerweiterung)",
+        "Zittern (Tremor)",
+        "Tachykardie, Palpitationen, Tachypnoe",
+        "Schwäche, Heißhunger",
+        "Bradykardie, Hypotonie"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "erklaerung": "Vegetative Symptome bei Hypoglykämie: Unruhe, Angst, Kaltschweißigkeit, Mydriasis, Zittern (Tremor), Tachykardie, Palpitationen, Tachypnoe, Schwäche, Heißhunger. NICHT Bradykardie/Hypotonie.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Hypoglykämie",
+        "Klinik"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-007-05",
+      "kapitel": "Stoffwechsel",
+      "thema": "Whipple-Trias",
+      "seite": 7,
+      "typ": "single_choice",
+      "frage": "Was ist die Whipple-Trias?",
+      "optionen": [
+        "Drei Symptome des Diabetes Typ 1",
+        "Beweisend für eine Hypoglykämie: hypoglykämische Symptome + niedriger Blutzuckerspiegel + Besserung nach Anhebung des Blutzuckers",
+        "Drei Komplikationen des Diabetes",
+        "Drei Insulinarten",
+        "Diagnostische Trias bei Cushing-Syndrom"
+      ],
+      "richtig": 1,
+      "erklaerung": "Whipple-Trias (beweisend für Hypoglykämie): (1) hypoglykämische Symptome, (2) niedriger Blutzuckerspiegel, (3) Besserung der Symptome durch Anhebung des Blutzuckerspiegels.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Hypoglykämie",
+        "Whipple-Trias"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-007-06",
+      "kapitel": "Stoffwechsel",
+      "thema": "Neurologische Hypoglykämie-Symptome",
+      "seite": 7,
+      "typ": "multiple_choice",
+      "frage": "Welche neurologischen Symptome können bei Hypoglykämie auftreten?",
+      "optionen": [
+        "Paresen, Parästhesien (abnorme Empfindungen)",
+        "Ataxie (Bewegungskoordinationsstörung)",
+        "Epileptische Anfälle",
+        "Sprach- und Koordinationsstörungen",
+        "Verbesserte Konzentration"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Neurologische Symptome bei Hypoglykämie: Paresen (Teillähmungen), Parästhesien (abnorme Empfindungen), Ataxie (Bewegungskoordinationsstörung), epileptische Anfälle, Sprach- und Koordinationsstörungen. Differenzialdiagnose: Schlaganfall!",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Hypoglykämie",
+        "Neurologie"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-007-07",
+      "kapitel": "Stoffwechsel",
+      "thema": "Notfallmaßnahmen Hypoglykämie",
+      "seite": 7,
+      "typ": "single_choice",
+      "frage": "Was ist die richtige Notfallmaßnahme bei einem Hypoglykämie-Patienten mit ERHALTENEM Bewusstsein?",
+      "optionen": [
+        "Insulin spritzen",
+        "5-20 g Glukose oral (Traubenzucker, Fruchtsaft, flüssige Zuckerlösung)",
+        "Sofortige Reanimation",
+        "Adrenalin i.v.",
+        "Stabile Seitenlage und warten"
+      ],
+      "richtig": 1,
+      "erklaerung": "Bei erhaltenem Bewusstsein: 5-20 g Glukose ORAL geben (Traubenzucker, Fruchtsaft, flüssige Zuckerlösung wie Jubin). NIEMALS Insulin geben - das würde den Zustand verschlimmern!",
+      "schwierigkeit": "leicht",
+      "tags": [
+        "Stoffwechsel",
+        "Hypoglykämie",
+        "Notfall"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-007-08",
+      "kapitel": "Stoffwechsel",
+      "thema": "Notfallmaßnahmen Bewusstlosigkeit",
+      "seite": 7,
+      "typ": "single_choice",
+      "frage": "Welche Maßnahme ist bei BEWUSSTLOSEM Hypoglykämie-Patienten richtig?",
+      "optionen": [
+        "Insulin spritzen",
+        "Stabile Seitenlage, Glukoselösung i.v., NIEMALS Insulin!",
+        "Traubenzucker in den Mund stecken",
+        "Reanimation auch ohne Atemstillstand",
+        "Patient flach lagern"
+      ],
+      "richtig": 1,
+      "erklaerung": "Bei Bewusstlosigkeit: stabile Seitenlage, Glukoselösung i.v. (durch Notarzt). Als Heilpraktiker NIEMALS Insulin geben! Alternative: Glukagon-Notfallmedikament (z.B. GlucaGen HypoKit) s.c./i.m. oder Baqsimi als Nasenspray.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Hypoglykämie",
+        "Notfall",
+        "Heilpraktiker"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-007-09",
+      "kapitel": "Stoffwechsel",
+      "thema": "Glukagon Notfall",
+      "seite": 7,
+      "typ": "single_choice",
+      "frage": "Welches Notfallmedikament kann bei Hypoglykämie als Injektion oder Nasenspray verabreicht werden?",
+      "optionen": [
+        "Insulin",
+        "Glukagon (GlucaGen HypoKit s.c./i.m. oder Baqsimi Nasenspray)",
+        "Adrenalin",
+        "Atropin",
+        "Naloxon"
+      ],
+      "richtig": 1,
+      "erklaerung": "Glukagon ist der Insulin-Gegenspieler. Bei Hypoglykämie: GlucaGen HypoKit als s.c./i.m. Injektion oder Baqsimi als Nasenspray. Verabreichung, wenn der Patient es als Notfallmedikament besitzt.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Hypoglykämie",
+        "Glukagon",
+        "Notfall"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-007-10",
+      "kapitel": "Stoffwechsel",
+      "thema": "Hyperglykämisches Koma",
+      "seite": 7,
+      "typ": "single_choice",
+      "frage": "Wie häufig liegt beim 'Coma diabeticum' eine absolute Bewusstlosigkeit vor?",
+      "optionen": [
+        "Immer (100 %)",
+        "Nur bei ca. 10 %",
+        "Bei 50 %",
+        "Bei 90 %",
+        "Nie"
+      ],
+      "richtig": 1,
+      "erklaerung": "Der Begriff 'Koma' ist irreführend: nur bei ca. 10 % besteht eine absolute Bewusstlosigkeit. Trotzdem ist es ein medizinischer Notfall.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Coma diabeticum",
+        "Bewusstlosigkeit"
+      ],
+      "pruefungsrelevanz": "mittel"
+    },
+    {
+      "id": "STW-007-11",
+      "kapitel": "Stoffwechsel",
+      "thema": "Erstmanifestation Diabetes",
+      "seite": 7,
+      "typ": "richtig_falsch",
+      "frage": "Die Erstmanifestation eines Diabetes mellitus ist oft ein hyperglykämisches Koma, häufig infolge einer Infektion.",
+      "richtig": true,
+      "erklaerung": "Richtig – die Erstmanifestation eines (bisher unerkannten) Diabetes mellitus ist oft ein hyperglykämisches Koma, häufig durch eine Infektion ausgelöst.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Coma diabeticum",
+        "Erstmanifestation"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-007-12",
+      "kapitel": "Stoffwechsel",
+      "thema": "Ätiologie Coma diabeticum",
+      "seite": 7,
+      "typ": "multiple_choice",
+      "frage": "Welche Fehler bei der Insulinzufuhr können ein hyperglykämisches Koma auslösen?",
+      "optionen": [
+        "Vergessene oder fehlerhafte Insulinzufuhr",
+        "Erhöhter Insulinbedarf (Fieber, akute Erkrankung, Sepsis, OP, Schwangerschaft, Diätfehler)",
+        "Ausfall der Insulinpumpe",
+        "Zu niedrige Insulindosis bei normaler Aktivität",
+        "Bewusst zu hohe Insulindosis"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Ursachen: vergessene/fehlerhafte Insulinzufuhr, erhöhter Insulinbedarf (Fieber, Sepsis, OP, Schwangerschaft, Diätfehler), Ausfall der Insulinpumpe, zu niedrige Dosis. Bewusst zu hohe Dosis würde Hypoglykämie verursachen.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Coma diabeticum",
+        "Ätiologie"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-007-F1",
+      "kapitel": "Stoffwechsel",
+      "thema": "Hypoglykämie - Notfall",
+      "seite": 7,
+      "typ": "fallbeispiel",
+      "fallbeschreibung": "Ein 45-jähriger Diabetiker (Typ 2) hat sich vor 30 Min sein Insulin gespritzt, dann aber das Mittagessen ausfallen lassen. Jetzt zeigt er: starke Unruhe, Zittern, Kaltschweißigkeit, Heißhunger, ist aber ansprechbar.",
+      "frage": "Welche Sofortmaßnahme ergreifen Sie als Heilpraktiker?",
+      "optionen": [
+        "Sofort Insulin geben",
+        "5-20 g Glukose oral (Traubenzucker oder Fruchtsaft)",
+        "Notarzt rufen und nichts tun",
+        "Stabile Seitenlage",
+        "Reanimation"
+      ],
+      "richtig": 1,
+      "erklaerung": "Klassische Hypoglykämie (vegetative Symptome). Bei erhaltenem Bewusstsein: 5-20 g Glukose oral (Traubenzucker, Fruchtsaft). NIEMALS Insulin! Bei Heilpraktiker auch Notruf veranlassen.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Hypoglykämie",
+        "Notfall",
+        "Fallbeispiel"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-007-F2",
+      "kapitel": "Stoffwechsel",
+      "thema": "Whipple-Trias",
+      "seite": 7,
+      "typ": "fallbeispiel",
+      "fallbeschreibung": "Eine 60-jährige Patientin kommt mit unklaren Bewusstseinsstörungen. Sie hat seit Wochen wiederholt Heißhunger, Zittern und Verwirrtheit. Sie ist keine Diabetikerin. Blutzuckermessung jetzt: 38 mg/dl. Nach Glukosegabe i.v. bessern sich die Symptome sofort.",
+      "frage": "Welcher diagnostische Befund liegt hier vor und was ist die wahrscheinlichste Ursache?",
+      "optionen": [
+        "Whipple-Trias erfüllt – Verdacht auf Insulinom",
+        "Hyperthyreose",
+        "Normaler Befund",
+        "Hyperglykämisches Koma",
+        "Reine Hysterie"
+      ],
+      "richtig": 0,
+      "erklaerung": "Whipple-Trias erfüllt: (1) hypoglykämische Symptome, (2) niedriger BZ (38 mg/dl), (3) Besserung nach Glukose. Bei einer Nicht-Diabetikerin mit rezidivierenden Hypoglykämien: Verdacht auf Insulinom (insulinproduzierender Tumor).",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Hypoglykämie",
+        "Insulinom",
+        "Whipple-Trias",
+        "Fallbeispiel"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-008-01",
+      "kapitel": "Stoffwechsel",
+      "thema": "Klinik Coma diabeticum",
+      "seite": 8,
+      "typ": "single_choice",
+      "frage": "Wie ist der Beginn beim ketoazidotischen Koma im Vergleich zum hyperosmolaren Koma?",
+      "optionen": [
+        "Ketoazidotisch schleichend, hyperosmolar zügig (< 24 Stunden)",
+        "Ketoazidotisch zügig (< 24 Stunden), hyperosmolar schleichend",
+        "Beide zügig",
+        "Beide schleichend",
+        "Es gibt keinen zeitlichen Unterschied"
+      ],
+      "richtig": 1,
+      "erklaerung": "Beim ketoazidotischen Koma zügiger Beginn (< 24 Stunden), beim hyperosmolaren Koma schleichender Verlauf.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Coma diabeticum",
+        "Klinik"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-008-02",
+      "kapitel": "Stoffwechsel",
+      "thema": "Ketoazidotisches Koma",
+      "seite": 8,
+      "typ": "multiple_choice",
+      "frage": "Welche Symptome treten beim ketoazidotischen Koma (Diabetes Typ 1) auf?",
+      "optionen": [
+        "Hyperglykämie (BZ i.d.R. 400-700 mg/dl)",
+        "Bewusstseinsstörungen/Koma durch Energiemangel der Zellen",
+        "Exsikkose, Hypovolämie, Elektrolytverluste durch osmotische Diurese",
+        "Polyurie → Oligurie/Anurie bei akutem Nierenversagen",
+        "Kussmaul-Atmung mit Azetongeruch",
+        "Bauchschmerzen (Pseudoperitonitis diabetica)",
+        "Normaler Blutzuckerspiegel"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "erklaerung": "Ketoazidotisches Koma (Typ 1): Hyperglykämie 400-700 mg/dl, Bewusstseinsstörung, Exsikkose/Hypovolämie/Elektrolytverlust (osmotische Diurese), Polyurie→Anurie, Kussmaul-Atmung mit Azetongeruch, Pseudoperitonitis.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Coma diabeticum",
+        "Ketoazidose"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-008-03",
+      "kapitel": "Stoffwechsel",
+      "thema": "Pathomechanismus Ketoazidose",
+      "seite": 8,
+      "typ": "single_choice",
+      "frage": "Wie entstehen Ketonkörper bei der diabetischen Ketoazidose?",
+      "optionen": [
+        "Direkt aus Insulinmangel",
+        "Durch Glukoseüberschuss in der Leber",
+        "Durch Fettabbau (Lipolyse) → Freisetzung freier Fettsäuren → Abbau in der Leber zu sauren Ketonkörpern",
+        "Durch Eiweißzerstörung in der Muskulatur",
+        "Durch erhöhte Kohlenhydrataufnahme"
+      ],
+      "richtig": 2,
+      "erklaerung": "Pathomechanismus: Glukosemangel in Zellen → Energiegewinnung durch Fettabbau (Lipolyse) → Freisetzung freier Fettsäuren → Leber baut sie zu sauren Ketonkörpern ab → Azidose.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Ketoazidose",
+        "Pathomechanismus"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-008-04",
+      "kapitel": "Stoffwechsel",
+      "thema": "Hyperosmolares Koma",
+      "seite": 8,
+      "typ": "single_choice",
+      "frage": "Was sind die Hauptmerkmale des hyperosmolaren Komas (Diabetes Typ 2)?",
+      "optionen": [
+        "Hyperglykämie 600-1200 mg/dl, klinisches Bild wie ketoazidotisches Koma, aber OHNE Ketoazidose und OHNE Kussmaul-Atmung",
+        "Hypoglykämie < 50 mg/dl mit Schweißausbruch",
+        "Normaler Blutzucker mit Bewusstseinsstörung",
+        "Hyperglykämie mit ausgeprägter Kussmaul-Atmung",
+        "Niedriger Blutzucker mit Azetongeruch"
+      ],
+      "richtig": 0,
+      "erklaerung": "Hyperosmolares Koma (Typ 2): Hyperglykämie 600-1200 mg/dl, Klinik wie ketoazidotisches Koma, jedoch OHNE Ketoazidose und OHNE Kussmaul-Atmung, da die Insulinproduktion noch ausreicht, um Ketoazidose zu verhindern.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Coma diabeticum",
+        "Hyperosmolar"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-008-05",
+      "kapitel": "Stoffwechsel",
+      "thema": "Notfallmaßnahmen Coma diabeticum",
+      "seite": 8,
+      "typ": "multiple_choice",
+      "frage": "Welche Notfallmaßnahmen sind beim Coma diabeticum durchzuführen?",
+      "optionen": [
+        "Notruf, regelmäßige Vitalzeichenkontrolle, ggf. Reanimation",
+        "Venösen Zugang legen, Elektrolyt- und Flüssigkeitssubstitution (z.B. 500 ml 0,9% NaCl)",
+        "Ärztliche Therapie: Insulinzufuhr, intensivmedizinische Überwachung",
+        "Sofort Glukose i.v. geben",
+        "Patient wach halten und bewegen lassen"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Notfallmaßnahmen: Notruf, Vitalzeichenkontrolle, ggf. Reanimation, venöser Zugang, NaCl-Substitution, ärztliche Insulintherapie. NIEMALS Glukose i.v. geben - das ist bei Hypoglykämie!",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Coma diabeticum",
+        "Notfall"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-008-06",
+      "kapitel": "Stoffwechsel",
+      "thema": "Diagnostik Blutwerte",
+      "seite": 8,
+      "typ": "single_choice",
+      "frage": "Welcher Nüchternblutzucker-Wert spricht für Diabetes mellitus?",
+      "optionen": [
+        "< 100 mg/dl",
+        "100-125 mg/dl",
+        "≥ 126 mg/dl",
+        "≥ 200 mg/dl",
+        "Erst > 300 mg/dl"
+      ],
+      "richtig": 2,
+      "erklaerung": "Nüchternblutzucker: < 100 mg/dl physiologisch, 100-125 mg/dl Prädiabetes, ≥ 126 mg/dl Diabetes mellitus.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Diabetes",
+        "Diagnostik",
+        "Nüchternblutzucker"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-008-07",
+      "kapitel": "Stoffwechsel",
+      "thema": "Gelegenheitsblutzucker",
+      "seite": 8,
+      "typ": "single_choice",
+      "frage": "Welcher Gelegenheitsblutzucker bzw. oGTT-Wert spricht für Diabetes mellitus?",
+      "optionen": [
+        "< 100 mg/dl",
+        "< 140 mg/dl",
+        "140-199 mg/dl",
+        "≥ 200 mg/dl",
+        "≥ 100 mg/dl"
+      ],
+      "richtig": 3,
+      "erklaerung": "Gelegenheitsmessung/oGTT: < 140 mg/dl physiologisch, 140-199 mg/dl Prädiabetes, ≥ 200 mg/dl Diabetes mellitus.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Diabetes",
+        "oGTT",
+        "Diagnostik"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-008-08",
+      "kapitel": "Stoffwechsel",
+      "thema": "HbA1c",
+      "seite": 8,
+      "typ": "single_choice",
+      "frage": "Was zeigt der HbA1c-Wert an und welcher Wert spricht für Diabetes?",
+      "optionen": [
+        "Akuten Blutzucker, ≥ 5,7 %",
+        "Blutzuckergedächtnis der letzten 2-3 Monate, ≥ 6,5 %",
+        "Insulinspiegel, ≥ 7 %",
+        "Glukose-Toleranz, ≥ 8 %",
+        "Cholesterinspiegel, ≥ 5 %"
+      ],
+      "richtig": 1,
+      "erklaerung": "HbA1c = Blutzuckergedächtnis der letzten 2-3 Monate. Werte: < 5,7 % physiologisch, 5,7-6,4 % Prädiabetes, ≥ 6,5 % Diabetes mellitus.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Diabetes",
+        "HbA1c",
+        "Diagnostik"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-008-09",
+      "kapitel": "Stoffwechsel",
+      "thema": "oGTT Durchführung",
+      "seite": 8,
+      "typ": "multiple_choice",
+      "frage": "Wie wird ein oGTT (oraler Glukosetoleranztest) durchgeführt?",
+      "optionen": [
+        "Messung Nüchternblutzucker (nach mindestens 10 Std. Nahrungskarenz)",
+        "Zügiges Trinken einer Testlösung mit 75 g Glukose",
+        "Erneute Blutzuckermessung nach 2 Stunden (evtl. zusätzlich nach 1 Std.)",
+        "Während des Tests darf gegessen werden",
+        "Nur bei manifestem Diabetes anwendbar"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "oGTT-Ablauf: 1) Nüchternblutzucker nach 10 Std. Nahrungskarenz, 2) 75 g Glukose trinken, 3) Messung nach 2 Std. (evtl. nach 1 Std.). ACHTUNG: NICHT bei manifestem Diabetes durchführen!",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "oGTT",
+        "Diagnostik"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-008-10",
+      "kapitel": "Stoffwechsel",
+      "thema": "Kontraindikation oGTT",
+      "seite": 8,
+      "typ": "richtig_falsch",
+      "frage": "Der oGTT darf bei manifestem Diabetes mellitus nicht durchgeführt werden.",
+      "richtig": true,
+      "erklaerung": "Richtig – CAVE: oGTT darf bei manifestem Diabetes mellitus NICHT durchgeführt werden! Bei bekanntem Diabetes wäre dies gefährlich (hyperglykämische Entgleisung). Nüchternwert beachten!",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "oGTT",
+        "Kontraindikation"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-008-11",
+      "kapitel": "Stoffwechsel",
+      "thema": "Typ-1-Diabetes Diagnostik",
+      "seite": 8,
+      "typ": "multiple_choice",
+      "frage": "Welche zusätzlichen Blutwerte sind bei Typ-1-Diabetes typisch?",
+      "optionen": [
+        "C-Peptide vermindert",
+        "Autoantikörper erhöht",
+        "C-Peptide erhöht",
+        "Cortisol erhöht",
+        "Schilddrüsenhormone vermindert"
+      ],
+      "richtig": [
+        0,
+        1
+      ],
+      "erklaerung": "Typ-1-Diabetes: C-Peptide ↓ (Maß für körpereigene Insulinproduktion) und Autoantikörper ↑ (Beweis für Autoimmungeschehen). Im Gegensatz zum Typ 2!",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Diabetes Typ 1",
+        "C-Peptide",
+        "Diagnostik"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-008-12",
+      "kapitel": "Stoffwechsel",
+      "thema": "Urinwerte Diabetes",
+      "seite": 8,
+      "typ": "multiple_choice",
+      "frage": "Welche Urinwerte sind bei Diabetes mellitus relevant?",
+      "optionen": [
+        "Glukosurie (Nierenschwelle liegt bei 160-180 mg/dl, in Schwangerschaft ggf. niedriger)",
+        "Ketonurie",
+        "(Mikro-)Albuminurie",
+        "Hämaturie",
+        "Bakteriurie"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Urinwerte bei Diabetes: Glukosurie (ab Nierenschwelle 160-180 mg/dl, in SS niedriger), Ketonurie (bei Ketoazidose), (Mikro-)Albuminurie (Hinweis auf Nephropathie).",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Diabetes",
+        "Urinwerte"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-008-13",
+      "kapitel": "Stoffwechsel",
+      "thema": "Diabetische Untersuchungen",
+      "seite": 8,
+      "typ": "multiple_choice",
+      "frage": "Welche regelmäßigen Untersuchungen sind beim Diabetiker wichtig?",
+      "optionen": [
+        "Neurologische Untersuchung (v.a. untere Extremitäten)",
+        "Gefäßuntersuchungen (Inspektion, Pulspalpation, Gehstrecke nach Fontaine, Doppler)",
+        "HNO-ärztliche Untersuchung (Innenohrschwerhörigkeit)",
+        "Augenärztliche Untersuchung (Retinopathie!)",
+        "Kardiologische Untersuchung",
+        "Nur internistische Untersuchung"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "erklaerung": "Vollständige Diabetes-Untersuchungen umfassen: neurologisch, vaskulär (Gefäße), HNO, Augen (wegen Retinopathie!), kardiologisch (EKG, Echo). Eine alleinige internistische Untersuchung reicht nicht.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Diabetes",
+        "Untersuchungen"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-008-14",
+      "kapitel": "Stoffwechsel",
+      "thema": "Sensibilitätsprüfung",
+      "seite": 8,
+      "typ": "single_choice",
+      "frage": "Welche Befunde sind bei neurologischer Untersuchung des Diabetikers typisch?",
+      "optionen": [
+        "Symmetrische strumpfförmige Sensibilitätsstörungen (Sensibilitätsprüfung, Vibrationsempfinden)",
+        "Asymmetrische Lähmungen",
+        "Hyperreflexie",
+        "Normale Reflexe in allen Lebensaltern",
+        "Tremor an oberen Extremitäten"
+      ],
+      "richtig": 0,
+      "erklaerung": "Bei diabetischer Polyneuropathie: symmetrische STRUMPFFÖRMIGE Sensibilitätsstörungen (wie Strumpf an den Unterschenkeln), Vibrationsempfinden vermindert, Eigenreflexe v.a. distal abgeschwächt (z.B. Achillessehnenreflex).",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Diabetes",
+        "Polyneuropathie"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-008-F1",
+      "kapitel": "Stoffwechsel",
+      "thema": "Diabetes Diagnostik",
+      "seite": 8,
+      "typ": "fallbeispiel",
+      "fallbeschreibung": "Bei einer 60-jährigen Patientin werden folgende Werte gemessen: Nüchternblutzucker 132 mg/dl (zweimal), HbA1c 7,2 %, Gelegenheits-BZ 230 mg/dl.",
+      "frage": "Welche Diagnose stellen Sie?",
+      "optionen": [
+        "Physiologische Werte",
+        "Prädiabetes",
+        "Diabetes mellitus",
+        "Hypoglykämie",
+        "Insulinom"
+      ],
+      "richtig": 2,
+      "erklaerung": "Diabetes mellitus liegt vor: Nüchtern ≥ 126 mg/dl (132), HbA1c ≥ 6,5 % (7,2 %), Gelegenheits-BZ ≥ 200 mg/dl (230). Alle 3 Kriterien erfüllt!",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Diabetes",
+        "Diagnostik",
+        "Fallbeispiel"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-008-F2",
+      "kapitel": "Stoffwechsel",
+      "thema": "Typ 1 vs Typ 2 Diagnose",
+      "seite": 8,
+      "typ": "fallbeispiel",
+      "fallbeschreibung": "Ein 22-jähriger schlanker Patient (BMI 21) mit neu diagnostiziertem Diabetes mellitus. Laborwerte: C-Peptide stark vermindert, GAD-Autoantikörper positiv, HbA1c 9,5 %, Ketone im Urin positiv.",
+      "frage": "Welcher Diabetes-Typ liegt vor?",
+      "optionen": [
+        "Diabetes Typ 1 (asthenisch, C-Peptide ↓, Autoantikörper +)",
+        "Diabetes Typ 2 (jung, schlank)",
+        "Gestationsdiabetes",
+        "MODY-Diabetes",
+        "Pankreas-Diabetes (Typ 3)"
+      ],
+      "richtig": 0,
+      "erklaerung": "Klassischer Diabetes Typ 1: junger schlanker Patient, C-Peptide ↓ (kaum Insulinproduktion), Autoantikörper positiv (autoimmun), Ketonurie (Tendenz zur Ketoazidose).",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Diabetes Typ 1",
+        "Diagnostik",
+        "Fallbeispiel"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-009-01",
+      "kapitel": "Stoffwechsel",
+      "thema": "Therapie Patientenschulung",
+      "seite": 9,
+      "typ": "multiple_choice",
+      "frage": "Was beinhaltet die Patientenschulung bei Diabetes?",
+      "optionen": [
+        "Aufklärung über Krankheit, Risiken und Therapieverlauf",
+        "Anleitung zu regelmäßigen Eigenkontrollen des Blutzuckers",
+        "Anleitung zur Medikamenteneinnahme",
+        "Ernährungsschulung, Motivation, Lebensstiländerung",
+        "Ausschließlich Insulin-Schulung",
+        "Nur Verhalten im Notfall"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Patientenschulung umfasst: Aufklärung über Krankheit/Risiken/Therapie, Eigenkontrolle BZ, Medikamenteneinnahme, Ernährung/Motivation/Lebensstiländerung. Ganzheitlicher Ansatz!",
+      "schwierigkeit": "leicht",
+      "tags": [
+        "Stoffwechsel",
+        "Diabetes",
+        "Therapie",
+        "Patientenschulung"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-009-02",
+      "kapitel": "Stoffwechsel",
+      "thema": "Ernährung Diabetes",
+      "seite": 9,
+      "typ": "single_choice",
+      "frage": "Welche Nährstoffverteilung wird beim Diabetes empfohlen?",
+      "optionen": [
+        "80 % Kohlenhydrate, 10 % Fett, 10 % Eiweiß",
+        "50-55 % Kohlenhydrate (ballaststoffreich), 25-30 % Fett, 10-20 % Eiweiß",
+        "20 % Kohlenhydrate, 60 % Fett, 20 % Eiweiß",
+        "100 % Kohlenhydrate",
+        "Gleichverteilung 33/33/33"
+      ],
+      "richtig": 1,
+      "erklaerung": "Empfohlene Nährstoffverteilung beim Diabetes: 50-55 % Kohlenhydrate (ballaststoffreich, Einfachzucker und große Mengen Fruchtzucker meiden), 25-30 % Fett (v.a. pflanzliche Fette, Ölbasis), 10-20 % Eiweiß (fettarm).",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Diabetes",
+        "Ernährung"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-009-03",
+      "kapitel": "Stoffwechsel",
+      "thema": "Therapie Diabetes",
+      "seite": 9,
+      "typ": "multiple_choice",
+      "frage": "Welche allgemeinen Therapieempfehlungen gelten beim Diabetes?",
+      "optionen": [
+        "Regelmäßige Bewegung",
+        "Gewichtsreduktion bei Adipositas",
+        "Sorgfältige Körperpflege (Abwehrschwäche)",
+        "Bewusste Inspektion der Füße",
+        "Verzicht auf Rauchen und Alkohol",
+        "Erhöhter Konsum von Süßigkeiten"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "erklaerung": "Therapie: Bewegung, Gewichtsreduktion (Adipositas), Körperpflege (Infektionsschutz), Fußinspektion (Fußsyndrom-Prävention), Verzicht auf Rauchen/Alkohol. NICHT mehr Süßigkeiten!",
+      "schwierigkeit": "leicht",
+      "tags": [
+        "Stoffwechsel",
+        "Diabetes",
+        "Therapie"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-009-04",
+      "kapitel": "Stoffwechsel",
+      "thema": "Insulin Indikation",
+      "seite": 9,
+      "typ": "single_choice",
+      "frage": "Wann ist Insulin notwendig?",
+      "optionen": [
+        "Bei Diabetes Typ 1 ein Muss, bei Typ 2 wenn andere Maßnahmen nicht ausreichen",
+        "Nur bei Typ 2",
+        "Nur bei Gestationsdiabetes",
+        "Sofort bei jedem Diabetes",
+        "Nur bei Coma diabeticum"
+      ],
+      "richtig": 0,
+      "erklaerung": "Bei Diabetes Typ 1 ist Insulin ein MUSS (absoluter Insulinmangel!), bei Typ 2 wird Insulin erst dann gegeben, wenn andere Maßnahmen (Diät, Bewegung, Gewichtsabnahme, orale Antidiabetika) nicht ausreichen.",
+      "schwierigkeit": "leicht",
+      "tags": [
+        "Stoffwechsel",
+        "Diabetes",
+        "Insulin",
+        "Therapie"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-009-05",
+      "kapitel": "Stoffwechsel",
+      "thema": "Insulinapplikation",
+      "seite": 9,
+      "typ": "single_choice",
+      "frage": "Wie wird Insulin verabreicht?",
+      "optionen": [
+        "Oral als Tablette",
+        "Subkutan (s.c.) in Bauchdecke, Gesäß oder Oberschenkel oder über Insulinpumpe",
+        "Nur intravenös (i.v.)",
+        "Inhalativ",
+        "Rektal"
+      ],
+      "richtig": 1,
+      "erklaerung": "Insulin wird vom Diabetiker selbst SUBKUTAN (s.c.) in Bauchdecke, Gesäß oder Oberschenkel gespritzt – oder über eine subkutan implantierte Insulinpumpe dosiert.",
+      "schwierigkeit": "leicht",
+      "tags": [
+        "Stoffwechsel",
+        "Insulin",
+        "Applikation"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-009-06",
+      "kapitel": "Stoffwechsel",
+      "thema": "Konventionelle Insulintherapie",
+      "seite": 9,
+      "typ": "single_choice",
+      "frage": "Wie funktioniert die konventionelle Insulintherapie?",
+      "optionen": [
+        "Insulin wird einmalig pro Woche gegeben",
+        "Patient spritzt 1-3x täglich Kombination aus kurz wirksamen und Verzögerungsinsulinen → geregeltes Leben mit festen Mahlzeiten",
+        "Insulin wird nur vor jeder Mahlzeit angepasst",
+        "Nur einmal vor dem Schlafengehen",
+        "Keine festen Zeiten"
+      ],
+      "richtig": 1,
+      "erklaerung": "Konventionelle Insulintherapie: Patient spritzt 1-3x täglich eine Kombination aus kurz wirksamen Insulinen und Verzögerungsinsulinen. Erfordert ein geregeltes Leben mit festen Mahlzeiten.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Insulintherapie",
+        "Konventionell"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-009-07",
+      "kapitel": "Stoffwechsel",
+      "thema": "Intensivierte Insulintherapie",
+      "seite": 9,
+      "typ": "single_choice",
+      "frage": "Was kennzeichnet die intensivierte Insulintherapie?",
+      "optionen": [
+        "Höhere Insulindosen",
+        "Patient stimmt Insulinbedarf selbständig auf Bedarf und Mahlzeiten ab; engmaschige Kontrollen und gute Patientenschulung notwendig",
+        "Insulin nur nachts",
+        "Insulin oral",
+        "Nur in der Klinik möglich"
+      ],
+      "richtig": 1,
+      "erklaerung": "Intensivierte Insulintherapie: Patient stimmt Insulinbedarf SELBSTÄNDIG auf seinen Bedarf und die Mahlzeiten ab. Engmaschige Blutzuckerkontrollen und gute Patientenschulung sind notwendig.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Insulintherapie",
+        "Intensiviert"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-009-08",
+      "kapitel": "Stoffwechsel",
+      "thema": "Insulinbedarf",
+      "seite": 9,
+      "typ": "single_choice",
+      "frage": "Wie hoch ist der durchschnittliche Tagesbedarf an Insulin bei einem schlanken Erwachsenen?",
+      "optionen": [
+        "ca. 10 IE",
+        "ca. 20 IE",
+        "ca. 40 IE",
+        "ca. 80 IE",
+        "ca. 100 IE"
+      ],
+      "richtig": 2,
+      "erklaerung": "Tagesbedarf eines schlanken Erwachsenen: durchschnittlich ca. 40 IE (Internationale Einheiten) Insulin – je nach Belastungen, Essen etc.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Insulin",
+        "Tagesbedarf"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-009-09",
+      "kapitel": "Stoffwechsel",
+      "thema": "Insulin-KE-Umrechnung",
+      "seite": 9,
+      "typ": "single_choice",
+      "frage": "Wie viele Kohlenhydrate werden mit 1 IE Insulin abgedeckt?",
+      "optionen": [
+        "1-2 g",
+        "5-6 g",
+        "10-12 g (entspricht 1 KE)",
+        "20-25 g",
+        "30-40 g"
+      ],
+      "richtig": 2,
+      "erklaerung": "Umrechnung: 1 IE Insulin ist notwendig für ca. 10-12 g Kohlenhydrate. 1 KE (Kohlenhydrateinheit) entspricht 10 g Kohlenhydrate; früher wurde BE (Broteinheit) verwendet (entspricht 12 g in Deutschland).",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Insulin",
+        "Kohlenhydrateinheit"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-009-10",
+      "kapitel": "Stoffwechsel",
+      "thema": "Normalinsulin",
+      "seite": 9,
+      "typ": "single_choice",
+      "frage": "Welcher Insulin-Typ darf unter äußerster Vorsicht auch intravenös (i.v.) verabreicht werden?",
+      "optionen": [
+        "Alle Insuline",
+        "Normalinsulin (früher Altinsulin)",
+        "Mischinsuline",
+        "Verzögerungsinsuline",
+        "Insulinanaloga"
+      ],
+      "richtig": 1,
+      "erklaerung": "Normalinsulin (früher Altinsulin) ist das einzige Insulin, welches unter äußerster Vorsicht auch i.v. verabreicht werden darf (z.B. bei Coma diabeticum). Alle anderen nur s.c.!",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Insulin",
+        "Normalinsulin",
+        "Applikation"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-009-11",
+      "kapitel": "Stoffwechsel",
+      "thema": "Kurz wirksame Insuline",
+      "seite": 9,
+      "typ": "multiple_choice",
+      "frage": "Welche Kennzeichen haben kurz wirksame Insuline?",
+      "optionen": [
+        "Normalinsulin: Wirkungseintritt 15-30 Min., Wirkdauer 4-6 Std.",
+        "Kurz wirkende Insulinanaloga: Wirkungseintritt 10-15 Min., Wirkdauer 2-3 Std.",
+        "Wirkungseintritt erst nach 3-4 Stunden",
+        "Wirkdauer bis 28 Stunden",
+        "Nur intravenöse Anwendung"
+      ],
+      "richtig": [
+        0,
+        1
+      ],
+      "erklaerung": "Kurz wirksame Insuline: Normalinsulin (Wirkungseintritt 15-30 Min., Wirkdauer 4-6 Std., s.c. oder i.v.) und kurz wirkende Insulinanaloga (Wirkungseintritt 10-15 Min., Wirkdauer 2-3 Std., s.c.).",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Insulin",
+        "Kurz wirksam"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-009-12",
+      "kapitel": "Stoffwechsel",
+      "thema": "Verzögerungsinsuline",
+      "seite": 9,
+      "typ": "multiple_choice",
+      "frage": "Welche Kennzeichen haben Verzögerungsinsuline?",
+      "optionen": [
+        "Intermediärinsuline: Wirkungseintritt 30-45 Min., Wirkdauer bis 28 Std.",
+        "Lang wirkende Insulinanaloga (Langzeitinsulin): Wirkungseintritt 3-4 Std., Wirkdauer bis 28 Std.",
+        "Mischinsuline aus Normalinsulin und Verzögerungs-Insulin",
+        "Wirkungseintritt 5 Minuten",
+        "Nur i.v. Gabe möglich"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Verzögerungsinsuline: Intermediärinsuline (Wirkungseintritt 30-45 Min., Wirkdauer 12-18 Std.), Lang wirkende Insulinanaloga/Langzeitinsulin (Wirkungseintritt 3-4 Std., Wirkdauer bis 28 Std.), Mischinsuline (Normalinsulin + Verzögerungs-Insulin).",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Insulin",
+        "Verzögerungsinsulin"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-009-F1",
+      "kapitel": "Stoffwechsel",
+      "thema": "Insulintherapie",
+      "seite": 9,
+      "typ": "fallbeispiel",
+      "fallbeschreibung": "Ein 18-jähriger Typ-1-Diabetiker isst zum Frühstück 60 g Kohlenhydrate. Sein Insulin-Faktor ist 1 IE pro 10 g KH.",
+      "frage": "Wie viele IE Insulin muss er spritzen?",
+      "optionen": [
+        "2 IE",
+        "4 IE",
+        "6 IE",
+        "10 IE",
+        "15 IE"
+      ],
+      "richtig": 2,
+      "erklaerung": "Berechnung: 60 g Kohlenhydrate ÷ 10 g/IE = 6 IE Insulin. 1 KE = 10 g Kohlenhydrate, der Patient isst 6 KE, also 6 IE.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Insulin",
+        "Berechnung",
+        "Fallbeispiel"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-009-F2",
+      "kapitel": "Stoffwechsel",
+      "thema": "Ernährungsberatung",
+      "seite": 9,
+      "typ": "fallbeispiel",
+      "fallbeschreibung": "Ein neu diagnostizierter Typ-2-Diabetiker (BMI 31, 55 J.) bittet Sie um Ernährungsberatung.",
+      "frage": "Welche grundlegenden Empfehlungen geben Sie?",
+      "optionen": [
+        "Nur Eiweiß essen, keine Kohlenhydrate",
+        "Frische, ausgewogene, ballaststoffreiche Ernährung; 50-55% KH (ballaststoffreich), 25-30% Fett (pflanzlich), 10-20% Eiweiß (fettarm); Einfachzucker meiden",
+        "Spezielle Diabetiker-Diät-Produkte kaufen",
+        "Drei Hauptmahlzeiten mit viel Fruchtzucker",
+        "Strikte Fastenkur"
+      ],
+      "richtig": 1,
+      "erklaerung": "Empfehlung: Frische, ausgewogene, ballaststoffreiche Ernährung. Verteilung: 50-55% KH (ballaststoffreich!), 25-30% Fett (pflanzlich), 10-20% Eiweiß. Einfachzucker und große Mengen Fruchtzucker meiden. Verzicht auf Fertigprodukte und sonstige Diabetiker-Diät-Produkte!",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Diabetes",
+        "Ernährung",
+        "Fallbeispiel"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-010-01",
+      "kapitel": "Stoffwechsel",
+      "thema": "Insulinwirkung Steigerung",
+      "seite": 10,
+      "typ": "multiple_choice",
+      "frage": "Welche Stoffwechselvorgänge werden durch Insulin GESTEIGERT?",
+      "optionen": [
+        "Glukoseaufnahme in die Zellen",
+        "Glykolyse, Glykogensynthese",
+        "Fettsäuresynthese, Lipogenese (Aufbau von Fett)",
+        "Proteinbiosynthese",
+        "Kaliumverlagerung nach intrazellulär",
+        "Lipolyse (Fettabbau)"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "erklaerung": "Insulin STEIGERT: Glukoseaufnahme in die Zellen, Glykolyse, Glykogensynthese, Fettsäuresynthese, Lipogenese (Fettaufbau!), Proteinbiosynthese, Kaliumverlagerung nach intrazellulär. Wachstum wird gefördert.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Insulin",
+        "Wirkung"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-010-02",
+      "kapitel": "Stoffwechsel",
+      "thema": "Insulinwirkung Senkung",
+      "seite": 10,
+      "typ": "multiple_choice",
+      "frage": "Was wird durch Insulin GESENKT?",
+      "optionen": [
+        "Blutzuckerspiegel",
+        "Gluconeogenese (in der Leber)",
+        "Glykogenolyse",
+        "Fettsäureabbau",
+        "Lipolyse (Fettabbau)",
+        "Blutkaliumspiegel (Gefahr Hypokaliämie)",
+        "Glukoseaufnahme in Zellen"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "erklaerung": "Insulin SENKT: Blutzuckerspiegel, Gluconeogenese (Leber), Glykogenolyse, Fettsäureabbau, Lipolyse (Fettabbau!), Blutkaliumspiegel → Gefahr Hypokaliämie! NICHT die Glukoseaufnahme - diese wird gesteigert.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Insulin",
+        "Wirkung"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-010-03",
+      "kapitel": "Stoffwechsel",
+      "thema": "Orale Antidiabetika",
+      "seite": 10,
+      "typ": "single_choice",
+      "frage": "Wann werden orale Antidiabetika eingesetzt?",
+      "optionen": [
+        "Bei Diabetes Typ 1",
+        "Bei Diabetes Typ 2, wenn die Bauchspeicheldrüse noch ausreichend Insulin produziert",
+        "Bei jedem Diabetes als erste Therapie",
+        "Nur bei Gestationsdiabetes",
+        "Nur bei Coma diabeticum"
+      ],
+      "richtig": 1,
+      "erklaerung": "Orale Antidiabetika werden bei Diabetes Typ 2 eingesetzt, wenn die Bauchspeicheldrüse noch ausreichend Insulin produziert. Sonst ist Insulin notwendig. Bei Typ 1 NIE oral, da kein eigenes Insulin produziert wird.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Orale Antidiabetika"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-010-04",
+      "kapitel": "Stoffwechsel",
+      "thema": "Metformin",
+      "seite": 10,
+      "typ": "multiple_choice",
+      "frage": "Welche Wirkungen hat Metformin (Mittel der Wahl bei nicht-insulinpflichtigem Diabetes Typ 2)?",
+      "optionen": [
+        "Verzögert die Glukoseaufnahme im Darm",
+        "Verbessert die Insulinwirkung an den Zellen",
+        "Hemmt den Glykogenabbau in der Leber",
+        "Fördert direkte Insulinausschüttung",
+        "Zerstört Insulinrezeptoren"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Metformin: (1) Verzögert Glukoseaufnahme im Darm, (2) Verbessert Insulinwirkung an Zellen (gegen Insulinresistenz!), (3) Hemmt Glykogenabbau in der Leber. KEINE direkte Insulinausschüttung.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Metformin",
+        "Antidiabetika"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-010-05",
+      "kapitel": "Stoffwechsel",
+      "thema": "Sulfonylharnstoffe",
+      "seite": 10,
+      "typ": "single_choice",
+      "frage": "Wie wirken Sulfonylharnstoffe oder Glinide?",
+      "optionen": [
+        "Sie hemmen die Insulinwirkung",
+        "Sie fördern die Insulinfreisetzung der Bauchspeicheldrüse",
+        "Sie senken den Cortisolspiegel",
+        "Sie ersetzen das Insulin",
+        "Sie verlangsamen die Glukoseaufnahme"
+      ],
+      "richtig": 1,
+      "erklaerung": "Sulfonylharnstoffe und Glinide fördern die INSULINFREISETZUNG der Bauchspeicheldrüse. Setzt voraus, dass die B-Zellen noch funktionieren.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Sulfonylharnstoffe",
+        "Antidiabetika"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-010-06",
+      "kapitel": "Stoffwechsel",
+      "thema": "Weitere orale Antidiabetika",
+      "seite": 10,
+      "typ": "multiple_choice",
+      "frage": "Welche weiteren oralen Antidiabetika werden eingesetzt?",
+      "optionen": [
+        "Alpha-Glukosidasehemmer",
+        "Dipeptidyl-Peptidase-4-(DPP-4)-Hemmer",
+        "Glitazone",
+        "SGLT2-Hemmer",
+        "Antibiotika"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Weitere orale Antidiabetika: Alpha-Glukosidasehemmer, DPP-4-Hemmer, Glitazone, SGLT2-Hemmer. Antibiotika sind keine Antidiabetika.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Orale Antidiabetika"
+      ],
+      "pruefungsrelevanz": "mittel"
+    },
+    {
+      "id": "STW-010-07",
+      "kapitel": "Stoffwechsel",
+      "thema": "Energiegehalt Nährstoffe",
+      "seite": 10,
+      "typ": "multiple_choice",
+      "frage": "Wie viel kcal liefern die verschiedenen Nährstoffe pro Gramm?",
+      "optionen": [
+        "1 g Kohlenhydrate: ca. 4 kcal",
+        "1 g Protein: ca. 4 kcal",
+        "1 g Alkohol: ca. 7 kcal",
+        "1 g Fett: ca. 9 kcal",
+        "1 g Kohlenhydrate: ca. 9 kcal"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Energiegehalt physiologischer Brennwert: Kohlenhydrate 4 kcal/g, Protein 4 kcal/g, Alkohol 7 kcal/g, Fett 9 kcal/g. WICHTIG: Alkohol hat mehr kcal als Eiweiß/Kohlenhydrate!",
+      "schwierigkeit": "leicht",
+      "tags": [
+        "Stoffwechsel",
+        "Ernährung",
+        "Energiegehalt"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-010-08",
+      "kapitel": "Stoffwechsel",
+      "thema": "Kohlenhydratstoffwechsel Mund",
+      "seite": 10,
+      "typ": "single_choice",
+      "frage": "Welches Enzym beginnt die Kohlenhydratverdauung im Mund?",
+      "optionen": [
+        "Pepsin",
+        "Lipase",
+        "Alpha-Amylase",
+        "Trypsin",
+        "Galaktase"
+      ],
+      "richtig": 2,
+      "erklaerung": "Im MUND beginnt die Kohlenhydratverdauung mit der Alpha-Amylase (Ptyalin) im Speichel. Pepsin = Eiweißverdauung im Magen, Lipase = Fettverdauung.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Kohlenhydratstoffwechsel",
+        "Verdauung"
+      ],
+      "pruefungsrelevanz": "mittel"
+    },
+    {
+      "id": "STW-010-09",
+      "kapitel": "Stoffwechsel",
+      "thema": "Duodenum",
+      "seite": 10,
+      "typ": "single_choice",
+      "frage": "Was passiert mit Kohlenhydraten im Duodenum?",
+      "optionen": [
+        "Sie werden ausgeschieden",
+        "Polysaccharide werden durch Alpha-Amylase des Pankreassaftes zu Disacchariden abgebaut, weiter durch Laktase, Maltase, Isomaltase zu Monosacchariden",
+        "Sie werden zu Eiweiß umgewandelt",
+        "Sie passieren unverändert",
+        "Sie werden direkt resorbiert"
+      ],
+      "richtig": 1,
+      "erklaerung": "Im Duodenum: (1) Polysaccharide → Disaccharide durch Alpha-Amylase des Pankreassaftes, (2) Disaccharide → Monosaccharide durch Laktase, Maltase, Isomaltase (Verdauungsenzyme). Endprodukte: Glukose, Fructose, Galactose.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Kohlenhydratstoffwechsel"
+      ],
+      "pruefungsrelevanz": "mittel"
+    },
+    {
+      "id": "STW-010-10",
+      "kapitel": "Stoffwechsel",
+      "thema": "Disaccharide",
+      "seite": 10,
+      "typ": "multiple_choice",
+      "frage": "Welche Aussagen zu Disacchariden sind korrekt?",
+      "optionen": [
+        "Laktose (Milchzucker) → Glukose + Galaktose",
+        "Maltose (in Bier/Brot) → Glukose + Glukose",
+        "Saccharose → Glukose + Fructose",
+        "Stärke → Eiweiß + Fett",
+        "Glukose → Disaccharid"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Disaccharide (Zweifachzucker): Laktose (Milchzucker) → Glukose + Galaktose; Maltose (in Bier/Brot) → Glukose + Glukose; Saccharose (Haushaltszucker) → Glukose + Fructose. Galaktose ist Einfachzucker.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Disaccharide",
+        "Verdauung"
+      ],
+      "pruefungsrelevanz": "mittel"
+    },
+    {
+      "id": "STW-010-11",
+      "kapitel": "Stoffwechsel",
+      "thema": "Leber Stoffwechsel",
+      "seite": 10,
+      "typ": "single_choice",
+      "frage": "Welche Funktion hat die Leber im Kohlenhydratstoffwechsel?",
+      "optionen": [
+        "Sie produziert nur Glukose",
+        "Umwandlung von Fructose und Galactose in Glukose",
+        "Sie speichert Eiweiß",
+        "Sie spaltet Polysaccharide",
+        "Keine Rolle"
+      ],
+      "richtig": 1,
+      "erklaerung": "Die Leber wandelt FRUCTOSE (Fruchtzucker) und GALACTOSE in GLUKOSE um. Dadurch wird Glukose zum zentralen Energieträger des Körpers.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Leber",
+        "Kohlenhydrate"
+      ],
+      "pruefungsrelevanz": "mittel"
+    },
+    {
+      "id": "STW-010-12",
+      "kapitel": "Stoffwechsel",
+      "thema": "Glukoseüberschuss",
+      "seite": 10,
+      "typ": "single_choice",
+      "frage": "Was passiert mit Glukose bei Glukoseüberschuss?",
+      "optionen": [
+        "Wird ausgeschieden",
+        "Speicherung als Glykogen in Leber und Muskulatur",
+        "Direkt in Fett umgewandelt",
+        "Wird abgebaut zu Eiweiß",
+        "Bleibt im Blut"
+      ],
+      "richtig": 1,
+      "erklaerung": "Bei Glukoseüberschuss: Speicherung als GLYKOGEN in Leber und Muskulatur (Speicherform der Glukose). Wird die Speicher voll, wird Fett produziert (Lipogenese).",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Glykogen",
+        "Glukose"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-010-13",
+      "kapitel": "Stoffwechsel",
+      "thema": "Glykolyse",
+      "seite": 10,
+      "typ": "single_choice",
+      "frage": "Was ist die Glykolyse?",
+      "optionen": [
+        "Aufbau von Glykogen",
+        "Abbau von Glukose zu Pyruvat zur Energiegewinnung",
+        "Speicherung von Fett",
+        "Aufbau von Eiweiß",
+        "Verdauungsprozess im Darm"
+      ],
+      "richtig": 1,
+      "erklaerung": "Glykolyse = Abbau von Glukose zu Pyruvat. Dabei entsteht ENERGIE (ATP). Bei Energiebedarf der Zelle wird die Glykolyse aktiviert.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Glykolyse"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-010-F1",
+      "kapitel": "Stoffwechsel",
+      "thema": "Insulinwirkung",
+      "seite": 10,
+      "typ": "fallbeispiel",
+      "fallbeschreibung": "Eine Patientin fragt Sie als Heilpraktiker, warum Diabetes Typ 1 Patienten häufig Untergewicht haben, obwohl sie 'viel essen'.",
+      "frage": "Wie erklären Sie das pathophysiologisch?",
+      "optionen": [
+        "Diabetiker essen weniger als sie behaupten",
+        "Bei Insulinmangel kann Glukose nicht in die Zellen → Energiegewinnung durch Fettabbau (Lipolyse) und Eiweißzerstörung → Untergewicht trotz Heißhunger",
+        "Diabetiker haben eine schlechte Verdauung",
+        "Hyperthyreose ist die Ursache",
+        "Es ist nur eine Einbildung"
+      ],
+      "richtig": 1,
+      "erklaerung": "Pathophysiologie: Bei Insulinmangel kommt Glukose nicht in die Zellen. Der Körper versucht, Energie durch Fettabbau (Lipolyse) und Eiweißzerstörung (Muskelabbau) zu gewinnen → Gewichtsabnahme. Trotz Heißhunger (Symptom Energiemangel) Untergewicht.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Insulinwirkung",
+        "Pathophysiologie",
+        "Fallbeispiel"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-010-F2",
+      "kapitel": "Stoffwechsel",
+      "thema": "Ernährungsberatung Diabetiker",
+      "seite": 10,
+      "typ": "fallbeispiel",
+      "fallbeschreibung": "Ein adipöser Typ-2-Diabetiker (BMI 33) trinkt täglich 2 Bier (à 0,5 L) und isst gerne Schokolade. Sein HbA1c liegt bei 8,5 %.",
+      "frage": "Welcher Hinweis zum Alkohol ist korrekt?",
+      "optionen": [
+        "Alkohol hat keine Kalorien",
+        "Alkohol liefert ca. 7 kcal/g und ist damit kalorienreicher als Eiweiß oder Kohlenhydrate (je 4 kcal/g)",
+        "Alkohol ist gut für Diabetiker",
+        "Alkohol senkt direkt den Blutzucker",
+        "Bier enthält kein Kohlenhydrat"
+      ],
+      "richtig": 1,
+      "erklaerung": "Wichtig: Alkohol liefert 7 kcal/g – mehr als Eiweiß und Kohlenhydrate (je 4 kcal/g), aber weniger als Fett (9 kcal/g). Bier enthält außerdem Kohlenhydrate (Maltose). Bei Diabetes: Verzicht auf Alkohol empfohlen.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Ernährung",
+        "Alkohol",
+        "Fallbeispiel"
+      ],
+      "pruefungsrelevanz": "hoch"
+    }
+  ],
+  "vokabeln": [
+    {
+      "id": "VOK-STW-001",
+      "kapitel": "Stoffwechsel",
+      "seite": 3,
+      "lateinisch": "Metabolisches Syndrom",
+      "deutsch": "Stoffwechselsyndrom (Wohlstandssyndrom)",
+      "wortart": "Substantiv",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "gr. metabolē = Veränderung; gr. syndromē = Zusammenlauf",
+      "eselsbruecke": "Meta-bolisch = der Stoffwechsel ist betroffen",
+      "beispiel": "Das metabolische Syndrom betrifft 20 % der deutschen Bevölkerung.",
+      "schwierigkeit": "leicht"
+    },
+    {
+      "id": "VOK-STW-002",
+      "kapitel": "Stoffwechsel",
+      "seite": 3,
+      "lateinisch": "Adipositas",
+      "deutsch": "Fettleibigkeit, Fettsucht (BMI ≥ 30)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Stoffwechsel",
+      "herkunft": "lat. adeps = Fett",
+      "eselsbruecke": "Adip- wie 'Adipocyt' (Fettzelle)",
+      "beispiel": "Adipositas ist ein Hauptkriterium des metabolischen Syndroms.",
+      "schwierigkeit": "leicht"
+    },
+    {
+      "id": "VOK-STW-003",
+      "kapitel": "Stoffwechsel",
+      "seite": 3,
+      "lateinisch": "Arterielle Hypertonie",
+      "deutsch": "Bluthochdruck der Schlagadern",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Kreislauf",
+      "herkunft": "gr. hyper = über; gr. tonos = Spannung",
+      "eselsbruecke": "Hyper-Ton = überhöhter Tonus/Druck",
+      "beispiel": "Hypertonie ≥ 130/85 mmHg nach IDF-Kriterien.",
+      "schwierigkeit": "leicht"
+    },
+    {
+      "id": "VOK-STW-004",
+      "kapitel": "Stoffwechsel",
+      "seite": 3,
+      "lateinisch": "Dyslipoproteinämie",
+      "deutsch": "Fettstoffwechselstörung (krankhafte Veränderung der Blutfette)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Stoffwechsel",
+      "herkunft": "gr. dys = schlecht; lat. lipo = Fett; lat. -ämie = im Blut",
+      "eselsbruecke": "Dys-Lipo = schlechte Fette im Blut",
+      "beispiel": "Bei Dyslipoproteinämie sind Triglyzeride und HDL pathologisch.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-005",
+      "kapitel": "Stoffwechsel",
+      "seite": 3,
+      "lateinisch": "Triglyzeride",
+      "deutsch": "Neutralfette (Hauptbestandteil der Nahrungsfette)",
+      "wortart": "Substantiv (n, pl)",
+      "kategorie": "Laborwert",
+      "herkunft": "gr. tri = drei; gr. glykys = süß (Glyzerin)",
+      "eselsbruecke": "Tri = drei Fettsäuren am Glyzerin-Gerüst",
+      "beispiel": "Triglyzeride ≥ 150 mg/dl gelten als pathologisch.",
+      "schwierigkeit": "leicht"
+    },
+    {
+      "id": "VOK-STW-006",
+      "kapitel": "Stoffwechsel",
+      "seite": 3,
+      "lateinisch": "Mikroalbuminurie",
+      "deutsch": "Geringe Eiweißausscheidung im Urin",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Laborwert",
+      "herkunft": "gr. mikros = klein; lat. albumen = Eiweiß; gr. ouron = Urin",
+      "eselsbruecke": "Mikro-Albumin-Urie = wenig Eiweiß im Urin",
+      "beispiel": "Mikroalbuminurie: Albumin ≥ 20 µg/min im Urin.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-007",
+      "kapitel": "Stoffwechsel",
+      "seite": 3,
+      "lateinisch": "Glukosetoleranzstörung",
+      "deutsch": "Gestörte Verarbeitung von Traubenzucker (Vorstufe Diabetes)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Stoffwechsel",
+      "herkunft": "gr. glykys = süß; lat. tolerare = ertragen",
+      "eselsbruecke": "Der Körper toleriert Glukose nicht mehr richtig",
+      "beispiel": "Eine Glukosetoleranzstörung kann sich zum Diabetes entwickeln.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-008",
+      "kapitel": "Stoffwechsel",
+      "seite": 4,
+      "lateinisch": "Diabetes mellitus",
+      "deutsch": "Honigsüßer Durchfluss (Zuckerkrankheit)",
+      "wortart": "Substantiv (m)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "gr. diabētēs = Durchfluss; lat. mellitus = honigsüß",
+      "eselsbruecke": "Mel = Honig (wie Melasse) – süßer Urin",
+      "beispiel": "Diabetes mellitus ist eine Störung des Kohlenhydratstoffwechsels.",
+      "schwierigkeit": "leicht"
+    },
+    {
+      "id": "VOK-STW-009",
+      "kapitel": "Stoffwechsel",
+      "seite": 4,
+      "lateinisch": "Insulin",
+      "deutsch": "Hormon der Bauchspeicheldrüse, senkt Blutzucker",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Hormon",
+      "herkunft": "lat. insula = Insel (Langerhans-Inseln im Pankreas)",
+      "eselsbruecke": "Insulin kommt aus den 'Inseln' der Bauchspeicheldrüse",
+      "beispiel": "Insulin ist das einzige blutzuckersenkende Hormon.",
+      "schwierigkeit": "leicht"
+    },
+    {
+      "id": "VOK-STW-010",
+      "kapitel": "Stoffwechsel",
+      "seite": 4,
+      "lateinisch": "Glukose",
+      "deutsch": "Traubenzucker",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Stoffwechsel",
+      "herkunft": "gr. glykys = süß",
+      "eselsbruecke": "Gluko- wie 'glucose' im Englischen",
+      "beispiel": "Glukose wird durch Insulin in die Zellen geschleust.",
+      "schwierigkeit": "leicht"
+    },
+    {
+      "id": "VOK-STW-011",
+      "kapitel": "Stoffwechsel",
+      "seite": 4,
+      "lateinisch": "Asthenisch",
+      "deutsch": "Schlank, schmächtig (Körperbau)",
+      "wortart": "Adjektiv",
+      "kategorie": "Körperbau",
+      "herkunft": "gr. a = ohne; gr. sthenos = Kraft",
+      "eselsbruecke": "A-Sthen = ohne Kraft/Muskelmasse",
+      "beispiel": "Diabetes Typ 1 Patienten haben oft einen asthenischen Körperbau.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-012",
+      "kapitel": "Stoffwechsel",
+      "seite": 4,
+      "lateinisch": "Adipös",
+      "deutsch": "Übergewichtig, fettleibig",
+      "wortart": "Adjektiv",
+      "kategorie": "Körperbau",
+      "herkunft": "lat. adeps = Fett",
+      "eselsbruecke": "Adipös = adipositas-typisch",
+      "beispiel": "80 % der Typ-2-Diabetiker sind adipös.",
+      "schwierigkeit": "leicht"
+    },
+    {
+      "id": "VOK-STW-013",
+      "kapitel": "Stoffwechsel",
+      "seite": 4,
+      "lateinisch": "Ätiologie",
+      "deutsch": "Ursachenlehre (was die Krankheit auslöst)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Allgemein",
+      "herkunft": "gr. aitia = Ursache; gr. logos = Lehre",
+      "eselsbruecke": "Ätio- wie 'Ursache'",
+      "beispiel": "Die Ätiologie des Typ-1-Diabetes ist autoimmun.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-014",
+      "kapitel": "Stoffwechsel",
+      "seite": 4,
+      "lateinisch": "Autoantikörper",
+      "deutsch": "Antikörper gegen körpereigene Strukturen",
+      "wortart": "Substantiv (m)",
+      "kategorie": "Immunologie",
+      "herkunft": "gr. autos = selbst; engl. antibody",
+      "eselsbruecke": "Auto = selbst → Körper greift sich selbst an",
+      "beispiel": "Beim Diabetes Typ 1A bilden sich Autoantikörper gegen B-Zellen.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-015",
+      "kapitel": "Stoffwechsel",
+      "seite": 4,
+      "lateinisch": "Idiopathisch",
+      "deutsch": "Ohne erkennbare Ursache (Krankheit entsteht 'von selbst')",
+      "wortart": "Adjektiv",
+      "kategorie": "Allgemein",
+      "herkunft": "gr. idios = eigen; gr. pathos = Leiden",
+      "eselsbruecke": "Idio- = eigen, von selbst entstanden",
+      "beispiel": "Diabetes Typ 1B ist idiopathisch – ohne Autoantikörper.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-016",
+      "kapitel": "Stoffwechsel",
+      "seite": 4,
+      "lateinisch": "LADA",
+      "deutsch": "Latent Autoimmune Diabetes in Adults (versteckter Autoimmundiabetes bei Erwachsenen)",
+      "wortart": "Abkürzung",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "engl. Abkürzung",
+      "eselsbruecke": "LA-DA = LAtent bei Den Adulten",
+      "beispiel": "LADA ist eine Sonderform des Typ-1A-Diabetes.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-017",
+      "kapitel": "Stoffwechsel",
+      "seite": 4,
+      "lateinisch": "Coma diabeticum",
+      "deutsch": "Diabetisches Koma (lebensbedrohliche Stoffwechselentgleisung)",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Notfall",
+      "herkunft": "gr. kōma = tiefer Schlaf; gr. diabētēs = Durchfluss",
+      "eselsbruecke": "Coma + diabetisch = bewusstlos durch Diabetes",
+      "beispiel": "Das Coma diabeticum ist oft die Erstmanifestation des Typ-1-Diabetes.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-018",
+      "kapitel": "Stoffwechsel",
+      "seite": 4,
+      "lateinisch": "Insulinresistenz",
+      "deutsch": "Verminderte Empfindlichkeit der Zellen für Insulin",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Pathophysiologie",
+      "herkunft": "lat. insula = Insel; lat. resistere = Widerstand leisten",
+      "eselsbruecke": "Resistenz = die Zellen 'widersetzen' sich dem Insulin",
+      "beispiel": "Insulinresistenz ist der Kernmechanismus beim Typ-2-Diabetes.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-019",
+      "kapitel": "Stoffwechsel",
+      "seite": 4,
+      "lateinisch": "Pathogenese",
+      "deutsch": "Krankheitsentstehung (Mechanismus, wie Krankheit entsteht)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Allgemein",
+      "herkunft": "gr. pathos = Leiden; gr. genesis = Entstehung",
+      "eselsbruecke": "Patho-Genese = Geburt der Krankheit",
+      "beispiel": "Die Pathogenese des Typ-2-Diabetes basiert auf Insulinresistenz.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-020",
+      "kapitel": "Stoffwechsel",
+      "seite": 4,
+      "lateinisch": "Insulinantagonist",
+      "deutsch": "Gegenspieler des Insulins (erhöht Blutzucker)",
+      "wortart": "Substantiv (m)",
+      "kategorie": "Hormon",
+      "herkunft": "lat. insula = Insel; gr. antagōnistēs = Gegenkämpfer",
+      "eselsbruecke": "Anti-Gonist = Gegen-Spieler",
+      "beispiel": "Merkhilfe G-CATS: Glukagon, Cortisol, Adrenalin, T3/T4, STH.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-021",
+      "kapitel": "Stoffwechsel",
+      "seite": 4,
+      "lateinisch": "Glukagon",
+      "deutsch": "Hormon der Bauchspeicheldrüse, erhöht den Blutzucker",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Hormon",
+      "herkunft": "gr. glykys = süß; gr. agōgos = führend",
+      "eselsbruecke": "Glukagon 'führt Glukose ins Blut' (Gegenspieler von Insulin)",
+      "beispiel": "Glukagon ist der wichtigste Insulinantagonist.",
+      "schwierigkeit": "leicht"
+    },
+    {
+      "id": "VOK-STW-022",
+      "kapitel": "Stoffwechsel",
+      "seite": 4,
+      "lateinisch": "Cortisol",
+      "deutsch": "Stresshormon der Nebennierenrinde",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Hormon",
+      "herkunft": "lat. cortex = Rinde",
+      "eselsbruecke": "Cortis-ol kommt aus dem Cortex (Nebennierenrinde)",
+      "beispiel": "Cortisol erhöht den Blutzucker und ist ein Insulinantagonist.",
+      "schwierigkeit": "leicht"
+    },
+    {
+      "id": "VOK-STW-023",
+      "kapitel": "Stoffwechsel",
+      "seite": 4,
+      "lateinisch": "Adrenalin",
+      "deutsch": "Stresshormon des Nebennierenmarks ('Kampf-oder-Flucht')",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Hormon",
+      "herkunft": "lat. ad = bei; lat. renes = Nieren",
+      "eselsbruecke": "Ad-renal = 'bei der Niere' (Nebenniere)",
+      "beispiel": "Adrenalin gehört zu den Insulinantagonisten (G-CATS).",
+      "schwierigkeit": "leicht"
+    },
+    {
+      "id": "VOK-STW-024",
+      "kapitel": "Stoffwechsel",
+      "seite": 4,
+      "lateinisch": "Noradrenalin",
+      "deutsch": "Stresshormon und Neurotransmitter",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Hormon",
+      "herkunft": "lat. nor = ohne Methylgruppe; ad + renal",
+      "eselsbruecke": "Nor-Adrenalin = 'Vorstufe' von Adrenalin",
+      "beispiel": "Noradrenalin wirkt zusammen mit Adrenalin blutzuckersteigernd.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-025",
+      "kapitel": "Stoffwechsel",
+      "seite": 4,
+      "lateinisch": "STH (Somatotropes Hormon)",
+      "deutsch": "Wachstumshormon",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Hormon",
+      "herkunft": "gr. sōma = Körper; gr. tropos = wendend",
+      "eselsbruecke": "Soma-Tropin = wirkt auf den Körper (Wachstum)",
+      "beispiel": "STH ist ein Insulinantagonist und gehört zu G-CATS.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-026",
+      "kapitel": "Stoffwechsel",
+      "seite": 4,
+      "lateinisch": "Cushing-Syndrom",
+      "deutsch": "Erkrankung mit Cortisolüberschuss (Vollmondgesicht, Stammfettsucht)",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Endokrinologie",
+      "herkunft": "nach Harvey Cushing (Neurochirurg)",
+      "eselsbruecke": "Cushing = 'Kissen' im Gesicht (Vollmondgesicht)",
+      "beispiel": "Das Cushing-Syndrom kann einen sekundären Diabetes (Typ 3) verursachen.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-027",
+      "kapitel": "Stoffwechsel",
+      "seite": 4,
+      "lateinisch": "Phäochromozytom",
+      "deutsch": "Tumor des Nebennierenmarks (produziert Adrenalin)",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Endokrinologie",
+      "herkunft": "gr. phaios = dunkel; gr. chrōma = Farbe; gr. kytos = Zelle",
+      "eselsbruecke": "Phäo-Chromo = 'dunkel gefärbte' Zellen",
+      "beispiel": "Ein Phäochromozytom kann durch Adrenalinüberschuss Diabetes verursachen.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-028",
+      "kapitel": "Stoffwechsel",
+      "seite": 4,
+      "lateinisch": "Hyperthyreose",
+      "deutsch": "Schilddrüsenüberfunktion",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Endokrinologie",
+      "herkunft": "gr. hyper = über; gr. thyreos = Schild",
+      "eselsbruecke": "Hyper-Thyreose = über-aktiver 'Schild' (Schilddrüse)",
+      "beispiel": "Hyperthyreose kann durch erhöhte T3/T4-Werte Diabetes auslösen.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-029",
+      "kapitel": "Stoffwechsel",
+      "seite": 4,
+      "lateinisch": "Akromegalie",
+      "deutsch": "Riesenwuchs der Endglieder (Hände, Füße, Kinn) bei STH-Überschuss",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Endokrinologie",
+      "herkunft": "gr. akros = Spitze; gr. megas = groß",
+      "eselsbruecke": "Akro-Megal = 'große Spitzen' (Hände, Füße)",
+      "beispiel": "Akromegalie kann durch STH-Überschuss zu Diabetes führen.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-030",
+      "kapitel": "Stoffwechsel",
+      "seite": 4,
+      "lateinisch": "Konnatale Röteln",
+      "deutsch": "Angeborene Röteln (vor Geburt erworben)",
+      "wortart": "Substantiv (f, pl)",
+      "kategorie": "Infektion",
+      "herkunft": "lat. con = mit; lat. natus = geboren",
+      "eselsbruecke": "Kon-Natal = 'mit der Geburt' verbunden",
+      "beispiel": "Konnatale Röteln können einen Typ-3-Diabetes verursachen.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-031",
+      "kapitel": "Stoffwechsel",
+      "seite": 4,
+      "lateinisch": "Zytomegalie",
+      "deutsch": "Zellvergrößerung (CMV-Infektion)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Infektion",
+      "herkunft": "gr. kytos = Zelle; gr. megas = groß",
+      "eselsbruecke": "Zyto-Megalie = 'große Zelle'",
+      "beispiel": "Zytomegalie kann als Infektion Diabetes Typ 3 auslösen.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-032",
+      "kapitel": "Stoffwechsel",
+      "seite": 4,
+      "lateinisch": "Gestationsdiabetes",
+      "deutsch": "Schwangerschaftsdiabetes",
+      "wortart": "Substantiv (m)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "lat. gestatio = Schwangerschaft",
+      "eselsbruecke": "Gestation = Tragezeit/Schwangerschaft",
+      "beispiel": "Gestationsdiabetes (Typ 4) tritt bei 3-8 % der Schwangerschaften auf.",
+      "schwierigkeit": "leicht"
+    },
+    {
+      "id": "VOK-STW-033",
+      "kapitel": "Stoffwechsel",
+      "seite": 4,
+      "lateinisch": "Pankreas",
+      "deutsch": "Bauchspeicheldrüse",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Anatomie",
+      "herkunft": "gr. pan = ganz; gr. kreas = Fleisch",
+      "eselsbruecke": "Pan-Kreas = 'ganz aus Fleisch' (weiches Organ)",
+      "beispiel": "Das Pankreas produziert Insulin in den B-Zellen.",
+      "schwierigkeit": "leicht"
+    },
+    {
+      "id": "VOK-STW-034",
+      "kapitel": "Stoffwechsel",
+      "seite": 4,
+      "lateinisch": "Manifestation",
+      "deutsch": "Erstes Auftreten/sichtbar Werden einer Krankheit",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Allgemein",
+      "herkunft": "lat. manifestus = handgreiflich, deutlich",
+      "eselsbruecke": "Manifest = etwas wird 'hand-greiflich' sichtbar",
+      "beispiel": "Typ-1-Diabetes manifestiert sich oft im 12.-24. Lebensjahr.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-035",
+      "kapitel": "Stoffwechsel",
+      "seite": 4,
+      "lateinisch": "Disposition",
+      "deutsch": "Anlage/Bereitschaft für eine Erkrankung",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Allgemein",
+      "herkunft": "lat. disponere = anordnen",
+      "eselsbruecke": "Dis-Position = 'in Position gebracht' (für Krankheit)",
+      "beispiel": "Typ-2-Diabetes hat oft eine genetische Disposition.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-036",
+      "kapitel": "Stoffwechsel",
+      "seite": 5,
+      "lateinisch": "Präeklampsie",
+      "deutsch": "Schwangerschaftsvergiftung mit Bluthochdruck und Eiweißausscheidung",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Schwangerschaft",
+      "herkunft": "gr. pre = vor; gr. eklampsis = aufblitzen",
+      "eselsbruecke": "Prä-Eklampsie = VOR der Eklampsie (Vorstufe)",
+      "beispiel": "Bei Gestationsdiabetes besteht erhöhtes Risiko für Präeklampsie.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-037",
+      "kapitel": "Stoffwechsel",
+      "seite": 5,
+      "lateinisch": "Eklampsie",
+      "deutsch": "Krampfanfälle in der Schwangerschaft (lebensbedrohlich)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Schwangerschaft",
+      "herkunft": "gr. eklampsis = aufblitzen",
+      "eselsbruecke": "Eklampsie 'blitzt' wie ein Krampfanfall plötzlich auf",
+      "beispiel": "Eklampsie ist eine schwere Komplikation der Präeklampsie.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-038",
+      "kapitel": "Stoffwechsel",
+      "seite": 5,
+      "lateinisch": "HELLP-Syndrom",
+      "deutsch": "Schwere Schwangerschaftskomplikation (Hämolyse, erhöhte Leberwerte, niedrige Thrombozyten)",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Schwangerschaft",
+      "herkunft": "engl. Abkürzung: Hemolysis, Elevated Liver enzymes, Low Platelets",
+      "eselsbruecke": "HELLP – schreit nach 'Hilfe' (Help) – Notfall!",
+      "beispiel": "HELLP-Syndrom kann bei Gestationsdiabetes auftreten.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-039",
+      "kapitel": "Stoffwechsel",
+      "seite": 5,
+      "lateinisch": "Embryofetopathia diabetica",
+      "deutsch": "Fehlbildungen des Kindes durch mütterlichen Diabetes",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Schwangerschaft",
+      "herkunft": "gr. embryon = Ungeborenes; lat. fetus = Leibesfrucht; gr. pathos = Leiden",
+      "eselsbruecke": "Embryo-Feto-Pathie = Leiden des Embryos/Fetus durch Diabetes",
+      "beispiel": "Embryofetopathia diabetica zeigt kardiale und neuronale Fehlbildungen.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-040",
+      "kapitel": "Stoffwechsel",
+      "seite": 5,
+      "lateinisch": "Rubeosis diabetica",
+      "deutsch": "Diabetische Gesichtsröte",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Symptom",
+      "herkunft": "lat. ruber = rot",
+      "eselsbruecke": "Ruber = rot → rote Wangen bei Diabetes",
+      "beispiel": "Rubeosis diabetica ist ein klassisches Hautsymptom bei Diabetes.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-041",
+      "kapitel": "Stoffwechsel",
+      "seite": 5,
+      "lateinisch": "Pruritus",
+      "deutsch": "Juckreiz",
+      "wortart": "Substantiv (m)",
+      "kategorie": "Symptom",
+      "herkunft": "lat. prurire = jucken",
+      "eselsbruecke": "Pruritus = pruring/'jucken'",
+      "beispiel": "Pruritus bei Diabetes tritt häufig im Genital-/Analbereich auf.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-042",
+      "kapitel": "Stoffwechsel",
+      "seite": 5,
+      "lateinisch": "Polyurie",
+      "deutsch": "Vermehrte Harnausscheidung",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Symptom",
+      "herkunft": "gr. poly = viel; gr. ouron = Harn",
+      "eselsbruecke": "Poly-Urie = viel Urin",
+      "beispiel": "Polyurie entsteht durch osmotische Wirkung der Glukose bei Diabetes.",
+      "schwierigkeit": "leicht"
+    },
+    {
+      "id": "VOK-STW-043",
+      "kapitel": "Stoffwechsel",
+      "seite": 5,
+      "lateinisch": "Polydipsie",
+      "deutsch": "Vermehrtes Trinken (Durst)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Symptom",
+      "herkunft": "gr. poly = viel; gr. dipsa = Durst",
+      "eselsbruecke": "Poly-Dipsie = viel 'dippen' (trinken)",
+      "beispiel": "Polydipsie und Polyurie sind klassische Diabetes-Symptome.",
+      "schwierigkeit": "leicht"
+    },
+    {
+      "id": "VOK-STW-044",
+      "kapitel": "Stoffwechsel",
+      "seite": 5,
+      "lateinisch": "Hyperkaliämie",
+      "deutsch": "Erhöhter Kalium-Spiegel im Blut",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Laborwert",
+      "herkunft": "gr. hyper = über; lat. kalium; gr. -ämie = im Blut",
+      "eselsbruecke": "Hyper-Kali-ämie = zu viel Kalium im Blut",
+      "beispiel": "Bei Diabetes kann Hyperkaliämie durch Hypoaldosteronismus auftreten.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-045",
+      "kapitel": "Stoffwechsel",
+      "seite": 5,
+      "lateinisch": "Hyponatriämie",
+      "deutsch": "Erniedrigter Natrium-Spiegel im Blut",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Laborwert",
+      "herkunft": "gr. hypo = unter; lat. natrium; gr. -ämie = im Blut",
+      "eselsbruecke": "Hypo-Natri-ämie = zu wenig Natrium im Blut",
+      "beispiel": "Hyponatriämie kann beim Diabetes auftreten.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-046",
+      "kapitel": "Stoffwechsel",
+      "seite": 5,
+      "lateinisch": "Furunkulose",
+      "deutsch": "Eitrige Hautentzündungen (Furunkel)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Infektion",
+      "herkunft": "lat. furunculus = kleiner Räuber",
+      "eselsbruecke": "Furunkel = 'kleiner Räuber' der Haut",
+      "beispiel": "Furunkulosen treten häufig bei Diabetikern auf (Abwehrschwäche).",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-047",
+      "kapitel": "Stoffwechsel",
+      "seite": 5,
+      "lateinisch": "Mykosen",
+      "deutsch": "Pilzinfektionen",
+      "wortart": "Substantiv (f, pl)",
+      "kategorie": "Infektion",
+      "herkunft": "gr. mykes = Pilz",
+      "eselsbruecke": "Mykose = 'Pilz'-Krankheit",
+      "beispiel": "Mykosen sind häufig bei Diabetikern wegen der Abwehrschwäche.",
+      "schwierigkeit": "leicht"
+    },
+    {
+      "id": "VOK-STW-048",
+      "kapitel": "Stoffwechsel",
+      "seite": 5,
+      "lateinisch": "Pseudoperitonitis",
+      "deutsch": "Bauchschmerzen ohne echte Bauchfellentzündung",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Symptom",
+      "herkunft": "gr. pseudes = falsch; gr. peritoneum = Bauchfell",
+      "eselsbruecke": "Pseudo-Peritonitis = 'falsche' Bauchfellentzündung",
+      "beispiel": "Bei diabetischer Stoffwechselentgleisung tritt Pseudoperitonitis auf.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-049",
+      "kapitel": "Stoffwechsel",
+      "seite": 5,
+      "lateinisch": "Kussmaul-Atmung",
+      "deutsch": "Tiefe, schnelle, anstrengende Atmung (Säure-Ausatmung)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Symptom",
+      "herkunft": "nach Adolf Kussmaul (deutscher Internist)",
+      "eselsbruecke": "Kussmaul = der Patient 'küsst' die Luft mit tiefen Atemzügen",
+      "beispiel": "Kussmaul-Atmung ist typisch für ketoazidotisches Koma bei Diabetes Typ 1.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-050",
+      "kapitel": "Stoffwechsel",
+      "seite": 5,
+      "lateinisch": "Diabetes Typ 5",
+      "deutsch": "Diabetes durch schwere Mangelernährung im Kindesalter (seit 2025)",
+      "wortart": "Substantiv (m)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "gr. diabētēs = Durchfluss",
+      "eselsbruecke": "Typ 5 – der NEUE Diabetes-Typ (2025)",
+      "beispiel": "Diabetes Typ 5 kommt v.a. in Entwicklungsländern vor.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-051",
+      "kapitel": "Stoffwechsel",
+      "seite": 6,
+      "lateinisch": "Makroangiopathie",
+      "deutsch": "Erkrankung der großen Gefäße",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Pathologie",
+      "herkunft": "gr. makros = groß; gr. angeion = Gefäß; gr. pathos = Leiden",
+      "eselsbruecke": "Makro = groß → 'Makro-Gefäß-Krankheit'",
+      "beispiel": "Makroangiopathie führt bei Diabetes zur Früharteriosklerose (KHK, AVK).",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-052",
+      "kapitel": "Stoffwechsel",
+      "seite": 6,
+      "lateinisch": "Mikroangiopathie",
+      "deutsch": "Erkrankung der kleinen Gefäße",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Pathologie",
+      "herkunft": "gr. mikros = klein; gr. angeion = Gefäß",
+      "eselsbruecke": "Mikro = klein → 'Mikro-Gefäß-Krankheit'",
+      "beispiel": "Diabetische Mikroangiopathien: Nephropathie, Retinopathie, Neuropathie.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-053",
+      "kapitel": "Stoffwechsel",
+      "seite": 6,
+      "lateinisch": "Arteriosklerose",
+      "deutsch": "Verkalkung/Verhärtung der Schlagadern",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Pathologie",
+      "herkunft": "gr. arteria = Schlagader; gr. sklēros = hart",
+      "eselsbruecke": "Arterio-Sklerose = harte Arterien",
+      "beispiel": "Diabetes verursacht Früharteriosklerose mit erhöhtem Herzinfarktrisiko.",
+      "schwierigkeit": "leicht"
+    },
+    {
+      "id": "VOK-STW-054",
+      "kapitel": "Stoffwechsel",
+      "seite": 6,
+      "lateinisch": "KHK",
+      "deutsch": "Koronare Herzkrankheit (Verengung der Herzkranzgefäße)",
+      "wortart": "Abkürzung",
+      "kategorie": "Kardiologie",
+      "herkunft": "deutsche Abkürzung",
+      "eselsbruecke": "K-H-K = Koronare-Herz-Krankheit",
+      "beispiel": "Viele Diabetiker sterben an einem (stummen) Herzinfarkt durch KHK.",
+      "schwierigkeit": "leicht"
+    },
+    {
+      "id": "VOK-STW-055",
+      "kapitel": "Stoffwechsel",
+      "seite": 6,
+      "lateinisch": "AVK",
+      "deutsch": "Arterielle Verschlusskrankheit",
+      "wortart": "Abkürzung",
+      "kategorie": "Kardiologie",
+      "herkunft": "deutsche Abkürzung",
+      "eselsbruecke": "AVK = Arterien-Verschluss-Krankheit",
+      "beispiel": "AVK der Hirnarterien führt zum ischämischen Hirninfarkt (Schlaganfall).",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-056",
+      "kapitel": "Stoffwechsel",
+      "seite": 6,
+      "lateinisch": "pAVK",
+      "deutsch": "Periphere arterielle Verschlusskrankheit (meist Beine)",
+      "wortart": "Abkürzung",
+      "kategorie": "Kardiologie",
+      "herkunft": "deutsche Abkürzung; p = peripher",
+      "eselsbruecke": "p-AVK = peripher (außen, Beine)",
+      "beispiel": "pAVK ist eine Hauptursache des diabetischen Fußsyndroms.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-057",
+      "kapitel": "Stoffwechsel",
+      "seite": 6,
+      "lateinisch": "Nephropathie",
+      "deutsch": "Nierenerkrankung",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Pathologie",
+      "herkunft": "gr. nephros = Niere; gr. pathos = Leiden",
+      "eselsbruecke": "Nephro = Niere → Nierenkrankheit",
+      "beispiel": "Diabetische Nephropathie führt zur Niereninsuffizienz.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-058",
+      "kapitel": "Stoffwechsel",
+      "seite": 6,
+      "lateinisch": "Glomerulosklerose",
+      "deutsch": "Verhärtung der Nierenkörperchen (bei Diabetes)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Pathologie",
+      "herkunft": "lat. glomerulus = kleines Knäuel; gr. sklēros = hart",
+      "eselsbruecke": "Glomerulo-Sklerose = harte 'Nierenknäuel'",
+      "beispiel": "Glomerulosklerose entspricht der diabetischen Nephropathie.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-059",
+      "kapitel": "Stoffwechsel",
+      "seite": 6,
+      "lateinisch": "Kimmelstiel-Wilson-Syndrom",
+      "deutsch": "Diabetische Nephropathie (Eponym)",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "nach Paul Kimmelstiel und Clifford Wilson",
+      "eselsbruecke": "Kimmelstiel-Wilson = die zwei Entdecker der diabetischen Nierenkrankheit",
+      "beispiel": "Das Kimmelstiel-Wilson-Syndrom kann zur Dialyse-Notwendigkeit führen.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-060",
+      "kapitel": "Stoffwechsel",
+      "seite": 6,
+      "lateinisch": "Retinopathie",
+      "deutsch": "Netzhauterkrankung",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Pathologie",
+      "herkunft": "lat. retina = Netzhaut; gr. pathos = Leiden",
+      "eselsbruecke": "Retino = Netzhaut → Netzhauterkrankung",
+      "beispiel": "Diabetische Retinopathie kann zur Erblindung führen.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-061",
+      "kapitel": "Stoffwechsel",
+      "seite": 6,
+      "lateinisch": "Glaukom",
+      "deutsch": "Grüner Star (erhöhter Augeninnendruck)",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Augenheilkunde",
+      "herkunft": "gr. glaukos = blau-grau",
+      "eselsbruecke": "Glaukom = 'grüner Star' im Auge",
+      "beispiel": "Bei diabetischer Retinopathie kann ein sekundäres Glaukom entstehen.",
+      "schwierigkeit": "leicht"
+    },
+    {
+      "id": "VOK-STW-062",
+      "kapitel": "Stoffwechsel",
+      "seite": 6,
+      "lateinisch": "Makulaödem",
+      "deutsch": "Schwellung der Stelle des schärfsten Sehens",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Augenheilkunde",
+      "herkunft": "lat. macula = Fleck; gr. oidēma = Schwellung",
+      "eselsbruecke": "Makula = Fleck der Netzhaut + Ödem = Schwellung",
+      "beispiel": "Makulaödem ist eine Komplikation der diabetischen Retinopathie.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-063",
+      "kapitel": "Stoffwechsel",
+      "seite": 6,
+      "lateinisch": "Polyneuropathie",
+      "deutsch": "Erkrankung vieler Nerven",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Neurologie",
+      "herkunft": "gr. poly = viel; gr. neuron = Nerv; gr. pathos = Leiden",
+      "eselsbruecke": "Poly-Neuro-Pathie = viele Nerven betroffen",
+      "beispiel": "Diabetische Polyneuropathie betrifft v.a. die unteren Extremitäten.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-064",
+      "kapitel": "Stoffwechsel",
+      "seite": 6,
+      "lateinisch": "Parästhesie",
+      "deutsch": "Abnorme Empfindung (Kribbeln, Taubheit)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Symptom",
+      "herkunft": "gr. para = neben; gr. aisthēsis = Empfindung",
+      "eselsbruecke": "Par-Ästhesie = 'falsche' Empfindung",
+      "beispiel": "Parästhesien an den Füßen sind typisch bei diabetischer Neuropathie.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-065",
+      "kapitel": "Stoffwechsel",
+      "seite": 6,
+      "lateinisch": "Areflexie",
+      "deutsch": "Fehlen von Reflexen",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Neurologie",
+      "herkunft": "gr. a = ohne; lat. reflexus = Reflex",
+      "eselsbruecke": "A-Reflexie = ohne Reflexe",
+      "beispiel": "Areflexie des Achillessehnenreflexes bei diabetischer Polyneuropathie.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-066",
+      "kapitel": "Stoffwechsel",
+      "seite": 6,
+      "lateinisch": "Burning feet",
+      "deutsch": "Brennende, schmerzhafte Füße",
+      "wortart": "Substantiv (n, pl)",
+      "kategorie": "Symptom",
+      "herkunft": "engl. burning feet = brennende Füße",
+      "eselsbruecke": "Burning feet = das brennende Gefühl in den Füßen",
+      "beispiel": "Burning feet ist ein Symptom der diabetischen Polyneuropathie.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-067",
+      "kapitel": "Stoffwechsel",
+      "seite": 6,
+      "lateinisch": "Gangrän",
+      "deutsch": "Gewebebrand, Absterben von Gewebe",
+      "wortart": "Substantiv (n/f)",
+      "kategorie": "Pathologie",
+      "herkunft": "gr. gangraina = absterbendes Gewebe",
+      "eselsbruecke": "Gangrän = das Gewebe 'gangs' (geht) zugrunde",
+      "beispiel": "Diabetisches Fußsyndrom kann zur Gangrän führen.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-068",
+      "kapitel": "Stoffwechsel",
+      "seite": 6,
+      "lateinisch": "Hypoglykämie",
+      "deutsch": "Unterzuckerung (Blutzucker zu niedrig)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "gr. hypo = unter; gr. glykys = süß; gr. -ämie = im Blut",
+      "eselsbruecke": "Hypo-Glyk-ämie = wenig Zucker (Glyk) im Blut",
+      "beispiel": "Hypoglykämie < 45-50 mg/dl, oft durch Insulinüberdosierung.",
+      "schwierigkeit": "leicht"
+    },
+    {
+      "id": "VOK-STW-069",
+      "kapitel": "Stoffwechsel",
+      "seite": 6,
+      "lateinisch": "Hyperglykämie",
+      "deutsch": "Überzuckerung (Blutzucker zu hoch)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "gr. hyper = über; gr. glykys = süß; gr. -ämie = im Blut",
+      "eselsbruecke": "Hyper-Glyk-ämie = viel Zucker im Blut",
+      "beispiel": "Hyperglykämie > 200 mg/dl spricht für Diabetes mellitus.",
+      "schwierigkeit": "leicht"
+    },
+    {
+      "id": "VOK-STW-070",
+      "kapitel": "Stoffwechsel",
+      "seite": 6,
+      "lateinisch": "Exsikkose",
+      "deutsch": "Austrocknung des Körpers",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Pathologie",
+      "herkunft": "lat. ex = aus; lat. siccus = trocken",
+      "eselsbruecke": "Ex-Sikkose = 'aus-getrocknet'",
+      "beispiel": "Bei Coma diabeticum entsteht Exsikkose durch osmotische Diurese.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-071",
+      "kapitel": "Stoffwechsel",
+      "seite": 7,
+      "lateinisch": "Whipple-Trias",
+      "deutsch": "Drei Kriterien für Hypoglykämie (Symptome + niedriger BZ + Besserung nach Zucker)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Diagnostik",
+      "herkunft": "nach Allen Oldfather Whipple (US-Chirurg)",
+      "eselsbruecke": "Whipple-Trias = die '3 W' beweisend für Hypoglykämie",
+      "beispiel": "Die Whipple-Trias ist beweisend für eine Hypoglykämie.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-072",
+      "kapitel": "Stoffwechsel",
+      "seite": 7,
+      "lateinisch": "Insulinom",
+      "deutsch": "Insulinproduzierender Tumor der Bauchspeicheldrüse",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Onkologie",
+      "herkunft": "lat. insula = Insel; gr. -oma = Tumor",
+      "eselsbruecke": "Insulin-Om = Insulin-Tumor",
+      "beispiel": "Ein Insulinom verursacht rezidivierende Hypoglykämien.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-073",
+      "kapitel": "Stoffwechsel",
+      "seite": 7,
+      "lateinisch": "Bronchialkarzinom",
+      "deutsch": "Bösartiger Lungentumor",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Onkologie",
+      "herkunft": "gr. bronchos = Luftröhre; gr. karkinōma = Krebs",
+      "eselsbruecke": "Bronchial-Karzinom = Krebs der Atemwege",
+      "beispiel": "Bronchialkarzinom kann paraneoplastisch Hypoglykämie verursachen.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-074",
+      "kapitel": "Stoffwechsel",
+      "seite": 7,
+      "lateinisch": "Mydriasis",
+      "deutsch": "Erweiterung der Pupille",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Symptom",
+      "herkunft": "gr. mydos = Feuchtigkeit",
+      "eselsbruecke": "My-Driasis = große, weite (My) Pupille",
+      "beispiel": "Mydriasis tritt bei Hypoglykämie durch Sympathikus-Aktivierung auf.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-075",
+      "kapitel": "Stoffwechsel",
+      "seite": 7,
+      "lateinisch": "Tremor",
+      "deutsch": "Zittern",
+      "wortart": "Substantiv (m)",
+      "kategorie": "Symptom",
+      "herkunft": "lat. tremor = Zittern",
+      "eselsbruecke": "Tremor = 'Tremol' (italienisch zittern)",
+      "beispiel": "Tremor ist ein vegetatives Symptom der Hypoglykämie.",
+      "schwierigkeit": "leicht"
+    },
+    {
+      "id": "VOK-STW-076",
+      "kapitel": "Stoffwechsel",
+      "seite": 7,
+      "lateinisch": "Tachykardie",
+      "deutsch": "Schneller Herzschlag (> 100/min)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Symptom",
+      "herkunft": "gr. tachys = schnell; gr. kardia = Herz",
+      "eselsbruecke": "Tachy-Kardie = schnelles Herz",
+      "beispiel": "Tachykardie ist ein vegetatives Hypoglykämie-Symptom.",
+      "schwierigkeit": "leicht"
+    },
+    {
+      "id": "VOK-STW-077",
+      "kapitel": "Stoffwechsel",
+      "seite": 7,
+      "lateinisch": "Palpitation",
+      "deutsch": "Spürbarer/heftiger Herzschlag (Herzklopfen)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Symptom",
+      "herkunft": "lat. palpitare = zucken, schlagen",
+      "eselsbruecke": "Palpitation = 'palpiertes' Herzschlagen",
+      "beispiel": "Palpitationen sind ein häufiges Symptom bei Hypoglykämie.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-078",
+      "kapitel": "Stoffwechsel",
+      "seite": 7,
+      "lateinisch": "Tachypnoe",
+      "deutsch": "Schnelle Atmung",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Symptom",
+      "herkunft": "gr. tachys = schnell; gr. pneō = atmen",
+      "eselsbruecke": "Tachy-Pnoe = schnelle Atmung",
+      "beispiel": "Tachypnoe als vegetatives Hypoglykämie-Symptom.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-079",
+      "kapitel": "Stoffwechsel",
+      "seite": 7,
+      "lateinisch": "Paresen",
+      "deutsch": "Teillähmungen (unvollständige Lähmung)",
+      "wortart": "Substantiv (f, pl)",
+      "kategorie": "Neurologie",
+      "herkunft": "gr. paresis = Lähmung",
+      "eselsbruecke": "Paresen = teil-paralysiert (paralyzed)",
+      "beispiel": "Paresen können bei schwerer Hypoglykämie auftreten (DD Schlaganfall).",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-080",
+      "kapitel": "Stoffwechsel",
+      "seite": 7,
+      "lateinisch": "Ataxie",
+      "deutsch": "Bewegungskoordinationsstörung",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Neurologie",
+      "herkunft": "gr. ataxia = Unordnung",
+      "eselsbruecke": "A-Taxie = ohne 'Taxi' (Ordnung) in Bewegungen",
+      "beispiel": "Ataxie als neurologisches Symptom bei Hypoglykämie.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-081",
+      "kapitel": "Stoffwechsel",
+      "seite": 7,
+      "lateinisch": "Somnolenz",
+      "deutsch": "Krankhafte Schläfrigkeit",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Symptom",
+      "herkunft": "lat. somnus = Schlaf",
+      "eselsbruecke": "Somnolenz = Somnus (Schlaf-Gott) lockt",
+      "beispiel": "Somnolenz kann zum Koma fortschreiten.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-082",
+      "kapitel": "Stoffwechsel",
+      "seite": 7,
+      "lateinisch": "Glukagon (Notfall)",
+      "deutsch": "Insulin-Gegenspieler-Hormon, als Notfallmedikament bei Hypoglykämie",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Medikament",
+      "herkunft": "gr. glykys + agōgos = führend",
+      "eselsbruecke": "Glukagon 'führt' Glukose ins Blut bei Hypoglykämie",
+      "beispiel": "GlucaGen HypoKit oder Baqsimi Nasenspray als Glukagon-Notfall.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-083",
+      "kapitel": "Stoffwechsel",
+      "seite": 8,
+      "lateinisch": "Ketoazidose",
+      "deutsch": "Übersäuerung des Körpers durch Ketonkörper",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Pathologie",
+      "herkunft": "gr. ketos = Wachs; lat. acidus = sauer",
+      "eselsbruecke": "Keto-Azidose = saure Ketonkörper im Blut",
+      "beispiel": "Ketoazidose ist typisch beim Coma diabeticum bei Diabetes Typ 1.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-084",
+      "kapitel": "Stoffwechsel",
+      "seite": 8,
+      "lateinisch": "Ketonkörper",
+      "deutsch": "Saure Stoffwechselprodukte aus Fettabbau",
+      "wortart": "Substantiv (m, pl)",
+      "kategorie": "Stoffwechsel",
+      "herkunft": "gr. ketos = Wachs",
+      "eselsbruecke": "Ketonkörper = Produkte beim 'Ketzen' (Fett-Verbrennen)",
+      "beispiel": "Ketonkörper entstehen bei Insulinmangel durch Fettabbau in der Leber.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-085",
+      "kapitel": "Stoffwechsel",
+      "seite": 8,
+      "lateinisch": "Lipolyse",
+      "deutsch": "Abbau von Fett",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Stoffwechsel",
+      "herkunft": "gr. lipos = Fett; gr. lysis = Auflösung",
+      "eselsbruecke": "Lipo-Lyse = Lipid (Fett) 'auf-lyse-n'",
+      "beispiel": "Lipolyse wird bei Insulinmangel gesteigert, dabei entstehen Ketonkörper.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-086",
+      "kapitel": "Stoffwechsel",
+      "seite": 8,
+      "lateinisch": "Oligurie",
+      "deutsch": "Verminderte Harnausscheidung",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Symptom",
+      "herkunft": "gr. oligos = wenig; gr. ouron = Urin",
+      "eselsbruecke": "Olig-Urie = wenig Urin",
+      "beispiel": "Bei akutem Nierenversagen entsteht Oligurie.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-087",
+      "kapitel": "Stoffwechsel",
+      "seite": 8,
+      "lateinisch": "Anurie",
+      "deutsch": "Ausbleiben der Harnausscheidung",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Symptom",
+      "herkunft": "gr. a = ohne; gr. ouron = Urin",
+      "eselsbruecke": "An-Urie = ohne Urin",
+      "beispiel": "Anurie ist ein Notfall – kompletter Nierenversagen.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-088",
+      "kapitel": "Stoffwechsel",
+      "seite": 8,
+      "lateinisch": "Hypovolämie",
+      "deutsch": "Vermindertes Blutvolumen",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Pathologie",
+      "herkunft": "gr. hypo = unter; lat. volumen = Menge; gr. -ämie = im Blut",
+      "eselsbruecke": "Hypo-Vol-ämie = wenig Volumen im Blut",
+      "beispiel": "Hypovolämie durch osmotische Diurese beim Coma diabeticum.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-089",
+      "kapitel": "Stoffwechsel",
+      "seite": 8,
+      "lateinisch": "oGTT",
+      "deutsch": "Oraler Glukosetoleranztest",
+      "wortart": "Abkürzung",
+      "kategorie": "Diagnostik",
+      "herkunft": "deutsche/englische Abkürzung",
+      "eselsbruecke": "o-GTT = oral Glukose Toleranz Test",
+      "beispiel": "oGTT mit 75 g Glukose – BZ-Messung nach 2 Std.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-090",
+      "kapitel": "Stoffwechsel",
+      "seite": 8,
+      "lateinisch": "HbA1c",
+      "deutsch": "Glykosyliertes Hämoglobin (Blutzucker-Gedächtnis 2-3 Monate)",
+      "wortart": "Abkürzung",
+      "kategorie": "Laborwert",
+      "herkunft": "Hb = Hämoglobin; A1c = Subtyp",
+      "eselsbruecke": "HbA1c = das 'Langzeit-Gedächtnis' des Zuckers",
+      "beispiel": "HbA1c ≥ 6,5 % spricht für Diabetes mellitus.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-091",
+      "kapitel": "Stoffwechsel",
+      "seite": 8,
+      "lateinisch": "C-Peptide",
+      "deutsch": "Spaltprodukt bei Insulinproduktion (Maß für Eigenproduktion)",
+      "wortart": "Substantiv (n, pl)",
+      "kategorie": "Laborwert",
+      "herkunft": "engl. Connecting Peptide",
+      "eselsbruecke": "C-Peptide = 'Connecting' Peptide bei Insulin-Bildung",
+      "beispiel": "C-Peptide ↓ bei Diabetes Typ 1 (= keine Eigenproduktion).",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-092",
+      "kapitel": "Stoffwechsel",
+      "seite": 8,
+      "lateinisch": "Glukosurie",
+      "deutsch": "Glukose im Urin",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Laborwert",
+      "herkunft": "gr. glykys + ouron = Zucker im Urin",
+      "eselsbruecke": "Glukos-Urie = Glukose im Urin",
+      "beispiel": "Glukosurie ab Nierenschwelle 160-180 mg/dl.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-093",
+      "kapitel": "Stoffwechsel",
+      "seite": 8,
+      "lateinisch": "Ketonurie",
+      "deutsch": "Ketonkörper im Urin",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Laborwert",
+      "herkunft": "gr. ketos + ouron = Keton im Urin",
+      "eselsbruecke": "Keton-Urie = Keton im Urin",
+      "beispiel": "Ketonurie bei diabetischer Ketoazidose.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-094",
+      "kapitel": "Stoffwechsel",
+      "seite": 9,
+      "lateinisch": "Subkutan (s.c.)",
+      "deutsch": "Unter die Haut",
+      "wortart": "Adjektiv/Adverb",
+      "kategorie": "Medizinische Fachbegriffe",
+      "herkunft": "lat. sub = unter; lat. cutis = Haut",
+      "eselsbruecke": "Sub-Kutan = unter (sub) der Haut (Kutis)",
+      "beispiel": "Insulin wird subkutan in die Bauchdecke gespritzt.",
+      "schwierigkeit": "leicht"
+    },
+    {
+      "id": "VOK-STW-095",
+      "kapitel": "Stoffwechsel",
+      "seite": 9,
+      "lateinisch": "Intravenös (i.v.)",
+      "deutsch": "In die Vene",
+      "wortart": "Adjektiv/Adverb",
+      "kategorie": "Medizinische Fachbegriffe",
+      "herkunft": "lat. intra = in; lat. vena = Vene",
+      "eselsbruecke": "Intra-Venös = in (intra) die Vene",
+      "beispiel": "Normalinsulin darf unter Vorsicht auch i.v. gegeben werden.",
+      "schwierigkeit": "leicht"
+    },
+    {
+      "id": "VOK-STW-096",
+      "kapitel": "Stoffwechsel",
+      "seite": 9,
+      "lateinisch": "IE (Internationale Einheit)",
+      "deutsch": "Internationale Einheit (Insulin-Dosierung)",
+      "wortart": "Abkürzung",
+      "kategorie": "Pharmakologie",
+      "herkunft": "deutsche Abkürzung",
+      "eselsbruecke": "IE = Internationale Einheit (für Insulin)",
+      "beispiel": "Schlanker Erwachsener: ca. 40 IE Insulin/Tag.",
+      "schwierigkeit": "leicht"
+    },
+    {
+      "id": "VOK-STW-097",
+      "kapitel": "Stoffwechsel",
+      "seite": 9,
+      "lateinisch": "KE (Kohlenhydrateinheit)",
+      "deutsch": "Maßeinheit für 10 g Kohlenhydrate",
+      "wortart": "Abkürzung",
+      "kategorie": "Pharmakologie",
+      "herkunft": "deutsche Abkürzung",
+      "eselsbruecke": "K-E = Kohlenhydrat-Einheit (10 g)",
+      "beispiel": "1 IE Insulin deckt ca. 10-12 g Kohlenhydrate (= 1 KE) ab.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-098",
+      "kapitel": "Stoffwechsel",
+      "seite": 9,
+      "lateinisch": "Normalinsulin (Altinsulin)",
+      "deutsch": "Kurz wirksames Insulin, früher als Altinsulin bezeichnet",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Medikament",
+      "herkunft": "engl. Normal Insulin",
+      "eselsbruecke": "Normalinsulin = das 'normale' Standard-Insulin",
+      "beispiel": "Normalinsulin: Wirkungseintritt 15-30 Min, Wirkdauer 4-6 Std.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-099",
+      "kapitel": "Stoffwechsel",
+      "seite": 9,
+      "lateinisch": "Insulinanaloga",
+      "deutsch": "Künstlich modifizierte Insuline (kurz oder lang wirksam)",
+      "wortart": "Substantiv (n, pl)",
+      "kategorie": "Medikament",
+      "herkunft": "lat. analogus = ähnlich",
+      "eselsbruecke": "Analoga = 'ähnliche' Insuline (modifiziert)",
+      "beispiel": "Kurz wirkende Insulinanaloga: Wirkungseintritt 10-15 Min.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-100",
+      "kapitel": "Stoffwechsel",
+      "seite": 9,
+      "lateinisch": "Intermediärinsulin",
+      "deutsch": "Mittellang wirksames Insulin (Verzögerungsinsulin)",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Medikament",
+      "herkunft": "lat. intermedius = dazwischen",
+      "eselsbruecke": "Intermediär = 'mittlere' Wirkdauer",
+      "beispiel": "Intermediärinsulin: Wirkungseintritt 30-45 Min, Wirkdauer 12-18 Std.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-101",
+      "kapitel": "Stoffwechsel",
+      "seite": 10,
+      "lateinisch": "Glykolyse",
+      "deutsch": "Abbau von Glukose (Energiegewinnung)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Stoffwechsel",
+      "herkunft": "gr. glykys = süß; gr. lysis = Auflösung",
+      "eselsbruecke": "Glyko-Lyse = Glukose 'auf-lyse-n' (abbauen)",
+      "beispiel": "Glykolyse: Abbau von Glukose zu Pyruvat. Dabei entsteht Energie.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-102",
+      "kapitel": "Stoffwechsel",
+      "seite": 10,
+      "lateinisch": "Glykogen",
+      "deutsch": "Speicherform der Glukose (in Leber und Muskel)",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Stoffwechsel",
+      "herkunft": "gr. glykys + -gen = erzeugend",
+      "eselsbruecke": "Glyko-Gen = Glukose-erzeugend (Speicher)",
+      "beispiel": "Bei Glukoseüberschuss: Speicherung als Glykogen in Leber/Muskel.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-103",
+      "kapitel": "Stoffwechsel",
+      "seite": 10,
+      "lateinisch": "Glykogensynthese",
+      "deutsch": "Aufbau von Glykogen",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Stoffwechsel",
+      "herkunft": "gr. synthesis = Zusammensetzung",
+      "eselsbruecke": "Glykogen-Synthese = Glykogen aufbauen",
+      "beispiel": "Insulin fördert die Glykogensynthese in der Leber.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-104",
+      "kapitel": "Stoffwechsel",
+      "seite": 10,
+      "lateinisch": "Glykogenolyse",
+      "deutsch": "Abbau von Glykogen",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Stoffwechsel",
+      "herkunft": "gr. lysis = Auflösung",
+      "eselsbruecke": "Glykogeno-Lyse = Glykogen 'auf-lyse-n'",
+      "beispiel": "Glykogenolyse wird durch Glukagon stimuliert.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-105",
+      "kapitel": "Stoffwechsel",
+      "seite": 10,
+      "lateinisch": "Gluconeogenese",
+      "deutsch": "Neuaufbau von Glukose (in der Leber)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Stoffwechsel",
+      "herkunft": "gr. glykys + neos = neu + genesis = Entstehung",
+      "eselsbruecke": "Glukoneo-Genese = neue Geburt der Glukose",
+      "beispiel": "Gluconeogenese wird durch Insulin gehemmt.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-106",
+      "kapitel": "Stoffwechsel",
+      "seite": 10,
+      "lateinisch": "Lipogenese",
+      "deutsch": "Aufbau/Speicherung von Fett",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Stoffwechsel",
+      "herkunft": "gr. lipos + genesis = Fett-Entstehung",
+      "eselsbruecke": "Lipo-Genese = Geburt des Lipids (Fett)",
+      "beispiel": "Lipogenese wird durch Insulin gefördert.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-107",
+      "kapitel": "Stoffwechsel",
+      "seite": 10,
+      "lateinisch": "Proteinbiosynthese",
+      "deutsch": "Aufbau von Eiweiß (in der Zelle)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Stoffwechsel",
+      "herkunft": "gr. prōtos + bios = Leben + synthesis",
+      "eselsbruecke": "Protein-Bio-Synthese = Lebens-Eiweiß-Bildung",
+      "beispiel": "Insulin fördert die Proteinbiosynthese (anabole Wirkung).",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-108",
+      "kapitel": "Stoffwechsel",
+      "seite": 10,
+      "lateinisch": "Metformin",
+      "deutsch": "Erstes orales Antidiabetikum (Mittel der Wahl bei Typ 2)",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Medikament",
+      "herkunft": "engl. Markenname",
+      "eselsbruecke": "Met-Formin = der 'metabolische' Helfer",
+      "beispiel": "Metformin ist das Mittel der Wahl bei nicht-insulinpflichtigem Diabetes.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-109",
+      "kapitel": "Stoffwechsel",
+      "seite": 10,
+      "lateinisch": "Sulfonylharnstoffe",
+      "deutsch": "Antidiabetika, fördern Insulinfreisetzung",
+      "wortart": "Substantiv (m, pl)",
+      "kategorie": "Medikament",
+      "herkunft": "Sulfonyl + Harnstoff",
+      "eselsbruecke": "Sulfonyl-Harnstoffe = Antidiabetika-Klasse",
+      "beispiel": "Sulfonylharnstoffe fördern die Insulinausschüttung der Bauchspeicheldrüse.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-110",
+      "kapitel": "Stoffwechsel",
+      "seite": 10,
+      "lateinisch": "Alpha-Amylase",
+      "deutsch": "Verdauungsenzym für Kohlenhydrate (im Speichel und Pankreas)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Enzym",
+      "herkunft": "α = griechisch alpha; lat. amylum = Stärke",
+      "eselsbruecke": "Alpha-Amylase spaltet die 'Amyl' (Stärke)",
+      "beispiel": "Alpha-Amylase beginnt die Kohlenhydratverdauung im Mund.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-111",
+      "kapitel": "Stoffwechsel",
+      "seite": 10,
+      "lateinisch": "Polysaccharide",
+      "deutsch": "Vielfachzucker (z.B. Stärke)",
+      "wortart": "Substantiv (n, pl)",
+      "kategorie": "Biochemie",
+      "herkunft": "gr. poly = viel; gr. sakcharon = Zucker",
+      "eselsbruecke": "Poly-Saccharide = viele Zucker-Bausteine",
+      "beispiel": "Polysaccharide werden durch Alpha-Amylase zu Disacchariden abgebaut.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-112",
+      "kapitel": "Stoffwechsel",
+      "seite": 10,
+      "lateinisch": "Disaccharide",
+      "deutsch": "Zweifachzucker (z.B. Laktose, Saccharose)",
+      "wortart": "Substantiv (n, pl)",
+      "kategorie": "Biochemie",
+      "herkunft": "gr. di = zwei; gr. sakcharon = Zucker",
+      "eselsbruecke": "Di-Saccharide = zwei (di) Zucker zusammen",
+      "beispiel": "Laktose (Milchzucker) → Glukose + Galaktose (Disaccharid).",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-113",
+      "kapitel": "Stoffwechsel",
+      "seite": 10,
+      "lateinisch": "Monosaccharide",
+      "deutsch": "Einfachzucker (z.B. Glukose, Fructose, Galaktose)",
+      "wortart": "Substantiv (n, pl)",
+      "kategorie": "Biochemie",
+      "herkunft": "gr. monos = ein; gr. sakcharon = Zucker",
+      "eselsbruecke": "Mono-Saccharide = EIN-fach-Zucker",
+      "beispiel": "Glukose, Fructose und Galaktose sind Monosaccharide.",
+      "schwierigkeit": "leicht"
+    },
+    {
+      "id": "VOK-STW-114",
+      "kapitel": "Stoffwechsel",
+      "seite": 10,
+      "lateinisch": "Saccharose",
+      "deutsch": "Haushaltszucker (Disaccharid aus Glukose + Fructose)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Biochemie",
+      "herkunft": "gr. sakcharon = Zucker",
+      "eselsbruecke": "Saccharose = der 'Haushalts-Sucker'",
+      "beispiel": "Saccharose besteht aus Glukose + Fructose.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-115",
+      "kapitel": "Stoffwechsel",
+      "seite": 10,
+      "lateinisch": "Fructose",
+      "deutsch": "Fruchtzucker",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Biochemie",
+      "herkunft": "lat. fructus = Frucht",
+      "eselsbruecke": "Fruct-ose = Frucht-Zucker",
+      "beispiel": "Fructose wird in der Leber zu Glukose umgewandelt.",
+      "schwierigkeit": "leicht"
+    },
+    {
+      "id": "VOK-STW-116",
+      "kapitel": "Stoffwechsel",
+      "seite": 10,
+      "lateinisch": "Galaktose",
+      "deutsch": "Schleimzucker (Bestandteil der Laktose)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Biochemie",
+      "herkunft": "gr. gala = Milch",
+      "eselsbruecke": "Galakt-ose = aus dem 'Galaktos' (Milch)",
+      "beispiel": "Galaktose wird in der Leber zu Glukose umgewandelt.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-117",
+      "kapitel": "Stoffwechsel",
+      "seite": 10,
+      "lateinisch": "Laktose",
+      "deutsch": "Milchzucker (Disaccharid aus Glukose + Galaktose)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Biochemie",
+      "herkunft": "lat. lac = Milch",
+      "eselsbruecke": "Lakt-ose = aus dem Lakt (Milch)",
+      "beispiel": "Laktose = Milchzucker → Glukose + Galaktose durch Laktase.",
+      "schwierigkeit": "leicht"
+    },
+    {
+      "id": "VOK-STW-118",
+      "kapitel": "Stoffwechsel",
+      "seite": 10,
+      "lateinisch": "Maltose",
+      "deutsch": "Malzzucker (Disaccharid aus 2 x Glukose)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Biochemie",
+      "herkunft": "engl. malt = Malz",
+      "eselsbruecke": "Malt-ose = aus dem Malz (Bier!)",
+      "beispiel": "Maltose = Malzzucker, im Bier und Brot vorhanden.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-119",
+      "kapitel": "Stoffwechsel",
+      "seite": 10,
+      "lateinisch": "Pankreassaft",
+      "deutsch": "Verdauungssaft der Bauchspeicheldrüse",
+      "wortart": "Substantiv (m)",
+      "kategorie": "Anatomie",
+      "herkunft": "gr. pan + kreas = Bauchspeicheldrüse",
+      "eselsbruecke": "Pankreas-Saft = aus der Bauchspeicheldrüse",
+      "beispiel": "Pankreassaft enthält Alpha-Amylase für die Kohlenhydratverdauung.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-120",
+      "kapitel": "Stoffwechsel",
+      "seite": 10,
+      "lateinisch": "Duodenum",
+      "deutsch": "Zwölffingerdarm",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Anatomie",
+      "herkunft": "lat. duodenum = aus zwölf",
+      "eselsbruecke": "Duo-Denum = '12-Finger' breit (alte Längenmessung)",
+      "beispiel": "Im Duodenum werden Polysaccharide zu Monosacchariden abgebaut.",
+      "schwierigkeit": "leicht"
+    }
+  ]
+}

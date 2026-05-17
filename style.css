@@ -1,0 +1,843 @@
+/* ================================================
+   Heilpraktiker Lern-App - Mobile First Design
+   ================================================ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+:root {
+    --primary: #2E7D5B;
+    --primary-dark: #1B5E40;
+    --secondary: #4A90A4;
+    --richtig: #4CAF50;
+    --falsch: #F44336;
+    --hintergrund: #F5F5F0;
+    --karte: #FFFFFF;
+    --text: #2C3E50;
+    --text-light: #7F8C8D;
+    --gelb: #FFF9E6;
+    --gruen-hell: #E8F5E9;
+    --schatten: 0 2px 8px rgba(0,0,0,0.1);
+    --schatten-stark: 0 4px 16px rgba(0,0,0,0.15);
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+    background: var(--hintergrund);
+    color: var(--text);
+    min-height: 100vh;
+    overflow-x: hidden;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+#app {
+    max-width: 600px;
+    margin: 0 auto;
+    min-height: 100vh;
+    padding: 16px;
+    padding-bottom: 80px;
+}
+
+/* ================================================
+   HEADER
+   ================================================ */
+.header {
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    color: var(--primary);
+    font-size: 1.8em;
+    margin-bottom: 5px;
+}
+
+.header .untertitel {
+    color: var(--text-light);
+    font-size: 0.9em;
+}
+
+/* ================================================
+   STATISTIK BADGE
+   ================================================ */
+.stats-badge {
+    background: var(--karte);
+    border-radius: 12px;
+    padding: 12px 16px;
+    margin-bottom: 20px;
+    box-shadow: var(--schatten);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.stat-item {
+    text-align: center;
+    flex: 1;
+    min-width: 80px;
+}
+
+.stat-value {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: var(--primary);
+}
+
+.stat-label {
+    font-size: 0.75em;
+    color: var(--text-light);
+    margin-top: 2px;
+}
+
+/* ================================================
+   MODUS-BUTTONS
+   ================================================ */
+.modus-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.modus-btn {
+    background: var(--karte);
+    border: none;
+    border-radius: 12px;
+    padding: 18px 20px;
+    text-align: left;
+    cursor: pointer;
+    box-shadow: var(--schatten);
+    transition: transform 0.15s, box-shadow 0.15s;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    width: 100%;
+    font-family: inherit;
+}
+
+.modus-btn:active {
+    transform: scale(0.97);
+    box-shadow: var(--schatten-stark);
+}
+
+.modus-icon {
+    font-size: 1.8em;
+    width: 50px;
+    height: 50px;
+    background: var(--gruen-hell);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.modus-info {
+    flex: 1;
+}
+
+.modus-titel {
+    font-weight: bold;
+    color: var(--text);
+    font-size: 1.05em;
+    margin-bottom: 2px;
+}
+
+.modus-beschreibung {
+    font-size: 0.85em;
+    color: var(--text-light);
+}
+
+/* ================================================
+   FRAGE-VIEW
+   ================================================ */
+.frage-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+    font-size: 0.85em;
+    color: var(--text-light);
+}
+
+.progress-bar {
+    height: 6px;
+    background: rgba(46, 125, 91, 0.15);
+    border-radius: 3px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.progress-fill {
+    height: 100%;
+    background: var(--primary);
+    transition: width 0.3s;
+}
+
+.meta-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 16px;
+}
+
+.meta-badge {
+    background: var(--gruen-hell);
+    color: var(--primary);
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 0.75em;
+    font-weight: 500;
+}
+
+.meta-badge.schwierigkeit {
+    background: #FFF3E0;
+    color: #E65100;
+}
+
+.meta-badge.relevanz {
+    background: #FCE4EC;
+    color: #C2185B;
+}
+
+.fallbeschreibung {
+    background: var(--gelb);
+    border-left: 4px solid #F9A825;
+    padding: 14px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    font-style: italic;
+    font-size: 0.95em;
+    line-height: 1.5;
+}
+
+.fallbeschreibung-titel {
+    font-weight: bold;
+    color: #E65100;
+    margin-bottom: 6px;
+    font-style: normal;
+    font-size: 0.85em;
+}
+
+.frage-text {
+    background: var(--karte);
+    padding: 16px;
+    border-radius: 12px;
+    font-size: 1.1em;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: 16px;
+    box-shadow: var(--schatten);
+}
+
+/* ================================================
+   ANTWORT-OPTIONEN
+   ================================================ */
+.optionen {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.option {
+    background: var(--karte);
+    border: 2px solid transparent;
+    border-radius: 10px;
+    padding: 14px 16px;
+    cursor: pointer;
+    transition: all 0.2s;
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    font-family: inherit;
+    text-align: left;
+    width: 100%;
+    font-size: 0.95em;
+    line-height: 1.4;
+    color: var(--text);
+}
+
+.option:active {
+    transform: scale(0.98);
+}
+
+.option-buchstabe {
+    background: var(--gruen-hell);
+    color: var(--primary);
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    flex-shrink: 0;
+    font-size: 0.9em;
+}
+
+.option.selected {
+    border-color: var(--primary);
+    background: var(--gruen-hell);
+}
+
+.option.selected .option-buchstabe {
+    background: var(--primary);
+    color: white;
+}
+
+.option.richtig-anzeige {
+    border-color: var(--richtig);
+    background: var(--gruen-hell);
+}
+
+.option.falsch-anzeige {
+    border-color: var(--falsch);
+    background: #FFEBEE;
+}
+
+/* ================================================
+   RICHTIG/FALSCH BUTTONS
+   ================================================ */
+.richtig-falsch-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.rf-btn {
+    padding: 24px;
+    border-radius: 12px;
+    border: 2px solid transparent;
+    background: var(--karte);
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: var(--schatten);
+    font-family: inherit;
+    transition: all 0.2s;
+}
+
+.rf-btn:active {
+    transform: scale(0.96);
+}
+
+.rf-btn.richtig-btn {
+    color: var(--richtig);
+}
+
+.rf-btn.falsch-btn {
+    color: var(--falsch);
+}
+
+.rf-btn.selected.richtig-btn {
+    background: var(--gruen-hell);
+    border-color: var(--richtig);
+}
+
+.rf-btn.selected.falsch-btn {
+    background: #FFEBEE;
+    border-color: var(--falsch);
+}
+
+/* ================================================
+   BUTTONS
+   ================================================ */
+.btn-primary, .btn-secondary {
+    width: 100%;
+    padding: 16px;
+    border: none;
+    border-radius: 12px;
+    font-size: 1.05em;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 8px;
+    font-family: inherit;
+    transition: transform 0.15s;
+}
+
+.btn-primary {
+    background: var(--primary);
+    color: white;
+    box-shadow: var(--schatten);
+}
+
+.btn-primary:active {
+    transform: scale(0.98);
+}
+
+.btn-secondary {
+    background: white;
+    color: var(--text);
+    border: 1px solid #ddd;
+}
+
+.btn-secondary:active {
+    transform: scale(0.98);
+}
+
+/* ================================================
+   FEEDBACK
+   ================================================ */
+.feedback-ergebnis {
+    text-align: center;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 16px;
+    font-size: 1.8em;
+    font-weight: bold;
+    color: white;
+}
+
+.feedback-ergebnis.richtig {
+    background: var(--richtig);
+}
+
+.feedback-ergebnis.falsch {
+    background: var(--falsch);
+}
+
+.feedback-box {
+    background: var(--karte);
+    padding: 14px;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    box-shadow: var(--schatten);
+}
+
+.feedback-titel {
+    font-weight: bold;
+    color: var(--primary);
+    margin-bottom: 8px;
+    font-size: 0.9em;
+}
+
+.feedback-text {
+    line-height: 1.5;
+    font-size: 0.95em;
+}
+
+.erklaerung-box {
+    background: var(--gelb);
+    border-left: 4px solid #F9A825;
+    padding: 14px;
+    border-radius: 10px;
+    margin-bottom: 16px;
+    line-height: 1.6;
+}
+
+.runden-stats {
+    background: var(--karte);
+    padding: 12px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 16px;
+    font-size: 0.9em;
+    color: var(--text-light);
+    box-shadow: var(--schatten);
+}
+
+/* ================================================
+   RUNDEN-ERGEBNIS
+   ================================================ */
+.ergebnis-view {
+    text-align: center;
+    padding: 20px;
+}
+
+.ergebnis-icon {
+    font-size: 4em;
+    margin-bottom: 16px;
+}
+
+.ergebnis-titel {
+    font-size: 1.6em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: var(--primary);
+}
+
+.ergebnis-quote {
+    font-size: 3em;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.ergebnis-bewertung {
+    font-size: 1.1em;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding: 14px;
+    border-radius: 10px;
+    background: var(--karte);
+    box-shadow: var(--schatten);
+}
+
+.ergebnis-stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin: 20px 0;
+}
+
+.ergebnis-stat {
+    background: var(--karte);
+    padding: 16px;
+    border-radius: 10px;
+    box-shadow: var(--schatten);
+}
+
+.ergebnis-stat-label {
+    font-size: 0.8em;
+    color: var(--text-light);
+}
+
+.ergebnis-stat-wert {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 4px;
+}
+
+/* ================================================
+   STATISTIK-VIEW
+   ================================================ */
+.stats-titel {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: var(--primary);
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.thema-stats {
+    background: var(--karte);
+    border-radius: 10px;
+    padding: 12px;
+    margin-bottom: 10px;
+    box-shadow: var(--schatten);
+}
+
+.thema-name {
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.thema-balken-bg {
+    height: 8px;
+    background: #eee;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.thema-balken-fill {
+    height: 100%;
+    background: var(--primary);
+    transition: width 0.5s;
+}
+
+.thema-quote {
+    font-size: 0.8em;
+    color: var(--text-light);
+    margin-top: 4px;
+}
+
+/* ================================================
+   ZURÜCK-BUTTON
+   ================================================ */
+.zurueck-btn {
+    background: transparent;
+    border: none;
+    color: var(--primary);
+    font-size: 1em;
+    cursor: pointer;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-family: inherit;
+}
+
+/* ================================================
+   THEMEN-LISTE
+   ================================================ */
+.themen-liste {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.themen-item {
+    background: var(--karte);
+    padding: 14px 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: var(--schatten);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    font-family: inherit;
+    text-align: left;
+    width: 100%;
+}
+
+.themen-item:active {
+    transform: scale(0.98);
+}
+
+.themen-name {
+    font-weight: 600;
+    color: var(--text);
+}
+
+.themen-anzahl {
+    background: var(--gruen-hell);
+    color: var(--primary);
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+/* ================================================
+   INFO-BOX
+   ================================================ */
+.info-box {
+    background: var(--gruen-hell);
+    border-radius: 10px;
+    padding: 14px;
+    margin: 20px 0;
+    text-align: center;
+    color: var(--primary);
+    font-size: 0.9em;
+}
+
+/* ================================================
+   RESPONSIVE
+   ================================================ */
+@media (min-width: 768px) {
+    #app {
+        max-width: 700px;
+        padding: 24px;
+    }
+
+    .header h1 {
+        font-size: 2.2em;
+    }
+}
+
+/* ================================================
+   ANIMATIONEN
+   ================================================ */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.view {
+    animation: fadeIn 0.3s ease-out;
+}
+
+/* ================================================
+   SECTION-TITLE
+   ================================================ */
+.section-title {
+    font-size: 0.85em;
+    font-weight: bold;
+    color: var(--primary);
+    margin: 24px 0 12px 4px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.modus-btn-vokabel .modus-icon {
+    background: #FFF3E0;
+}
+
+/* ================================================
+   KARTEIKARTE (Vokabeltrainer)
+   ================================================ */
+.karteikarte {
+    background: linear-gradient(135deg, #FFFFFF 0%, #F8F8F0 100%);
+    border-radius: 16px;
+    min-height: 280px;
+    padding: 30px 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 3px solid var(--primary);
+    transition: transform 0.2s;
+    position: relative;
+}
+
+.karteikarte:active {
+    transform: scale(0.98);
+}
+
+.karte-label {
+    background: var(--primary);
+    color: white;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 0.75em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.karte-label-back {
+    background: var(--secondary);
+    color: white;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 0.75em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.karte-text {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: var(--text);
+    line-height: 1.3;
+    margin-bottom: 20px;
+    word-wrap: break-word;
+}
+
+.karte-text-back {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: var(--text);
+    line-height: 1.3;
+    margin-bottom: 15px;
+    word-wrap: break-word;
+}
+
+.karte-hinweis {
+    font-size: 0.85em;
+    color: var(--text-light);
+    margin-top: 20px;
+    font-style: italic;
+}
+
+.karte-extra {
+    background: var(--gelb);
+    border-left: 3px solid #F9A825;
+    padding: 10px 14px;
+    border-radius: 8px;
+    margin: 8px 0;
+    font-size: 0.9em;
+    line-height: 1.4;
+    text-align: left;
+    width: 100%;
+}
+
+.karte-extra-klein {
+    background: var(--gruen-hell);
+    padding: 8px 12px;
+    border-radius: 6px;
+    margin: 6px 0;
+    font-size: 0.8em;
+    line-height: 1.4;
+    text-align: left;
+    width: 100%;
+    color: var(--text);
+}
+
+/* ================================================
+   VOKABEL-BEWERTUNGS-BUTTONS
+   ================================================ */
+.vokabel-bewertung {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin: 16px 0;
+}
+
+.btn-bewertung {
+    padding: 18px;
+    border: none;
+    border-radius: 12px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: var(--schatten);
+    font-family: inherit;
+    color: white;
+    transition: transform 0.15s;
+}
+
+.btn-bewertung:active {
+    transform: scale(0.96);
+}
+
+.btn-nicht-gewusst {
+    background: var(--falsch);
+}
+
+.btn-gewusst {
+    background: var(--richtig);
+}
+
+/* ================================================
+   INSTALL-PROMPT
+   ================================================ */
+.install-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: var(--primary);
+    color: white;
+    padding: 14px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 -4px 12px rgba(0,0,0,0.15);
+    z-index: 1000;
+}
+
+.install-text {
+    font-size: 0.9em;
+}
+
+.install-btn {
+    background: white;
+    color: var(--primary);
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.install-close {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 1.5em;
+    cursor: pointer;
+    margin-left: 8px;
+}
