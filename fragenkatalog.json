@@ -1,7 +1,7 @@
 {
-  "version": "3.0",
-  "erstellt_am": "2026-05-17",
-  "beschreibung": "Fragenkatalog + Vokabeltrainer Heilpraktikerprüfung - Seite 3-10 (Stoffwechsel: Metabolisches Syndrom, Diabetes mellitus komplett)",
+  "version": "4.0",
+  "erstellt_am": "2026-05-24",
+  "beschreibung": "Fragenkatalog + Vokabeltrainer Heilpraktikerprüfung - Seite 3-14 (Stoffwechsel komplett: Metabolisches Syndrom, Diabetes, Adipositas, Gicht)",
   "fragenkatalog": [
     {
       "id": "STW-003-01",
@@ -3465,6 +3465,1521 @@
         "Fallbeispiel"
       ],
       "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-011-01",
+      "kapitel": "Stoffwechsel",
+      "thema": "Adipositas - Definition",
+      "seite": 11,
+      "typ": "single_choice",
+      "frage": "Was versteht man unter Adipositas?",
+      "optionen": [
+        "Untergewicht durch Mangelernährung",
+        "Vermehrung des Körperfetts über das normale Maß hinweg",
+        "Eine reine Hormonstörung",
+        "Wassereinlagerung im Gewebe",
+        "Muskelschwund"
+      ],
+      "richtig": 1,
+      "erklaerung": "Adipositas (Fettsucht, Fettleibigkeit) bezeichnet eine Vermehrung des Körperfetts über das normale Maß hinweg. Sie zählt zum metabolischen Syndrom und stellt ein metabolisches und kardiovaskuläres Risiko dar.",
+      "schwierigkeit": "leicht",
+      "tags": [
+        "Stoffwechsel",
+        "Adipositas",
+        "Definition"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-011-02",
+      "kapitel": "Stoffwechsel",
+      "thema": "Adipositas - Ätiologie",
+      "seite": 11,
+      "typ": "multiple_choice",
+      "frage": "Welche Ursachen können zu Adipositas führen?",
+      "optionen": [
+        "Familiäre Disposition",
+        "Bewegungsmangel, Immobilisation, Fehlernährung (übermäßige Kalorienzufuhr, Binge-Eating)",
+        "Depressionen, Stress",
+        "Endokrine Erkrankungen (z.B. Hypothyreose, Diabetes mellitus, Cushing-Syndrom)",
+        "Medikamente (z.B. Pille, Antidepressiva, Glukokortikoide)",
+        "Übermäßiger Sport"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "erklaerung": "Ursachen der Adipositas: familiäre Disposition, Bewegungsmangel/Fehlernährung/Binge-Eating, Depressionen/Stress, endokrine Erkrankungen (Hypothyreose, Diabetes, Cushing), Medikamente (Pille, Antidepressiva, Glukokortikoide).",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Adipositas",
+        "Ätiologie"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-011-03",
+      "kapitel": "Stoffwechsel",
+      "thema": "Adipositas - Klinik",
+      "seite": 11,
+      "typ": "multiple_choice",
+      "frage": "Welche klinischen Zeichen treten bei Adipositas (Fettleibigkeit) auf?",
+      "optionen": [
+        "Rücken- und Gelenkbeschwerden",
+        "Hauterscheinungen (Hautausschläge, Entzündungen, Pilzinfektionen, Apfelsinenhaut, Striae)",
+        "Kurzatmigkeit, verstärktes Schwitzen",
+        "Leistungsminderung, rasche Ermüdbarkeit",
+        "Herz-Kreislaufbelastungen (Tachykardie, arterielle Hypertonie)",
+        "Untergewicht"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "erklaerung": "Klinik der Adipositas: Rücken-/Gelenkbeschwerden, Hauterscheinungen (Striae, Pilzinfektionen), Kurzatmigkeit/Schwitzen, Leistungsminderung, Herz-Kreislaufbelastungen. Auch Stoffwechsel-/Hormonstörungen und Organvergrößerungen.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Adipositas",
+        "Klinik"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-011-04",
+      "kapitel": "Stoffwechsel",
+      "thema": "Adipositas - Organe",
+      "seite": 11,
+      "typ": "single_choice",
+      "frage": "Welche Organveränderung kann bei Adipositas auftreten?",
+      "optionen": [
+        "Verkleinerung aller Organe",
+        "Vergrößerung von Herz, Nieren, Leber (Fettleber) und Pankreas",
+        "Nur die Milz wird größer",
+        "Keine Organveränderungen",
+        "Schrumpfung der Leber"
+      ],
+      "richtig": 1,
+      "erklaerung": "Bei Adipositas kommt es zur Vergrößerung von Herz, Nieren, Leber (Fettleber) und Pankreas.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Adipositas",
+        "Organe"
+      ],
+      "pruefungsrelevanz": "mittel"
+    },
+    {
+      "id": "STW-011-05",
+      "kapitel": "Stoffwechsel",
+      "thema": "Adipositas - Komplikationen",
+      "seite": 11,
+      "typ": "multiple_choice",
+      "frage": "Welche Komplikationen können bei Adipositas auftreten?",
+      "optionen": [
+        "Metabolisches Syndrom (Hypertonie, Diabetes, Fettstoffwechselstörungen)",
+        "Gicht, Gallensteine, Refluxkrankheit",
+        "Infertilität, Fetopathie, PCOS (polyzystisches Ovarialsyndrom)",
+        "Schlafapnoe-Syndrom",
+        "Kardiomyopathie",
+        "Untergewicht"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "erklaerung": "Komplikationen der Adipositas: metabolisches Syndrom, Gicht/Gallensteine/Reflux, Infertilität/PCOS, Schlafapnoe-Syndrom (Atemstillstand im Schlaf), Kardiomyopathie (Herzmuskelerkrankung).",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Adipositas",
+        "Komplikationen"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-011-06",
+      "kapitel": "Stoffwechsel",
+      "thema": "Adipositas - Schlafapnoe",
+      "seite": 11,
+      "typ": "single_choice",
+      "frage": "Was ist das Schlafapnoe-Syndrom?",
+      "optionen": [
+        "Schlaflosigkeit",
+        "Atemstillstand (Atempausen) während des Schlafs",
+        "Schnarchen ohne Folgen",
+        "Verlängerter Tiefschlaf",
+        "Albträume"
+      ],
+      "richtig": 1,
+      "erklaerung": "Beim Schlafapnoe-Syndrom kommt es während des Schlafs zu Atemstillständen (Apnoe = Atempausen). Häufige Komplikation bei Adipositas.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Adipositas",
+        "Schlafapnoe"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-011-07",
+      "kapitel": "Stoffwechsel",
+      "thema": "Adipositas - Tumorrisiko",
+      "seite": 11,
+      "typ": "multiple_choice",
+      "frage": "Für welche Tumoren ist das Risiko bei Adipositas erhöht?",
+      "optionen": [
+        "Dickdarm-Karzinom",
+        "Gebärmutter-Karzinom",
+        "Mamma-Karzinom (Brustkrebs)",
+        "Hautkrebs durch Sonne",
+        "Knochentumoren"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Bei Adipositas ist das Risiko erhöht für: Dickdarm-Karzinom, Gebärmutter-Karzinom und Mamma-Karzinom (Brustkrebs).",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Adipositas",
+        "Tumorrisiko"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-011-08",
+      "kapitel": "Stoffwechsel",
+      "thema": "BMI-Berechnung",
+      "seite": 11,
+      "typ": "single_choice",
+      "frage": "Wie wird der Body-Mass-Index (BMI) berechnet?",
+      "optionen": [
+        "Körpergewicht (kg) × Körpergröße (m)",
+        "Körpergewicht (kg) ÷ Körpergröße (m)²",
+        "Körpergröße (m) ÷ Körpergewicht (kg)",
+        "Körpergewicht (kg) ÷ Körpergröße (m)",
+        "Körpergröße (cm) × 2"
+      ],
+      "richtig": 1,
+      "erklaerung": "Der BMI wird berechnet als: Körpergewicht (kg) ÷ Körpergröße (m)². Beispiel: 85 kg ÷ (1,80 m)² = 85 ÷ 3,24 = 26,2.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Adipositas",
+        "BMI",
+        "Berechnung"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-011-09",
+      "kapitel": "Stoffwechsel",
+      "thema": "BMI-Werte WHO",
+      "seite": 11,
+      "typ": "single_choice",
+      "frage": "Welcher BMI-Bereich gilt nach WHO als Normalgewicht?",
+      "optionen": [
+        "< 18,5",
+        "18,5 - 24,9",
+        "25,0 - 29,9",
+        "30,0 - 34,9",
+        "≥ 40"
+      ],
+      "richtig": 1,
+      "erklaerung": "WHO-BMI-Klassifikation: < 18,5 Untergewicht, 18,5-24,9 Normalgewicht, 25,0-29,9 Übergewicht/Präadipositas, ≥ 30,0 Adipositas.",
+      "schwierigkeit": "leicht",
+      "tags": [
+        "Stoffwechsel",
+        "BMI",
+        "Normalgewicht"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-011-10",
+      "kapitel": "Stoffwechsel",
+      "thema": "BMI-Werte Adipositas",
+      "seite": 11,
+      "typ": "single_choice",
+      "frage": "Ab welchem BMI-Wert spricht man von Adipositas?",
+      "optionen": [
+        "≥ 18,5",
+        "≥ 25,0",
+        "≥ 30,0",
+        "≥ 35,0",
+        "≥ 40,0"
+      ],
+      "richtig": 2,
+      "erklaerung": "Adipositas beginnt bei einem BMI ≥ 30,0. Grad I: 30,0-34,9; Grad II: 35,0-39,9; Grad III: ≥ 40.",
+      "schwierigkeit": "leicht",
+      "tags": [
+        "Stoffwechsel",
+        "BMI",
+        "Adipositas"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-011-11",
+      "kapitel": "Stoffwechsel",
+      "thema": "BMI Adipositas Grade",
+      "seite": 11,
+      "typ": "single_choice",
+      "frage": "Welcher BMI entspricht Adipositas Grad III?",
+      "optionen": [
+        "30,0 - 34,9",
+        "35,0 - 39,9",
+        "≥ 40",
+        "25,0 - 29,9",
+        "≥ 30"
+      ],
+      "richtig": 2,
+      "erklaerung": "Adipositas Grad III (schwerste Form): BMI ≥ 40. Grad I: 30,0-34,9; Grad II: 35,0-39,9.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "BMI",
+        "Adipositas Grad III"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-011-12",
+      "kapitel": "Stoffwechsel",
+      "thema": "Taillenumfang",
+      "seite": 11,
+      "typ": "single_choice",
+      "frage": "Ab welchem BMI sollte zusätzlich der Taillenumfang gemessen werden?",
+      "optionen": [
+        "BMI > 18,5 kg/m²",
+        "BMI > 25 kg/m²",
+        "BMI > 30 kg/m²",
+        "BMI > 40 kg/m²",
+        "Immer"
+      ],
+      "richtig": 1,
+      "erklaerung": "Der Taillenumfang sollte bei Menschen mit einem BMI > 25 kg/m² gemessen werden, da das Fettverteilungsmuster das metabolische und kardiovaskuläre Risiko bestimmt.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Adipositas",
+        "Taillenumfang"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-011-13",
+      "kapitel": "Stoffwechsel",
+      "thema": "Abdominale Adipositas",
+      "seite": 11,
+      "typ": "single_choice",
+      "frage": "Ab welchem Taillenumfang besteht eine abdominale Adipositas?",
+      "optionen": [
+        "Frauen > 80 cm, Männer > 94 cm",
+        "Frauen > 88 cm, Männer > 102 cm",
+        "Frauen > 70 cm, Männer > 80 cm",
+        "Frauen > 100 cm, Männer > 120 cm",
+        "Bei allen ab 90 cm"
+      ],
+      "richtig": 1,
+      "erklaerung": "Eine abdominale Adipositas besteht bei einem Taillenumfang > 88 cm (Frauen) und > 102 cm (Männer). Deutlich erhöhtes Risiko. (Bereits erhöht: Frauen ≥ 80, Männer ≥ 94 cm.)",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Adipositas",
+        "Taillenumfang"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-011-14",
+      "kapitel": "Stoffwechsel",
+      "thema": "Adipositas bei Kindern",
+      "seite": 11,
+      "typ": "richtig_falsch",
+      "frage": "Bei Kindern und Jugendlichen können keine einheitlichen BMI-Werte für Adipositas festgelegt werden, daher werden alters- und geschlechtsspezifische Perzentilkurven verwendet.",
+      "richtig": true,
+      "erklaerung": "Richtig – CAVE: Bei Kindern und Jugendlichen werden statt fester BMI-Werte alters- und geschlechtsspezifische Perzentilkurven verwendet.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Adipositas",
+        "Kinder",
+        "Perzentilen"
+      ],
+      "pruefungsrelevanz": "mittel"
+    },
+    {
+      "id": "STW-011-15",
+      "kapitel": "Stoffwechsel",
+      "thema": "Adipositas - Diagnostik",
+      "seite": 11,
+      "typ": "multiple_choice",
+      "frage": "Welche weitere Diagnostik wird bei Adipositas durchgeführt?",
+      "optionen": [
+        "Blut: Nüchternblutzucker, HbA1c, Blutfettwerte, Harnsäure, Schilddrüsenhormone, Nierenwerte",
+        "Urin: Eiweißausscheidung",
+        "Blutdruckmessung",
+        "Röntgen des gesamten Körpers",
+        "Lungenfunktion"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Weitere Diagnostik bei Adipositas: Blut (Nüchternblutzucker, HbA1c, Blutfette, Harnsäure, Schilddrüsenhormone, Nierenwerte), Urin (Eiweißausscheidung), Blutdruckmessung.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Adipositas",
+        "Diagnostik"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-011-F1",
+      "kapitel": "Stoffwechsel",
+      "thema": "Adipositas - BMI berechnen",
+      "seite": 11,
+      "typ": "fallbeispiel",
+      "fallbeschreibung": "Ein Patient wiegt 110 kg und ist 1,75 m groß.",
+      "frage": "Welcher BMI und welche Klassifikation liegen vor? (BMI = Gewicht ÷ Größe²)",
+      "optionen": [
+        "BMI 28,5 – Übergewicht",
+        "BMI 35,9 – Adipositas Grad II",
+        "BMI 25,0 – Normalgewicht",
+        "BMI 40,2 – Adipositas Grad III",
+        "BMI 22,0 – Normalgewicht"
+      ],
+      "richtig": 1,
+      "erklaerung": "Berechnung: 110 ÷ (1,75)² = 110 ÷ 3,0625 = 35,9. Ein BMI von 35,9 entspricht Adipositas Grad II (35,0-39,9).",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Adipositas",
+        "BMI",
+        "Fallbeispiel"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-011-F2",
+      "kapitel": "Stoffwechsel",
+      "thema": "Adipositas - Komplikationen",
+      "seite": 11,
+      "typ": "fallbeispiel",
+      "fallbeschreibung": "Eine 45-jährige adipöse Patientin (BMI 38) klagt über Tagesmüdigkeit, lautes Schnarchen und morgendliche Kopfschmerzen. Ihr Partner berichtet von Atempausen während des Schlafs.",
+      "frage": "Welche Adipositas-Komplikation liegt am wahrscheinlichsten vor?",
+      "optionen": [
+        "Diabetes mellitus",
+        "Schlafapnoe-Syndrom",
+        "Gallensteine",
+        "Kardiomyopathie",
+        "PCOS"
+      ],
+      "richtig": 1,
+      "erklaerung": "Tagesmüdigkeit, lautes Schnarchen, morgendliche Kopfschmerzen und beobachtete Atempausen sind klassische Zeichen des Schlafapnoe-Syndroms – eine häufige Komplikation bei Adipositas.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Adipositas",
+        "Schlafapnoe",
+        "Fallbeispiel"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-012-01",
+      "kapitel": "Stoffwechsel",
+      "thema": "Adipositas - Therapie",
+      "seite": 12,
+      "typ": "multiple_choice",
+      "frage": "Welche Therapiemaßnahmen werden bei Adipositas eingesetzt?",
+      "optionen": [
+        "Behandlung der Ursache (bei metabolischen/hormonellen Erkrankungen)",
+        "Ernährungsumstellung (ballaststoffreich, Kalorienreduktion)",
+        "Bewegungstherapie (Ausdauersport, mehr Bewegung im Alltag)",
+        "Verhaltenstherapie, Gewichtsreduktionsprogramme",
+        "Medikamente (Lipasehemmer, Statine)",
+        "Evtl. operative Magenverkleinerung",
+        "Verzicht auf jede Bewegung"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "erklaerung": "Therapie der Adipositas: Ursachenbehandlung, Ernährungsumstellung, Bewegungstherapie, Verhaltenstherapie, Medikamente (Lipasehemmer, Statine), evtl. operative Magenverkleinerung.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Adipositas",
+        "Therapie"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-012-02",
+      "kapitel": "Stoffwechsel",
+      "thema": "Adipositas - Medikamente",
+      "seite": 12,
+      "typ": "single_choice",
+      "frage": "Welche Medikamente werden bei der Adipositas-Therapie genannt?",
+      "optionen": [
+        "Antibiotika und Cortison",
+        "Lipasehemmer und Statine",
+        "Insulin und Metformin",
+        "Schmerzmittel",
+        "Blutverdünner"
+      ],
+      "richtig": 1,
+      "erklaerung": "Bei der medikamentösen Adipositas-Therapie werden Lipasehemmer (hemmen Fettaufnahme) und Statine (senken Cholesterin) genannt.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Adipositas",
+        "Medikamente"
+      ],
+      "pruefungsrelevanz": "mittel"
+    },
+    {
+      "id": "STW-012-03",
+      "kapitel": "Stoffwechsel",
+      "thema": "Adipositas - Ernährung",
+      "seite": 12,
+      "typ": "multiple_choice",
+      "frage": "Was beinhaltet die Ernährungsumstellung bei Adipositas?",
+      "optionen": [
+        "Gesunde, ausgewogene und ballaststoffreiche Ernährung",
+        "Kalorienreduktion",
+        "Reduzierung von fett- und zuckerreichen Lebensmitteln",
+        "Erhöhung der Zuckeraufnahme",
+        "Verzicht auf Ballaststoffe"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Ernährungsumstellung: gesunde, ausgewogene, ballaststoffreiche Ernährung, Kalorienreduktion, Reduzierung fett- und zuckerreicher Lebensmittel.",
+      "schwierigkeit": "leicht",
+      "tags": [
+        "Stoffwechsel",
+        "Adipositas",
+        "Ernährung"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-012-04",
+      "kapitel": "Stoffwechsel",
+      "thema": "DGE-Empfehlungen",
+      "seite": 12,
+      "typ": "single_choice",
+      "frage": "Wann veröffentlichte die DGE (Deutsche Gesellschaft für Ernährung) neue Ernährungsempfehlungen?",
+      "optionen": [
+        "2020",
+        "2022",
+        "2024",
+        "2025",
+        "2018"
+      ],
+      "richtig": 2,
+      "erklaerung": "Die DGE hat 2024 neue Ernährungsempfehlungen für gesunde Personen im Alter von 18-65 Jahren veröffentlicht.",
+      "schwierigkeit": "leicht",
+      "tags": [
+        "Stoffwechsel",
+        "DGE",
+        "Ernährung"
+      ],
+      "pruefungsrelevanz": "mittel"
+    },
+    {
+      "id": "STW-012-05",
+      "kapitel": "Stoffwechsel",
+      "thema": "DGE - Getränke",
+      "seite": 12,
+      "typ": "single_choice",
+      "frage": "Wie viel Wasser empfiehlt die DGE pro Tag?",
+      "optionen": [
+        "0,5 Liter",
+        "1,0 Liter",
+        "1,5 Liter",
+        "3,0 Liter",
+        "5,0 Liter"
+      ],
+      "richtig": 2,
+      "erklaerung": "Die DGE empfiehlt als Getränk am besten Wasser, mindestens 1,5 Liter pro Tag.",
+      "schwierigkeit": "leicht",
+      "tags": [
+        "Stoffwechsel",
+        "DGE",
+        "Getränke"
+      ],
+      "pruefungsrelevanz": "mittel"
+    },
+    {
+      "id": "STW-012-06",
+      "kapitel": "Stoffwechsel",
+      "thema": "DGE - Obst und Gemüse",
+      "seite": 12,
+      "typ": "single_choice",
+      "frage": "Wie viele Portionen Obst und Gemüse empfiehlt die DGE pro Tag?",
+      "optionen": [
+        "Mindestens 2 Portionen",
+        "Mindestens 3 Portionen",
+        "Mindestens 5 Portionen",
+        "Mindestens 8 Portionen",
+        "Mindestens 10 Portionen"
+      ],
+      "richtig": 2,
+      "erklaerung": "Die DGE empfiehlt mindestens 5 Portionen Obst und Gemüse pro Tag – 'viel und bunt'.",
+      "schwierigkeit": "leicht",
+      "tags": [
+        "Stoffwechsel",
+        "DGE",
+        "Obst und Gemüse"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-012-07",
+      "kapitel": "Stoffwechsel",
+      "thema": "DGE - Fleisch",
+      "seite": 12,
+      "typ": "single_choice",
+      "frage": "Wie viel Fleisch und Wurst empfiehlt die DGE maximal pro Woche?",
+      "optionen": [
+        "Maximal 100 g",
+        "Maximal 300 g",
+        "Maximal 500 g",
+        "Maximal 1000 g",
+        "Unbegrenzt"
+      ],
+      "richtig": 1,
+      "erklaerung": "Die DGE empfiehlt maximal 300 g Fleisch und Wurst pro Woche – 'weniger ist mehr'.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "DGE",
+        "Fleisch"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-012-08",
+      "kapitel": "Stoffwechsel",
+      "thema": "DGE - Empfehlungen",
+      "seite": 12,
+      "typ": "multiple_choice",
+      "frage": "Welche Empfehlungen gibt die DGE für eine gesunde Ernährung?",
+      "optionen": [
+        "Vollkorn ist die beste Wahl (Getreide)",
+        "Pflanzliche Öle bevorzugen (Raps-, Walnuss-, Lein-, Soja-, Olivenöl)",
+        "1-2 mal Fisch pro Woche",
+        "Mindestens 1 Portion Nüsse pro Tag",
+        "Süßes/Salziges/Fettiges besser stehen lassen",
+        "Täglich Fast Food"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "erklaerung": "DGE-Empfehlungen: Vollkorn, pflanzliche Öle, 1-2x Fisch/Woche, 1 Portion Nüsse/Tag, Süßes/Salziges/Fettiges meiden. Außerdem: Milchprodukte täglich, Mahlzeiten genießen, in Bewegung bleiben.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "DGE",
+        "Ernährung"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-012-09",
+      "kapitel": "Stoffwechsel",
+      "thema": "DGE - Hülsenfrüchte",
+      "seite": 12,
+      "typ": "single_choice",
+      "frage": "Wie oft empfiehlt die DGE Hülsenfrüchte?",
+      "optionen": [
+        "Mindestens 1 Portion pro Tag",
+        "Mindestens 1 Portion pro Woche",
+        "Mindestens 5 Portionen pro Tag",
+        "Niemals",
+        "Nur monatlich"
+      ],
+      "richtig": 1,
+      "erklaerung": "Die DGE empfiehlt mindestens 1 Portion Hülsenfrüchte pro Woche (und mindestens 1 Portion Nüsse pro Tag).",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "DGE",
+        "Hülsenfrüchte"
+      ],
+      "pruefungsrelevanz": "mittel"
+    },
+    {
+      "id": "STW-012-F1",
+      "kapitel": "Stoffwechsel",
+      "thema": "Adipositas - Therapieberatung",
+      "seite": 12,
+      "typ": "fallbeispiel",
+      "fallbeschreibung": "Ein Patient mit Adipositas Grad I (BMI 32) möchte abnehmen und fragt Sie nach Empfehlungen. Er hat keine hormonellen Erkrankungen.",
+      "frage": "Welche Basismaßnahmen empfehlen Sie zuerst?",
+      "optionen": [
+        "Sofort operative Magenverkleinerung",
+        "Ernährungsumstellung (ballaststoffreich, Kalorienreduktion) und Bewegungstherapie",
+        "Nur Medikamente",
+        "Nichts tun und abwarten",
+        "Radikale Nulldiät"
+      ],
+      "richtig": 1,
+      "erklaerung": "Basismaßnahmen bei Adipositas: zuerst Ernährungsumstellung (ballaststoffreich, Kalorienreduktion) und Bewegungstherapie (Ausdauersport, mehr Alltagsbewegung). Operative Maßnahmen sind erst bei höhergradiger Adipositas und Versagen konservativer Therapie indiziert.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Adipositas",
+        "Therapie",
+        "Fallbeispiel"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-013-01",
+      "kapitel": "Stoffwechsel",
+      "thema": "Eiweißstoffwechsel",
+      "seite": 13,
+      "typ": "single_choice",
+      "frage": "Wo beginnt die Eiweißverdauung (Andauung)?",
+      "optionen": [
+        "Im Mund",
+        "Im Magen durch Salzsäure und Pepsin",
+        "Im Dünndarm",
+        "In der Leber",
+        "Im Dickdarm"
+      ],
+      "richtig": 1,
+      "erklaerung": "Die Eiweißverdauung beginnt im MAGEN durch Andauung mit Salzsäure (HCl) und dem Enzym Pepsin. Eiweiße (Proteine) werden Schritt für Schritt zerlegt.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Eiweißstoffwechsel",
+        "Magen"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-013-02",
+      "kapitel": "Stoffwechsel",
+      "thema": "Eiweißstoffwechsel Pepsin",
+      "seite": 13,
+      "typ": "single_choice",
+      "frage": "Welche Funktion hat Pepsin?",
+      "optionen": [
+        "Es baut Fett ab",
+        "Es ist ein Enzym, das Eiweiße in kleinere Bausteine zerlegt",
+        "Es baut Kohlenhydrate ab",
+        "Es neutralisiert Magensäure",
+        "Es transportiert Glukose"
+      ],
+      "richtig": 1,
+      "erklaerung": "Pepsin ist ein Enzym, das Eiweiße in kleinere Bausteine zerlegt. Es wirkt im sauren Milieu des Magens (zusammen mit HCl).",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Eiweißstoffwechsel",
+        "Pepsin",
+        "Enzym"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-013-03",
+      "kapitel": "Stoffwechsel",
+      "thema": "Eiweißstoffwechsel Duodenum",
+      "seite": 13,
+      "typ": "single_choice",
+      "frage": "Was passiert mit Eiweißen im Duodenum?",
+      "optionen": [
+        "Sie werden ausgeschieden",
+        "Aufspaltung durch Peptidasen des Pankreassaftes zu Polypeptiden, dann zu Oligo-, Tri- und Bipeptiden, letztlich zu Aminosäuren",
+        "Sie werden zu Fett umgewandelt",
+        "Sie bleiben unverändert",
+        "Sie werden gespeichert"
+      ],
+      "richtig": 1,
+      "erklaerung": "Im Duodenum erfolgt die Aufspaltung durch Peptidasen des Pankreassaftes: Polypeptide → Oligo-, Tri- und Bipeptide → letztlich Aminosäuren.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Eiweißstoffwechsel",
+        "Duodenum"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-013-04",
+      "kapitel": "Stoffwechsel",
+      "thema": "Eiweißstoffwechsel Dünndarm",
+      "seite": 13,
+      "typ": "single_choice",
+      "frage": "Wo findet die Resorption der Aminosäuren statt?",
+      "optionen": [
+        "Im Magen",
+        "Im Dünndarm (v.a. im Jejunum) unter Einfluss von Darm-Peptidasen",
+        "Im Dickdarm",
+        "In der Leber",
+        "In der Niere"
+      ],
+      "richtig": 1,
+      "erklaerung": "Die Resorption findet im Dünndarm statt (v.a. im Jejunum) unter Einfluss von Darm-Peptidasen.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Eiweißstoffwechsel",
+        "Dünndarm",
+        "Jejunum"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-013-05",
+      "kapitel": "Stoffwechsel",
+      "thema": "Eiweißstoffwechsel Pfortader",
+      "seite": 13,
+      "typ": "single_choice",
+      "frage": "Welche Funktion hat die Pfortader im Eiweißstoffwechsel?",
+      "optionen": [
+        "Sie speichert Eiweiß",
+        "Sie transportiert das nährstoffreiche Blut zur Leber",
+        "Sie baut Eiweiß ab",
+        "Sie produziert Enzyme",
+        "Sie scheidet Aminosäuren aus"
+      ],
+      "richtig": 1,
+      "erklaerung": "Die Pfortader ist eine große Vene, die das nährstoffreiche Blut aus den Bauchorganen zur Leber transportiert.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Eiweißstoffwechsel",
+        "Pfortader"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-013-06",
+      "kapitel": "Stoffwechsel",
+      "thema": "Eiweißstoffwechsel Leber",
+      "seite": 13,
+      "typ": "single_choice",
+      "frage": "Welche Rolle spielt die Leber im Eiweißstoffwechsel?",
+      "optionen": [
+        "Sie scheidet Aminosäuren aus",
+        "Sie liefert Bausteine für zahlreiche Stoffe",
+        "Sie hat keine Funktion",
+        "Sie speichert nur Fett",
+        "Sie produziert Magensäure"
+      ],
+      "richtig": 1,
+      "erklaerung": "Die Leber nutzt die Aminosäuren als Bausteine für zahlreiche Stoffe (z.B. körpereigene Proteine, Enzyme, Hormone). Aufgaben der Leber: Stoffwechsel, Entgiftung, Speicherung, Verdauung.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Eiweißstoffwechsel",
+        "Leber"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-013-07",
+      "kapitel": "Stoffwechsel",
+      "thema": "Leber Lage",
+      "seite": 13,
+      "typ": "single_choice",
+      "frage": "Wo liegt die Leber?",
+      "optionen": [
+        "Im linken Unterbauch",
+        "Im rechten Oberbauch, unten dem Zwerchfell",
+        "Im Becken",
+        "Hinter dem Magen",
+        "Im Brustkorb"
+      ],
+      "richtig": 1,
+      "erklaerung": "Die Leber liegt im rechten Oberbauch, unterhalb des Zwerchfells.",
+      "schwierigkeit": "leicht",
+      "tags": [
+        "Stoffwechsel",
+        "Leber",
+        "Anatomie",
+        "Lage"
+      ],
+      "pruefungsrelevanz": "mittel"
+    },
+    {
+      "id": "STW-013-08",
+      "kapitel": "Stoffwechsel",
+      "thema": "Gicht - Definition",
+      "seite": 13,
+      "typ": "single_choice",
+      "frage": "Was ist Gicht?",
+      "optionen": [
+        "Eine Infektionskrankheit der Gelenke",
+        "Eine symptomatische Purinstoffwechselstörung mit Hyperurikämie und Ablagerung von Salzen (v.a. in den Gelenken)",
+        "Eine Autoimmunerkrankung der Muskeln",
+        "Ein Vitaminmangel",
+        "Eine Hauterkrankung"
+      ],
+      "richtig": 1,
+      "erklaerung": "Gicht ist eine symptomatische Purinstoffwechselstörung mit Hyperurikämie (erhöhten Harnsäurewerten) und Ablagerung von Salzen (v.a. in den Gelenken).",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Gicht",
+        "Definition"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-013-09",
+      "kapitel": "Stoffwechsel",
+      "thema": "Gicht - Häufigkeit",
+      "seite": 13,
+      "typ": "single_choice",
+      "frage": "Wer ist häufiger von Gicht betroffen?",
+      "optionen": [
+        "Frauen häufiger als Männer",
+        "Männer häufiger als Frauen (m > w)",
+        "Beide gleich häufig",
+        "Nur Kinder",
+        "Nur ältere Frauen"
+      ],
+      "richtig": 1,
+      "erklaerung": "Gicht betrifft Männer häufiger als Frauen (m > w). Gehäuftes Vorkommen mit Erkrankungen des metabolischen Syndroms.",
+      "schwierigkeit": "leicht",
+      "tags": [
+        "Stoffwechsel",
+        "Gicht",
+        "Epidemiologie"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-013-10",
+      "kapitel": "Stoffwechsel",
+      "thema": "Gicht - Harnsäure",
+      "seite": 13,
+      "typ": "single_choice",
+      "frage": "Wovon ist die Harnsäure das Endprodukt?",
+      "optionen": [
+        "Des Fettstoffwechsels",
+        "Des Purinstoffwechsels",
+        "Des Kohlenhydratstoffwechsels",
+        "Des Mineralstoffwechsels",
+        "Des Vitaminstoffwechsels"
+      ],
+      "richtig": 1,
+      "erklaerung": "Die Harnsäure ist das Endprodukt des Purinstoffwechsels. Purine (v.a. Adenin, Guanin) sind wichtig für den Aufbau von Nukleinsäuren.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Gicht",
+        "Harnsäure",
+        "Purine"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-013-11",
+      "kapitel": "Stoffwechsel",
+      "thema": "Gicht - Harnsäureausscheidung",
+      "seite": 13,
+      "typ": "single_choice",
+      "frage": "Wie wird die Harnsäure ausgeschieden?",
+      "optionen": [
+        "Nur über die Niere",
+        "Zu 2/3 über die Niere und zu 1/3 über den Darm",
+        "Nur über die Haut",
+        "Nur über den Darm",
+        "Über die Lunge"
+      ],
+      "richtig": 1,
+      "erklaerung": "Die Harnsäure wird zu 2/3 über die Niere und zu 1/3 über den Darm ausgeschieden.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Gicht",
+        "Harnsäureausscheidung"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-013-12",
+      "kapitel": "Stoffwechsel",
+      "thema": "Gicht - primäre Hyperurikämie",
+      "seite": 13,
+      "typ": "single_choice",
+      "frage": "Was ist bei primärer Hyperurikämie in 99% der Fälle die Ursache?",
+      "optionen": [
+        "Überproduktion von Harnsäure",
+        "Ausscheidungsinsuffizienz (verminderte Harnsäureausscheidung) durch polygen vererbte Stoffwechselstörung",
+        "Eine Infektion",
+        "Medikamente",
+        "Nierensteine"
+      ],
+      "richtig": 1,
+      "erklaerung": "Primäre Hyperurikämie: in 99% Ausscheidungsinsuffizienz (polygen vererbte Stoffwechselstörung). Nur 1% durch Überproduktion (Mangel des Enzyms HG-PRT, z.B. Lesch-Nyhan-Syndrom).",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Gicht",
+        "Hyperurikämie",
+        "primär"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-013-13",
+      "kapitel": "Stoffwechsel",
+      "thema": "Gicht - sekundäre Hyperurikämie",
+      "seite": 13,
+      "typ": "multiple_choice",
+      "frage": "Welche Ursachen hat eine sekundäre Hyperurikämie?",
+      "optionen": [
+        "Vermehrte Harnsäurebildung bei vermehrtem Zellumsatz (z.B. Leukämie, Polycythaemia vera, hämolytische Anämie)",
+        "Verminderte renale Harnsäureausscheidung (z.B. Nierenerkrankungen, Fasten, Diabetes mellitus, Diuretika)",
+        "Übermäßiger Sport",
+        "Vitaminmangel",
+        "Zu viel Wassertrinken"
+      ],
+      "richtig": [
+        0,
+        1
+      ],
+      "erklaerung": "Sekundäre Hyperurikämie: (1) vermehrte Harnsäurebildung bei erhöhtem Zellumsatz (Leukämie, Polycythaemia vera, hämolytische Anämie), (2) verminderte renale Ausscheidung (Nierenerkrankungen, Fasten, Diabetes, Diuretika).",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Gicht",
+        "Hyperurikämie",
+        "sekundär"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-013-14",
+      "kapitel": "Stoffwechsel",
+      "thema": "Gicht - asymptomatische Hyperurikämie",
+      "seite": 13,
+      "typ": "single_choice",
+      "frage": "Ab welchem Harnsäurewert spricht man von asymptomatischer Hyperurikämie?",
+      "optionen": [
+        "> 3 mg/dl",
+        "> 5 mg/dl",
+        "> 7 mg/dl",
+        "> 10 mg/dl",
+        "> 15 mg/dl"
+      ],
+      "richtig": 2,
+      "erklaerung": "Asymptomatische Hyperurikämie: symptomloses Stadium mit erhöhten Harnsäurewerten > 7 mg/dl.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Gicht",
+        "Hyperurikämie",
+        "Laborwert"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-013-15",
+      "kapitel": "Stoffwechsel",
+      "thema": "Gicht - Auslöser",
+      "seite": 13,
+      "typ": "multiple_choice",
+      "frage": "Welche Faktoren können einen akuten Gichtanfall auslösen (rasche Veränderung des Harnsäurespiegels)?",
+      "optionen": [
+        "Festessen, purinreiche Kost (Fleisch, Innereien, Meeresfrüchte)",
+        "Alkoholkonsum (v.a. Bier wegen der Hefe)",
+        "Fasten oder Beginn einer harnsäuresenkenden Therapie",
+        "Stress, Fructose, lokale Unterkühlung",
+        "Viel Wasser trinken"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Auslöser eines Gichtanfalls (rasche Harnsäurespiegel-Veränderung): purinreiche Kost, Alkohol (v.a. Bier), Fasten/Therapiebeginn, Stress/Fructose/Unterkühlung.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Gicht",
+        "Gichtanfall",
+        "Auslöser"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-013-F1",
+      "kapitel": "Stoffwechsel",
+      "thema": "Gicht - Auslöser",
+      "seite": 13,
+      "typ": "fallbeispiel",
+      "fallbeschreibung": "Ein 55-jähriger Mann bekommt nach einem üppigen Grillfest mit viel Fleisch und reichlich Bier nachts plötzlich starke Schmerzen im Großzehengrundgelenk. Das Gelenk ist gerötet, geschwollen und extrem berührungsempfindlich.",
+      "frage": "Was hat den akuten Gichtanfall am wahrscheinlichsten ausgelöst?",
+      "optionen": [
+        "Zu wenig Essen",
+        "Purinreiche Kost (Fleisch) und Alkohol (Bier)",
+        "Zu viel Wasser",
+        "Bewegungsmangel",
+        "Vitaminmangel"
+      ],
+      "richtig": 1,
+      "erklaerung": "Klassischer Auslöser: purinreiche Kost (viel Fleisch) und Alkoholkonsum (Bier wegen der Hefe). Beides führt zur raschen Veränderung des Harnsäurespiegels und löst den akuten Gichtanfall im Großzehengrundgelenk (Podagra) aus.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Gicht",
+        "Gichtanfall",
+        "Fallbeispiel"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-014-01",
+      "kapitel": "Stoffwechsel",
+      "thema": "Gichtanfall - Klinik",
+      "seite": 14,
+      "typ": "multiple_choice",
+      "frage": "Welche Symptome kennzeichnen den akuten Gichtanfall?",
+      "optionen": [
+        "Plötzlicher Beginn mit heftigen Gelenkschmerzen, meist nachts",
+        "Monarthritis, v.a. Großzehengrundgelenk (Podagra)",
+        "Extreme Berührungsempfindlichkeit (sogar Bettdecke schmerzt)",
+        "Entzündungszeichen: Rubor, Dolor, Calor, Tumor, Functio laesa",
+        "Abklingen nach einigen Tagen bis 3 Wochen",
+        "Schmerzlosigkeit"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "erklaerung": "Akuter Gichtanfall: plötzlicher Beginn nachts, Monarthritis (meist Großzehengrundgelenk = Podagra), extreme Berührungsempfindlichkeit, alle 5 Entzündungszeichen (Rubor, Dolor, Calor, Tumor, Functio laesa), Abklingen nach Tagen bis 3 Wochen.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Gicht",
+        "Gichtanfall",
+        "Klinik"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-014-02",
+      "kapitel": "Stoffwechsel",
+      "thema": "Gicht - Podagra",
+      "seite": 14,
+      "typ": "single_choice",
+      "frage": "Was bedeutet 'Podagra'?",
+      "optionen": [
+        "Gicht im Kniegelenk",
+        "Gicht im Großzehengrundgelenk",
+        "Gicht im Ellenbogen",
+        "Gicht in der Hand",
+        "Gicht in der Schulter"
+      ],
+      "richtig": 1,
+      "erklaerung": "Podagra = Gicht im Großzehengrundgelenk (häufigste Lokalisation). Andere: Gonagra (Knie), Chiragra (Hand). Auch Sprung-, Zehen-, Ellenbogen-, Daumen- oder Fingergelenk möglich.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Gicht",
+        "Podagra"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-014-03",
+      "kapitel": "Stoffwechsel",
+      "thema": "Gicht - Entzündungszeichen",
+      "seite": 14,
+      "typ": "multiple_choice",
+      "frage": "Welche klassischen Entzündungszeichen treten beim Gichtanfall auf?",
+      "optionen": [
+        "Rubor (Rötung)",
+        "Dolor (Schmerz)",
+        "Calor (Wärme)",
+        "Tumor (Schwellung)",
+        "Functio laesa (Funktionseinschränkung)",
+        "Pallor (Blässe)"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "erklaerung": "Die 5 klassischen Entzündungszeichen: Rubor (Rötung), Dolor (Schmerz), Calor (Wärme), Tumor (teigige Schwellung), Functio laesa (Funktionseinschränkung). Evtl. auch Fieber.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Gicht",
+        "Entzündungszeichen"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-014-04",
+      "kapitel": "Stoffwechsel",
+      "thema": "Gicht - Stadien",
+      "seite": 14,
+      "typ": "single_choice",
+      "frage": "Was ist das interkritische Stadium der Gicht?",
+      "optionen": [
+        "Der akute Gichtanfall",
+        "Das symptomlose Intervall zwischen zwei akuten Gichtanfällen",
+        "Das Endstadium mit Gelenkzerstörung",
+        "Die erste Manifestation",
+        "Die Nierenbeteiligung"
+      ],
+      "richtig": 1,
+      "erklaerung": "Das interkritische Stadium ist das symptomlose Intervall zwischen zwei akuten Gichtanfällen.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Gicht",
+        "Stadien"
+      ],
+      "pruefungsrelevanz": "mittel"
+    },
+    {
+      "id": "STW-014-05",
+      "kapitel": "Stoffwechsel",
+      "thema": "Gicht - chronische Gicht",
+      "seite": 14,
+      "typ": "multiple_choice",
+      "frage": "Welche Veränderungen treten bei chronischer Gicht auf?",
+      "optionen": [
+        "Gichttophi (Uratablagerungen in Weichteilen, Gelenken, Knochen, v.a. Ohrmuscheln)",
+        "Chronische Gichtarthropathie (irreversible Gelenkdestruktionen)",
+        "Nephrolithiasis (Harnsäure-Nierensteine)",
+        "Vollständige Heilung",
+        "Muskelaufbau"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Chronische Gicht mit irreversiblen Gelenkveränderungen: Gichttophi (Uratablagerungen, v.a. Ohrmuscheln = Ohrtophi, Finger, Zehen, Ellenbogen), chronische Gichtarthropathie (Gelenkdestruktion), Nephrolithiasis (Nierensteine).",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Gicht",
+        "chronisch",
+        "Gichttophi"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-014-06",
+      "kapitel": "Stoffwechsel",
+      "thema": "Gicht - Gichttophi",
+      "seite": 14,
+      "typ": "single_choice",
+      "frage": "Wo treten Gichttophi besonders häufig auf?",
+      "optionen": [
+        "Im Gehirn",
+        "In den Ohrmuscheln (Ohrtophi), Fingern, Zehen und Ellenbogengelenken",
+        "Nur in der Lunge",
+        "Im Herz",
+        "Im Magen"
+      ],
+      "richtig": 1,
+      "erklaerung": "Gichttophi (Uratablagerungen) treten v.a. in Ohrmuscheln (Ohrtophi), Finger-, Zehen- und Ellenbogengelenken auf.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Gicht",
+        "Gichttophi"
+      ],
+      "pruefungsrelevanz": "mittel"
+    },
+    {
+      "id": "STW-014-07",
+      "kapitel": "Stoffwechsel",
+      "thema": "Gicht - Komplikationen",
+      "seite": 14,
+      "typ": "multiple_choice",
+      "frage": "Welche Komplikationen können bei Gicht auftreten?",
+      "optionen": [
+        "Gichtniere → Niereninsuffizienz/akutes Nierenversagen",
+        "Uratnephrolithiasis (Harnsäuresteine)",
+        "Erhöhtes Risiko für metabolisches Syndrom",
+        "Verbesserung der Nierenfunktion",
+        "Muskelaufbau"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Komplikationen der Gicht: Gichtniere (→ Niereninsuffizienz/akutes Nierenversagen), Uratnephrolithiasis (Harnsäuresteine), erhöhtes Risiko für metabolisches Syndrom.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Gicht",
+        "Komplikationen"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-014-08",
+      "kapitel": "Stoffwechsel",
+      "thema": "Gicht - Diagnostik",
+      "seite": 14,
+      "typ": "multiple_choice",
+      "frage": "Welche diagnostischen Maßnahmen werden bei Gicht durchgeführt?",
+      "optionen": [
+        "(Familien-)Anamnese und typische Lokalisation",
+        "Serumharnsäure > 7 mg/dl",
+        "Beim akuten Gichtanfall: Leukozytose, CRP/BSG erhöht",
+        "Röntgen, Nachweis von Uratkristallen in Gelenkflüssigkeit/Gewebe",
+        "Nierenfunktionsdiagnostik",
+        "Lungenfunktionstest"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "erklaerung": "Gicht-Diagnostik: Anamnese/Lokalisation, Serumharnsäure > 7 mg/dl, beim Anfall Leukozytose und CRP/BSG erhöht, Röntgen/Uratkristall-Nachweis, Nierenfunktionsdiagnostik.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Gicht",
+        "Diagnostik"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-014-09",
+      "kapitel": "Stoffwechsel",
+      "thema": "Gicht - Therapie Ernährung",
+      "seite": 14,
+      "typ": "multiple_choice",
+      "frage": "Welche Ernährungsempfehlungen gelten bei Gicht?",
+      "optionen": [
+        "Purinarme Ernährung (< 300 mg Purin/Tag)",
+        "Fleischarme Kost, Verzicht auf Innereien, Sardinen und Schalentiere",
+        "Einschränkung von Spargel, Hülsenfrüchten und Kaffee",
+        "Alkoholverzicht und Verzicht auf Fructose",
+        "Ausreichende Flüssigkeitsaufnahme (mind. 1,5 l/Tag)",
+        "Viel Fleisch und Bier"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "erklaerung": "Gicht-Therapie (Ernährung): purinarm (< 300 mg/d), fleischarm, Verzicht auf Innereien/Sardinen/Schalentiere, Einschränkung Spargel/Hülsenfrüchte/Kaffee, Alkohol-/Fructoseverzicht, ausreichend Flüssigkeit (mind. 1,5 l/d zur Harnsäureneutralisierung).",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Gicht",
+        "Therapie",
+        "Ernährung"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-014-10",
+      "kapitel": "Stoffwechsel",
+      "thema": "Gicht - Medikamente",
+      "seite": 14,
+      "typ": "multiple_choice",
+      "frage": "Welche Medikamente werden zur Dauertherapie der Gicht (Harnsäuresenkung) eingesetzt?",
+      "optionen": [
+        "Urikostatika (z.B. Allopurinol)",
+        "Urikosurika (z.B. Febuxostat)",
+        "Antibiotika",
+        "Insulin",
+        "Blutverdünner"
+      ],
+      "richtig": [
+        0,
+        1
+      ],
+      "erklaerung": "Gicht-Dauertherapie: Urikostatika (Allopurinol – senken Plasma-Harnsäure durch Hemmung des Purinabbaus) und Urikosurika (Febuxostat – fördern renale Harnsäureausscheidung).",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Gicht",
+        "Medikamente",
+        "Allopurinol"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-014-11",
+      "kapitel": "Stoffwechsel",
+      "thema": "Gicht - akuter Anfall Therapie",
+      "seite": 14,
+      "typ": "multiple_choice",
+      "frage": "Wie wird der akute Gichtanfall behandelt?",
+      "optionen": [
+        "Kühlung und Ruhigstellung des betroffenen Gelenks",
+        "NSAR (z.B. Diclofenac)",
+        "Evtl. Glukokortikoide",
+        "Colchicin (Alkaloid der Herbstzeitlosen)",
+        "Wärme und Bewegung"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Akuter Gichtanfall: Kühlung und Ruhigstellung, NSAR (Diclofenac), evtl. Glukokortikoide, Colchicin (Alkaloid der Herbstzeitlosen). KEINE Wärme!",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Gicht",
+        "Gichtanfall",
+        "Therapie",
+        "Colchicin"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-014-12",
+      "kapitel": "Stoffwechsel",
+      "thema": "Gicht - Urikostatika vs Urikosurika",
+      "seite": 14,
+      "typ": "single_choice",
+      "frage": "Wie wirken Urikostatika (z.B. Allopurinol)?",
+      "optionen": [
+        "Sie fördern die renale Harnsäureausscheidung",
+        "Sie senken den Plasma-Harnsäurespiegel durch Hemmung des Purinabbaus",
+        "Sie erhöhen die Harnsäureproduktion",
+        "Sie wirken nur schmerzlindernd",
+        "Sie bauen Gelenke wieder auf"
+      ],
+      "richtig": 1,
+      "erklaerung": "Urikostatika (Allopurinol) senken den Plasma-Harnsäurespiegel durch Hemmung des Purinabbaus. Im Gegensatz dazu fördern Urikosurika die renale Harnsäureausscheidung.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Gicht",
+        "Urikostatika",
+        "Allopurinol"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-014-13",
+      "kapitel": "Stoffwechsel",
+      "thema": "Gicht - Colchicin",
+      "seite": 14,
+      "typ": "single_choice",
+      "frage": "Was ist Colchicin?",
+      "optionen": [
+        "Ein Antibiotikum",
+        "Ein Alkaloid der Herbstzeitlosen, zur Behandlung des akuten Gichtanfalls",
+        "Ein Vitamin",
+        "Ein Schmerzmittel aus der NSAR-Gruppe",
+        "Ein Blutverdünner"
+      ],
+      "richtig": 1,
+      "erklaerung": "Colchicin ist ein Alkaloid der Herbstzeitlosen und wird zur Behandlung des akuten Gichtanfalls eingesetzt.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Gicht",
+        "Colchicin"
+      ],
+      "pruefungsrelevanz": "mittel"
+    },
+    {
+      "id": "STW-014-F1",
+      "kapitel": "Stoffwechsel",
+      "thema": "Gicht - chronische Komplikation",
+      "seite": 14,
+      "typ": "fallbeispiel",
+      "fallbeschreibung": "Ein 62-jähriger Patient mit langjähriger, schlecht behandelter Gicht zeigt knotige Verdickungen an den Ohrmuscheln und an den Fingergelenken. Die Gelenke sind teilweise verformt.",
+      "frage": "Was sind diese knotigen Ablagerungen?",
+      "optionen": [
+        "Rheumaknoten",
+        "Gichttophi (Uratablagerungen)",
+        "Lipome (Fettknoten)",
+        "Warzen",
+        "Krebsmetastasen"
+      ],
+      "richtig": 1,
+      "erklaerung": "Gichttophi sind Uratablagerungen in Weichteilen, Gelenken und Knochen, die v.a. in den Ohrmuscheln (Ohrtophi), Fingern, Zehen und Ellenbogen auftreten. Sie sind ein Zeichen der chronischen Gicht.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Gicht",
+        "Gichttophi",
+        "Fallbeispiel"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-014-F2",
+      "kapitel": "Stoffwechsel",
+      "thema": "Gicht - Therapie Vorsicht",
+      "seite": 14,
+      "typ": "fallbeispiel",
+      "fallbeschreibung": "Ein Gicht-Patient nimmt seit kurzem ein harnsäuresenkendes Medikament. Plötzlich bekommt er einen akuten Gichtanfall, obwohl er die Therapie korrekt durchführt.",
+      "frage": "Wie ist dieser Gichtanfall zu erklären?",
+      "optionen": [
+        "Das Medikament wirkt nicht",
+        "Der Beginn einer harnsäuresenkenden Therapie kann durch rasche Veränderung des Harnsäurespiegels einen Gichtanfall auslösen",
+        "Der Patient hat keine Gicht",
+        "Es ist eine Infektion",
+        "Das Medikament ist abgelaufen"
+      ],
+      "richtig": 1,
+      "erklaerung": "Der Beginn einer harnsäuresenkenden Therapie ist ein bekannter Auslöser für einen akuten Gichtanfall, weil die rasche Veränderung des Harnsäurespiegels (in beide Richtungen) Anfälle provozieren kann. Deshalb wird zu Beginn oft begleitend Colchicin gegeben.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Gicht",
+        "Therapie",
+        "Fallbeispiel"
+      ],
+      "pruefungsrelevanz": "hoch"
     }
   ],
   "vokabeln": [
@@ -5027,6 +6542,669 @@
       "eselsbruecke": "Duo-Denum = '12-Finger' breit (alte Längenmessung)",
       "beispiel": "Im Duodenum werden Polysaccharide zu Monosacchariden abgebaut.",
       "schwierigkeit": "leicht"
+    },
+    {
+      "id": "VOK-STW-121",
+      "kapitel": "Stoffwechsel",
+      "seite": 11,
+      "lateinisch": "Adipositas",
+      "deutsch": "Fettsucht, Fettleibigkeit (Vermehrung des Körperfetts)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "lat. adeps = Fett",
+      "eselsbruecke": "Adip- wie 'Adipozyt' (Fettzelle)",
+      "beispiel": "Adipositas beginnt bei einem BMI ≥ 30.",
+      "schwierigkeit": "leicht"
+    },
+    {
+      "id": "VOK-STW-122",
+      "kapitel": "Stoffwechsel",
+      "seite": 11,
+      "lateinisch": "Disposition",
+      "deutsch": "Anlage, Empfänglichkeit (für eine Krankheit)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Allgemein",
+      "herkunft": "lat. dispositio = Anordnung",
+      "eselsbruecke": "Dis-Position = 'in Stellung gebracht' für Krankheit",
+      "beispiel": "Familiäre Disposition ist eine Ursache der Adipositas.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-123",
+      "kapitel": "Stoffwechsel",
+      "seite": 11,
+      "lateinisch": "Immobilisation",
+      "deutsch": "Bewegungslosigkeit, Ruhigstellung",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Allgemein",
+      "herkunft": "lat. im = nicht; lat. mobilis = beweglich",
+      "eselsbruecke": "Im-Mobil = nicht mobil (unbeweglich)",
+      "beispiel": "Immobilisation begünstigt die Entstehung von Adipositas.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-124",
+      "kapitel": "Stoffwechsel",
+      "seite": 11,
+      "lateinisch": "Binge-Eating",
+      "deutsch": "Essattacken (unkontrollierte Heißhungeranfälle)",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "engl. binge = Gelage",
+      "eselsbruecke": "Binge = englisch für 'übermäßiges Schlemmen'",
+      "beispiel": "Binge-Eating ist eine Form der Fehlernährung bei Adipositas.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-125",
+      "kapitel": "Stoffwechsel",
+      "seite": 11,
+      "lateinisch": "Striae",
+      "deutsch": "Dehnungsstreifen der Haut",
+      "wortart": "Substantiv (f, pl)",
+      "kategorie": "Symptom",
+      "herkunft": "lat. stria = Streifen",
+      "eselsbruecke": "Striae = 'Streifen' auf der Haut",
+      "beispiel": "Striae sind ein Hautzeichen bei Adipositas.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-126",
+      "kapitel": "Stoffwechsel",
+      "seite": 11,
+      "lateinisch": "Kardiomyopathie",
+      "deutsch": "Erkrankung des Herzmuskels",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Kardiologie",
+      "herkunft": "gr. kardia = Herz; gr. mys = Muskel; gr. pathos = Leiden",
+      "eselsbruecke": "Kardio-Myo-Pathie = Herz-Muskel-Krankheit",
+      "beispiel": "Kardiomyopathie ist eine Komplikation der Adipositas.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-127",
+      "kapitel": "Stoffwechsel",
+      "seite": 11,
+      "lateinisch": "Apnoe",
+      "deutsch": "Atemstillstand (Atempause)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Symptom",
+      "herkunft": "gr. a = ohne; gr. pnoe = Atem",
+      "eselsbruecke": "A-Pnoe = ohne Atem",
+      "beispiel": "Beim Schlafapnoe-Syndrom kommt es zu Apnoe-Phasen.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-128",
+      "kapitel": "Stoffwechsel",
+      "seite": 11,
+      "lateinisch": "PCOS",
+      "deutsch": "Polyzystisches Ovarialsyndrom (Eierstockerkrankung)",
+      "wortart": "Abkürzung",
+      "kategorie": "Endokrinologie",
+      "herkunft": "engl. Polycystic Ovary Syndrome",
+      "eselsbruecke": "PCOS = viele (poly) Zysten an den Ovarien",
+      "beispiel": "PCOS kann bei Adipositas auftreten und Infertilität verursachen.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-129",
+      "kapitel": "Stoffwechsel",
+      "seite": 11,
+      "lateinisch": "Infertilität",
+      "deutsch": "Unfruchtbarkeit",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Allgemein",
+      "herkunft": "lat. in = nicht; lat. fertilis = fruchtbar",
+      "eselsbruecke": "In-Fertil = nicht fruchtbar",
+      "beispiel": "Adipositas kann zu Infertilität führen.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-130",
+      "kapitel": "Stoffwechsel",
+      "seite": 11,
+      "lateinisch": "Fetopathie",
+      "deutsch": "Schädigung des Fötus (vor der Geburt)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Schwangerschaft",
+      "herkunft": "lat. fetus = Leibesfrucht; gr. pathos = Leiden",
+      "eselsbruecke": "Feto-Pathie = Leiden des Fötus",
+      "beispiel": "Fetopathie ist eine mögliche Komplikation bei Adipositas in der Schwangerschaft.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-131",
+      "kapitel": "Stoffwechsel",
+      "seite": 11,
+      "lateinisch": "Body-Mass-Index (BMI)",
+      "deutsch": "Körpermassenzahl (Gewicht ÷ Größe²)",
+      "wortart": "Substantiv (m)",
+      "kategorie": "Diagnostik",
+      "herkunft": "engl. body mass index",
+      "eselsbruecke": "BMI = Verhältnis von Körpermasse zur Größe",
+      "beispiel": "BMI = Körpergewicht (kg) ÷ Körpergröße (m)².",
+      "schwierigkeit": "leicht"
+    },
+    {
+      "id": "VOK-STW-132",
+      "kapitel": "Stoffwechsel",
+      "seite": 11,
+      "lateinisch": "Präadipositas",
+      "deutsch": "Übergewicht (Vorstufe der Adipositas, BMI 25-29,9)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "lat. prae = vor; adipositas",
+      "eselsbruecke": "Prä-Adipositas = VOR der Adipositas",
+      "beispiel": "Präadipositas liegt bei einem BMI von 25,0-29,9 vor.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-133",
+      "kapitel": "Stoffwechsel",
+      "seite": 11,
+      "lateinisch": "Perzentilkurven",
+      "deutsch": "Wachstumskurven (alters-/geschlechtsbezogen)",
+      "wortart": "Substantiv (f, pl)",
+      "kategorie": "Diagnostik",
+      "herkunft": "lat. percentum = von Hundert",
+      "eselsbruecke": "Perzentile = prozentuale Einordnung im Vergleich",
+      "beispiel": "Bei Kindern werden Perzentilkurven statt fester BMI-Werte verwendet.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-134",
+      "kapitel": "Stoffwechsel",
+      "seite": 11,
+      "lateinisch": "abdominale Adipositas",
+      "deutsch": "Bauchbetonte Fettleibigkeit",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "lat. abdomen = Bauch",
+      "eselsbruecke": "Abdominal = den Bauch betreffend",
+      "beispiel": "Abdominale Adipositas: Taillenumfang > 88 cm (Frauen), > 102 cm (Männer).",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-135",
+      "kapitel": "Stoffwechsel",
+      "seite": 12,
+      "lateinisch": "Lipasehemmer",
+      "deutsch": "Medikament, das die Fettaufnahme hemmt",
+      "wortart": "Substantiv (m)",
+      "kategorie": "Medikament",
+      "herkunft": "gr. lipos = Fett; Lipase = fettspaltendes Enzym",
+      "eselsbruecke": "Lipase-Hemmer = bremst die Fett-Verdauung",
+      "beispiel": "Lipasehemmer werden bei der Adipositas-Therapie eingesetzt.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-136",
+      "kapitel": "Stoffwechsel",
+      "seite": 12,
+      "lateinisch": "Statine",
+      "deutsch": "Cholesterinsenkende Medikamente",
+      "wortart": "Substantiv (n, pl)",
+      "kategorie": "Medikament",
+      "herkunft": "engl. statins",
+      "eselsbruecke": "Statine 'stoppen' das Cholesterin",
+      "beispiel": "Statine senken erhöhte Blutfettwerte.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-137",
+      "kapitel": "Stoffwechsel",
+      "seite": 12,
+      "lateinisch": "DGE",
+      "deutsch": "Deutsche Gesellschaft für Ernährung",
+      "wortart": "Abkürzung",
+      "kategorie": "Allgemein",
+      "herkunft": "deutsche Abkürzung",
+      "eselsbruecke": "D-G-E = Deutsche Gesellschaft für Ernährung",
+      "beispiel": "Die DGE veröffentlichte 2024 neue Ernährungsempfehlungen.",
+      "schwierigkeit": "leicht"
+    },
+    {
+      "id": "VOK-STW-138",
+      "kapitel": "Stoffwechsel",
+      "seite": 12,
+      "lateinisch": "Ballaststoffe",
+      "deutsch": "Unverdauliche Pflanzenfasern (gut für Verdauung)",
+      "wortart": "Substantiv (m, pl)",
+      "kategorie": "Biochemie",
+      "herkunft": "deutsch: Ballast + Stoffe",
+      "eselsbruecke": "Ballaststoffe = 'füllen' den Darm wie Ballast",
+      "beispiel": "Eine ballaststoffreiche Ernährung wird bei Adipositas empfohlen.",
+      "schwierigkeit": "leicht"
+    },
+    {
+      "id": "VOK-STW-139",
+      "kapitel": "Stoffwechsel",
+      "seite": 13,
+      "lateinisch": "Eiweißstoffwechsel",
+      "deutsch": "Verarbeitung von Proteinen im Körper",
+      "wortart": "Substantiv (m)",
+      "kategorie": "Stoffwechsel",
+      "herkunft": "deutsch: Eiweiß + Stoffwechsel",
+      "eselsbruecke": "Eiweiß = Protein, wird im Körper verstoffwechselt",
+      "beispiel": "Der Eiweißstoffwechsel beginnt im Magen mit Pepsin.",
+      "schwierigkeit": "leicht"
+    },
+    {
+      "id": "VOK-STW-140",
+      "kapitel": "Stoffwechsel",
+      "seite": 13,
+      "lateinisch": "Protein",
+      "deutsch": "Eiweiß (Baustein des Körpers)",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Biochemie",
+      "herkunft": "gr. proteios = der Erste",
+      "eselsbruecke": "Protein = das 'Erste/Wichtigste' für den Körperbau",
+      "beispiel": "Proteine werden Schritt für Schritt zu Aminosäuren zerlegt.",
+      "schwierigkeit": "leicht"
+    },
+    {
+      "id": "VOK-STW-141",
+      "kapitel": "Stoffwechsel",
+      "seite": 13,
+      "lateinisch": "Pepsin",
+      "deutsch": "Eiweißspaltendes Enzym im Magen",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Enzym",
+      "herkunft": "gr. pepsis = Verdauung",
+      "eselsbruecke": "Pepsin verdaut (pepsis) das Eiweiß",
+      "beispiel": "Pepsin zerlegt Eiweiße im Magen in kleinere Bausteine.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-142",
+      "kapitel": "Stoffwechsel",
+      "seite": 13,
+      "lateinisch": "Peptidasen",
+      "deutsch": "Eiweißspaltende Enzyme",
+      "wortart": "Substantiv (f, pl)",
+      "kategorie": "Enzym",
+      "herkunft": "gr. peptein = verdauen",
+      "eselsbruecke": "Peptidasen spalten Peptide (Eiweißstücke)",
+      "beispiel": "Peptidasen des Pankreassaftes spalten Eiweiße im Duodenum.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-143",
+      "kapitel": "Stoffwechsel",
+      "seite": 13,
+      "lateinisch": "Aminosäuren",
+      "deutsch": "Bausteine der Eiweiße/Proteine",
+      "wortart": "Substantiv (f, pl)",
+      "kategorie": "Biochemie",
+      "herkunft": "Amino-Gruppe + Säure",
+      "eselsbruecke": "Aminosäuren = die 'Bausteine' der Proteine",
+      "beispiel": "Eiweiße werden letztlich zu Aminosäuren zerlegt.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-144",
+      "kapitel": "Stoffwechsel",
+      "seite": 13,
+      "lateinisch": "Polypeptide",
+      "deutsch": "Lange Ketten aus vielen Aminosäuren",
+      "wortart": "Substantiv (n, pl)",
+      "kategorie": "Biochemie",
+      "herkunft": "gr. poly = viel; peptid",
+      "eselsbruecke": "Poly-Peptide = viele verbundene Aminosäuren",
+      "beispiel": "Polypeptide werden zu kleineren Peptiden gespalten.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-145",
+      "kapitel": "Stoffwechsel",
+      "seite": 13,
+      "lateinisch": "Jejunum",
+      "deutsch": "Leerdarm (mittlerer Teil des Dünndarms)",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Anatomie",
+      "herkunft": "lat. jejunus = nüchtern, leer",
+      "eselsbruecke": "Jejunum = der 'leere' Darmabschnitt",
+      "beispiel": "Die Resorption von Aminosäuren findet v.a. im Jejunum statt.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-146",
+      "kapitel": "Stoffwechsel",
+      "seite": 13,
+      "lateinisch": "Pfortader",
+      "deutsch": "Vene, die nährstoffreiches Blut zur Leber transportiert",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Anatomie",
+      "herkunft": "deutsch: Pforte + Ader",
+      "eselsbruecke": "Pfort-Ader = 'Pforte/Eingang' zur Leber",
+      "beispiel": "Die Pfortader transportiert Nährstoffe vom Darm zur Leber.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-147",
+      "kapitel": "Stoffwechsel",
+      "seite": 13,
+      "lateinisch": "Zwerchfell",
+      "deutsch": "Hauptatemmuskel zwischen Brust- und Bauchraum",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Anatomie",
+      "herkunft": "deutsch: zwerch (quer) + Fell",
+      "eselsbruecke": "Zwerch-Fell = 'quer liegendes Fell' (Muskel)",
+      "beispiel": "Die Leber liegt im rechten Oberbauch unter dem Zwerchfell.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-148",
+      "kapitel": "Stoffwechsel",
+      "seite": 13,
+      "lateinisch": "Gicht",
+      "deutsch": "Purinstoffwechselstörung mit Harnsäureablagerung",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "mittelhochdeutsch: gicht",
+      "eselsbruecke": "Gicht = die 'gegichtete' (verkrümmte) Gelenkkrankheit",
+      "beispiel": "Gicht ist eine Purinstoffwechselstörung mit Hyperurikämie.",
+      "schwierigkeit": "leicht"
+    },
+    {
+      "id": "VOK-STW-149",
+      "kapitel": "Stoffwechsel",
+      "seite": 13,
+      "lateinisch": "Hyperurikämie",
+      "deutsch": "Erhöhte Harnsäurewerte im Blut",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Laborwert",
+      "herkunft": "gr. hyper = über; gr. ouron = Harn; gr. -ämie = Blut",
+      "eselsbruecke": "Hyper-Urik-ämie = zu viel Harnsäure im Blut",
+      "beispiel": "Hyperurikämie > 7 mg/dl ist asymptomatisch.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-150",
+      "kapitel": "Stoffwechsel",
+      "seite": 13,
+      "lateinisch": "Purine",
+      "deutsch": "Bausteine der Nukleinsäuren (z.B. Adenin, Guanin)",
+      "wortart": "Substantiv (n, pl)",
+      "kategorie": "Biochemie",
+      "herkunft": "lat. purum = rein",
+      "eselsbruecke": "Purine = Grundbausteine der DNA/RNA",
+      "beispiel": "Beim Abbau von Purinen entsteht Harnsäure.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-151",
+      "kapitel": "Stoffwechsel",
+      "seite": 13,
+      "lateinisch": "Harnsäure",
+      "deutsch": "Endprodukt des Purinstoffwechsels",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Laborwert",
+      "herkunft": "deutsch: Harn + Säure",
+      "eselsbruecke": "Harnsäure = wird über den Harn ausgeschieden",
+      "beispiel": "Harnsäure wird zu 2/3 über die Niere ausgeschieden.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-152",
+      "kapitel": "Stoffwechsel",
+      "seite": 13,
+      "lateinisch": "Urate",
+      "deutsch": "Salze der Harnsäure",
+      "wortart": "Substantiv (n, pl)",
+      "kategorie": "Biochemie",
+      "herkunft": "lat. urina = Harn",
+      "eselsbruecke": "Urate = die 'Salze' der Harnsäure",
+      "beispiel": "Urate lagern sich bei Gicht in den Gelenken ab.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-153",
+      "kapitel": "Stoffwechsel",
+      "seite": 13,
+      "lateinisch": "Leukämie",
+      "deutsch": "Blutkrebs (Weißblütigkeit)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Onkologie",
+      "herkunft": "gr. leukos = weiß; gr. haima = Blut",
+      "eselsbruecke": "Leuk-ämie = 'weißes Blut' (zu viele weiße Blutkörperchen)",
+      "beispiel": "Leukämie kann durch erhöhten Zellumsatz eine sekundäre Hyperurikämie verursachen.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-154",
+      "kapitel": "Stoffwechsel",
+      "seite": 13,
+      "lateinisch": "Lesch-Nyhan-Syndrom",
+      "deutsch": "Seltene Erbkrankheit mit Harnsäureüberproduktion",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "nach Michael Lesch und William Nyhan",
+      "eselsbruecke": "Lesch-Nyhan = die zwei Entdecker des Enzymmangels",
+      "beispiel": "Beim Lesch-Nyhan-Syndrom fehlt das Enzym HG-PRT.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-155",
+      "kapitel": "Stoffwechsel",
+      "seite": 14,
+      "lateinisch": "Monarthritis",
+      "deutsch": "Entzündung eines einzelnen Gelenks",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "gr. monos = ein; gr. arthron = Gelenk",
+      "eselsbruecke": "Mon-Arthritis = EIN Gelenk entzündet",
+      "beispiel": "Der akute Gichtanfall ist meist eine Monarthritis.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-156",
+      "kapitel": "Stoffwechsel",
+      "seite": 14,
+      "lateinisch": "Podagra",
+      "deutsch": "Gicht im Großzehengrundgelenk",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "gr. pous = Fuß; gr. agra = Falle",
+      "eselsbruecke": "Pod-agra = der Fuß ist 'gefangen' (Schmerz)",
+      "beispiel": "Podagra ist die häufigste Lokalisation des Gichtanfalls.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-157",
+      "kapitel": "Stoffwechsel",
+      "seite": 14,
+      "lateinisch": "Gonagra",
+      "deutsch": "Gicht im Kniegelenk",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "gr. gony = Knie; gr. agra = Falle",
+      "eselsbruecke": "Gon-agra = das Knie (gony) ist betroffen",
+      "beispiel": "Gonagra ist seltener als Podagra.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-158",
+      "kapitel": "Stoffwechsel",
+      "seite": 14,
+      "lateinisch": "Rubor",
+      "deutsch": "Rötung (Entzündungszeichen)",
+      "wortart": "Substantiv (m)",
+      "kategorie": "Pathologie",
+      "herkunft": "lat. rubor = Röte",
+      "eselsbruecke": "Rubor = rot (wie Rubin)",
+      "beispiel": "Rubor ist eines der 5 Entzündungszeichen.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-159",
+      "kapitel": "Stoffwechsel",
+      "seite": 14,
+      "lateinisch": "Dolor",
+      "deutsch": "Schmerz (Entzündungszeichen)",
+      "wortart": "Substantiv (m)",
+      "kategorie": "Pathologie",
+      "herkunft": "lat. dolor = Schmerz",
+      "eselsbruecke": "Dolor = Schmerz (wie 'Dolore' in der Musik)",
+      "beispiel": "Dolor ist eines der 5 Entzündungszeichen.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-160",
+      "kapitel": "Stoffwechsel",
+      "seite": 14,
+      "lateinisch": "Calor",
+      "deutsch": "Wärme/Überwärmung (Entzündungszeichen)",
+      "wortart": "Substantiv (m)",
+      "kategorie": "Pathologie",
+      "herkunft": "lat. calor = Wärme",
+      "eselsbruecke": "Calor = Wärme (wie 'Kalorien' = Wärmeenergie)",
+      "beispiel": "Calor ist eines der 5 Entzündungszeichen.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-161",
+      "kapitel": "Stoffwechsel",
+      "seite": 14,
+      "lateinisch": "Tumor",
+      "deutsch": "Schwellung (Entzündungszeichen)",
+      "wortart": "Substantiv (m)",
+      "kategorie": "Pathologie",
+      "herkunft": "lat. tumor = Schwellung",
+      "eselsbruecke": "Tumor = Schwellung (hier nicht Krebs gemeint!)",
+      "beispiel": "Tumor (Schwellung) ist eines der 5 Entzündungszeichen.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-162",
+      "kapitel": "Stoffwechsel",
+      "seite": 14,
+      "lateinisch": "Functio laesa",
+      "deutsch": "Funktionseinschränkung (Entzündungszeichen)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Pathologie",
+      "herkunft": "lat. functio = Funktion; lat. laesa = verletzt",
+      "eselsbruecke": "Functio laesa = die Funktion ist 'lädiert' (gestört)",
+      "beispiel": "Functio laesa ist das 5. Entzündungszeichen.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-163",
+      "kapitel": "Stoffwechsel",
+      "seite": 14,
+      "lateinisch": "Gichttophi",
+      "deutsch": "Uratablagerungen in Weichteilen/Gelenken",
+      "wortart": "Substantiv (m, pl)",
+      "kategorie": "Pathologie",
+      "herkunft": "Gicht + gr. tophus = Knoten",
+      "eselsbruecke": "Gicht-Tophi = Gicht-Knoten",
+      "beispiel": "Gichttophi treten v.a. an den Ohrmuscheln auf (Ohrtophi).",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-164",
+      "kapitel": "Stoffwechsel",
+      "seite": 14,
+      "lateinisch": "Nephrolithiasis",
+      "deutsch": "Nierensteinleiden",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "gr. nephros = Niere; gr. lithos = Stein",
+      "eselsbruecke": "Nephro-Lithiasis = Nieren-Stein-Leiden",
+      "beispiel": "Bei Gicht kann eine Nephrolithiasis mit Harnsäuresteinen auftreten.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-165",
+      "kapitel": "Stoffwechsel",
+      "seite": 14,
+      "lateinisch": "Gichtarthropathie",
+      "deutsch": "Gichtbedingte Gelenkerkrankung",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "Gicht + gr. arthron = Gelenk; gr. pathos = Leiden",
+      "eselsbruecke": "Gicht-Arthro-Pathie = Gicht-Gelenk-Krankheit",
+      "beispiel": "Chronische Gichtarthropathie führt zu irreversiblen Gelenkdestruktionen.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-166",
+      "kapitel": "Stoffwechsel",
+      "seite": 14,
+      "lateinisch": "Allopurinol",
+      "deutsch": "Urikostatikum (senkt Harnsäure durch Purinabbauhemmung)",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Medikament",
+      "herkunft": "Markenname/Wirkstoff",
+      "eselsbruecke": "Allopurinol = 'gegen Purin' (alló = anders)",
+      "beispiel": "Allopurinol ist das wichtigste Urikostatikum bei Gicht.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-167",
+      "kapitel": "Stoffwechsel",
+      "seite": 14,
+      "lateinisch": "Urikostatika",
+      "deutsch": "Medikamente, die Harnsäureproduktion hemmen",
+      "wortart": "Substantiv (n, pl)",
+      "kategorie": "Pharmakologie",
+      "herkunft": "lat. urina = Harn; gr. statikos = hemmend",
+      "eselsbruecke": "Uriko-Statika = 'stoppen' die Harnsäurebildung",
+      "beispiel": "Urikostatika wie Allopurinol senken den Harnsäurespiegel.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-168",
+      "kapitel": "Stoffwechsel",
+      "seite": 14,
+      "lateinisch": "Urikosurika",
+      "deutsch": "Medikamente, die Harnsäureausscheidung fördern",
+      "wortart": "Substantiv (n, pl)",
+      "kategorie": "Pharmakologie",
+      "herkunft": "lat. urina = Harn; gr. ouron = Harn",
+      "eselsbruecke": "Uriko-Surika = fördern die Harnsäure-Ausscheidung (über Urin)",
+      "beispiel": "Urikosurika wie Febuxostat fördern die renale Harnsäureausscheidung.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-169",
+      "kapitel": "Stoffwechsel",
+      "seite": 14,
+      "lateinisch": "Colchicin",
+      "deutsch": "Gichtmittel (Alkaloid der Herbstzeitlosen)",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Medikament",
+      "herkunft": "gr. kolchikon = Herbstzeitlose",
+      "eselsbruecke": "Colchicin kommt aus der Colchicum (Herbstzeitlose)",
+      "beispiel": "Colchicin wird beim akuten Gichtanfall eingesetzt.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-170",
+      "kapitel": "Stoffwechsel",
+      "seite": 14,
+      "lateinisch": "NSAR",
+      "deutsch": "Nicht-steroidale Antirheumatika (Schmerzmittel)",
+      "wortart": "Abkürzung",
+      "kategorie": "Pharmakologie",
+      "herkunft": "deutsche Abkürzung",
+      "eselsbruecke": "NSAR = Schmerzmittel ohne Cortison (nicht-steroidal)",
+      "beispiel": "NSAR wie Diclofenac werden beim Gichtanfall eingesetzt.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-171",
+      "kapitel": "Stoffwechsel",
+      "seite": 14,
+      "lateinisch": "Zytostatika",
+      "deutsch": "Zellteilungshemmende Medikamente (z.B. Chemotherapie)",
+      "wortart": "Substantiv (n, pl)",
+      "kategorie": "Pharmakologie",
+      "herkunft": "gr. kytos = Zelle; gr. statikos = hemmend",
+      "eselsbruecke": "Zyto-Statika = 'stoppen' die Zellteilung",
+      "beispiel": "Bei einer Zytostatika-Therapie kann der Harnsäurespiegel ansteigen.",
+      "schwierigkeit": "schwer"
     }
   ]
 }

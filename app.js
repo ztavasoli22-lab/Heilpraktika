@@ -748,6 +748,10 @@ function bewerteVokabel(gewusst) {
     else rundenFalsch++;
     aktuelleIndex++;
     karteUmgedreht = false;
+    // NEU: Automatisch Lesezeichen aktualisieren nach jeder Bewertung
+    if (aktuelleIndex < aktuelleVokabeln.length) {
+        speichereVokabelLesezeichen(aktuellerModus);
+    }
     zeigeVokabelKarte();
 }
 
@@ -957,6 +961,10 @@ function zeigeFeedback(frage, istRichtig) {
 
 function naechsteFrage() {
     aktuelleIndex++;
+    // NEU: Automatisch Lesezeichen aktualisieren
+    if (aktuelleIndex < aktuelleFragen.length) {
+        speichereLesezeichen(aktuellerModus);
+    }
     zeigeFrage();
 }
 
