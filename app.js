@@ -44,6 +44,9 @@ async function initApp() {
         } catch (e) { console.error(e); }
     }
 
+    // 🌙 Dark Mode initialisieren
+    initDarkMode();
+
     try {
         const response = await fetch('fragenkatalog.json?v=' + Date.now());
         const data = await response.json();
@@ -56,6 +59,62 @@ async function initApp() {
             '<div class="info-box">Fragenkatalog konnte nicht geladen werden.</div>';
         console.error(e);
     }
+}
+
+// ================================================
+// 🌙 DARK MODE
+// ================================================
+function initDarkMode() {
+    // 1. Gespeicherte Einstellung prüfen
+    const gespeichert = localStorage.getItem('hp_darkmode');
+
+    let darkMode;
+    if (gespeichert !== null) {
+        // User hat schon gewählt
+        darkMode = gespeichert === 'true';
+    } else {
+        // Erste Nutzung: System-Einstellung übernehmen
+        darkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    }
+
+    setzeDarkMode(darkMode);
+
+    // Toggle-Button zum Body hinzufügen (sichtbar überall)
+    erstelleDarkModeToggle();
+}
+
+function setzeDarkMode(aktiv) {
+    if (aktiv) {
+        document.body.classList.add('dark-mode');
+    } else {
+        document.body.classList.remove('dark-mode');
+    }
+    localStorage.setItem('hp_darkmode', aktiv);
+    // Toggle-Button-Icon aktualisieren
+    const btn = document.getElementById('dark-mode-toggle');
+    if (btn) {
+        btn.innerHTML = aktiv ? '☀️' : '🌙';
+        btn.title = aktiv ? 'Hellen Modus aktivieren' : 'Dunklen Modus aktivieren';
+    }
+}
+
+function toggleDarkMode() {
+    const aktiv = !document.body.classList.contains('dark-mode');
+    setzeDarkMode(aktiv);
+}
+
+function erstelleDarkModeToggle() {
+    // Falls schon vorhanden, nichts tun
+    if (document.getElementById('dark-mode-toggle')) return;
+
+    const btn = document.createElement('button');
+    btn.id = 'dark-mode-toggle';
+    btn.className = 'dark-mode-toggle';
+    btn.onclick = toggleDarkMode;
+    const istDark = document.body.classList.contains('dark-mode');
+    btn.innerHTML = istDark ? '☀️' : '🌙';
+    btn.title = istDark ? 'Hellen Modus aktivieren' : 'Dunklen Modus aktivieren';
+    document.body.appendChild(btn);
 }
 
 function speichereStatistik() {
