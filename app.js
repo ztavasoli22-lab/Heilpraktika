@@ -1,17 +1,14 @@
 // ================================================
-// Heilpraktiker Lern-App v3.0
-// Mit Lesezeichen-Funktion!
+// Heilpraktiker Lern-App - PWA v5.0
+// Mit Import/Export und Aussprache-Funktion
 // ================================================
 
 let fragenkatalog = [];
 let vokabeln = [];
 let statistik = {
-    fragen: {},
-    vokabeln: {},
-    gesamt_richtig: 0,
-    gesamt_falsch: 0,
-    vokabeln_gesehen: 0,
-    vokabeln_gewusst: 0,
+    fragen: {}, vokabeln: {},
+    gesamt_richtig: 0, gesamt_falsch: 0,
+    vokabeln_gesehen: 0, vokabeln_gewusst: 0,
     lerntage: [],
     lesezeichen: {},
     gesehene_fragen: [],
@@ -19,14 +16,13 @@ let statistik = {
 };
 
 let aktuelleFragen = [];
+let aktuelleVokabeln = [];
 let aktuelleIndex = 0;
 let aktuellerModus = "";
 let rundenRichtig = 0;
 let rundenFalsch = 0;
 let nutzerAntwort = null;
 let nutzerAntworten = [];
-
-let aktuelleVokabeln = [];
 let karteUmgedreht = false;
 let vokabelRichtung = "lat_to_de";
 
@@ -38,6 +34,7 @@ async function initApp() {
     if (gespeicherteStats) {
         try {
             statistik = JSON.parse(gespeicherteStats);
+            // Migration
             if (!statistik.vokabeln) statistik.vokabeln = {};
             if (!statistik.vokabeln_gesehen) statistik.vokabeln_gesehen = 0;
             if (!statistik.vokabeln_gewusst) statistik.vokabeln_gewusst = 0;
@@ -48,7 +45,7 @@ async function initApp() {
     }
 
     try {
-        const response = await fetch('fragenkatalog.json');
+        const response = await fetch('fragenkatalog.json?v=' + Date.now());
         const data = await response.json();
         fragenkatalog = data.fragenkatalog || [];
         vokabeln = data.vokabeln || [];
@@ -62,8 +59,9 @@ async function initApp() {
 }
 
 function speichereStatistik() {
-    try { localStorage.setItem('hp_statistik', JSON.stringify(statistik)); }
-    catch (e) { console.error(e); }
+    try {
+        localStorage.setItem('hp_statistik', JSON.stringify(statistik));
+    } catch (e) { console.error(e); }
 }
 
 function updateStatistik(frageId, richtig) {
@@ -73,11 +71,9 @@ function updateStatistik(frageId, richtig) {
     if (richtig) {
         statistik.fragen[frageId].richtig++;
         statistik.gesamt_richtig++;
-        rundenRichtig++;
     } else {
         statistik.fragen[frageId].falsch++;
         statistik.gesamt_falsch++;
-        rundenFalsch++;
     }
     statistik.fragen[frageId].letztes_datum = new Date().toISOString();
     if (!statistik.gesehene_fragen.includes(frageId)) {
@@ -109,7 +105,7 @@ function updateVokabelStatistik(vokId, gewusst) {
 }
 
 // ================================================
-// LESEZEICHEN-FUNKTIONEN (v3.0)
+// LESEZEICHEN
 // ================================================
 function speichereLesezeichen(modusName) {
     if (!aktuelleFragen || aktuelleFragen.length === 0) return;
@@ -117,10 +113,8 @@ function speichereLesezeichen(modusName) {
     if (verbleibendeIds.length > 0 && verbleibendeIds.length < aktuelleFragen.length) {
         statistik.lesezeichen[modusName] = {
             verbleibende_ids: verbleibendeIds,
-            richtig: rundenRichtig,
-            falsch: rundenFalsch,
-            datum: new Date().toISOString(),
-            typ: 'fragen'
+            richtig: rundenRichtig, falsch: rundenFalsch,
+            datum: new Date().toISOString(), typ: 'fragen'
         };
         speichereStatistik();
     } else if (statistik.lesezeichen[modusName]) {
@@ -135,11 +129,9 @@ function speichereVokabelLesezeichen(modusName) {
     if (verbleibendeIds.length > 0 && verbleibendeIds.length < aktuelleVokabeln.length) {
         statistik.lesezeichen[modusName] = {
             verbleibende_ids: verbleibendeIds,
-            richtig: rundenRichtig,
-            falsch: rundenFalsch,
+            richtig: rundenRichtig, falsch: rundenFalsch,
             vokabel_richtung: vokabelRichtung,
-            datum: new Date().toISOString(),
-            typ: 'vokabeln'
+            datum: new Date().toISOString(), typ: 'vokabeln'
         };
         speichereStatistik();
     } else if (statistik.lesezeichen[modusName]) {
@@ -159,32 +151,15 @@ function loescheLesezeichen(modusName) {
     }
 }
 
-function fragenZurueckZumMenue() {
-    if (aktuellerModus && aktuelleIndex > 0) {
-        speichereLesezeichen(aktuellerModus);
-        alert(`✅ Gespeichert!\n\nDein Fortschritt im Modus "${aktuellerModus}" wurde gespeichert.\n\nDu kannst später dort weitermachen!`);
-    }
-    zeigeHauptmenue();
-}
-
-function vokabelnZurueckZumMenue() {
-    if (aktuellerModus && aktuelleIndex > 0) {
-        speichereVokabelLesezeichen(aktuellerModus);
-        alert(`✅ Gespeichert!\n\nDein Fortschritt im Modus "${aktuellerModus}" wurde gespeichert.\n\nDu kannst später dort weitermachen!`);
-    }
-    zeigeHauptmenue();
-}
-
 function fragenFortsetzen(modusName, callbackNeu, callbackFortsetzen) {
     if (hatLesezeichen(modusName)) {
         const lz = statistik.lesezeichen[modusName];
         const anzahl = lz.verbleibende_ids.length;
         const datum = lz.datum.substring(0, 10);
-        const meldung = `Du hast in diesem Modus noch ${anzahl} offene Aufgaben (zuletzt: ${datum}).\n\nOK = Wo aufgehört weitermachen\nAbbrechen = Neu starten`;
-        if (confirm(meldung)) {
+        if (confirm(`Du hast in diesem Modus noch ${anzahl} offene Aufgaben (zuletzt: ${datum}).\n\nOK = Weitermachen\nAbbrechen = Neu starten`)) {
             callbackFortsetzen(lz);
         } else {
-            if (confirm("Wirklich neu starten? Der gespeicherte Fortschritt geht verloren!")) {
+            if (confirm("Wirklich neu starten? Der Fortschritt geht verloren!")) {
                 loescheLesezeichen(modusName);
                 callbackNeu();
             }
@@ -195,6 +170,32 @@ function fragenFortsetzen(modusName, callbackNeu, callbackFortsetzen) {
 }
 
 // ================================================
+// AUSSPRACHE (Web Speech API)
+// ================================================
+function spreche(text, sprache) {
+    if (!('speechSynthesis' in window)) {
+        alert("⚠️ Dein Browser unterstützt keine Sprachausgabe.");
+        return;
+    }
+    // Stoppe laufende Sprachausgabe
+    window.speechSynthesis.cancel();
+
+    const utterance = new SpeechSynthesisUtterance(text);
+    // Sprache wählen: 'de-DE' für Deutsch, 'la' für Latein (fallback Deutsch)
+    if (sprache === 'lat') {
+        utterance.lang = 'de-DE'; // Latein wird mit deutschem TTS gut ausgesprochen
+        utterance.rate = 0.85; // Etwas langsamer für Latein
+    } else {
+        utterance.lang = 'de-DE';
+        utterance.rate = 0.95;
+    }
+    utterance.pitch = 1.0;
+    utterance.volume = 1.0;
+
+    window.speechSynthesis.speak(utterance);
+}
+
+// ================================================
 // HAUPTMENÜ
 // ================================================
 function zeigeHauptmenue() {
@@ -202,29 +203,21 @@ function zeigeHauptmenue() {
     const gesamt = statistik.gesamt_richtig + statistik.gesamt_falsch;
     const quote = gesamt > 0 ? ((statistik.gesamt_richtig / gesamt) * 100).toFixed(0) : 0;
 
-    const gesehenFr = new Set(statistik.gesehene_fragen || []);
-    const anzahlNeuFr = fragenkatalog.filter(f => !gesehenFr.has(f.id)).length;
-
-    const gesehenVok = new Set(statistik.gesehene_vokabeln || []);
-    const anzahlNeuVok = vokabeln.filter(v => !gesehenVok.has(v.id)).length;
-
-    const lesezeichen = statistik.lesezeichen || {};
-    const anzahlLesezeichen = Object.keys(lesezeichen).length;
-
-    let lesezeichenHtml = '';
-    if (anzahlLesezeichen > 0) {
-        lesezeichenHtml = '<div class="section-title">🔖 GESPEICHERTE FORTSCHRITTE</div>';
-        lesezeichenHtml += `<div class="info-box" style="margin-bottom: 12px;">Du hast ${anzahlLesezeichen} angefangene Lerneinheit(en):</div>`;
-        for (const [modus, lz] of Object.entries(lesezeichen)) {
-            const anzahl = lz.verbleibende_ids.length;
-            const datum = lz.datum.substring(0, 10);
-            lesezeichenHtml += `
-                <div style="background: var(--gelb); padding: 10px 14px; border-radius: 8px; margin: 6px 0; border-left: 3px solid var(--primary);">
-                    <div style="font-weight: bold; color: var(--primary);">📌 ${modus}</div>
-                    <div style="font-size: 0.85em; color: var(--text-light); margin-top: 4px;">Noch ${anzahl} offen · vom ${datum}</div>
+    // Lesezeichen-Übersicht
+    let lesezeichenBox = '';
+    const lzKeys = Object.keys(statistik.lesezeichen || {});
+    if (lzKeys.length > 0) {
+        lesezeichenBox = `<div class="section-title">🔖 ANGEFANGENE MODI</div><div class="modus-list">`;
+        lzKeys.forEach(modName => {
+            const lz = statistik.lesezeichen[modName];
+            const anz = lz.verbleibende_ids.length;
+            lesezeichenBox += `
+                <div class="lesezeichen-item">
+                    <span>📌 ${modName}: <strong>${anz}</strong> offen</span>
                 </div>
             `;
-        }
+        });
+        lesezeichenBox += `</div>`;
     }
 
     app.innerHTML = `
@@ -235,67 +228,39 @@ function zeigeHauptmenue() {
             </div>
 
             <div class="stats-badge">
-                <div class="stat-item">
-                    <div class="stat-value">${fragenkatalog.length}</div>
-                    <div class="stat-label">Fragen</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-value">${vokabeln.length}</div>
-                    <div class="stat-label">Vokabeln</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-value">${quote}%</div>
-                    <div class="stat-label">Quote</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-value">${statistik.lerntage.length}</div>
-                    <div class="stat-label">Tage</div>
-                </div>
+                <div class="stat-item"><div class="stat-value">${fragenkatalog.length}</div><div class="stat-label">Fragen</div></div>
+                <div class="stat-item"><div class="stat-value">${vokabeln.length}</div><div class="stat-label">Vokabeln</div></div>
+                <div class="stat-item"><div class="stat-value">${quote}%</div><div class="stat-label">Quote</div></div>
+                <div class="stat-item"><div class="stat-value">${statistik.lerntage.length}</div><div class="stat-label">Tage</div></div>
             </div>
+
+            ${lesezeichenBox}
 
             <div class="section-title">📝 PRÜFUNGSFRAGEN</div>
             <div class="modus-list">
                 <button class="modus-btn" onclick="starteZufallsmodus()">
                     <div class="modus-icon">🎲</div>
-                    <div class="modus-info">
-                        <div class="modus-titel">Zufallsmodus</div>
-                        <div class="modus-beschreibung">Alle Fragen zufällig</div>
-                    </div>
+                    <div class="modus-info"><div class="modus-titel">Zufallsmodus</div><div class="modus-beschreibung">Alle Fragen zufällig</div></div>
                 </button>
                 <button class="modus-btn" onclick="zeigeThemenauswahl()">
                     <div class="modus-icon">📂</div>
-                    <div class="modus-info">
-                        <div class="modus-titel">Themen-Modus</div>
-                        <div class="modus-beschreibung">Nach Thema lernen</div>
-                    </div>
+                    <div class="modus-info"><div class="modus-titel">Themen-Modus</div><div class="modus-beschreibung">Nach Thema lernen</div></div>
+                </button>
+                <button class="modus-btn" onclick="starteNeueFragen()">
+                    <div class="modus-icon">🆕</div>
+                    <div class="modus-info"><div class="modus-titel">Neue Fragen</div><div class="modus-beschreibung">Nur unbearbeitete</div></div>
                 </button>
                 <button class="modus-btn" onclick="starteFehlermodus()">
                     <div class="modus-icon">❌</div>
-                    <div class="modus-info">
-                        <div class="modus-titel">Fehler-Wiederholung</div>
-                        <div class="modus-beschreibung">Falsch beantwortete üben</div>
-                    </div>
+                    <div class="modus-info"><div class="modus-titel">Fehler-Wiederholung</div><div class="modus-beschreibung">Falsch beantwortete</div></div>
                 </button>
                 <button class="modus-btn" onclick="startePruefung()">
                     <div class="modus-icon">⏱️</div>
-                    <div class="modus-info">
-                        <div class="modus-titel">Prüfungssimulation</div>
-                        <div class="modus-beschreibung">60 Fragen wie echte Prüfung</div>
-                    </div>
+                    <div class="modus-info"><div class="modus-titel">Prüfungssimulation</div><div class="modus-beschreibung">60 Fragen wie echte Prüfung</div></div>
                 </button>
                 <button class="modus-btn" onclick="starteCrashkurs()">
                     <div class="modus-icon">🔥</div>
-                    <div class="modus-info">
-                        <div class="modus-titel">Crashkurs</div>
-                        <div class="modus-beschreibung">Nur hochrelevante Fragen</div>
-                    </div>
-                </button>
-                <button class="modus-btn" onclick="starteNeueFragen()" style="border: 2px solid var(--primary);">
-                    <div class="modus-icon">🆕</div>
-                    <div class="modus-info">
-                        <div class="modus-titel">Neue Fragen (${anzahlNeuFr})</div>
-                        <div class="modus-beschreibung">Nur unbearbeitete Fragen</div>
-                    </div>
+                    <div class="modus-info"><div class="modus-titel">Crashkurs</div><div class="modus-beschreibung">Nur hochrelevante</div></div>
                 </button>
             </div>
 
@@ -303,57 +268,203 @@ function zeigeHauptmenue() {
             <div class="modus-list">
                 <button class="modus-btn modus-btn-vokabel" onclick="starteVokabelnAlle()">
                     <div class="modus-icon">🎴</div>
-                    <div class="modus-info">
-                        <div class="modus-titel">Alle Vokabeln</div>
-                        <div class="modus-beschreibung">Karteikarten Latein → Deutsch</div>
-                    </div>
+                    <div class="modus-info"><div class="modus-titel">Alle Vokabeln</div><div class="modus-beschreibung">Karteikarten mischen</div></div>
+                </button>
+                <button class="modus-btn modus-btn-vokabel" onclick="starteNeueVokabeln()">
+                    <div class="modus-icon">🆕</div>
+                    <div class="modus-info"><div class="modus-titel">Neue Vokabeln</div><div class="modus-beschreibung">Nur unbearbeitete</div></div>
                 </button>
                 <button class="modus-btn modus-btn-vokabel" onclick="zeigeVokabelKategorien()">
                     <div class="modus-icon">🏷️</div>
-                    <div class="modus-info">
-                        <div class="modus-titel">Nach Kategorie</div>
-                        <div class="modus-beschreibung">Anatomie, Hormone, etc.</div>
-                    </div>
+                    <div class="modus-info"><div class="modus-titel">Nach Kategorie</div><div class="modus-beschreibung">Hormone, Anatomie, etc.</div></div>
                 </button>
                 <button class="modus-btn modus-btn-vokabel" onclick="starteVokabelnSchwer()">
                     <div class="modus-icon">💪</div>
-                    <div class="modus-info">
-                        <div class="modus-titel">Schwierige Vokabeln</div>
-                        <div class="modus-beschreibung">Nicht gewusste wiederholen</div>
-                    </div>
+                    <div class="modus-info"><div class="modus-titel">Schwierige Vokabeln</div><div class="modus-beschreibung">Nicht gewusste wiederholen</div></div>
                 </button>
                 <button class="modus-btn modus-btn-vokabel" onclick="starteVokabelnDeLat()">
                     <div class="modus-icon">🔄</div>
-                    <div class="modus-info">
-                        <div class="modus-titel">Deutsch → Latein</div>
-                        <div class="modus-beschreibung">Andere Richtung üben</div>
-                    </div>
-                </button>
-                <button class="modus-btn modus-btn-vokabel" onclick="starteNeueVokabeln()" style="border: 2px solid var(--secondary);">
-                    <div class="modus-icon">🆕</div>
-                    <div class="modus-info">
-                        <div class="modus-titel">Neue Vokabeln (${anzahlNeuVok})</div>
-                        <div class="modus-beschreibung">Nur unbearbeitete Vokabeln</div>
-                    </div>
+                    <div class="modus-info"><div class="modus-titel">Deutsch → Latein</div><div class="modus-beschreibung">Andere Richtung üben</div></div>
                 </button>
             </div>
 
-            ${lesezeichenHtml}
+            <div class="section-title">☁️ STATISTIK SYNCHRONISIEREN</div>
+            <div class="modus-list">
+                <button class="modus-btn" onclick="exportiereStatistik()" style="border-left: 4px solid #4CAF50;">
+                    <div class="modus-icon">📤</div>
+                    <div class="modus-info"><div class="modus-titel">Statistik exportieren</div><div class="modus-beschreibung">Als Datei für anderes Gerät</div></div>
+                </button>
+                <button class="modus-btn" onclick="importiereStatistik()" style="border-left: 4px solid #2196F3;">
+                    <div class="modus-icon">📥</div>
+                    <div class="modus-info"><div class="modus-titel">Statistik importieren</div><div class="modus-beschreibung">Von anderem Gerät einfügen</div></div>
+                </button>
+            </div>
 
             <div class="section-title">📊 ÜBERSICHT</div>
             <div class="modus-list">
                 <button class="modus-btn" onclick="zeigeStatistik()">
                     <div class="modus-icon">📊</div>
-                    <div class="modus-info">
-                        <div class="modus-titel">Statistik</div>
-                        <div class="modus-beschreibung">Lernfortschritt anzeigen</div>
-                    </div>
+                    <div class="modus-info"><div class="modus-titel">Statistik</div><div class="modus-beschreibung">Lernfortschritt anzeigen</div></div>
                 </button>
             </div>
+
+            <input type="file" id="import-datei" accept=".json" style="display:none;" onchange="verarbeiteImportDatei(event)">
         </div>
     `;
 }
 
+// ================================================
+// IMPORT/EXPORT
+// ================================================
+function exportiereStatistik() {
+    const exportDaten = {
+        version: "1.0",
+        exportiert_am: new Date().toISOString(),
+        geraet: navigator.userAgent.includes('Mobile') ? 'Handy' : 'Computer',
+        statistik: statistik
+    };
+
+    const blob = new Blob([JSON.stringify(exportDaten, null, 2)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const heute = new Date().toISOString().split('T')[0];
+
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `statistik_${heute}.json`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+
+    alert(`✅ Statistik exportiert!\n\n📁 Datei: statistik_${heute}.json\n\n💡 Sende diese Datei an dein anderes Gerät (z.B. per WhatsApp, E-Mail oder Cloud) und importiere sie dort!`);
+}
+
+function importiereStatistik() {
+    document.getElementById('import-datei').click();
+}
+
+function verarbeiteImportDatei(event) {
+    const file = event.target.files[0];
+    if (!file) return;
+
+    const reader = new FileReader();
+    reader.onload = function(e) {
+        try {
+            const importDaten = JSON.parse(e.target.result);
+
+            if (!importDaten.statistik) {
+                alert("❌ Diese Datei ist keine gültige Statistik-Datei!");
+                return;
+            }
+
+            const importStat = importDaten.statistik;
+            const exportDatum = importDaten.exportiert_am
+                ? importDaten.exportiert_am.substring(0, 10)
+                : 'unbekannt';
+            const geraet = importDaten.geraet || 'unbekannt';
+
+            const meldung = `📥 IMPORT-VORSCHAU\n\n` +
+                `📅 Exportiert: ${exportDatum}\n` +
+                `📱 Von Gerät: ${geraet}\n\n` +
+                `📝 Beantwortete Fragen: ${(importStat.gesamt_richtig || 0) + (importStat.gesamt_falsch || 0)}\n` +
+                `📚 Bearbeitete Vokabeln: ${importStat.vokabeln_gesehen || 0}\n` +
+                `📅 Lerntage: ${(importStat.lerntage || []).length}\n\n` +
+                `🔀 SMART MERGE wird die Daten ZUSAMMENFÜHREN (nicht überschreiben).\n\n` +
+                `Fortfahren?`;
+
+            if (confirm(meldung)) {
+                smartMerge(importStat);
+                alert("✅ Import erfolgreich!\n\nDeine Statistik wurde zusammengeführt. 🎉");
+                zeigeHauptmenue();
+            }
+        } catch (e) {
+            alert("❌ Fehler beim Lesen der Datei:\n\n" + e.message);
+        }
+    };
+    reader.readAsText(file);
+    // Reset für nächsten Import
+    event.target.value = '';
+}
+
+function smartMerge(importStat) {
+    // Fragen-Statistik mergen
+    if (importStat.fragen) {
+        Object.keys(importStat.fragen).forEach(id => {
+            if (!statistik.fragen[id]) {
+                statistik.fragen[id] = { richtig: 0, falsch: 0, letztes_datum: null };
+            }
+            statistik.fragen[id].richtig = Math.max(
+                statistik.fragen[id].richtig || 0,
+                importStat.fragen[id].richtig || 0
+            );
+            statistik.fragen[id].falsch = Math.max(
+                statistik.fragen[id].falsch || 0,
+                importStat.fragen[id].falsch || 0
+            );
+            // Neuestes Datum nehmen
+            const altDatum = statistik.fragen[id].letztes_datum;
+            const neuDatum = importStat.fragen[id].letztes_datum;
+            if (neuDatum && (!altDatum || neuDatum > altDatum)) {
+                statistik.fragen[id].letztes_datum = neuDatum;
+            }
+        });
+    }
+
+    // Vokabel-Statistik mergen
+    if (importStat.vokabeln) {
+        Object.keys(importStat.vokabeln).forEach(id => {
+            if (!statistik.vokabeln[id]) {
+                statistik.vokabeln[id] = { gewusst: 0, nicht_gewusst: 0, letztes_datum: null };
+            }
+            statistik.vokabeln[id].gewusst = Math.max(
+                statistik.vokabeln[id].gewusst || 0,
+                importStat.vokabeln[id].gewusst || 0
+            );
+            statistik.vokabeln[id].nicht_gewusst = Math.max(
+                statistik.vokabeln[id].nicht_gewusst || 0,
+                importStat.vokabeln[id].nicht_gewusst || 0
+            );
+        });
+    }
+
+    // Gesamt-Zähler: nimm den höheren Wert
+    statistik.gesamt_richtig = Math.max(statistik.gesamt_richtig || 0, importStat.gesamt_richtig || 0);
+    statistik.gesamt_falsch = Math.max(statistik.gesamt_falsch || 0, importStat.gesamt_falsch || 0);
+    statistik.vokabeln_gesehen = Math.max(statistik.vokabeln_gesehen || 0, importStat.vokabeln_gesehen || 0);
+    statistik.vokabeln_gewusst = Math.max(statistik.vokabeln_gewusst || 0, importStat.vokabeln_gewusst || 0);
+
+    // Lerntage zusammenführen (eindeutig)
+    const alteTage = new Set(statistik.lerntage || []);
+    (importStat.lerntage || []).forEach(t => alteTage.add(t));
+    statistik.lerntage = Array.from(alteTage).sort();
+
+    // Gesehene Fragen/Vokabeln zusammenführen
+    const fragenSet = new Set(statistik.gesehene_fragen || []);
+    (importStat.gesehene_fragen || []).forEach(id => fragenSet.add(id));
+    statistik.gesehene_fragen = Array.from(fragenSet);
+
+    const vokSet = new Set(statistik.gesehene_vokabeln || []);
+    (importStat.gesehene_vokabeln || []).forEach(id => vokSet.add(id));
+    statistik.gesehene_vokabeln = Array.from(vokSet);
+
+    // Lesezeichen: vom Import übernehmen (sind aktueller)
+    if (importStat.lesezeichen) {
+        Object.keys(importStat.lesezeichen).forEach(modus => {
+            const altLZ = statistik.lesezeichen[modus];
+            const neuLZ = importStat.lesezeichen[modus];
+            // Nimm das neuere Lesezeichen
+            if (!altLZ || (neuLZ.datum && neuLZ.datum > altLZ.datum)) {
+                statistik.lesezeichen[modus] = neuLZ;
+            }
+        });
+    }
+
+    speichereStatistik();
+}
+
+// ================================================
+// HELPER
+// ================================================
 function shuffleArray(arr) {
     const result = [...arr];
     for (let i = result.length - 1; i > 0; i--) {
@@ -381,7 +492,7 @@ function starteZufallsmodusNeu() {
 function setzeZufallsmodusFort(lz) {
     const ids = lz.verbleibende_ids;
     aktuelleFragen = fragenkatalog.filter(f => ids.includes(f.id))
-                                   .sort((a, b) => ids.indexOf(a.id) - ids.indexOf(b.id));
+                                  .sort((a, b) => ids.indexOf(a.id) - ids.indexOf(b.id));
     aktuelleIndex = 0;
     aktuellerModus = "Zufallsmodus";
     rundenRichtig = lz.richtig || 0;
@@ -395,6 +506,7 @@ function zeigeThemenauswahl() {
         const t = f.thema || "Unbekannt";
         themen[t] = (themen[t] || 0) + 1;
     });
+
     const app = document.getElementById('app');
     let html = `
         <div class="view">
@@ -417,26 +529,37 @@ function zeigeThemenauswahl() {
 function starteThema(thema) {
     const modusName = `Thema: ${thema}`;
     fragenFortsetzen(modusName,
-        () => starteThemaNeu(thema),
-        (lz) => setzeThemaFort(thema, lz));
+        () => {
+            aktuelleFragen = shuffleArray(fragenkatalog.filter(f => f.thema === thema));
+            aktuelleIndex = 0;
+            aktuellerModus = modusName;
+            rundenRichtig = 0; rundenFalsch = 0;
+            zeigeFrage();
+        },
+        (lz) => {
+            const ids = lz.verbleibende_ids;
+            aktuelleFragen = fragenkatalog.filter(f => ids.includes(f.id))
+                                          .sort((a, b) => ids.indexOf(a.id) - ids.indexOf(b.id));
+            aktuelleIndex = 0;
+            aktuellerModus = modusName;
+            rundenRichtig = lz.richtig || 0;
+            rundenFalsch = lz.falsch || 0;
+            zeigeFrage();
+        }
+    );
 }
 
-function starteThemaNeu(thema) {
-    aktuelleFragen = shuffleArray(fragenkatalog.filter(f => f.thema === thema));
+function starteNeueFragen() {
+    const gesehen = new Set(statistik.gesehene_fragen || []);
+    const neue = fragenkatalog.filter(f => !gesehen.has(f.id));
+    if (neue.length === 0) {
+        alert("🎉 Glückwunsch! Du hast bereits alle Fragen mindestens einmal beantwortet!");
+        return;
+    }
+    aktuelleFragen = shuffleArray(neue);
     aktuelleIndex = 0;
-    aktuellerModus = `Thema: ${thema}`;
+    aktuellerModus = `🆕 Neue Fragen (${neue.length})`;
     rundenRichtig = 0; rundenFalsch = 0;
-    zeigeFrage();
-}
-
-function setzeThemaFort(thema, lz) {
-    const ids = lz.verbleibende_ids;
-    aktuelleFragen = fragenkatalog.filter(f => ids.includes(f.id))
-                                   .sort((a, b) => ids.indexOf(a.id) - ids.indexOf(b.id));
-    aktuelleIndex = 0;
-    aktuellerModus = `Thema: ${thema}`;
-    rundenRichtig = lz.richtig || 0;
-    rundenFalsch = lz.falsch || 0;
     zeigeFrage();
 }
 
@@ -469,16 +592,12 @@ function startePruefung() {
 }
 
 function starteCrashkurs() {
-    const relevante = fragenkatalog.filter(f => f.pruefungsrelevanz === "hoch");
-    if (relevante.length === 0) {
-        alert("Keine hochrelevanten Fragen markiert!");
-        return;
-    }
     fragenFortsetzen("🔥 Crashkurs", starteCrashkursNeu, setzeCrashkursFort);
 }
 
 function starteCrashkursNeu() {
     const relevante = fragenkatalog.filter(f => f.pruefungsrelevanz === "hoch");
+    if (relevante.length === 0) { alert("Keine hochrelevanten Fragen markiert!"); return; }
     aktuelleFragen = shuffleArray(relevante);
     aktuelleIndex = 0;
     aktuellerModus = "🔥 Crashkurs";
@@ -489,41 +608,9 @@ function starteCrashkursNeu() {
 function setzeCrashkursFort(lz) {
     const ids = lz.verbleibende_ids;
     aktuelleFragen = fragenkatalog.filter(f => ids.includes(f.id))
-                                   .sort((a, b) => ids.indexOf(a.id) - ids.indexOf(b.id));
+                                  .sort((a, b) => ids.indexOf(a.id) - ids.indexOf(b.id));
     aktuelleIndex = 0;
     aktuellerModus = "🔥 Crashkurs";
-    rundenRichtig = lz.richtig || 0;
-    rundenFalsch = lz.falsch || 0;
-    zeigeFrage();
-}
-
-function starteNeueFragen() {
-    const gesehen = new Set(statistik.gesehene_fragen || []);
-    const neue = fragenkatalog.filter(f => !gesehen.has(f.id));
-    if (neue.length === 0) {
-        alert("🎉 Glückwunsch! Du hast bereits alle Fragen mindestens einmal bearbeitet!\n\nWenn neue Buchseiten dazukommen, erscheinen sie hier.");
-        return;
-    }
-    const modusName = `🆕 Neue Fragen (${neue.length})`;
-    fragenFortsetzen(modusName,
-        () => starteNeueFragenNeu(neue),
-        setzeNeueFragenFort);
-}
-
-function starteNeueFragenNeu(neue) {
-    aktuelleFragen = shuffleArray(neue);
-    aktuelleIndex = 0;
-    aktuellerModus = `🆕 Neue Fragen (${neue.length})`;
-    rundenRichtig = 0; rundenFalsch = 0;
-    zeigeFrage();
-}
-
-function setzeNeueFragenFort(lz) {
-    const ids = lz.verbleibende_ids;
-    aktuelleFragen = fragenkatalog.filter(f => ids.includes(f.id))
-                                   .sort((a, b) => ids.indexOf(a.id) - ids.indexOf(b.id));
-    aktuelleIndex = 0;
-    aktuellerModus = `🆕 Neue Fragen (${aktuelleFragen.length})`;
     rundenRichtig = lz.richtig || 0;
     rundenFalsch = lz.falsch || 0;
     zeigeFrage();
@@ -609,34 +696,14 @@ function starteNeueVokabeln() {
     const gesehen = new Set(statistik.gesehene_vokabeln || []);
     const neue = vokabeln.filter(v => !gesehen.has(v.id));
     if (neue.length === 0) {
-        alert("🎉 Glückwunsch! Du hast bereits alle Vokabeln mindestens einmal bearbeitet!\n\nWenn neue Buchseiten dazukommen, erscheinen sie hier.");
+        alert("🎉 Glückwunsch! Du hast bereits alle Vokabeln mindestens einmal bearbeitet!");
         return;
     }
-    const modusName = `🆕 Neue Vokabeln (${neue.length})`;
-    fragenFortsetzen(modusName,
-        () => starteNeueVokabelnNeu(neue),
-        setzeNeueVokabelnFort);
-}
-
-function starteNeueVokabelnNeu(neue) {
     aktuelleVokabeln = shuffleArray(neue);
     aktuelleIndex = 0;
     aktuellerModus = `🆕 Neue Vokabeln (${neue.length})`;
     vokabelRichtung = "lat_to_de";
     rundenRichtig = 0; rundenFalsch = 0;
-    karteUmgedreht = false;
-    zeigeVokabelKarte();
-}
-
-function setzeNeueVokabelnFort(lz) {
-    const ids = lz.verbleibende_ids;
-    aktuelleVokabeln = vokabeln.filter(v => ids.includes(v.id))
-                                .sort((a, b) => ids.indexOf(a.id) - ids.indexOf(b.id));
-    aktuelleIndex = 0;
-    aktuellerModus = `🆕 Neue Vokabeln (${aktuelleVokabeln.length})`;
-    vokabelRichtung = lz.vokabel_richtung || "lat_to_de";
-    rundenRichtig = lz.richtig || 0;
-    rundenFalsch = lz.falsch || 0;
     karteUmgedreht = false;
     zeigeVokabelKarte();
 }
@@ -647,6 +714,7 @@ function zeigeVokabelKategorien() {
         const k = v.kategorie || "Sonstige";
         kategorien[k] = (kategorien[k] || 0) + 1;
     });
+
     const app = document.getElementById('app');
     let html = `
         <div class="view">
@@ -677,14 +745,18 @@ function starteVokabelKategorie(kategorie) {
 }
 
 // ================================================
-// VOKABEL-KARTEIKARTE
+// VOKABEL-KARTEIKARTE MIT AUSSPRACHE
 // ================================================
 function zeigeVokabelKarte() {
     if (aktuelleIndex >= aktuelleVokabeln.length) {
-        if (aktuellerModus) loescheLesezeichen(aktuellerModus);
+        if (aktuellerModus && statistik.lesezeichen[aktuellerModus]) {
+            delete statistik.lesezeichen[aktuellerModus];
+            speichereStatistik();
+        }
         zeigeVokabelErgebnis();
         return;
     }
+
     const vokabel = aktuelleVokabeln[aktuelleIndex];
     const app = document.getElementById('app');
     const progress = (aktuelleIndex / aktuelleVokabeln.length) * 100;
@@ -708,27 +780,55 @@ function zeigeVokabelKarte() {
                 <span class="meta-badge schwierigkeit">📊 ${(vokabel.schwierigkeit || '').toUpperCase()}</span>
                 <span class="meta-badge">📖 Seite ${vokabel.seite || '?'}</span>
             </div>
-            <div class="karteikarte" onclick="karteUmdrehen()">
+
+            <div class="karteikarte" onclick="karteUmdrehen(event)">
                 ${!karteUmgedreht ? `
                     <div class="karte-label">${labelVorne}</div>
-                    <div class="karte-text">${vorderseite}</div>
+                    <div class="karte-text-with-speaker">
+                        <span>${vorderseite}</span>
+                        <button class="speaker-btn" onclick="event.stopPropagation(); spreche('${vorderseite.replace(/'/g, "\\'")}', '${vokabelRichtung === 'lat_to_de' ? 'lat' : 'de'}')" title="Aussprache">
+                            🔊
+                        </button>
+                    </div>
                     <div class="karte-hinweis">👆 Tippen zum Umdrehen</div>
                 ` : `
                     <div class="karte-label-back">${labelHinten}</div>
-                    <div class="karte-text-back">${rueckseite}</div>
-                    ${vokabel.eselsbruecke ? `<div class="karte-extra"><strong>💡 Eselsbrücke:</strong><br>${vokabel.eselsbruecke}</div>` : ''}
-                    ${vokabel.herkunft ? `<div class="karte-extra-klein"><strong>📖 Herkunft:</strong> ${vokabel.herkunft}</div>` : ''}
-                    ${vokabel.beispiel ? `<div class="karte-extra-klein"><strong>💬 Beispiel:</strong> ${vokabel.beispiel}</div>` : ''}
+                    <div class="karte-text-with-speaker">
+                        <span>${rueckseite}</span>
+                        <button class="speaker-btn" onclick="event.stopPropagation(); spreche('${rueckseite.replace(/'/g, "\\'")}', '${vokabelRichtung === 'lat_to_de' ? 'de' : 'lat'}')" title="Aussprache">
+                            🔊
+                        </button>
+                    </div>
+                    ${vokabel.eselsbruecke ? `
+                        <div class="karte-extra">
+                            <strong>💡 Eselsbrücke:</strong><br>${vokabel.eselsbruecke}
+                        </div>
+                    ` : ''}
+                    ${vokabel.herkunft ? `
+                        <div class="karte-extra-klein">
+                            <strong>📖 Herkunft:</strong> ${vokabel.herkunft}
+                        </div>
+                    ` : ''}
+                    ${vokabel.beispiel ? `
+                        <div class="karte-extra-klein">
+                            <strong>💬 Beispiel:</strong> ${vokabel.beispiel}
+                        </div>
+                    ` : ''}
                 `}
             </div>
+
             ${karteUmgedreht ? `
                 <div class="vokabel-bewertung">
                     <button class="btn-bewertung btn-nicht-gewusst" onclick="bewerteVokabel(false)">❌ Nicht gewusst</button>
                     <button class="btn-bewertung btn-gewusst" onclick="bewerteVokabel(true)">✅ Gewusst</button>
                 </div>
             ` : `
-                <div class="info-box">💭 Versuche, dich an die Übersetzung zu erinnern, dann tippe auf die Karte.</div>
+                <div class="info-box">
+                    💭 Versuche, dich an die Übersetzung zu erinnern, dann tippe auf die Karte.<br>
+                    🔊 Klicke das Lautsprecher-Symbol, um die Aussprache zu hören!
+                </div>
             `}
+
             <div class="runden-stats">
                 📊 ✅ ${rundenRichtig} gewusst · ❌ ${rundenFalsch} nicht gewusst
             </div>
@@ -736,7 +836,9 @@ function zeigeVokabelKarte() {
     `;
 }
 
-function karteUmdrehen() {
+function karteUmdrehen(event) {
+    // Verhindere Umdrehen wenn auf Lautsprecher geklickt
+    if (event && event.target && event.target.classList.contains('speaker-btn')) return;
     karteUmgedreht = !karteUmgedreht;
     zeigeVokabelKarte();
 }
@@ -748,17 +850,28 @@ function bewerteVokabel(gewusst) {
     else rundenFalsch++;
     aktuelleIndex++;
     karteUmgedreht = false;
-    // NEU: Automatisch Lesezeichen aktualisieren nach jeder Bewertung
+    // Automatisches Speichern nach jeder Vokabel
     if (aktuelleIndex < aktuelleVokabeln.length) {
         speichereVokabelLesezeichen(aktuellerModus);
     }
     zeigeVokabelKarte();
 }
 
+function vokabelnZurueckZumMenue() {
+    if (aktuellerModus && aktuelleIndex > 0 && aktuelleIndex < aktuelleVokabeln.length) {
+        speichereVokabelLesezeichen(aktuellerModus);
+        alert(`✅ Gespeichert!\n\nDein Fortschritt im Modus "${aktuellerModus}" wurde gespeichert.\n\nDu kannst später dort weitermachen!`);
+    }
+    // Sprachausgabe stoppen
+    if ('speechSynthesis' in window) window.speechSynthesis.cancel();
+    zeigeHauptmenue();
+}
+
 function zeigeVokabelErgebnis() {
     const app = document.getElementById('app');
     const gesamt = rundenRichtig + rundenFalsch;
     const quote = gesamt > 0 ? (rundenRichtig / gesamt) * 100 : 0;
+
     let icon, titel, farbe;
     if (quote >= 90) { icon = '🏆'; titel = 'FANTASTISCH!'; farbe = 'var(--richtig)'; }
     else if (quote >= 75) { icon = '🎯'; titel = 'SEHR GUT!'; farbe = 'var(--primary)'; }
@@ -793,10 +906,14 @@ function zeigeVokabelErgebnis() {
 // ================================================
 function zeigeFrage() {
     if (aktuelleIndex >= aktuelleFragen.length) {
-        if (aktuellerModus) loescheLesezeichen(aktuellerModus);
+        if (aktuellerModus && statistik.lesezeichen[aktuellerModus]) {
+            delete statistik.lesezeichen[aktuellerModus];
+            speichereStatistik();
+        }
         zeigeRundenErgebnis();
         return;
     }
+
     const frage = aktuelleFragen[aktuelleIndex];
     const app = document.getElementById('app');
     const progress = ((aktuelleIndex / aktuelleFragen.length) * 100);
@@ -828,6 +945,7 @@ function zeigeFrage() {
             </div>
         `;
     }
+
     html += `<div class="frage-text">${frage.frage}</div>`;
     const typ = frage.typ || "single_choice";
 
@@ -862,9 +980,18 @@ function zeigeFrage() {
             </div>
         `;
     }
+
     html += `<button class="btn-primary" onclick="pruefeAntwort()">✓ Antwort prüfen</button>`;
     html += `</div>`;
     app.innerHTML = html;
+}
+
+function fragenZurueckZumMenue() {
+    if (aktuellerModus && aktuelleIndex > 0 && aktuelleIndex < aktuelleFragen.length) {
+        speichereLesezeichen(aktuellerModus);
+        alert(`✅ Gespeichert!\n\nDein Fortschritt im Modus "${aktuellerModus}" wurde gespeichert.`);
+    }
+    zeigeHauptmenue();
 }
 
 function waehleSingle(index) {
@@ -909,6 +1036,9 @@ function pruefeAntwort() {
         if (nutzerAntwort === null) { alert("Bitte wähle Richtig oder Falsch!"); return; }
         istRichtig = nutzerAntwort === frage.richtig;
     }
+
+    if (istRichtig) rundenRichtig++;
+    else rundenFalsch++;
     updateStatistik(frage.id, istRichtig);
     zeigeFeedback(frage, istRichtig);
 }
@@ -917,6 +1047,7 @@ function zeigeFeedback(frage, istRichtig) {
     const app = document.getElementById('app');
     const typ = frage.typ || "single_choice";
     let richtigeAntwortHtml = '';
+
     if (typ === "single_choice" || typ === "fallbeispiel") {
         richtigeAntwortHtml = `<strong>${String.fromCharCode(65 + frage.richtig)}.</strong> ${frage.optionen[frage.richtig]}`;
     } else if (typ === "multiple_choice") {
@@ -926,6 +1057,7 @@ function zeigeFeedback(frage, istRichtig) {
     } else if (typ === "richtig_falsch") {
         richtigeAntwortHtml = `<strong>${frage.richtig ? 'RICHTIG' : 'FALSCH'}</strong>`;
     }
+
     const gesamt = rundenRichtig + rundenFalsch;
     const quote = gesamt > 0 ? ((rundenRichtig / gesamt) * 100).toFixed(0) : 0;
 
@@ -950,9 +1082,7 @@ function zeigeFeedback(frage, istRichtig) {
                 <div class="feedback-titel" style="color: #E65100;">💡 Erklärung:</div>
                 <div class="feedback-text">${frage.erklaerung || ''}</div>
             </div>
-            <div class="runden-stats">
-                📊 ✅ ${rundenRichtig} · ❌ ${rundenFalsch} · 🎯 ${quote}%
-            </div>
+            <div class="runden-stats">📊 ✅ ${rundenRichtig} · ❌ ${rundenFalsch} · 🎯 ${quote}%</div>
             <button class="btn-primary" onclick="naechsteFrage()">➡️ Nächste Frage</button>
             <button class="btn-secondary" onclick="fragenZurueckZumMenue()">🏠 Hauptmenü (speichern)</button>
         </div>
@@ -961,7 +1091,7 @@ function zeigeFeedback(frage, istRichtig) {
 
 function naechsteFrage() {
     aktuelleIndex++;
-    // NEU: Automatisch Lesezeichen aktualisieren
+    // Automatisches Speichern
     if (aktuelleIndex < aktuelleFragen.length) {
         speichereLesezeichen(aktuellerModus);
     }
@@ -972,6 +1102,7 @@ function zeigeRundenErgebnis() {
     const app = document.getElementById('app');
     const gesamt = rundenRichtig + rundenFalsch;
     const quote = gesamt > 0 ? (rundenRichtig / gesamt) * 100 : 0;
+
     let icon, titel, farbe;
     if (quote >= 90) { icon = '🏆'; titel = 'HERVORRAGEND!'; farbe = 'var(--richtig)'; }
     else if (quote >= 75) { icon = '🎯'; titel = 'SEHR GUT!'; farbe = 'var(--primary)'; }
@@ -994,9 +1125,7 @@ function zeigeRundenErgebnis() {
                     <div class="ergebnis-stat-wert" style="color: var(--falsch);">${rundenFalsch}</div>
                 </div>
             </div>
-            <div class="info-box">
-                Modus: <strong>${aktuellerModus}</strong><br>Prüfungsgrenze: 75%
-            </div>
+            <div class="info-box">Modus: <strong>${aktuellerModus}</strong><br>Prüfungsgrenze: 75%</div>
             <button class="btn-primary" onclick="nochmalUeben()">🔄 Nochmal üben</button>
             <button class="btn-secondary" onclick="zeigeHauptmenue()">🏠 Hauptmenü</button>
         </div>
@@ -1011,18 +1140,6 @@ function nochmalUeben() {
     else if (aktuellerModus === "Alle Vokabeln") starteVokabelnAlleNeu();
     else if (aktuellerModus === "Deutsch → Latein") starteVokabelnDeLatNeu();
     else if (aktuellerModus === "💪 Schwierige Vokabeln") starteVokabelnSchwer();
-    else if (aktuellerModus.startsWith("🆕 Neue Fragen")) {
-        const gesehen = new Set(statistik.gesehene_fragen || []);
-        const neue = fragenkatalog.filter(f => !gesehen.has(f.id));
-        if (neue.length > 0) starteNeueFragenNeu(neue);
-        else zeigeHauptmenue();
-    }
-    else if (aktuellerModus.startsWith("🆕 Neue Vokabeln")) {
-        const gesehen = new Set(statistik.gesehene_vokabeln || []);
-        const neue = vokabeln.filter(v => !gesehen.has(v.id));
-        if (neue.length > 0) starteNeueVokabelnNeu(neue);
-        else zeigeHauptmenue();
-    }
     else zeigeHauptmenue();
 }
 
@@ -1050,48 +1167,23 @@ function zeigeStatistik() {
         html += `
             <div class="section-title">📝 Prüfungsfragen</div>
             <div class="stats-grid">
-                <div class="ergebnis-stat">
-                    <div class="ergebnis-stat-label">📅 Lerntage</div>
-                    <div class="ergebnis-stat-wert">${statistik.lerntage.length}</div>
-                </div>
-                <div class="ergebnis-stat">
-                    <div class="ergebnis-stat-label">📊 Beantwortet</div>
-                    <div class="ergebnis-stat-wert">${gesamt}</div>
-                </div>
-                <div class="ergebnis-stat">
-                    <div class="ergebnis-stat-label">✅ Richtig</div>
-                    <div class="ergebnis-stat-wert" style="color: var(--richtig);">${statistik.gesamt_richtig}</div>
-                </div>
-                <div class="ergebnis-stat">
-                    <div class="ergebnis-stat-label">🎯 Quote</div>
-                    <div class="ergebnis-stat-wert" style="color: var(--primary);">${quote}%</div>
-                </div>
+                <div class="ergebnis-stat"><div class="ergebnis-stat-label">📅 Lerntage</div><div class="ergebnis-stat-wert">${statistik.lerntage.length}</div></div>
+                <div class="ergebnis-stat"><div class="ergebnis-stat-label">📊 Beantwortet</div><div class="ergebnis-stat-wert">${gesamt}</div></div>
+                <div class="ergebnis-stat"><div class="ergebnis-stat-label">✅ Richtig</div><div class="ergebnis-stat-wert" style="color: var(--richtig);">${statistik.gesamt_richtig}</div></div>
+                <div class="ergebnis-stat"><div class="ergebnis-stat-label">🎯 Quote</div><div class="ergebnis-stat-wert" style="color: var(--primary);">${quote}%</div></div>
             </div>
             <div class="section-title">📚 Vokabeln</div>
             <div class="stats-grid">
-                <div class="ergebnis-stat">
-                    <div class="ergebnis-stat-label">📚 Gesehen</div>
-                    <div class="ergebnis-stat-wert">${vokGesehen}</div>
-                </div>
-                <div class="ergebnis-stat">
-                    <div class="ergebnis-stat-label">✅ Gewusst</div>
-                    <div class="ergebnis-stat-wert" style="color: var(--richtig);">${vokGewusst}</div>
-                </div>
-                <div class="ergebnis-stat">
-                    <div class="ergebnis-stat-label">🎯 Quote</div>
-                    <div class="ergebnis-stat-wert" style="color: var(--primary);">${vokQuote}%</div>
-                </div>
-                <div class="ergebnis-stat">
-                    <div class="ergebnis-stat-label">📖 Vokabeln</div>
-                    <div class="ergebnis-stat-wert">${Object.keys(statistik.vokabeln || {}).length} / ${vokabeln.length}</div>
-                </div>
+                <div class="ergebnis-stat"><div class="ergebnis-stat-label">📚 Gesehen</div><div class="ergebnis-stat-wert">${vokGesehen}</div></div>
+                <div class="ergebnis-stat"><div class="ergebnis-stat-label">✅ Gewusst</div><div class="ergebnis-stat-wert" style="color: var(--richtig);">${vokGewusst}</div></div>
+                <div class="ergebnis-stat"><div class="ergebnis-stat-label">🎯 Quote</div><div class="ergebnis-stat-wert" style="color: var(--primary);">${vokQuote}%</div></div>
+                <div class="ergebnis-stat"><div class="ergebnis-stat-label">📖 Vokabeln</div><div class="ergebnis-stat-wert">${Object.keys(statistik.vokabeln || {}).length} / ${vokabeln.length}</div></div>
             </div>
         `;
     }
+
     html += `
-            <button class="btn-secondary" onclick="statistikZuruecksetzen()" style="margin-top: 24px; color: var(--falsch);">
-                🗑️ Statistik zurücksetzen
-            </button>
+            <button class="btn-secondary" onclick="statistikZuruecksetzen()" style="margin-top: 24px; color: var(--falsch);">🗑️ Statistik zurücksetzen</button>
         </div>
     `;
     app.innerHTML = html;
@@ -1103,10 +1195,8 @@ function statistikZuruecksetzen() {
             fragen: {}, vokabeln: {},
             gesamt_richtig: 0, gesamt_falsch: 0,
             vokabeln_gesehen: 0, vokabeln_gewusst: 0,
-            lerntage: [],
-            lesezeichen: {},
-            gesehene_fragen: [],
-            gesehene_vokabeln: []
+            lerntage: [], lesezeichen: {},
+            gesehene_fragen: [], gesehene_vokabeln: []
         };
         speichereStatistik();
         zeigeHauptmenue();
