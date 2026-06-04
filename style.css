@@ -1295,3 +1295,490 @@ body.dark-mode .speaker-btn {
 body.dark-mode .speaker-btn:hover {
     background: rgba(255, 255, 255, 0.3);
 }
+/* ================================================ */
+/* CSS-ZUSATZ für v5.1 - Lautsprecher + Dark Mode   */
+/* Diese Zeilen MÜSSEN am Ende der style.css ergänzt werden! */
+/* ================================================ */
+
+/* ================================================ */
+/* 🎨 VOKABELKARTE - Light Mode Fix                 */
+/* ================================================ */
+
+/* Vokabelkarte bekommt im Light Mode einen FARBIGEN Hintergrund */
+/* damit der weiße Text gut lesbar ist! */
+.karteikarte {
+    background: linear-gradient(135deg, #2E7D32 0%, #66BB6A 100%) !important;
+    color: white !important;
+    border-radius: 16px !important;
+    padding: 24px 16px !important;
+    box-shadow: 0 4px 16px rgba(46, 125, 50, 0.3) !important;
+    cursor: pointer !important;
+    min-height: 280px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin: 16px 0 !important;
+    border: none !important;
+    transition: transform 0.2s, box-shadow 0.2s !important;
+}
+
+.karteikarte:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 6px 20px rgba(46, 125, 50, 0.4) !important;
+}
+
+/* Label oben (LATEINISCH/DEUTSCH) */
+.karte-label,
+.karte-label-back {
+    background: rgba(255, 255, 255, 0.25) !important;
+    color: white !important;
+    padding: 6px 16px !important;
+    border-radius: 20px !important;
+    font-size: 12px !important;
+    font-weight: bold !important;
+    letter-spacing: 1px !important;
+    margin-bottom: 16px !important;
+    display: inline-block !important;
+}
+
+/* Vokabel-Text (groß und weiß) */
+.karte-text,
+.karte-text-back {
+    color: white !important;
+    font-size: 28px !important;
+    font-weight: bold !important;
+    text-align: center !important;
+    margin: 16px 0 !important;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2) !important;
+}
+
+/* Hinweis "Tippen zum Umdrehen" */
+.karte-hinweis {
+    color: rgba(255, 255, 255, 0.85) !important;
+    font-size: 13px !important;
+    font-style: italic !important;
+    margin-top: 16px !important;
+}
+
+/* Eselsbrücke, Herkunft, Beispiel */
+.karte-extra,
+.karte-extra-klein {
+    background: rgba(255, 255, 255, 0.2) !important;
+    color: white !important;
+    padding: 12px 16px !important;
+    border-radius: 8px !important;
+    margin-top: 12px !important;
+    font-size: 14px !important;
+    line-height: 1.5 !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+}
+
+.karte-extra-klein {
+    font-size: 12px !important;
+    padding: 8px 12px !important;
+}
+
+/* Lautsprecher-Button auf Vokabelkarte */
+.karte-text-with-speaker {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    font-size: 28px;
+    font-weight: bold;
+    color: white !important;
+    text-align: center;
+    margin: 16px 0;
+    flex-wrap: wrap;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.karte-text-with-speaker span {
+    color: white !important;
+}
+
+.speaker-btn {
+    background: rgba(255, 255, 255, 0.3);
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: all 0.2s;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    flex-shrink: 0;
+    color: white;
+    line-height: 1;
+}
+
+.speaker-btn:hover {
+    background: rgba(255, 255, 255, 0.4);
+    transform: scale(1.1);
+}
+
+.speaker-btn:active {
+    transform: scale(0.95);
+}
+
+/* Lesezeichen-Übersicht im Hauptmenü */
+.lesezeichen-item {
+    background: #fff3e0;
+    border-left: 4px solid #FF9800;
+    padding: 12px 16px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #333;
+}
+
+/* ================================================ */
+/* 🌙 DARK MODE - NEU in v5.1                       */
+/* ================================================ */
+
+/* Dark-Mode-Toggle-Button (fixiert oben rechts) */
+.dark-mode-toggle {
+    position: fixed;
+    top: 16px;
+    right: 16px;
+    z-index: 1000;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: rgba(46, 125, 50, 0.9);
+    color: white;
+    border: 2px solid white;
+    font-size: 22px;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.dark-mode-toggle:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+}
+
+.dark-mode-toggle:active {
+    transform: scale(0.95);
+}
+
+/* ====== DARK MODE STYLES ====== */
+
+body.dark-mode {
+    background: #121212 !important;
+    color: #e0e0e0 !important;
+}
+
+body.dark-mode .dark-mode-toggle {
+    background: #ffa726;
+    color: #1a1a1a;
+    border-color: #ffa726;
+}
+
+body.dark-mode .view {
+    background: #121212;
+    color: #e0e0e0;
+}
+
+body.dark-mode #app {
+    background: #121212;
+}
+
+body.dark-mode .header {
+    background: linear-gradient(135deg, #1b5e20 0%, #2e7d32 100%) !important;
+}
+
+body.dark-mode .header h1,
+body.dark-mode .header p,
+body.dark-mode .untertitel {
+    color: #ffffff !important;
+}
+
+body.dark-mode .stats-badge {
+    background: #1e1e1e;
+}
+
+body.dark-mode .stat-item {
+    background: #2a2a2a !important;
+    border: 1px solid #404040;
+    color: #e0e0e0;
+}
+
+body.dark-mode .stat-value {
+    color: #81c784 !important;
+}
+
+body.dark-mode .stat-label {
+    color: #b0b0b0 !important;
+}
+
+body.dark-mode .section-title {
+    color: #81c784 !important;
+    border-bottom-color: #2e7d32 !important;
+}
+
+body.dark-mode .modus-btn {
+    background: #2a2a2a !important;
+    color: #e0e0e0 !important;
+    border-color: #404040 !important;
+}
+
+body.dark-mode .modus-btn:hover {
+    background: #333333 !important;
+    border-color: #81c784 !important;
+}
+
+body.dark-mode .modus-titel {
+    color: #ffffff !important;
+}
+
+body.dark-mode .modus-beschreibung {
+    color: #b0b0b0 !important;
+}
+
+body.dark-mode .modus-btn-vokabel {
+    border-left: 4px solid #ffa726 !important;
+}
+
+body.dark-mode .lesezeichen-item {
+    background: #3e2723 !important;
+    border-left-color: #ff9800 !important;
+    color: #ffd699 !important;
+}
+
+body.dark-mode .themen-liste,
+body.dark-mode .themen-item {
+    background: #2a2a2a !important;
+    color: #e0e0e0 !important;
+    border-color: #404040 !important;
+}
+
+body.dark-mode .themen-item:hover {
+    background: #333333 !important;
+}
+
+body.dark-mode .themen-name {
+    color: #e0e0e0 !important;
+}
+
+body.dark-mode .themen-anzahl {
+    background: #2e7d32 !important;
+    color: white !important;
+}
+
+body.dark-mode .frage-text {
+    background: #2a2a2a !important;
+    color: #e0e0e0 !important;
+    border-color: #404040 !important;
+}
+
+body.dark-mode .frage-header {
+    color: #b0b0b0 !important;
+}
+
+body.dark-mode .meta-badge {
+    background: #2a2a2a !important;
+    color: #b0b0b0 !important;
+    border: 1px solid #404040;
+}
+
+body.dark-mode .progress-bar {
+    background: #2a2a2a !important;
+}
+
+body.dark-mode .progress-fill {
+    background: linear-gradient(90deg, #2e7d32, #81c784) !important;
+}
+
+body.dark-mode .option {
+    background: #2a2a2a !important;
+    color: #e0e0e0 !important;
+    border-color: #404040 !important;
+}
+
+body.dark-mode .option:hover {
+    background: #333333 !important;
+    border-color: #81c784 !important;
+}
+
+body.dark-mode .option.selected {
+    background: #2e7d32 !important;
+    color: white !important;
+    border-color: #81c784 !important;
+}
+
+body.dark-mode .option-buchstabe {
+    background: #1b5e20 !important;
+    color: white !important;
+}
+
+body.dark-mode .option.selected .option-buchstabe {
+    background: white !important;
+    color: #2e7d32 !important;
+}
+
+body.dark-mode .rf-btn {
+    background: #2a2a2a !important;
+    color: #e0e0e0 !important;
+    border-color: #404040 !important;
+}
+
+body.dark-mode .richtig-btn.selected {
+    background: #2e7d32 !important;
+    color: white !important;
+}
+
+body.dark-mode .falsch-btn.selected {
+    background: #c62828 !important;
+    color: white !important;
+}
+
+body.dark-mode .fallbeschreibung {
+    background: #2a2820 !important;
+    color: #ffd699 !important;
+    border-color: #ff9800 !important;
+}
+
+body.dark-mode .fallbeschreibung-titel {
+    color: #ffa726 !important;
+}
+
+body.dark-mode .feedback-box,
+body.dark-mode .erklaerung-box {
+    background: #2a2a2a !important;
+    color: #e0e0e0 !important;
+    border-color: #404040 !important;
+}
+
+body.dark-mode .feedback-titel {
+    color: #81c784 !important;
+}
+
+body.dark-mode .feedback-text {
+    color: #e0e0e0 !important;
+}
+
+body.dark-mode .erklaerung-box {
+    background: #2a2820 !important;
+    border-left-color: #ffa726 !important;
+}
+
+body.dark-mode .feedback-ergebnis.richtig {
+    background: #1b5e20 !important;
+    color: white !important;
+}
+
+body.dark-mode .feedback-ergebnis.falsch {
+    background: #b71c1c !important;
+    color: white !important;
+}
+
+body.dark-mode .info-box {
+    background: #2a2a2a !important;
+    color: #e0e0e0 !important;
+    border-color: #404040 !important;
+}
+
+body.dark-mode .btn-primary {
+    background: linear-gradient(135deg, #2e7d32, #1b5e20) !important;
+    color: white !important;
+}
+
+body.dark-mode .btn-secondary {
+    background: #2a2a2a !important;
+    color: #e0e0e0 !important;
+    border-color: #404040 !important;
+}
+
+body.dark-mode .zurueck-btn {
+    background: #2a2a2a !important;
+    color: #e0e0e0 !important;
+}
+
+body.dark-mode .karteikarte {
+    background: linear-gradient(135deg, #1b5e20, #2e7d32) !important;
+    color: white !important;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5) !important;
+}
+
+body.dark-mode .karte-label,
+body.dark-mode .karte-label-back {
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+
+body.dark-mode .karte-text,
+body.dark-mode .karte-text-back {
+    color: white !important;
+}
+
+body.dark-mode .karte-hinweis {
+    color: rgba(255, 255, 255, 0.6) !important;
+}
+
+body.dark-mode .karte-extra,
+body.dark-mode .karte-extra-klein {
+    background: rgba(0, 0, 0, 0.3) !important;
+    color: white !important;
+}
+
+body.dark-mode .btn-bewertung {
+    color: white !important;
+}
+
+body.dark-mode .btn-gewusst {
+    background: #2e7d32 !important;
+}
+
+body.dark-mode .btn-nicht-gewusst {
+    background: #c62828 !important;
+}
+
+body.dark-mode .ergebnis-view {
+    background: #121212 !important;
+    color: #e0e0e0 !important;
+}
+
+body.dark-mode .ergebnis-titel {
+    color: #ffffff !important;
+}
+
+body.dark-mode .ergebnis-stat {
+    background: #2a2a2a !important;
+    border-color: #404040 !important;
+}
+
+body.dark-mode .ergebnis-stat-label {
+    color: #b0b0b0 !important;
+}
+
+body.dark-mode .stats-grid {
+    background: #121212 !important;
+}
+
+body.dark-mode .stats-titel {
+    color: #ffffff !important;
+}
+
+body.dark-mode .runden-stats {
+    background: #2a2a2a !important;
+    color: #e0e0e0 !important;
+}
+
+body.dark-mode .speaker-btn {
+    background: rgba(255, 255, 255, 0.15);
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+body.dark-mode .speaker-btn:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
