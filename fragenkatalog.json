@@ -1,7 +1,7 @@
 {
-  "version": "4.0",
-  "erstellt_am": "2026-05-24",
-  "beschreibung": "Fragenkatalog + Vokabeltrainer Heilpraktikerprüfung - Seite 3-14 (Stoffwechsel komplett: Metabolisches Syndrom, Diabetes, Adipositas, Gicht)",
+  "version": "5.0",
+  "erstellt_am": "2026-06-06",
+  "beschreibung": "Fragenkatalog + Vokabeltrainer Heilpraktikerprüfung - Seite 3-19 (Stoffwechsel komplett: Metabolisches Syndrom, Diabetes, Adipositas, Gicht, Fettstoffwechsel, Mukoviszidose, Kaliumhaushalt)",
   "fragenkatalog": [
     {
       "id": "STW-003-01",
@@ -4980,6 +4980,1702 @@
         "Fallbeispiel"
       ],
       "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-015-01",
+      "kapitel": "Stoffwechsel",
+      "thema": "Fettstoffwechsel - Magen",
+      "seite": 15,
+      "typ": "single_choice",
+      "frage": "Was passiert im Magen beim Fettstoffwechsel?",
+      "optionen": [
+        "Vollständige Verdauung der Fette",
+        "Emulgierung durch die Magenperistaltik, minimale Aufspaltung durch Lipasen aus Zungengrunddrüsen",
+        "Resorption der Fettsäuren",
+        "Keine Beteiligung am Fettstoffwechsel",
+        "Bildung von Cholesterin"
+      ],
+      "richtig": 1,
+      "erklaerung": "Im Magen erfolgt die Emulgierung (Vermischung zweier nicht mischbarer Flüssigkeiten) durch die Magenperistaltik und eine minimale Aufspaltung durch Lipasen aus Zungengrunddrüsen.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Fettstoffwechsel",
+        "Magen"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-015-02",
+      "kapitel": "Stoffwechsel",
+      "thema": "Fettstoffwechsel - Duodenum",
+      "seite": 15,
+      "typ": "single_choice",
+      "frage": "Wodurch werden Fette im Duodenum aufgespalten?",
+      "optionen": [
+        "Durch Magensäure",
+        "Durch Gallensäuren und Pankreas-Lipasen",
+        "Durch Pepsin",
+        "Durch Peptidasen",
+        "Durch Speichel"
+      ],
+      "richtig": 1,
+      "erklaerung": "Im Duodenum erfolgt die Aufspaltung der Fette durch Gallensäuren und Pankreas-Lipasen.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Fettstoffwechsel",
+        "Duodenum"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-015-03",
+      "kapitel": "Stoffwechsel",
+      "thema": "Fettstoffwechsel - Resorption",
+      "seite": 15,
+      "typ": "multiple_choice",
+      "frage": "Wie werden Fettsäuren resorbiert?",
+      "optionen": [
+        "Kurzkettige Fettsäuren: an Albumin gebunden, relativ gut wasserlöslich",
+        "Langkettige Fettsäuren: Zusammenschluss mit Monoglyceriden und Gallensäuren zu Mizellen",
+        "Alle Fettsäuren werden gleich resorbiert",
+        "Nur als reine Triglyceride",
+        "Über Magensäure"
+      ],
+      "richtig": [
+        0,
+        1
+      ],
+      "erklaerung": "Kurzkettige Fettsäuren werden an Albumin gebunden (relativ gut wasserlöslich). Langkettige Fettsäuren bilden mit Monoglyceriden und Gallensäuren MIZELLEN - nur so können sie resorbiert werden.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Fettstoffwechsel",
+        "Resorption",
+        "Mizellen"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-015-04",
+      "kapitel": "Stoffwechsel",
+      "thema": "Fettstoffwechsel - Transport",
+      "seite": 15,
+      "typ": "single_choice",
+      "frage": "Wohin werden die resorbierten Fettsäuren transportiert?",
+      "optionen": [
+        "Kurzkettige über Pfortader zur Leber, langkettige über Darmlymphe ins Blut",
+        "Alles über die Pfortader",
+        "Alles über die Lymphe",
+        "Alles über den Urin",
+        "Nirgendwohin, bleiben im Darm"
+      ],
+      "richtig": 0,
+      "erklaerung": "Kurzkettige Fettsäuren werden über die PFORTADER zur Leber transportiert, langkettige Fettsäuren über die DARMLYMPHE ins Blut.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Fettstoffwechsel",
+        "Transport"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-015-05",
+      "kapitel": "Stoffwechsel",
+      "thema": "Dyslipidämien",
+      "seite": 15,
+      "typ": "single_choice",
+      "frage": "Was sind Dyslipidämien?",
+      "optionen": [
+        "Diabetesformen",
+        "Fettstoffwechselstörungen, bei denen Lipide (Cholesterin, Triglyzeride) bzw. Lipoproteine im Blut erhöht oder erniedrigt sind",
+        "Eine Hauterkrankung",
+        "Ein Vitaminmangel",
+        "Eine Infektionskrankheit"
+      ],
+      "richtig": 1,
+      "erklaerung": "Dyslipidämien sind Fettstoffwechselstörungen, bei denen die Lipide (Cholesterin, Triglyzeride) bzw. die Lipoproteine im Blut erhöht oder erniedrigt sind.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Dyslipidämien",
+        "Definition"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-015-06",
+      "kapitel": "Stoffwechsel",
+      "thema": "Cholesterin - Funktion",
+      "seite": 15,
+      "typ": "multiple_choice",
+      "frage": "Wofür ist Cholesterin notwendig?",
+      "optionen": [
+        "Herstellung von Steroidhormonen",
+        "Herstellung von Vitamin D3",
+        "Herstellung von Gallensäuren",
+        "Baustein für alle Zellmembranen",
+        "Energiegewinnung"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Cholesterin ist notwendig für die Herstellung von Steroidhormonen, Vitamin D3 und Gallensäuren und ist ein wichtiger Baustein für alle Zellmembranen.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Cholesterin",
+        "Funktion"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-015-07",
+      "kapitel": "Stoffwechsel",
+      "thema": "Cholesterin - Herkunft",
+      "seite": 15,
+      "typ": "single_choice",
+      "frage": "Woher stammt das Cholesterin im Körper?",
+      "optionen": [
+        "Nur aus der Nahrung",
+        "Teilweise aus der Nahrung (z.B. Butter, Eigelb, Sahne, Fleisch) oder Synthese in der Leber",
+        "Nur aus der Leber-Synthese",
+        "Wird aus Glukose gebildet",
+        "Aus dem Darm produziert"
+      ],
+      "richtig": 1,
+      "erklaerung": "Die Aufnahme von Cholesterin erfolgt teilweise über die Nahrung (z.B. Butter, Eigelb, Sahne, Fleisch) oder über die Synthese der Leber.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Cholesterin",
+        "Aufnahme"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-015-08",
+      "kapitel": "Stoffwechsel",
+      "thema": "Cholesterin - Abbau",
+      "seite": 15,
+      "typ": "single_choice",
+      "frage": "Wo wird Cholesterin abgebaut?",
+      "optionen": [
+        "In der Niere",
+        "Hauptsächlich in der Leber - umgewandelt zu Gallensäuren und ausgeschieden",
+        "Im Dünndarm",
+        "Im Magen",
+        "In der Lunge"
+      ],
+      "richtig": 1,
+      "erklaerung": "Der Abbau von Cholesterin erfolgt hauptsächlich in der Leber - es wird zu Gallensäuren umgewandelt und damit ausgeschieden.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Cholesterin",
+        "Abbau"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-015-09",
+      "kapitel": "Stoffwechsel",
+      "thema": "LDL-Cholesterin",
+      "seite": 15,
+      "typ": "single_choice",
+      "frage": "Was bedeutet 'LDL'?",
+      "optionen": [
+        "Low Density Lipoprotein - das 'schlechte' Cholesterin, Transport in die Peripherie",
+        "Liver Direct Liver",
+        "Low Diabetes Level",
+        "Light Density Lipid",
+        "Lipid Distribution Layer"
+      ],
+      "richtig": 0,
+      "erklaerung": "LDL = Low Density Lipoprotein ('schlechtes' Cholesterin): Transport von Cholesterin in die Peripherie. Bei zu viel Cholesterin lagert es sich in den Gefäßinnenwänden ab → erhöhtes Arterioskleroserisiko.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Cholesterin",
+        "LDL",
+        "Lipoproteine"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-015-10",
+      "kapitel": "Stoffwechsel",
+      "thema": "HDL-Cholesterin",
+      "seite": 15,
+      "typ": "single_choice",
+      "frage": "Was ist die Funktion von HDL?",
+      "optionen": [
+        "Transport von Cholesterin in die Peripherie",
+        "Transport von überschüssigem Cholesterin aus den Zellen in die Leber - Schutzwirkung vor Arteriosklerose",
+        "Aufbau von Muskeln",
+        "Hemmung der Fettverdauung",
+        "Erzeugung von Magensäure"
+      ],
+      "richtig": 1,
+      "erklaerung": "HDL = High Density Lipoprotein ('gutes' Cholesterin): Transport von überschüssigem Cholesterin aus den Zellen in die Leber → Schutzwirkung vor Arteriosklerose.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Cholesterin",
+        "HDL",
+        "Lipoproteine"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-015-11",
+      "kapitel": "Stoffwechsel",
+      "thema": "Lipoproteine",
+      "seite": 15,
+      "typ": "multiple_choice",
+      "frage": "Welche Lipoproteine gibt es (nach Dichte geordnet)?",
+      "optionen": [
+        "Chylomikronen (größtes, am wenigsten dichtes)",
+        "VLDL (very low density lipoprotein)",
+        "IDL (intermediate density lipoprotein)",
+        "LDL (low density lipoprotein)",
+        "HDL (high density lipoprotein)",
+        "PDL (positive density lipoprotein)"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "erklaerung": "Die Lipoproteine nach Dichte: Chylomikronen (größtes, am wenigsten dichtes), VLDL, IDL (Zwischenstufe VLDL-LDL), LDL ('schlechtes'), HDL ('gutes' Cholesterin).",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Lipoproteine",
+        "Einteilung"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-015-12",
+      "kapitel": "Stoffwechsel",
+      "thema": "Chylomikronen",
+      "seite": 15,
+      "typ": "single_choice",
+      "frage": "Was sind Chylomikronen?",
+      "optionen": [
+        "Das größte aber am wenigsten dichte Lipoprotein - Transport von Triglyzeriden aus dem Darm über die Lymphe ins Blut",
+        "Kleine Bakterien im Darm",
+        "Spezielle weiße Blutkörperchen",
+        "Hormone der Bauchspeicheldrüse",
+        "Verdauungsenzyme"
+      ],
+      "richtig": 0,
+      "erklaerung": "Chylomikronen sind das größte, aber am wenigsten dichte Lipoprotein. Sie transportieren Triglyzeride aus dem Darm über die Lymphe ins Blut und von dort in Leber, Muskel- und Fettzellen.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Chylomikronen",
+        "Lipoproteine"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-015-F1",
+      "kapitel": "Stoffwechsel",
+      "thema": "Cholesterin und Arteriosklerose",
+      "seite": 15,
+      "typ": "fallbeispiel",
+      "fallbeschreibung": "Bei einem Patienten werden folgende Blutwerte gemessen: LDL-Cholesterin stark erhöht, HDL-Cholesterin niedrig.",
+      "frage": "Welche Bedeutung hat das?",
+      "optionen": [
+        "Sehr gute Werte",
+        "Erhöhtes Arterioskleroserisiko - schlechtes Fettprofil",
+        "Kein Einfluss auf die Gesundheit",
+        "Hinweis auf Diabetes",
+        "Hinweis auf Hyperthyreose"
+      ],
+      "richtig": 1,
+      "erklaerung": "LDL ist das 'schlechte' Cholesterin (lagert sich in Gefäßwänden ab), HDL ist das 'gute' (schützt vor Arteriosklerose). Hohes LDL + niedriges HDL = stark erhöhtes Arterioskleroserisiko.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Cholesterin",
+        "Arteriosklerose",
+        "Fallbeispiel"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-016-01",
+      "kapitel": "Stoffwechsel",
+      "thema": "Dyslipidämien - Ätiologie",
+      "seite": 16,
+      "typ": "single_choice",
+      "frage": "Welche zwei Hauptformen von Dyslipidämien gibt es nach Ursache?",
+      "optionen": [
+        "Akute und chronische",
+        "Primäre (genetisch bedingt) und sekundäre Dyslipidämien",
+        "Männliche und weibliche",
+        "Heiße und kalte",
+        "Schwere und leichte"
+      ],
+      "richtig": 1,
+      "erklaerung": "Ätiologisch unterscheidet man: primäre Dyslipidämien (genetisch bedingt) und sekundäre Dyslipidämien (Folge anderer Erkrankungen).",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Dyslipidämien",
+        "Ätiologie"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-016-02",
+      "kapitel": "Stoffwechsel",
+      "thema": "Hypertriglyzeridämie - Ursachen",
+      "seite": 16,
+      "typ": "multiple_choice",
+      "frage": "Welche Ursachen kann eine sekundäre Hypertriglyzeridämie haben?",
+      "optionen": [
+        "Adipositas",
+        "Alkohol",
+        "Diabetes mellitus (wenn schlecht eingestellt)",
+        "Niereninsuffizienz",
+        "Medikamente (z.B. Glukokortikoide, Diuretika, Beta-Blocker)",
+        "Vitaminmangel"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "erklaerung": "Sekundäre Hypertriglyzeridämie-Ursachen: Adipositas, Alkohol, schlecht eingestellter Diabetes, Niereninsuffizienz, Medikamente (Glukokortikoide, Diuretika, Hormonsubstitution, Beta-Blocker).",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Hypertriglyzeridämie",
+        "Ursachen"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-016-03",
+      "kapitel": "Stoffwechsel",
+      "thema": "Hypercholesterinämie - Ursachen",
+      "seite": 16,
+      "typ": "multiple_choice",
+      "frage": "Welche Ursachen kann eine sekundäre Hypercholesterinämie haben?",
+      "optionen": [
+        "Lebererkrankungen mit Cholestase",
+        "Nephrotisches Syndrom",
+        "Diabetes mellitus",
+        "Hypothyreose",
+        "Medikamente (Glukokortikoide, Diuretika, Beta-Blocker)",
+        "Schwangerschaft"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "erklaerung": "Sekundäre Hypercholesterinämie: Lebererkrankungen mit Cholestase, nephrotisches Syndrom, Diabetes, Hypothyreose, Medikamente, Schwangerschaft.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Hypercholesterinämie",
+        "Ursachen"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-016-04",
+      "kapitel": "Stoffwechsel",
+      "thema": "Hypercholesterinämie - Werte",
+      "seite": 16,
+      "typ": "single_choice",
+      "frage": "Ab welchem Wert spricht man von einer Hypercholesterinämie?",
+      "optionen": [
+        "Cholesterinwerte > 100 mg/dl",
+        "Cholesterinwerte > 150 mg/dl",
+        "Cholesterinwerte > 200 mg/dl",
+        "Cholesterinwerte > 300 mg/dl",
+        "Cholesterinwerte > 500 mg/dl"
+      ],
+      "richtig": 2,
+      "erklaerung": "Eine Hypercholesterinämie liegt vor bei Cholesterinwerten > 200 mg/dl.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Hypercholesterinämie",
+        "Laborwert"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-016-05",
+      "kapitel": "Stoffwechsel",
+      "thema": "Hypertriglyzeridämie - Werte",
+      "seite": 16,
+      "typ": "single_choice",
+      "frage": "Ab welchem Wert spricht man von einer Hypertriglyzeridämie?",
+      "optionen": [
+        "Triglyzeride > 50 mg/dl",
+        "Triglyzeride > 100 mg/dl",
+        "Triglyzeride > 150 mg/dl",
+        "Triglyzeride > 200 mg/dl",
+        "Triglyzeride > 500 mg/dl"
+      ],
+      "richtig": 3,
+      "erklaerung": "Hypertriglyzeridämie: Triglyzeride > 200 mg/dl.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Hypertriglyzeridämie",
+        "Laborwert"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-016-06",
+      "kapitel": "Stoffwechsel",
+      "thema": "Hypercholesterinämie - Klinik",
+      "seite": 16,
+      "typ": "multiple_choice",
+      "frage": "Welche klinischen Zeichen treten bei Hypercholesterinämie auf?",
+      "optionen": [
+        "Arteriosklerose und deren Folgeerkrankungen (KHK, pAVK, AVK)",
+        "Xanthome (gelbe Knoten an der Haut)",
+        "Arcus lipoides corneae (helle Trübung der Hornhautperipherie)",
+        "Xanthelasmen (hellgelbe Platten an den Augenlidern)",
+        "Untergewicht"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Klinik der Hypercholesterinämie: Arteriosklerose (KHK = koronare Herzkrankheit, pAVK = periphere AVK, AVK = arterielle Verschlusskrankheit), Xanthome, Arcus lipoides corneae, Xanthelasmen.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Hypercholesterinämie",
+        "Klinik"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-016-07",
+      "kapitel": "Stoffwechsel",
+      "thema": "Hypertriglyzeridämie - Klinik",
+      "seite": 16,
+      "typ": "multiple_choice",
+      "frage": "Welche klinischen Zeichen kann eine Hypertriglyzeridämie verursachen?",
+      "optionen": [
+        "Pankreatitis (bei ausgeprägter Hypertriglyzeridämie)",
+        "Schlaganfall",
+        "Fettleber",
+        "Xanthome",
+        "Gicht"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Hypertriglyzeridämie-Klinik: Pankreatitis (bei ausgeprägter Form), Schlaganfall, Fettleber, Xanthome.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Hypertriglyzeridämie",
+        "Klinik"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-016-08",
+      "kapitel": "Stoffwechsel",
+      "thema": "Dyslipidämien - Normwerte",
+      "seite": 16,
+      "typ": "single_choice",
+      "frage": "Welcher Normwert gilt für Serumcholesterin?",
+      "optionen": [
+        "< 100 mg/dl",
+        "< 150 mg/dl",
+        "< 190 mg/dl",
+        "< 250 mg/dl",
+        "< 300 mg/dl"
+      ],
+      "richtig": 2,
+      "erklaerung": "Normwert Serumcholesterin: < 190 mg/dl. LDL: < 115 mg/dl, HDL: > 40 (45) mg/dl, Triglyzeride: < 150 mg/dl.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Cholesterin",
+        "Normwerte"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-016-09",
+      "kapitel": "Stoffwechsel",
+      "thema": "Dyslipidämien - LDL Normwert",
+      "seite": 16,
+      "typ": "single_choice",
+      "frage": "Welcher Normwert gilt für LDL-Cholesterin?",
+      "optionen": [
+        "< 50 mg/dl",
+        "< 115 mg/dl",
+        "< 190 mg/dl",
+        "< 250 mg/dl",
+        "< 300 mg/dl"
+      ],
+      "richtig": 1,
+      "erklaerung": "Normwert LDL-Cholesterin: < 115 mg/dl.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Cholesterin",
+        "LDL",
+        "Normwerte"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-016-10",
+      "kapitel": "Stoffwechsel",
+      "thema": "Dyslipidämien - HDL Normwert",
+      "seite": 16,
+      "typ": "single_choice",
+      "frage": "Welcher Normwert gilt für HDL-Cholesterin?",
+      "optionen": [
+        "< 40 mg/dl",
+        "> 40 (45) mg/dl",
+        "< 115 mg/dl",
+        "> 200 mg/dl",
+        "Egal"
+      ],
+      "richtig": 1,
+      "erklaerung": "Normwert HDL-Cholesterin: > 40 (45) mg/dl. Anders als andere Cholesterinwerte sollte HDL HÖHER sein (schützt vor Arteriosklerose).",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Cholesterin",
+        "HDL",
+        "Normwerte"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-016-11",
+      "kapitel": "Stoffwechsel",
+      "thema": "Dyslipidämien - Komplikationen",
+      "seite": 16,
+      "typ": "multiple_choice",
+      "frage": "Welche Komplikationen können bei Dyslipidämien auftreten?",
+      "optionen": [
+        "Herzinfarkt",
+        "Schlaganfall",
+        "Fettleber",
+        "Cholesterin-Gallensteine",
+        "Knochenbrüche"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Komplikationen der Dyslipidämien: Herzinfarkt, Schlaganfall, Fettleber, Cholesterin-Gallensteine.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Dyslipidämien",
+        "Komplikationen"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-016-12",
+      "kapitel": "Stoffwechsel",
+      "thema": "Dyslipidämien - Therapie",
+      "seite": 16,
+      "typ": "multiple_choice",
+      "frage": "Welche Therapiemaßnahmen werden bei Dyslipidämien eingesetzt?",
+      "optionen": [
+        "Behandlung der Grunderkrankungen (z.B. metabolisches Syndrom, Hypothyreose)",
+        "Änderung Ernährungsgewohnheiten/Lebensstil (Alkohol-/Nikotinverzicht, ballaststoffreiche Ernährung)",
+        "Regelmäßiges Ausdauertraining (senkt LDL, erhöht HDL)",
+        "Statine (CSE-Hemmer)",
+        "Mehr Zucker essen"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Therapie Dyslipidämien: Grunderkrankung behandeln, Lebensstiländerung (Alkohol/Nikotin meiden, ballaststoffreich, Zucker- und Fettreduktion, Seefisch mit Omega-3), Ausdauertraining (senkt LDL, erhöht HDL), Medikamente (Statine, Fibrate, etc.).",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Dyslipidämien",
+        "Therapie"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-016-13",
+      "kapitel": "Stoffwechsel",
+      "thema": "Statine",
+      "seite": 16,
+      "typ": "single_choice",
+      "frage": "Was sind Statine?",
+      "optionen": [
+        "Cholesterin-Synthese-Enzymhemmer (CSE-Hemmer)",
+        "Vitamine",
+        "Antibiotika",
+        "Schmerzmittel",
+        "Insulin"
+      ],
+      "richtig": 0,
+      "erklaerung": "Statine sind CSE-Hemmer (Cholesterin-Synthese-Enzymhemmer) - sie hemmen die Cholesterinproduktion in der Leber.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Statine",
+        "Medikament"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-016-14",
+      "kapitel": "Stoffwechsel",
+      "thema": "Cholesterinsenker - pflanzlich",
+      "seite": 16,
+      "typ": "multiple_choice",
+      "frage": "Welche pflanzlichen Cholesterinsenker gibt es?",
+      "optionen": [
+        "Artischocke",
+        "Knoblauch",
+        "Sojabohnen",
+        "Zucker",
+        "Alkohol"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Pflanzliche Cholesterinsenker: z.B. Artischocke, Knoblauch, Sojabohnen.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Cholesterin",
+        "Phytotherapie"
+      ],
+      "pruefungsrelevanz": "mittel"
+    },
+    {
+      "id": "STW-016-F1",
+      "kapitel": "Stoffwechsel",
+      "thema": "Xanthome bei Hypercholesterinämie",
+      "seite": 16,
+      "typ": "fallbeispiel",
+      "fallbeschreibung": "Eine 55-jährige Patientin hat hellgelbe Platten an den Augenlidern. Bei der Blutuntersuchung wird ein stark erhöhtes Cholesterin festgestellt.",
+      "frage": "Wie heißen diese Hautveränderungen?",
+      "optionen": [
+        "Xanthome",
+        "Xanthelasmen",
+        "Striae",
+        "Petechien",
+        "Gichttophi"
+      ],
+      "richtig": 1,
+      "erklaerung": "Xanthelasmen sind hellgelbe Platten im Bereich der Augenlider, die als Zeichen einer Hypercholesterinämie auftreten können.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Hypercholesterinämie",
+        "Xanthelasmen",
+        "Fallbeispiel"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-017-01",
+      "kapitel": "Stoffwechsel",
+      "thema": "Mukoviszidose - Definition",
+      "seite": 17,
+      "typ": "single_choice",
+      "frage": "Was ist Mukoviszidose?",
+      "optionen": [
+        "Eine Infektion der Lunge",
+        "Eine angeborene Stoffwechselstörung mit Funktionsstörungen der Chloridkanäle (zystische Fibrose)",
+        "Eine Allergie",
+        "Ein Tumor",
+        "Eine Vergiftung"
+      ],
+      "richtig": 1,
+      "erklaerung": "Mukoviszidose (zystische Fibrose) ist eine der häufigsten angeborenen Stoffwechselstörungen. Durch Mutation des CFTR-Gens kommt es zu Funktionsstörungen der Chloridkanäle, sodass die serösen Drüsen zähen Schleim produzieren.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Mukoviszidose",
+        "Definition"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-017-02",
+      "kapitel": "Stoffwechsel",
+      "thema": "Mukoviszidose - Vererbung",
+      "seite": 17,
+      "typ": "single_choice",
+      "frage": "Wie wird Mukoviszidose vererbt?",
+      "optionen": [
+        "Autosomal-dominant",
+        "Autosomal-rezessiv",
+        "X-chromosomal",
+        "Mitochondrial",
+        "Gar nicht vererbbar"
+      ],
+      "richtig": 1,
+      "erklaerung": "Mukoviszidose wird autosomal-rezessiv vererbt - das bedeutet, beide Elternteile müssen das defekte Gen weitergeben.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Mukoviszidose",
+        "Vererbung"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-017-03",
+      "kapitel": "Stoffwechsel",
+      "thema": "Mukoviszidose - CFTR-Gen",
+      "seite": 17,
+      "typ": "single_choice",
+      "frage": "Welches Gen ist bei Mukoviszidose mutiert?",
+      "optionen": [
+        "BRCA-Gen",
+        "CFTR-Gen",
+        "Tau-Gen",
+        "HER2-Gen",
+        "Faktor-V-Gen"
+      ],
+      "richtig": 1,
+      "erklaerung": "Bei Mukoviszidose ist das CFTR-Gen mutiert. Dies führt zu Funktionsstörungen der Chloridkanäle und damit zur Produktion von zähem Schleim.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Mukoviszidose",
+        "CFTR-Gen",
+        "Genetik"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-017-04",
+      "kapitel": "Stoffwechsel",
+      "thema": "Mukoviszidose - betroffene Organe",
+      "seite": 17,
+      "typ": "multiple_choice",
+      "frage": "Welche Organe sind bei Mukoviszidose betroffen?",
+      "optionen": [
+        "Atemwege",
+        "Gallengänge",
+        "Pankreas",
+        "Dünndarm",
+        "Gonaden und Schweißdrüsen",
+        "Knochen"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "erklaerung": "Betroffen sind v.a. die Atemwege, Gallengänge, Pankreas, Dünndarm, Gonaden und die Schweißdrüsen.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Mukoviszidose",
+        "Organe"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-017-05",
+      "kapitel": "Stoffwechsel",
+      "thema": "Mukoviszidose - Lunge",
+      "seite": 17,
+      "typ": "multiple_choice",
+      "frage": "Welche Symptome treten am Respirationstrakt bei Mukoviszidose auf?",
+      "optionen": [
+        "Chronischer Husten und Dyspnoe",
+        "Rezidivierende Infekte",
+        "Chronische Sinusitis",
+        "Bronchiektasen, COPD, Pneumonie, Pneumothorax",
+        "Respiratorische Insuffizienz mit Trommelschlägelfinger, Uhrglasnägel, Zyanose"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "erklaerung": "Respiratorische Symptome: chronischer Husten/Dyspnoe, rezidivierende Infekte, chronische Sinusitis, chronische bronchopulmonale Erkrankungen, respiratorische Insuffizienz (Trommelschlägelfinger, Uhrglasnägel, Zyanose).",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Mukoviszidose",
+        "Lunge",
+        "Klinik"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-017-06",
+      "kapitel": "Stoffwechsel",
+      "thema": "Mukoviszidose - Pankreas",
+      "seite": 17,
+      "typ": "multiple_choice",
+      "frage": "Welche Pankreas-Symptome treten bei Mukoviszidose auf?",
+      "optionen": [
+        "Exokrine Pankreasinsuffizienz mit Maldigestion",
+        "Chronische Diarrhö, Steatorrhö (fettige, übelriechende Stühle)",
+        "Rezidivierende Pankreatitis",
+        "Evtl. Diabetes mellitus",
+        "Gallensteine"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Pankreas-Symptome: exokrine Pankreasinsuffizienz → Maldigestion, chronische Diarrhö, Steatorrhö (Fettstühle), rezidivierende Pankreatitis, evtl. Diabetes mellitus.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Mukoviszidose",
+        "Pankreas"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-017-07",
+      "kapitel": "Stoffwechsel",
+      "thema": "Mukoviszidose - Darm",
+      "seite": 17,
+      "typ": "multiple_choice",
+      "frage": "Welche Darmsymptome treten bei Mukoviszidose auf?",
+      "optionen": [
+        "Mekoniumileus bei Neugeborenen, Obstipation",
+        "Anal- und Rektumprolaps",
+        "Malabsorption und Maldigestion → Mangelerscheinungen",
+        "Schmerzlosigkeit",
+        "Normaler Stuhlgang"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Darmsymptome: Mekoniumileus bei Neugeborenen, Obstipation, Anal- und Rektumprolaps, Malabsorption/Maldigestion mit Mangelerscheinungen.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Mukoviszidose",
+        "Darm"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-017-08",
+      "kapitel": "Stoffwechsel",
+      "thema": "Mukoviszidose - Sonstiges",
+      "seite": 17,
+      "typ": "multiple_choice",
+      "frage": "Welche weiteren Symptome treten bei Mukoviszidose auf?",
+      "optionen": [
+        "Gedeihstörungen und mangelhafte Gewichtszunahme des Kindes",
+        "Infertilität bei Männern (Frauen können Kinder bekommen)",
+        "Salziger Schweiß",
+        "Übergewicht",
+        "Beschleunigtes Wachstum"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Weitere Symptome: Gedeihstörungen, mangelhafte Gewichtszunahme, Infertilität bei Männern (Frauen können Kinder bekommen), salziger Schweiß.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Mukoviszidose",
+        "Symptome"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-017-09",
+      "kapitel": "Stoffwechsel",
+      "thema": "Mukoviszidose - Diagnostik",
+      "seite": 17,
+      "typ": "single_choice",
+      "frage": "Wie wird Mukoviszidose diagnostiziert?",
+      "optionen": [
+        "Bluttest auf Antikörper",
+        "Schweißtest (Chlorid-Gehalt ist erhöht), evtl. Pränataldiagnostik",
+        "Ultraschall",
+        "Röntgen",
+        "EKG"
+      ],
+      "richtig": 1,
+      "erklaerung": "Mukoviszidose wird durch den Schweißtest diagnostiziert (Chlorid-Gehalt im Schweiß ist erhöht). Auch eine Pränataldiagnostik ist möglich.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Mukoviszidose",
+        "Diagnostik"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-017-10",
+      "kapitel": "Stoffwechsel",
+      "thema": "Mukoviszidose - Therapie",
+      "seite": 17,
+      "typ": "multiple_choice",
+      "frage": "Welche Therapieoptionen gibt es bei Mukoviszidose?",
+      "optionen": [
+        "Symptomatisch (Inhalation, Expektorantien, Atemtherapie)",
+        "Sauerstofftherapie, evtl. Lungentransplantation",
+        "Substitution von Verdauungsenzymen, fettlöslichen Vitaminen, NaCl",
+        "Antibiotika",
+        "Gentherapie (CFTR-Modulatoren)",
+        "Heilung möglich"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "erklaerung": "Therapie: symptomatisch (Inhalation, Sekretolyse, Atemtherapie), Sauerstoff/Lungentransplantation, Substitution (Verdauungsenzyme, fettlösliche Vitamine, NaCl), Antibiotika, Gentherapie (CFTR-Modulatoren). Heilung nicht möglich, mittlere Überlebenszeit ca. 45 Jahre.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Mukoviszidose",
+        "Therapie"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-017-11",
+      "kapitel": "Stoffwechsel",
+      "thema": "Mukoviszidose - Vitamine",
+      "seite": 17,
+      "typ": "multiple_choice",
+      "frage": "Welche fettlöslichen Vitamine müssen bei Mukoviszidose substituiert werden? (Merkhilfe 'EDeKA')",
+      "optionen": [
+        "Vitamin E",
+        "Vitamin D",
+        "Vitamin K",
+        "Vitamin A",
+        "Vitamin C"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Merkhilfe 'EDeKA' für fettlösliche Vitamine: E, D, K, A. Diese müssen bei Mukoviszidose wegen der Maldigestion substituiert werden.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Mukoviszidose",
+        "Vitamine",
+        "EDeKA"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-017-12",
+      "kapitel": "Stoffwechsel",
+      "thema": "Mukoviszidose - Prognose",
+      "seite": 17,
+      "typ": "single_choice",
+      "frage": "Wie hoch ist die mittlere Überlebenszeit bei Mukoviszidose?",
+      "optionen": [
+        "Ca. 10 Jahre",
+        "Ca. 20 Jahre",
+        "Ca. 45 Jahre",
+        "Ca. 70 Jahre",
+        "Normale Lebenserwartung"
+      ],
+      "richtig": 2,
+      "erklaerung": "Die mittlere Überlebenszeit bei Mukoviszidose beträgt ca. 45 Jahre.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Mukoviszidose",
+        "Prognose"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-017-F1",
+      "kapitel": "Stoffwechsel",
+      "thema": "Mukoviszidose - Neugeborenes",
+      "seite": 17,
+      "typ": "fallbeispiel",
+      "fallbeschreibung": "Ein Neugeborenes leidet an Mekoniumileus (Darmverschluss durch Kindspech) und in der Folge wird ein erhöhter Chlorid-Gehalt im Schweißtest festgestellt.",
+      "frage": "Welche Erkrankung liegt am wahrscheinlichsten vor?",
+      "optionen": [
+        "Diabetes Typ 1",
+        "Mukoviszidose (zystische Fibrose)",
+        "Hypothyreose",
+        "Galaktosämie",
+        "Phenylketonurie"
+      ],
+      "richtig": 1,
+      "erklaerung": "Mekoniumileus bei Neugeborenen + positiver Schweißtest (erhöhter Chlorid-Gehalt) sind klassische Befunde bei Mukoviszidose.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Mukoviszidose",
+        "Neugeborenes",
+        "Fallbeispiel"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-018-01",
+      "kapitel": "Stoffwechsel",
+      "thema": "Kaliumhaushalt - Aufnahme",
+      "seite": 18,
+      "typ": "multiple_choice",
+      "frage": "Welche Nahrungsmittel sind reich an Kalium?",
+      "optionen": [
+        "Kartoffeln",
+        "Gemüse (Spinat, Kohl)",
+        "Obst (Bananen, Avocados, getrocknete Datteln, Aprikosen)",
+        "Hülsenfrüchte",
+        "Reines Wasser"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Kaliumreiche Nahrungsmittel: Kartoffeln, Gemüse (Spinat, Kohl), Obst (Bananen, Avocados, getrocknete Datteln, Aprikosen) sowie Hülsenfrüchte.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Kalium",
+        "Ernährung"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-018-02",
+      "kapitel": "Stoffwechsel",
+      "thema": "Kaliumhaushalt - Ausscheidung",
+      "seite": 18,
+      "typ": "single_choice",
+      "frage": "Wie wird Kalium ausgeschieden?",
+      "optionen": [
+        "Nur über die Lunge",
+        "Über die Nieren (90%) sowie über Darm und Schweiß (10%)",
+        "Nur über die Haut",
+        "Gar nicht ausgeschieden",
+        "Nur über den Stuhl"
+      ],
+      "richtig": 1,
+      "erklaerung": "Die Kaliumausscheidung erfolgt zu 90% über die Nieren sowie zu 10% über Darm und Schweiß.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Kalium",
+        "Ausscheidung"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-018-03",
+      "kapitel": "Stoffwechsel",
+      "thema": "Kalium - Verteilung",
+      "seite": 18,
+      "typ": "single_choice",
+      "frage": "Wo befindet sich das meiste Kalium?",
+      "optionen": [
+        "98% extrazellulär, 2% intrazellulär",
+        "98% intrazellulär, 2% extrazellulär - Hauptkation des Intrazellulärraumes",
+        "50/50 verteilt",
+        "Nur im Blut",
+        "Nur in den Knochen"
+      ],
+      "richtig": 1,
+      "erklaerung": "Kalium befindet sich zu 98% INTRAzellulär (in den Zellen) und nur zu 2% extrazellulär. Es ist das HAUPTKATION des Intrazellulärraumes.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Kalium",
+        "Verteilung"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-018-04",
+      "kapitel": "Stoffwechsel",
+      "thema": "Kalium - Gegenspieler",
+      "seite": 18,
+      "typ": "single_choice",
+      "frage": "Welches Ion ist der direkte Gegenspieler von Kalium?",
+      "optionen": [
+        "Calcium",
+        "Magnesium",
+        "Natrium (v.a. extrazellulär)",
+        "Eisen",
+        "Phosphat"
+      ],
+      "richtig": 2,
+      "erklaerung": "Der direkte Gegenspieler von Kalium ist Natrium - es befindet sich v.a. EXTRAzellulär.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Kalium",
+        "Natrium"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-018-05",
+      "kapitel": "Stoffwechsel",
+      "thema": "Kalium - Funktion",
+      "seite": 18,
+      "typ": "single_choice",
+      "frage": "Wofür ist Kalium besonders wichtig?",
+      "optionen": [
+        "Knochenaufbau",
+        "Ruhemembranpotential - somit neuromuskuläre Erregbarkeit von Skelett-/Herzmuskulatur und glatter Muskulatur",
+        "Hormonproduktion",
+        "Verdauung",
+        "Sehkraft"
+      ],
+      "richtig": 1,
+      "erklaerung": "Kalium hat wichtigen Einfluss auf das Ruhemembranpotential und damit auf die NEUROMUSKULÄRE Erregbarkeit von Skelett-/Herzmuskulatur und glatter Muskulatur. Optimaler Serumkaliumspiegel ist wichtig - sonst Herzrhythmusstörungen!",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Kalium",
+        "Funktion"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-018-06",
+      "kapitel": "Stoffwechsel",
+      "thema": "Kalium - Aldosteron",
+      "seite": 18,
+      "typ": "single_choice",
+      "frage": "Wie wirkt Aldosteron auf den Kaliumhaushalt?",
+      "optionen": [
+        "Natrium-/Wasser-Resorption im distalen Tubulus und Sammelrohren, im Gegenzug Kalium vermehrt ausgeschieden",
+        "Aldosteron hat keinen Einfluss auf Kalium",
+        "Kalium wird gespeichert",
+        "Kalium wird zu Natrium umgewandelt",
+        "Erhöht das Kalium im Blut"
+      ],
+      "richtig": 0,
+      "erklaerung": "Aldosteron: Natrium- und Wasser-Resorption im distalen Tubulus und in den Sammelrohren, IM GEGENZUG wird Kalium vermehrt ausgeschieden.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Kalium",
+        "Aldosteron"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-018-07",
+      "kapitel": "Stoffwechsel",
+      "thema": "Kalium - Insulin",
+      "seite": 18,
+      "typ": "single_choice",
+      "frage": "Wie beeinflusst Insulin den Kaliumhaushalt?",
+      "optionen": [
+        "Insulin fördert den Kaliumeinstrom in die Zelle → extrazellulärer Kaliumspiegel sinkt",
+        "Insulin erhöht Kalium im Blut",
+        "Insulin hat keinen Einfluss",
+        "Insulin hemmt die Kaliumaufnahme",
+        "Insulin baut Kalium ab"
+      ],
+      "richtig": 0,
+      "erklaerung": "Insulin (und Adrenalin) fördern den Kaliumeinstrom in die Zelle → extrazellulärer Kaliumspiegel sinkt. Daher ist Insulin-Therapie bei Hyperkaliämie sinnvoll.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Kalium",
+        "Insulin"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-018-08",
+      "kapitel": "Stoffwechsel",
+      "thema": "Kalium - pH-Wert",
+      "seite": 18,
+      "typ": "multiple_choice",
+      "frage": "Wie beeinflusst der pH-Wert den Kaliumspiegel?",
+      "optionen": [
+        "Azidose ↔ Hyperkaliämie",
+        "Alkalose ↔ Hypokaliämie",
+        "pH-Wert hat keinen Einfluss",
+        "Azidose ↔ Hypokaliämie",
+        "H+-Ionen sind normalerweise dort, wo Kalium ist"
+      ],
+      "richtig": [
+        0,
+        1,
+        4
+      ],
+      "erklaerung": "H+-Ionen sind normalerweise dort, wo Kalium ist. Bei Azidose (zu sauer) ist meist Hyperkaliämie, bei Alkalose (zu basisch) meist Hypokaliämie. Ausnahme: renal-tubuläre Azidose mit Hypokaliämie.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Kalium",
+        "pH-Wert"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-018-09",
+      "kapitel": "Stoffwechsel",
+      "thema": "Hypokaliämie - Werte",
+      "seite": 18,
+      "typ": "single_choice",
+      "frage": "Ab welchem Wert liegt eine Hypokaliämie vor?",
+      "optionen": [
+        "< 2,0 mmol/l",
+        "< 3,5 mmol/l",
+        "< 4,5 mmol/l",
+        "< 5,0 mmol/l",
+        "> 5,0 mmol/l"
+      ],
+      "richtig": 1,
+      "erklaerung": "Hypokaliämie: Kalium Serum < 3,5 mmol/l. Normwert: 3,5-5,0 mmol/l.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Hypokaliämie",
+        "Laborwert"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-018-10",
+      "kapitel": "Stoffwechsel",
+      "thema": "Hyperkaliämie - Werte",
+      "seite": 18,
+      "typ": "single_choice",
+      "frage": "Ab welchem Wert liegt eine Hyperkaliämie vor?",
+      "optionen": [
+        "> 2,0 mmol/l",
+        "> 3,5 mmol/l",
+        "> 4,5 mmol/l",
+        "> 5,0 mmol/l",
+        "> 10,0 mmol/l"
+      ],
+      "richtig": 3,
+      "erklaerung": "Hyperkaliämie: Kalium Serum > 5,0 mmol/l.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Hyperkaliämie",
+        "Laborwert"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-018-11",
+      "kapitel": "Stoffwechsel",
+      "thema": "Hypokaliämie - Ursachen",
+      "seite": 18,
+      "typ": "multiple_choice",
+      "frage": "Welche Ursachen kann eine Hypokaliämie haben?",
+      "optionen": [
+        "Hyperaldosteronismus, Hyperkortisolismus (mineralkortikoider Effekt)",
+        "Diuretika, Glukokortikoide, Lakritzkonsum",
+        "Erbrechen, Diarrhö, Laxanzienabusus",
+        "Massives Schwitzen",
+        "Insulintherapie bei entgleistem Diabetes, Hyperthyreose",
+        "Niereninsuffizienz"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "erklaerung": "Hypokaliämie-Ursachen: Hyperaldosteronismus, Hyperkortisolismus, Diuretika, Lakritzkonsum, Erbrechen/Diarrhö/Laxanzien, Schwitzen, Insulintherapie/Hyperthyreose, Magnesiummangel.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Hypokaliämie",
+        "Ursachen"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-018-12",
+      "kapitel": "Stoffwechsel",
+      "thema": "Hyperkaliämie - Ursachen",
+      "seite": 18,
+      "typ": "multiple_choice",
+      "frage": "Welche Ursachen kann eine Hyperkaliämie haben?",
+      "optionen": [
+        "Hypoaldosteronismus, Morbus Addison",
+        "Niereninsuffizienz",
+        "Medikamente (ACE-Hemmer, kaliumsparende Diuretika, NSAR)",
+        "Metabolische Azidose, Insulinmangel",
+        "Zellschädigung (Hämolyse, Verbrennungen, Trauma, Chemotherapie)",
+        "Hyperthyreose"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "erklaerung": "Hyperkaliämie-Ursachen: Hypoaldosteronismus/Morbus Addison, Niereninsuffizienz, ACE-Hemmer/Sartane/kaliumsparende Diuretika/NSAR, metabolische Azidose, Insulinmangel, Zellschädigungen (Hämolyse, Verbrennungen, Trauma, Rhabdomyolyse, Chemo).",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Hyperkaliämie",
+        "Ursachen"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-018-F1",
+      "kapitel": "Stoffwechsel",
+      "thema": "Kalium - Diuretika",
+      "seite": 18,
+      "typ": "fallbeispiel",
+      "fallbeschreibung": "Eine 70-jährige Patientin nimmt seit Jahren ein Schleifendiuretikum gegen Bluthochdruck. Sie klagt jetzt über Muskelschwäche und Herzrhythmusstörungen. Im Labor: Kalium 2,8 mmol/l.",
+      "frage": "Was liegt vor und was ist die wahrscheinliche Ursache?",
+      "optionen": [
+        "Normale Werte",
+        "Hyperkaliämie durch Diuretika",
+        "Hypokaliämie durch das Schleifendiuretikum (renaler Kaliumverlust)",
+        "Diabetes mellitus",
+        "Hyperthyreose"
+      ],
+      "richtig": 2,
+      "erklaerung": "Schleifendiuretika führen zu renalem Kaliumverlust → Hypokaliämie (< 3,5 mmol/l). Symptome: Muskelschwäche, Herzrhythmusstörungen. Therapie: kaliumsparende Diuretika, Kaliumsubstitution.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Hypokaliämie",
+        "Diuretika",
+        "Fallbeispiel"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-019-01",
+      "kapitel": "Stoffwechsel",
+      "thema": "Hypokaliämie - Symptome",
+      "seite": 19,
+      "typ": "multiple_choice",
+      "frage": "Welche allgemeinen Symptome treten bei Hypokaliämie auf?",
+      "optionen": [
+        "Müdigkeit, Adynamie",
+        "Übelkeit, Erbrechen",
+        "Polyurie, Polydipsie",
+        "Parästhesien um den Mund",
+        "Fieber"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Hypokaliämie-Symptome: Müdigkeit/Adynamie, Übelkeit/Erbrechen, Polyurie/Polydipsie. (Parästhesien um Mund + Pelzigwerden der Zunge sind bei Hyperkaliämie.)",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Hypokaliämie",
+        "Symptome"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-019-02",
+      "kapitel": "Stoffwechsel",
+      "thema": "Hypokaliämie - Herz",
+      "seite": 19,
+      "typ": "single_choice",
+      "frage": "Welche Herzrhythmusstörungen treten bei Hypokaliämie auf?",
+      "optionen": [
+        "Bradykardie, Kammerflimmern",
+        "Tachykardie, Extrasystolen, Asystolie",
+        "Nur normale Herzfrequenz",
+        "Nur Vorhofflimmern",
+        "Keine Herzrhythmusstörungen"
+      ],
+      "richtig": 1,
+      "erklaerung": "Bei Hypokaliämie: Tachykardie, Extrasystolen, Asystolie. Die Digitalisempfindlichkeit ist erhöht!",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Hypokaliämie",
+        "Herz"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-019-03",
+      "kapitel": "Stoffwechsel",
+      "thema": "Hyperkaliämie - Herz",
+      "seite": 19,
+      "typ": "single_choice",
+      "frage": "Welche Herzrhythmusstörungen treten bei Hyperkaliämie auf?",
+      "optionen": [
+        "Tachykardie, Extrasystolen",
+        "Bradykardie, Kammerflimmern, Asystolie",
+        "Nur normale Herzfrequenz",
+        "Keine Herzrhythmusstörungen",
+        "Nur Vorhofflimmern"
+      ],
+      "richtig": 1,
+      "erklaerung": "Bei Hyperkaliämie: Bradykardie, Kammerflimmern, Asystolie. Die Digitalisempfindlichkeit ist erniedrigt!",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Hyperkaliämie",
+        "Herz"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-019-04",
+      "kapitel": "Stoffwechsel",
+      "thema": "Hypokaliämie - Skelettmuskulatur",
+      "seite": 19,
+      "typ": "multiple_choice",
+      "frage": "Welche Skelettmuskel-Symptome treten bei Hypokaliämie auf?",
+      "optionen": [
+        "Muskelschwäche bis hin zu Paresen",
+        "Wulstbildung beim Beklopfen der Muskulatur",
+        "Muskeleigenreflexe ↓",
+        "Krampfanfälle nur",
+        "Muskelzuckungen"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Hypokaliämie-Skelettmuskulatur: Muskelschwäche bis hin zu Paresen, Wulstbildung beim Beklopfen, Muskeleigenreflexe vermindert.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Hypokaliämie",
+        "Muskulatur"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-019-05",
+      "kapitel": "Stoffwechsel",
+      "thema": "Hyperkaliämie - Skelettmuskulatur",
+      "seite": 19,
+      "typ": "multiple_choice",
+      "frage": "Welche Skelettmuskel-Symptome treten bei Hyperkaliämie auf?",
+      "optionen": [
+        "Muskelschwäche bis hin zu Paresen",
+        "Muskelzuckungen",
+        "Anfangs Muskeleigenreflexe ↑, später evtl. Hypo-/Areflexie",
+        "Wulstbildung",
+        "Verminderte Reflexe von Anfang an"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Hyperkaliämie-Skelettmuskulatur: Muskelschwäche bis Paresen, Muskelzuckungen, anfangs Muskeleigenreflexe ↑, später Hypo-/Areflexie.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Hyperkaliämie",
+        "Muskulatur"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-019-06",
+      "kapitel": "Stoffwechsel",
+      "thema": "Hypokaliämie - glatte Muskulatur",
+      "seite": 19,
+      "typ": "multiple_choice",
+      "frage": "Welche Symptome an der glatten Muskulatur treten bei Hypokaliämie auf?",
+      "optionen": [
+        "Obstipation bis paralytischer Ileus",
+        "Blasenlähmung",
+        "Diarrhö",
+        "Polyurie nur",
+        "Normale Funktion"
+      ],
+      "richtig": [
+        0,
+        1
+      ],
+      "erklaerung": "Hypokaliämie an der glatten Muskulatur: Obstipation bis paralytischer Ileus, Blasenlähmung.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Hypokaliämie",
+        "Muskulatur"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-019-07",
+      "kapitel": "Stoffwechsel",
+      "thema": "Hypokaliämie - Therapie",
+      "seite": 19,
+      "typ": "multiple_choice",
+      "frage": "Wie wird eine Hypokaliämie behandelt?",
+      "optionen": [
+        "Beseitigung/Behandlung der Ursache",
+        "Kaliumsparende Diuretika",
+        "Absetzen von Laxanzien",
+        "Kaliumsubstitution",
+        "Kaliumreiche Ernährung",
+        "Mehr Schwitzen"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "erklaerung": "Therapie Hypokaliämie: Ursache beseitigen, kaliumsparende Diuretika, Laxanzien absetzen, Kaliumsubstitution, kaliumreiche Ernährung.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Hypokaliämie",
+        "Therapie"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-019-08",
+      "kapitel": "Stoffwechsel",
+      "thema": "Hyperkaliämie - Therapie",
+      "seite": 19,
+      "typ": "multiple_choice",
+      "frage": "Wie wird eine Hyperkaliämie behandelt?",
+      "optionen": [
+        "Beseitigung/Behandlung der Ursache",
+        "Schleifendiuretika, Insulin + Glukose (bringt Kalium in die Zellen)",
+        "Ionenaustauscher, evtl. Dialyse",
+        "Kaliumarme Ernährung",
+        "Kaliumsubstitution"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Therapie Hyperkaliämie: Ursache beseitigen, Schleifendiuretika, Insulin + Glukose (bringt Kalium in die Zellen), Ionenaustauscher, evtl. Dialyse, kaliumarme Ernährung. KEINE Kaliumsubstitution!",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Hyperkaliämie",
+        "Therapie"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-019-09",
+      "kapitel": "Stoffwechsel",
+      "thema": "Kalium - Azidose Faustregel",
+      "seite": 19,
+      "typ": "single_choice",
+      "frage": "Wie hängen Azidose und Kalium normalerweise zusammen?",
+      "optionen": [
+        "Azidose → Hypokaliämie",
+        "Azidose → Hyperkaliämie (H+-Ionen sind dort, wo Kalium ist)",
+        "Kein Zusammenhang",
+        "Azidose → Hypernatriämie",
+        "Azidose → keine Veränderung"
+      ],
+      "richtig": 1,
+      "erklaerung": "H+-Ionen sind normalerweise dort, wo Kalium ist. Daher: bei Azidose meist HYPERKALIÄMIE, bei Alkalose meist HYPOKALIÄMIE.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Kalium",
+        "Azidose"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-019-F1",
+      "kapitel": "Stoffwechsel",
+      "thema": "Hyperkaliämie - Niereninsuffizienz",
+      "seite": 19,
+      "typ": "fallbeispiel",
+      "fallbeschreibung": "Ein 65-jähriger Patient mit chronischer Niereninsuffizienz nimmt einen ACE-Hemmer und kommt mit Bradykardie und Muskelschwäche in die Praxis. Im Labor: Kalium 6,2 mmol/l.",
+      "frage": "Wie wird der Notfall am besten behandelt?",
+      "optionen": [
+        "Mehr Kalium zuführen",
+        "Insulin + Glukose i.v. (bringt Kalium in die Zellen), Schleifendiuretika, evtl. Dialyse, ACE-Hemmer absetzen",
+        "Kaliumreiche Ernährung",
+        "Nur abwarten",
+        "Kalium per os geben"
+      ],
+      "richtig": 1,
+      "erklaerung": "Bei Hyperkaliämie + Niereninsuffizienz + ACE-Hemmer: Insulin + Glukose (Kalium-Shift in die Zellen), Schleifendiuretika, ggf. Dialyse, ACE-Hemmer absetzen/reduzieren. KEINE Kaliumzufuhr!",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Hyperkaliämie",
+        "Therapie",
+        "Fallbeispiel"
+      ],
+      "pruefungsrelevanz": "hoch"
     }
   ],
   "vokabeln": [
@@ -7204,6 +8900,851 @@
       "herkunft": "gr. kytos = Zelle; gr. statikos = hemmend",
       "eselsbruecke": "Zyto-Statika = 'stoppen' die Zellteilung",
       "beispiel": "Bei einer Zytostatika-Therapie kann der Harnsäurespiegel ansteigen.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-172",
+      "kapitel": "Stoffwechsel",
+      "seite": 15,
+      "lateinisch": "Fettstoffwechsel",
+      "deutsch": "Verarbeitung von Fetten im Körper",
+      "wortart": "Substantiv (m)",
+      "kategorie": "Stoffwechsel",
+      "herkunft": "deutsch: Fett + Stoffwechsel",
+      "eselsbruecke": "Fettstoffwechsel = Verarbeitung der Fette",
+      "beispiel": "Der Fettstoffwechsel beginnt im Magen mit Emulgierung.",
+      "schwierigkeit": "leicht"
+    },
+    {
+      "id": "VOK-STW-173",
+      "kapitel": "Stoffwechsel",
+      "seite": 15,
+      "lateinisch": "Emulgierung",
+      "deutsch": "Vermischung zweier nicht mischbarer Flüssigkeiten",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Biochemie",
+      "herkunft": "lat. emulgere = ausmelken",
+      "eselsbruecke": "Emulgierung = Öl und Wasser zu kleinen Tröpfchen 'verquirlen'",
+      "beispiel": "Im Magen erfolgt die Emulgierung der Fette durch die Magenperistaltik.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-174",
+      "kapitel": "Stoffwechsel",
+      "seite": 15,
+      "lateinisch": "Lipasen",
+      "deutsch": "Fettspaltende Enzyme",
+      "wortart": "Substantiv (f, pl)",
+      "kategorie": "Enzym",
+      "herkunft": "gr. lipos = Fett",
+      "eselsbruecke": "Lipasen spalten Lipide (Fette)",
+      "beispiel": "Pankreas-Lipasen spalten Fette im Duodenum.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-175",
+      "kapitel": "Stoffwechsel",
+      "seite": 15,
+      "lateinisch": "Mizellen",
+      "deutsch": "Kleine Tröpfchen aus Fettsäuren, Monoglyceriden und Gallensäuren",
+      "wortart": "Substantiv (f, pl)",
+      "kategorie": "Biochemie",
+      "herkunft": "lat. mica = Krümel",
+      "eselsbruecke": "Mizellen = kleine Fett-Krümel zum Transport",
+      "beispiel": "Langkettige Fettsäuren bilden Mizellen, nur so können sie resorbiert werden.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-176",
+      "kapitel": "Stoffwechsel",
+      "seite": 15,
+      "lateinisch": "Triglyzeride",
+      "deutsch": "Hauptbestandteil von Speisefetten (3 Fettsäuren + Glycerin)",
+      "wortart": "Substantiv (n, pl)",
+      "kategorie": "Biochemie",
+      "herkunft": "gr. tri = drei; glykys = süß",
+      "eselsbruecke": "Tri-Glyzeride = drei Fettsäuren am Glycerin",
+      "beispiel": "Erhöhte Triglyzeride > 200 mg/dl sind eine Hypertriglyzeridämie.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-177",
+      "kapitel": "Stoffwechsel",
+      "seite": 15,
+      "lateinisch": "Cholesterin",
+      "deutsch": "Fettartige Substanz, Baustein für Hormone und Zellmembranen",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Biochemie",
+      "herkunft": "gr. chole = Galle; stereos = fest",
+      "eselsbruecke": "Chole-sterin = der 'feste Stoff' aus der Galle",
+      "beispiel": "Cholesterin ist Baustein für Steroidhormone, Vitamin D3 und Gallensäuren.",
+      "schwierigkeit": "leicht"
+    },
+    {
+      "id": "VOK-STW-178",
+      "kapitel": "Stoffwechsel",
+      "seite": 15,
+      "lateinisch": "Lipoproteine",
+      "deutsch": "Transportmoleküle für Fette im Blut (Lipide + Proteine)",
+      "wortart": "Substantiv (n, pl)",
+      "kategorie": "Biochemie",
+      "herkunft": "gr. lipos = Fett; protein",
+      "eselsbruecke": "Lipo-Proteine = Fett-Proteine (Transport-Pakete)",
+      "beispiel": "Lipoproteine transportieren fettlösliche Substanzen wie Lipide.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-179",
+      "kapitel": "Stoffwechsel",
+      "seite": 15,
+      "lateinisch": "Chylomikronen",
+      "deutsch": "Größte, am wenigsten dichten Lipoproteine",
+      "wortart": "Substantiv (n, pl)",
+      "kategorie": "Biochemie",
+      "herkunft": "gr. chylos = Saft; mikros = klein",
+      "eselsbruecke": "Chylo-Mikronen = kleine 'Tröpfchen' im Milchsaft des Darms",
+      "beispiel": "Chylomikronen transportieren Triglyzeride aus dem Darm.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-180",
+      "kapitel": "Stoffwechsel",
+      "seite": 15,
+      "lateinisch": "VLDL",
+      "deutsch": "Very Low Density Lipoprotein - Vorstufe des LDL",
+      "wortart": "Abkürzung",
+      "kategorie": "Biochemie",
+      "herkunft": "engl. Very Low Density Lipoprotein",
+      "eselsbruecke": "VLDL = 'sehr leichtes' Lipoprotein",
+      "beispiel": "VLDL transportiert Triglyzeride aus den Leberzellen zu den Körperzellen.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-181",
+      "kapitel": "Stoffwechsel",
+      "seite": 15,
+      "lateinisch": "LDL",
+      "deutsch": "Low Density Lipoprotein - 'schlechtes' Cholesterin",
+      "wortart": "Abkürzung",
+      "kategorie": "Biochemie",
+      "herkunft": "engl. Low Density Lipoprotein",
+      "eselsbruecke": "LDL = 'L wie Lousy' (schlecht)",
+      "beispiel": "Hohes LDL erhöht das Arterioskleroserisiko.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-182",
+      "kapitel": "Stoffwechsel",
+      "seite": 15,
+      "lateinisch": "HDL",
+      "deutsch": "High Density Lipoprotein - 'gutes' Cholesterin",
+      "wortart": "Abkürzung",
+      "kategorie": "Biochemie",
+      "herkunft": "engl. High Density Lipoprotein",
+      "eselsbruecke": "HDL = 'H wie Happy/Healthy' (gut)",
+      "beispiel": "HDL schützt vor Arteriosklerose.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-183",
+      "kapitel": "Stoffwechsel",
+      "seite": 15,
+      "lateinisch": "Dyslipidämie",
+      "deutsch": "Fettstoffwechselstörung",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "gr. dys = schlecht; lipos = Fett; -ämie = Blut",
+      "eselsbruecke": "Dys-Lipid-ämie = schlechtes Fett im Blut",
+      "beispiel": "Dyslipidämien sind Fettstoffwechselstörungen mit Lipidveränderungen.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-184",
+      "kapitel": "Stoffwechsel",
+      "seite": 15,
+      "lateinisch": "Hypercholesterinämie",
+      "deutsch": "Erhöhte Cholesterinwerte im Blut (> 200 mg/dl)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Laborwert",
+      "herkunft": "gr. hyper = über; cholesterin; -ämie = Blut",
+      "eselsbruecke": "Hyper-Cholesterin-ämie = zu viel Cholesterin im Blut",
+      "beispiel": "Hypercholesterinämie erhöht das Arterioskleroserisiko.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-185",
+      "kapitel": "Stoffwechsel",
+      "seite": 15,
+      "lateinisch": "Hypertriglyzeridämie",
+      "deutsch": "Erhöhte Triglyzeride im Blut (> 200 mg/dl)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Laborwert",
+      "herkunft": "gr. hyper = über; triglyzeride; -ämie = Blut",
+      "eselsbruecke": "Hyper-Triglyzerid-ämie = zu viele Triglyzeride im Blut",
+      "beispiel": "Hypertriglyzeridämie kann Pankreatitis verursachen.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-186",
+      "kapitel": "Stoffwechsel",
+      "seite": 16,
+      "lateinisch": "KHK",
+      "deutsch": "Koronare Herzkrankheit",
+      "wortart": "Abkürzung",
+      "kategorie": "Kardiologie",
+      "herkunft": "deutsche Abkürzung",
+      "eselsbruecke": "K-H-K = Verengung der Herzkranzgefäße",
+      "beispiel": "KHK ist eine Folge der Arteriosklerose.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-187",
+      "kapitel": "Stoffwechsel",
+      "seite": 16,
+      "lateinisch": "AVK",
+      "deutsch": "Arterielle Verschlusskrankheit",
+      "wortart": "Abkürzung",
+      "kategorie": "Kardiologie",
+      "herkunft": "deutsche Abkürzung",
+      "eselsbruecke": "A-V-K = Verschluss der Arterien",
+      "beispiel": "AVK ist eine Komplikation bei Hypercholesterinämie.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-188",
+      "kapitel": "Stoffwechsel",
+      "seite": 16,
+      "lateinisch": "pAVK",
+      "deutsch": "Periphere arterielle Verschlusskrankheit",
+      "wortart": "Abkürzung",
+      "kategorie": "Kardiologie",
+      "herkunft": "deutsche Abkürzung",
+      "eselsbruecke": "p-A-V-K = periphere Verschlusskrankheit (z.B. Beine)",
+      "beispiel": "pAVK äußert sich als 'Schaufensterkrankheit'.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-189",
+      "kapitel": "Stoffwechsel",
+      "seite": 16,
+      "lateinisch": "Xanthome",
+      "deutsch": "Gelbe Knoten an der Haut (durch Lipideinlagerung)",
+      "wortart": "Substantiv (n, pl)",
+      "kategorie": "Symptom",
+      "herkunft": "gr. xanthos = gelb",
+      "eselsbruecke": "Xanth-ome = gelbe Knoten",
+      "beispiel": "Xanthome sind ein Zeichen von Hyperlipidämie.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-190",
+      "kapitel": "Stoffwechsel",
+      "seite": 16,
+      "lateinisch": "Xanthelasmen",
+      "deutsch": "Hellgelbe Platten an den Augenlidern",
+      "wortart": "Substantiv (n, pl)",
+      "kategorie": "Symptom",
+      "herkunft": "gr. xanthos = gelb; elasma = Platte",
+      "eselsbruecke": "Xanth-elasmen = gelbe Platten an den Lidern",
+      "beispiel": "Xanthelasmen findet man bei Hypercholesterinämie an den Augenlidern.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-191",
+      "kapitel": "Stoffwechsel",
+      "seite": 16,
+      "lateinisch": "Arcus lipoides corneae",
+      "deutsch": "Ringförmige helle Trübung der Hornhautperipherie",
+      "wortart": "Substantiv (m)",
+      "kategorie": "Augenheilkunde",
+      "herkunft": "lat. arcus = Bogen; lipoides = fettartig; cornea = Hornhaut",
+      "eselsbruecke": "Arcus = Bogen aus Fett um die Hornhaut",
+      "beispiel": "Arcus lipoides corneae bei Jüngeren ist ein Hinweis auf Hypercholesterinämie.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-192",
+      "kapitel": "Stoffwechsel",
+      "seite": 16,
+      "lateinisch": "Statine",
+      "deutsch": "Cholesterinsenkende Medikamente (CSE-Hemmer)",
+      "wortart": "Substantiv (n, pl)",
+      "kategorie": "Medikament",
+      "herkunft": "engl. statins",
+      "eselsbruecke": "Statine 'stoppen' die Cholesterin-Synthese",
+      "beispiel": "Statine sind die wichtigsten Cholesterinsenker.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-193",
+      "kapitel": "Stoffwechsel",
+      "seite": 16,
+      "lateinisch": "Fibrate",
+      "deutsch": "Triglyzeridsenkende Medikamente",
+      "wortart": "Substantiv (n, pl)",
+      "kategorie": "Medikament",
+      "herkunft": "lat. fibra = Faser",
+      "eselsbruecke": "Fibrate senken Fette",
+      "beispiel": "Fibrate werden bei Hypertriglyzeridämie eingesetzt.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-194",
+      "kapitel": "Stoffwechsel",
+      "seite": 16,
+      "lateinisch": "Apolipoprotein",
+      "deutsch": "Proteinanteil der Lipoproteine",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Biochemie",
+      "herkunft": "gr. apo = von; lipos = Fett; protein",
+      "eselsbruecke": "Apo-Lipo-Protein = Eiweißanteil der Lipoproteine",
+      "beispiel": "Apolipoprotein A und B werden im Labor bestimmt.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-195",
+      "kapitel": "Stoffwechsel",
+      "seite": 16,
+      "lateinisch": "Cholestase",
+      "deutsch": "Stau der Galle in den Gallenwegen",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Pathologie",
+      "herkunft": "gr. chole = Galle; stase = Stillstand",
+      "eselsbruecke": "Chole-Stase = Galle-Stillstand",
+      "beispiel": "Cholestase kann eine Hypercholesterinämie verursachen.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-196",
+      "kapitel": "Stoffwechsel",
+      "seite": 17,
+      "lateinisch": "Mukoviszidose",
+      "deutsch": "Zystische Fibrose (angeborene Stoffwechselstörung)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "lat. mucus = Schleim; viscidus = klebrig",
+      "eselsbruecke": "Muko-Viszi-Dose = 'klebriger Schleim'-Krankheit",
+      "beispiel": "Mukoviszidose ist eine angeborene Stoffwechselstörung mit zähem Schleim.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-197",
+      "kapitel": "Stoffwechsel",
+      "seite": 17,
+      "lateinisch": "zystische Fibrose",
+      "deutsch": "Anderer Name für Mukoviszidose",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "gr. kystis = Blase; lat. fibra = Faser",
+      "eselsbruecke": "Zystische Fibrose = bindegewebige Umwandlung",
+      "beispiel": "Die zystische Fibrose ist eine andere Bezeichnung für Mukoviszidose.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-198",
+      "kapitel": "Stoffwechsel",
+      "seite": 17,
+      "lateinisch": "autosomal-rezessiv",
+      "deutsch": "Erbgang: beide Eltern müssen Träger sein",
+      "wortart": "Adjektiv",
+      "kategorie": "Genetik",
+      "herkunft": "auto = selbst; soma = Körper; lat. recessus = zurückgezogen",
+      "eselsbruecke": "Autosomal-rezessiv = das 'versteckte' Gen wird aktiv, wenn beide Eltern es weitergeben",
+      "beispiel": "Mukoviszidose wird autosomal-rezessiv vererbt.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-199",
+      "kapitel": "Stoffwechsel",
+      "seite": 17,
+      "lateinisch": "CFTR-Gen",
+      "deutsch": "Gen für den Chlorid-Transporter (bei Mukoviszidose mutiert)",
+      "wortart": "Abkürzung",
+      "kategorie": "Genetik",
+      "herkunft": "engl. Cystic Fibrosis Transmembrane Regulator",
+      "eselsbruecke": "C-F-T-R = das Mukoviszidose-Gen",
+      "beispiel": "Eine Mutation im CFTR-Gen führt zu Mukoviszidose.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-200",
+      "kapitel": "Stoffwechsel",
+      "seite": 17,
+      "lateinisch": "Dyspnoe",
+      "deutsch": "Atemnot",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Symptom",
+      "herkunft": "gr. dys = schlecht; pnoe = Atem",
+      "eselsbruecke": "Dys-Pnoe = schlechtes Atmen",
+      "beispiel": "Dyspnoe und chronischer Husten sind Mukoviszidose-Symptome.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-201",
+      "kapitel": "Stoffwechsel",
+      "seite": 17,
+      "lateinisch": "Bronchiektasen",
+      "deutsch": "Krankhafte Erweiterungen der Bronchien",
+      "wortart": "Substantiv (f, pl)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "gr. bronchos = Luftröhre; ektasis = Ausdehnung",
+      "eselsbruecke": "Bronch-Ektasen = ausgeweitete Bronchien",
+      "beispiel": "Bronchiektasen sind eine häufige Komplikation bei Mukoviszidose.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-202",
+      "kapitel": "Stoffwechsel",
+      "seite": 17,
+      "lateinisch": "Maldigestion",
+      "deutsch": "Gestörte Verdauung der Nahrung",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "lat. malus = schlecht; digestio = Verdauung",
+      "eselsbruecke": "Mal-Digestion = schlechte Verdauung",
+      "beispiel": "Bei exokriner Pankreasinsuffizienz kommt es zur Maldigestion.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-203",
+      "kapitel": "Stoffwechsel",
+      "seite": 17,
+      "lateinisch": "Malabsorption",
+      "deutsch": "Gestörte Aufnahme der Nahrungsbestandteile im Darm",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "lat. malus = schlecht; absorbere = aufsaugen",
+      "eselsbruecke": "Mal-Absorption = schlechte Aufnahme im Darm",
+      "beispiel": "Malabsorption führt zu Mangelerscheinungen.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-204",
+      "kapitel": "Stoffwechsel",
+      "seite": 17,
+      "lateinisch": "Steatorrhö",
+      "deutsch": "Fettstuhl (übelriechende Fettstühle)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Symptom",
+      "herkunft": "gr. stear = Fett; rhoia = Fluss",
+      "eselsbruecke": "Steat-Orrhö = Fett-Durchfall",
+      "beispiel": "Steatorrhö ist ein Zeichen für gestörte Fettverdauung.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-205",
+      "kapitel": "Stoffwechsel",
+      "seite": 17,
+      "lateinisch": "Mekoniumileus",
+      "deutsch": "Darmverschluss durch zähes Kindspech bei Neugeborenen",
+      "wortart": "Substantiv (m)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "gr. mekonion = Kindspech; eileos = Verschluss",
+      "eselsbruecke": "Mekonium = Kindspech; Ileus = Darmverschluss",
+      "beispiel": "Mekoniumileus bei Neugeborenen ist ein Hinweis auf Mukoviszidose.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-206",
+      "kapitel": "Stoffwechsel",
+      "seite": 17,
+      "lateinisch": "Rektumprolaps",
+      "deutsch": "Vorfall des Mastdarms aus dem After",
+      "wortart": "Substantiv (m)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "lat. rectum = gerade; prolapsus = Hervorfall",
+      "eselsbruecke": "Rektum-Prolaps = Mastdarm fällt heraus",
+      "beispiel": "Rektumprolaps kann bei Mukoviszidose vorkommen.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-207",
+      "kapitel": "Stoffwechsel",
+      "seite": 17,
+      "lateinisch": "Trommelschlägelfinger",
+      "deutsch": "Verdickte Fingerendglieder (Zeichen für O2-Mangel)",
+      "wortart": "Substantiv (m, pl)",
+      "kategorie": "Symptom",
+      "herkunft": "deutsch: Trommelschlägel + Finger",
+      "eselsbruecke": "Trommelschlägelfinger = Finger wie Trommelschlägel verdickt",
+      "beispiel": "Trommelschlägelfinger entstehen durch chronischen O2-Mangel.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-208",
+      "kapitel": "Stoffwechsel",
+      "seite": 17,
+      "lateinisch": "Uhrglasnägel",
+      "deutsch": "Nach außen gewölbte Fingernägel (Zeichen für O2-Mangel)",
+      "wortart": "Substantiv (m, pl)",
+      "kategorie": "Symptom",
+      "herkunft": "deutsch: Uhrglas + Nägel",
+      "eselsbruecke": "Uhrglasnägel = wie ein altes Uhrglas geformt",
+      "beispiel": "Uhrglasnägel und Trommelschlägelfinger zeigen chronische Hypoxie an.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-209",
+      "kapitel": "Stoffwechsel",
+      "seite": 17,
+      "lateinisch": "Zyanose",
+      "deutsch": "Blaufärbung der Haut/Schleimhäute (durch O2-Mangel)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Symptom",
+      "herkunft": "gr. kyaneos = blau",
+      "eselsbruecke": "Zyan-ose = Blaufärbung (cyan = blau)",
+      "beispiel": "Zyanose ist ein Zeichen schwerer Sauerstoffunterversorgung.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-210",
+      "kapitel": "Stoffwechsel",
+      "seite": 17,
+      "lateinisch": "Pankreasinsuffizienz",
+      "deutsch": "Unzureichende Funktion der Bauchspeicheldrüse",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "Pankreas + lat. insufficientia = Unzulänglichkeit",
+      "eselsbruecke": "Pankreas-Insuffizienz = Pankreas funktioniert nicht ausreichend",
+      "beispiel": "Bei Mukoviszidose tritt häufig eine exokrine Pankreasinsuffizienz auf.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-211",
+      "kapitel": "Stoffwechsel",
+      "seite": 17,
+      "lateinisch": "Infertilität-CF",
+      "deutsch": "Unfruchtbarkeit (bei Mukoviszidose-Männern)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Symptom",
+      "herkunft": "lat. in = nicht; fertilis = fruchtbar",
+      "eselsbruecke": "In-Fertil = nicht fruchtbar",
+      "beispiel": "Bei Mukoviszidose sind Männer infertil, Frauen können Kinder bekommen.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-212",
+      "kapitel": "Stoffwechsel",
+      "seite": 18,
+      "lateinisch": "Kaliumhaushalt",
+      "deutsch": "Gesamter Kalium-Stoffwechsel des Körpers",
+      "wortart": "Substantiv (m)",
+      "kategorie": "Stoffwechsel",
+      "herkunft": "deutsch: Kalium + Haushalt",
+      "eselsbruecke": "Kaliumhaushalt = Kalium-Bilanz im Körper",
+      "beispiel": "Der Kaliumhaushalt wird renal sowie durch Umverteilung geregelt.",
+      "schwierigkeit": "leicht"
+    },
+    {
+      "id": "VOK-STW-213",
+      "kapitel": "Stoffwechsel",
+      "seite": 18,
+      "lateinisch": "Kalium",
+      "deutsch": "Wichtigstes Kation im Inneren der Zellen (98% intrazellulär)",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Biochemie",
+      "herkunft": "arabisch: al-qalya = Pflanzenasche",
+      "eselsbruecke": "Kalium = Hauptkation des Intrazellulärraumes",
+      "beispiel": "Kalium befindet sich zu 98% intrazellulär.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-214",
+      "kapitel": "Stoffwechsel",
+      "seite": 18,
+      "lateinisch": "intrazellulär",
+      "deutsch": "In der Zelle befindlich",
+      "wortart": "Adjektiv",
+      "kategorie": "Anatomie",
+      "herkunft": "lat. intra = innen; cellula = Zelle",
+      "eselsbruecke": "Intra-Zellulär = INNERHALB der Zelle",
+      "beispiel": "Kalium ist zu 98% intrazellulär.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-215",
+      "kapitel": "Stoffwechsel",
+      "seite": 18,
+      "lateinisch": "extrazellulär",
+      "deutsch": "Außerhalb der Zelle befindlich",
+      "wortart": "Adjektiv",
+      "kategorie": "Anatomie",
+      "herkunft": "lat. extra = außen; cellula = Zelle",
+      "eselsbruecke": "Extra-Zellulär = AUSSERHALB der Zelle",
+      "beispiel": "Natrium ist v.a. extrazellulär.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-216",
+      "kapitel": "Stoffwechsel",
+      "seite": 18,
+      "lateinisch": "Kation",
+      "deutsch": "Positiv geladenes Ion",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Biochemie",
+      "herkunft": "gr. kation = das Herabsteigende",
+      "eselsbruecke": "Kation = positives Ion (K+, Na+, Ca2+)",
+      "beispiel": "Kalium ist das Hauptkation im Intrazellulärraum.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-217",
+      "kapitel": "Stoffwechsel",
+      "seite": 18,
+      "lateinisch": "Aldosteron",
+      "deutsch": "Hormon der Nebennierenrinde (regelt Na/K-Haushalt)",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Hormon",
+      "herkunft": "lat. aldus = Aldehyd",
+      "eselsbruecke": "Aldosteron = das Natrium-Sparer-Hormon (Kalium wird ausgeschieden)",
+      "beispiel": "Aldosteron fördert Natriumresorption und Kaliumausscheidung.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-218",
+      "kapitel": "Stoffwechsel",
+      "seite": 18,
+      "lateinisch": "Ruhemembranpotential",
+      "deutsch": "Elektrische Spannung der Zellmembran im Ruhezustand",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Pathophysiologie",
+      "herkunft": "deutsch: Ruhe + Membran + Potential",
+      "eselsbruecke": "Das 'Ruhepotential' der Zelle - hängt vom Kalium ab",
+      "beispiel": "Kalium beeinflusst das Ruhemembranpotential.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-219",
+      "kapitel": "Stoffwechsel",
+      "seite": 18,
+      "lateinisch": "Hypokaliämie",
+      "deutsch": "Erniedrigtes Kalium im Blut (< 3,5 mmol/l)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Laborwert",
+      "herkunft": "gr. hypo = unter; kalium; -ämie = Blut",
+      "eselsbruecke": "Hypo-Kali-ämie = ZU WENIG Kalium im Blut",
+      "beispiel": "Hypokaliämie verursacht Muskelschwäche und Herzrhythmusstörungen.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-220",
+      "kapitel": "Stoffwechsel",
+      "seite": 18,
+      "lateinisch": "Hyperkaliämie",
+      "deutsch": "Erhöhtes Kalium im Blut (> 5,0 mmol/l)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Laborwert",
+      "herkunft": "gr. hyper = über; kalium; -ämie = Blut",
+      "eselsbruecke": "Hyper-Kali-ämie = ZU VIEL Kalium im Blut",
+      "beispiel": "Hyperkaliämie kann Bradykardie und Kammerflimmern verursachen.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-221",
+      "kapitel": "Stoffwechsel",
+      "seite": 18,
+      "lateinisch": "Azidose",
+      "deutsch": "Übersäuerung des Blutes (pH < 7,35)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Laborwert",
+      "herkunft": "lat. acidus = sauer",
+      "eselsbruecke": "Azidose = das Blut wird sauer (acid)",
+      "beispiel": "Azidose geht meist mit Hyperkaliämie einher.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-222",
+      "kapitel": "Stoffwechsel",
+      "seite": 18,
+      "lateinisch": "Alkalose",
+      "deutsch": "Basenüberschuss im Blut (pH > 7,45)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Laborwert",
+      "herkunft": "arabisch: al-qalya = Pflanzenasche (basisch)",
+      "eselsbruecke": "Alkalose = das Blut wird basisch (alkalisch)",
+      "beispiel": "Alkalose geht meist mit Hypokaliämie einher.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-223",
+      "kapitel": "Stoffwechsel",
+      "seite": 18,
+      "lateinisch": "Hyperaldosteronismus",
+      "deutsch": "Übermäßige Aldosteron-Produktion (Conn-Syndrom)",
+      "wortart": "Substantiv (m)",
+      "kategorie": "Endokrinologie",
+      "herkunft": "gr. hyper + aldosteron",
+      "eselsbruecke": "Hyper-Aldosteron-ismus = zu viel Aldosteron",
+      "beispiel": "Hyperaldosteronismus führt zu Hypokaliämie und Hypertonie.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-224",
+      "kapitel": "Stoffwechsel",
+      "seite": 18,
+      "lateinisch": "Morbus Addison",
+      "deutsch": "Unterfunktion der Nebennierenrinde (Hypoaldosteronismus)",
+      "wortart": "Substantiv (m)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "lat. morbus = Krankheit; nach Thomas Addison",
+      "eselsbruecke": "Morbus Addison = Mangel an Nebennierenhormonen",
+      "beispiel": "Morbus Addison kann zur Hyperkaliämie führen.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-225",
+      "kapitel": "Stoffwechsel",
+      "seite": 19,
+      "lateinisch": "Polyurie",
+      "deutsch": "Übermäßige Urinausscheidung",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Symptom",
+      "herkunft": "gr. poly = viel; ouron = Urin",
+      "eselsbruecke": "Poly-Urie = VIEL Urin",
+      "beispiel": "Polyurie ist ein Symptom der Hypokaliämie.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-226",
+      "kapitel": "Stoffwechsel",
+      "seite": 19,
+      "lateinisch": "Polydipsie",
+      "deutsch": "Übermäßiges Durstgefühl",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Symptom",
+      "herkunft": "gr. poly = viel; dipsa = Durst",
+      "eselsbruecke": "Poly-Dipsie = VIEL Durst",
+      "beispiel": "Polyurie und Polydipsie treten oft zusammen auf.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-227",
+      "kapitel": "Stoffwechsel",
+      "seite": 19,
+      "lateinisch": "Parästhesie",
+      "deutsch": "Missempfindung (Kribbeln, Pelzigkeit)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Symptom",
+      "herkunft": "gr. para = neben; aisthesis = Empfindung",
+      "eselsbruecke": "Par-Ästhesie = abnorme Empfindung",
+      "beispiel": "Parästhesien um den Mund sind ein Hyperkaliämie-Zeichen.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-228",
+      "kapitel": "Stoffwechsel",
+      "seite": 19,
+      "lateinisch": "Adynamie",
+      "deutsch": "Kraftlosigkeit, allgemeine Schwäche",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Symptom",
+      "herkunft": "gr. a = ohne; dynamis = Kraft",
+      "eselsbruecke": "A-Dynamie = OHNE Kraft",
+      "beispiel": "Adynamie ist ein Symptom bei Kaliumstörungen.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-229",
+      "kapitel": "Stoffwechsel",
+      "seite": 19,
+      "lateinisch": "Bradykardie",
+      "deutsch": "Verlangsamter Herzschlag (< 60/min)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Kardiologie",
+      "herkunft": "gr. bradys = langsam; kardia = Herz",
+      "eselsbruecke": "Brady-Kardie = LANGSAMES Herz",
+      "beispiel": "Bradykardie kann bei Hyperkaliämie auftreten.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-230",
+      "kapitel": "Stoffwechsel",
+      "seite": 19,
+      "lateinisch": "Tachykardie",
+      "deutsch": "Beschleunigter Herzschlag (> 100/min)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Kardiologie",
+      "herkunft": "gr. tachys = schnell; kardia = Herz",
+      "eselsbruecke": "Tachy-Kardie = SCHNELLES Herz",
+      "beispiel": "Tachykardie ist ein Hypokaliämie-Zeichen.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-231",
+      "kapitel": "Stoffwechsel",
+      "seite": 19,
+      "lateinisch": "Asystolie",
+      "deutsch": "Herzstillstand (keine Herzaktion mehr)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Kardiologie",
+      "herkunft": "gr. a = ohne; systole = Zusammenziehen",
+      "eselsbruecke": "A-Systolie = OHNE Herzschlag",
+      "beispiel": "Asystolie ist die schwerste Komplikation bei Kaliumstörungen.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-232",
+      "kapitel": "Stoffwechsel",
+      "seite": 19,
+      "lateinisch": "Parese",
+      "deutsch": "Unvollständige Lähmung",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Symptom",
+      "herkunft": "gr. paresis = Erschlaffung",
+      "eselsbruecke": "Parese = teilweise Lähmung (im Gegensatz zur kompletten Plegie)",
+      "beispiel": "Bei schwerer Hypokaliämie können Paresen auftreten.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-233",
+      "kapitel": "Stoffwechsel",
+      "seite": 19,
+      "lateinisch": "Areflexie",
+      "deutsch": "Fehlen der Reflexe",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Symptom",
+      "herkunft": "gr. a = ohne; reflexus = zurückwerfen",
+      "eselsbruecke": "A-Reflexie = KEINE Reflexe",
+      "beispiel": "Bei schwerer Hyperkaliämie kann Areflexie auftreten.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-234",
+      "kapitel": "Stoffwechsel",
+      "seite": 19,
+      "lateinisch": "Ileus",
+      "deutsch": "Darmverschluss",
+      "wortart": "Substantiv (m)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "gr. eileos = einschließen",
+      "eselsbruecke": "Ileus = Darm 'eingeschlossen' (Verschluss)",
+      "beispiel": "Bei Hyperkaliämie kann ein Ileus auftreten.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-235",
+      "kapitel": "Stoffwechsel",
+      "seite": 19,
+      "lateinisch": "kaliumsparende Diuretika",
+      "deutsch": "Wassertabletten, die Kalium im Körper behalten",
+      "wortart": "Substantiv (n, pl)",
+      "kategorie": "Medikament",
+      "herkunft": "deutsch: kalium + sparen + Diuretika",
+      "eselsbruecke": "Kalium-sparende Diuretika = behalten Kalium (z.B. Spironolacton)",
+      "beispiel": "Kaliumsparende Diuretika werden bei Hypokaliämie eingesetzt.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-236",
+      "kapitel": "Stoffwechsel",
+      "seite": 19,
+      "lateinisch": "Schleifendiuretika",
+      "deutsch": "Stark wirkende Wassertabletten (z.B. Furosemid)",
+      "wortart": "Substantiv (n, pl)",
+      "kategorie": "Medikament",
+      "herkunft": "deutsch: Schleife (Henle-Schleife) + Diuretika",
+      "eselsbruecke": "Schleifen-Diuretika = wirken in der Henle-Schleife der Niere",
+      "beispiel": "Schleifendiuretika werden bei Hyperkaliämie eingesetzt.",
       "schwierigkeit": "schwer"
     }
   ]
