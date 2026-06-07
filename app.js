@@ -231,6 +231,37 @@ function fragenFortsetzen(modusName, callbackNeu, callbackFortsetzen) {
 // ================================================
 // AUSSPRACHE (Web Speech API)
 // ================================================
+
+// Cache der verfügbaren Stimmen
+let verfuegbareStimmen = [];
+
+// Lade Stimmen (asynchron im Hintergrund)
+function ladeStimmen() {
+    if ('speechSynthesis' in window) {
+        verfuegbareStimmen = window.speechSynthesis.getVoices();
+        // Wenn beim ersten Aufruf noch leer, warte aufs Event
+        if (verfuegbareStimmen.length === 0) {
+            window.speechSynthesis.onvoiceschanged = () => {
+                verfuegbareStimmen = window.speechSynthesis.getVoices();
+            };
+        }
+    }
+}
+ladeStimmen();
+
+// Finde beste Stimme für eine Sprache (mit Fallbacks)
+function findeStimme(sprachPraefixe) {
+    if (verfuegbareStimmen.length === 0) {
+        verfuegbareStimmen = window.speechSynthesis.getVoices();
+    }
+    // Versuche jede Sprache der Prioritätenliste
+    for (const praefix of sprachPraefixe) {
+        const stimme = verfuegbareStimmen.find(v => v.lang.toLowerCase().startsWith(praefix.toLowerCase()));
+        if (stimme) return stimme;
+    }
+    return null;
+}
+
 function spreche(text, sprache) {
     if (!('speechSynthesis' in window)) {
         alert("⚠️ Dein Browser unterstützt keine Sprachausgabe.");
@@ -240,12 +271,28 @@ function spreche(text, sprache) {
     window.speechSynthesis.cancel();
 
     const utterance = new SpeechSynthesisUtterance(text);
-    // Sprache wählen: 'de-DE' für Deutsch, 'la' für Latein (fallback Deutsch)
+
     if (sprache === 'lat') {
-        utterance.lang = 'de-DE'; // Latein wird mit deutschem TTS gut ausgesprochen
-        utterance.rate = 0.85; // Etwas langsamer für Latein
+        // Für LATEIN: Italienisch klingt am natürlichsten (kirchliches Latein),
+        // als Fallback Spanisch, dann Englisch
+        const stimme = findeStimme(['it', 'es', 'en', 'la']);
+        if (stimme) {
+            utterance.voice = stimme;
+            utterance.lang = stimme.lang;
+        } else {
+            // Allerletzter Fallback (falls keine andere Sprache verfügbar)
+            utterance.lang = 'it-IT';
+        }
+        utterance.rate = 0.80; // Etwas langsamer für Latein
     } else {
-        utterance.lang = 'de-DE';
+        // DEUTSCH
+        const stimme = findeStimme(['de']);
+        if (stimme) {
+            utterance.voice = stimme;
+            utterance.lang = stimme.lang;
+        } else {
+            utterance.lang = 'de-DE';
+        }
         utterance.rate = 0.95;
     }
     utterance.pitch = 1.0;
