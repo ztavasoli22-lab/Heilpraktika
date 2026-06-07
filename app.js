@@ -1,10 +1,14 @@
 // ================================================
-// Heilpraktiker Lern-App - PWA v5.0
-// Mit Import/Export und Aussprache-Funktion
+// Heilpraktiker Lern-App - PWA
 // ================================================
+
+// 📌 VERSIONS-INFO
+const APP_VERSION = "5.4";
+const APP_DATUM = "2026-06-07";
 
 let fragenkatalog = [];
 let vokabeln = [];
+let katalogVersion = "?";
 let statistik = {
     fragen: {}, vokabeln: {},
     gesamt_richtig: 0, gesamt_falsch: 0,
@@ -52,6 +56,7 @@ async function initApp() {
         const data = await response.json();
         fragenkatalog = data.fragenkatalog || [];
         vokabeln = data.vokabeln || [];
+        katalogVersion = data.version || "?";
         zeigeHauptmenue();
     } catch (e) {
         document.getElementById('app').innerHTML =
@@ -415,6 +420,12 @@ function zeigeHauptmenue() {
             </div>
 
             <input type="file" id="import-datei" accept=".json" style="display:none;" onchange="verarbeiteImportDatei(event)">
+
+            <div class="versions-info">
+                <div>📱 App-Version: <strong>v${APP_VERSION}</strong></div>
+                <div>📚 Fragenkatalog: <strong>v${katalogVersion}</strong> (${fragenkatalog.length} Fragen · ${vokabeln.length} Vokabeln)</div>
+                <div style="opacity: 0.7; font-size: 11px; margin-top: 4px;">Stand: ${APP_DATUM}</div>
+            </div>
         </div>
     `;
 }
