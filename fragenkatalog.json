@@ -1,7 +1,7 @@
 {
-  "version": "5.0",
-  "erstellt_am": "2026-06-06",
-  "beschreibung": "Fragenkatalog + Vokabeltrainer Heilpraktikerprüfung - Seite 3-19 (Stoffwechsel komplett: Metabolisches Syndrom, Diabetes, Adipositas, Gicht, Fettstoffwechsel, Mukoviszidose, Kaliumhaushalt)",
+  "version": "5.1",
+  "erstellt_am": "2026-06-13",
+  "beschreibung": "Fragenkatalog + Vokabeltrainer Heilpraktikerprüfung - Seite 3-26 (Stoffwechsel + Hormonsystem: Met. Syndrom, Diabetes, Adipositas, Gicht, Fettstoffwechsel, Mukoviszidose, Kalium, Kalzium, Hormonübersicht, RAAS, Schilddrüse, Hypothyreose)",
   "fragenkatalog": [
     {
       "id": "STW-003-01",
@@ -6676,6 +6676,2314 @@
         "Fallbeispiel"
       ],
       "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-020-01",
+      "kapitel": "Stoffwechsel",
+      "thema": "Kalziumhaushalt",
+      "seite": 20,
+      "typ": "single_choice",
+      "frage": "Wo befindet sich der größte Teil des Kalziums im Körper?",
+      "optionen": [
+        "Im Blut",
+        "Zu 99% in Knochen und Zähnen",
+        "In den Muskeln",
+        "In der Leber",
+        "In den Nieren"
+      ],
+      "richtig": 1,
+      "erklaerung": "Kalzium (Ca²⁺) ist der häufigste Mineralstoff im menschlichen Körper und kommt zu 99% in Knochen und Zähnen vor.",
+      "schwierigkeit": "leicht",
+      "tags": [
+        "Stoffwechsel",
+        "Kalzium",
+        "Verteilung"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-020-02",
+      "kapitel": "Stoffwechsel",
+      "thema": "Kalzium im Blut",
+      "seite": 20,
+      "typ": "multiple_choice",
+      "frage": "Wie ist das Kalzium im Blut verteilt?",
+      "optionen": [
+        "45% an Eiweiße (v.a. Albumine) gebunden",
+        "5% bilden Komplexe mit Bikarbonat, Citrat und Phosphat",
+        "50% liegen als freie Kalzium-Ionen (ionisiert) vor",
+        "100% liegen frei vor",
+        "Nur an Hämoglobin gebunden"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Im Blut sind 45% des Kalziums an Eiweiße (v.a. Albumine) gebunden, 5% bilden Komplexe mit Bikarbonat, Citrat und Phosphat, die restlichen 50% liegen als freie Kalzium-Ionen vor. Das freie (ionisierte) Kalzium ist die biologisch aktive Form.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Kalzium",
+        "Verteilung",
+        "Blut"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-020-03",
+      "kapitel": "Stoffwechsel",
+      "thema": "Kalzium - Tagesbedarf",
+      "seite": 20,
+      "typ": "single_choice",
+      "frage": "Wie hoch ist der empfohlene Tagesbedarf an Kalzium bei Erwachsenen?",
+      "optionen": [
+        "500 mg",
+        "800 mg",
+        "1.000 mg (1 g)",
+        "1.500 mg (1,5 g)",
+        "2.000 mg (2 g)"
+      ],
+      "richtig": 2,
+      "erklaerung": "Der empfohlene Tagesbedarf bei Erwachsenen beträgt 1.000 mg (1 g). Bei Schwangeren, Stillenden, Jugendlichen und Senioren werden 1.500 mg (1,5 g) empfohlen.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Kalzium",
+        "Tagesbedarf"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-020-04",
+      "kapitel": "Stoffwechsel",
+      "thema": "Kalzium - Tagesbedarf besondere Gruppen",
+      "seite": 20,
+      "typ": "single_choice",
+      "frage": "Wie hoch ist der Kalziumtagesbedarf bei Schwangeren, Stillenden, Jugendlichen und Senioren?",
+      "optionen": [
+        "800 mg",
+        "1.000 mg",
+        "1.500 mg (1,5 g)",
+        "2.000 mg",
+        "3.000 mg"
+      ],
+      "richtig": 2,
+      "erklaerung": "Bei Schwangeren, Stillenden, Jugendlichen und Senioren werden 1.500 mg (1,5 g) pro Tag empfohlen.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Kalzium",
+        "Schwangerschaft"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-020-05",
+      "kapitel": "Stoffwechsel",
+      "thema": "Kalziumreiche Nahrungsmittel",
+      "seite": 20,
+      "typ": "multiple_choice",
+      "frage": "Welche Nahrungsmittel sind besonders kalziumreich?",
+      "optionen": [
+        "Milch und Milchprodukte",
+        "Mineralwasser",
+        "Grünkohl, Spinat, Brokkoli",
+        "Schweinefleisch",
+        "Weißbrot"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Besonders kalziumreich sind Milch und Milchprodukte. Geringere Mengen sind in Mineralwasser, Gemüse (Grünkohl, Spinat, Brokkoli) und diversen anderen Lebensmitteln vorhanden.",
+      "schwierigkeit": "leicht",
+      "tags": [
+        "Stoffwechsel",
+        "Kalzium",
+        "Ernährung"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-020-06",
+      "kapitel": "Stoffwechsel",
+      "thema": "Kalzium - Funktionen",
+      "seite": 20,
+      "typ": "multiple_choice",
+      "frage": "Welche Funktionen erfüllt Kalzium im Körper?",
+      "optionen": [
+        "Bildung von Knochen und Zähnen",
+        "Neuromuskuläre Erregbarkeit, Muskelkontraktion",
+        "Antiphlogistische und antiallergische Wirkung",
+        "Gefäßabdichtende Wirkung, beteiligt an Blutgerinnung",
+        "Cofaktor von Enzymen",
+        "Hauptbestandteil von Hämoglobin"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "erklaerung": "Kalzium-Funktionen: Bildung von Knochen/Zähnen, neuromuskuläre Erregbarkeit + Muskelkontraktion, antiphlogistische und antiallergische Wirkung, gefäßabdichtende Wirkung (an Blutgerinnung beteiligt), Cofaktor von Enzymen.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Kalzium",
+        "Funktion"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-020-07",
+      "kapitel": "Stoffwechsel",
+      "thema": "Kalziumregulation",
+      "seite": 20,
+      "typ": "multiple_choice",
+      "frage": "Welche drei Hormone/Substanzen regulieren den Kalziumhaushalt?",
+      "optionen": [
+        "Parathormon",
+        "Calcitonin",
+        "Vitamin D (Calcitriol)",
+        "Insulin",
+        "Aldosteron"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Die drei wichtigsten Regulatoren des Kalziumhaushalts sind: Parathormon (Nebenschilddrüse), Calcitonin (Schilddrüse) und Vitamin D (Calcitriol).",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Kalzium",
+        "Hormone",
+        "Regulation"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-020-08",
+      "kapitel": "Stoffwechsel",
+      "thema": "Parathormon",
+      "seite": 20,
+      "typ": "single_choice",
+      "frage": "Was bewirkt Parathormon (PTH) bei Hypokalzämie?",
+      "optionen": [
+        "Senkung des Kalziumspiegels",
+        "Erhöhung des Kalziumspiegels durch Knochenabbau und Steigerung der Kalziumaufnahme",
+        "Hemmung der Osteoklasten",
+        "Steigerung der Kalziumausscheidung",
+        "Keine Wirkung auf Kalzium"
+      ],
+      "richtig": 1,
+      "erklaerung": "Bei Hypokalzämie wird Parathormon (PTH) aus den Nebenschilddrüsen ausgeschüttet → Erhöhung Kalziumspiegel durch: Aktivierung Osteoklasten (Kalzium aus Knochen), Hemmung Kalziumausscheidung, Bildung Calcitriol, Steigerung Kalziumaufnahme im Darm. Merkhilfe: 'Parathormon stellt Kalzium im Blut parat'.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Parathormon",
+        "Hypokalzämie"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-020-09",
+      "kapitel": "Stoffwechsel",
+      "thema": "Parathormon - Wirkungen",
+      "seite": 20,
+      "typ": "multiple_choice",
+      "frage": "Welche Wirkungen hat Parathormon?",
+      "optionen": [
+        "Aktivierung der Osteoklasten (Kalziumfreisetzung aus Knochen)",
+        "Hemmung der Kalziumausscheidung über die Niere",
+        "Steigerung der Phosphatausscheidung über die Niere",
+        "Bildung von Calcitriol in der Niere",
+        "Steigerung der Kalziumaufnahme im Darm",
+        "Senkung des Kalziumspiegels"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "erklaerung": "PTH-Wirkungen: Aktivierung Osteoklasten (Kalzium aus Knochen), Hemmung Kalziumausscheidung + Steigerung Phosphatausscheidung über Niere, Bildung Calcitriol in Niere, Steigerung Kalziumaufnahme im Darm → Serumkalziumspiegel steigt.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Parathormon",
+        "Wirkung"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-020-10",
+      "kapitel": "Stoffwechsel",
+      "thema": "Calcitonin",
+      "seite": 20,
+      "typ": "single_choice",
+      "frage": "Was bewirkt Calcitonin bei Hyperkalzämie?",
+      "optionen": [
+        "Erhöhung des Kalziumspiegels",
+        "Senkung des Kalziumspiegels - 'bringt das Calcium in die Knochen'",
+        "Aktivierung der Osteoklasten",
+        "Steigerung der Kalziumaufnahme im Darm",
+        "Keine Wirkung"
+      ],
+      "richtig": 1,
+      "erklaerung": "Bei Hyperkalzämie wird Calcitonin aus der Schilddrüse ausgeschüttet → Senkung Kalziumspiegel durch: Hemmung Osteoklasten, Steigerung Kalziumeinbaus in Knochen, Steigerung Ausscheidung Ca + Phosphat über Niere, Hemmung Kalziumaufnahme im Darm. Merkhilfe: 'Calcitonin bringt das Calcium in die Knochen'.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Calcitonin",
+        "Hyperkalzämie"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-020-11",
+      "kapitel": "Stoffwechsel",
+      "thema": "Vitamin D",
+      "seite": 20,
+      "typ": "single_choice",
+      "frage": "Wie wird Vitamin D im Körper gebildet?",
+      "optionen": [
+        "100% über die Nahrung",
+        "Zu 10% über die Nahrung, zu 90% mithilfe UV-Strahlen in der Haut aus Cholesterin",
+        "Nur in der Leber",
+        "Nur in der Niere",
+        "Nur in den Knochen"
+      ],
+      "richtig": 1,
+      "erklaerung": "Vitamin D wird zu 10% über die Nahrung aufgenommen und zu 90% mithilfe von UV-Strahlen in der Haut aus Cholesterin gebildet. Das Cholecalciferol wird in der Leber zu Calcidiol und dann in der Niere (durch PTH-Aktivierung) zu Calcitriol umgewandelt.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Vitamin D",
+        "Bildung"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-020-12",
+      "kapitel": "Stoffwechsel",
+      "thema": "Vitamin D - Calcitriol",
+      "seite": 20,
+      "typ": "multiple_choice",
+      "frage": "Welche Wirkungen hat Calcitriol (Vitamin D3)?",
+      "optionen": [
+        "Steigerung der Kalzium- und Phosphataufnahme im Darm",
+        "Hemmung der Ausscheidung von Kalzium und Phosphat über die Niere",
+        "Förderung von Knochenmineralisierung, Knochenaufbau und Knochenumbau",
+        "Stimulation von Osteoblasten",
+        "Förderung der Osteoklastendifferenzierung",
+        "Hemmung der Kalziumaufnahme"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "erklaerung": "Calcitriol-Wirkungen: Steigerung Ca/Phosphataufnahme im Darm, Hemmung Ausscheidung über Niere, Förderung von Knochenmineralisierung/-aufbau/-umbau durch Ausgleich Ca-/Phosphatspiegels, Stimulation Osteoblasten und Förderung Osteoklastendifferenzierung.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Vitamin D",
+        "Calcitriol",
+        "Wirkung"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-020-13",
+      "kapitel": "Stoffwechsel",
+      "thema": "Vitamin D - Quellen",
+      "seite": 20,
+      "typ": "multiple_choice",
+      "frage": "Welche Lebensmittel sind reich an Vitamin D?",
+      "optionen": [
+        "Fetter Fisch",
+        "Leber",
+        "Eigelb",
+        "Speisepilze",
+        "Avocados",
+        "Zucker"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "erklaerung": "Vitamin D-reich sind v.a. fetter Fisch; geringere Mengen kommen auch in Leber, Eigelb, Speisepilzen und Avocados vor.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Vitamin D",
+        "Ernährung"
+      ],
+      "pruefungsrelevanz": "mittel"
+    },
+    {
+      "id": "STW-020-14",
+      "kapitel": "Stoffwechsel",
+      "thema": "Kalzium - Normwerte",
+      "seite": 20,
+      "typ": "single_choice",
+      "frage": "Wie hoch ist der Normwert für Gesamtkalzium im Serum?",
+      "optionen": [
+        "1,0-1,5 mmol/l",
+        "2,2-2,6 mmol/l",
+        "3,0-4,0 mmol/l",
+        "5,0-6,0 mmol/l",
+        "10-12 mmol/l"
+      ],
+      "richtig": 1,
+      "erklaerung": "Normwerte im Serum: Gesamtkalzium: 2,2-2,6 mmol/l, freies (ionisiertes) Kalzium: 1,1-1,3 mmol/l.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Kalzium",
+        "Normwerte",
+        "Labor"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-020-15",
+      "kapitel": "Stoffwechsel",
+      "thema": "Kalzium - Normwerte",
+      "seite": 20,
+      "typ": "single_choice",
+      "frage": "Wie hoch ist der Normwert für freies (ionisiertes) Kalzium im Serum?",
+      "optionen": [
+        "0,5-1,0 mmol/l",
+        "1,1-1,3 mmol/l",
+        "2,0-2,5 mmol/l",
+        "3,0-3,5 mmol/l",
+        "5,0-6,0 mmol/l"
+      ],
+      "richtig": 1,
+      "erklaerung": "Normwert für freies (ionisiertes) Kalzium: 1,1-1,3 mmol/l. Das ist die biologisch aktive Form.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Kalzium",
+        "Normwerte"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-020-F1",
+      "kapitel": "Stoffwechsel",
+      "thema": "Kalzium-Regulation Hypokalzämie",
+      "seite": 20,
+      "typ": "fallbeispiel",
+      "fallbeschreibung": "Eine 50-jährige Patientin hat im Labor ein Gesamtkalzium von 1,9 mmol/l. Ihre Nebenschilddrüsen reagieren physiologisch.",
+      "frage": "Was passiert in dieser Situation?",
+      "optionen": [
+        "Calcitonin wird ausgeschüttet, Kalziumspiegel sinkt weiter",
+        "Parathormon (PTH) wird ausgeschüttet → Aktivierung der Osteoklasten, Erhöhung des Kalziumspiegels",
+        "Vitamin D wird abgebaut",
+        "Es passiert nichts",
+        "Die Schilddrüse produziert mehr T3/T4"
+      ],
+      "richtig": 1,
+      "erklaerung": "Bei Hypokalzämie (< 2,2 mmol/l) schüttet die Nebenschilddrüse Parathormon (PTH) aus → Aktivierung der Osteoklasten (Kalzium aus den Knochen freisetzen), Hemmung der renalen Kalziumausscheidung, Bildung Calcitriol → Kalziumspiegel steigt. Merkhilfe: 'Parathormon stellt Kalzium im Blut parat'.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Kalzium",
+        "Hypokalzämie",
+        "Parathormon",
+        "Fallbeispiel"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-021-01",
+      "kapitel": "Stoffwechsel",
+      "thema": "Hypokalzämie - Werte",
+      "seite": 21,
+      "typ": "single_choice",
+      "frage": "Ab welchem Wert spricht man von einer Hypokalzämie?",
+      "optionen": [
+        "Gesamtkalzium < 1,5 mmol/l",
+        "Gesamtkalzium < 2,2 mmol/l",
+        "Gesamtkalzium < 3,0 mmol/l",
+        "Gesamtkalzium > 2,7 mmol/l",
+        "Gesamtkalzium > 5,0 mmol/l"
+      ],
+      "richtig": 1,
+      "erklaerung": "Hypokalzämie: Gesamtkalzium im Serum < 2,2 mmol/l, ionisiertes (freies) Kalzium < 1,1 mmol/l.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Hypokalzämie",
+        "Laborwert"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-021-02",
+      "kapitel": "Stoffwechsel",
+      "thema": "Hyperkalzämie - Werte",
+      "seite": 21,
+      "typ": "single_choice",
+      "frage": "Ab welchem Wert spricht man von einer Hyperkalzämie?",
+      "optionen": [
+        "Gesamtkalzium > 2,2 mmol/l",
+        "Gesamtkalzium > 2,7 mmol/l, ionisiertes Kalzium > 1,3 mmol/l",
+        "Gesamtkalzium > 5,0 mmol/l",
+        "Gesamtkalzium < 2,2 mmol/l",
+        "Gesamtkalzium > 10,0 mmol/l"
+      ],
+      "richtig": 1,
+      "erklaerung": "Hyperkalzämie: Gesamtkalzium im Serum > 2,7 mmol/l, ionisiertes (freies) Kalzium > 1,3 mmol/l.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Hyperkalzämie",
+        "Laborwert"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-021-03",
+      "kapitel": "Stoffwechsel",
+      "thema": "Hypokalzämie - Ätiologie",
+      "seite": 21,
+      "typ": "multiple_choice",
+      "frage": "Welche Ursachen kann eine Hypokalzämie haben?",
+      "optionen": [
+        "Verminderte Kalziumaufnahme (Mangelernährung, Malabsorptionssyndrom)",
+        "Vitamin-D-Mangel (Sonnenlichtmangel, Leber-/Niereninsuffizienz, Alkoholismus)",
+        "Hypoparathyreoidismus",
+        "Akute Pankreatitis",
+        "Hyperventilation",
+        "Renale Kalziumverluste, Schleifendiuretika",
+        "Hyperparathyreoidismus"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "erklaerung": "Hypokalzämie-Ursachen: verminderte Aufnahme, Vitamin-D-Mangel, Hypoparathyreoidismus, akute Pankreatitis (Verseifungsprozesse), Hyperventilation (resp. Alkalose), renale Verluste, Glukokortikoide, Hypalbuminämie. Hyperparathyreoidismus verursacht Hyperkalzämie!",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Hypokalzämie",
+        "Ursachen"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-021-04",
+      "kapitel": "Stoffwechsel",
+      "thema": "Hyperkalzämie - Ätiologie",
+      "seite": 21,
+      "typ": "multiple_choice",
+      "frage": "Welche Ursachen kann eine Hyperkalzämie haben?",
+      "optionen": [
+        "Maligne Tumoren (z.B. Nierenzellkarzinom, Lungenkarzinom)",
+        "Hyperparathyreoidismus",
+        "Medikamente (Thiazid-Diuretika, Tamoxifen, Lithium)",
+        "Vitamin-D-Intoxikation",
+        "Hyperthyreose, Akromegalie",
+        "Lange Immobilisation",
+        "Vitamin-D-Mangel"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "erklaerung": "Hyperkalzämie-Ursachen: Maligne Tumoren (Osteolysen oder PTHrP-Synthese), Hyperparathyreoidismus, Medikamente (Thiazide, Tamoxifen, Vitamin-D-Intox, Lithium), gesteigerter Knochenstoffwechsel (Hyperthyreose, Akromegalie), lange Immobilisation, Glukokortikoidmangel (M. Addison), Sarkoidose, Azidose. Vitamin-D-Mangel führt zu HYPOkalzämie!",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Hyperkalzämie",
+        "Ursachen"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-021-05",
+      "kapitel": "Stoffwechsel",
+      "thema": "Hypokalzämie - Klinik",
+      "seite": 21,
+      "typ": "multiple_choice",
+      "frage": "Welche klinischen Symptome treten bei Hypokalzämie auf?",
+      "optionen": [
+        "Tetanie (Parästhesien, Muskelkrämpfe, Chvostek-Zeichen, Trousseau-Zeichen)",
+        "Muskelschwäche, Müdigkeit",
+        "Herzrhythmusstörungen, Hypotonie",
+        "Hyperreflexie",
+        "Diarrhö",
+        "Trockene Haut, Haar- und Nagelstörungen",
+        "Knochenschmerzen, Obstipation"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "erklaerung": "Hypokalzämie-Symptome: Tetanie (Parästhesien, Muskelkrämpfe, Chvostek-/Trousseau-Zeichen), Muskelschwäche, Herzrhythmusstörungen, Hyperreflexie, Diarrhö, trockene Haut/Haar-/Nagelstörungen, Katarakt, Kribbelparästhesien (v.a. perioral, Hände), psychische Symptome, Bewusstseinsstörungen. Knochenschmerzen + Obstipation sind bei HYPERkalzämie.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Hypokalzämie",
+        "Klinik"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-021-06",
+      "kapitel": "Stoffwechsel",
+      "thema": "Chvostek-Zeichen",
+      "seite": 21,
+      "typ": "single_choice",
+      "frage": "Was ist das Chvostek-Zeichen?",
+      "optionen": [
+        "Blasse Hautfarbe bei Anämie",
+        "Beklopfen des N. facialis im Bereich der Wange (1-2 cm vor dem Ohrläppchen) → Zucken des Mundwinkels und der gleichseitigen Gesichtsmuskulatur",
+        "Erhöhter Blutdruck bei Stress",
+        "Schmerz bei Druck auf das Sprunggelenk",
+        "Hautausschlag bei Allergie"
+      ],
+      "richtig": 1,
+      "erklaerung": "Chvostek-Zeichen: Beklopfen des N. facialis im Bereich der Wange (1-2 cm vor Ohrläppchen) → Zucken des Mundwinkels und der gleichseitigen Gesichtsmuskulatur. Zeichen für erhöhte neuromuskuläre Erregbarkeit bei Hypokalzämie.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Hypokalzämie",
+        "Chvostek",
+        "Diagnostik"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-021-07",
+      "kapitel": "Stoffwechsel",
+      "thema": "Trousseau-Zeichen",
+      "seite": 21,
+      "typ": "single_choice",
+      "frage": "Was ist das Trousseau-Zeichen?",
+      "optionen": [
+        "Zucken der Wangenmuskulatur",
+        "Pfötchenstellung der Hand bei Kompression des Oberarms durch eine Blutdruckmanschette",
+        "Tinnitus",
+        "Schmerz im Sprunggelenk",
+        "Roter Hautausschlag"
+      ],
+      "richtig": 1,
+      "erklaerung": "Trousseau-Zeichen: Bei Kompression des Oberarms durch eine Blutdruckmanschette kommt es zur Pfötchenstellung der Hand. Zeichen für tetanische Übererregbarkeit bei Hypokalzämie.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Hypokalzämie",
+        "Trousseau",
+        "Diagnostik"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-021-08",
+      "kapitel": "Stoffwechsel",
+      "thema": "Hyperkalzämie - Klinik",
+      "seite": 21,
+      "typ": "multiple_choice",
+      "frage": "Welche klinischen Symptome treten bei Hyperkalzämie auf? (Merkhilfe 'Stein-Bein-Magenpein')",
+      "optionen": [
+        "Knochenschmerzen (Bein)",
+        "Harn- und Nierensteine (Stein)",
+        "Gastrointestinale Beschwerden: Appetitverlust, Übelkeit, Obstipation, Ulkusbildung (Magenpein)",
+        "Polyurie, Polydipsie",
+        "Muskelschwäche, Paresen",
+        "Herzrhythmusstörungen",
+        "Hyperreflexie"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "erklaerung": "Hyperkalzämie-Symptome (Merkhilfe 'Stein-Bein-Magenpein'): Knochenschmerzen (Bein), Nierensteine (Stein), gastrointestinale Beschwerden (Magenpein), Polyurie/Polydipsie, Muskelschwäche/Paresen, Herzrhythmusstörungen, HYPOreflexie (nicht Hyper-!), Pankreatitis, psychische Symptome.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Hyperkalzämie",
+        "Klinik",
+        "Stein-Bein-Magenpein"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-021-09",
+      "kapitel": "Stoffwechsel",
+      "thema": "Hyperkalzämische Krise",
+      "seite": 21,
+      "typ": "single_choice",
+      "frage": "Ab welchem Kalziumwert spricht man von einer hyperkalzämischen Krise?",
+      "optionen": [
+        "Ca²⁺ > 2,5 mmol/l",
+        "Ca²⁺ > 3,0 mmol/l",
+        "Ca²⁺ > 3,5 mmol/l",
+        "Ca²⁺ > 5,0 mmol/l",
+        "Ca²⁺ > 10,0 mmol/l"
+      ],
+      "richtig": 2,
+      "erklaerung": "Hyperkalzämische Krise: Ca²⁺-Werte > 3,5 mmol/l. Klinik: schwere Exsikkose, Fieber, Niereninsuffizienz, Herzrhythmusstörungen, Somnolenz, Koma. Notfall!",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Hyperkalzämie",
+        "Notfall",
+        "Krise"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-021-10",
+      "kapitel": "Stoffwechsel",
+      "thema": "Hypokalzämie - Therapie",
+      "seite": 21,
+      "typ": "multiple_choice",
+      "frage": "Wie wird eine Hypokalzämie behandelt?",
+      "optionen": [
+        "Behandlung der Ursache",
+        "Bei psychogener Hyperventilationstetanie: Tütenatmen und Beruhigen",
+        "Bei starker Tetanie: Notruf, Kalzium i.v. (vom Arzt)",
+        "Langzeittherapie: orale Kalziumsubstitution, ggf. Vitamin D3",
+        "Cave: keine intravenöse Kalziumsubstitution bei Digitaliseinnahme (Gefahr Kammerflimmern!)",
+        "Mehr Kalzium ausscheiden"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "erklaerung": "Hypokalzämie-Therapie: Ursachenbehandlung, bei Hyperventilationstetanie Tütenatmen, bei starker Tetanie Notruf + Ca i.v., Langzeit: orale Substitution + ggf. Vitamin D3. WICHTIG: KEINE i.v. Kalziumsubstitution bei Digitaliseinnahme → Gefahr Kammerflimmern!",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Hypokalzämie",
+        "Therapie"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-021-11",
+      "kapitel": "Stoffwechsel",
+      "thema": "Hyperkalzämie - Therapie",
+      "seite": 21,
+      "typ": "multiple_choice",
+      "frage": "Wie wird eine Hyperkalzämie behandelt?",
+      "optionen": [
+        "Behandlung der Ursache",
+        "Kalziumzufuhr stoppen (z.B. keine Milch, Mineralwasser, Kalziumpräparate)",
+        "Forcierte Diurese: Kochsalzlösung + Schleifendiuretika (Furosemid) → Ausschwemmen Ca²⁺",
+        "Ggf. Dialyse",
+        "Bisphosphonate bei Tumoren → Hemmung Osteoklastentätigkeit",
+        "Medikamente: Glukokortikoide, Calcitonin",
+        "Mehr Kalzium zuführen"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "erklaerung": "Hyperkalzämie-Therapie: Ursache behandeln, Kalziumzufuhr stoppen, forcierte Diurese (NaCl + Furosemid), Dialyse, Bisphosphonate (bei Tumoren), Glukokortikoide, Calcitonin.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Stoffwechsel",
+        "Hyperkalzämie",
+        "Therapie"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-021-F1",
+      "kapitel": "Stoffwechsel",
+      "thema": "Hypokalzämie - Tetanie",
+      "seite": 21,
+      "typ": "fallbeispiel",
+      "fallbeschreibung": "Eine 35-jährige Patientin kommt mit Kribbeln um den Mund und an den Händen in die Praxis. Bei Kompression des Oberarms durch die Blutdruckmanschette stellt sich ihre Hand pfötchenartig. Beim Beklopfen der Wange zuckt der Mundwinkel.",
+      "frage": "Welche Diagnose ist am wahrscheinlichsten und welche Tests sind positiv?",
+      "optionen": [
+        "Hyperkalzämie - Chvostek und Trousseau positiv",
+        "Hypokalzämie (Tetanie) - Chvostek-Zeichen und Trousseau-Zeichen positiv",
+        "Hyperthyreose",
+        "Hypothyreose",
+        "Diabetes mellitus"
+      ],
+      "richtig": 1,
+      "erklaerung": "Klassische Hypokalzämie mit Tetanie: Chvostek-Zeichen (Zucken Wange) + Trousseau-Zeichen (Pfötchenstellung) sind positiv. Beide Zeichen zeigen die erhöhte neuromuskuläre Erregbarkeit bei Hypokalzämie.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Stoffwechsel",
+        "Hypokalzämie",
+        "Tetanie",
+        "Fallbeispiel"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-022-01",
+      "kapitel": "Hormonsystem",
+      "thema": "Hypothalamus - Releasing-Hormone",
+      "seite": 22,
+      "typ": "multiple_choice",
+      "frage": "Welche Releasing-Hormone werden vom Hypothalamus gebildet?",
+      "optionen": [
+        "TRH (Thyreotropin-Rel.-Hormon)",
+        "CRH (Corticotropin-Rel.-Hormon)",
+        "GnRH (Gonadotropin-Rel.-Hormon)",
+        "PRH (Prolaktin-Rel.-Hormon)",
+        "SRH (Somatotropin-Rel.-Hormon)",
+        "MRH (Melanoliberin)",
+        "Insulin"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "erklaerung": "Releasing-Hormone des Hypothalamus: TRH (TSH-Ausschüttung), CRH (ACTH), GnRH (FSH/LH), PRH (Prolaktin), SRH (STH), MRH (MSH). Insulin wird im Pankreas gebildet.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Hormonsystem",
+        "Hypothalamus",
+        "Releasing-Hormone"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-022-02",
+      "kapitel": "Hormonsystem",
+      "thema": "Hypothalamus - Inhibiting-Hormone",
+      "seite": 22,
+      "typ": "multiple_choice",
+      "frage": "Welche Inhibiting-Hormone werden vom Hypothalamus gebildet?",
+      "optionen": [
+        "PIH (Prolaktin-Inhibiting-Hormon)",
+        "SIH (Somatostatin)",
+        "MIH (Melanostatin)",
+        "TRH",
+        "CRH"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Inhibiting-Hormone des Hypothalamus: PIH (Hemmung Prolaktin), SIH/Somatostatin (Hemmung STH), MIH (Hemmung MSH).",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Hormonsystem",
+        "Hypothalamus",
+        "Inhibiting-Hormone"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-022-03",
+      "kapitel": "Hormonsystem",
+      "thema": "Hypophysenhinterlappen (HHL)",
+      "seite": 22,
+      "typ": "multiple_choice",
+      "frage": "Welche Hormone werden im Hypophysenhinterlappen (HHL) gespeichert?",
+      "optionen": [
+        "Oxytocin",
+        "ADH (Adiuretin, Vasopressin, Antidiuretisches Hormon)",
+        "TSH",
+        "ACTH",
+        "FSH"
+      ],
+      "richtig": [
+        0,
+        1
+      ],
+      "erklaerung": "Im HHL werden Oxytocin (Wehen, Milcheinschuss beim Stillen) und ADH (Wasserrückresorption Niere, Vasokonstriktion Arteriolen) gespeichert. Sie werden im Hypothalamus gebildet. TSH, ACTH, FSH sind HVL-Hormone.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Hormonsystem",
+        "Hypophyse",
+        "HHL",
+        "Oxytocin",
+        "ADH"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-022-04",
+      "kapitel": "Hormonsystem",
+      "thema": "Hypophysenvorderlappen (HVL)",
+      "seite": 22,
+      "typ": "multiple_choice",
+      "frage": "Welche Hormone werden im Hypophysenvorderlappen (HVL) produziert?",
+      "optionen": [
+        "TSH (Thyreoidea-stimul.-Hormon)",
+        "ACTH (Adrenocorticotropes Hormon)",
+        "FSH (Follikelstimulierendes Hormon)",
+        "LH (Luteinisierendes Hormon)",
+        "STH (somatotropes Hormon)",
+        "Prolaktin",
+        "MSH (Melanozyten-stim.-Hormon)",
+        "Oxytocin"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "erklaerung": "HVL-Hormone: TSH (Schilddrüse), ACTH (Glukokortikoide Nebennierenrinde), FSH (Follikelreifung/Östrogene, Spermien), LH (Eisprung, Testosteron), STH (Wachstum), Prolaktin (Milchbildung), MSH (Hautpigmentierung). Oxytocin ist HHL.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Hormonsystem",
+        "Hypophyse",
+        "HVL"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-022-05",
+      "kapitel": "Hormonsystem",
+      "thema": "Epiphyse - Melatonin",
+      "seite": 22,
+      "typ": "single_choice",
+      "frage": "Was ist die Funktion von Melatonin (gebildet in der Epiphyse)?",
+      "optionen": [
+        "Steigerung des Stoffwechsels",
+        "Steuerung des Tag-/Nachtrhythmus",
+        "Senkung des Blutzuckers",
+        "Blutdrucksenkung",
+        "Knochenaufbau"
+      ],
+      "richtig": 1,
+      "erklaerung": "Melatonin wird in der Epiphyse (Zirbeldrüse) gebildet und steuert den Tag-/Nachtrhythmus (Schlaf-Wach-Rhythmus).",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Hormonsystem",
+        "Epiphyse",
+        "Melatonin"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-022-06",
+      "kapitel": "Hormonsystem",
+      "thema": "Schilddrüse - T3/T4",
+      "seite": 22,
+      "typ": "single_choice",
+      "frage": "Welche Wirkung haben Thyroxin (T4) und Triiodthyronin (T3)?",
+      "optionen": [
+        "Senkung des Stoffwechsels",
+        "Steigerung von Stoffwechsel, Wachstum, Wärmeproduktion, Herztätigkeit",
+        "Blutzuckersenkung",
+        "Erhöhung des Kalziumspiegels",
+        "Blutdrucksenkung"
+      ],
+      "richtig": 1,
+      "erklaerung": "T3 (Triiodthyronin) und T4 (Thyroxin): Steigerung von Stoffwechsel, Wachstum, Wärmeproduktion, Herztätigkeit (alles ↑).",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Hormonsystem",
+        "Schilddrüse",
+        "T3",
+        "T4"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-022-07",
+      "kapitel": "Hormonsystem",
+      "thema": "Calcitonin - Schilddrüse",
+      "seite": 22,
+      "typ": "single_choice",
+      "frage": "Wo wird Calcitonin gebildet und was bewirkt es?",
+      "optionen": [
+        "Nebenschilddrüse - erhöht Kalziumspiegel",
+        "Schilddrüse - senkt Kalziumspiegel ('bringt Kalzium in die Knochen')",
+        "Nebenniere - reguliert Stress",
+        "Hypophyse - reguliert Wachstum",
+        "Pankreas - senkt Blutzucker"
+      ],
+      "richtig": 1,
+      "erklaerung": "Calcitonin wird in der Schilddrüse gebildet (in den C-Zellen). Es ist Gegenspieler zum Parathormon und 'bringt Kalzium in die Knochen' → Senkung des Kalziumspiegels.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Hormonsystem",
+        "Schilddrüse",
+        "Calcitonin",
+        "Kalzium"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-022-08",
+      "kapitel": "Hormonsystem",
+      "thema": "Parathormon (PTH)",
+      "seite": 22,
+      "typ": "single_choice",
+      "frage": "Wo wird Parathormon gebildet und was bewirkt es?",
+      "optionen": [
+        "Schilddrüse - senkt Kalzium",
+        "Nebenschilddrüsen - erhöht Kalziumspiegel ('stellt Kalzium im Blut parat')",
+        "Nebenniere - reguliert Blutzucker",
+        "Hypophyse - reguliert Wachstum",
+        "Pankreas - reguliert Insulin"
+      ],
+      "richtig": 1,
+      "erklaerung": "Parathormon (PTH) wird in den Nebenschilddrüsen gebildet. Es 'stellt Kalzium im Blut parat' durch Aktivierung Osteoklasten, Kalziumaufnahme Darm ↑, Kalziumausscheidung Niere ↓.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Hormonsystem",
+        "Nebenschilddrüsen",
+        "Parathormon"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-022-09",
+      "kapitel": "Hormonsystem",
+      "thema": "Nebennierenrinde - Hormone",
+      "seite": 22,
+      "typ": "multiple_choice",
+      "frage": "Welche Hormone werden in der Nebennierenrinde (NNR) produziert?",
+      "optionen": [
+        "Mineralkortikoide (z.B. Aldosteron)",
+        "Glukokortikoide (z.B. Cortisol)",
+        "Androgene (z.B. Testosteron)",
+        "Katecholamine (Adrenalin/Noradrenalin)",
+        "Insulin"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Nebennierenrinde produziert: Mineralkortikoide (Aldosteron - Wasser/Elektrolyt), Glukokortikoide (Cortisol - Stresshormon), Androgene (Testosteron u.a.). Katecholamine sind im NEBENNIERENMARK.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Hormonsystem",
+        "Nebennierenrinde"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-022-10",
+      "kapitel": "Hormonsystem",
+      "thema": "Nebennierenmark - Katecholamine",
+      "seite": 22,
+      "typ": "single_choice",
+      "frage": "Welche Hormone werden im Nebennierenmark gebildet und was bewirken sie?",
+      "optionen": [
+        "Aldosteron - Wasserretention",
+        "Adrenalin und Noradrenalin - Steigerung Herzfrequenz, Blutdruck, Blutzucker, Bronchienerweiterung, Mydriasis",
+        "Insulin - Blutzuckersenkung",
+        "Cortisol - Stressreaktion",
+        "Testosteron - männliche Merkmale"
+      ],
+      "richtig": 1,
+      "erklaerung": "Nebennierenmark produziert Katecholamine (Adrenalin + Noradrenalin): Steigerung Herzfrequenz, Blutdruck, Grundumsatz, Blutzucker, Erweiterung Bronchien, Mydriasis (Pupillenerweiterung), Hemmung Magen-Darm-Peristaltik.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Hormonsystem",
+        "Nebennierenmark",
+        "Adrenalin"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-022-11",
+      "kapitel": "Hormonsystem",
+      "thema": "Cortisol - Wirkung",
+      "seite": 22,
+      "typ": "multiple_choice",
+      "frage": "Welche Wirkungen hat Cortisol?",
+      "optionen": [
+        "Stresshormon",
+        "Erhöhung des Blutzuckers",
+        "Unterdrückung der Immunabwehr",
+        "Tagesrhythmik der Ausschüttung",
+        "Senkung des Blutdrucks",
+        "Knochenaufbau"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Cortisol (Glukokortikoid): Stresshormon, Erhöhung Blutzucker, Unterdrückung Immunabwehr u.v.m. Die Ausschüttung unterliegt einer Tagesrhythmik (morgens am höchsten).",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Hormonsystem",
+        "Cortisol",
+        "Glukokortikoide"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-022-F1",
+      "kapitel": "Hormonsystem",
+      "thema": "ADH und Wasserhaushalt",
+      "seite": 22,
+      "typ": "fallbeispiel",
+      "fallbeschreibung": "Ein Patient hat zu wenig Trinken im Sommer und zeigt Anzeichen einer Dehydration. Was passiert physiologisch?",
+      "frage": "Welche Reaktion erfolgt?",
+      "optionen": [
+        "Mehr Insulin wird ausgeschüttet",
+        "ADH wird vermehrt im HHL freigesetzt → Wasserrückresorption in der Niere wird gesteigert",
+        "Cortisol wird gesenkt",
+        "T3/T4 werden erhöht",
+        "Calcitonin wird erhöht"
+      ],
+      "richtig": 1,
+      "erklaerung": "Bei Dehydration wird ADH (Antidiuretisches Hormon) vom Hypothalamus über den HHL ausgeschüttet → Wasserrückresorption in der Niere wird gesteigert + Vasokonstriktion der Arteriolen → Wasserverlust wird begrenzt.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Hormonsystem",
+        "ADH",
+        "Fallbeispiel"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-023-01",
+      "kapitel": "Hormonsystem",
+      "thema": "Thymus",
+      "seite": 23,
+      "typ": "single_choice",
+      "frage": "Welche Hormone werden im Thymus gebildet und was bewirken sie?",
+      "optionen": [
+        "Insulin - Blutzuckersenkung",
+        "Thymopoietin I und II, Thymosin - Stimulation der Differenzierung von Thymozyten zu T-Lymphozyten",
+        "Adrenalin - Stresshormon",
+        "Östrogene - weibliche Merkmale",
+        "Testosteron - männliche Merkmale"
+      ],
+      "richtig": 1,
+      "erklaerung": "Thymus bildet Thymopoietin I und II sowie Thymosin → Stimulation der Differenzierung von Thymozyten zu T-Lymphozyten (Immunsystem).",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Hormonsystem",
+        "Thymus",
+        "Immunologie"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-023-02",
+      "kapitel": "Hormonsystem",
+      "thema": "Pankreas-Hormone",
+      "seite": 23,
+      "typ": "multiple_choice",
+      "frage": "Welche Hormone produziert der Pankreas?",
+      "optionen": [
+        "Insulin (Blutzuckersenkung)",
+        "Glukagon (Blutzuckererhöhung)",
+        "Somatostatin (Hemmung von STH, TSH, ACTH, Insulin, Glukagon, CCK, Gastrin)",
+        "Cortisol",
+        "Adrenalin"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Pankreas-Hormone: Insulin (Blutzuckersenkung), Glukagon (Blutzuckererhöhung), Somatostatin (Hemmung diverser Hormone wie STH, TSH, ACTH, Insulin, Glukagon, CCK, Gastrin).",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Hormonsystem",
+        "Pankreas",
+        "Insulin",
+        "Glukagon"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-023-03",
+      "kapitel": "Hormonsystem",
+      "thema": "Östrogene",
+      "seite": 23,
+      "typ": "multiple_choice",
+      "frage": "Welche Wirkungen haben Östrogene (z.B. Estradiol)?",
+      "optionen": [
+        "Knochenaufbau, Blutgerinnung, erhöhte Natrium- und Wasserretention",
+        "Wachstum/Prägung weiblicher Sexualorgane und Merkmale",
+        "Aufbau Gebärmutterschleimhaut, Follikelreifung",
+        "Bildung in Ovarien, Plazenta, Hoden, Nebennierenrinde, Fettgewebe, Leber",
+        "Spermienproduktion",
+        "Wachstum Prostata"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      "erklaerung": "Östrogene-Wirkung: Knochenaufbau, Blutgerinnung, Na+/Wasserretention, Wachstum/Prägung weiblicher Sexualorgane, Aufbau Gebärmutterschleimhaut, Follikelreifung. Bei Männern: Wachstum Prostata und Samenleiter. Bildung u.a. in Ovarien, Plazenta, Hoden.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Hormonsystem",
+        "Östrogene",
+        "Keimdrüsen"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-023-04",
+      "kapitel": "Hormonsystem",
+      "thema": "Gestagene (Progesteron)",
+      "seite": 23,
+      "typ": "single_choice",
+      "frage": "Was ist die Hauptfunktion von Progesteron (Gestagen)?",
+      "optionen": [
+        "Senkung des Blutzuckers",
+        "'Schwangerschaftsschutz-Hormon' - Aufbau Gebärmutterschleimhaut",
+        "Erhöhung der Herzfrequenz",
+        "Senkung des Kalziumspiegels",
+        "Wachstum männlicher Sexualorgane"
+      ],
+      "richtig": 1,
+      "erklaerung": "Progesteron ist das 'Schwangerschaftsschutz-Hormon' - es baut die Gebärmutterschleimhaut auf und wird im Gelbkörper, in der Plazenta und Nebennierenrinde gebildet.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Hormonsystem",
+        "Gestagene",
+        "Progesteron"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-023-05",
+      "kapitel": "Hormonsystem",
+      "thema": "Androgene - Testosteron",
+      "seite": 23,
+      "typ": "multiple_choice",
+      "frage": "Welche Wirkungen haben Androgene (v.a. Testosteron)?",
+      "optionen": [
+        "Wachstum/Prägung männlicher Sexualorgane und Merkmale",
+        "Anabole Wirkung auf Muskeln, Knochen, Stoffwechsel, Blutbildung",
+        "Spermatogenese",
+        "Bildung in Hoden (Leydig-Zellen), Nebennierenrinde, Ovar (Theka-Zellen)",
+        "Senkung Blutzucker",
+        "Blutdrucksenkung"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Androgene (Testosteron): Wachstum/Prägung männlicher Merkmale, anabol auf Muskeln/Knochen/Stoffwechsel/Blutbildung, Spermatogenese. Bildung in Hoden (Leydig-Zwischen-Zellen), Nebennierenrinde, Ovar (Theka-Zellen).",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Hormonsystem",
+        "Androgene",
+        "Testosteron"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-023-06",
+      "kapitel": "Hormonsystem",
+      "thema": "hCG - Schwangerschaft",
+      "seite": 23,
+      "typ": "single_choice",
+      "frage": "Welche Funktion hat hCG (humanes Choriongonadotropin)?",
+      "optionen": [
+        "Schwangerschaftshormon - Stimulation des Gelbkörpers zur Progesteron-Produktion bis Plazenta übernimmt",
+        "Senkung des Blutzuckers",
+        "Erhöhung der Herzfrequenz",
+        "Knochenaufbau",
+        "Stresshormon"
+      ],
+      "richtig": 0,
+      "erklaerung": "hCG (humanes Choriongonadotropin) = Schwangerschaftshormon. Funktion: Stimulation des Gelbkörpers zur Progesteron-Produktion in der Schwangerschaft, bis die Plazenta dies übernimmt. Wird im Schwangerschaftstest nachgewiesen.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Hormonsystem",
+        "hCG",
+        "Schwangerschaft"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-023-07",
+      "kapitel": "Hormonsystem",
+      "thema": "Niere - Erythropoetin",
+      "seite": 23,
+      "typ": "single_choice",
+      "frage": "Welche Funktion hat Erythropoetin (aus der Niere)?",
+      "optionen": [
+        "Senkung des Blutdrucks",
+        "Steigerung der Blutbildung im Knochenmark",
+        "Senkung des Blutzuckers",
+        "Stresshormon",
+        "Wasserrückresorption"
+      ],
+      "richtig": 1,
+      "erklaerung": "Erythropoetin (gebildet in der Niere) → Steigerung der Blutbildung (Erythropoese) im Knochenmark. Wird therapeutisch bei renaler Anämie eingesetzt.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Hormonsystem",
+        "Erythropoetin",
+        "Niere"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-023-08",
+      "kapitel": "Hormonsystem",
+      "thema": "Renin - Niere",
+      "seite": 23,
+      "typ": "single_choice",
+      "frage": "Welche Funktion hat Renin?",
+      "optionen": [
+        "Blutdrucksenkung",
+        "Blutdruckerhöhung (siehe RAAS)",
+        "Senkung Kalziumspiegel",
+        "Hemmung Insulin",
+        "Verdauungshormon"
+      ],
+      "richtig": 1,
+      "erklaerung": "Renin wird in der Niere gebildet → Blutdruckerhöhung über das RAAS-System (Renin-Angiotensin-Aldosteron-System). Eigentlich ein hormonähnliches Enzym.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Hormonsystem",
+        "Renin",
+        "RAAS"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-023-09",
+      "kapitel": "Hormonsystem",
+      "thema": "Gastrointestinal-Hormone",
+      "seite": 23,
+      "typ": "multiple_choice",
+      "frage": "Welche Funktionen haben die gastrointestinalen Hormone?",
+      "optionen": [
+        "Gastrin: Pepsinogen und Magensäure ↑, Pankreassaft und Magenmotilität ↑",
+        "Sekretin: Pankreassaft + Galle ↑, Salzsäure- und Gastrinsekretion ↓",
+        "Cholecystokinin (CCK): Pankreasenzyme ↑, Gallenblasenkontraktion ↑",
+        "Insulin",
+        "Adrenalin"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "GI-Hormone: Gastrin (Magensäure↑, Pankreassaft↑), Sekretin (Pankreassaft+Galle↑, Magensäure↓), CCK/Cholecystokinin (Pankreasenzyme↑, Gallenblasenkontraktion↑).",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Hormonsystem",
+        "Gastrointestinal",
+        "Verdauung"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-023-10",
+      "kapitel": "Hormonsystem",
+      "thema": "ANP und BNP - Herz",
+      "seite": 23,
+      "typ": "single_choice",
+      "frage": "Was bewirken ANP und BNP (Herz-Hormone)?",
+      "optionen": [
+        "Blutdruckerhöhung",
+        "Blutdrucksenkung durch Vasodilatation, Förderung der Diurese und Hemmung von ADH, Aldosteron und Renin",
+        "Senkung des Kalziumspiegels",
+        "Aktivierung der Schilddrüse",
+        "Stresshormon"
+      ],
+      "richtig": 1,
+      "erklaerung": "ANP und BNP (vom Herz): Blutdrucksenkung durch Vasodilatation, Förderung Diurese, Hemmung von ADH, Aldosteron und Renin. BNP ist ein wichtiger Laborwert für den Verlauf einer Herzinsuffizienz.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Hormonsystem",
+        "ANP",
+        "BNP",
+        "Herz",
+        "Herzinsuffizienz"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-023-11",
+      "kapitel": "Hormonsystem",
+      "thema": "Gewebshormone",
+      "seite": 23,
+      "typ": "multiple_choice",
+      "frage": "Welche Wirkungen haben die Gewebshormone Histamin und Kinine?",
+      "optionen": [
+        "Histamin: Entzündungs-/Allergiereaktionen, Vasodilatation, erhöhte Gefäßpermeabilität → Schwellung, Ödem, Rötung, Juckreiz, Blutdruckabfall",
+        "Kinine (z.B. Bradykinin): Entzündungsreaktionen, Vasodilatation, erhöhte Gefäßpermeabilität, Blutdruckabfall",
+        "Beide erhöhen den Blutdruck",
+        "Beide senken den Blutzucker",
+        "Beide stimulieren die Schilddrüse"
+      ],
+      "richtig": [
+        0,
+        1
+      ],
+      "erklaerung": "Histamin: bei Entzündungen/Allergien → Vasodilatation, Gefäßpermeabilität↑ → Schwellung, Ödem, Rötung, Juckreiz, Blutdruckabfall. Kinine (Bradykinin): ähnliche Wirkungen, Beteiligung an Entzündungen.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Hormonsystem",
+        "Gewebshormone",
+        "Histamin",
+        "Kinine"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-023-12",
+      "kapitel": "Hormonsystem",
+      "thema": "Prostaglandine und Serotonin",
+      "seite": 23,
+      "typ": "multiple_choice",
+      "frage": "Welche Funktionen haben Prostaglandine und Serotonin?",
+      "optionen": [
+        "Prostaglandine: wichtige Rolle bei Entzündungen, Schmerzen und Fieber",
+        "Serotonin: steuert Schlaf-Wach-Rhythmus, Emotionen, Blutdruck, Darmperistaltik, Körpertemperatur",
+        "Beide bauen Knochen auf",
+        "Beide regulieren den Kalziumhaushalt",
+        "Beide sind Verdauungshormone"
+      ],
+      "richtig": [
+        0,
+        1
+      ],
+      "erklaerung": "Prostaglandine: Entzündungen, Schmerzen, Fieber (deshalb NSAR als COX-Hemmer wirksam). Serotonin: Schlaf-Wach-Rhythmus, Emotionen (Glückshormon), Blutdruck, Darmperistaltik, Körpertemperatur u.a.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Hormonsystem",
+        "Prostaglandine",
+        "Serotonin"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-023-F1",
+      "kapitel": "Hormonsystem",
+      "thema": "BNP als Laborwert",
+      "seite": 23,
+      "typ": "fallbeispiel",
+      "fallbeschreibung": "Bei einem 72-jährigen Patienten mit Atemnot und Beinödemen werden Laborwerte abgenommen. Der Arzt fragt insbesondere den BNP-Wert ab.",
+      "frage": "Wofür wird der BNP-Wert verwendet?",
+      "optionen": [
+        "Diabetes-Diagnostik",
+        "Wichtiger Laborwert für den Verlauf einer Herzinsuffizienz",
+        "Schilddrüsendiagnostik",
+        "Kalziumdiagnostik",
+        "Nierenfunktionsdiagnostik"
+      ],
+      "richtig": 1,
+      "erklaerung": "BNP (Brain Natriuretic Peptide) wird vom Herz bei Belastung freigesetzt und ist ein wichtiger Laborwert für die Diagnose und den Verlauf einer Herzinsuffizienz. Je höher der Wert, desto schwerer die Herzinsuffizienz.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Hormonsystem",
+        "BNP",
+        "Herzinsuffizienz",
+        "Fallbeispiel"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-024-01",
+      "kapitel": "Hormonsystem",
+      "thema": "RAAS - Auslöser",
+      "seite": 24,
+      "typ": "multiple_choice",
+      "frage": "Wann wird das RAAS-System aktiviert?",
+      "optionen": [
+        "Bei Natriummangel",
+        "Bei Blutdruckabfall",
+        "Bei Hypovolämie",
+        "Bei Aktivierung des sympathischen Nervensystems",
+        "Bei Hyperkalzämie"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "RAAS-Aktivierung bei: Natriummangel, Blutdruckabfall, Hypovolämie (verminderter Durchblutung der Nierenkörperchen, Hypotonie), Aktivierung des sympathischen Nervensystems.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Hormonsystem",
+        "RAAS"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-024-02",
+      "kapitel": "Hormonsystem",
+      "thema": "RAAS - Renin",
+      "seite": 24,
+      "typ": "single_choice",
+      "frage": "Wo wird Renin freigesetzt und was bewirkt es?",
+      "optionen": [
+        "In der Leber - hemmt Blutdruck",
+        "Im juxtaglomerulären Apparat der Niere - wandelt Angiotensinogen in Angiotensin I um",
+        "Im Magen - reguliert Verdauung",
+        "Im Pankreas - reguliert Insulin",
+        "In der Lunge - reguliert Atmung"
+      ],
+      "richtig": 1,
+      "erklaerung": "Renin wird im juxtaglomerulären Apparat der Niere freigesetzt. Es wandelt das im Blut zirkulierende Angiotensinogen (aus der Leber) zu Angiotensin I um.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Hormonsystem",
+        "RAAS",
+        "Renin",
+        "Niere"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-024-03",
+      "kapitel": "Hormonsystem",
+      "thema": "RAAS - ACE",
+      "seite": 24,
+      "typ": "single_choice",
+      "frage": "Wo wird das Angiotensin-Converting-Enzym (ACE) gebildet und welche Funktion hat es?",
+      "optionen": [
+        "In der Niere - wandelt Renin um",
+        "In der Lunge - wandelt Angiotensin I in Angiotensin II um",
+        "Im Pankreas - reguliert Insulin",
+        "In der Schilddrüse - reguliert Stoffwechsel",
+        "In der Leber - bildet Glukose"
+      ],
+      "richtig": 1,
+      "erklaerung": "Das Angiotensin-Converting-Enzym (ACE) wird in der LUNGE gebildet. Es wandelt Angiotensin I in Angiotensin II um (deshalb sind ACE-Hemmer Blutdruckmedikamente).",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Hormonsystem",
+        "RAAS",
+        "ACE"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-024-04",
+      "kapitel": "Hormonsystem",
+      "thema": "RAAS - Angiotensin II Wirkung",
+      "seite": 24,
+      "typ": "multiple_choice",
+      "frage": "Welche Wirkungen hat Angiotensin II?",
+      "optionen": [
+        "Freisetzung von Aldosteron aus der Nebennierenrinde → Kaliumausscheidung und Natrium-Rückresorption",
+        "Aktivierung der ADH-Sekretion",
+        "Aktivierung des Sympathikus",
+        "Vasokonstriktion von Gefäßen",
+        "Durstgefühl im Hypothalamus",
+        "Vasodilatation - Blutdrucksenkung"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "erklaerung": "Angiotensin II-Wirkungen (alle führen zu Blutdruckerhöhung): Freisetzung Aldosteron (Kaliumausscheidung↑, Na-Rückresorption↑ → Blutvolumen↑), Aktivierung ADH-Sekretion (Blutvolumen↑), Aktivierung Sympathikus, Vasokonstriktion (peripherer Widerstand↑), Durstgefühl (Trinkmenge↑).",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Hormonsystem",
+        "RAAS",
+        "Angiotensin"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-024-05",
+      "kapitel": "Hormonsystem",
+      "thema": "RAAS - Aldosteron",
+      "seite": 24,
+      "typ": "single_choice",
+      "frage": "Was bewirkt Aldosteron beim RAAS?",
+      "optionen": [
+        "Natriumausscheidung und Kalium-Rückresorption",
+        "Natrium-Rückresorption und Kaliumausscheidung → Wasser folgt dem Natrium → Blutvolumen ↑ → Blutdruck steigt",
+        "Senkung des Blutdrucks",
+        "Hemmung der Wasserretention",
+        "Aktivierung der Schilddrüse"
+      ],
+      "richtig": 1,
+      "erklaerung": "Aldosteron → Natrium-Rückresorption und Kaliumausscheidung. Wasser folgt dem Natrium → Erhöhung Blutvolumen → Blutdruck steigt. (Daher: Spironolacton/Aldosteron-Antagonisten als Blutdrucksenker)",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Hormonsystem",
+        "RAAS",
+        "Aldosteron"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-024-06",
+      "kapitel": "Hormonsystem",
+      "thema": "RAAS - Schritte",
+      "seite": 24,
+      "typ": "single_choice",
+      "frage": "Wie lautet die korrekte Reihenfolge der RAAS-Aktivierung?",
+      "optionen": [
+        "Aldosteron → Renin → Angiotensin I → Angiotensin II",
+        "Renin → Angiotensinogen → Angiotensin I → ACE → Angiotensin II → Aldosteron",
+        "Angiotensin II → Renin → ACE → Aldosteron",
+        "ACE → Renin → Angiotensin I → Aldosteron",
+        "Aldosteron → ACE → Angiotensin → Renin"
+      ],
+      "richtig": 1,
+      "erklaerung": "RAAS-Kaskade: 1. Bei Hypovolämie/Hypotonie/Na-Mangel/Sympathikusaktivierung → Renin-Freisetzung aus Niere. 2. Renin wandelt Angiotensinogen (Leber) zu Angiotensin I um. 3. ACE (Lunge) wandelt Angiotensin I zu Angiotensin II um. 4. Angiotensin II setzt Aldosteron frei + bewirkt Vasokonstriktion, ADH-Sekretion, Sympathikus, Durstgefühl. 5. Aldosteron → Natrium-Rückresorption, Kaliumausscheidung → Blutdruck steigt.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Hormonsystem",
+        "RAAS",
+        "Kaskade"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-024-F1",
+      "kapitel": "Hormonsystem",
+      "thema": "ACE-Hemmer",
+      "seite": 24,
+      "typ": "fallbeispiel",
+      "fallbeschreibung": "Ein 65-jähriger Hypertoniker bekommt vom Arzt einen ACE-Hemmer verschrieben.",
+      "frage": "Wie wirken ACE-Hemmer pharmakologisch?",
+      "optionen": [
+        "Sie aktivieren das RAAS",
+        "Sie hemmen das Angiotensin-Converting-Enzym in der Lunge → Angiotensin I wird nicht zu Angiotensin II umgewandelt → keine Vasokonstriktion, kein Aldosteron → Blutdrucksenkung",
+        "Sie aktivieren Aldosteron",
+        "Sie erhöhen die Reninausschüttung",
+        "Sie wirken nur auf das Herz"
+      ],
+      "richtig": 1,
+      "erklaerung": "ACE-Hemmer hemmen das Angiotensin-Converting-Enzym in der Lunge → Angiotensin I kann nicht zu Angiotensin II umgewandelt werden → keine Vasokonstriktion + keine Aldosteron-Freisetzung → Blutdrucksenkung. Beispiele: Ramipril, Enalapril.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Hormonsystem",
+        "RAAS",
+        "ACE-Hemmer",
+        "Fallbeispiel"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-025-01",
+      "kapitel": "Endokrinologie",
+      "thema": "Schilddrüse - Anatomie",
+      "seite": 25,
+      "typ": "single_choice",
+      "frage": "Wie ist die Schilddrüse anatomisch geformt?",
+      "optionen": [
+        "Birnenförmig hinter dem Magen",
+        "Schmetterlingsförmig vor der Luftröhre, unterhalb des Schildknorpels",
+        "Kugelförmig im Bauchraum",
+        "Stabförmig im Hals",
+        "Dreieckig im Schädel"
+      ],
+      "richtig": 1,
+      "erklaerung": "Die Schilddrüse liegt schmetterlingsförmig vor der Luftröhre, unterhalb des Schildknorpels. Die rechten und linken Schilddrüsenlappen sind durch einen Isthmus in Höhe des 2.-4. Trachealrings verbunden.",
+      "schwierigkeit": "leicht",
+      "tags": [
+        "Endokrinologie",
+        "Schilddrüse",
+        "Anatomie"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-025-02",
+      "kapitel": "Endokrinologie",
+      "thema": "Schilddrüse - Größe",
+      "seite": 25,
+      "typ": "single_choice",
+      "frage": "Wie groß ist die Schilddrüse normalerweise?",
+      "optionen": [
+        "Gewicht 5-10 g; Volumen 50 ml",
+        "Gewicht 20-60 g; Volumen Männer ≤ 25 ml, Frauen ≤ 18 ml",
+        "Gewicht 100-200 g; Volumen 100 ml",
+        "Gewicht 500 g; Volumen 200 ml",
+        "Gewicht 1 kg; Volumen 500 ml"
+      ],
+      "richtig": 1,
+      "erklaerung": "Normalwerte Schilddrüse: Gewicht 20-60 g, Volumen Männer ≤ 25 ml, Frauen ≤ 18 ml.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Endokrinologie",
+        "Schilddrüse",
+        "Anatomie",
+        "Normwerte"
+      ],
+      "pruefungsrelevanz": "mittel"
+    },
+    {
+      "id": "STW-025-03",
+      "kapitel": "Endokrinologie",
+      "thema": "Schilddrüse - Hormone",
+      "seite": 25,
+      "typ": "multiple_choice",
+      "frage": "Welche Hormone produziert die Schilddrüse?",
+      "optionen": [
+        "T3 (Triiodthyronin, enthält 3 Iod-Atome)",
+        "T4 (Thyroxin, enthält 4 Iod-Atome)",
+        "Calcitonin (Bildung in C-Zellen, bei hohen Kalziumwerten ausgeschüttet)",
+        "Parathormon",
+        "Insulin"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Schilddrüsenhormone: T3 (Triiodthyronin, 3 Iod-Atome), T4 (Thyroxin, 4 Iod-Atome), Calcitonin (C-Zellen, bei hohen Ca-Werten). Parathormon ist von Nebenschilddrüsen, Insulin von Pankreas.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Endokrinologie",
+        "Schilddrüse",
+        "T3",
+        "T4",
+        "Calcitonin"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-025-04",
+      "kapitel": "Endokrinologie",
+      "thema": "Schilddrüse - Regulation",
+      "seite": 25,
+      "typ": "single_choice",
+      "frage": "Wie funktioniert die Regulation der Schilddrüse?",
+      "optionen": [
+        "Direkt durch Insulin",
+        "Negative Rückkopplung: Bei hohen T3/T4-Spiegeln schüttet die Hypophyse weniger TSH aus, bei niedrigen mehr TSH",
+        "Nur über das Nervensystem",
+        "Direkt über die Nieren",
+        "Über Aldosteron"
+      ],
+      "richtig": 1,
+      "erklaerung": "Schilddrüsenregelkreis: Negative Rückkopplung über TSH. Bei hohen T3/T4-Spiegeln im Blut → weniger TSH aus Hypophyse. Bei niedrigen Werten → vermehrt TSH-Ausschüttung. TSH stimuliert dann die Schilddrüse zur T3/T4-Bildung.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Endokrinologie",
+        "Schilddrüse",
+        "TSH",
+        "Regulation"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-025-05",
+      "kapitel": "Endokrinologie",
+      "thema": "Euthyreose",
+      "seite": 25,
+      "typ": "single_choice",
+      "frage": "Was bedeutet 'Euthyreose'?",
+      "optionen": [
+        "Schilddrüsenüberfunktion",
+        "Die Schilddrüsenfunktion ist normal, gemessen an den Blutwerten T3 und T4",
+        "Schilddrüsenunterfunktion",
+        "Schilddrüsenkrebs",
+        "Komplettes Fehlen der Schilddrüse"
+      ],
+      "richtig": 1,
+      "erklaerung": "Euthyreose = Die Schilddrüsenfunktion ist, gemessen an den Blutwerten T3 und T4, normal. Es treten keine Beschwerden auf, jedoch kann das Schilddrüsengewebe verändert oder eine Struma vorhanden sein.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Endokrinologie",
+        "Schilddrüse",
+        "Euthyreose"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-025-06",
+      "kapitel": "Endokrinologie",
+      "thema": "Hypothyreose - Definition",
+      "seite": 25,
+      "typ": "single_choice",
+      "frage": "Was ist eine Hypothyreose?",
+      "optionen": [
+        "Überfunktion der Schilddrüse",
+        "Unterfunktion der Schilddrüse mit Mangel an T3/T4",
+        "Vergrößerung der Schilddrüse ohne Funktionsstörung",
+        "Entzündung der Schilddrüse",
+        "Schilddrüsenkrebs"
+      ],
+      "richtig": 1,
+      "erklaerung": "Hypothyreose = Schilddrüsenunterfunktion mit Mangel an T3/T4. Der gesamte Stoffwechsel verlangsamt sich.",
+      "schwierigkeit": "leicht",
+      "tags": [
+        "Endokrinologie",
+        "Hypothyreose",
+        "Definition"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-025-07",
+      "kapitel": "Endokrinologie",
+      "thema": "Hypothyreose - Formen",
+      "seite": 25,
+      "typ": "multiple_choice",
+      "frage": "Welche Formen der Hypothyreose gibt es?",
+      "optionen": [
+        "Primäre Hypothyreose: Erkrankung/Störung der Schilddrüse → T3/T4-Mangel",
+        "Sekundäre Hypothyreose: Erkrankung/Störung der Hypophyse → TSH-Mangel → T3/T4-Mangel",
+        "Tertiäre Hypothyreose: Erkrankung/Störung des Hypothalamus → TRH-Mangel → TSH-Mangel → T3/T4-Mangel",
+        "Quartäre Hypothyreose: Erkrankung der Nebenniere",
+        "Quintäre Hypothyreose: Erkrankung des Pankreas"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "3 Hypothyreose-Formen: Primär (Schilddrüse selbst gestört → T3/T4↓), Sekundär (Hypophyse → TSH↓ → T3/T4↓), Tertiär (Hypothalamus → TRH↓ → TSH↓ → T3/T4↓).",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Endokrinologie",
+        "Hypothyreose",
+        "Formen"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-025-08",
+      "kapitel": "Endokrinologie",
+      "thema": "Angeborene Hypothyreose",
+      "seite": 25,
+      "typ": "single_choice",
+      "frage": "Wie häufig ist die angeborene Hypothyreose?",
+      "optionen": [
+        "1:100 Neugeborene",
+        "1:1.000 Neugeborene",
+        "1:5.000 Neugeborene",
+        "1:50.000 Neugeborene",
+        "1:1.000.000 Neugeborene"
+      ],
+      "richtig": 2,
+      "erklaerung": "Angeborene Hypothyreose: Häufigkeit 1:5.000 Neugeborene. Möglich durch komplettes Fehlen (Athyreose) oder Fehlbildungen der Schilddrüse.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Endokrinologie",
+        "Hypothyreose",
+        "Angeboren"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-025-09",
+      "kapitel": "Endokrinologie",
+      "thema": "Angeborene Hypothyreose - Diagnostik",
+      "seite": 25,
+      "typ": "single_choice",
+      "frage": "Wie wird die angeborene Hypothyreose diagnostiziert?",
+      "optionen": [
+        "Ultraschall der Schilddrüse beim Neugeborenen",
+        "Beim Neugeborenen-Screening erfolgt die TSH-Bestimmung aus dem Fersenblut",
+        "Röntgen des Halses",
+        "EKG",
+        "Bluttest auf T3/T4 erst im 1. Lebensjahr"
+      ],
+      "richtig": 1,
+      "erklaerung": "Diagnose: Beim Neugeborenen-Screening erfolgt die TSH-Bestimmung aus dem Fersenblut. Frühzeitige Diagnose ist wichtig, um Kretinismus zu verhindern.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Endokrinologie",
+        "Hypothyreose",
+        "Screening",
+        "Neugeborene"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-025-10",
+      "kapitel": "Endokrinologie",
+      "thema": "Angeborene Hypothyreose - Klinik",
+      "seite": 25,
+      "typ": "multiple_choice",
+      "frage": "Welche erste Anzeichen treten bei der angeborenen Hypothyreose nach der Geburt auf?",
+      "optionen": [
+        "Trinkschwäche/Trinkfaulheit",
+        "Bewegungsarmut",
+        "Ikterus neonatorum",
+        "Obstipation",
+        "Evtl. abgeschwächte Eigenreflexe",
+        "Hyperaktivität"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "erklaerung": "Erste Anzeichen nach Geburt: Trinkschwäche/Trinkfaulheit, Bewegungsarmut, Ikterus neonatorum, Obstipation, evtl. abgeschwächte Eigenreflexe.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Endokrinologie",
+        "Hypothyreose",
+        "Neugeborene",
+        "Klinik"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-025-11",
+      "kapitel": "Endokrinologie",
+      "thema": "Kretinismus",
+      "seite": 25,
+      "typ": "single_choice",
+      "frage": "Was ist Kretinismus?",
+      "optionen": [
+        "Eine Form der Akromegalie",
+        "Vollbild der angeborenen Hypothyreose mit Wachstums- und Entwicklungsrückstand, geistiger Retardierung",
+        "Schilddrüsenkrebs bei Kindern",
+        "Eine Form der Hyperthyreose",
+        "Diabetes bei Neugeborenen"
+      ],
+      "richtig": 1,
+      "erklaerung": "Kretinismus = Vollbild der angeborenen Hypothyreose: Wachstumsrückstand/Minderwuchs, Entwicklungsrückstand, geistige und psychische Retardierung, erniedrigte Intelligenz, Schwerhörigkeit, Sprachstörungen. HEUTE durch Neugeborenenscreening und Hormonsubstitution selten geworden!",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Endokrinologie",
+        "Hypothyreose",
+        "Kretinismus"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-025-12",
+      "kapitel": "Endokrinologie",
+      "thema": "Hypothyreose - Therapie",
+      "seite": 25,
+      "typ": "single_choice",
+      "frage": "Wie wird die angeborene Hypothyreose behandelt?",
+      "optionen": [
+        "Operative Entfernung der Schilddrüse",
+        "Lebenslange Substitution von Schilddrüsenhormonen, z.B. L-Thyroxin, Euthyrox",
+        "Antibiotika",
+        "Steroide",
+        "Insulin"
+      ],
+      "richtig": 1,
+      "erklaerung": "Therapie: Lebenslange Substitution von Schilddrüsenhormonen, z.B. L-Thyroxin, Euthyrox. Kleinwuchs lässt sich durch T4-Substitution noch beeinflussen, Hirnschäden sind jedoch irreversibel.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Endokrinologie",
+        "Hypothyreose",
+        "Therapie",
+        "L-Thyroxin"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-026-01",
+      "kapitel": "Endokrinologie",
+      "thema": "Erworbene Hypothyreose - Ätiologie",
+      "seite": 26,
+      "typ": "multiple_choice",
+      "frage": "Welche Ursachen kann eine primäre erworbene Hypothyreose haben?",
+      "optionen": [
+        "Autoimmunprozesse: z.B. Hashimoto-Thyreoiditis (häufigste Ursache)",
+        "Massiver Jodmangel oder Selenmangel",
+        "Schilddrüsenoperationen, Radiojodbehandlung, Röntgenstrahlen",
+        "Medikamente: z.B. Thyreostatika, Lithium",
+        "Hyperthyreose",
+        "Diabetes"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Erworbene primäre Hypothyreose-Ursachen: Autoimmunprozesse (Hashimoto-Thyreoiditis = häufigste Ursache!), Jod-/Selenmangel, Schilddrüsen-OPs/Radiojod/Röntgen, Medikamente (Thyreostatika, Lithium).",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Endokrinologie",
+        "Hypothyreose",
+        "Hashimoto"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-026-02",
+      "kapitel": "Endokrinologie",
+      "thema": "Hashimoto-Thyreoiditis",
+      "seite": 26,
+      "typ": "single_choice",
+      "frage": "Was ist die Hashimoto-Thyreoiditis?",
+      "optionen": [
+        "Eine bakterielle Infektion der Schilddrüse",
+        "Eine Autoimmunerkrankung mit chronischer Entzündung der Schilddrüse",
+        "Ein gutartiger Tumor",
+        "Eine Vergrößerung durch Jodmangel",
+        "Eine genetische Form des Diabetes"
+      ],
+      "richtig": 1,
+      "erklaerung": "Hashimoto-Thyreoiditis ist eine Autoimmunerkrankung mit chronischer Entzündung der Schilddrüse. Häufigste Ursache der Hypothyreose. Zu Beginn manchmal Hyperthyreose, später durch Schädigung des Schilddrüsengewebes Übergang in Hypothyreose.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Endokrinologie",
+        "Hashimoto",
+        "Autoimmun"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-026-03",
+      "kapitel": "Endokrinologie",
+      "thema": "Hypothyreose - Klinik",
+      "seite": 26,
+      "typ": "multiple_choice",
+      "frage": "Welche klinischen Symptome treten bei erworbener Hypothyreose auf?",
+      "optionen": [
+        "Antriebsarmut, Müdigkeit, Desinteresse",
+        "Gewichtszunahme",
+        "Obstipation",
+        "Trockene schuppende Haut, teigig, blass",
+        "Sprödes trockenes Haar, brüchige Nägel",
+        "Kälteempfindlichkeit, ständiges Frieren",
+        "Generalisiertes Myxödem (nicht eindrückbar)",
+        "Bradykardie, Hypotonie, Herzrhythmusstörungen",
+        "Hyperaktivität, Schwitzen"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "erklaerung": "Hypothyreose-Klinik: Verlangsamung des gesamten Stoffwechsels! Antriebsarmut, Müdigkeit, Gewichtszunahme, Obstipation, trockene Haut, sprödes Haar, raue heisere Stimme, evtl. Struma/Kloßgefühl, Kälteempfindlichkeit, generalisiertes Myxödem (nicht eindrückbar), Bradykardie/Hypotonie, Menstruationsbeschwerden. Hyperaktivität/Schwitzen = HYPERthyreose.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Endokrinologie",
+        "Hypothyreose",
+        "Klinik"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-026-04",
+      "kapitel": "Endokrinologie",
+      "thema": "Myxödem-Koma",
+      "seite": 26,
+      "typ": "single_choice",
+      "frage": "Was ist das Myxödem-Koma?",
+      "optionen": [
+        "Eine harmlose Schwellung",
+        "Notfall - Komplikation der Hypothyreose, ausgelöst durch Infekte, Kälte, Stress oder Sedativa",
+        "Eine Form der Hyperthyreose",
+        "Schilddrüsenkrebs",
+        "Diabetisches Koma"
+      ],
+      "richtig": 1,
+      "erklaerung": "Myxödem-Koma (hypothyreotes Koma) = NOTFALL! Kann bei bestehender Hypothyreose durch Infekte, Kälte, Stress oder Sedativa ausgelöst werden. Symptome: Hypothermie (rektale Temperatur oft nicht mehr messbar), Bradykardie, Hypotonie, Hypoventilation, Elektrolytentgleisungen, Hypoxie/Hyperkapnie, Bewusstseinsveränderungen, Koma. Hohe Letalität!",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Endokrinologie",
+        "Hypothyreose",
+        "Myxödem-Koma",
+        "Notfall"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-026-05",
+      "kapitel": "Endokrinologie",
+      "thema": "Hypothyreose - Therapie",
+      "seite": 26,
+      "typ": "multiple_choice",
+      "frage": "Wie wird die erworbene Hypothyreose behandelt?",
+      "optionen": [
+        "Behandlung der Ursache",
+        "Substitution von Schilddrüsenhormonen, v.a. L-Thyroxin (Levothyroxin)",
+        "Myxödem-Koma: Notfallmaßnahmen, Volumengabe → intensivmedizinische Behandlung",
+        "Operative Entfernung",
+        "Steroide"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Hypothyreose-Therapie: Ursachenbehandlung, Substitution von Schilddrüsenhormonen (v.a. L-Thyroxin/Levothyroxin), bei Myxödem-Koma: Notfallmaßnahmen, Volumengabe, intensivmedizinische Behandlung.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Endokrinologie",
+        "Hypothyreose",
+        "Therapie",
+        "L-Thyroxin"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-026-06",
+      "kapitel": "Endokrinologie",
+      "thema": "Jod-Tagesbedarf",
+      "seite": 26,
+      "typ": "multiple_choice",
+      "frage": "Wie hoch ist der Jod-Tagesbedarf nach DGE (Stand 2025)?",
+      "optionen": [
+        "Erwachsene: 150 µg/Tag",
+        "Kinder: 80-200 µg/Tag (je nach Alter)",
+        "Schwangere: 220 µg/Tag",
+        "Stillende: 230 µg/Tag",
+        "Erwachsene: 50 µg/Tag",
+        "Schwangere: 100 µg/Tag"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Jod-Tagesbedarf (DGE 2025): Erwachsene 150 µg/Tag, Kinder 80-200 µg/Tag, Schwangere 220 µg/Tag, Stillende 230 µg/Tag.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Endokrinologie",
+        "Jod",
+        "Tagesbedarf"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-026-07",
+      "kapitel": "Endokrinologie",
+      "thema": "Jodquellen",
+      "seite": 26,
+      "typ": "multiple_choice",
+      "frage": "Welche Lebensmittel sind reich an Jod?",
+      "optionen": [
+        "Seefisch",
+        "Meeresfrüchte",
+        "Algen",
+        "Jodiertes Speisesalz",
+        "Evtl. Milch und Eier (abhängig vom Jodgehalt des Viehfutters)",
+        "Zucker"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "erklaerung": "Jodquellen: Seefisch, Meeresfrüchte, Algen, jodiertes Speisesalz zum Kochen, evtl. Milch und Eier (abhängig vom Jodgehalt des Viehfutters).",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Endokrinologie",
+        "Jod",
+        "Ernährung"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-026-08",
+      "kapitel": "Endokrinologie",
+      "thema": "Hypothyreose - Komplikationen",
+      "seite": 26,
+      "typ": "multiple_choice",
+      "frage": "Welche Komplikationen können bei Hypothyreose auftreten?",
+      "optionen": [
+        "Myxödem-Koma (Notfall!)",
+        "Infertilität, erhöhtes Abortrisiko",
+        "Erhöhtes Arterioskleroserisiko durch Hypercholesterinämie → erhöhtes KHK- und AVK-Risiko",
+        "Diabetes mellitus",
+        "Akromegalie"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Hypothyreose-Komplikationen: Myxödem-Koma (Notfall), Infertilität/Abortrisiko erhöht, erhöhtes Arterioskleroserisiko durch Hypercholesterinämie → erhöhtes KHK/AVK-Risiko.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Endokrinologie",
+        "Hypothyreose",
+        "Komplikationen"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-026-09",
+      "kapitel": "Endokrinologie",
+      "thema": "Hypothyreose - Diagnostik primär",
+      "seite": 26,
+      "typ": "single_choice",
+      "frage": "Welche Laborwerte zeigen eine primäre Hypothyreose?",
+      "optionen": [
+        "fT3 und fT4 ↑, TSH ↓",
+        "fT3 und fT4 ↓, TSH ↑, TRH-Test überschießend positiv",
+        "Alle Werte normal",
+        "fT3 normal, fT4 ↑",
+        "TSH ↑, fT3/fT4 normal"
+      ],
+      "richtig": 1,
+      "erklaerung": "Primäre Hypothyreose: fT3 und fT4 erniedrigt (↓), TSH erhöht (↑) (kompensatorisch), TRH-Test überschießend positiv.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Endokrinologie",
+        "Hypothyreose",
+        "Labor",
+        "Diagnostik"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-026-10",
+      "kapitel": "Endokrinologie",
+      "thema": "Hypothyreose - Diagnostik sekundär/tertiär",
+      "seite": 26,
+      "typ": "multiple_choice",
+      "frage": "Wie unterscheiden sich sekundäre und tertiäre Hypothyreose im Labor?",
+      "optionen": [
+        "Sekundäre Hypothyreose: fT3, fT4 und TSH ↓ - nach TRH-Gabe kein Anstieg von TSH (Hypophyse kann kein TSH produzieren)",
+        "Tertiäre Hypothyreose: fT3, fT4, TSH und TRH ↓",
+        "Bei beiden alles ↑",
+        "Bei beiden alles normal",
+        "Bei sekundärer alles ↑"
+      ],
+      "richtig": [
+        0,
+        1
+      ],
+      "erklaerung": "Sekundäre Hypothyreose (Hypophyse): fT3, fT4, TSH alle ↓. Nach TRH-Gabe kein TSH-Anstieg. Tertiäre Hypothyreose (Hypothalamus): fT3, fT4, TSH und TRH alle ↓.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Endokrinologie",
+        "Hypothyreose",
+        "Diagnostik"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-026-11",
+      "kapitel": "Endokrinologie",
+      "thema": "Hashimoto - Antikörper",
+      "seite": 26,
+      "typ": "multiple_choice",
+      "frage": "Welche Antikörper sind bei der Hashimoto-Thyreoiditis nachweisbar?",
+      "optionen": [
+        "TPO-AK (Thyreoid-Peroxidase-Antikörper)",
+        "TG-AK (Thyreoglobulin-Antikörper, TAK)",
+        "TSH-Rezeptor-AK",
+        "ANA",
+        "Rheumafaktor"
+      ],
+      "richtig": [
+        0,
+        1
+      ],
+      "erklaerung": "Hashimoto-Thyreoiditis-Antikörper: TPO-AK (Thyreoid-Peroxidase-AK) und TG-AK (Thyreoglobulin-AK, TAK). TSH-Rezeptor-AK sind bei Morbus Basedow (Hyperthyreose).",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Endokrinologie",
+        "Hashimoto",
+        "Antikörper"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-026-F1",
+      "kapitel": "Endokrinologie",
+      "thema": "Hypothyreose - Klinikbild",
+      "seite": 26,
+      "typ": "fallbeispiel",
+      "fallbeschreibung": "Eine 45-jährige Patientin kommt mit Müdigkeit, Gewichtszunahme (10 kg in 6 Monaten), trockener Haut, Kälteempfindlichkeit, Obstipation und Haarausfall in die Praxis. Labor: TSH stark erhöht, fT3 und fT4 erniedrigt. Antikörper-Test: TPO-AK und TG-AK positiv.",
+      "frage": "Welche Diagnose ist am wahrscheinlichsten?",
+      "optionen": [
+        "Hyperthyreose",
+        "Primäre Hypothyreose durch Hashimoto-Thyreoiditis",
+        "Diabetes mellitus Typ 2",
+        "Cushing-Syndrom",
+        "Sekundäre Hypothyreose"
+      ],
+      "richtig": 1,
+      "erklaerung": "Klassisches Bild der primären Hypothyreose durch Hashimoto-Thyreoiditis: typische Symptome (Müdigkeit, Gewichtszunahme, Kälteempfindlichkeit, Obstipation, trockene Haut), Labor (TSH ↑, fT3/fT4 ↓) und positive Antikörper (TPO-AK, TG-AK) bestätigen die Diagnose.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Endokrinologie",
+        "Hypothyreose",
+        "Hashimoto",
+        "Fallbeispiel"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-026-F2",
+      "kapitel": "Endokrinologie",
+      "thema": "Myxödem-Koma",
+      "seite": 26,
+      "typ": "fallbeispiel",
+      "fallbeschreibung": "Eine 75-jährige Patientin mit bekannter Hypothyreose wird im Winter mit Bewusstseinsstörung, kaum messbarer Körpertemperatur, Bradykardie (45/min) und Hypotonie eingeliefert. Sie hatte ihre L-Thyroxin-Medikation seit 2 Wochen abgesetzt.",
+      "frage": "Was liegt vor und wie wird behandelt?",
+      "optionen": [
+        "Diabetisches Koma - Insulin geben",
+        "Myxödem-Koma (hypothyreotes Koma) - Notfall! Sofortige Klinikeinweisung, intensivmedizinische Behandlung, Volumengabe, T3/T4-Substitution i.v.",
+        "Schlaganfall - Thrombolyse",
+        "Hyperthyreose-Krise",
+        "Normale Müdigkeit - nach Hause schicken"
+      ],
+      "richtig": 1,
+      "erklaerung": "Myxödem-Koma (hypothyreotes Koma) - NOTFALL! Hohe Letalität! Auslöser: Absetzen der Medikation + Kälte. Klinik: Hypothermie, Bradykardie, Hypotonie, Hypoventilation, Bewusstseinsstörungen. Therapie: Notfallmaßnahmen, Volumengabe, Schilddrüsenhormone i.v., intensivmedizinische Behandlung.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Endokrinologie",
+        "Myxödem-Koma",
+        "Notfall",
+        "Fallbeispiel"
+      ],
+      "pruefungsrelevanz": "hoch"
     }
   ],
   "vokabeln": [
@@ -9745,6 +12053,994 @@
       "herkunft": "deutsch: Schleife (Henle-Schleife) + Diuretika",
       "eselsbruecke": "Schleifen-Diuretika = wirken in der Henle-Schleife der Niere",
       "beispiel": "Schleifendiuretika werden bei Hyperkaliämie eingesetzt.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-237",
+      "kapitel": "Stoffwechsel",
+      "seite": 20,
+      "lateinisch": "Calcium (Ca²⁺)",
+      "deutsch": "Kalzium - häufigster Mineralstoff im Körper",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Biochemie",
+      "herkunft": "lat. calx = Kalk",
+      "eselsbruecke": "Calcium = wie Kalk in Knochen",
+      "beispiel": "99% des Kalziums befindet sich in Knochen und Zähnen.",
+      "schwierigkeit": "leicht"
+    },
+    {
+      "id": "VOK-STW-238",
+      "kapitel": "Stoffwechsel",
+      "seite": 20,
+      "lateinisch": "Calcitriol",
+      "deutsch": "Aktive Form von Vitamin D (Vitamin D3)",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Hormon",
+      "herkunft": "lat. calx = Kalk; tri = drei",
+      "eselsbruecke": "Calci-triol = aktives Vitamin D für Kalziumstoffwechsel",
+      "beispiel": "Calcitriol wird in der Niere aus Calcidiol gebildet.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-239",
+      "kapitel": "Stoffwechsel",
+      "seite": 20,
+      "lateinisch": "Calcidiol",
+      "deutsch": "Vorstufe von Calcitriol (in der Leber gebildet)",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Biochemie",
+      "herkunft": "lat. calx = Kalk",
+      "eselsbruecke": "Calci-diol = Zwischenform in der Leber",
+      "beispiel": "Calcidiol wird in der Leber aus Cholecalciferol gebildet.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-240",
+      "kapitel": "Stoffwechsel",
+      "seite": 20,
+      "lateinisch": "Cholecalciferol",
+      "deutsch": "Vitamin D3 - in der Haut aus Cholesterin gebildet",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Biochemie",
+      "herkunft": "gr. chole = Galle; calx = Kalk",
+      "eselsbruecke": "Chole-calciferol = aus Cholesterin gebildet, dann zu Kalzium-Stoffwechsel",
+      "beispiel": "Cholecalciferol entsteht in der Haut durch UV-Strahlung.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-241",
+      "kapitel": "Stoffwechsel",
+      "seite": 20,
+      "lateinisch": "Osteoklasten",
+      "deutsch": "Knochen-abbauende Zellen",
+      "wortart": "Substantiv (m, pl)",
+      "kategorie": "Anatomie",
+      "herkunft": "gr. osteon = Knochen; klastos = zerbrochen",
+      "eselsbruecke": "Osteo-Klasten = knochen-zerbrechende Zellen (Abbau)",
+      "beispiel": "Parathormon aktiviert Osteoklasten zum Knochenabbau.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-242",
+      "kapitel": "Stoffwechsel",
+      "seite": 20,
+      "lateinisch": "Osteoblasten",
+      "deutsch": "Knochen-aufbauende Zellen",
+      "wortart": "Substantiv (m, pl)",
+      "kategorie": "Anatomie",
+      "herkunft": "gr. osteon = Knochen; blastos = Keim",
+      "eselsbruecke": "Osteo-Blasten = knochen-bildende Zellen (Aufbau)",
+      "beispiel": "Calcitriol stimuliert die Osteoblasten zum Knochenaufbau.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-243",
+      "kapitel": "Stoffwechsel",
+      "seite": 20,
+      "lateinisch": "Parathormon (PTH)",
+      "deutsch": "Hormon der Nebenschilddrüsen, erhöht den Kalziumspiegel",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Hormon",
+      "herkunft": "gr. para = neben; thyros = Schild",
+      "eselsbruecke": "Para-thormon 'stellt Kalzium im Blut parat'",
+      "beispiel": "Bei Hypokalzämie wird Parathormon ausgeschüttet.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-244",
+      "kapitel": "Stoffwechsel",
+      "seite": 20,
+      "lateinisch": "Calcitonin",
+      "deutsch": "Hormon der Schilddrüse, senkt den Kalziumspiegel",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Hormon",
+      "herkunft": "lat. calx = Kalk; gr. tonos = Spannung",
+      "eselsbruecke": "Calci-tonin 'bringt das Calcium in die Knochen'",
+      "beispiel": "Calcitonin ist der Gegenspieler zum Parathormon.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-245",
+      "kapitel": "Stoffwechsel",
+      "seite": 21,
+      "lateinisch": "Hypokalzämie",
+      "deutsch": "Erniedrigtes Kalzium im Blut (< 2,2 mmol/l)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Laborwert",
+      "herkunft": "gr. hypo = unter; calx = Kalk",
+      "eselsbruecke": "Hypo-Kalzämie = ZU WENIG Kalzium im Blut",
+      "beispiel": "Hypokalzämie kann Tetanie und Muskelkrämpfe verursachen.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-246",
+      "kapitel": "Stoffwechsel",
+      "seite": 21,
+      "lateinisch": "Hyperkalzämie",
+      "deutsch": "Erhöhtes Kalzium im Blut (> 2,7 mmol/l)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Laborwert",
+      "herkunft": "gr. hyper = über; calx = Kalk",
+      "eselsbruecke": "Hyper-Kalzämie = ZU VIEL Kalzium im Blut",
+      "beispiel": "Hyperkalzämie zeigt 'Stein-Bein-Magenpein' Symptome.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-247",
+      "kapitel": "Stoffwechsel",
+      "seite": 21,
+      "lateinisch": "Tetanie",
+      "deutsch": "Erhöhte neuromuskuläre Erregbarkeit mit Muskelkrämpfen",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Symptom",
+      "herkunft": "gr. tetanos = Spannung",
+      "eselsbruecke": "Tetanie = totale Anspannung der Muskeln",
+      "beispiel": "Bei Hypokalzämie kann eine Tetanie auftreten.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-248",
+      "kapitel": "Stoffwechsel",
+      "seite": 21,
+      "lateinisch": "Chvostek-Zeichen",
+      "deutsch": "Zucken des Mundwinkels bei Beklopfen der Wange (Hypokalzämie)",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Diagnostik",
+      "herkunft": "nach Franz Chvostek (Arzt)",
+      "eselsbruecke": "Chvostek = Klopfen auf Wange = Mundwinkel zuckt",
+      "beispiel": "Das Chvostek-Zeichen ist positiv bei Hypokalzämie.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-249",
+      "kapitel": "Stoffwechsel",
+      "seite": 21,
+      "lateinisch": "Trousseau-Zeichen",
+      "deutsch": "Pfötchenstellung der Hand bei Blutdruckmanschettenkompression",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Diagnostik",
+      "herkunft": "nach Armand Trousseau (Arzt)",
+      "eselsbruecke": "Trousseau = Manschette pressen = Pfötchenstellung",
+      "beispiel": "Das Trousseau-Zeichen tritt bei Hypokalzämie auf.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-250",
+      "kapitel": "Stoffwechsel",
+      "seite": 21,
+      "lateinisch": "Hypoparathyreoidismus",
+      "deutsch": "Unterfunktion der Nebenschilddrüsen → Kalziummangel",
+      "wortart": "Substantiv (m)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "gr. hypo + para + thyros + -ismus",
+      "eselsbruecke": "Hypo-Para-thyreoidismus = zu wenig Parathormon",
+      "beispiel": "Hypoparathyreoidismus kann nach Schilddrüsen-OP entstehen.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-251",
+      "kapitel": "Stoffwechsel",
+      "seite": 21,
+      "lateinisch": "Hyperparathyreoidismus",
+      "deutsch": "Überfunktion der Nebenschilddrüsen → Kalziumüberschuss",
+      "wortart": "Substantiv (m)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "gr. hyper + para + thyros + -ismus",
+      "eselsbruecke": "Hyper-Para-thyreoidismus = zu viel Parathormon",
+      "beispiel": "Hyperparathyreoidismus führt zu Hyperkalzämie.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-252",
+      "kapitel": "Stoffwechsel",
+      "seite": 21,
+      "lateinisch": "PTHrP",
+      "deutsch": "Parathormon-related Peptide (von Tumoren gebildet)",
+      "wortart": "Abkürzung",
+      "kategorie": "Onkologie",
+      "herkunft": "engl. Parathyroid Hormone-related Peptide",
+      "eselsbruecke": "PTH-rP = wie PTH, aber von Tumoren",
+      "beispiel": "PTHrP kann bei malignen Tumoren eine Hyperkalzämie verursachen.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-253",
+      "kapitel": "Stoffwechsel",
+      "seite": 21,
+      "lateinisch": "Bisphosphonate",
+      "deutsch": "Medikamente, die Osteoklasten hemmen (Knochenabbau ↓)",
+      "wortart": "Substantiv (n, pl)",
+      "kategorie": "Medikament",
+      "herkunft": "gr. bis = zweimal; phosphor",
+      "eselsbruecke": "Bis-Phosphonate hemmen Knochenabbau",
+      "beispiel": "Bisphosphonate werden bei Tumor-Hyperkalzämie eingesetzt.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-254",
+      "kapitel": "Stoffwechsel",
+      "seite": 21,
+      "lateinisch": "Laryngospasmus",
+      "deutsch": "Stimmritzenkrampf (Krampf der Kehlkopfmuskulatur)",
+      "wortart": "Substantiv (m)",
+      "kategorie": "Notfall",
+      "herkunft": "gr. larynx = Kehlkopf; spasmos = Krampf",
+      "eselsbruecke": "Laryngo-Spasmus = Kehlkopf-Krampf",
+      "beispiel": "Laryngospasmus ist eine Komplikation der Hypokalzämie.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-255",
+      "kapitel": "Hormonsystem",
+      "seite": 22,
+      "lateinisch": "Hypothalamus",
+      "deutsch": "Hirnregion, steuert hormonelle und vegetative Funktionen",
+      "wortart": "Substantiv (m)",
+      "kategorie": "Anatomie",
+      "herkunft": "gr. hypo = unter; thalamus = Kammer",
+      "eselsbruecke": "Hypo-Thalamus = unter dem Thalamus",
+      "beispiel": "Der Hypothalamus produziert Releasing- und Inhibiting-Hormone.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-256",
+      "kapitel": "Hormonsystem",
+      "seite": 22,
+      "lateinisch": "Hypophyse",
+      "deutsch": "Hirnanhangsdrüse - zentrale Hormondrüse",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Anatomie",
+      "herkunft": "gr. hypo = unter; phyein = wachsen",
+      "eselsbruecke": "Hypo-Physe = unter dem Gehirn",
+      "beispiel": "Die Hypophyse besteht aus Vorder- und Hinterlappen.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-257",
+      "kapitel": "Hormonsystem",
+      "seite": 22,
+      "lateinisch": "TRH",
+      "deutsch": "Thyreotropin-Releasing-Hormon",
+      "wortart": "Abkürzung",
+      "kategorie": "Hormon",
+      "herkunft": "engl. Thyrotropin-Releasing-Hormone",
+      "eselsbruecke": "TRH stimuliert TSH-Ausschüttung",
+      "beispiel": "TRH ist das Stimulationshormon für die Schilddrüsenachse.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-258",
+      "kapitel": "Hormonsystem",
+      "seite": 22,
+      "lateinisch": "TSH",
+      "deutsch": "Thyreoidea-stimulierendes Hormon (Hypophyse)",
+      "wortart": "Abkürzung",
+      "kategorie": "Hormon",
+      "herkunft": "engl. Thyroid-Stimulating-Hormone",
+      "eselsbruecke": "TSH stimuliert die Schilddrüse zur T3/T4-Produktion",
+      "beispiel": "TSH ist der wichtigste Laborwert zur Schilddrüsendiagnostik.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-259",
+      "kapitel": "Hormonsystem",
+      "seite": 22,
+      "lateinisch": "ACTH",
+      "deutsch": "Adrenocorticotropes Hormon (Hypophyse)",
+      "wortart": "Abkürzung",
+      "kategorie": "Hormon",
+      "herkunft": "engl. Adrenocorticotropic Hormone",
+      "eselsbruecke": "ACTH = Aktivierung der NebennierenRinde",
+      "beispiel": "ACTH stimuliert die Nebennierenrinde zur Cortisol-Produktion.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-260",
+      "kapitel": "Hormonsystem",
+      "seite": 22,
+      "lateinisch": "FSH",
+      "deutsch": "Follikelstimulierendes Hormon",
+      "wortart": "Abkürzung",
+      "kategorie": "Hormon",
+      "herkunft": "engl. Follicle-Stimulating-Hormone",
+      "eselsbruecke": "FSH = Follikel-Stimulierendes Hormon (Ei/Sperma)",
+      "beispiel": "FSH bewirkt Follikelreifung bei Frauen und Spermienproduktion bei Männern.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-261",
+      "kapitel": "Hormonsystem",
+      "seite": 22,
+      "lateinisch": "LH",
+      "deutsch": "Luteinisierendes Hormon (Eisprung, Testosteron)",
+      "wortart": "Abkürzung",
+      "kategorie": "Hormon",
+      "herkunft": "engl. Luteinizing Hormone",
+      "eselsbruecke": "LH = Loslassen (Eisprung) Hormon",
+      "beispiel": "LH löst den Eisprung aus und stimuliert die Testosteronproduktion.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-262",
+      "kapitel": "Hormonsystem",
+      "seite": 22,
+      "lateinisch": "STH",
+      "deutsch": "Somatotropes Hormon (Wachstumshormon)",
+      "wortart": "Abkürzung",
+      "kategorie": "Hormon",
+      "herkunft": "gr. soma = Körper; tropein = wenden",
+      "eselsbruecke": "STH = Somato-Tropes Hormon = Körperwachstum",
+      "beispiel": "STH steuert das Längenwachstum bei Kindern.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-263",
+      "kapitel": "Hormonsystem",
+      "seite": 22,
+      "lateinisch": "Prolaktin",
+      "deutsch": "Hormon der Hypophyse - Milchbildung",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Hormon",
+      "herkunft": "lat. pro = für; lac = Milch",
+      "eselsbruecke": "Pro-Laktin = Pro Milch (Hormon)",
+      "beispiel": "Prolaktin fördert die Milchbildung beim Stillen.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-264",
+      "kapitel": "Hormonsystem",
+      "seite": 22,
+      "lateinisch": "Oxytocin",
+      "deutsch": "Hormon des HHL - Wehen, Milcheinschuss",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Hormon",
+      "herkunft": "gr. okys = schnell; tokos = Geburt",
+      "eselsbruecke": "Oxy-tocin = Beschleunigung der Geburt",
+      "beispiel": "Oxytocin löst Wehen aus und ist wichtig für den Milcheinschuss.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-265",
+      "kapitel": "Hormonsystem",
+      "seite": 22,
+      "lateinisch": "ADH",
+      "deutsch": "Antidiuretisches Hormon (Adiuretin, Vasopressin)",
+      "wortart": "Abkürzung",
+      "kategorie": "Hormon",
+      "herkunft": "engl. Antidiuretic Hormone",
+      "eselsbruecke": "ADH = Anti-Diuretisches Hormon (gegen Wasserausscheidung)",
+      "beispiel": "ADH fördert die Wasserrückresorption in der Niere.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-266",
+      "kapitel": "Hormonsystem",
+      "seite": 22,
+      "lateinisch": "Melatonin",
+      "deutsch": "Hormon der Epiphyse - Tag-/Nachtrhythmus",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Hormon",
+      "herkunft": "gr. melas = schwarz; tonos = Spannung",
+      "eselsbruecke": "Mela-Tonin = Hormon der Dunkelheit (Schlaf)",
+      "beispiel": "Melatonin wird nachts ausgeschüttet und steuert den Schlaf.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-267",
+      "kapitel": "Hormonsystem",
+      "seite": 22,
+      "lateinisch": "Mineralkortikoide",
+      "deutsch": "Hormone der Nebennierenrinde (z.B. Aldosteron)",
+      "wortart": "Substantiv (n, pl)",
+      "kategorie": "Hormon",
+      "herkunft": "lat. mineralis + cortex",
+      "eselsbruecke": "Mineral-Kortikoide regulieren Salze (Mineralien)",
+      "beispiel": "Aldosteron ist das wichtigste Mineralkortikoid.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-268",
+      "kapitel": "Hormonsystem",
+      "seite": 22,
+      "lateinisch": "Glukokortikoide",
+      "deutsch": "Hormone der Nebennierenrinde (z.B. Cortisol)",
+      "wortart": "Substantiv (n, pl)",
+      "kategorie": "Hormon",
+      "herkunft": "gr. glykos = süß; cortex",
+      "eselsbruecke": "Gluko-Kortikoide regulieren Zucker (Glukose)",
+      "beispiel": "Cortisol ist das wichtigste Glukokortikoid.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-269",
+      "kapitel": "Hormonsystem",
+      "seite": 22,
+      "lateinisch": "Katecholamine",
+      "deutsch": "Adrenalin und Noradrenalin (Nebennierenmark)",
+      "wortart": "Substantiv (n, pl)",
+      "kategorie": "Hormon",
+      "herkunft": "katechol + amine",
+      "eselsbruecke": "Katecholamine = Stresshormone aus dem Nebennierenmark",
+      "beispiel": "Katecholamine bewirken die 'Fight-or-Flight'-Reaktion.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-270",
+      "kapitel": "Hormonsystem",
+      "seite": 23,
+      "lateinisch": "Thymopoietin",
+      "deutsch": "Hormon des Thymus - T-Zell-Reifung",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Immunologie",
+      "herkunft": "gr. thymos + poiein = machen",
+      "eselsbruecke": "Thymo-poietin macht T-Zellen im Thymus",
+      "beispiel": "Thymopoietin stimuliert die Differenzierung von T-Lymphozyten.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-271",
+      "kapitel": "Hormonsystem",
+      "seite": 23,
+      "lateinisch": "Glukagon",
+      "deutsch": "Hormon des Pankreas - erhöht Blutzucker",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Hormon",
+      "herkunft": "gr. glykos = süß",
+      "eselsbruecke": "Glukagon = Gegenspieler zu Insulin (Blutzucker ↑)",
+      "beispiel": "Glukagon wird bei niedrigem Blutzucker ausgeschüttet.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-272",
+      "kapitel": "Hormonsystem",
+      "seite": 23,
+      "lateinisch": "Somatostatin",
+      "deutsch": "Hormon des Pankreas - hemmt diverse Hormone",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Hormon",
+      "herkunft": "gr. soma = Körper; stasis = Stillstand",
+      "eselsbruecke": "Somato-statin = Stopp für Körperhormone",
+      "beispiel": "Somatostatin hemmt STH, TSH, ACTH, Insulin und Glukagon.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-273",
+      "kapitel": "Hormonsystem",
+      "seite": 23,
+      "lateinisch": "Östrogene",
+      "deutsch": "Weibliche Sexualhormone (Estradiol, Estron, Estriol)",
+      "wortart": "Substantiv (n, pl)",
+      "kategorie": "Hormon",
+      "herkunft": "gr. oistros = Begierde",
+      "eselsbruecke": "Östro-Gene = weibliche Hormone (für Östrus = Brunst)",
+      "beispiel": "Östrogene werden hauptsächlich in den Ovarien gebildet.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-274",
+      "kapitel": "Hormonsystem",
+      "seite": 23,
+      "lateinisch": "Gestagene",
+      "deutsch": "Schwangerschaftshormone (v.a. Progesteron)",
+      "wortart": "Substantiv (n, pl)",
+      "kategorie": "Hormon",
+      "herkunft": "lat. gestare = tragen",
+      "eselsbruecke": "Gesta-gene = Hormone fürs 'Tragen' (Schwangerschaft)",
+      "beispiel": "Progesteron ist das wichtigste Gestagen - 'Schwangerschaftsschutz-Hormon'.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-275",
+      "kapitel": "Hormonsystem",
+      "seite": 23,
+      "lateinisch": "hCG",
+      "deutsch": "Humanes Choriongonadotropin (Schwangerschaftshormon)",
+      "wortart": "Abkürzung",
+      "kategorie": "Hormon",
+      "herkunft": "human + Chorion + Gonado-Tropin",
+      "eselsbruecke": "hCG = Schwangerschaftshormon (im Schwangerschaftstest)",
+      "beispiel": "hCG ist im Urin von Schwangeren nachweisbar.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-276",
+      "kapitel": "Hormonsystem",
+      "seite": 23,
+      "lateinisch": "Erythropoetin",
+      "deutsch": "Hormon der Niere - Blutbildung",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Hormon",
+      "herkunft": "gr. erythros = rot; poiein = machen",
+      "eselsbruecke": "Erythro-poetin macht rote Blutkörperchen",
+      "beispiel": "Erythropoetin stimuliert die Erythropoese im Knochenmark.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-277",
+      "kapitel": "Hormonsystem",
+      "seite": 23,
+      "lateinisch": "Renin",
+      "deutsch": "Hormonähnliches Enzym der Niere (RAAS)",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Enzym",
+      "herkunft": "lat. ren = Niere",
+      "eselsbruecke": "Renin = von der Niere (ren = Niere)",
+      "beispiel": "Renin startet die RAAS-Kaskade zur Blutdruckerhöhung.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-278",
+      "kapitel": "Hormonsystem",
+      "seite": 23,
+      "lateinisch": "Gastrin",
+      "deutsch": "Hormon des Magens - Magensäureproduktion ↑",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Hormon",
+      "herkunft": "gr. gaster = Magen",
+      "eselsbruecke": "Gastr-in = Magen-Hormon",
+      "beispiel": "Gastrin stimuliert die Salzsäureproduktion im Magen.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-279",
+      "kapitel": "Hormonsystem",
+      "seite": 23,
+      "lateinisch": "Sekretin",
+      "deutsch": "Hormon des Dünndarms - Pankreassaft + Galle ↑",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Hormon",
+      "herkunft": "lat. secretio = Absonderung",
+      "eselsbruecke": "Sekretin sekretiert (Pankreassaft, Galle)",
+      "beispiel": "Sekretin hemmt die Magensäure und fördert Galle/Pankreassaft.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-280",
+      "kapitel": "Hormonsystem",
+      "seite": 23,
+      "lateinisch": "Cholecystokinin (CCK)",
+      "deutsch": "Hormon des Dünndarms - Pankreasenzyme + Gallenkontraktion ↑",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Hormon",
+      "herkunft": "gr. chole = Galle; kystis = Blase; kinein = bewegen",
+      "eselsbruecke": "Chole-cysto-kinin = Galle-Blase-Bewegung",
+      "beispiel": "CCK bewirkt die Kontraktion der Gallenblase nach fettreicher Mahlzeit.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-281",
+      "kapitel": "Hormonsystem",
+      "seite": 23,
+      "lateinisch": "ANP/BNP",
+      "deutsch": "Hormone des Herzens - Blutdrucksenkung",
+      "wortart": "Abkürzung",
+      "kategorie": "Kardiologie",
+      "herkunft": "engl. Atrial/Brain Natriuretic Peptide",
+      "eselsbruecke": "BNP = Wichtiger Wert für Herzinsuffizienz",
+      "beispiel": "BNP wird bei Herzinsuffizienz im Labor bestimmt.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-282",
+      "kapitel": "Hormonsystem",
+      "seite": 23,
+      "lateinisch": "Histamin",
+      "deutsch": "Gewebshormon - Allergie/Entzündung",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Immunologie",
+      "herkunft": "gr. histos = Gewebe",
+      "eselsbruecke": "Hist-amin = Gewebe-Amin (für Allergie/Entzündung)",
+      "beispiel": "Histamin verursacht Juckreiz und Schwellung bei Allergien.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-283",
+      "kapitel": "Hormonsystem",
+      "seite": 23,
+      "lateinisch": "Bradykinin",
+      "deutsch": "Kinin - Vasodilatation, Blutdruckabfall, Entzündung",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Biochemie",
+      "herkunft": "gr. bradys = langsam; kinein = bewegen",
+      "eselsbruecke": "Brady-kinin = langsame Bewegung (verlangsamte Reaktion)",
+      "beispiel": "Bradykinin beteiligt sich an Entzündungsreaktionen.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-284",
+      "kapitel": "Hormonsystem",
+      "seite": 23,
+      "lateinisch": "Prostaglandine",
+      "deutsch": "Gewebshormone - Entzündung, Schmerz, Fieber",
+      "wortart": "Substantiv (n, pl)",
+      "kategorie": "Biochemie",
+      "herkunft": "Prostata + Gland-in",
+      "eselsbruecke": "Prosta-Glandine = bei Entzündung, Schmerz, Fieber",
+      "beispiel": "NSAR hemmen die Bildung von Prostaglandinen.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-285",
+      "kapitel": "Hormonsystem",
+      "seite": 23,
+      "lateinisch": "Serotonin",
+      "deutsch": "Gewebshormon - Schlaf, Emotionen, 'Glückshormon'",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Neurologie",
+      "herkunft": "lat. serum + tonus = Spannung",
+      "eselsbruecke": "Serotonin = das 'Gute-Laune'-Hormon",
+      "beispiel": "Serotonin-Mangel kann zu Depression führen.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-286",
+      "kapitel": "Hormonsystem",
+      "seite": 24,
+      "lateinisch": "RAAS",
+      "deutsch": "Renin-Angiotensin-Aldosteron-System (Blutdruckregulation)",
+      "wortart": "Abkürzung",
+      "kategorie": "Pathophysiologie",
+      "herkunft": "Renin-Angiotensin-Aldosteron-System",
+      "eselsbruecke": "RAAS = Renin Aktiviert Aldosteron-System",
+      "beispiel": "Das RAAS reguliert den Blutdruck und Wasserhaushalt.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-287",
+      "kapitel": "Hormonsystem",
+      "seite": 24,
+      "lateinisch": "Angiotensinogen",
+      "deutsch": "Vorläufer von Angiotensin (gebildet in der Leber)",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Biochemie",
+      "herkunft": "gr. angeion = Gefäß; tonos = Spannung",
+      "eselsbruecke": "Angiotensin-ogen = Vorstufe von Angiotensin",
+      "beispiel": "Renin spaltet Angiotensinogen zu Angiotensin I.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-288",
+      "kapitel": "Hormonsystem",
+      "seite": 24,
+      "lateinisch": "Angiotensin II",
+      "deutsch": "Vasokonstriktor - erhöht Blutdruck",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Hormon",
+      "herkunft": "gr. angeion = Gefäß; tonos = Spannung",
+      "eselsbruecke": "Angio-Tensin II = Gefäßspannung erhöhend",
+      "beispiel": "Angiotensin II ist der stärkste Vasokonstriktor des Körpers.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-289",
+      "kapitel": "Hormonsystem",
+      "seite": 24,
+      "lateinisch": "ACE",
+      "deutsch": "Angiotensin-Converting-Enzym (in der Lunge)",
+      "wortart": "Abkürzung",
+      "kategorie": "Enzym",
+      "herkunft": "engl. Angiotensin-Converting Enzyme",
+      "eselsbruecke": "ACE = wandelt Angiotensin I zu II um",
+      "beispiel": "ACE-Hemmer wie Ramipril senken den Blutdruck.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-290",
+      "kapitel": "Hormonsystem",
+      "seite": 24,
+      "lateinisch": "Aldosteron",
+      "deutsch": "Mineralkortikoid - Na+/K+-Regulation",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Hormon",
+      "herkunft": "lat. ald = Aldehyd; sterol",
+      "eselsbruecke": "Aldo-steron = Natrium-Sparer, Kalium-Ausscheider",
+      "beispiel": "Aldosteron erhöht durch Na+-Retention das Blutvolumen.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-291",
+      "kapitel": "Hormonsystem",
+      "seite": 24,
+      "lateinisch": "Vasokonstriktion",
+      "deutsch": "Verengung der Blutgefäße",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Pathophysiologie",
+      "herkunft": "lat. vas = Gefäß; constrictio = Verengung",
+      "eselsbruecke": "Vaso-Konstriktion = Gefäß-Verengung",
+      "beispiel": "Vasokonstriktion erhöht den peripheren Widerstand und damit den Blutdruck.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-292",
+      "kapitel": "Hormonsystem",
+      "seite": 24,
+      "lateinisch": "Vasodilatation",
+      "deutsch": "Erweiterung der Blutgefäße",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Pathophysiologie",
+      "herkunft": "lat. vas = Gefäß; dilatare = erweitern",
+      "eselsbruecke": "Vaso-Dilatation = Gefäß-Erweiterung",
+      "beispiel": "Vasodilatation senkt den Blutdruck.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-293",
+      "kapitel": "Endokrinologie",
+      "seite": 25,
+      "lateinisch": "Schilddrüse (Glandula thyroidea)",
+      "deutsch": "Schmetterlingsförmige Hormondrüse vor der Luftröhre",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Anatomie",
+      "herkunft": "gr. thyreos = Schild",
+      "eselsbruecke": "Schild-Drüse vor dem Schild-Knorpel",
+      "beispiel": "Die Schilddrüse produziert T3, T4 und Calcitonin.",
+      "schwierigkeit": "leicht"
+    },
+    {
+      "id": "VOK-STW-294",
+      "kapitel": "Endokrinologie",
+      "seite": 25,
+      "lateinisch": "Isthmus",
+      "deutsch": "Verbindungsstück (z.B. zwischen den Schilddrüsenlappen)",
+      "wortart": "Substantiv (m)",
+      "kategorie": "Anatomie",
+      "herkunft": "gr. isthmos = schmale Landverbindung",
+      "eselsbruecke": "Isthmus = schmale Verbindung",
+      "beispiel": "Der Isthmus verbindet die beiden Schilddrüsenlappen.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-295",
+      "kapitel": "Endokrinologie",
+      "seite": 25,
+      "lateinisch": "T3 (Triiodthyronin)",
+      "deutsch": "Schilddrüsenhormon mit 3 Iod-Atomen",
+      "wortart": "Abkürzung",
+      "kategorie": "Hormon",
+      "herkunft": "tri = drei; iod; gr. thyreos = Schild",
+      "eselsbruecke": "T-3 = drei Iod-Atome",
+      "beispiel": "T3 ist die aktivste Form der Schilddrüsenhormone.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-296",
+      "kapitel": "Endokrinologie",
+      "seite": 25,
+      "lateinisch": "T4 (Thyroxin)",
+      "deutsch": "Schilddrüsenhormon mit 4 Iod-Atomen",
+      "wortart": "Abkürzung",
+      "kategorie": "Hormon",
+      "herkunft": "tetra = vier; iod; gr. thyreos = Schild",
+      "eselsbruecke": "T-4 = vier Iod-Atome",
+      "beispiel": "T4 wird im Körper zu T3 umgewandelt.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-297",
+      "kapitel": "Endokrinologie",
+      "seite": 25,
+      "lateinisch": "Euthyreose",
+      "deutsch": "Normale Schilddrüsenfunktion (T3/T4 normal)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Endokrinologie",
+      "herkunft": "gr. eu = gut; thyreos = Schild",
+      "eselsbruecke": "Eu-Thyreose = 'gute' Schilddrüsenfunktion (normal)",
+      "beispiel": "Bei Euthyreose sind die Hormonwerte normal.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-298",
+      "kapitel": "Endokrinologie",
+      "seite": 25,
+      "lateinisch": "Hypothyreose",
+      "deutsch": "Schilddrüsenunterfunktion (T3/T4 ↓)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "gr. hypo = unter; thyreos = Schild",
+      "eselsbruecke": "Hypo-Thyreose = ZU WENIG Schilddrüsenhormon",
+      "beispiel": "Hypothyreose verlangsamt den gesamten Stoffwechsel.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-299",
+      "kapitel": "Endokrinologie",
+      "seite": 25,
+      "lateinisch": "Athyreose",
+      "deutsch": "Komplettes Fehlen der Schilddrüse (angeboren)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "gr. a = ohne; thyreos = Schild",
+      "eselsbruecke": "A-Thyreose = OHNE Schilddrüse",
+      "beispiel": "Athyreose verursacht eine angeborene Hypothyreose.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-300",
+      "kapitel": "Endokrinologie",
+      "seite": 25,
+      "lateinisch": "Struma",
+      "deutsch": "Vergrößerung der Schilddrüse (Kropf)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "lat. struma = geschwollene Drüse",
+      "eselsbruecke": "Struma = sichtbarer 'Kropf' am Hals",
+      "beispiel": "Eine Struma kann durch Jodmangel entstehen.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-301",
+      "kapitel": "Endokrinologie",
+      "seite": 25,
+      "lateinisch": "Kretinismus",
+      "deutsch": "Vollbild der angeborenen Hypothyreose",
+      "wortart": "Substantiv (m)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "frz. cretin = Tor",
+      "eselsbruecke": "Kretinismus = ehemals häufige Folge unerkannter angeborener Hypothyreose",
+      "beispiel": "Durch Neugeborenenscreening ist Kretinismus heute selten geworden.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-302",
+      "kapitel": "Endokrinologie",
+      "seite": 25,
+      "lateinisch": "L-Thyroxin (Levothyroxin)",
+      "deutsch": "Künstlich hergestelltes T4 zur Substitution",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Medikament",
+      "herkunft": "Levo + Thyroxin",
+      "eselsbruecke": "L-Thyroxin = das Schilddrüsenhormon zum Schlucken",
+      "beispiel": "Bei Hypothyreose wird L-Thyroxin lebenslang eingenommen.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-303",
+      "kapitel": "Endokrinologie",
+      "seite": 25,
+      "lateinisch": "Ikterus neonatorum",
+      "deutsch": "Neugeborenen-Gelbsucht",
+      "wortart": "Substantiv (m)",
+      "kategorie": "Pädiatrie",
+      "herkunft": "gr. ikteros = Gelbsucht; neonatorum = Neugeborene",
+      "eselsbruecke": "Ikterus = Gelbfärbung der Haut",
+      "beispiel": "Ein verlängerter Ikterus neonatorum kann auf angeborene Hypothyreose hinweisen.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-304",
+      "kapitel": "Endokrinologie",
+      "seite": 26,
+      "lateinisch": "Hashimoto-Thyreoiditis",
+      "deutsch": "Autoimmunentzündung der Schilddrüse",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "nach H. Hashimoto (japan. Arzt); thyreos + -itis",
+      "eselsbruecke": "Hashimoto = häufigste Ursache der Hypothyreose",
+      "beispiel": "Hashimoto-Thyreoiditis ist die häufigste Ursache der Hypothyreose.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-305",
+      "kapitel": "Endokrinologie",
+      "seite": 26,
+      "lateinisch": "Myxödem",
+      "deutsch": "Teigige, nicht eindrückbare Schwellung (bei Hypothyreose)",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Symptom",
+      "herkunft": "gr. myxa = Schleim; oidema = Schwellung",
+      "eselsbruecke": "Myx-Ödem = schleimige Schwellung",
+      "beispiel": "Das generalisierte Myxödem ist typisch für eine schwere Hypothyreose.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-306",
+      "kapitel": "Endokrinologie",
+      "seite": 26,
+      "lateinisch": "Myxödem-Koma",
+      "deutsch": "Lebensbedrohliche Komplikation der Hypothyreose",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Notfall",
+      "herkunft": "Myxödem + Koma",
+      "eselsbruecke": "Myxödem-Koma = NOTFALL bei schwerer Hypothyreose",
+      "beispiel": "Das Myxödem-Koma hat eine hohe Letalität.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-307",
+      "kapitel": "Endokrinologie",
+      "seite": 26,
+      "lateinisch": "TPO-AK",
+      "deutsch": "Thyreoid-Peroxidase-Antikörper (bei Hashimoto)",
+      "wortart": "Abkürzung",
+      "kategorie": "Diagnostik",
+      "herkunft": "Thyroid-Peroxidase-AK",
+      "eselsbruecke": "TPO-AK = Antikörper gegen Schilddrüsen-Enzym",
+      "beispiel": "TPO-AK sind bei Hashimoto-Thyreoiditis positiv.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-308",
+      "kapitel": "Endokrinologie",
+      "seite": 26,
+      "lateinisch": "TG-AK (TAK)",
+      "deutsch": "Thyreoglobulin-Antikörper",
+      "wortart": "Abkürzung",
+      "kategorie": "Diagnostik",
+      "herkunft": "Thyroglobulin-AK",
+      "eselsbruecke": "TG-AK = Antikörper gegen Schilddrüsen-Eiweiß",
+      "beispiel": "TG-AK werden bei Hashimoto-Thyreoiditis bestimmt.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-309",
+      "kapitel": "Endokrinologie",
+      "seite": 26,
+      "lateinisch": "Hypothermie",
+      "deutsch": "Unterkühlung (Körpertemperatur erniedrigt)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Notfall",
+      "herkunft": "gr. hypo = unter; thermos = warm",
+      "eselsbruecke": "Hypo-Thermie = ZU NIEDRIGE Temperatur",
+      "beispiel": "Hypothermie ist ein Leitsymptom des Myxödem-Komas.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-310",
+      "kapitel": "Endokrinologie",
+      "seite": 26,
+      "lateinisch": "Hypoventilation",
+      "deutsch": "Verminderte Atmung",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Symptom",
+      "herkunft": "gr. hypo = unter; lat. ventilare = belüften",
+      "eselsbruecke": "Hypo-Ventilation = ZU WENIG Atmung",
+      "beispiel": "Hypoventilation führt zu Hypoxie und Hyperkapnie.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-311",
+      "kapitel": "Endokrinologie",
+      "seite": 26,
+      "lateinisch": "Letalität",
+      "deutsch": "Tödlichkeit einer Erkrankung",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Allgemein",
+      "herkunft": "lat. letalis = tödlich",
+      "eselsbruecke": "Letalität = wie tödlich eine Krankheit ist",
+      "beispiel": "Das Myxödem-Koma hat eine hohe Letalität.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-312",
+      "kapitel": "Endokrinologie",
+      "seite": 26,
+      "lateinisch": "Glykosaminoglykane",
+      "deutsch": "Komplexe Kohlenhydrate (lagern sich bei Myxödem ein)",
+      "wortart": "Substantiv (n, pl)",
+      "kategorie": "Biochemie",
+      "herkunft": "Zucker-Amino-Glykane",
+      "eselsbruecke": "Glykos-Amino-Glykane = Zucker-Amino-Verbindungen",
+      "beispiel": "Bei Hypothyreose lagern sich Glykosaminoglykane in der Haut ein → Myxödem.",
       "schwierigkeit": "schwer"
     }
   ]
