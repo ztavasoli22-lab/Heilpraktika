@@ -3,8 +3,8 @@
 // ================================================
 
 // 📌 VERSIONS-INFO
-const APP_VERSION = "5.5";
-const APP_DATUM = "2026-06-13";
+const APP_VERSION = "5.6";
+const APP_DATUM = "2026-07-05";
 
 let fragenkatalog = [];
 let vokabeln = [];

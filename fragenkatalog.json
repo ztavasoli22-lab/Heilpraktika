@@ -1,7 +1,7 @@
 {
-  "version": "5.1",
-  "erstellt_am": "2026-06-13",
-  "beschreibung": "Fragenkatalog + Vokabeltrainer Heilpraktikerprüfung - Seite 3-26 (Stoffwechsel + Hormonsystem: Met. Syndrom, Diabetes, Adipositas, Gicht, Fettstoffwechsel, Mukoviszidose, Kalium, Kalzium, Hormonübersicht, RAAS, Schilddrüse, Hypothyreose)",
+  "version": "5.2",
+  "erstellt_am": "2026-07-05",
+  "beschreibung": "Fragenkatalog + Vokabeltrainer Heilpraktikerprüfung - Seite 3-31 (Stoffwechsel + Hormonsystem + Endokrinologie: Met. Syndrom, Diabetes, Fettstoffwechsel, Mukoviszidose, Kalium, Kalzium, Hormonübersicht, RAAS, Schilddrüse, Hypo-/Hyperthyreose, Schilddrüsenkarzinom, Hyperparathyreoidismus, Addison, Cushing)",
   "fragenkatalog": [
     {
       "id": "STW-003-01",
@@ -8984,6 +8984,1472 @@
         "Fallbeispiel"
       ],
       "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-027-01",
+      "kapitel": "Endokrinologie",
+      "thema": "Hyperthyreose - Definition",
+      "seite": 27,
+      "typ": "single_choice",
+      "frage": "Was ist eine Hyperthyreose?",
+      "optionen": [
+        "Schilddrüsenunterfunktion",
+        "Schilddrüsenüberfunktion mit Überschuss an T3/T4",
+        "Vergrößerung der Schilddrüse ohne Funktionsstörung",
+        "Entzündung der Nebenschilddrüsen",
+        "Kalziummangel"
+      ],
+      "richtig": 1,
+      "erklaerung": "Hyperthyreose = Schilddrüsenüberfunktion mit Überschuss an Schilddrüsenhormonen (T3/T4). Der gesamte Stoffwechsel wird beschleunigt.",
+      "schwierigkeit": "leicht",
+      "tags": [
+        "Endokrinologie",
+        "Hyperthyreose",
+        "Definition"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-027-02",
+      "kapitel": "Endokrinologie",
+      "thema": "Hyperthyreose - Ätiologie",
+      "seite": 27,
+      "typ": "multiple_choice",
+      "frage": "Welche Ursachen kann eine Hyperthyreose haben?",
+      "optionen": [
+        "Schilddrüsenautonomie (autonomes Adenom)",
+        "Morbus Basedow, Hashimoto-Thyreoiditis und andere Schilddrüsenentzündungen",
+        "Schilddrüsenkarzinom",
+        "Schwangerschaftshyperthyreose (hoher hCG-Spiegel in 8.-20. SSW)",
+        "Überdosierung von Schilddrüsenhormonen oder Jod",
+        "Vitamin-D-Mangel"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "erklaerung": "Hyperthyreose-Ursachen: Schilddrüsenautonomie (unifokal/autonomes Adenom, multifokal, disseminiert), Morbus Basedow, Hashimoto (anfangs), Schilddrüsenkarzinom, Schwangerschaftshyperthyreose, Überdosierung von Hormonen/Jod, erhöhte TSH-Sekretion durch Hypophysenadenom.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Endokrinologie",
+        "Hyperthyreose",
+        "Ätiologie"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-027-03",
+      "kapitel": "Endokrinologie",
+      "thema": "Schilddrüsenautonomie",
+      "seite": 27,
+      "typ": "single_choice",
+      "frage": "Was bedeutet Schilddrüsenautonomie?",
+      "optionen": [
+        "Die Schilddrüse ist entzündet",
+        "Ungesteuerte Produktion der Schilddrüsenhormone, unabhängig vom Regelkreis (Hypothalamus-Hypophyse-Schilddrüse)",
+        "Die Schilddrüse ist zu klein",
+        "Ein Tumor der Nebenschilddrüse",
+        "Mangel an Jod"
+      ],
+      "richtig": 1,
+      "erklaerung": "Schilddrüsenautonomie = ungesteuerte Produktion der Schilddrüsenhormone, unabhängig vom Regelkreis (Hypothalamus-Hypophyse-Schilddrüse). Kann unifokal (autonomes Adenom), multifokal oder disseminiert sein.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Endokrinologie",
+        "Hyperthyreose",
+        "Autonomie"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-027-04",
+      "kapitel": "Endokrinologie",
+      "thema": "Hyperthyreose - Herz-Klinik",
+      "seite": 27,
+      "typ": "multiple_choice",
+      "frage": "Welche Herz-Symptome treten bei Hyperthyreose auf?",
+      "optionen": [
+        "Tachykardie",
+        "Herzrhythmusstörungen, Extrasystolen",
+        "Angina pectoris",
+        "Arterielle Hypertonie, große Blutdruckamplitude",
+        "Bradykardie"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Herz-Symptome bei Hyperthyreose: Tachykardie, Herzrhythmusstörungen, Extrasystolen, Angina pectoris, arterielle Hypertonie mit großer Blutdruckamplitude. Bradykardie wäre bei HYPOthyreose.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Endokrinologie",
+        "Hyperthyreose",
+        "Herz",
+        "Klinik"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-027-05",
+      "kapitel": "Endokrinologie",
+      "thema": "Hyperthyreose - ZNS/Psyche",
+      "seite": 27,
+      "typ": "multiple_choice",
+      "frage": "Welche ZNS-/Psyche-Symptome treten bei Hyperthyreose auf?",
+      "optionen": [
+        "Psychomotorische Unruhe, Nervosität",
+        "Erhöhte Reizbarkeit, seelische Labilität",
+        "Schlafstörungen",
+        "Gesteigerte Reflexe (Hyperreflexie), feinschlägiger Tremor",
+        "Antriebsarmut und Müdigkeit"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "ZNS/Psyche bei Hyperthyreose: psychomotorische Unruhe, Nervosität, erhöhte Reizbarkeit, seelische Labilität, Schlafstörungen, gesteigerte Reflexe (Hyperreflexie), feinschlägiger Tremor. Antriebsarmut/Müdigkeit wäre HYPOthyreose.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Endokrinologie",
+        "Hyperthyreose",
+        "ZNS",
+        "Psyche"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-027-06",
+      "kapitel": "Endokrinologie",
+      "thema": "Hyperthyreose - Stoffwechsel",
+      "seite": 27,
+      "typ": "multiple_choice",
+      "frage": "Welche Stoffwechsel-Symptome treten bei Hyperthyreose auf?",
+      "optionen": [
+        "Gewichtsabnahme trotz gesteigertem Appetit/Heißhunger",
+        "Diarrhö",
+        "Pathologische Glukosetoleranz",
+        "Wärmeintoleranz, vermehrtes Schwitzen",
+        "Gewichtszunahme"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Stoffwechsel bei Hyperthyreose: Gewichtsabnahme trotz Heißhunger, Diarrhö, pathologische Glukosetoleranz, Wärmeintoleranz, vermehrtes Schwitzen. Gewichtszunahme wäre HYPOthyreose.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Endokrinologie",
+        "Hyperthyreose",
+        "Stoffwechsel"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-027-07",
+      "kapitel": "Endokrinologie",
+      "thema": "Merseburger Trias",
+      "seite": 27,
+      "typ": "multiple_choice",
+      "frage": "Was gehört zur Merseburger Trias (bei Morbus Basedow)?",
+      "optionen": [
+        "Struma",
+        "Exophthalmus (infolge endokriner Orbitopathie)",
+        "Tachykardie",
+        "Bradykardie",
+        "Gewichtszunahme"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Merseburger Trias bei Morbus Basedow (bei 50%): Struma (Kropf), Exophthalmus (hervortretende Augen infolge endokriner Orbitopathie), Tachykardie.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Endokrinologie",
+        "Hyperthyreose",
+        "Basedow",
+        "Merseburger Trias"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-027-08",
+      "kapitel": "Endokrinologie",
+      "thema": "Thyreotoxische Krise",
+      "seite": 27,
+      "typ": "single_choice",
+      "frage": "Was ist die thyreotoxische Krise?",
+      "optionen": [
+        "Eine harmlose Verschlechterung",
+        "Notfall mit hohem Fieber, Tachykardie, Hautrötung, Schweißausbrüchen, Durchfällen, Bewusstseinsstörungen bis Koma",
+        "Eine Form der Hypothyreose",
+        "Ein Kalziummangel",
+        "Ein Vitaminmangel"
+      ],
+      "richtig": 1,
+      "erklaerung": "Thyreotoxische Krise = NOTFALL! Symptome: hohes Fieber, Tachykardie, Hautrötung, Schweißausbrüche, Durchfälle, Erbrechen, Exsikkose, Bewusstseinsstörungen bis Koma → intensivmedizinische Behandlung.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Endokrinologie",
+        "Hyperthyreose",
+        "Notfall",
+        "Krise"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-027-09",
+      "kapitel": "Endokrinologie",
+      "thema": "Hyperthyreose - Labor",
+      "seite": 27,
+      "typ": "single_choice",
+      "frage": "Welche Laborwerte zeigt eine typische Hyperthyreose?",
+      "optionen": [
+        "TSH ↑, fT3 ↓, fT4 ↓",
+        "TSH ↓, fT3 ↑, fT4 ↑",
+        "Alle Werte normal",
+        "TSH ↑, fT3 ↑, fT4 ↑",
+        "Nur fT3 erhöht"
+      ],
+      "richtig": 1,
+      "erklaerung": "Hyperthyreose-Labor: TSH ↓ (supprimiert durch negative Rückkopplung), fT3 ↑, fT4 ↑. Cave: Bei Hyperthyreose durch Hypophysenadenom wäre der TSH erhöht!",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Endokrinologie",
+        "Hyperthyreose",
+        "Labor",
+        "Diagnostik"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-027-10",
+      "kapitel": "Endokrinologie",
+      "thema": "Basedow - Antikörper",
+      "seite": 27,
+      "typ": "multiple_choice",
+      "frage": "Welche Antikörper sind bei Morbus Basedow nachweisbar?",
+      "optionen": [
+        "TRAK (TSH-Rezeptor-Antikörper)",
+        "TG-AK",
+        "TPO-AK",
+        "ANA",
+        "Rheumafaktor"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Bei Morbus Basedow: TRAK (TSH-Rezeptor-Antikörper - typisch!), zusätzlich oft TG-AK und TPO-AK. Die TRAK stimulieren den TSH-Rezeptor und verursachen die Überfunktion.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Endokrinologie",
+        "Basedow",
+        "Antikörper",
+        "TRAK"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-027-11",
+      "kapitel": "Endokrinologie",
+      "thema": "Szintigrafie - Knoten",
+      "seite": 27,
+      "typ": "multiple_choice",
+      "frage": "Was bedeuten die Szintigrafie-Befunde?",
+      "optionen": [
+        "Fokale 'heiße Knoten' sind Hinweis auf eine Schilddrüsenautonomie",
+        "Gleichmäßige diffuse Verteilung deutet auf Morbus Basedow hin",
+        "'Kalte Knoten' können Hinweis auf ein Malignom sein",
+        "Heiße Knoten sind immer Krebs",
+        "Kalte Knoten sind immer harmlos"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Szintigrafie-Befunde: 'Heiße Knoten' (vermehrte Aufnahme) = Schilddrüsenautonomie. Gleichmäßige diffuse Verteilung = Morbus Basedow. 'Kalte Knoten' (verminderte Aufnahme) = Hinweis auf Malignom (müssen abgeklärt werden!).",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Endokrinologie",
+        "Hyperthyreose",
+        "Szintigrafie",
+        "Diagnostik"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-027-12",
+      "kapitel": "Endokrinologie",
+      "thema": "Hyperthyreose - Therapie",
+      "seite": 27,
+      "typ": "multiple_choice",
+      "frage": "Welche Therapiemaßnahmen gibt es bei Hyperthyreose?",
+      "optionen": [
+        "Meidung von Stress, Entspannungsverfahren, geregelter Tagesablauf",
+        "Nikotinverzicht, Koffeinverzicht",
+        "Medikamente: Thyreostatika (z.B. Thiamazol, Carbimazol)",
+        "Radiojodtherapie (Bestrahlung mit radioaktivem Jod)",
+        "Chirurgische Schilddrüsenentfernung",
+        "Mehr Jod zuführen"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "erklaerung": "Hyperthyreose-Therapie: Stressmeidung, Entspannung, Nikotin-/Koffeinverzicht, kein Aufenthalt in jodhaltiger Meeresluft, Thyreostatika (Thiamazol, Carbimazol), Radiojodtherapie, chirurgische Entfernung. Cave: versehentliche Entfernung der Nebenschilddrüsen → Hypokalzämie/Tetanie.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Endokrinologie",
+        "Hyperthyreose",
+        "Therapie"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-027-F1",
+      "kapitel": "Endokrinologie",
+      "thema": "Morbus Basedow",
+      "seite": 27,
+      "typ": "fallbeispiel",
+      "fallbeschreibung": "Eine 40-jährige Patientin klagt über Herzrasen, Gewichtsverlust trotz Heißhunger, Nervosität und vermehrtes Schwitzen. Auffällig sind hervortretende Augen und eine Struma. Labor: TSH ↓, fT3/fT4 ↑, TRAK positiv.",
+      "frage": "Welche Diagnose ist am wahrscheinlichsten?",
+      "optionen": [
+        "Hypothyreose",
+        "Morbus Basedow (mit Merseburger Trias)",
+        "Schilddrüsenkarzinom",
+        "Diabetes mellitus",
+        "Cushing-Syndrom"
+      ],
+      "richtig": 1,
+      "erklaerung": "Klassischer Morbus Basedow mit Merseburger Trias: Struma + Exophthalmus (hervortretende Augen) + Tachykardie. Labor bestätigt Hyperthyreose (TSH↓, fT3/fT4↑) und die positiven TRAK sind typisch für Morbus Basedow.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Endokrinologie",
+        "Basedow",
+        "Merseburger Trias",
+        "Fallbeispiel"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-028-01",
+      "kapitel": "Endokrinologie",
+      "thema": "Schilddrüsenkarzinom - Definition",
+      "seite": 28,
+      "typ": "single_choice",
+      "frage": "Was ist das Schilddrüsenkarzinom?",
+      "optionen": [
+        "Ein gutartiger Tumor",
+        "Maligner Tumor der Schilddrüse, häufigster Tumor des endokrinen Systems (w>m)",
+        "Eine Entzündung",
+        "Ein Kalziummangel",
+        "Eine Autoimmunerkrankung"
+      ],
+      "richtig": 1,
+      "erklaerung": "Schilddrüsenkarzinom = maligner (bösartiger) Tumor der Schilddrüse. Es ist der häufigste Tumor des endokrinen Systems, Frauen sind häufiger betroffen als Männer (w>m).",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Endokrinologie",
+        "Schilddrüsenkarzinom",
+        "Onkologie"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-028-02",
+      "kapitel": "Endokrinologie",
+      "thema": "Schilddrüsenkarzinom - Ätiologie",
+      "seite": 28,
+      "typ": "multiple_choice",
+      "frage": "Welche Ursachen/Risikofaktoren gibt es beim Schilddrüsenkarzinom?",
+      "optionen": [
+        "Oft unbekannt",
+        "Genetische Disposition (bei medullärem Karzinom)",
+        "Ionisierende Strahlen (nach Reaktorunfällen, Atombombe, Bestrahlungen im Halsbereich)",
+        "Jodmangel allein",
+        "Zu viel Vitamin C"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Schilddrüsenkarzinom-Ätiologie: oft unbekannt, genetische Disposition (v.a. bei medullärem Karzinom), ionisierende Strahlen (Reaktorunfälle, Atombombe, Bestrahlungen im Halsbereich).",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Endokrinologie",
+        "Schilddrüsenkarzinom",
+        "Ätiologie"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-028-03",
+      "kapitel": "Endokrinologie",
+      "thema": "Papilläres Karzinom",
+      "seite": 28,
+      "typ": "single_choice",
+      "frage": "Welches ist das häufigste Schilddrüsenkarzinom und wie ist seine Prognose?",
+      "optionen": [
+        "Anaplastisches Karzinom - schlechte Prognose",
+        "Papilläres Karzinom (60%) - gute Prognose, v.a. in Regionen ohne Jodmangel",
+        "Medulläres Karzinom - mittlere Prognose",
+        "Follikuläres Karzinom - schlechte Prognose",
+        "Lymphom - gute Prognose"
+      ],
+      "richtig": 1,
+      "erklaerung": "Papilläres Karzinom = häufigstes Schilddrüsenkarzinom (60%), gehört zu den differenzierten Karzinomen mit guter Prognose (10-Jahres-Überlebensrate >90%). Tritt v.a. in Regionen OHNE Jodmangel auf. Tumormarker: Thyreoglobulin.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Endokrinologie",
+        "Schilddrüsenkarzinom",
+        "papillär"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-028-04",
+      "kapitel": "Endokrinologie",
+      "thema": "Schilddrüsenkarzinom - Tumorarten",
+      "seite": 28,
+      "typ": "multiple_choice",
+      "frage": "Welche Aussagen zu den Schilddrüsenkarzinom-Typen sind richtig?",
+      "optionen": [
+        "Papilläres Karzinom (60%): differenziert, gute Prognose",
+        "Follikuläres Karzinom (30%): differenziert, v.a. in Regionen mit Jodmangel",
+        "Anaplastisches Karzinom (5%): undifferenziert, wächst aggressiv, sehr schlechte Prognose (Tod innerhalb 6 Monaten)",
+        "Medulläres Karzinom (5%): geht von C-Zellen aus, produziert Calcitonin",
+        "Alle haben die gleiche Prognose"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Schilddrüsenkarzinom-Typen: Papillär (60%, differenziert, gute Prognose), Follikulär (30%, differenziert, bei Jodmangel), Anaplastisch (5%, undifferenziert, aggressiv, Tod in 6 Monaten), Medullär (5%, C-Zellen, produziert Calcitonin, nicht am Jodstoffwechsel beteiligt).",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Endokrinologie",
+        "Schilddrüsenkarzinom",
+        "Tumorarten"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-028-05",
+      "kapitel": "Endokrinologie",
+      "thema": "Medulläres Karzinom",
+      "seite": 28,
+      "typ": "single_choice",
+      "frage": "Was ist charakteristisch für das medulläre Schilddrüsenkarzinom?",
+      "optionen": [
+        "Es produziert T3/T4",
+        "Es geht von den C-Zellen aus und produziert Calcitonin, nicht am Jodstoffwechsel beteiligt",
+        "Es hat immer eine gute Prognose",
+        "Es ist immer gutartig",
+        "Es tritt nur bei Kindern auf"
+      ],
+      "richtig": 1,
+      "erklaerung": "Medulläres Karzinom (5%): geht von den C-Zellen der Schilddrüse aus und produziert Calcitonin. Es ist NICHT am Jodstoffwechsel beteiligt (daher keine Radiojodtherapie möglich). Genetische Disposition. Tumormarker: Calcitonin, CEA.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Endokrinologie",
+        "Schilddrüsenkarzinom",
+        "medullär",
+        "Calcitonin"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-028-06",
+      "kapitel": "Endokrinologie",
+      "thema": "Schilddrüsenkarzinom - Klinik",
+      "seite": 28,
+      "typ": "multiple_choice",
+      "frage": "Welche klinischen Zeichen treten beim Schilddrüsenkarzinom auf?",
+      "optionen": [
+        "Derbe, höckerige und schmerzlose Struma (evtl. mit Umgebung verbacken)",
+        "Schluckbeschwerden, Stridor, Druck-/Engegefühl, obere Einflussstauung",
+        "Lymphknotenschwellungen am Hals",
+        "Horner-Syndrom (Miosis, Ptosis, Enophthalmus)",
+        "Heiserkeit bei Infiltration des N. recurrens",
+        "Weiche, schmerzhafte Struma"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "erklaerung": "Schilddrüsenkarzinom-Klinik: derbe, höckerige, SCHMERZLOSE Struma (verbacken), Schluckbeschwerden/Stridor/Engegefühl, Lymphknotenschwellungen, Hals-/Ohren-/Hinterhauptkopfschmerzen, Horner-Syndrom (Miosis, Ptosis, Enophthalmus), Heiserkeit (N. recurrens-Infiltration).",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Endokrinologie",
+        "Schilddrüsenkarzinom",
+        "Klinik"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-028-07",
+      "kapitel": "Endokrinologie",
+      "thema": "Horner-Syndrom",
+      "seite": 28,
+      "typ": "single_choice",
+      "frage": "Was gehört zum Horner-Syndrom?",
+      "optionen": [
+        "Struma, Exophthalmus, Tachykardie",
+        "Miosis (enge Pupille), Ptosis (hängendes Lid), Enophthalmus (eingesunkenes Auge)",
+        "Fieber, Husten, Schnupfen",
+        "Polyurie, Polydipsie",
+        "Ödeme an den Beinen"
+      ],
+      "richtig": 1,
+      "erklaerung": "Horner-Syndrom (Trias): Miosis (enge Pupille), Ptosis (herabhängendes Augenlid), Enophthalmus (eingesunkener Augapfel). Kann beim Schilddrüsenkarzinom durch Infiltration des Sympathikus auftreten.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Endokrinologie",
+        "Horner-Syndrom",
+        "Neurologie"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-028-08",
+      "kapitel": "Endokrinologie",
+      "thema": "Schilddrüsenkarzinom - Diagnostik",
+      "seite": 28,
+      "typ": "multiple_choice",
+      "frage": "Welche diagnostischen Maßnahmen gibt es beim Schilddrüsenkarzinom?",
+      "optionen": [
+        "Familienanamnese (v.a. bei medullärem Karzinom)",
+        "Palpation: Schilddrüse nicht verschieblich, derbe Struma, Halslymphknoten",
+        "Sonografie, CT, MRT",
+        "Szintigrafie: kalte Knoten",
+        "Feinnadelbiopsie; Histologie nach Operation",
+        "Calcitonin ↑ bei medullärem Karzinom",
+        "Immer nur ein Bluttest"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "erklaerung": "Schilddrüsenkarzinom-Diagnostik: Familienanamnese, Palpation (nicht verschieblich, derb), Sonografie/CT/MRT, Szintigrafie (kalte Knoten!), Feinnadelbiopsie + Histologie, Calcitonin↑ bei medullärem Karzinom. Cave: Jeder Knoten muss ärztlich abgeklärt werden!",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Endokrinologie",
+        "Schilddrüsenkarzinom",
+        "Diagnostik"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-028-09",
+      "kapitel": "Endokrinologie",
+      "thema": "Schilddrüsenkarzinom - Therapie",
+      "seite": 28,
+      "typ": "multiple_choice",
+      "frage": "Wie wird das Schilddrüsenkarzinom behandelt?",
+      "optionen": [
+        "Totale Thyreoidektomie, ggf. inkl. regionaler Halslymphknoten",
+        "Danach Hormonsubstitution notwendig",
+        "Strahlentherapie, Radiojodtherapie (nicht möglich bei medullärem Karzinom)",
+        "Hormonsubstitution nach Schilddrüsen-Operation",
+        "Keine Behandlung nötig"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Schilddrüsenkarzinom-Therapie: totale Thyreoidektomie (ggf. mit Halslymphknoten) → danach lebenslange Hormonsubstitution, Strahlentherapie/Radiojodtherapie (NICHT bei medullärem Karzinom, da nicht am Jodstoffwechsel beteiligt).",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Endokrinologie",
+        "Schilddrüsenkarzinom",
+        "Therapie"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-028-10",
+      "kapitel": "Endokrinologie",
+      "thema": "Schilddrüsenkarzinom - Überlebensrate",
+      "seite": 28,
+      "typ": "multiple_choice",
+      "frage": "Welche 10-Jahres-Überlebensraten haben die Schilddrüsenkarzinome? (Merkhilfe 'Papa fährt Medizin zu Anna')",
+      "optionen": [
+        "Papilläres Karzinom: > 90%",
+        "Follikuläres Karzinom: > 75%",
+        "Medulläres Karzinom: ca. 50%",
+        "Anaplastisches Karzinom: mittlere Überlebenszeit nur ca. 6 Monate",
+        "Alle: 100%"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "10-Jahres-Überlebensraten: Papillär >90% (Tumormarker Thyreoglobulin), Follikulär >75% (Thyreoglobulin), Medullär ca. 50% (Calcitonin, CEA), Anaplastisch nur ~6 Monate. Merkhilfe 'Papa fährt Medizin zu Anna' = papillär, follikulär, medullär, anaplastisch (nach Häufigkeit/Prognose).",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Endokrinologie",
+        "Schilddrüsenkarzinom",
+        "Prognose"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-028-F1",
+      "kapitel": "Endokrinologie",
+      "thema": "Schilddrüsenkarzinom - Verdacht",
+      "seite": 28,
+      "typ": "fallbeispiel",
+      "fallbeschreibung": "Bei einem 60-jährigen Patienten wächst innerhalb weniger Wochen ein derber, höckeriger und schmerzloser Knoten am Hals. In der Szintigrafie zeigt sich ein 'kalter Knoten'. Er hat zunehmend Heiserkeit.",
+      "frage": "Woran muss man denken und was ist zu tun?",
+      "optionen": [
+        "Harmlose Zyste - abwarten",
+        "Verdacht auf Schilddrüsenkarzinom - jeder Knoten muss ärztlich abgeklärt werden, bei schnellem Struma-Wachstum an Karzinom denken!",
+        "Nur eine Erkältung",
+        "Morbus Basedow",
+        "Hypothyreose"
+      ],
+      "richtig": 1,
+      "erklaerung": "Verdacht auf Schilddrüsenkarzinom! Warnzeichen: derbe, höckerige, schmerzlose Struma, schnelles Wachstum, kalter Knoten in Szintigrafie, Heiserkeit (N. recurrens-Infiltration). Cave: Jeder Knoten muss ärztlich abgeklärt werden! Bei schnellem Struma-Wachstum immer an ein Karzinom denken!",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Endokrinologie",
+        "Schilddrüsenkarzinom",
+        "Fallbeispiel"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-029-01",
+      "kapitel": "Endokrinologie",
+      "thema": "Primärer Hyperparathyreoidismus",
+      "seite": 29,
+      "typ": "single_choice",
+      "frage": "Was ist der primäre Hyperparathyreoidismus?",
+      "optionen": [
+        "Unterfunktion der Nebenschilddrüsen",
+        "Überfunktion der Nebenschilddrüsen mit verstärkter Sekretion des Parathormons",
+        "Eine Schilddrüsenentzündung",
+        "Ein Kalziummangel",
+        "Ein Vitamin-D-Mangel"
+      ],
+      "richtig": 1,
+      "erklaerung": "Primärer Hyperparathyreoidismus = Überfunktion der Nebenschilddrüsen mit verstärkter Sekretion des Parathormons (Häufigkeit w>m). Führt zur Hyperkalzämie.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Endokrinologie",
+        "Hyperparathyreoidismus",
+        "Nebenschilddrüsen"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-029-02",
+      "kapitel": "Endokrinologie",
+      "thema": "Hyperparathyreoidismus - Ätiologie",
+      "seite": 29,
+      "typ": "multiple_choice",
+      "frage": "Welche Ursachen hat der primäre Hyperparathyreoidismus?",
+      "optionen": [
+        "Solitäre Adenome (80%)",
+        "Multiple Adenome (5%)",
+        "Hyperplasie der Epithelkörperchen (15%)",
+        "Karzinom der Epithelkörperchen (< 1%)",
+        "Vitamin-D-Überschuss"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Primärer Hyperparathyreoidismus-Ursachen: solitäre Adenome (80%), multiple Adenome (5%), Hyperplasie der Epithelkörperchen (15%), Karzinom der Epithelkörperchen (<1%).",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Endokrinologie",
+        "Hyperparathyreoidismus",
+        "Ätiologie"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-029-03",
+      "kapitel": "Endokrinologie",
+      "thema": "Hyperparathyreoidismus - Mechanismus",
+      "seite": 29,
+      "typ": "single_choice",
+      "frage": "Was bewirkt der erhöhte Parathormonspiegel?",
+      "optionen": [
+        "Senkung des Kalziumspiegels",
+        "Erhöhte Kalzium-Mobilisation aus Knochen, erhöhte Kalziumresorption aus Darm, erhöhte tubuläre Rückresorption → Hyperkalzämie",
+        "Keine Wirkung",
+        "Erhöhung des Phosphatspiegels",
+        "Senkung des Blutzuckers"
+      ],
+      "richtig": 1,
+      "erklaerung": "Durch den erhöhten Parathormonspiegel kommt es zu: erhöhter Kalzium-Mobilisation aus den Knochen, erhöhter Kalziumresorption aus dem Darm, erhöhter tubulärer Rückresorption → Hyperkalzämie. Das Parathormon stellt 'Kalzium im Blut parat'.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Endokrinologie",
+        "Hyperparathyreoidismus",
+        "Mechanismus"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-029-04",
+      "kapitel": "Endokrinologie",
+      "thema": "Hyperparathyreoidismus - Klinik",
+      "seite": 29,
+      "typ": "multiple_choice",
+      "frage": "Welche Klinik zeigt der primäre Hyperparathyreoidismus? (Merkhilfe 'Stein, Bein, Magenpein')",
+      "optionen": [
+        "Harn- und Nierensteine (durch Verkalkungen/Steinbildung in der Niere)",
+        "Knochenschmerzen, Osteoporose, Spontanfrakturen (durch Osteoklastenaktivierung)",
+        "Gastrointestinale Symptome: Appetitverlust, Übelkeit, Obstipation, Ulcus (Kalzium erhöht Gastrin → Magensäure↑)",
+        "Neuromuskuläre Symptome: Muskelschwäche, rasche Ermüdbarkeit, psychiatrische Symptome",
+        "Mehr als die Hälfte asymptomatisch oder nur unspezifische Beschwerden",
+        "Immer starke Schmerzen"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "erklaerung": "Hyperparathyreoidismus-Klinik (Merkhilfe 'Stein, Bein, Magenpein'): Nierensteine (Stein), Knochenschmerzen/Osteoporose (Bein), GI-Symptome (Magenpein), neuromuskuläre Symptome. Mehr als die Hälfte ist asymptomatisch oder hat nur unspezifische Beschwerden.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Endokrinologie",
+        "Hyperparathyreoidismus",
+        "Klinik",
+        "Stein-Bein-Magenpein"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-029-05",
+      "kapitel": "Endokrinologie",
+      "thema": "Hyperparathyreoidismus - Labor",
+      "seite": 29,
+      "typ": "single_choice",
+      "frage": "Welche Blutwerte zeigt der primäre Hyperparathyreoidismus?",
+      "optionen": [
+        "Kalzium ↓, Parathormon ↓, Phosphat ↑",
+        "Kalzium ↑, Parathormon ↑, alkalische Phosphatase ↑, Phosphat ↓",
+        "Alle Werte normal",
+        "Kalzium ↑, Parathormon ↓",
+        "Kalzium ↓, Parathormon ↑"
+      ],
+      "richtig": 1,
+      "erklaerung": "Primärer Hyperparathyreoidismus-Labor: Kalzium ↑, Parathormon ↑, alkalische Phosphatase ↑, Phosphat ↓. Im Urin: Polyurie, Polydipsie, evtl. Kalzium und Phosphat ↑.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Endokrinologie",
+        "Hyperparathyreoidismus",
+        "Labor"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-029-06",
+      "kapitel": "Endokrinologie",
+      "thema": "Hyperparathyreoidismus - Therapie",
+      "seite": 29,
+      "typ": "multiple_choice",
+      "frage": "Wie wird der primäre Hyperparathyreoidismus behandelt?",
+      "optionen": [
+        "Chirurgische Entfernung der vergrößerten Epithelkörperchen oder totale Parathyreoid-Ektomie",
+        "Ohne OP-Indikation: viel trinken, keine kalziumarme Ernährung",
+        "Vitamin-D-Substitution bei Vitamin-D-Mangel",
+        "Mehr Kalzium zuführen",
+        "Keine Behandlung"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Hyperparathyreoidismus-Therapie: chirurgische Entfernung der vergrößerten Epithelkörperchen oder totale Parathyreoid-Ektomie. Ohne OP-Indikation: viel trinken, KEINE kalziumarme Ernährung, Vitamin-D-Substitution bei Mangel.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Endokrinologie",
+        "Hyperparathyreoidismus",
+        "Therapie"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-029-07",
+      "kapitel": "Endokrinologie",
+      "thema": "Sekundärer Hyperparathyreoidismus",
+      "seite": 29,
+      "typ": "single_choice",
+      "frage": "Was ist der sekundäre Hyperparathyreoidismus?",
+      "optionen": [
+        "Ein Tumor der Nebenschilddrüse",
+        "Eine Hypokalzämie (durch renale, enterale, hepatische Störung oder Vitamin-D3-Mangel) führt reaktiv zu erhöhter Parathormon-Sekretion",
+        "Eine Überfunktion ohne Ursache",
+        "Ein Kalziumüberschuss",
+        "Eine Schilddrüsenentzündung"
+      ],
+      "richtig": 1,
+      "erklaerung": "Sekundärer Hyperparathyreoidismus: Eine Hypokalzämie (infolge renaler, enteraler, hepatischer Störung oder Vitamin-D3-Mangel) führt REAKTIV zu einer erhöhten Sekretion des Parathormons. Der Körper versucht, das niedrige Kalzium auszugleichen.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Endokrinologie",
+        "Hyperparathyreoidismus",
+        "sekundär"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-029-08",
+      "kapitel": "Endokrinologie",
+      "thema": "Sekundärer Hyperparathyreoidismus - Labor",
+      "seite": 29,
+      "typ": "single_choice",
+      "frage": "Welche Blutwerte zeigt der sekundäre Hyperparathyreoidismus?",
+      "optionen": [
+        "Kalzium ↑, Parathormon ↑, Phosphat ↓",
+        "Kalzium ↓, Parathormon ↑, Phosphat normal",
+        "Alle Werte erhöht",
+        "Kalzium normal, Parathormon ↓",
+        "Alle Werte niedrig"
+      ],
+      "richtig": 1,
+      "erklaerung": "Sekundärer Hyperparathyreoidismus-Labor: Kalzium ↓ (das ist die Ursache!), Parathormon ↑ (kompensatorisch), Phosphat normal. Im Gegensatz zum primären (Kalzium ↑).",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Endokrinologie",
+        "Hyperparathyreoidismus",
+        "sekundär",
+        "Labor"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-029-F1",
+      "kapitel": "Endokrinologie",
+      "thema": "Primärer Hyperparathyreoidismus",
+      "seite": 29,
+      "typ": "fallbeispiel",
+      "fallbeschreibung": "Eine 55-jährige Patientin hat wiederkehrende Nierensteine, Knochenschmerzen und klagt über Verstopfung und Appetitlosigkeit. Im Labor: Kalzium ↑, Parathormon ↑, Phosphat ↓.",
+      "frage": "Welche Diagnose ist am wahrscheinlichsten?",
+      "optionen": [
+        "Sekundärer Hyperparathyreoidismus",
+        "Primärer Hyperparathyreoidismus (Merkhilfe 'Stein, Bein, Magenpein')",
+        "Hypoparathyreoidismus",
+        "Schilddrüsenkarzinom",
+        "Diabetes mellitus"
+      ],
+      "richtig": 1,
+      "erklaerung": "Klassischer primärer Hyperparathyreoidismus mit 'Stein, Bein, Magenpein': Nierensteine (Stein), Knochenschmerzen (Bein), GI-Symptome (Magenpein). Labor bestätigt: Kalzium ↑, Parathormon ↑, Phosphat ↓ - typisch für die primäre Form.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Endokrinologie",
+        "Hyperparathyreoidismus",
+        "Fallbeispiel"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-030-01",
+      "kapitel": "Endokrinologie",
+      "thema": "Nebennierenrinde - Aufbau",
+      "seite": 30,
+      "typ": "multiple_choice",
+      "frage": "Wie ist die Nebennierenrinde aufgebaut? (Merkhilfe 'Salt, sugar, sex')",
+      "optionen": [
+        "Salt: Mineralkortikoide (Aldosteron) - Zona glomerulosa (außen)",
+        "Sugar: Glukokortikoide (Cortisol) - Zona fasciculata (mitte)",
+        "Sex: Sexualhormone (Androgene/Testosteron) - Zona reticularis (innen)",
+        "Nur eine Schicht",
+        "Keine Hormone"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Nebennierenrinde von außen nach innen (Merkhilfe 'Salt, sugar and sex, the deeper you go, the better it gets'): Salt = Mineralkortikoide/Aldosteron (Zona glomerulosa), Sugar = Glukokortikoide/Cortisol (Zona fasciculata), Sex = Sexualhormone/Androgene (Zona reticularis).",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Endokrinologie",
+        "Nebennieren",
+        "Anatomie",
+        "Salt-Sugar-Sex"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-030-02",
+      "kapitel": "Endokrinologie",
+      "thema": "Morbus Addison - Definition",
+      "seite": 30,
+      "typ": "single_choice",
+      "frage": "Was ist die Addison-Krankheit (NNR-Insuffizienz)?",
+      "optionen": [
+        "Überfunktion der Nebennierenrinde",
+        "Unterfunktion der Nebennierenrinde mit verminderter Produktion von Hormonen (Aldosteron, Cortisol, Androgene)",
+        "Eine Schilddrüsenerkrankung",
+        "Ein Kalziummangel",
+        "Ein Tumor"
+      ],
+      "richtig": 1,
+      "erklaerung": "Morbus Addison (NNR-Insuffizienz) = Unterfunktion der Nebennierenrinde mit verminderter Produktion von Hormonen. Beim Morbus Addison kommt es zum Mangel von Aldosteron, Cortisol und Androgenen. Bei sekundärer NNR-Insuffizienz sind vorwiegend nur die Glukokortikoide betroffen.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Endokrinologie",
+        "Addison",
+        "NNR-Insuffizienz"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-030-03",
+      "kapitel": "Endokrinologie",
+      "thema": "NNR-Insuffizienz - Ätiologie",
+      "seite": 30,
+      "typ": "multiple_choice",
+      "frage": "Welche Formen der NNR-Insuffizienz gibt es nach Ursache?",
+      "optionen": [
+        "Primäre NNR-Insuffizienz (Morbus Addison): Ursache ist die Nebenniere selbst",
+        "Sekundäre NNR-Insuffizienz: Ursache ist Hypophyse oder Hypothalamus → ACTH fehlt",
+        "Tertiäre NNR-Insuffizienz: zu schnelles Absetzen von Glukokortikoiden bei Langzeittherapie",
+        "Quartäre NNR-Insuffizienz: Nierenerkrankung",
+        "Es gibt nur eine Form"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "3 Formen der NNR-Insuffizienz: Primär (Morbus Addison - Nebenniere selbst), Sekundär (Hypophyse/Hypothalamus → ACTH fehlt), Tertiär (zu schnelles Absetzen von Glukokortikoiden bei Langzeittherapie).",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Endokrinologie",
+        "Addison",
+        "NNR-Insuffizienz",
+        "Ätiologie"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-030-04",
+      "kapitel": "Endokrinologie",
+      "thema": "Primäre NNR-Insuffizienz - Ursachen",
+      "seite": 30,
+      "typ": "multiple_choice",
+      "frage": "Welche Ursachen hat die primäre NNR-Insuffizienz (Morbus Addison)?",
+      "optionen": [
+        "Autoimmunadrenalitis (80%): Autoantikörper gegen NNR-Gewebe",
+        "Infektionskrankheiten: Tuberkulose, HIV, Meningokokken (Waterhouse-Friderichsen-Syndrom)",
+        "Tumoren, Metastasen, Blutungen, Fehlbildungen",
+        "Operative Entfernung der Nebennieren",
+        "Zu viel Vitamin C"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Primäre NNR-Insuffizienz-Ursachen: Autoimmunadrenalitis (80% - häufigste!), Infektionskrankheiten (Tuberkulose, Mononukleose, HIV, Meningokokken → Waterhouse-Friderichsen-Syndrom), Tumoren/Metastasen/Blutungen/Fehlbildungen/Enzymdefekte, operative Entfernung.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Endokrinologie",
+        "Addison",
+        "primär",
+        "Ursachen"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-030-05",
+      "kapitel": "Endokrinologie",
+      "thema": "Brauner vs weißer Addison",
+      "seite": 30,
+      "typ": "multiple_choice",
+      "frage": "Was ist der Unterschied zwischen 'braunem' und 'weißem' Addison?",
+      "optionen": [
+        "'Brauner Addison' bei primärer NNR-Insuffizienz: Hyperpigmentierung von Haut und Schleimhäuten",
+        "'Weißer Addison' bei sekundärer NNR-Insuffizienz: alabasterfarbene Blässe (Hypophyseninsuffizienz)",
+        "Beide haben die gleiche Hautfarbe",
+        "Brauner Addison bedeutet Blässe",
+        "Weißer Addison bedeutet Braunfärbung"
+      ],
+      "richtig": [
+        0,
+        1
+      ],
+      "erklaerung": "'Brauner Addison' (primär): Hyperpigmentierung durch erhöhtes MSH (aus ACTH-Vorstufe POMC). 'Weißer Addison' (sekundär): alabasterfarbene Blässe, da bei Hypophyseninsuffizienz weniger ACTH und somit weniger MSH produziert wird. Merkmale: 7 'A's - Adynamie, Amenorrhö, Agalaktie, Apathie u.a.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Endokrinologie",
+        "Addison",
+        "Hautpigmentierung"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-030-06",
+      "kapitel": "Endokrinologie",
+      "thema": "Morbus Addison - Klinik",
+      "seite": 30,
+      "typ": "multiple_choice",
+      "frage": "Welche Symptome treten beim Morbus Addison auf?",
+      "optionen": [
+        "Hautpigmentierung (Hyperpigmentierung bei primärer Form)",
+        "Müdigkeit, Schwäche, Leistungsminderung, arterielle Hypotonie",
+        "Gewichtsverlust, Appetitverlust, Übelkeit und Erbrechen",
+        "Dehydratation, Verlangen nach Salz",
+        "Libidoverlust, Amenorrhö",
+        "Gewichtszunahme, Bluthochdruck"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "erklaerung": "Morbus Addison-Klinik: Hautpigmentierung, Müdigkeit/Schwäche/Hypotonie, Gewichts-/Appetitverlust/Übelkeit, Dehydratation + Salzhunger (durch Aldosteronmangel), Libidoverlust/Amenorrhö. Gewichtszunahme/Hypertonie wären beim Cushing-Syndrom.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Endokrinologie",
+        "Addison",
+        "Klinik"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-030-07",
+      "kapitel": "Endokrinologie",
+      "thema": "Addison-Krise",
+      "seite": 30,
+      "typ": "multiple_choice",
+      "frage": "Was charakterisiert die Addison-Krise (Notfall)?",
+      "optionen": [
+        "Lebensbedrohliche akute NNR-Insuffizienz → intensivmedizinische Behandlung",
+        "Erheblicher Flüssigkeitsverlust → Dehydratation → Blutdruckabfall → Schock → Koma",
+        "Elektrolytstörungen: Hyperkaliämie, Hyponatriämie, Hypoglykämie, metabolische Azidose",
+        "Gastrointestinale Beschwerden: Bauchschmerzen, Diarrhö, Erbrechen",
+        "Bewusstseinsstörungen, Koma",
+        "Bluthochdruck und Gewichtszunahme"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "erklaerung": "Addison-Krise = NOTFALL! Lebensbedrohliche akute NNR-Insuffizienz. Symptome: Flüssigkeitsverlust → Dehydratation → Schock → Koma, Elektrolytstörungen (Hyperkaliämie, Hyponatriämie, Hypoglykämie, metabolische Azidose), GI-Beschwerden, Hypothermie/später Fieber, Bewusstseinsstörungen, Koma.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Endokrinologie",
+        "Addison",
+        "Krise",
+        "Notfall"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-030-08",
+      "kapitel": "Endokrinologie",
+      "thema": "NNR-Insuffizienz - Diagnostik",
+      "seite": 30,
+      "typ": "single_choice",
+      "frage": "Welche Laborwerte zeigt die primäre vs. sekundäre NNR-Insuffizienz?",
+      "optionen": [
+        "Beide: Cortisol ↑",
+        "Primär: Cortisol ↓, ACTH ↑; Sekundär: Cortisol ↓, ACTH ↓",
+        "Primär: Cortisol ↑, ACTH ↓",
+        "Beide: alle Werte normal",
+        "Sekundär: Cortisol ↑, ACTH ↑"
+      ],
+      "richtig": 1,
+      "erklaerung": "NNR-Insuffizienz-Diagnostik: Primär (Morbus Addison): Cortisol ↓, ACTH ↑ (kompensatorisch, da Nebenniere nicht reagiert). Sekundär: Cortisol ↓, ACTH ↓ (Hypophyse produziert zu wenig). Weitere: Hyperkaliämie, Hyponatriämie, Eosinophilie.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Endokrinologie",
+        "Addison",
+        "Diagnostik",
+        "Labor"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-030-09",
+      "kapitel": "Endokrinologie",
+      "thema": "NNR-Insuffizienz - Therapie",
+      "seite": 30,
+      "typ": "single_choice",
+      "frage": "Wie wird die NNR-Insuffizienz behandelt?",
+      "optionen": [
+        "Keine Behandlung nötig",
+        "Hormonsubstitution (v.a. Glukokortikoide, bei Morbus Addison zusätzlich Mineralkortikoide und DHEA) - bei Belastung Dosis anpassen!",
+        "Nur Schmerzmittel",
+        "Operative Entfernung der Nebenniere",
+        "Nur Diät"
+      ],
+      "richtig": 1,
+      "erklaerung": "NNR-Insuffizienz-Therapie: Hormonsubstitution, v.a. Glukokortikoide, bei Morbus Addison zusätzlich Mineralkortikoide und DHEA. CAVE: Bei Belastungssituationen (Stress, Operationen, Infektionen) muss die Dosis angepasst (erhöht) werden!",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Endokrinologie",
+        "Addison",
+        "Therapie"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-030-F1",
+      "kapitel": "Endokrinologie",
+      "thema": "Morbus Addison",
+      "seite": 30,
+      "typ": "fallbeispiel",
+      "fallbeschreibung": "Ein 45-jähriger Patient klagt über zunehmende Müdigkeit, Gewichtsverlust, niedrigen Blutdruck und ein auffälliges Verlangen nach salzigen Speisen. Auffällig ist eine bräunliche Verfärbung der Haut. Labor: Cortisol ↓, ACTH ↑, Hyperkaliämie, Hyponatriämie.",
+      "frage": "Welche Diagnose ist am wahrscheinlichsten?",
+      "optionen": [
+        "Cushing-Syndrom",
+        "Primäre NNR-Insuffizienz (Morbus Addison, 'brauner Addison')",
+        "Hyperthyreose",
+        "Sekundäre NNR-Insuffizienz",
+        "Diabetes mellitus"
+      ],
+      "richtig": 1,
+      "erklaerung": "Klassischer Morbus Addison (primäre NNR-Insuffizienz, 'brauner Addison'): Müdigkeit, Gewichtsverlust, Hypotonie, Salzhunger (Aldosteronmangel), Hyperpigmentierung (durch erhöhtes MSH). Labor: Cortisol ↓, ACTH ↑ (primär!), Hyperkaliämie + Hyponatriämie (Aldosteronmangel).",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Endokrinologie",
+        "Addison",
+        "Fallbeispiel"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-031-01",
+      "kapitel": "Endokrinologie",
+      "thema": "Cushing-Syndrom - Definition",
+      "seite": 31,
+      "typ": "single_choice",
+      "frage": "Was ist das Cushing-Syndrom?",
+      "optionen": [
+        "Cortisolmangel",
+        "Erkrankung mit erhöhter Cortisolkonzentration, charakterisiert durch Stammfettsucht, Vollmondgesicht, Stiernacken und arterielle Hypertonie",
+        "Ein Kalziummangel",
+        "Eine Schilddrüsenüberfunktion",
+        "Ein Vitaminmangel"
+      ],
+      "richtig": 1,
+      "erklaerung": "Cushing-Syndrom = Erkrankung mit erhöhter Cortisolkonzentration (Hypercortisolismus), charakterisiert durch Stammfettsucht, Vollmondgesicht, Stiernacken und arterielle Hypertonie. Morbus Cushing = wenn ein Hypophysenadenom die Ursache ist, sonst Cushing-Syndrom.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Endokrinologie",
+        "Cushing",
+        "Definition"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-031-02",
+      "kapitel": "Endokrinologie",
+      "thema": "Morbus Cushing vs Cushing-Syndrom",
+      "seite": 31,
+      "typ": "single_choice",
+      "frage": "Was ist der Unterschied zwischen Morbus Cushing und Cushing-Syndrom?",
+      "optionen": [
+        "Kein Unterschied",
+        "Morbus Cushing = Hypophysenadenom als Ursache; Cushing-Syndrom = alle anderen Ursachen",
+        "Morbus Cushing ist harmlos",
+        "Cushing-Syndrom betrifft nur Kinder",
+        "Morbus Cushing ist Cortisolmangel"
+      ],
+      "richtig": 1,
+      "erklaerung": "Morbus Cushing heißt es, wenn ein Hypophysenadenom (ACTH-produzierend) die Ursache ist. Ansonsten spricht man vom Cushing-Syndrom (Oberbegriff für alle Formen des Hypercortisolismus).",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Endokrinologie",
+        "Cushing",
+        "Morbus Cushing"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-031-03",
+      "kapitel": "Endokrinologie",
+      "thema": "Cushing - Ätiologie",
+      "seite": 31,
+      "typ": "multiple_choice",
+      "frage": "Welche Ursachen hat das Cushing-Syndrom?",
+      "optionen": [
+        "Exogenes (iatrogenes) Cushing-Syndrom: durch Medikamenteneinnahme (Langzeittherapie mit Glukokortikoiden/ACTH) - häufig",
+        "Endogenes Cushing-Syndrom: durch erhöhte Sekretion von Cortisol und/oder ACTH",
+        "Morbus Cushing: ACTH-produzierendes Adenom des Hypophysen-Vorderlappens",
+        "Adrenales Cushing-Syndrom: cortisolproduzierende Tumoren der Nebennierenrinde",
+        "Ektopes Cushing-Syndrom: paraneoplastische ACTH-/CRH-Sekretion (z.B. Bronchial-Ca)",
+        "Immer nur genetisch bedingt"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "erklaerung": "Cushing-Ursachen: Exogen/iatrogen (Medikamente - häufigste!), endogen (erhöhte Cortisol/ACTH-Sekretion), Morbus Cushing (Hypophysenadenom, ACTH↑), adrenales Cushing (NNR-Tumor), ektopes Cushing (paraneoplastisch, z.B. kleinzelliges Bronchial-Ca).",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Endokrinologie",
+        "Cushing",
+        "Ätiologie"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-031-04",
+      "kapitel": "Endokrinologie",
+      "thema": "Exogenes Cushing",
+      "seite": 31,
+      "typ": "single_choice",
+      "frage": "Was ist die häufigste Ursache des Cushing-Syndroms?",
+      "optionen": [
+        "Ein Hypophysenadenom",
+        "Exogenes (iatrogenes) Cushing-Syndrom durch Langzeittherapie mit Glukokortikoiden",
+        "Ein Nebennierentumor",
+        "Ein Bronchialkarzinom",
+        "Genetische Faktoren"
+      ],
+      "richtig": 1,
+      "erklaerung": "Die häufigste Ursache ist das exogene (iatrogene) Cushing-Syndrom durch Medikamenteneinnahme - Langzeittherapie mit Glukokortikoiden oder ACTH (z.B. bei chronischen Entzündungen, Autoimmunerkrankungen).",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Endokrinologie",
+        "Cushing",
+        "iatrogen"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-031-05",
+      "kapitel": "Endokrinologie",
+      "thema": "Cushing - Klinik",
+      "seite": 31,
+      "typ": "multiple_choice",
+      "frage": "Welche klinischen Zeichen treten beim Cushing-Syndrom auf?",
+      "optionen": [
+        "Vollmondgesicht, Stammfettsucht, Stiernacken (infolge Fett-Umverteilung)",
+        "Muskelschwäche, dünne Beine (infolge erhöhten Proteinabbaus)",
+        "Arterielle Hypertonie (infolge mineralkortikoider Wirkung)",
+        "Osteoporose mit Frakturgefahr",
+        "Hyperglykämie → erhöhtes Diabetesrisiko (Cortisol als Insulinantagonist)",
+        "Blaurote Striae rubrae, schlechte Wundheilung",
+        "Gewichtsverlust und niedriger Blutdruck"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "erklaerung": "Cushing-Klinik: Vollmondgesicht/Stammfettsucht/Stiernacken (Fett-Umverteilung), Muskelschwäche/dünne Beine (Proteinabbau), Hypertonie (mineralkortikoide Wirkung), Osteoporose, Hyperglykämie/Diabetesrisiko (Cortisol = Insulinantagonist), Striae rubrae (Hautatrophie), bei Frauen Virilismus/Hirsutismus/Amenorrhö, bei Kindern Wachstumshemmung, psychische Veränderungen.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Endokrinologie",
+        "Cushing",
+        "Klinik"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-031-06",
+      "kapitel": "Endokrinologie",
+      "thema": "Cushing - Striae rubrae",
+      "seite": 31,
+      "typ": "single_choice",
+      "frage": "Warum entstehen beim Cushing-Syndrom blaurote Striae rubrae?",
+      "optionen": [
+        "Durch Sonnenbrand",
+        "Infolge Hautatrophie - die dünne Haut reißt leicht ein",
+        "Durch Allergie",
+        "Durch Infektionen",
+        "Durch Kälte"
+      ],
+      "richtig": 1,
+      "erklaerung": "Die blauroten Striae rubrae (Dehnungsstreifen) entstehen infolge der Hautatrophie - die dünne Haut reißt leicht ein. Cortisol führt zum Abbau von Kollagen und Bindegewebe.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Endokrinologie",
+        "Cushing",
+        "Striae"
+      ],
+      "pruefungsrelevanz": "mittel"
+    },
+    {
+      "id": "STW-031-07",
+      "kapitel": "Endokrinologie",
+      "thema": "Cushing - Komplikationen",
+      "seite": 31,
+      "typ": "multiple_choice",
+      "frage": "Welche Komplikationen können beim Cushing-Syndrom auftreten?",
+      "optionen": [
+        "Diabetes mellitus",
+        "Osteoporose mit erhöhter Frakturneigung",
+        "Arterielle Hypertonie → kardiovaskuläre Komplikationen (Herzinfarkt, Schlaganfall, AVK)",
+        "Untergewicht",
+        "Hypotonie"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Cushing-Komplikationen: Diabetes mellitus, Osteoporose mit Frakturneigung, arterielle Hypertonie → kardiovaskuläre Komplikationen (Herzinfarkt, Schlaganfall, AVK).",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Endokrinologie",
+        "Cushing",
+        "Komplikationen"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-031-08",
+      "kapitel": "Endokrinologie",
+      "thema": "Cushing - Labor",
+      "seite": 31,
+      "typ": "multiple_choice",
+      "frage": "Welche Laborveränderungen zeigt das Cushing-Syndrom?",
+      "optionen": [
+        "Leukozyten, Thrombozyten und Erythrozyten ↑",
+        "Eosinophile und Lymphozyten ↓",
+        "Glukokortikoide im Blut und Urin ↑",
+        "ACTH je nach Ursache ↑ oder ↓",
+        "Alle Blutwerte niedrig"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Cushing-Labor: Leukozyten/Thrombozyten/Erythrozyten ↑, Eosinophile und Lymphozyten ↓, Glukokortikoide im Blut und Urin ↑, ACTH je nach Ursache ↑ (bei Morbus Cushing/ektopem) oder ↓ (bei adrenalem Cushing).",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Endokrinologie",
+        "Cushing",
+        "Labor"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-031-09",
+      "kapitel": "Endokrinologie",
+      "thema": "Dexamethason-Hemmtest",
+      "seite": 31,
+      "typ": "single_choice",
+      "frage": "Was ist der Dexamethason-Hemmtest?",
+      "optionen": [
+        "Ein Test für Diabetes",
+        "Dexamethason (Glukokortikoid) hemmt normalerweise die hypophysäre ACTH-Ausschüttung - bei Gesunden fast vollständige Suppression der Cortisolsekretion",
+        "Ein Allergietest",
+        "Ein Test für Schilddrüsenfunktion",
+        "Ein Nierenfunktionstest"
+      ],
+      "richtig": 1,
+      "erklaerung": "Dexamethason-Hemmtest: Dexamethason (Glukokortikoid) hemmt die hypophysäre ACTH-Ausschüttung (Regelkreis: genügend Cortisol im Blut = keine ACTH-Ausschüttung nötig). Gesunde: fast vollständige Suppression. Morbus Cushing: verminderte Suppression. Nebennierentumoren/ektopes Cushing: keine Suppression.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Endokrinologie",
+        "Cushing",
+        "Dexamethason-Hemmtest",
+        "Diagnostik"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-031-10",
+      "kapitel": "Endokrinologie",
+      "thema": "Cushing - Hyperglykämie",
+      "seite": 31,
+      "typ": "single_choice",
+      "frage": "Warum entsteht beim Cushing-Syndrom eine Hyperglykämie?",
+      "optionen": [
+        "Weil zu wenig gegessen wird",
+        "Weil Cortisol den Blutzucker erhöht (Insulinantagonist)",
+        "Durch Kalziummangel",
+        "Durch Vitaminmangel",
+        "Durch Wassermangel"
+      ],
+      "richtig": 1,
+      "erklaerung": "Beim Cushing-Syndrom entsteht Hyperglykämie, weil Cortisol den Blutzucker erhöht (Cortisol ist ein Insulinantagonist). Dies führt zu einem erhöhten Diabetesrisiko.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Endokrinologie",
+        "Cushing",
+        "Hyperglykämie"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-031-F1",
+      "kapitel": "Endokrinologie",
+      "thema": "Cushing-Syndrom",
+      "seite": 31,
+      "typ": "fallbeispiel",
+      "fallbeschreibung": "Eine 45-jährige Patientin, die seit Jahren wegen Rheuma hochdosiert Kortison einnimmt, entwickelt ein rundes 'Vollmondgesicht', Fettansammlung am Bauch bei dünnen Armen und Beinen, Bluthochdruck und blaurote Dehnungsstreifen am Bauch. Blutzucker erhöht.",
+      "frage": "Welche Diagnose liegt am wahrscheinlichsten vor?",
+      "optionen": [
+        "Morbus Addison",
+        "Exogenes (iatrogenes) Cushing-Syndrom durch die Kortison-Langzeittherapie",
+        "Hyperthyreose",
+        "Morbus Cushing (Hypophysenadenom)",
+        "Diabetes Typ 1"
+      ],
+      "richtig": 1,
+      "erklaerung": "Klassisches exogenes (iatrogenes) Cushing-Syndrom durch die Kortison-Langzeittherapie (häufigste Ursache!). Typische Zeichen: Vollmondgesicht, Stammfettsucht mit dünnen Extremitäten, Hypertonie, Striae rubrae, Hyperglykämie. Da Medikamente die Ursache sind, ist es 'exogen/iatrogen' (nicht Morbus Cushing = Hypophysenadenom).",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Endokrinologie",
+        "Cushing",
+        "iatrogen",
+        "Fallbeispiel"
+      ],
+      "pruefungsrelevanz": "hoch"
     }
   ],
   "vokabeln": [
@@ -13041,6 +14507,604 @@
       "herkunft": "Zucker-Amino-Glykane",
       "eselsbruecke": "Glykos-Amino-Glykane = Zucker-Amino-Verbindungen",
       "beispiel": "Bei Hypothyreose lagern sich Glykosaminoglykane in der Haut ein → Myxödem.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-313",
+      "kapitel": "Endokrinologie",
+      "seite": 27,
+      "lateinisch": "Hyperthyreose",
+      "deutsch": "Schilddrüsenüberfunktion (T3/T4 ↑)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "gr. hyper = über; thyreos = Schild",
+      "eselsbruecke": "Hyper-Thyreose = ZU VIEL Schilddrüsenhormon",
+      "beispiel": "Hyperthyreose beschleunigt den gesamten Stoffwechsel.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-314",
+      "kapitel": "Endokrinologie",
+      "seite": 27,
+      "lateinisch": "Morbus Basedow",
+      "deutsch": "Autoimmune Schilddrüsenüberfunktion",
+      "wortart": "Substantiv (m)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "lat. morbus = Krankheit; nach Carl von Basedow",
+      "eselsbruecke": "Basedow = Merseburger Trias (Struma, Exophthalmus, Tachykardie)",
+      "beispiel": "Morbus Basedow ist eine häufige Ursache der Hyperthyreose.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-315",
+      "kapitel": "Endokrinologie",
+      "seite": 27,
+      "lateinisch": "Schilddrüsenautonomie",
+      "deutsch": "Ungesteuerte Hormonproduktion unabhängig vom Regelkreis",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Pathophysiologie",
+      "herkunft": "gr. autos = selbst; nomos = Gesetz",
+      "eselsbruecke": "Autonomie = 'selbstständig' produzierende Schilddrüse",
+      "beispiel": "Bei Schilddrüsenautonomie zeigen sich 'heiße Knoten' in der Szintigrafie.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-316",
+      "kapitel": "Endokrinologie",
+      "seite": 27,
+      "lateinisch": "autonomes Adenom",
+      "deutsch": "Gutartiger, selbstständig Hormone produzierender Knoten",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "gr. autos = selbst; aden = Drüse",
+      "eselsbruecke": "Autonomes Adenom = 'eigenständiger' Drüsenknoten",
+      "beispiel": "Ein autonomes Adenom kann eine Hyperthyreose verursachen.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-317",
+      "kapitel": "Endokrinologie",
+      "seite": 27,
+      "lateinisch": "Merseburger Trias",
+      "deutsch": "Struma, Exophthalmus, Tachykardie (bei Morbus Basedow)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "nach der Stadt Merseburg",
+      "eselsbruecke": "Merseburger Trias = die 3 Basedow-Zeichen",
+      "beispiel": "Die Merseburger Trias tritt bei 50% der Basedow-Patienten auf.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-318",
+      "kapitel": "Endokrinologie",
+      "seite": 27,
+      "lateinisch": "Exophthalmus",
+      "deutsch": "Hervortreten der Augäpfel",
+      "wortart": "Substantiv (m)",
+      "kategorie": "Symptom",
+      "herkunft": "gr. ex = heraus; ophthalmos = Auge",
+      "eselsbruecke": "Ex-Ophthalmus = Auge tritt HERAUS",
+      "beispiel": "Der Exophthalmus ist typisch für Morbus Basedow.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-319",
+      "kapitel": "Endokrinologie",
+      "seite": 27,
+      "lateinisch": "Tremor",
+      "deutsch": "Zittern (unwillkürliche rhythmische Muskelbewegung)",
+      "wortart": "Substantiv (m)",
+      "kategorie": "Symptom",
+      "herkunft": "lat. tremere = zittern",
+      "eselsbruecke": "Tremor = Zittern (wie 'tremble' im Englischen)",
+      "beispiel": "Feinschlägiger Tremor tritt bei Hyperthyreose auf.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-320",
+      "kapitel": "Endokrinologie",
+      "seite": 27,
+      "lateinisch": "thyreotoxische Krise",
+      "deutsch": "Lebensbedrohliche Entgleisung der Hyperthyreose",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Notfall",
+      "herkunft": "gr. thyreos = Schild; toxikon = Gift",
+      "eselsbruecke": "Thyreotoxisch = 'Schilddrüsen-Vergiftung' (Notfall)",
+      "beispiel": "Die thyreotoxische Krise ist ein lebensbedrohlicher Notfall.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-321",
+      "kapitel": "Endokrinologie",
+      "seite": 27,
+      "lateinisch": "TRAK",
+      "deutsch": "TSH-Rezeptor-Antikörper (bei Morbus Basedow)",
+      "wortart": "Abkürzung",
+      "kategorie": "Diagnostik",
+      "herkunft": "TSH-Rezeptor-Antikörper",
+      "eselsbruecke": "TRAK = Antikörper, die den TSH-Rezeptor stimulieren",
+      "beispiel": "TRAK sind bei Morbus Basedow positiv.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-322",
+      "kapitel": "Endokrinologie",
+      "seite": 27,
+      "lateinisch": "Thyreostatika",
+      "deutsch": "Medikamente zur Hemmung der Schilddrüsenhormonproduktion",
+      "wortart": "Substantiv (n, pl)",
+      "kategorie": "Medikament",
+      "herkunft": "gr. thyreos = Schild; stasis = Stillstand",
+      "eselsbruecke": "Thyreo-Statika stoppen die Schilddrüse (z.B. Thiamazol)",
+      "beispiel": "Thyreostatika wie Thiamazol werden bei Hyperthyreose eingesetzt.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-323",
+      "kapitel": "Endokrinologie",
+      "seite": 27,
+      "lateinisch": "Szintigrafie",
+      "deutsch": "Nuklearmedizinisches Bildgebungsverfahren",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Diagnostik",
+      "herkunft": "lat. scintilla = Funke; gr. graphein = schreiben",
+      "eselsbruecke": "Szintigrafie = 'Funkenbild' mit radioaktivem Marker",
+      "beispiel": "In der Szintigrafie zeigen sich heiße und kalte Knoten.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-324",
+      "kapitel": "Endokrinologie",
+      "seite": 28,
+      "lateinisch": "Schilddrüsenkarzinom",
+      "deutsch": "Bösartiger Tumor der Schilddrüse",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Onkologie",
+      "herkunft": "gr. karkinos = Krebs",
+      "eselsbruecke": "Schilddrüsen-Karzinom = Schilddrüsen-Krebs",
+      "beispiel": "Das Schilddrüsenkarzinom ist der häufigste Tumor des endokrinen Systems.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-325",
+      "kapitel": "Endokrinologie",
+      "seite": 28,
+      "lateinisch": "papilläres Karzinom",
+      "deutsch": "Häufigstes Schilddrüsenkarzinom (60%, gute Prognose)",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Onkologie",
+      "herkunft": "lat. papilla = Warze",
+      "eselsbruecke": "Papillär = warzenartig (häufigster, gutartigster Typ)",
+      "beispiel": "Das papilläre Karzinom hat eine gute Prognose (>90%).",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-326",
+      "kapitel": "Endokrinologie",
+      "seite": 28,
+      "lateinisch": "follikuläres Karzinom",
+      "deutsch": "Zweithäufigstes Schilddrüsenkarzinom (30%)",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Onkologie",
+      "herkunft": "lat. folliculus = Säckchen",
+      "eselsbruecke": "Follikulär = aus Follikeln (bei Jodmangel-Regionen)",
+      "beispiel": "Das follikuläre Karzinom tritt v.a. in Jodmangelgebieten auf.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-327",
+      "kapitel": "Endokrinologie",
+      "seite": 28,
+      "lateinisch": "anaplastisches Karzinom",
+      "deutsch": "Undifferenziertes, aggressives Schilddrüsenkarzinom (5%)",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Onkologie",
+      "herkunft": "gr. ana = zurück; plassein = bilden",
+      "eselsbruecke": "Anaplastisch = 'entdifferenziert' (aggressivster Typ)",
+      "beispiel": "Das anaplastische Karzinom hat eine sehr schlechte Prognose (Tod in 6 Monaten).",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-328",
+      "kapitel": "Endokrinologie",
+      "seite": 28,
+      "lateinisch": "medulläres Karzinom",
+      "deutsch": "Von C-Zellen ausgehendes Karzinom (produziert Calcitonin)",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Onkologie",
+      "herkunft": "lat. medulla = Mark",
+      "eselsbruecke": "Medullär = aus C-Zellen (produziert Calcitonin)",
+      "beispiel": "Das medulläre Karzinom produziert Calcitonin als Tumormarker.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-329",
+      "kapitel": "Endokrinologie",
+      "seite": 28,
+      "lateinisch": "Horner-Syndrom",
+      "deutsch": "Trias: Miosis, Ptosis, Enophthalmus",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Neurologie",
+      "herkunft": "nach Johann Friedrich Horner",
+      "eselsbruecke": "Horner = Miosis + Ptosis + Enophthalmus (Sympathikus-Ausfall)",
+      "beispiel": "Das Horner-Syndrom kann bei Schilddrüsenkarzinom auftreten.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-330",
+      "kapitel": "Endokrinologie",
+      "seite": 28,
+      "lateinisch": "Miosis",
+      "deutsch": "Verengung der Pupille",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Augenheilkunde",
+      "herkunft": "gr. meiosis = Verkleinerung",
+      "eselsbruecke": "Miosis = kleine Pupille (mini)",
+      "beispiel": "Miosis ist Teil des Horner-Syndroms.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-331",
+      "kapitel": "Endokrinologie",
+      "seite": 28,
+      "lateinisch": "Ptosis",
+      "deutsch": "Herabhängen des Oberlids",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Augenheilkunde",
+      "herkunft": "gr. ptosis = Fall",
+      "eselsbruecke": "Ptosis = das Lid 'fällt' herab",
+      "beispiel": "Ptosis ist ein Zeichen des Horner-Syndroms.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-332",
+      "kapitel": "Endokrinologie",
+      "seite": 28,
+      "lateinisch": "Thyreoidektomie",
+      "deutsch": "Operative Entfernung der Schilddrüse",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Medizinische Fachbegriffe",
+      "herkunft": "gr. thyreos = Schild; ektome = Herausschneiden",
+      "eselsbruecke": "Thyreoid-Ektomie = Schilddrüse herausschneiden",
+      "beispiel": "Bei Schilddrüsenkarzinom erfolgt eine totale Thyreoidektomie.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-333",
+      "kapitel": "Endokrinologie",
+      "seite": 28,
+      "lateinisch": "Thyreoglobulin",
+      "deutsch": "Tumormarker bei papillärem/follikulärem Karzinom",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Diagnostik",
+      "herkunft": "gr. thyreos = Schild; globulin",
+      "eselsbruecke": "Thyreo-Globulin = Schilddrüsen-Eiweiß (Tumormarker)",
+      "beispiel": "Thyreoglobulin dient als Tumormarker bei differenzierten Karzinomen.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-334",
+      "kapitel": "Endokrinologie",
+      "seite": 29,
+      "lateinisch": "Hyperparathyreoidismus",
+      "deutsch": "Überfunktion der Nebenschilddrüsen (Parathormon ↑)",
+      "wortart": "Substantiv (m)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "gr. hyper + para + thyros + -ismus",
+      "eselsbruecke": "Hyper-Para-thyreoidismus = zu viel Parathormon",
+      "beispiel": "Der primäre Hyperparathyreoidismus führt zur Hyperkalzämie.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-335",
+      "kapitel": "Endokrinologie",
+      "seite": 29,
+      "lateinisch": "Epithelkörperchen",
+      "deutsch": "Andere Bezeichnung für Nebenschilddrüsen",
+      "wortart": "Substantiv (n, pl)",
+      "kategorie": "Anatomie",
+      "herkunft": "gr. epi = auf; thele = Warze",
+      "eselsbruecke": "Epithelkörperchen = die Nebenschilddrüsen",
+      "beispiel": "Die vier Epithelkörperchen produzieren Parathormon.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-336",
+      "kapitel": "Endokrinologie",
+      "seite": 29,
+      "lateinisch": "Adenom",
+      "deutsch": "Gutartiger Tumor von Drüsengewebe",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Onkologie",
+      "herkunft": "gr. aden = Drüse; -om = Geschwulst",
+      "eselsbruecke": "Aden-om = Drüsen-Geschwulst (gutartig)",
+      "beispiel": "Solitäre Adenome sind die häufigste Ursache des Hyperparathyreoidismus.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-337",
+      "kapitel": "Endokrinologie",
+      "seite": 29,
+      "lateinisch": "Hyperplasie",
+      "deutsch": "Vergrößerung durch Zellvermehrung",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Pathologie",
+      "herkunft": "gr. hyper = über; plasis = Bildung",
+      "eselsbruecke": "Hyper-Plasie = ÜBER-mäßige Zellbildung",
+      "beispiel": "Eine Hyperplasie der Epithelkörperchen kann Hyperparathyreoidismus verursachen.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-338",
+      "kapitel": "Endokrinologie",
+      "seite": 29,
+      "lateinisch": "alkalische Phosphatase",
+      "deutsch": "Enzym (erhöht bei Knochenumbau)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Laborwert",
+      "herkunft": "arab. al-qaly = Pflanzenasche; phosphat",
+      "eselsbruecke": "Alkalische Phosphatase = Knochen-Enzym (bei Umbau ↑)",
+      "beispiel": "Die alkalische Phosphatase ist beim Hyperparathyreoidismus erhöht.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-339",
+      "kapitel": "Endokrinologie",
+      "seite": 29,
+      "lateinisch": "Ulcus ventriculi",
+      "deutsch": "Magengeschwür",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "lat. ulcus = Geschwür; ventriculus = Magen",
+      "eselsbruecke": "Ulcus ventriculi = Magen-Geschwür",
+      "beispiel": "Beim Hyperparathyreoidismus kann ein Ulcus ventriculi auftreten.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-340",
+      "kapitel": "Endokrinologie",
+      "seite": 30,
+      "lateinisch": "Nebennierenrinde (NNR)",
+      "deutsch": "Äußere Schicht der Nebenniere (Hormonproduktion)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Anatomie",
+      "herkunft": "deutsch: Nebenniere + Rinde",
+      "eselsbruecke": "NNR = Salt, Sugar, Sex (Aldosteron, Cortisol, Androgene)",
+      "beispiel": "Die Nebennierenrinde produziert Cortisol und Aldosteron.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-341",
+      "kapitel": "Endokrinologie",
+      "seite": 30,
+      "lateinisch": "Morbus Addison",
+      "deutsch": "Primäre Nebennierenrindeninsuffizienz",
+      "wortart": "Substantiv (m)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "lat. morbus = Krankheit; nach Thomas Addison",
+      "eselsbruecke": "Morbus Addison = 'brauner Addison' (Hyperpigmentierung)",
+      "beispiel": "Morbus Addison führt zu Cortisol- und Aldosteronmangel.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-342",
+      "kapitel": "Endokrinologie",
+      "seite": 30,
+      "lateinisch": "NNR-Insuffizienz",
+      "deutsch": "Unterfunktion der Nebennierenrinde",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "NNR + lat. insufficientia = Unzulänglichkeit",
+      "eselsbruecke": "NNR-Insuffizienz = Nebennierenrinde funktioniert nicht",
+      "beispiel": "Die NNR-Insuffizienz kann primär, sekundär oder tertiär sein.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-343",
+      "kapitel": "Endokrinologie",
+      "seite": 30,
+      "lateinisch": "Autoimmunadrenalitis",
+      "deutsch": "Autoimmunentzündung der Nebenniere (häufigste Addison-Ursache)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Immunologie",
+      "herkunft": "auto + immun + adrenalis + -itis",
+      "eselsbruecke": "Autoimmun-Adrenalitis = Immunsystem greift Nebenniere an",
+      "beispiel": "Die Autoimmunadrenalitis ist mit 80% die häufigste Ursache des Morbus Addison.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-344",
+      "kapitel": "Endokrinologie",
+      "seite": 30,
+      "lateinisch": "Hyperpigmentierung",
+      "deutsch": "Verstärkte Braunfärbung der Haut",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Symptom",
+      "herkunft": "gr. hyper = über; lat. pigmentum = Farbstoff",
+      "eselsbruecke": "Hyper-Pigmentierung = ÜBER-mäßige Braunfärbung",
+      "beispiel": "Die Hyperpigmentierung beim braunen Addison wird durch MSH verursacht.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-345",
+      "kapitel": "Endokrinologie",
+      "seite": 30,
+      "lateinisch": "Addison-Krise",
+      "deutsch": "Lebensbedrohliche akute NNR-Insuffizienz",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Notfall",
+      "herkunft": "nach Thomas Addison",
+      "eselsbruecke": "Addison-Krise = Notfall bei Nebennierenversagen",
+      "beispiel": "Die Addison-Krise führt zu Schock und Koma.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-346",
+      "kapitel": "Endokrinologie",
+      "seite": 30,
+      "lateinisch": "Waterhouse-Friderichsen-Syndrom",
+      "deutsch": "Nebennierenversagen durch Meningokokken-Sepsis",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Notfall",
+      "herkunft": "nach Waterhouse und Friderichsen",
+      "eselsbruecke": "Waterhouse-Friderichsen = Nebennierenblutung bei Sepsis",
+      "beispiel": "Das Waterhouse-Friderichsen-Syndrom kann durch Meningokokken ausgelöst werden.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-347",
+      "kapitel": "Endokrinologie",
+      "seite": 30,
+      "lateinisch": "MSH",
+      "deutsch": "Melanozyten-stimulierendes Hormon (Hautpigmentierung)",
+      "wortart": "Abkürzung",
+      "kategorie": "Hormon",
+      "herkunft": "engl. Melanocyte-Stimulating Hormone",
+      "eselsbruecke": "MSH = macht die Haut braun (Melanin)",
+      "beispiel": "Erhöhtes MSH verursacht die Hyperpigmentierung beim Morbus Addison.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-348",
+      "kapitel": "Endokrinologie",
+      "seite": 30,
+      "lateinisch": "Dehydratation",
+      "deutsch": "Flüssigkeitsmangel (Austrocknung)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Symptom",
+      "herkunft": "lat. de = weg; gr. hydor = Wasser",
+      "eselsbruecke": "De-Hydratation = Wasser WEG (Austrocknung)",
+      "beispiel": "Dehydratation und Salzhunger sind typisch für Morbus Addison.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-349",
+      "kapitel": "Endokrinologie",
+      "seite": 31,
+      "lateinisch": "Cushing-Syndrom",
+      "deutsch": "Erkrankung mit erhöhtem Cortisol (Hypercortisolismus)",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "nach Harvey Cushing",
+      "eselsbruecke": "Cushing = Vollmondgesicht + Stammfettsucht + Stiernacken",
+      "beispiel": "Das Cushing-Syndrom ist durch erhöhtes Cortisol charakterisiert.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-350",
+      "kapitel": "Endokrinologie",
+      "seite": 31,
+      "lateinisch": "Hypercortisolismus",
+      "deutsch": "Zu hohe Cortisolkonzentration",
+      "wortart": "Substantiv (m)",
+      "kategorie": "Pathophysiologie",
+      "herkunft": "gr. hyper = über; cortisol",
+      "eselsbruecke": "Hyper-Cortisolismus = ZU VIEL Cortisol",
+      "beispiel": "Der Hypercortisolismus verursacht das Cushing-Syndrom.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-351",
+      "kapitel": "Endokrinologie",
+      "seite": 31,
+      "lateinisch": "Morbus Cushing",
+      "deutsch": "Cushing durch ACTH-produzierendes Hypophysenadenom",
+      "wortart": "Substantiv (m)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "lat. morbus; nach Harvey Cushing",
+      "eselsbruecke": "Morbus Cushing = Cushing durch Hypophysenadenom (zentral)",
+      "beispiel": "Beim Morbus Cushing produziert ein Hypophysenadenom zu viel ACTH.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-352",
+      "kapitel": "Endokrinologie",
+      "seite": 31,
+      "lateinisch": "Stammfettsucht",
+      "deutsch": "Fettansammlung am Rumpf (bei dünnen Extremitäten)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Symptom",
+      "herkunft": "deutsch: Stamm + Fett + Sucht",
+      "eselsbruecke": "Stammfettsucht = Fett am Stamm (Rumpf), dünne Arme/Beine",
+      "beispiel": "Die Stammfettsucht ist typisch für das Cushing-Syndrom.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-353",
+      "kapitel": "Endokrinologie",
+      "seite": 31,
+      "lateinisch": "Vollmondgesicht",
+      "deutsch": "Rundes, aufgedunsenes Gesicht (bei Cushing)",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Symptom",
+      "herkunft": "deutsch: Vollmond + Gesicht",
+      "eselsbruecke": "Vollmondgesicht = rund wie der Vollmond",
+      "beispiel": "Das Vollmondgesicht ist ein Leitsymptom des Cushing-Syndroms.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-354",
+      "kapitel": "Endokrinologie",
+      "seite": 31,
+      "lateinisch": "Striae rubrae",
+      "deutsch": "Blaurote Dehnungsstreifen der Haut",
+      "wortart": "Substantiv (f, pl)",
+      "kategorie": "Symptom",
+      "herkunft": "lat. stria = Streifen; ruber = rot",
+      "eselsbruecke": "Striae rubrae = rote Streifen (Dehnungsstreifen)",
+      "beispiel": "Striae rubrae entstehen beim Cushing durch Hautatrophie.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-355",
+      "kapitel": "Endokrinologie",
+      "seite": 31,
+      "lateinisch": "Hirsutismus",
+      "deutsch": "Vermehrte männliche Körperbehaarung bei Frauen",
+      "wortart": "Substantiv (m)",
+      "kategorie": "Symptom",
+      "herkunft": "lat. hirsutus = behaart",
+      "eselsbruecke": "Hirsutismus = starke Behaarung (bei Frauen, durch Androgene)",
+      "beispiel": "Hirsutismus kann beim Cushing-Syndrom bei Frauen auftreten.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-356",
+      "kapitel": "Endokrinologie",
+      "seite": 31,
+      "lateinisch": "Dexamethason-Hemmtest",
+      "deutsch": "Test zur Cushing-Diagnostik (ACTH-Suppression)",
+      "wortart": "Substantiv (m)",
+      "kategorie": "Diagnostik",
+      "herkunft": "Dexamethason + Hemmtest",
+      "eselsbruecke": "Dexamethason-Test = prüft, ob Cortisol supprimierbar ist",
+      "beispiel": "Der Dexamethason-Hemmtest unterscheidet die Cushing-Formen.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-357",
+      "kapitel": "Endokrinologie",
+      "seite": 31,
+      "lateinisch": "iatrogen",
+      "deutsch": "Durch ärztliche Behandlung verursacht",
+      "wortart": "Adjektiv",
+      "kategorie": "Allgemein",
+      "herkunft": "gr. iatros = Arzt; genes = verursacht",
+      "eselsbruecke": "Iatrogen = durch den Arzt (z.B. Medikamente) verursacht",
+      "beispiel": "Das häufigste Cushing-Syndrom ist iatrogen (durch Kortison-Therapie).",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-358",
+      "kapitel": "Endokrinologie",
+      "seite": 31,
+      "lateinisch": "Insulinantagonist",
+      "deutsch": "Gegenspieler von Insulin (erhöht Blutzucker)",
+      "wortart": "Substantiv (m)",
+      "kategorie": "Biochemie",
+      "herkunft": "insulin + gr. antagonistes = Gegner",
+      "eselsbruecke": "Insulin-Antagonist = Insulin-Gegner (z.B. Cortisol)",
+      "beispiel": "Cortisol wirkt als Insulinantagonist und erhöht den Blutzucker.",
       "schwierigkeit": "schwer"
     }
   ]
