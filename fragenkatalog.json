@@ -1,7 +1,7 @@
 {
-  "version": "5.2",
-  "erstellt_am": "2026-07-05",
-  "beschreibung": "Fragenkatalog + Vokabeltrainer Heilpraktikerprüfung - Seite 3-31 (Stoffwechsel + Hormonsystem + Endokrinologie: Met. Syndrom, Diabetes, Fettstoffwechsel, Mukoviszidose, Kalium, Kalzium, Hormonübersicht, RAAS, Schilddrüse, Hypo-/Hyperthyreose, Schilddrüsenkarzinom, Hyperparathyreoidismus, Addison, Cushing)",
+  "version": "5.3",
+  "erstellt_am": "2026-07-08",
+  "beschreibung": "Fragenkatalog + Vokabeltrainer Heilpraktikerprüfung - Seite 3-31. Persische Übersetzung (فارسی): Seite 3 fertig, weitere Seiten folgen.",
   "fragenkatalog": [
     {
       "id": "STW-003-01",
@@ -10,6 +10,7 @@
       "seite": 3,
       "typ": "single_choice",
       "frage": "Was versteht man unter dem metabolischen Syndrom?",
+      "frage_fa": "منظور از سندرم متابولیک چیست؟",
       "optionen": [
         "Eine Mangelerkrankung in Entwicklungsländern",
         "Ein Wohlstandssyndrom durch Überernährung und Bewegungsmangel",
@@ -17,8 +18,16 @@
         "Eine Infektionskrankheit der Bauchspeicheldrüse",
         "Eine autoimmun bedingte Hormonstörung"
       ],
+      "optionen_fa": [
+        "یک بیماری ناشی از کمبود در کشورهای در حال توسعه",
+        "یک سندرم رفاه ناشی از پرخوری و کم‌تحرکی",
+        "یک اختلال متابولیک ژنتیکی در دوران کودکی",
+        "یک بیماری عفونی لوزالمعده (پانکراس)",
+        "یک اختلال هورمونی خودایمنی"
+      ],
       "richtig": 1,
       "erklaerung": "Das metabolische Syndrom ist ein Wohlstandssyndrom in hoch entwickelten Industriestaaten, das vor allem Menschen mit starker Überernährung und chronischem Bewegungsmangel betrifft.",
+      "erklaerung_fa": "سندرم متابولیک یک سندرم رفاه در کشورهای صنعتی پیشرفته است که به‌ویژه افراد با پرخوری شدید و کم‌تحرکی مزمن را درگیر می‌کند.",
       "schwierigkeit": "leicht",
       "tags": [
         "Stoffwechsel",
@@ -34,6 +43,7 @@
       "seite": 3,
       "typ": "multiple_choice",
       "frage": "Welche vier Faktoren gehören zum sogenannten 'tödlichen Quartett'?",
+      "frage_fa": "کدام چهار عامل به «چهارگانه مرگبار» تعلق دارند؟",
       "optionen": [
         "Adipositas",
         "Arterielle Hypertonie",
@@ -42,6 +52,14 @@
         "Dyslipoproteinämie",
         "Hyperurikämie"
       ],
+      "optionen_fa": [
+        "چاقی",
+        "فشار خون شریانی بالا",
+        "پرکاری تیروئید",
+        "دیابت شیرین / اختلال تحمل گلوکز",
+        "اختلال چربی خون (دیس‌لیپوپروتئینمی)",
+        "افزایش اسید اوریک خون (هایپراوریسمی)"
+      ],
       "richtig": [
         0,
         1,
@@ -49,6 +67,7 @@
         4
       ],
       "erklaerung": "Das tödliche Quartett umfasst: Adipositas, arterielle Hypertonie, Diabetes mellitus bzw. Glukosetoleranzstörung sowie Dyslipoproteinämie (Fettstoffwechselstörung).",
+      "erklaerung_fa": "چهارگانه مرگبار شامل: چاقی، فشار خون شریانی بالا، دیابت شیرین یا اختلال تحمل گلوکز و دیس‌لیپوپروتئینمی (اختلال متابولیسم چربی) است.",
       "schwierigkeit": "mittel",
       "tags": [
         "Stoffwechsel",
@@ -64,6 +83,7 @@
       "seite": 3,
       "typ": "single_choice",
       "frage": "Wie viel Prozent der deutschen Bevölkerung sind etwa vom metabolischen Syndrom betroffen?",
+      "frage_fa": "حدود چند درصد از جمعیت آلمان به سندرم متابولیک مبتلا هستند؟",
       "optionen": [
         "ca. 5 %",
         "ca. 10 %",
@@ -71,8 +91,16 @@
         "ca. 35 %",
         "ca. 50 %"
       ],
+      "optionen_fa": [
+        "حدود 5٪",
+        "حدود 10٪",
+        "حدود 20٪",
+        "حدود 35٪",
+        "حدود 50٪"
+      ],
       "richtig": 2,
       "erklaerung": "In Deutschland sind ca. 20 % der Bevölkerung vom metabolischen Syndrom betroffen.",
+      "erklaerung_fa": "در آلمان حدود 20٪ از جمعیت به سندرم متابولیک مبتلا هستند.",
       "schwierigkeit": "leicht",
       "tags": [
         "Stoffwechsel",
@@ -88,6 +116,7 @@
       "seite": 3,
       "typ": "single_choice",
       "frage": "Welche Definition des metabolischen Syndroms wird heute beim Lernen bevorzugt?",
+      "frage_fa": "کدام تعریف سندرم متابولیک امروزه در یادگیری ترجیح داده می‌شود؟",
       "optionen": [
         "WHO 1999",
         "NCEP-ATP-III 2002",
@@ -95,8 +124,16 @@
         "DGE 2010",
         "Es gibt keine bevorzugte Definition"
       ],
+      "optionen_fa": [
+        "WHO 1999",
+        "NCEP-ATP-III 2002",
+        "IDF 2005",
+        "DGE 2010",
+        "هیچ تعریف ترجیحی وجود ندارد"
+      ],
       "richtig": 2,
       "erklaerung": "Eine allgemein akzeptierte Definition gibt es bislang nicht. Die IDF-Kriterien (International Diabetes Federation, 2005) werden jedoch beim Lernen bevorzugt.",
+      "erklaerung_fa": "تاکنون تعریف مورد قبول همگان وجود ندارد. اما معیارهای IDF (فدراسیون بین‌المللی دیابت، 2005) در یادگیری ترجیح داده می‌شوند.",
       "schwierigkeit": "leicht",
       "tags": [
         "Stoffwechsel",
@@ -112,6 +149,7 @@
       "seite": 3,
       "typ": "single_choice",
       "frage": "Welcher Bauchumfang gilt nach den IDF-Kriterien bei Männern als pathologisch?",
+      "frage_fa": "بر اساس معیارهای IDF، چه دور کمری در مردان بیمارگونه محسوب می‌شود؟",
       "optionen": [
         "≥ 80 cm",
         "≥ 88 cm",
@@ -119,8 +157,16 @@
         "≥ 102 cm",
         "≥ 110 cm"
       ],
+      "optionen_fa": [
+        "≥ 80 سانتی‌متر",
+        "≥ 88 سانتی‌متر",
+        "≥ 94 سانتی‌متر",
+        "≥ 102 سانتی‌متر",
+        "≥ 110 سانتی‌متر"
+      ],
       "richtig": 2,
       "erklaerung": "Nach IDF: Männer ≥ 94 cm, Frauen ≥ 80 cm. Zum Vergleich NCEP-ATP-III: Männer ≥ 102 cm, Frauen ≥ 88 cm.",
+      "erklaerung_fa": "بر اساس IDF: مردان ≥ 94 سانتی‌متر، زنان ≥ 80 سانتی‌متر. برای مقایسه NCEP-ATP-III: مردان ≥ 102 سانتی‌متر، زنان ≥ 88 سانتی‌متر.",
       "schwierigkeit": "mittel",
       "tags": [
         "Stoffwechsel",
@@ -137,6 +183,7 @@
       "seite": 3,
       "typ": "single_choice",
       "frage": "Welcher Bauchumfang gilt nach den IDF-Kriterien bei Frauen als pathologisch?",
+      "frage_fa": "بر اساس معیارهای IDF، چه دور کمری در زنان بیمارگونه محسوب می‌شود؟",
       "optionen": [
         "≥ 70 cm",
         "≥ 80 cm",
@@ -144,8 +191,16 @@
         "≥ 94 cm",
         "≥ 102 cm"
       ],
+      "optionen_fa": [
+        "≥ 70 سانتی‌متر",
+        "≥ 80 سانتی‌متر",
+        "≥ 88 سانتی‌متر",
+        "≥ 94 سانتی‌متر",
+        "≥ 102 سانتی‌متر"
+      ],
       "richtig": 1,
       "erklaerung": "Nach IDF gilt bei Frauen ein Bauchumfang ≥ 80 cm als Kriterium.",
+      "erklaerung_fa": "بر اساس IDF، دور کمر ≥ 80 سانتی‌متر در زنان به‌عنوان معیار محسوب می‌شود.",
       "schwierigkeit": "mittel",
       "tags": [
         "Stoffwechsel",
@@ -162,7 +217,15 @@
       "seite": 3,
       "typ": "single_choice",
       "frage": "Ab welchem BMI-Wert spricht die WHO im Rahmen des metabolischen Syndroms von Adipositas?",
+      "frage_fa": "سازمان جهانی بهداشت (WHO) از چه مقدار BMI در چارچوب سندرم متابولیک، چاقی را تعریف می‌کند؟",
       "optionen": [
+        "≥ 25",
+        "≥ 27",
+        "≥ 30",
+        "≥ 35",
+        "≥ 40"
+      ],
+      "optionen_fa": [
         "≥ 25",
         "≥ 27",
         "≥ 30",
@@ -171,6 +234,7 @@
       ],
       "richtig": 2,
       "erklaerung": "Die WHO-Definition (1999) nennt einen BMI ≥ 30 als Kriterium.",
+      "erklaerung_fa": "تعریف WHO (1999) مقدار BMI ≥ 30 را به‌عنوان معیار ذکر می‌کند.",
       "schwierigkeit": "leicht",
       "tags": [
         "Stoffwechsel",
@@ -187,6 +251,7 @@
       "seite": 3,
       "typ": "multiple_choice",
       "frage": "Welche Werte für das Waist-to-Hip-Ratio nennt die WHO-Definition?",
+      "frage_fa": "تعریف WHO چه مقادیری را برای نسبت دور کمر به باسن (Waist-to-Hip) ذکر می‌کند؟",
       "optionen": [
         "Männer > 0,85",
         "Männer > 1,0",
@@ -194,11 +259,19 @@
         "Frauen > 1,0",
         "Männer > 0,9"
       ],
+      "optionen_fa": [
+        "مردان > 0.85",
+        "مردان > 1.0",
+        "زنان > 0.85",
+        "زنان > 1.0",
+        "مردان > 0.9"
+      ],
       "richtig": [
         1,
         2
       ],
       "erklaerung": "WHO: Männer > 1,0 und Frauen > 0,85.",
+      "erklaerung_fa": "WHO: مردان > 1.0 و زنان > 0.85.",
       "schwierigkeit": "schwer",
       "tags": [
         "Stoffwechsel",
@@ -215,7 +288,15 @@
       "seite": 3,
       "typ": "single_choice",
       "frage": "Ab welchem Triglyzerid-Wert ist das Kriterium des metabolischen Syndroms erfüllt (alle drei Definitionen)?",
+      "frage_fa": "از چه مقدار تری‌گلیسیرید معیار سندرم متابولیک برآورده می‌شود (هر سه تعریف)؟",
       "optionen": [
+        "≥ 100 mg/dl",
+        "≥ 130 mg/dl",
+        "≥ 150 mg/dl",
+        "≥ 180 mg/dl",
+        "≥ 200 mg/dl"
+      ],
+      "optionen_fa": [
         "≥ 100 mg/dl",
         "≥ 130 mg/dl",
         "≥ 150 mg/dl",
@@ -224,6 +305,7 @@
       ],
       "richtig": 2,
       "erklaerung": "WHO, NCEP-ATP-III und IDF nennen einheitlich ≥ 150 mg/dl (bei NCEP und IDF auch 'oder in Therapie').",
+      "erklaerung_fa": "WHO، NCEP-ATP-III و IDF به‌طور یکسان ≥ 150 mg/dl را ذکر می‌کنند (در NCEP و IDF همچنین «یا تحت درمان»).",
       "schwierigkeit": "mittel",
       "tags": [
         "Stoffwechsel",
@@ -240,7 +322,15 @@
       "seite": 3,
       "typ": "single_choice",
       "frage": "Welcher HDL-Cholesterin-Wert gilt nach IDF bei Männern als pathologisch?",
+      "frage_fa": "بر اساس IDF، چه مقدار کلسترول HDL در مردان بیمارگونه محسوب می‌شود؟",
       "optionen": [
+        "< 35 mg/dl",
+        "< 40 mg/dl",
+        "< 45 mg/dl",
+        "< 50 mg/dl",
+        "< 60 mg/dl"
+      ],
+      "optionen_fa": [
         "< 35 mg/dl",
         "< 40 mg/dl",
         "< 45 mg/dl",
@@ -249,6 +339,7 @@
       ],
       "richtig": 1,
       "erklaerung": "IDF und NCEP-ATP-III: Männer < 40 mg/dl, Frauen < 50 mg/dl. WHO: Männer < 35 mg/dl, Frauen < 39 mg/dl.",
+      "erklaerung_fa": "IDF و NCEP-ATP-III: مردان < 40 mg/dl، زنان < 50 mg/dl. WHO: مردان < 35 mg/dl، زنان < 39 mg/dl.",
       "schwierigkeit": "mittel",
       "tags": [
         "Stoffwechsel",
@@ -265,7 +356,15 @@
       "seite": 3,
       "typ": "single_choice",
       "frage": "Welcher HDL-Cholesterin-Wert gilt nach IDF bei Frauen als pathologisch?",
+      "frage_fa": "بر اساس IDF، چه مقدار کلسترول HDL در زنان بیمارگونه محسوب می‌شود؟",
       "optionen": [
+        "< 35 mg/dl",
+        "< 39 mg/dl",
+        "< 45 mg/dl",
+        "< 50 mg/dl",
+        "< 60 mg/dl"
+      ],
+      "optionen_fa": [
         "< 35 mg/dl",
         "< 39 mg/dl",
         "< 45 mg/dl",
@@ -274,6 +373,7 @@
       ],
       "richtig": 3,
       "erklaerung": "IDF und NCEP-ATP-III: Frauen < 50 mg/dl.",
+      "erklaerung_fa": "IDF و NCEP-ATP-III: زنان < 50 mg/dl.",
       "schwierigkeit": "mittel",
       "tags": [
         "Stoffwechsel",
@@ -290,7 +390,15 @@
       "seite": 3,
       "typ": "single_choice",
       "frage": "Ab welchen Blutdruckwerten ist das Kriterium nach IDF erfüllt?",
+      "frage_fa": "از چه مقادیر فشار خونی معیار بر اساس IDF برآورده می‌شود؟",
       "optionen": [
+        "≥ 120/80 mmHg",
+        "≥ 130/85 mmHg",
+        "≥ 140/90 mmHg",
+        "≥ 160/95 mmHg",
+        "≥ 180/100 mmHg"
+      ],
+      "optionen_fa": [
         "≥ 120/80 mmHg",
         "≥ 130/85 mmHg",
         "≥ 140/90 mmHg",
@@ -299,6 +407,7 @@
       ],
       "richtig": 1,
       "erklaerung": "IDF und NCEP-ATP-III: ≥ 130/85 mmHg oder in Therapie. WHO: ≥ 140/90 mmHg.",
+      "erklaerung_fa": "IDF و NCEP-ATP-III: ≥ 130/85 mmHg یا تحت درمان. WHO: ≥ 140/90 mmHg.",
       "schwierigkeit": "mittel",
       "tags": [
         "Stoffwechsel",
@@ -315,7 +424,15 @@
       "seite": 3,
       "typ": "single_choice",
       "frage": "Ab welchem Nüchternglukose-Wert ist das Kriterium des metabolischen Syndroms erfüllt?",
+      "frage_fa": "از چه مقدار قند خون ناشتا معیار سندرم متابولیک برآورده می‌شود؟",
       "optionen": [
+        "≥ 80 mg/dl",
+        "≥ 90 mg/dl",
+        "≥ 100 mg/dl",
+        "≥ 110 mg/dl",
+        "≥ 126 mg/dl"
+      ],
+      "optionen_fa": [
         "≥ 80 mg/dl",
         "≥ 90 mg/dl",
         "≥ 100 mg/dl",
@@ -324,6 +441,7 @@
       ],
       "richtig": 2,
       "erklaerung": "Alle drei Definitionen nennen ≥ 100 mg/dl (NCEP und IDF: oder in Therapie / bei bekanntem Diabetes).",
+      "erklaerung_fa": "هر سه تعریف ≥ 100 mg/dl را ذکر می‌کنند (NCEP و IDF: یا تحت درمان / در صورت دیابت شناخته‌شده).",
       "schwierigkeit": "mittel",
       "tags": [
         "Stoffwechsel",
@@ -340,8 +458,10 @@
       "seite": 3,
       "typ": "richtig_falsch",
       "frage": "Bei den IDF-Kriterien müssen neben der Adipositas mit erhöhtem Bauchumfang zusätzlich 2 weitere Faktoren vorhanden sein.",
+      "frage_fa": "در معیارهای IDF، علاوه بر چاقی با دور کمر افزایش‌یافته، باید ۲ عامل دیگر نیز وجود داشته باشد.",
       "richtig": true,
       "erklaerung": "Korrekt – bei der IDF-Definition ist die abdominelle Adipositas Pflicht plus mindestens 2 weitere Kriterien.",
+      "erklaerung_fa": "درست است — در تعریف IDF، چاقی شکمی اجباری است به‌علاوهٔ حداقل ۲ معیار دیگر.",
       "schwierigkeit": "mittel",
       "tags": [
         "Stoffwechsel",
@@ -357,6 +477,7 @@
       "seite": 3,
       "typ": "single_choice",
       "frage": "Mikroalbuminurie ist nur bei welcher Definition des metabolischen Syndroms ein Kriterium?",
+      "frage_fa": "میکروآلبومینوری فقط در کدام تعریف سندرم متابولیک یک معیار است؟",
       "optionen": [
         "WHO",
         "NCEP-ATP-III",
@@ -364,8 +485,16 @@
         "Bei allen drei",
         "Bei keiner"
       ],
+      "optionen_fa": [
+        "WHO",
+        "NCEP-ATP-III",
+        "IDF",
+        "در هر سه",
+        "در هیچ‌کدام"
+      ],
       "richtig": 0,
       "erklaerung": "Nur die WHO nennt die Mikroalbuminurie als Kriterium: Albumin im Urin ≥ 20 µg/min bzw. Albumin-Kreatinin-Quotient ≥ 30 mg/g.",
+      "erklaerung_fa": "فقط WHO میکروآلبومینوری را به‌عنوان معیار ذکر می‌کند: آلبومین در ادرار ≥ 20 میکروگرم در دقیقه یا نسبت آلبومین به کراتینین ≥ 30 mg/g.",
       "schwierigkeit": "schwer",
       "tags": [
         "Stoffwechsel",
@@ -382,6 +511,7 @@
       "seite": 3,
       "typ": "multiple_choice",
       "frage": "Welche Aussagen zum metabolischen Syndrom sind richtig?",
+      "frage_fa": "کدام گزاره‌ها دربارهٔ سندرم متابولیک درست هستند؟",
       "optionen": [
         "Es betrifft vor allem Menschen in Entwicklungsländern",
         "Chronischer Bewegungsmangel ist ein wichtiger Risikofaktor",
@@ -389,12 +519,20 @@
         "In Deutschland sind ca. 5 % der Bevölkerung betroffen",
         "Überernährung ist ein Hauptauslöser"
       ],
+      "optionen_fa": [
+        "این بیماری عمدتاً افراد در کشورهای در حال توسعه را درگیر می‌کند",
+        "کم‌تحرکی مزمن یک عامل خطر مهم است",
+        "ترکیب هر چهار عامل «چهارگانهٔ مرگبار» نیز نامیده می‌شود",
+        "در آلمان حدود 5٪ از جمعیت مبتلا هستند",
+        "پرخوری یکی از عوامل اصلی است"
+      ],
       "richtig": [
         1,
         2,
         4
       ],
       "erklaerung": "Es betrifft Industriestaaten (nicht Entwicklungsländer), ca. 20 % (nicht 5 %) der deutschen Bevölkerung. Bewegungsmangel, Überernährung und das 'tödliche Quartett' sind korrekte Aussagen.",
+      "erklaerung_fa": "این بیماری کشورهای صنعتی (نه در حال توسعه) را درگیر می‌کند، حدود 20٪ (نه 5٪) از جمعیت آلمان. کم‌تحرکی، پرخوری و «چهارگانهٔ مرگبار» گزاره‌های درستی هستند.",
       "schwierigkeit": "mittel",
       "tags": [
         "Stoffwechsel",
@@ -409,7 +547,9 @@
       "seite": 3,
       "typ": "fallbeispiel",
       "fallbeschreibung": "Ein 52-jähriger Manager (BMI 32, Bauchumfang 106 cm) kommt in Ihre Praxis. Laborwerte: Nüchternglukose 112 mg/dl, Triglyzeride 178 mg/dl, HDL 38 mg/dl. Blutdruck: 145/92 mmHg. Er klagt über Müdigkeit und Bewegungsmangel.",
+      "fallbeschreibung_fa": "یک مدیر ۵۲ ساله (BMI 32، دور کمر 106 سانتی‌متر) به مطب شما می‌آید. مقادیر آزمایشگاهی: قند خون ناشتا 112 mg/dl، تری‌گلیسیرید 178 mg/dl، HDL 38 mg/dl. فشار خون: 145/92 mmHg. او از خستگی و کم‌تحرکی شکایت دارد.",
       "frage": "Wie viele Kriterien des metabolischen Syndroms (nach IDF) erfüllt dieser Patient?",
+      "frage_fa": "این بیمار چند معیار سندرم متابولیک (بر اساس IDF) را برآورده می‌کند؟",
       "optionen": [
         "2 Kriterien",
         "3 Kriterien",
@@ -417,8 +557,16 @@
         "Alle 5 Kriterien",
         "Keine eindeutige Aussage möglich"
       ],
+      "optionen_fa": [
+        "۲ معیار",
+        "۳ معیار",
+        "۴ معیار",
+        "هر ۵ معیار",
+        "اظهار نظر قطعی ممکن نیست"
+      ],
       "richtig": 3,
       "erklaerung": "Der Patient erfüllt ALLE 5 IDF-Kriterien: (1) Bauchumfang ≥ 94 cm (106 cm) ✓ (2) Nüchternglukose ≥ 100 mg/dl (112) ✓ (3) Triglyzeride ≥ 150 mg/dl (178) ✓ (4) HDL < 40 mg/dl (38) ✓ (5) Blutdruck ≥ 130/85 mmHg (145/92) ✓. Diagnose: Vollbild des metabolischen Syndroms (tödliches Quartett).",
+      "erklaerung_fa": "بیمار هر ۵ معیار IDF را برآورده می‌کند: (۱) دور کمر ≥ 94 سانتی‌متر (106) ✓ (۲) قند ناشتا ≥ 100 mg/dl (112) ✓ (۳) تری‌گلیسیرید ≥ 150 mg/dl (178) ✓ (۴) HDL < 40 mg/dl (38) ✓ (۵) فشار خون ≥ 130/85 mmHg (145/92) ✓. تشخیص: تصویر کامل سندرم متابولیک (چهارگانهٔ مرگبار).",
       "schwierigkeit": "schwer",
       "tags": [
         "Stoffwechsel",
@@ -435,7 +583,9 @@
       "seite": 3,
       "typ": "fallbeispiel",
       "fallbeschreibung": "Eine 45-jährige Patientin (Bauchumfang 78 cm, BMI 24) hat folgende Werte: Triglyzeride 165 mg/dl, HDL 45 mg/dl, Blutdruck 135/88 mmHg, Nüchternglukose 105 mg/dl.",
+      "fallbeschreibung_fa": "یک بیمار زن ۴۵ ساله (دور کمر 78 سانتی‌متر، BMI 24) مقادیر زیر را دارد: تری‌گلیسیرید 165 mg/dl، HDL 45 mg/dl، فشار خون 135/88 mmHg، قند خون ناشتا 105 mg/dl.",
       "frage": "Welche Aussage ist nach den IDF-Kriterien korrekt?",
+      "frage_fa": "بر اساس معیارهای IDF کدام گزاره درست است؟",
       "optionen": [
         "Die Patientin hat ein metabolisches Syndrom, weil sie 3 Kriterien erfüllt",
         "Die Patientin hat KEIN metabolisches Syndrom nach IDF, da der Bauchumfang < 80 cm beträgt",
@@ -443,8 +593,16 @@
         "Die Diagnose ist erst nach OGTT möglich",
         "Die Patientin erfüllt alle 5 Kriterien"
       ],
+      "optionen_fa": [
+        "بیمار سندرم متابولیک دارد، زیرا ۳ معیار را برآورده می‌کند",
+        "بیمار بر اساس IDF سندرم متابولیک ندارد، زیرا دور کمر < 80 سانتی‌متر است",
+        "بیمار سندرم متابولیک دارد، زیرا BMI < 30 است",
+        "تشخیص فقط پس از OGTT (تست تحمل گلوکز خوراکی) ممکن است",
+        "بیمار هر ۵ معیار را برآورده می‌کند"
+      ],
       "richtig": 1,
       "erklaerung": "Nach IDF ist die abdominelle Adipositas (Bauchumfang Frauen ≥ 80 cm) eine ZWINGENDE Voraussetzung. Da die Patientin 78 cm hat, liegt nach IDF KEIN metabolisches Syndrom vor – auch wenn andere Kriterien erfüllt wären. Nach NCEP-ATP-III hingegen wäre die Diagnose möglich, da dort 3 von 5 Kriterien ausreichen.",
+      "erklaerung_fa": "بر اساس IDF، چاقی شکمی (دور کمر زنان ≥ 80 سانتی‌متر) یک پیش‌شرط الزامی است. از آنجا که بیمار 78 سانتی‌متر دارد، بر اساس IDF سندرم متابولیک وجود ندارد — حتی اگر سایر معیارها برآورده شوند. اما بر اساس NCEP-ATP-III تشخیص ممکن است، زیرا در آنجا ۳ از ۵ معیار کافی است.",
       "schwierigkeit": "schwer",
       "tags": [
         "Stoffwechsel",
@@ -462,7 +620,9 @@
       "seite": 3,
       "typ": "fallbeispiel",
       "fallbeschreibung": "Ein Patient mit metabolischem Syndrom fragt Sie als Heilpraktiker, welche Maßnahmen er ergreifen kann. Er ist 58 Jahre, übergewichtig und bewegt sich kaum.",
+      "fallbeschreibung_fa": "یک بیمار مبتلا به سندرم متابولیک از شما به‌عنوان طبیعت‌درمانگر (هایل‌پراکتیکر) می‌پرسد که چه اقداماتی می‌تواند انجام دهد. او ۵۸ ساله و دارای اضافه‌وزن است و به‌سختی حرکت می‌کند.",
       "frage": "Welche grundlegenden Empfehlungen sind bei einem metabolischen Syndrom sinnvoll? (Mehrfachauswahl)",
+      "frage_fa": "کدام توصیه‌های اساسی در سندرم متابولیک منطقی هستند؟ (چند گزینه‌ای)",
       "optionen": [
         "Gewichtsreduktion durch kalorienreduzierte Mischkost",
         "Regelmäßige körperliche Bewegung (min. 30 min/Tag)",
@@ -471,6 +631,14 @@
         "Stressreduktion und ausreichend Schlaf",
         "Vermeidung von Ballaststoffen"
       ],
+      "optionen_fa": [
+        "کاهش وزن از طریق رژیم غذایی متنوع با کالری کاهش‌یافته",
+        "فعالیت بدنی منظم (حداقل ۳۰ دقیقه در روز)",
+        "کاهش قند و کربوهیدرات‌های سریع‌جذب",
+        "افزایش مصرف اسیدهای چرب اشباع",
+        "کاهش استرس و خواب کافی",
+        "اجتناب از فیبرهای غذایی"
+      ],
       "richtig": [
         0,
         1,
@@ -478,6 +646,7 @@
         4
       ],
       "erklaerung": "Therapie der Lebensstilmodifikation: Gewichtsreduktion, Bewegung, Reduktion von Zucker/Kohlenhydraten und Stressreduktion sind zentral. Gesättigte Fettsäuren sollten REDUZIERT (nicht erhöht) werden, Ballaststoffe sollten REICHLICH konsumiert werden.",
+      "erklaerung_fa": "درمان با اصلاح سبک زندگی: کاهش وزن، ورزش، کاهش قند/کربوهیدرات و کاهش استرس محوری هستند. اسیدهای چرب اشباع باید کاهش یابند (نه افزایش)، و فیبرهای غذایی باید فراوان مصرف شوند.",
       "schwierigkeit": "mittel",
       "tags": [
         "Stoffwechsel",
@@ -10459,11 +10628,14 @@
       "seite": 3,
       "lateinisch": "Metabolisches Syndrom",
       "deutsch": "Stoffwechselsyndrom (Wohlstandssyndrom)",
+      "deutsch_fa": "سندرم متابولیک (سندرم رفاه)",
       "wortart": "Substantiv",
       "kategorie": "Krankheitsbild",
       "herkunft": "gr. metabolē = Veränderung; gr. syndromē = Zusammenlauf",
       "eselsbruecke": "Meta-bolisch = der Stoffwechsel ist betroffen",
+      "eselsbruecke_fa": "متابولیک = سوخت‌وساز (متابولیسم) درگیر است",
       "beispiel": "Das metabolische Syndrom betrifft 20 % der deutschen Bevölkerung.",
+      "beispiel_fa": "سندرم متابولیک ۲۰٪ از جمعیت آلمان را درگیر می‌کند.",
       "schwierigkeit": "leicht"
     },
     {
@@ -10472,11 +10644,14 @@
       "seite": 3,
       "lateinisch": "Adipositas",
       "deutsch": "Fettleibigkeit, Fettsucht (BMI ≥ 30)",
+      "deutsch_fa": "چاقی، فربهی (BMI ≥ 30)",
       "wortart": "Substantiv (f)",
       "kategorie": "Stoffwechsel",
       "herkunft": "lat. adeps = Fett",
       "eselsbruecke": "Adip- wie 'Adipocyt' (Fettzelle)",
+      "eselsbruecke_fa": "‏Adip- مانند «آدیپوسیت» (سلول چربی)",
       "beispiel": "Adipositas ist ein Hauptkriterium des metabolischen Syndroms.",
+      "beispiel_fa": "چاقی یکی از معیارهای اصلی سندرم متابولیک است.",
       "schwierigkeit": "leicht"
     },
     {
@@ -10485,11 +10660,14 @@
       "seite": 3,
       "lateinisch": "Arterielle Hypertonie",
       "deutsch": "Bluthochdruck der Schlagadern",
+      "deutsch_fa": "فشار خون بالای شریان‌ها",
       "wortart": "Substantiv (f)",
       "kategorie": "Kreislauf",
       "herkunft": "gr. hyper = über; gr. tonos = Spannung",
       "eselsbruecke": "Hyper-Ton = überhöhter Tonus/Druck",
+      "eselsbruecke_fa": "هایپر-تون = تونوس/فشار بیش از حد",
       "beispiel": "Hypertonie ≥ 130/85 mmHg nach IDF-Kriterien.",
+      "beispiel_fa": "فشار خون بالا ≥ 130/85 mmHg بر اساس معیارهای IDF.",
       "schwierigkeit": "leicht"
     },
     {
@@ -10498,11 +10676,14 @@
       "seite": 3,
       "lateinisch": "Dyslipoproteinämie",
       "deutsch": "Fettstoffwechselstörung (krankhafte Veränderung der Blutfette)",
+      "deutsch_fa": "اختلال متابولیسم چربی (تغییر بیمارگونهٔ چربی‌های خون)",
       "wortart": "Substantiv (f)",
       "kategorie": "Stoffwechsel",
       "herkunft": "gr. dys = schlecht; lat. lipo = Fett; lat. -ämie = im Blut",
       "eselsbruecke": "Dys-Lipo = schlechte Fette im Blut",
+      "eselsbruecke_fa": "دیس-لیپو = چربی‌های بد در خون",
       "beispiel": "Bei Dyslipoproteinämie sind Triglyzeride und HDL pathologisch.",
+      "beispiel_fa": "در دیس‌لیپوپروتئینمی، تری‌گلیسیرید و HDL بیمارگونه هستند.",
       "schwierigkeit": "mittel"
     },
     {
@@ -10511,11 +10692,14 @@
       "seite": 3,
       "lateinisch": "Triglyzeride",
       "deutsch": "Neutralfette (Hauptbestandteil der Nahrungsfette)",
+      "deutsch_fa": "چربی‌های خنثی (جزء اصلی چربی‌های غذایی)",
       "wortart": "Substantiv (n, pl)",
       "kategorie": "Laborwert",
       "herkunft": "gr. tri = drei; gr. glykys = süß (Glyzerin)",
       "eselsbruecke": "Tri = drei Fettsäuren am Glyzerin-Gerüst",
+      "eselsbruecke_fa": "تری = سه اسید چرب روی اسکلت گلیسرین",
       "beispiel": "Triglyzeride ≥ 150 mg/dl gelten als pathologisch.",
+      "beispiel_fa": "تری‌گلیسیرید ≥ 150 mg/dl بیمارگونه محسوب می‌شود.",
       "schwierigkeit": "leicht"
     },
     {
@@ -10524,11 +10708,14 @@
       "seite": 3,
       "lateinisch": "Mikroalbuminurie",
       "deutsch": "Geringe Eiweißausscheidung im Urin",
+      "deutsch_fa": "دفع اندک پروتئین در ادرار",
       "wortart": "Substantiv (f)",
       "kategorie": "Laborwert",
       "herkunft": "gr. mikros = klein; lat. albumen = Eiweiß; gr. ouron = Urin",
       "eselsbruecke": "Mikro-Albumin-Urie = wenig Eiweiß im Urin",
+      "eselsbruecke_fa": "میکرو-آلبومین-اوری = مقدار کم پروتئین در ادرار",
       "beispiel": "Mikroalbuminurie: Albumin ≥ 20 µg/min im Urin.",
+      "beispiel_fa": "میکروآلبومینوری: آلبومین ≥ 20 میکروگرم در دقیقه در ادرار.",
       "schwierigkeit": "schwer"
     },
     {
@@ -10537,11 +10724,14 @@
       "seite": 3,
       "lateinisch": "Glukosetoleranzstörung",
       "deutsch": "Gestörte Verarbeitung von Traubenzucker (Vorstufe Diabetes)",
+      "deutsch_fa": "اختلال در پردازش گلوکز (پیش‌مرحلهٔ دیابت)",
       "wortart": "Substantiv (f)",
       "kategorie": "Stoffwechsel",
       "herkunft": "gr. glykys = süß; lat. tolerare = ertragen",
       "eselsbruecke": "Der Körper toleriert Glukose nicht mehr richtig",
+      "eselsbruecke_fa": "بدن دیگر گلوکز را به‌درستی تحمل نمی‌کند",
       "beispiel": "Eine Glukosetoleranzstörung kann sich zum Diabetes entwickeln.",
+      "beispiel_fa": "اختلال تحمل گلوکز می‌تواند به دیابت تبدیل شود.",
       "schwierigkeit": "mittel"
     },
     {
