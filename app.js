@@ -3,8 +3,8 @@
 // ================================================
 
 // 📌 VERSIONS-INFO
-const APP_VERSION = "5.6";
-const APP_DATUM = "2026-07-05";
+const APP_VERSION = "5.7";
+const APP_DATUM = "2026-07-08";
 
 let fragenkatalog = [];
 let vokabeln = [];
@@ -879,6 +879,9 @@ function zeigeVokabelKarte() {
     const progress = (aktuelleIndex / aktuelleVokabeln.length) * 100;
     const vorderseite = vokabelRichtung === "lat_to_de" ? vokabel.lateinisch : vokabel.deutsch;
     const rueckseite = vokabelRichtung === "lat_to_de" ? vokabel.deutsch : vokabel.lateinisch;
+    // Persisch gehört zur deutschen Bedeutung
+    const vorderseiteFa = vokabelRichtung === "lat_to_de" ? "" : (vokabel.deutsch_fa || "");
+    const rueckseiteFa = vokabelRichtung === "lat_to_de" ? (vokabel.deutsch_fa || "") : "";
     const labelVorne = vokabelRichtung === "lat_to_de" ? "LATEINISCH" : "DEUTSCH";
     const labelHinten = vokabelRichtung === "lat_to_de" ? "DEUTSCH" : "LATEINISCH";
 
@@ -907,6 +910,7 @@ function zeigeVokabelKarte() {
                             🔊
                         </button>
                     </div>
+                    ${vorderseiteFa ? `<div dir="rtl" style="direction:rtl; text-align:center; margin-top:8px; font-size:0.95em; opacity:0.9;">${vorderseiteFa}</div>` : ''}
                     <div class="karte-hinweis">👆 Tippen zum Umdrehen</div>
                 ` : `
                     <div class="karte-label-back">${labelHinten}</div>
@@ -916,9 +920,11 @@ function zeigeVokabelKarte() {
                             🔊
                         </button>
                     </div>
+                    ${rueckseiteFa ? `<div dir="rtl" style="direction:rtl; text-align:center; margin-top:8px; font-size:0.95em; opacity:0.9;">${rueckseiteFa}</div>` : ''}
                     ${vokabel.eselsbruecke ? `
                         <div class="karte-extra">
                             <strong>💡 Eselsbrücke:</strong><br>${vokabel.eselsbruecke}
+                            ${vokabel.eselsbruecke_fa ? `<div dir="rtl" style="direction:rtl; text-align:right; margin-top:6px; font-size:0.95em; opacity:0.9;">${vokabel.eselsbruecke_fa}</div>` : ''}
                         </div>
                     ` : ''}
                     ${vokabel.herkunft ? `
@@ -929,6 +935,7 @@ function zeigeVokabelKarte() {
                     ${vokabel.beispiel ? `
                         <div class="karte-extra-klein">
                             <strong>💬 Beispiel:</strong> ${vokabel.beispiel}
+                            ${vokabel.beispiel_fa ? `<div dir="rtl" style="direction:rtl; text-align:right; margin-top:6px; font-size:0.95em; opacity:0.9;">${vokabel.beispiel_fa}</div>` : ''}
                         </div>
                     ` : ''}
                 `}
@@ -1059,11 +1066,12 @@ function zeigeFrage() {
             <div class="fallbeschreibung">
                 <div class="fallbeschreibung-titel">📋 FALLBEISPIEL</div>
                 ${frage.fallbeschreibung}
+                ${frage.fallbeschreibung_fa ? `<div dir="rtl" style="direction:rtl; text-align:right; margin-top:8px; padding-top:8px; border-top:1px dashed rgba(128,128,128,0.4); font-size:0.95em; opacity:0.9;">${frage.fallbeschreibung_fa}</div>` : ''}
             </div>
         `;
     }
 
-    html += `<div class="frage-text">${frage.frage}</div>`;
+    html += `<div class="frage-text">${frage.frage}${frage.frage_fa ? `<div dir="rtl" style="direction:rtl; text-align:right; margin-top:8px; padding-top:8px; border-top:1px dashed rgba(128,128,128,0.4); font-size:0.95em; opacity:0.9;">${frage.frage_fa}</div>` : ''}</div>`;
     const typ = frage.typ || "single_choice";
 
     if (typ === "single_choice" || typ === "fallbeispiel") {
@@ -1072,7 +1080,7 @@ function zeigeFrage() {
             html += `
                 <button class="option" id="opt-${i}" onclick="waehleSingle(${i})">
                     <div class="option-buchstabe">${String.fromCharCode(65 + i)}</div>
-                    <div>${opt}</div>
+                    <div>${opt}${frage.optionen_fa && frage.optionen_fa[i] ? `<div dir="rtl" style="direction:rtl; text-align:right; font-size:0.88em; opacity:0.8; margin-top:4px;">${frage.optionen_fa[i]}</div>` : ''}</div>
                 </button>
             `;
         });
@@ -1084,7 +1092,7 @@ function zeigeFrage() {
             html += `
                 <button class="option" id="opt-${i}" onclick="toggleMulti(${i})">
                     <div class="option-buchstabe">${String.fromCharCode(65 + i)}</div>
-                    <div>${opt}</div>
+                    <div>${opt}${frage.optionen_fa && frage.optionen_fa[i] ? `<div dir="rtl" style="direction:rtl; text-align:right; font-size:0.88em; opacity:0.8; margin-top:4px;">${frage.optionen_fa[i]}</div>` : ''}</div>
                 </button>
             `;
         });
@@ -1197,7 +1205,7 @@ function zeigeFeedback(frage, istRichtig) {
             </div>
             <div class="erklaerung-box">
                 <div class="feedback-titel" style="color: #E65100;">💡 Erklärung:</div>
-                <div class="feedback-text">${frage.erklaerung || ''}</div>
+                <div class="feedback-text">${frage.erklaerung || ''}${frage.erklaerung_fa ? `<div dir="rtl" style="direction:rtl; text-align:right; margin-top:8px; padding-top:8px; border-top:1px dashed rgba(128,128,128,0.4); font-size:0.95em; opacity:0.9;">${frage.erklaerung_fa}</div>` : ''}</div>
             </div>
             <div class="runden-stats">📊 ✅ ${rundenRichtig} · ❌ ${rundenFalsch} · 🎯 ${quote}%</div>
             <button class="btn-primary" onclick="naechsteFrage()">➡️ Nächste Frage</button>
