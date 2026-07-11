@@ -1,7 +1,7 @@
 {
-  "version": "7.7",
+  "version": "8.1",
   "erstellt_am": "2026-07-11",
-  "beschreibung": "Fragenkatalog + Vokabeltrainer Heilpraktikerprüfung - Seite 3-31. Persische Übersetzung (فارسی): Seiten 3-27 fertig, weitere folgen.",
+  "beschreibung": "Fragenkatalog + Vokabeltrainer Heilpraktikerprüfung - Seite 3-31. Persische Übersetzung (فارسی): KOMPLETT - alle Seiten 3-31 übersetzt!",
   "fragenkatalog": [
     {
       "id": "STW-003-01",
@@ -12587,6 +12587,7 @@
       "seite": 28,
       "typ": "single_choice",
       "frage": "Was ist das Schilddrüsenkarzinom?",
+      "frage_fa": "کارسینوم تیروئید چیست؟",
       "optionen": [
         "Ein gutartiger Tumor",
         "Maligner Tumor der Schilddrüse, häufigster Tumor des endokrinen Systems (w>m)",
@@ -12594,8 +12595,16 @@
         "Ein Kalziummangel",
         "Eine Autoimmunerkrankung"
       ],
+      "optionen_fa": [
+        "یک تومور خوش‌خیم",
+        "تومور بدخیم غدهٔ تیروئید، شایع‌ترین تومور سیستم غدد درون‌ریز (زنان > مردان)",
+        "یک التهاب",
+        "کمبود کلسیم",
+        "یک بیماری خودایمنی"
+      ],
       "richtig": 1,
       "erklaerung": "Schilddrüsenkarzinom = maligner (bösartiger) Tumor der Schilddrüse. Es ist der häufigste Tumor des endokrinen Systems, Frauen sind häufiger betroffen als Männer (w>m).",
+      "erklaerung_fa": "کارسینوم تیروئید = تومور بدخیم غدهٔ تیروئید. شایع‌ترین تومور سیستم غدد درون‌ریز است، زنان بیشتر از مردان مبتلا می‌شوند.",
       "schwierigkeit": "mittel",
       "tags": [
         "Endokrinologie",
@@ -12611,6 +12620,7 @@
       "seite": 28,
       "typ": "multiple_choice",
       "frage": "Welche Ursachen/Risikofaktoren gibt es beim Schilddrüsenkarzinom?",
+      "frage_fa": "چه علل/عوامل خطری برای کارسینوم تیروئید وجود دارد؟",
       "optionen": [
         "Oft unbekannt",
         "Genetische Disposition (bei medullärem Karzinom)",
@@ -12618,12 +12628,20 @@
         "Jodmangel allein",
         "Zu viel Vitamin C"
       ],
+      "optionen_fa": [
+        "اغلب ناشناخته",
+        "زمینهٔ ژنتیکی (در کارسینوم مدولاری)",
+        "پرتوهای یون‌ساز (پس از حوادث هسته‌ای، بمب اتم، پرتودهی ناحیهٔ گردن)",
+        "کمبود ید به‌تنهایی",
+        "ویتامین C بیش از حد"
+      ],
       "richtig": [
         0,
         1,
         2
       ],
       "erklaerung": "Schilddrüsenkarzinom-Ätiologie: oft unbekannt, genetische Disposition (v.a. bei medullärem Karzinom), ionisierende Strahlen (Reaktorunfälle, Atombombe, Bestrahlungen im Halsbereich).",
+      "erklaerung_fa": "علت‌شناسی کارسینوم تیروئید: اغلب ناشناخته، زمینهٔ ژنتیکی (به‌ویژه در کارسینوم مدولاری)، پرتوهای یون‌ساز (حوادث هسته‌ای، بمب اتم، پرتودهی ناحیهٔ گردن).",
       "schwierigkeit": "schwer",
       "tags": [
         "Endokrinologie",
@@ -12639,6 +12657,7 @@
       "seite": 28,
       "typ": "single_choice",
       "frage": "Welches ist das häufigste Schilddrüsenkarzinom und wie ist seine Prognose?",
+      "frage_fa": "شایع‌ترین کارسینوم تیروئید کدام است و پیش‌آگهی آن چگونه است؟",
       "optionen": [
         "Anaplastisches Karzinom - schlechte Prognose",
         "Papilläres Karzinom (60%) - gute Prognose, v.a. in Regionen ohne Jodmangel",
@@ -12646,8 +12665,16 @@
         "Follikuläres Karzinom - schlechte Prognose",
         "Lymphom - gute Prognose"
       ],
+      "optionen_fa": [
+        "کارسینوم آناپلاستیک — پیش‌آگهی بد",
+        "کارسینوم پاپیلاری (60٪) — پیش‌آگهی خوب، به‌ویژه در مناطق بدون کمبود ید",
+        "کارسینوم مدولاری — پیش‌آگهی متوسط",
+        "کارسینوم فولیکولار — پیش‌آگهی بد",
+        "لنفوم — پیش‌آگهی خوب"
+      ],
       "richtig": 1,
       "erklaerung": "Papilläres Karzinom = häufigstes Schilddrüsenkarzinom (60%), gehört zu den differenzierten Karzinomen mit guter Prognose (10-Jahres-Überlebensrate >90%). Tritt v.a. in Regionen OHNE Jodmangel auf. Tumormarker: Thyreoglobulin.",
+      "erklaerung_fa": "کارسینوم پاپیلاری = شایع‌ترین کارسینوم تیروئید (60٪)، جزو کارسینوم‌های تمایزیافته با پیش‌آگهی خوب (بقای ۱۰ ساله > 90٪). به‌ویژه در مناطق بدون کمبود ید بروز می‌کند. نشانگر توموری: تیروگلوبولین.",
       "schwierigkeit": "schwer",
       "tags": [
         "Endokrinologie",
@@ -12663,12 +12690,20 @@
       "seite": 28,
       "typ": "multiple_choice",
       "frage": "Welche Aussagen zu den Schilddrüsenkarzinom-Typen sind richtig?",
+      "frage_fa": "کدام گزاره‌ها دربارهٔ انواع کارسینوم تیروئید درست هستند؟",
       "optionen": [
         "Papilläres Karzinom (60%): differenziert, gute Prognose",
         "Follikuläres Karzinom (30%): differenziert, v.a. in Regionen mit Jodmangel",
         "Anaplastisches Karzinom (5%): undifferenziert, wächst aggressiv, sehr schlechte Prognose (Tod innerhalb 6 Monaten)",
         "Medulläres Karzinom (5%): geht von C-Zellen aus, produziert Calcitonin",
         "Alle haben die gleiche Prognose"
+      ],
+      "optionen_fa": [
+        "کارسینوم پاپیلاری (60٪): تمایزیافته، پیش‌آگهی خوب",
+        "کارسینوم فولیکولار (30٪): تمایزیافته، به‌ویژه در مناطق دارای کمبود ید",
+        "کارسینوم آناپلاستیک (5٪): تمایزنیافته، رشد تهاجمی، پیش‌آگهی بسیار بد (مرگ ظرف ۶ ماه)",
+        "کارسینوم مدولاری (5٪): از سلول‌های C منشأ می‌گیرد، کلسی‌تونین تولید می‌کند",
+        "همه پیش‌آگهی یکسانی دارند"
       ],
       "richtig": [
         0,
@@ -12677,6 +12712,7 @@
         3
       ],
       "erklaerung": "Schilddrüsenkarzinom-Typen: Papillär (60%, differenziert, gute Prognose), Follikulär (30%, differenziert, bei Jodmangel), Anaplastisch (5%, undifferenziert, aggressiv, Tod in 6 Monaten), Medullär (5%, C-Zellen, produziert Calcitonin, nicht am Jodstoffwechsel beteiligt).",
+      "erklaerung_fa": "انواع کارسینوم تیروئید: پاپیلاری (60٪، تمایزیافته، پیش‌آگهی خوب)، فولیکولار (30٪، تمایزیافته، در کمبود ید)، آناپلاستیک (5٪، تمایزنیافته، تهاجمی، مرگ ظرف ۶ ماه)، مدولاری (5٪، سلول‌های C، تولید کلسی‌تونین، در متابولیسم ید دخیل نیست).",
       "schwierigkeit": "schwer",
       "tags": [
         "Endokrinologie",
@@ -12692,6 +12728,7 @@
       "seite": 28,
       "typ": "single_choice",
       "frage": "Was ist charakteristisch für das medulläre Schilddrüsenkarzinom?",
+      "frage_fa": "چه چیزی مشخصهٔ کارسینوم مدولاری تیروئید است؟",
       "optionen": [
         "Es produziert T3/T4",
         "Es geht von den C-Zellen aus und produziert Calcitonin, nicht am Jodstoffwechsel beteiligt",
@@ -12699,8 +12736,16 @@
         "Es ist immer gutartig",
         "Es tritt nur bei Kindern auf"
       ],
+      "optionen_fa": [
+        "T3/T4 تولید می‌کند",
+        "از سلول‌های C منشأ می‌گیرد و کلسی‌تونین تولید می‌کند، در متابولیسم ید دخیل نیست",
+        "همیشه پیش‌آگهی خوبی دارد",
+        "همیشه خوش‌خیم است",
+        "فقط در کودکان بروز می‌کند"
+      ],
       "richtig": 1,
       "erklaerung": "Medulläres Karzinom (5%): geht von den C-Zellen der Schilddrüse aus und produziert Calcitonin. Es ist NICHT am Jodstoffwechsel beteiligt (daher keine Radiojodtherapie möglich). Genetische Disposition. Tumormarker: Calcitonin, CEA.",
+      "erklaerung_fa": "کارسینوم مدولاری (5٪): از سلول‌های C غدهٔ تیروئید منشأ می‌گیرد و کلسی‌تونین تولید می‌کند. در متابولیسم ید دخیل نیست (به همین دلیل درمان با ید رادیواکتیو ممکن نیست). زمینهٔ ژنتیکی. نشانگرهای توموری: کلسی‌تونین، CEA.",
       "schwierigkeit": "schwer",
       "tags": [
         "Endokrinologie",
@@ -12717,6 +12762,7 @@
       "seite": 28,
       "typ": "multiple_choice",
       "frage": "Welche klinischen Zeichen treten beim Schilddrüsenkarzinom auf?",
+      "frage_fa": "کدام نشانه‌های بالینی در کارسینوم تیروئید بروز می‌کنند؟",
       "optionen": [
         "Derbe, höckerige und schmerzlose Struma (evtl. mit Umgebung verbacken)",
         "Schluckbeschwerden, Stridor, Druck-/Engegefühl, obere Einflussstauung",
@@ -12724,6 +12770,14 @@
         "Horner-Syndrom (Miosis, Ptosis, Enophthalmus)",
         "Heiserkeit bei Infiltration des N. recurrens",
         "Weiche, schmerzhafte Struma"
+      ],
+      "optionen_fa": [
+        "گواتر سفت، ناهموار و بدون درد (احتمالاً چسبیده به بافت اطراف)",
+        "اختلال بلع، استریدور، احساس فشار/تنگی، احتقان وریدی فوقانی",
+        "تورم غدد لنفاوی گردن",
+        "سندرم هورنر (میوز، پتوز، انوفتالموس)",
+        "گرفتگی صدا در اثر تهاجم به عصب راجعه",
+        "گواتر نرم و دردناک"
       ],
       "richtig": [
         0,
@@ -12733,6 +12787,7 @@
         4
       ],
       "erklaerung": "Schilddrüsenkarzinom-Klinik: derbe, höckerige, SCHMERZLOSE Struma (verbacken), Schluckbeschwerden/Stridor/Engegefühl, Lymphknotenschwellungen, Hals-/Ohren-/Hinterhauptkopfschmerzen, Horner-Syndrom (Miosis, Ptosis, Enophthalmus), Heiserkeit (N. recurrens-Infiltration).",
+      "erklaerung_fa": "تصویر بالینی کارسینوم تیروئید: گواتر سفت، ناهموار و بدون درد (چسبیده)، اختلال بلع/استریدور/احساس تنگی، تورم غدد لنفاوی، سردرد گردن/گوش/پس‌سر، سندرم هورنر (میوز، پتوز، انوفتالموس)، گرفتگی صدا (تهاجم به عصب راجعه).",
       "schwierigkeit": "schwer",
       "tags": [
         "Endokrinologie",
@@ -12748,6 +12803,7 @@
       "seite": 28,
       "typ": "single_choice",
       "frage": "Was gehört zum Horner-Syndrom?",
+      "frage_fa": "سندرم هورنر شامل چه چیزهایی است؟",
       "optionen": [
         "Struma, Exophthalmus, Tachykardie",
         "Miosis (enge Pupille), Ptosis (hängendes Lid), Enophthalmus (eingesunkenes Auge)",
@@ -12755,8 +12811,16 @@
         "Polyurie, Polydipsie",
         "Ödeme an den Beinen"
       ],
+      "optionen_fa": [
+        "گواتر، اگزوفتالموس، تاکی‌کاردی",
+        "میوز (تنگی مردمک)، پتوز (افتادگی پلک)، انوفتالموس (فرورفتگی چشم)",
+        "تب، سرفه، آبریزش بینی",
+        "پُرادراری، پُرنوشی",
+        "ادم پاها"
+      ],
       "richtig": 1,
       "erklaerung": "Horner-Syndrom (Trias): Miosis (enge Pupille), Ptosis (herabhängendes Augenlid), Enophthalmus (eingesunkener Augapfel). Kann beim Schilddrüsenkarzinom durch Infiltration des Sympathikus auftreten.",
+      "erklaerung_fa": "سندرم هورنر (سه‌گانه): میوز (تنگی مردمک)، پتوز (افتادگی پلک فوقانی)، انوفتالموس (فرورفتگی کرهٔ چشم). می‌تواند در کارسینوم تیروئید در اثر تهاجم به سیستم سمپاتیک رخ دهد.",
       "schwierigkeit": "schwer",
       "tags": [
         "Endokrinologie",
@@ -12772,6 +12836,7 @@
       "seite": 28,
       "typ": "multiple_choice",
       "frage": "Welche diagnostischen Maßnahmen gibt es beim Schilddrüsenkarzinom?",
+      "frage_fa": "چه اقدامات تشخیصی در کارسینوم تیروئید وجود دارد؟",
       "optionen": [
         "Familienanamnese (v.a. bei medullärem Karzinom)",
         "Palpation: Schilddrüse nicht verschieblich, derbe Struma, Halslymphknoten",
@@ -12780,6 +12845,15 @@
         "Feinnadelbiopsie; Histologie nach Operation",
         "Calcitonin ↑ bei medullärem Karzinom",
         "Immer nur ein Bluttest"
+      ],
+      "optionen_fa": [
+        "شرح‌حال خانوادگی (به‌ویژه در کارسینوم مدولاری)",
+        "لمس: غدهٔ تیروئید غیرمتحرک، گواتر سفت، غدد لنفاوی گردن",
+        "سونوگرافی، سی‌تی، ام‌آر‌آی",
+        "سینتی‌گرافی: گره‌های سرد",
+        "بیوپسی با سوزن ظریف؛ بافت‌شناسی پس از جراحی",
+        "افزایش کلسی‌تونین در کارسینوم مدولاری",
+        "همیشه فقط یک آزمایش خون"
       ],
       "richtig": [
         0,
@@ -12790,6 +12864,7 @@
         5
       ],
       "erklaerung": "Schilddrüsenkarzinom-Diagnostik: Familienanamnese, Palpation (nicht verschieblich, derb), Sonografie/CT/MRT, Szintigrafie (kalte Knoten!), Feinnadelbiopsie + Histologie, Calcitonin↑ bei medullärem Karzinom. Cave: Jeder Knoten muss ärztlich abgeklärt werden!",
+      "erklaerung_fa": "تشخیص کارسینوم تیروئید: شرح‌حال خانوادگی، لمس (غیرمتحرک، سفت)، سونوگرافی/سی‌تی/ام‌آر‌آی، سینتی‌گرافی (گره‌های سرد!)، بیوپسی با سوزن ظریف + بافت‌شناسی، افزایش کلسی‌تونین در کارسینوم مدولاری. احتیاط: هر گره باید توسط پزشک بررسی شود!",
       "schwierigkeit": "schwer",
       "tags": [
         "Endokrinologie",
@@ -12805,12 +12880,20 @@
       "seite": 28,
       "typ": "multiple_choice",
       "frage": "Wie wird das Schilddrüsenkarzinom behandelt?",
+      "frage_fa": "کارسینوم تیروئید چگونه درمان می‌شود؟",
       "optionen": [
         "Totale Thyreoidektomie, ggf. inkl. regionaler Halslymphknoten",
         "Danach Hormonsubstitution notwendig",
         "Strahlentherapie, Radiojodtherapie (nicht möglich bei medullärem Karzinom)",
         "Hormonsubstitution nach Schilddrüsen-Operation",
         "Keine Behandlung nötig"
+      ],
+      "optionen_fa": [
+        "تیروئیدکتومی کامل، در صورت لزوم همراه با غدد لنفاوی ناحیه‌ای گردن",
+        "پس از آن جایگزینی هورمونی ضروری است",
+        "پرتودرمانی، درمان با ید رادیواکتیو (در کارسینوم مدولاری ممکن نیست)",
+        "جایگزینی هورمونی پس از جراحی تیروئید",
+        "نیازی به درمان نیست"
       ],
       "richtig": [
         0,
@@ -12819,6 +12902,7 @@
         3
       ],
       "erklaerung": "Schilddrüsenkarzinom-Therapie: totale Thyreoidektomie (ggf. mit Halslymphknoten) → danach lebenslange Hormonsubstitution, Strahlentherapie/Radiojodtherapie (NICHT bei medullärem Karzinom, da nicht am Jodstoffwechsel beteiligt).",
+      "erklaerung_fa": "درمان کارسینوم تیروئید: تیروئیدکتومی کامل (در صورت لزوم با غدد لنفاوی گردن) ← پس از آن جایگزینی هورمونی مادام‌العمر، پرتودرمانی/درمان با ید رادیواکتیو (نه در کارسینوم مدولاری، زیرا در متابولیسم ید دخیل نیست).",
       "schwierigkeit": "schwer",
       "tags": [
         "Endokrinologie",
@@ -12834,12 +12918,20 @@
       "seite": 28,
       "typ": "multiple_choice",
       "frage": "Welche 10-Jahres-Überlebensraten haben die Schilddrüsenkarzinome? (Merkhilfe 'Papa fährt Medizin zu Anna')",
+      "frage_fa": "کارسینوم‌های تیروئید چه نرخ بقای ۱۰ ساله‌ای دارند؟",
       "optionen": [
         "Papilläres Karzinom: > 90%",
         "Follikuläres Karzinom: > 75%",
         "Medulläres Karzinom: ca. 50%",
         "Anaplastisches Karzinom: mittlere Überlebenszeit nur ca. 6 Monate",
         "Alle: 100%"
+      ],
+      "optionen_fa": [
+        "کارسینوم پاپیلاری: > 90٪",
+        "کارسینوم فولیکولار: > 75٪",
+        "کارسینوم مدولاری: حدود 50٪",
+        "کارسینوم آناپلاستیک: متوسط طول عمر تنها حدود ۶ ماه",
+        "همه: 100٪"
       ],
       "richtig": [
         0,
@@ -12848,6 +12940,7 @@
         3
       ],
       "erklaerung": "10-Jahres-Überlebensraten: Papillär >90% (Tumormarker Thyreoglobulin), Follikulär >75% (Thyreoglobulin), Medullär ca. 50% (Calcitonin, CEA), Anaplastisch nur ~6 Monate. Merkhilfe 'Papa fährt Medizin zu Anna' = papillär, follikulär, medullär, anaplastisch (nach Häufigkeit/Prognose).",
+      "erklaerung_fa": "نرخ بقای ۱۰ ساله: پاپیلاری > 90٪ (نشانگر توموری تیروگلوبولین)، فولیکولار > 75٪ (تیروگلوبولین)، مدولاری حدود 50٪ (کلسی‌تونین، CEA)، آناپلاستیک تنها حدود ۶ ماه. یادیار آلمانی «Papa fährt Medizin zu Anna» = پاپیلاری، فولیکولار، مدولاری، آناپلاستیک (بر اساس شیوع/پیش‌آگهی).",
       "schwierigkeit": "schwer",
       "tags": [
         "Endokrinologie",
@@ -12863,7 +12956,9 @@
       "seite": 28,
       "typ": "fallbeispiel",
       "fallbeschreibung": "Bei einem 60-jährigen Patienten wächst innerhalb weniger Wochen ein derber, höckeriger und schmerzloser Knoten am Hals. In der Szintigrafie zeigt sich ein 'kalter Knoten'. Er hat zunehmend Heiserkeit.",
+      "fallbeschreibung_fa": "در یک بیمار ۶۰ ساله ظرف چند هفته یک گرهٔ سفت، ناهموار و بدون درد در گردن رشد می‌کند. در سینتی‌گرافی یک «گرهٔ سرد» دیده می‌شود. او به‌طور فزاینده گرفتگی صدا دارد.",
       "frage": "Woran muss man denken und was ist zu tun?",
+      "frage_fa": "باید به چه چیزی فکر کرد و چه باید انجام داد؟",
       "optionen": [
         "Harmlose Zyste - abwarten",
         "Verdacht auf Schilddrüsenkarzinom - jeder Knoten muss ärztlich abgeklärt werden, bei schnellem Struma-Wachstum an Karzinom denken!",
@@ -12871,8 +12966,16 @@
         "Morbus Basedow",
         "Hypothyreose"
       ],
+      "optionen_fa": [
+        "کیست بی‌خطر — انتظار",
+        "مشکوک به کارسینوم تیروئید — هر گره باید توسط پزشک بررسی شود، در رشد سریع گواتر به کارسینوم فکر کنید!",
+        "فقط یک سرماخوردگی",
+        "بیماری گریوز",
+        "کم‌کاری تیروئید"
+      ],
       "richtig": 1,
       "erklaerung": "Verdacht auf Schilddrüsenkarzinom! Warnzeichen: derbe, höckerige, schmerzlose Struma, schnelles Wachstum, kalter Knoten in Szintigrafie, Heiserkeit (N. recurrens-Infiltration). Cave: Jeder Knoten muss ärztlich abgeklärt werden! Bei schnellem Struma-Wachstum immer an ein Karzinom denken!",
+      "erklaerung_fa": "مشکوک به کارسینوم تیروئید! نشانه‌های هشدار: گواتر سفت، ناهموار و بدون درد، رشد سریع، گرهٔ سرد در سینتی‌گرافی، گرفتگی صدا (تهاجم به عصب راجعه). احتیاط: هر گره باید توسط پزشک بررسی شود! در رشد سریع گواتر همیشه به کارسینوم فکر کنید!",
       "schwierigkeit": "mittel",
       "tags": [
         "Endokrinologie",
@@ -12888,6 +12991,7 @@
       "seite": 29,
       "typ": "single_choice",
       "frage": "Was ist der primäre Hyperparathyreoidismus?",
+      "frage_fa": "هایپرپاراتیروئیدیسم اولیه چیست؟",
       "optionen": [
         "Unterfunktion der Nebenschilddrüsen",
         "Überfunktion der Nebenschilddrüsen mit verstärkter Sekretion des Parathormons",
@@ -12895,8 +12999,16 @@
         "Ein Kalziummangel",
         "Ein Vitamin-D-Mangel"
       ],
+      "optionen_fa": [
+        "کم‌کاری غدد پاراتیروئید",
+        "پرکاری غدد پاراتیروئید همراه با افزایش ترشح پاراتورمون",
+        "التهاب غدهٔ تیروئید",
+        "کمبود کلسیم",
+        "کمبود ویتامین D"
+      ],
       "richtig": 1,
       "erklaerung": "Primärer Hyperparathyreoidismus = Überfunktion der Nebenschilddrüsen mit verstärkter Sekretion des Parathormons (Häufigkeit w>m). Führt zur Hyperkalzämie.",
+      "erklaerung_fa": "هایپرپاراتیروئیدیسم اولیه = پرکاری غدد پاراتیروئید همراه با افزایش ترشح پاراتورمون (شیوع: زنان > مردان). به هایپرکلسمی منجر می‌شود.",
       "schwierigkeit": "mittel",
       "tags": [
         "Endokrinologie",
@@ -12912,12 +13024,20 @@
       "seite": 29,
       "typ": "multiple_choice",
       "frage": "Welche Ursachen hat der primäre Hyperparathyreoidismus?",
+      "frage_fa": "هایپرپاراتیروئیدیسم اولیه چه علل‌هایی دارد؟",
       "optionen": [
         "Solitäre Adenome (80%)",
         "Multiple Adenome (5%)",
         "Hyperplasie der Epithelkörperchen (15%)",
         "Karzinom der Epithelkörperchen (< 1%)",
         "Vitamin-D-Überschuss"
+      ],
+      "optionen_fa": [
+        "آدنوم منفرد (80٪)",
+        "آدنوم‌های متعدد (5٪)",
+        "هایپرپلازی اجسام اپیتلیال (15٪)",
+        "کارسینوم اجسام اپیتلیال (< 1٪)",
+        "فزونی ویتامین D"
       ],
       "richtig": [
         0,
@@ -12926,6 +13046,7 @@
         3
       ],
       "erklaerung": "Primärer Hyperparathyreoidismus-Ursachen: solitäre Adenome (80%), multiple Adenome (5%), Hyperplasie der Epithelkörperchen (15%), Karzinom der Epithelkörperchen (<1%).",
+      "erklaerung_fa": "علل هایپرپاراتیروئیدیسم اولیه: آدنوم منفرد (80٪)، آدنوم‌های متعدد (5٪)، هایپرپلازی اجسام اپیتلیال (15٪)، کارسینوم اجسام اپیتلیال (< 1٪).",
       "schwierigkeit": "schwer",
       "tags": [
         "Endokrinologie",
@@ -12941,6 +13062,7 @@
       "seite": 29,
       "typ": "single_choice",
       "frage": "Was bewirkt der erhöhte Parathormonspiegel?",
+      "frage_fa": "افزایش سطح پاراتورمون چه اثری دارد؟",
       "optionen": [
         "Senkung des Kalziumspiegels",
         "Erhöhte Kalzium-Mobilisation aus Knochen, erhöhte Kalziumresorption aus Darm, erhöhte tubuläre Rückresorption → Hyperkalzämie",
@@ -12948,8 +13070,16 @@
         "Erhöhung des Phosphatspiegels",
         "Senkung des Blutzuckers"
       ],
+      "optionen_fa": [
+        "کاهش سطح کلسیم",
+        "افزایش آزادسازی کلسیم از استخوان‌ها، افزایش جذب کلسیم از روده، افزایش بازجذب توبولی ← هایپرکلسمی",
+        "بدون اثر",
+        "افزایش سطح فسفات",
+        "کاهش قند خون"
+      ],
       "richtig": 1,
       "erklaerung": "Durch den erhöhten Parathormonspiegel kommt es zu: erhöhter Kalzium-Mobilisation aus den Knochen, erhöhter Kalziumresorption aus dem Darm, erhöhter tubulärer Rückresorption → Hyperkalzämie. Das Parathormon stellt 'Kalzium im Blut parat'.",
+      "erklaerung_fa": "به‌دلیل افزایش سطح پاراتورمون رخ می‌دهد: افزایش آزادسازی کلسیم از استخوان‌ها، افزایش جذب کلسیم از روده، افزایش بازجذب توبولی ← هایپرکلسمی. پاراتورمون «کلسیم را در خون آماده می‌کند».",
       "schwierigkeit": "schwer",
       "tags": [
         "Endokrinologie",
@@ -12965,6 +13095,7 @@
       "seite": 29,
       "typ": "multiple_choice",
       "frage": "Welche Klinik zeigt der primäre Hyperparathyreoidismus? (Merkhilfe 'Stein, Bein, Magenpein')",
+      "frage_fa": "هایپرپاراتیروئیدیسم اولیه چه تصویر بالینی‌ای نشان می‌دهد؟ (یادیار «سنگ، استخوان، درد معده»)",
       "optionen": [
         "Harn- und Nierensteine (durch Verkalkungen/Steinbildung in der Niere)",
         "Knochenschmerzen, Osteoporose, Spontanfrakturen (durch Osteoklastenaktivierung)",
@@ -12972,6 +13103,14 @@
         "Neuromuskuläre Symptome: Muskelschwäche, rasche Ermüdbarkeit, psychiatrische Symptome",
         "Mehr als die Hälfte asymptomatisch oder nur unspezifische Beschwerden",
         "Immer starke Schmerzen"
+      ],
+      "optionen_fa": [
+        "سنگ ادراری و کلیوی (به‌دلیل رسوب کلسیم/تشکیل سنگ در کلیه)",
+        "درد استخوان، پوکی استخوان، شکستگی خودبه‌خودی (به‌دلیل فعال‌شدن استئوکلاست‌ها)",
+        "علائم گوارشی: بی‌اشتهایی، تهوع، یبوست، زخم (کلسیم گاسترین را افزایش می‌دهد ← افزایش اسید معده)",
+        "علائم عصبی-عضلانی: ضعف عضلانی، خستگی زودرس، علائم روانی",
+        "بیش از نیمی بدون علامت یا فقط شکایات غیراختصاصی",
+        "همیشه درد شدید"
       ],
       "richtig": [
         0,
@@ -12981,6 +13120,7 @@
         4
       ],
       "erklaerung": "Hyperparathyreoidismus-Klinik (Merkhilfe 'Stein, Bein, Magenpein'): Nierensteine (Stein), Knochenschmerzen/Osteoporose (Bein), GI-Symptome (Magenpein), neuromuskuläre Symptome. Mehr als die Hälfte ist asymptomatisch oder hat nur unspezifische Beschwerden.",
+      "erklaerung_fa": "تصویر بالینی هایپرپاراتیروئیدیسم (یادیار «سنگ، استخوان، درد معده»): سنگ کلیه (سنگ)، درد استخوان/پوکی استخوان (استخوان)، علائم گوارشی (درد معده)، علائم عصبی-عضلانی. بیش از نیمی بدون علامت هستند یا فقط شکایات غیراختصاصی دارند.",
       "schwierigkeit": "schwer",
       "tags": [
         "Endokrinologie",
@@ -12997,6 +13137,7 @@
       "seite": 29,
       "typ": "single_choice",
       "frage": "Welche Blutwerte zeigt der primäre Hyperparathyreoidismus?",
+      "frage_fa": "هایپرپاراتیروئیدیسم اولیه کدام مقادیر خونی را نشان می‌دهد؟",
       "optionen": [
         "Kalzium ↓, Parathormon ↓, Phosphat ↑",
         "Kalzium ↑, Parathormon ↑, alkalische Phosphatase ↑, Phosphat ↓",
@@ -13004,8 +13145,16 @@
         "Kalzium ↑, Parathormon ↓",
         "Kalzium ↓, Parathormon ↑"
       ],
+      "optionen_fa": [
+        "کاهش کلسیم، کاهش پاراتورمون، افزایش فسفات",
+        "افزایش کلسیم، افزایش پاراتورمون، افزایش آلکالین فسفاتاز، کاهش فسفات",
+        "همهٔ مقادیر طبیعی",
+        "افزایش کلسیم، کاهش پاراتورمون",
+        "کاهش کلسیم، افزایش پاراتورمون"
+      ],
       "richtig": 1,
       "erklaerung": "Primärer Hyperparathyreoidismus-Labor: Kalzium ↑, Parathormon ↑, alkalische Phosphatase ↑, Phosphat ↓. Im Urin: Polyurie, Polydipsie, evtl. Kalzium und Phosphat ↑.",
+      "erklaerung_fa": "آزمایشگاه هایپرپاراتیروئیدیسم اولیه: افزایش کلسیم، افزایش پاراتورمون، افزایش آلکالین فسفاتاز، کاهش فسفات. در ادرار: پُرادراری، پُرنوشی، احتمالاً افزایش کلسیم و فسفات.",
       "schwierigkeit": "schwer",
       "tags": [
         "Endokrinologie",
@@ -13021,6 +13170,7 @@
       "seite": 29,
       "typ": "multiple_choice",
       "frage": "Wie wird der primäre Hyperparathyreoidismus behandelt?",
+      "frage_fa": "هایپرپاراتیروئیدیسم اولیه چگونه درمان می‌شود؟",
       "optionen": [
         "Chirurgische Entfernung der vergrößerten Epithelkörperchen oder totale Parathyreoid-Ektomie",
         "Ohne OP-Indikation: viel trinken, keine kalziumarme Ernährung",
@@ -13028,12 +13178,20 @@
         "Mehr Kalzium zuführen",
         "Keine Behandlung"
       ],
+      "optionen_fa": [
+        "برداشتن جراحی اجسام اپیتلیال بزرگ‌شده یا پاراتیروئیدکتومی کامل",
+        "بدون اندیکاسیون جراحی: نوشیدن زیاد، بدون رژیم غذایی کم‌کلسیم",
+        "جایگزینی ویتامین D در صورت کمبود ویتامین D",
+        "دریافت کلسیم بیشتر",
+        "بدون درمان"
+      ],
       "richtig": [
         0,
         1,
         2
       ],
       "erklaerung": "Hyperparathyreoidismus-Therapie: chirurgische Entfernung der vergrößerten Epithelkörperchen oder totale Parathyreoid-Ektomie. Ohne OP-Indikation: viel trinken, KEINE kalziumarme Ernährung, Vitamin-D-Substitution bei Mangel.",
+      "erklaerung_fa": "درمان هایپرپاراتیروئیدیسم: برداشتن جراحی اجسام اپیتلیال بزرگ‌شده یا پاراتیروئیدکتومی کامل. بدون اندیکاسیون جراحی: نوشیدن زیاد، رژیم غذایی کم‌کلسیم نباشد، جایگزینی ویتامین D در صورت کمبود.",
       "schwierigkeit": "schwer",
       "tags": [
         "Endokrinologie",
@@ -13049,6 +13207,7 @@
       "seite": 29,
       "typ": "single_choice",
       "frage": "Was ist der sekundäre Hyperparathyreoidismus?",
+      "frage_fa": "هایپرپاراتیروئیدیسم ثانویه چیست؟",
       "optionen": [
         "Ein Tumor der Nebenschilddrüse",
         "Eine Hypokalzämie (durch renale, enterale, hepatische Störung oder Vitamin-D3-Mangel) führt reaktiv zu erhöhter Parathormon-Sekretion",
@@ -13056,8 +13215,16 @@
         "Ein Kalziumüberschuss",
         "Eine Schilddrüsenentzündung"
       ],
+      "optionen_fa": [
+        "توموری در غدهٔ پاراتیروئید",
+        "یک هایپوکلسمی (به‌دلیل اختلال کلیوی، روده‌ای، کبدی یا کمبود ویتامین D3) به‌صورت واکنشی به افزایش ترشح پاراتورمون منجر می‌شود",
+        "پرکاری بدون علت",
+        "فزونی کلسیم",
+        "التهاب غدهٔ تیروئید"
+      ],
       "richtig": 1,
       "erklaerung": "Sekundärer Hyperparathyreoidismus: Eine Hypokalzämie (infolge renaler, enteraler, hepatischer Störung oder Vitamin-D3-Mangel) führt REAKTIV zu einer erhöhten Sekretion des Parathormons. Der Körper versucht, das niedrige Kalzium auszugleichen.",
+      "erklaerung_fa": "هایپرپاراتیروئیدیسم ثانویه: یک هایپوکلسمی (در پی اختلال کلیوی، روده‌ای، کبدی یا کمبود ویتامین D3) به‌صورت واکنشی به افزایش ترشح پاراتورمون منجر می‌شود. بدن تلاش می‌کند کلسیم پایین را جبران کند.",
       "schwierigkeit": "schwer",
       "tags": [
         "Endokrinologie",
@@ -13073,6 +13240,7 @@
       "seite": 29,
       "typ": "single_choice",
       "frage": "Welche Blutwerte zeigt der sekundäre Hyperparathyreoidismus?",
+      "frage_fa": "هایپرپاراتیروئیدیسم ثانویه کدام مقادیر خونی را نشان می‌دهد؟",
       "optionen": [
         "Kalzium ↑, Parathormon ↑, Phosphat ↓",
         "Kalzium ↓, Parathormon ↑, Phosphat normal",
@@ -13080,8 +13248,16 @@
         "Kalzium normal, Parathormon ↓",
         "Alle Werte niedrig"
       ],
+      "optionen_fa": [
+        "افزایش کلسیم، افزایش پاراتورمون، کاهش فسفات",
+        "کاهش کلسیم، افزایش پاراتورمون، فسفات طبیعی",
+        "همهٔ مقادیر افزایش‌یافته",
+        "کلسیم طبیعی، کاهش پاراتورمون",
+        "همهٔ مقادیر پایین"
+      ],
       "richtig": 1,
       "erklaerung": "Sekundärer Hyperparathyreoidismus-Labor: Kalzium ↓ (das ist die Ursache!), Parathormon ↑ (kompensatorisch), Phosphat normal. Im Gegensatz zum primären (Kalzium ↑).",
+      "erklaerung_fa": "آزمایشگاه هایپرپاراتیروئیدیسم ثانویه: کاهش کلسیم (این علت است!)، افزایش پاراتورمون (جبرانی)، فسفات طبیعی. برخلاف شکل اولیه (افزایش کلسیم).",
       "schwierigkeit": "schwer",
       "tags": [
         "Endokrinologie",
@@ -13098,7 +13274,9 @@
       "seite": 29,
       "typ": "fallbeispiel",
       "fallbeschreibung": "Eine 55-jährige Patientin hat wiederkehrende Nierensteine, Knochenschmerzen und klagt über Verstopfung und Appetitlosigkeit. Im Labor: Kalzium ↑, Parathormon ↑, Phosphat ↓.",
+      "fallbeschreibung_fa": "یک بیمار زن ۵۵ ساله سنگ کلیهٔ عودکننده و درد استخوان دارد و از یبوست و بی‌اشتهایی شکایت می‌کند. در آزمایشگاه: افزایش کلسیم، افزایش پاراتورمون، کاهش فسفات.",
       "frage": "Welche Diagnose ist am wahrscheinlichsten?",
+      "frage_fa": "محتمل‌ترین تشخیص کدام است؟",
       "optionen": [
         "Sekundärer Hyperparathyreoidismus",
         "Primärer Hyperparathyreoidismus (Merkhilfe 'Stein, Bein, Magenpein')",
@@ -13106,8 +13284,16 @@
         "Schilddrüsenkarzinom",
         "Diabetes mellitus"
       ],
+      "optionen_fa": [
+        "هایپرپاراتیروئیدیسم ثانویه",
+        "هایپرپاراتیروئیدیسم اولیه (یادیار «سنگ، استخوان، درد معده»)",
+        "هایپوپاراتیروئیدیسم",
+        "کارسینوم تیروئید",
+        "دیابت شیرین"
+      ],
       "richtig": 1,
       "erklaerung": "Klassischer primärer Hyperparathyreoidismus mit 'Stein, Bein, Magenpein': Nierensteine (Stein), Knochenschmerzen (Bein), GI-Symptome (Magenpein). Labor bestätigt: Kalzium ↑, Parathormon ↑, Phosphat ↓ - typisch für die primäre Form.",
+      "erklaerung_fa": "هایپرپاراتیروئیدیسم اولیهٔ کلاسیک با «سنگ، استخوان، درد معده»: سنگ کلیه (سنگ)، درد استخوان (استخوان)، علائم گوارشی (درد معده). آزمایشگاه تأیید می‌کند: افزایش کلسیم، افزایش پاراتورمون، کاهش فسفات — مشخصهٔ شکل اولیه.",
       "schwierigkeit": "mittel",
       "tags": [
         "Endokrinologie",
@@ -13123,6 +13309,7 @@
       "seite": 30,
       "typ": "multiple_choice",
       "frage": "Wie ist die Nebennierenrinde aufgebaut? (Merkhilfe 'Salt, sugar, sex')",
+      "frage_fa": "قشر غدهٔ فوق‌کلیه چگونه ساختاربندی شده است؟ (یادیار «Salt, sugar, sex»)",
       "optionen": [
         "Salt: Mineralkortikoide (Aldosteron) - Zona glomerulosa (außen)",
         "Sugar: Glukokortikoide (Cortisol) - Zona fasciculata (mitte)",
@@ -13130,12 +13317,20 @@
         "Nur eine Schicht",
         "Keine Hormone"
       ],
+      "optionen_fa": [
+        "Salt (نمک): مینرالوکورتیکوئیدها (آلدوسترون) — لایهٔ گلومرولوزا (بیرونی)",
+        "Sugar (قند): گلوکوکورتیکوئیدها (کورتیزول) — لایهٔ فاسیکولاتا (میانی)",
+        "Sex (جنسی): هورمون‌های جنسی (آندروژن‌ها/تستوسترون) — لایهٔ رتیکولاریس (درونی)",
+        "فقط یک لایه",
+        "بدون هورمون"
+      ],
       "richtig": [
         0,
         1,
         2
       ],
       "erklaerung": "Nebennierenrinde von außen nach innen (Merkhilfe 'Salt, sugar and sex, the deeper you go, the better it gets'): Salt = Mineralkortikoide/Aldosteron (Zona glomerulosa), Sugar = Glukokortikoide/Cortisol (Zona fasciculata), Sex = Sexualhormone/Androgene (Zona reticularis).",
+      "erklaerung_fa": "قشر غدهٔ فوق‌کلیه از بیرون به درون (یادیار انگلیسی «Salt, sugar and sex, the deeper you go, the better it gets»): Salt = مینرالوکورتیکوئیدها/آلدوسترون (لایهٔ گلومرولوزا)، Sugar = گلوکوکورتیکوئیدها/کورتیزول (لایهٔ فاسیکولاتا)، Sex = هورمون‌های جنسی/آندروژن‌ها (لایهٔ رتیکولاریس).",
       "schwierigkeit": "schwer",
       "tags": [
         "Endokrinologie",
@@ -13152,6 +13347,7 @@
       "seite": 30,
       "typ": "single_choice",
       "frage": "Was ist die Addison-Krankheit (NNR-Insuffizienz)?",
+      "frage_fa": "بیماری آدیسون (نارسایی قشر غدهٔ فوق‌کلیه) چیست؟",
       "optionen": [
         "Überfunktion der Nebennierenrinde",
         "Unterfunktion der Nebennierenrinde mit verminderter Produktion von Hormonen (Aldosteron, Cortisol, Androgene)",
@@ -13159,8 +13355,16 @@
         "Ein Kalziummangel",
         "Ein Tumor"
       ],
+      "optionen_fa": [
+        "پرکاری قشر غدهٔ فوق‌کلیه",
+        "کم‌کاری قشر غدهٔ فوق‌کلیه همراه با کاهش تولید هورمون‌ها (آلدوسترون، کورتیزول، آندروژن‌ها)",
+        "یک بیماری تیروئید",
+        "کمبود کلسیم",
+        "یک تومور"
+      ],
       "richtig": 1,
       "erklaerung": "Morbus Addison (NNR-Insuffizienz) = Unterfunktion der Nebennierenrinde mit verminderter Produktion von Hormonen. Beim Morbus Addison kommt es zum Mangel von Aldosteron, Cortisol und Androgenen. Bei sekundärer NNR-Insuffizienz sind vorwiegend nur die Glukokortikoide betroffen.",
+      "erklaerung_fa": "بیماری آدیسون (نارسایی قشر فوق‌کلیه) = کم‌کاری قشر غدهٔ فوق‌کلیه همراه با کاهش تولید هورمون‌ها. در بیماری آدیسون کمبود آلدوسترون، کورتیزول و آندروژن‌ها رخ می‌دهد. در نارسایی ثانویه عمدتاً فقط گلوکوکورتیکوئیدها درگیر می‌شوند.",
       "schwierigkeit": "mittel",
       "tags": [
         "Endokrinologie",
@@ -13176,6 +13380,7 @@
       "seite": 30,
       "typ": "multiple_choice",
       "frage": "Welche Formen der NNR-Insuffizienz gibt es nach Ursache?",
+      "frage_fa": "چه اشکالی از نارسایی قشر فوق‌کلیه بر اساس علت وجود دارد؟",
       "optionen": [
         "Primäre NNR-Insuffizienz (Morbus Addison): Ursache ist die Nebenniere selbst",
         "Sekundäre NNR-Insuffizienz: Ursache ist Hypophyse oder Hypothalamus → ACTH fehlt",
@@ -13183,12 +13388,20 @@
         "Quartäre NNR-Insuffizienz: Nierenerkrankung",
         "Es gibt nur eine Form"
       ],
+      "optionen_fa": [
+        "نارسایی اولیه (بیماری آدیسون): علت خودِ غدهٔ فوق‌کلیه است",
+        "نارسایی ثانویه: علت هیپوفیز یا هیپوتالاموس است ← ACTH وجود ندارد",
+        "نارسایی ثالثیه: قطع بسیار سریع گلوکوکورتیکوئیدها در درمان طولانی‌مدت",
+        "نارسایی رباعیه: بیماری کلیوی",
+        "فقط یک شکل وجود دارد"
+      ],
       "richtig": [
         0,
         1,
         2
       ],
       "erklaerung": "3 Formen der NNR-Insuffizienz: Primär (Morbus Addison - Nebenniere selbst), Sekundär (Hypophyse/Hypothalamus → ACTH fehlt), Tertiär (zu schnelles Absetzen von Glukokortikoiden bei Langzeittherapie).",
+      "erklaerung_fa": "۳ شکل نارسایی قشر فوق‌کلیه: اولیه (بیماری آدیسون — خودِ غدهٔ فوق‌کلیه)، ثانویه (هیپوفیز/هیپوتالاموس ← فقدان ACTH)، ثالثیه (قطع بسیار سریع گلوکوکورتیکوئیدها در درمان طولانی‌مدت).",
       "schwierigkeit": "schwer",
       "tags": [
         "Endokrinologie",
@@ -13205,12 +13418,20 @@
       "seite": 30,
       "typ": "multiple_choice",
       "frage": "Welche Ursachen hat die primäre NNR-Insuffizienz (Morbus Addison)?",
+      "frage_fa": "نارسایی اولیهٔ قشر فوق‌کلیه (بیماری آدیسون) چه علل‌هایی دارد؟",
       "optionen": [
         "Autoimmunadrenalitis (80%): Autoantikörper gegen NNR-Gewebe",
         "Infektionskrankheiten: Tuberkulose, HIV, Meningokokken (Waterhouse-Friderichsen-Syndrom)",
         "Tumoren, Metastasen, Blutungen, Fehlbildungen",
         "Operative Entfernung der Nebennieren",
         "Zu viel Vitamin C"
+      ],
+      "optionen_fa": [
+        "آدرنالیت خودایمن (80٪): اتوآنتی‌بادی علیه بافت قشر فوق‌کلیه",
+        "بیماری‌های عفونی: سل، HIV، مننگوکوک (سندرم واترهاوس-فریدریکسن)",
+        "تومورها، متاستازها، خونریزی‌ها، ناهنجاری‌ها",
+        "برداشتن جراحی غدد فوق‌کلیه",
+        "ویتامین C بیش از حد"
       ],
       "richtig": [
         0,
@@ -13219,6 +13440,7 @@
         3
       ],
       "erklaerung": "Primäre NNR-Insuffizienz-Ursachen: Autoimmunadrenalitis (80% - häufigste!), Infektionskrankheiten (Tuberkulose, Mononukleose, HIV, Meningokokken → Waterhouse-Friderichsen-Syndrom), Tumoren/Metastasen/Blutungen/Fehlbildungen/Enzymdefekte, operative Entfernung.",
+      "erklaerung_fa": "علل نارسایی اولیهٔ قشر فوق‌کلیه: آدرنالیت خودایمن (80٪ — شایع‌ترین!)، بیماری‌های عفونی (سل، مونونوکلئوز، HIV، مننگوکوک ← سندرم واترهاوس-فریدریکسن)، تومورها/متاستازها/خونریزی‌ها/ناهنجاری‌ها/نقص آنزیمی، برداشتن جراحی.",
       "schwierigkeit": "schwer",
       "tags": [
         "Endokrinologie",
@@ -13235,6 +13457,7 @@
       "seite": 30,
       "typ": "multiple_choice",
       "frage": "Was ist der Unterschied zwischen 'braunem' und 'weißem' Addison?",
+      "frage_fa": "تفاوت بین آدیسون «قهوه‌ای» و «سفید» چیست؟",
       "optionen": [
         "'Brauner Addison' bei primärer NNR-Insuffizienz: Hyperpigmentierung von Haut und Schleimhäuten",
         "'Weißer Addison' bei sekundärer NNR-Insuffizienz: alabasterfarbene Blässe (Hypophyseninsuffizienz)",
@@ -13242,11 +13465,19 @@
         "Brauner Addison bedeutet Blässe",
         "Weißer Addison bedeutet Braunfärbung"
       ],
+      "optionen_fa": [
+        "«آدیسون قهوه‌ای» در نارسایی اولیه: هایپرپیگمانتاسیون پوست و مخاط‌ها",
+        "«آدیسون سفید» در نارسایی ثانویه: رنگ‌پریدگی آلاباستری (نارسایی هیپوفیز)",
+        "هر دو رنگ پوست یکسانی دارند",
+        "آدیسون قهوه‌ای به معنای رنگ‌پریدگی است",
+        "آدیسون سفید به معنای قهوه‌ای‌شدن است"
+      ],
       "richtig": [
         0,
         1
       ],
       "erklaerung": "'Brauner Addison' (primär): Hyperpigmentierung durch erhöhtes MSH (aus ACTH-Vorstufe POMC). 'Weißer Addison' (sekundär): alabasterfarbene Blässe, da bei Hypophyseninsuffizienz weniger ACTH und somit weniger MSH produziert wird. Merkmale: 7 'A's - Adynamie, Amenorrhö, Agalaktie, Apathie u.a.",
+      "erklaerung_fa": "«آدیسون قهوه‌ای» (اولیه): هایپرپیگمانتاسیون به‌دلیل افزایش MSH (از پیش‌سازِ ACTH یعنی POMC). «آدیسون سفید» (ثانویه): رنگ‌پریدگی آلاباستری، زیرا در نارسایی هیپوفیز ACTH کمتر و در نتیجه MSH کمتری تولید می‌شود.",
       "schwierigkeit": "schwer",
       "tags": [
         "Endokrinologie",
@@ -13262,6 +13493,7 @@
       "seite": 30,
       "typ": "multiple_choice",
       "frage": "Welche Symptome treten beim Morbus Addison auf?",
+      "frage_fa": "کدام علائم در بیماری آدیسون بروز می‌کنند؟",
       "optionen": [
         "Hautpigmentierung (Hyperpigmentierung bei primärer Form)",
         "Müdigkeit, Schwäche, Leistungsminderung, arterielle Hypotonie",
@@ -13269,6 +13501,14 @@
         "Dehydratation, Verlangen nach Salz",
         "Libidoverlust, Amenorrhö",
         "Gewichtszunahme, Bluthochdruck"
+      ],
+      "optionen_fa": [
+        "رنگدانه‌دارشدن پوست (هایپرپیگمانتاسیون در شکل اولیه)",
+        "خستگی، ضعف، کاهش عملکرد، افت فشار خون شریانی",
+        "کاهش وزن، بی‌اشتهایی، تهوع و استفراغ",
+        "کم‌آبی، اشتیاق به نمک",
+        "کاهش میل جنسی، آمنوره (قطع قاعدگی)",
+        "افزایش وزن، فشار خون بالا"
       ],
       "richtig": [
         0,
@@ -13278,6 +13518,7 @@
         4
       ],
       "erklaerung": "Morbus Addison-Klinik: Hautpigmentierung, Müdigkeit/Schwäche/Hypotonie, Gewichts-/Appetitverlust/Übelkeit, Dehydratation + Salzhunger (durch Aldosteronmangel), Libidoverlust/Amenorrhö. Gewichtszunahme/Hypertonie wären beim Cushing-Syndrom.",
+      "erklaerung_fa": "تصویر بالینی بیماری آدیسون: رنگدانه‌دارشدن پوست، خستگی/ضعف/افت فشار خون، کاهش وزن/بی‌اشتهایی/تهوع، کم‌آبی + اشتیاق به نمک (به‌دلیل کمبود آلدوسترون)، کاهش میل جنسی/آمنوره. افزایش وزن/فشار خون بالا مربوط به سندرم کوشینگ است.",
       "schwierigkeit": "schwer",
       "tags": [
         "Endokrinologie",
@@ -13293,6 +13534,7 @@
       "seite": 30,
       "typ": "multiple_choice",
       "frage": "Was charakterisiert die Addison-Krise (Notfall)?",
+      "frage_fa": "چه چیزی مشخصهٔ بحران آدیسون (اورژانس) است؟",
       "optionen": [
         "Lebensbedrohliche akute NNR-Insuffizienz → intensivmedizinische Behandlung",
         "Erheblicher Flüssigkeitsverlust → Dehydratation → Blutdruckabfall → Schock → Koma",
@@ -13300,6 +13542,14 @@
         "Gastrointestinale Beschwerden: Bauchschmerzen, Diarrhö, Erbrechen",
         "Bewusstseinsstörungen, Koma",
         "Bluthochdruck und Gewichtszunahme"
+      ],
+      "optionen_fa": [
+        "نارسایی حاد و تهدیدکنندهٔ حیات قشر فوق‌کلیه ← درمان در بخش مراقبت‌های ویژه",
+        "از دست دادن قابل توجه مایعات ← کم‌آبی ← افت فشار خون ← شوک ← کما",
+        "اختلالات الکترولیتی: هایپرکالمی، هایپوناترمی، هیپوگلیسمی، اسیدوز متابولیک",
+        "شکایات گوارشی: درد شکم، اسهال، استفراغ",
+        "اختلالات هوشیاری، کما",
+        "فشار خون بالا و افزایش وزن"
       ],
       "richtig": [
         0,
@@ -13309,6 +13559,7 @@
         4
       ],
       "erklaerung": "Addison-Krise = NOTFALL! Lebensbedrohliche akute NNR-Insuffizienz. Symptome: Flüssigkeitsverlust → Dehydratation → Schock → Koma, Elektrolytstörungen (Hyperkaliämie, Hyponatriämie, Hypoglykämie, metabolische Azidose), GI-Beschwerden, Hypothermie/später Fieber, Bewusstseinsstörungen, Koma.",
+      "erklaerung_fa": "بحران آدیسون = اورژانس! نارسایی حاد و تهدیدکنندهٔ حیات قشر فوق‌کلیه. علائم: از دست دادن مایعات ← کم‌آبی ← شوک ← کما، اختلالات الکترولیتی (هایپرکالمی، هایپوناترمی، هیپوگلیسمی، اسیدوز متابولیک)، شکایات گوارشی، هایپوترمی/بعداً تب، اختلالات هوشیاری، کما.",
       "schwierigkeit": "schwer",
       "tags": [
         "Endokrinologie",
@@ -13325,6 +13576,7 @@
       "seite": 30,
       "typ": "single_choice",
       "frage": "Welche Laborwerte zeigt die primäre vs. sekundäre NNR-Insuffizienz?",
+      "frage_fa": "نارسایی اولیه در برابر ثانویهٔ قشر فوق‌کلیه چه مقادیر آزمایشگاهی‌ای نشان می‌دهد؟",
       "optionen": [
         "Beide: Cortisol ↑",
         "Primär: Cortisol ↓, ACTH ↑; Sekundär: Cortisol ↓, ACTH ↓",
@@ -13332,8 +13584,16 @@
         "Beide: alle Werte normal",
         "Sekundär: Cortisol ↑, ACTH ↑"
       ],
+      "optionen_fa": [
+        "هر دو: افزایش کورتیزول",
+        "اولیه: کاهش کورتیزول، افزایش ACTH؛ ثانویه: کاهش کورتیزول، کاهش ACTH",
+        "اولیه: افزایش کورتیزول، کاهش ACTH",
+        "هر دو: همهٔ مقادیر طبیعی",
+        "ثانویه: افزایش کورتیزول، افزایش ACTH"
+      ],
       "richtig": 1,
       "erklaerung": "NNR-Insuffizienz-Diagnostik: Primär (Morbus Addison): Cortisol ↓, ACTH ↑ (kompensatorisch, da Nebenniere nicht reagiert). Sekundär: Cortisol ↓, ACTH ↓ (Hypophyse produziert zu wenig). Weitere: Hyperkaliämie, Hyponatriämie, Eosinophilie.",
+      "erklaerung_fa": "تشخیص نارسایی قشر فوق‌کلیه: اولیه (بیماری آدیسون): کاهش کورتیزول، افزایش ACTH (جبرانی، زیرا غدهٔ فوق‌کلیه پاسخ نمی‌دهد). ثانویه: کاهش کورتیزول، کاهش ACTH (هیپوفیز بسیار کم تولید می‌کند). سایر: هایپرکالمی، هایپوناترمی، ائوزینوفیلی.",
       "schwierigkeit": "schwer",
       "tags": [
         "Endokrinologie",
@@ -13350,6 +13610,7 @@
       "seite": 30,
       "typ": "single_choice",
       "frage": "Wie wird die NNR-Insuffizienz behandelt?",
+      "frage_fa": "نارسایی قشر فوق‌کلیه چگونه درمان می‌شود؟",
       "optionen": [
         "Keine Behandlung nötig",
         "Hormonsubstitution (v.a. Glukokortikoide, bei Morbus Addison zusätzlich Mineralkortikoide und DHEA) - bei Belastung Dosis anpassen!",
@@ -13357,8 +13618,16 @@
         "Operative Entfernung der Nebenniere",
         "Nur Diät"
       ],
+      "optionen_fa": [
+        "نیازی به درمان نیست",
+        "جایگزینی هورمونی (به‌ویژه گلوکوکورتیکوئیدها، در بیماری آدیسون علاوه بر آن مینرالوکورتیکوئیدها و DHEA) — در شرایط فشار دوز را تنظیم کنید!",
+        "فقط مسکن",
+        "برداشتن جراحی غدهٔ فوق‌کلیه",
+        "فقط رژیم غذایی"
+      ],
       "richtig": 1,
       "erklaerung": "NNR-Insuffizienz-Therapie: Hormonsubstitution, v.a. Glukokortikoide, bei Morbus Addison zusätzlich Mineralkortikoide und DHEA. CAVE: Bei Belastungssituationen (Stress, Operationen, Infektionen) muss die Dosis angepasst (erhöht) werden!",
+      "erklaerung_fa": "درمان نارسایی قشر فوق‌کلیه: جایگزینی هورمونی، به‌ویژه گلوکوکورتیکوئیدها، در بیماری آدیسون علاوه بر آن مینرالوکورتیکوئیدها و DHEA. احتیاط: در شرایط فشار (استرس، جراحی، عفونت) دوز باید تنظیم (افزایش) شود!",
       "schwierigkeit": "schwer",
       "tags": [
         "Endokrinologie",
@@ -13374,7 +13643,9 @@
       "seite": 30,
       "typ": "fallbeispiel",
       "fallbeschreibung": "Ein 45-jähriger Patient klagt über zunehmende Müdigkeit, Gewichtsverlust, niedrigen Blutdruck und ein auffälliges Verlangen nach salzigen Speisen. Auffällig ist eine bräunliche Verfärbung der Haut. Labor: Cortisol ↓, ACTH ↑, Hyperkaliämie, Hyponatriämie.",
+      "fallbeschreibung_fa": "یک بیمار ۴۵ ساله از خستگی فزاینده، کاهش وزن، فشار خون پایین و اشتیاق چشمگیر به غذاهای شور شکایت دارد. تغییر رنگ قهوه‌ای پوست قابل توجه است. آزمایشگاه: کاهش کورتیزول، افزایش ACTH، هایپرکالمی، هایپوناترمی.",
       "frage": "Welche Diagnose ist am wahrscheinlichsten?",
+      "frage_fa": "محتمل‌ترین تشخیص کدام است؟",
       "optionen": [
         "Cushing-Syndrom",
         "Primäre NNR-Insuffizienz (Morbus Addison, 'brauner Addison')",
@@ -13382,8 +13653,16 @@
         "Sekundäre NNR-Insuffizienz",
         "Diabetes mellitus"
       ],
+      "optionen_fa": [
+        "سندرم کوشینگ",
+        "نارسایی اولیهٔ قشر فوق‌کلیه (بیماری آدیسون، «آدیسون قهوه‌ای»)",
+        "پرکاری تیروئید",
+        "نارسایی ثانویهٔ قشر فوق‌کلیه",
+        "دیابت شیرین"
+      ],
       "richtig": 1,
       "erklaerung": "Klassischer Morbus Addison (primäre NNR-Insuffizienz, 'brauner Addison'): Müdigkeit, Gewichtsverlust, Hypotonie, Salzhunger (Aldosteronmangel), Hyperpigmentierung (durch erhöhtes MSH). Labor: Cortisol ↓, ACTH ↑ (primär!), Hyperkaliämie + Hyponatriämie (Aldosteronmangel).",
+      "erklaerung_fa": "بیماری آدیسون کلاسیک (نارسایی اولیهٔ قشر فوق‌کلیه، «آدیسون قهوه‌ای»): خستگی، کاهش وزن، افت فشار خون، اشتیاق به نمک (کمبود آلدوسترون)، هایپرپیگمانتاسیون (به‌دلیل افزایش MSH). آزمایشگاه: کاهش کورتیزول، افزایش ACTH (اولیه!)، هایپرکالمی + هایپوناترمی (کمبود آلدوسترون).",
       "schwierigkeit": "mittel",
       "tags": [
         "Endokrinologie",
@@ -13399,6 +13678,7 @@
       "seite": 31,
       "typ": "single_choice",
       "frage": "Was ist das Cushing-Syndrom?",
+      "frage_fa": "سندرم کوشینگ چیست؟",
       "optionen": [
         "Cortisolmangel",
         "Erkrankung mit erhöhter Cortisolkonzentration, charakterisiert durch Stammfettsucht, Vollmondgesicht, Stiernacken und arterielle Hypertonie",
@@ -13406,8 +13686,16 @@
         "Eine Schilddrüsenüberfunktion",
         "Ein Vitaminmangel"
       ],
+      "optionen_fa": [
+        "کمبود کورتیزول",
+        "بیماری همراه با افزایش غلظت کورتیزول، مشخص‌شده با چاقی مرکزی، صورت ماه‌شکل، گردن گاومیشی و فشار خون شریانی بالا",
+        "کمبود کلسیم",
+        "پرکاری تیروئید",
+        "کمبود ویتامین"
+      ],
       "richtig": 1,
       "erklaerung": "Cushing-Syndrom = Erkrankung mit erhöhter Cortisolkonzentration (Hypercortisolismus), charakterisiert durch Stammfettsucht, Vollmondgesicht, Stiernacken und arterielle Hypertonie. Morbus Cushing = wenn ein Hypophysenadenom die Ursache ist, sonst Cushing-Syndrom.",
+      "erklaerung_fa": "سندرم کوشینگ = بیماری همراه با افزایش غلظت کورتیزول (هایپرکورتیزولیسم)، مشخص‌شده با چاقی مرکزی، صورت ماه‌شکل، گردن گاومیشی و فشار خون شریانی بالا. بیماری کوشینگ = زمانی که آدنوم هیپوفیز علت باشد، در غیر این صورت سندرم کوشینگ.",
       "schwierigkeit": "mittel",
       "tags": [
         "Endokrinologie",
@@ -13423,6 +13711,7 @@
       "seite": 31,
       "typ": "single_choice",
       "frage": "Was ist der Unterschied zwischen Morbus Cushing und Cushing-Syndrom?",
+      "frage_fa": "تفاوت بین بیماری کوشینگ و سندرم کوشینگ چیست؟",
       "optionen": [
         "Kein Unterschied",
         "Morbus Cushing = Hypophysenadenom als Ursache; Cushing-Syndrom = alle anderen Ursachen",
@@ -13430,8 +13719,16 @@
         "Cushing-Syndrom betrifft nur Kinder",
         "Morbus Cushing ist Cortisolmangel"
       ],
+      "optionen_fa": [
+        "تفاوتی ندارند",
+        "بیماری کوشینگ = آدنوم هیپوفیز به‌عنوان علت؛ سندرم کوشینگ = همهٔ علل دیگر",
+        "بیماری کوشینگ بی‌خطر است",
+        "سندرم کوشینگ فقط کودکان را درگیر می‌کند",
+        "بیماری کوشینگ کمبود کورتیزول است"
+      ],
       "richtig": 1,
       "erklaerung": "Morbus Cushing heißt es, wenn ein Hypophysenadenom (ACTH-produzierend) die Ursache ist. Ansonsten spricht man vom Cushing-Syndrom (Oberbegriff für alle Formen des Hypercortisolismus).",
+      "erklaerung_fa": "زمانی بیماری کوشینگ نامیده می‌شود که آدنوم هیپوفیز (تولیدکنندهٔ ACTH) علت باشد. در غیر این صورت از سندرم کوشینگ صحبت می‌شود (اصطلاح کلی برای همهٔ اشکال هایپرکورتیزولیسم).",
       "schwierigkeit": "schwer",
       "tags": [
         "Endokrinologie",
@@ -13447,6 +13744,7 @@
       "seite": 31,
       "typ": "multiple_choice",
       "frage": "Welche Ursachen hat das Cushing-Syndrom?",
+      "frage_fa": "سندرم کوشینگ چه علل‌هایی دارد؟",
       "optionen": [
         "Exogenes (iatrogenes) Cushing-Syndrom: durch Medikamenteneinnahme (Langzeittherapie mit Glukokortikoiden/ACTH) - häufig",
         "Endogenes Cushing-Syndrom: durch erhöhte Sekretion von Cortisol und/oder ACTH",
@@ -13454,6 +13752,14 @@
         "Adrenales Cushing-Syndrom: cortisolproduzierende Tumoren der Nebennierenrinde",
         "Ektopes Cushing-Syndrom: paraneoplastische ACTH-/CRH-Sekretion (z.B. Bronchial-Ca)",
         "Immer nur genetisch bedingt"
+      ],
+      "optionen_fa": [
+        "سندرم کوشینگ برون‌زاد (یاتروژنیک): به‌دلیل مصرف دارو (درمان طولانی‌مدت با گلوکوکورتیکوئیدها/ACTH) — شایع",
+        "سندرم کوشینگ درون‌زاد: به‌دلیل افزایش ترشح کورتیزول و/یا ACTH",
+        "بیماری کوشینگ: آدنوم تولیدکنندهٔ ACTH در لوب قدامی هیپوفیز",
+        "سندرم کوشینگ آدرنال: تومورهای تولیدکنندهٔ کورتیزول در قشر غدهٔ فوق‌کلیه",
+        "سندرم کوشینگ نابه‌جا (اکتوپیک): ترشح پارانئوپلاستیک ACTH/CRH (مثلاً کارسینوم برونش)",
+        "همیشه فقط ژنتیکی"
       ],
       "richtig": [
         0,
@@ -13463,6 +13769,7 @@
         4
       ],
       "erklaerung": "Cushing-Ursachen: Exogen/iatrogen (Medikamente - häufigste!), endogen (erhöhte Cortisol/ACTH-Sekretion), Morbus Cushing (Hypophysenadenom, ACTH↑), adrenales Cushing (NNR-Tumor), ektopes Cushing (paraneoplastisch, z.B. kleinzelliges Bronchial-Ca).",
+      "erklaerung_fa": "علل کوشینگ: برون‌زاد/یاتروژنیک (داروها — شایع‌ترین!)، درون‌زاد (افزایش ترشح کورتیزول/ACTH)، بیماری کوشینگ (آدنوم هیپوفیز، افزایش ACTH)، کوشینگ آدرنال (تومور قشر فوق‌کلیه)، کوشینگ نابه‌جا (پارانئوپلاستیک، مثلاً کارسینوم سلول کوچک برونش).",
       "schwierigkeit": "schwer",
       "tags": [
         "Endokrinologie",
@@ -13478,6 +13785,7 @@
       "seite": 31,
       "typ": "single_choice",
       "frage": "Was ist die häufigste Ursache des Cushing-Syndroms?",
+      "frage_fa": "شایع‌ترین علت سندرم کوشینگ چیست؟",
       "optionen": [
         "Ein Hypophysenadenom",
         "Exogenes (iatrogenes) Cushing-Syndrom durch Langzeittherapie mit Glukokortikoiden",
@@ -13485,8 +13793,16 @@
         "Ein Bronchialkarzinom",
         "Genetische Faktoren"
       ],
+      "optionen_fa": [
+        "یک آدنوم هیپوفیز",
+        "سندرم کوشینگ برون‌زاد (یاتروژنیک) به‌دلیل درمان طولانی‌مدت با گلوکوکورتیکوئیدها",
+        "توموری در غدهٔ فوق‌کلیه",
+        "کارسینوم برونش",
+        "عوامل ژنتیکی"
+      ],
       "richtig": 1,
       "erklaerung": "Die häufigste Ursache ist das exogene (iatrogene) Cushing-Syndrom durch Medikamenteneinnahme - Langzeittherapie mit Glukokortikoiden oder ACTH (z.B. bei chronischen Entzündungen, Autoimmunerkrankungen).",
+      "erklaerung_fa": "شایع‌ترین علت، سندرم کوشینگ برون‌زاد (یاتروژنیک) به‌دلیل مصرف دارو است — درمان طولانی‌مدت با گلوکوکورتیکوئیدها یا ACTH (مثلاً در التهاب‌های مزمن، بیماری‌های خودایمنی).",
       "schwierigkeit": "schwer",
       "tags": [
         "Endokrinologie",
@@ -13502,6 +13818,7 @@
       "seite": 31,
       "typ": "multiple_choice",
       "frage": "Welche klinischen Zeichen treten beim Cushing-Syndrom auf?",
+      "frage_fa": "کدام نشانه‌های بالینی در سندرم کوشینگ بروز می‌کنند؟",
       "optionen": [
         "Vollmondgesicht, Stammfettsucht, Stiernacken (infolge Fett-Umverteilung)",
         "Muskelschwäche, dünne Beine (infolge erhöhten Proteinabbaus)",
@@ -13510,6 +13827,15 @@
         "Hyperglykämie → erhöhtes Diabetesrisiko (Cortisol als Insulinantagonist)",
         "Blaurote Striae rubrae, schlechte Wundheilung",
         "Gewichtsverlust und niedriger Blutdruck"
+      ],
+      "optionen_fa": [
+        "صورت ماه‌شکل، چاقی مرکزی، گردن گاومیشی (در پی بازتوزیع چربی)",
+        "ضعف عضلانی، پاهای لاغر (در پی افزایش تجزیهٔ پروتئین)",
+        "فشار خون شریانی بالا (در پی اثر مینرالوکورتیکوئیدی)",
+        "پوکی استخوان با خطر شکستگی",
+        "هایپرگلیسمی ← افزایش خطر دیابت (کورتیزول به‌عنوان رقیب انسولین)",
+        "استریا روبرا (خطوط کششی کبود-قرمز)، بهبود ضعیف زخم",
+        "کاهش وزن و فشار خون پایین"
       ],
       "richtig": [
         0,
@@ -13520,6 +13846,7 @@
         5
       ],
       "erklaerung": "Cushing-Klinik: Vollmondgesicht/Stammfettsucht/Stiernacken (Fett-Umverteilung), Muskelschwäche/dünne Beine (Proteinabbau), Hypertonie (mineralkortikoide Wirkung), Osteoporose, Hyperglykämie/Diabetesrisiko (Cortisol = Insulinantagonist), Striae rubrae (Hautatrophie), bei Frauen Virilismus/Hirsutismus/Amenorrhö, bei Kindern Wachstumshemmung, psychische Veränderungen.",
+      "erklaerung_fa": "تصویر بالینی کوشینگ: صورت ماه‌شکل/چاقی مرکزی/گردن گاومیشی (بازتوزیع چربی)، ضعف عضلانی/پاهای لاغر (تجزیهٔ پروتئین)، فشار خون بالا (اثر مینرالوکورتیکوئیدی)، پوکی استخوان، هایپرگلیسمی/خطر دیابت (کورتیزول = رقیب انسولین)، استریا روبرا (آتروفی پوست)، در زنان مردانه‌شدن/هیرسوتیسم/آمنوره، در کودکان مهار رشد، تغییرات روانی.",
       "schwierigkeit": "schwer",
       "tags": [
         "Endokrinologie",
@@ -13535,6 +13862,7 @@
       "seite": 31,
       "typ": "single_choice",
       "frage": "Warum entstehen beim Cushing-Syndrom blaurote Striae rubrae?",
+      "frage_fa": "چرا در سندرم کوشینگ خطوط کششی کبود-قرمز (استریا روبرا) ایجاد می‌شوند؟",
       "optionen": [
         "Durch Sonnenbrand",
         "Infolge Hautatrophie - die dünne Haut reißt leicht ein",
@@ -13542,8 +13870,16 @@
         "Durch Infektionen",
         "Durch Kälte"
       ],
+      "optionen_fa": [
+        "به‌دلیل آفتاب‌سوختگی",
+        "در پی آتروفی پوست — پوست نازک به‌راحتی پاره می‌شود",
+        "به‌دلیل آلرژی",
+        "به‌دلیل عفونت",
+        "به‌دلیل سرما"
+      ],
       "richtig": 1,
       "erklaerung": "Die blauroten Striae rubrae (Dehnungsstreifen) entstehen infolge der Hautatrophie - die dünne Haut reißt leicht ein. Cortisol führt zum Abbau von Kollagen und Bindegewebe.",
+      "erklaerung_fa": "استریا روبرا (خطوط کششی کبود-قرمز) در پی آتروفی پوست ایجاد می‌شوند — پوست نازک به‌راحتی پاره می‌شود. کورتیزول به تجزیهٔ کلاژن و بافت همبند منجر می‌شود.",
       "schwierigkeit": "schwer",
       "tags": [
         "Endokrinologie",
@@ -13559,6 +13895,7 @@
       "seite": 31,
       "typ": "multiple_choice",
       "frage": "Welche Komplikationen können beim Cushing-Syndrom auftreten?",
+      "frage_fa": "کدام عوارض می‌توانند در سندرم کوشینگ رخ دهند؟",
       "optionen": [
         "Diabetes mellitus",
         "Osteoporose mit erhöhter Frakturneigung",
@@ -13566,12 +13903,20 @@
         "Untergewicht",
         "Hypotonie"
       ],
+      "optionen_fa": [
+        "دیابت شیرین",
+        "پوکی استخوان با افزایش تمایل به شکستگی",
+        "فشار خون شریانی بالا ← عوارض قلبی-عروقی (سکتهٔ قلبی، سکتهٔ مغزی، AVK)",
+        "کمبود وزن",
+        "افت فشار خون"
+      ],
       "richtig": [
         0,
         1,
         2
       ],
       "erklaerung": "Cushing-Komplikationen: Diabetes mellitus, Osteoporose mit Frakturneigung, arterielle Hypertonie → kardiovaskuläre Komplikationen (Herzinfarkt, Schlaganfall, AVK).",
+      "erklaerung_fa": "عوارض کوشینگ: دیابت شیرین، پوکی استخوان با تمایل به شکستگی، فشار خون شریانی بالا ← عوارض قلبی-عروقی (سکتهٔ قلبی، سکتهٔ مغزی، AVK).",
       "schwierigkeit": "mittel",
       "tags": [
         "Endokrinologie",
@@ -13587,12 +13932,20 @@
       "seite": 31,
       "typ": "multiple_choice",
       "frage": "Welche Laborveränderungen zeigt das Cushing-Syndrom?",
+      "frage_fa": "سندرم کوشینگ چه تغییرات آزمایشگاهی‌ای نشان می‌دهد؟",
       "optionen": [
         "Leukozyten, Thrombozyten und Erythrozyten ↑",
         "Eosinophile und Lymphozyten ↓",
         "Glukokortikoide im Blut und Urin ↑",
         "ACTH je nach Ursache ↑ oder ↓",
         "Alle Blutwerte niedrig"
+      ],
+      "optionen_fa": [
+        "افزایش لکوسیت‌ها، پلاکت‌ها و اریتروسیت‌ها",
+        "کاهش ائوزینوفیل‌ها و لنفوسیت‌ها",
+        "افزایش گلوکوکورتیکوئیدها در خون و ادرار",
+        "ACTH بسته به علت افزایش یا کاهش می‌یابد",
+        "همهٔ مقادیر خونی پایین"
       ],
       "richtig": [
         0,
@@ -13601,6 +13954,7 @@
         3
       ],
       "erklaerung": "Cushing-Labor: Leukozyten/Thrombozyten/Erythrozyten ↑, Eosinophile und Lymphozyten ↓, Glukokortikoide im Blut und Urin ↑, ACTH je nach Ursache ↑ (bei Morbus Cushing/ektopem) oder ↓ (bei adrenalem Cushing).",
+      "erklaerung_fa": "آزمایشگاه کوشینگ: افزایش لکوسیت‌ها/پلاکت‌ها/اریتروسیت‌ها، کاهش ائوزینوفیل‌ها و لنفوسیت‌ها، افزایش گلوکوکورتیکوئیدها در خون و ادرار، ACTH بسته به علت افزایش (در بیماری کوشینگ/نابه‌جا) یا کاهش (در کوشینگ آدرنال).",
       "schwierigkeit": "schwer",
       "tags": [
         "Endokrinologie",
@@ -13616,6 +13970,7 @@
       "seite": 31,
       "typ": "single_choice",
       "frage": "Was ist der Dexamethason-Hemmtest?",
+      "frage_fa": "تست مهار دگزامتازون چیست؟",
       "optionen": [
         "Ein Test für Diabetes",
         "Dexamethason (Glukokortikoid) hemmt normalerweise die hypophysäre ACTH-Ausschüttung - bei Gesunden fast vollständige Suppression der Cortisolsekretion",
@@ -13623,8 +13978,16 @@
         "Ein Test für Schilddrüsenfunktion",
         "Ein Nierenfunktionstest"
       ],
+      "optionen_fa": [
+        "آزمونی برای دیابت",
+        "دگزامتازون (گلوکوکورتیکوئید) به‌طور طبیعی ترشح ACTH هیپوفیزی را مهار می‌کند — در افراد سالم سرکوب تقریباً کامل ترشح کورتیزول",
+        "یک تست آلرژی",
+        "آزمونی برای عملکرد تیروئید",
+        "آزمون عملکرد کلیه"
+      ],
       "richtig": 1,
       "erklaerung": "Dexamethason-Hemmtest: Dexamethason (Glukokortikoid) hemmt die hypophysäre ACTH-Ausschüttung (Regelkreis: genügend Cortisol im Blut = keine ACTH-Ausschüttung nötig). Gesunde: fast vollständige Suppression. Morbus Cushing: verminderte Suppression. Nebennierentumoren/ektopes Cushing: keine Suppression.",
+      "erklaerung_fa": "تست مهار دگزامتازون: دگزامتازون (گلوکوکورتیکوئید) ترشح ACTH هیپوفیزی را مهار می‌کند (حلقهٔ تنظیم: کورتیزول کافی در خون = نیازی به ترشح ACTH نیست). افراد سالم: سرکوب تقریباً کامل. بیماری کوشینگ: سرکوب کاهش‌یافته. تومورهای غدهٔ فوق‌کلیه/کوشینگ نابه‌جا: بدون سرکوب.",
       "schwierigkeit": "schwer",
       "tags": [
         "Endokrinologie",
@@ -13641,6 +14004,7 @@
       "seite": 31,
       "typ": "single_choice",
       "frage": "Warum entsteht beim Cushing-Syndrom eine Hyperglykämie?",
+      "frage_fa": "چرا در سندرم کوشینگ هایپرگلیسمی ایجاد می‌شود؟",
       "optionen": [
         "Weil zu wenig gegessen wird",
         "Weil Cortisol den Blutzucker erhöht (Insulinantagonist)",
@@ -13648,8 +14012,16 @@
         "Durch Vitaminmangel",
         "Durch Wassermangel"
       ],
+      "optionen_fa": [
+        "زیرا غذای کمی خورده می‌شود",
+        "زیرا کورتیزول قند خون را افزایش می‌دهد (رقیب انسولین)",
+        "به‌دلیل کمبود کلسیم",
+        "به‌دلیل کمبود ویتامین",
+        "به‌دلیل کمبود آب"
+      ],
       "richtig": 1,
       "erklaerung": "Beim Cushing-Syndrom entsteht Hyperglykämie, weil Cortisol den Blutzucker erhöht (Cortisol ist ein Insulinantagonist). Dies führt zu einem erhöhten Diabetesrisiko.",
+      "erklaerung_fa": "در سندرم کوشینگ هایپرگلیسمی ایجاد می‌شود، زیرا کورتیزول قند خون را افزایش می‌دهد (کورتیزول یک رقیب انسولین است). این به افزایش خطر دیابت منجر می‌شود.",
       "schwierigkeit": "mittel",
       "tags": [
         "Endokrinologie",
@@ -13665,7 +14037,9 @@
       "seite": 31,
       "typ": "fallbeispiel",
       "fallbeschreibung": "Eine 45-jährige Patientin, die seit Jahren wegen Rheuma hochdosiert Kortison einnimmt, entwickelt ein rundes 'Vollmondgesicht', Fettansammlung am Bauch bei dünnen Armen und Beinen, Bluthochdruck und blaurote Dehnungsstreifen am Bauch. Blutzucker erhöht.",
+      "fallbeschreibung_fa": "یک بیمار زن ۴۵ ساله که سال‌هاست به‌دلیل روماتیسم کورتیزون با دوز بالا مصرف می‌کند، دچار «صورت ماه‌شکل» گرد، تجمع چربی در شکم همراه با دست‌ها و پاهای لاغر، فشار خون بالا و خطوط کششی کبود-قرمز روی شکم شده است. قند خون افزایش‌یافته.",
       "frage": "Welche Diagnose liegt am wahrscheinlichsten vor?",
+      "frage_fa": "محتمل‌ترین تشخیص کدام است؟",
       "optionen": [
         "Morbus Addison",
         "Exogenes (iatrogenes) Cushing-Syndrom durch die Kortison-Langzeittherapie",
@@ -13673,8 +14047,16 @@
         "Morbus Cushing (Hypophysenadenom)",
         "Diabetes Typ 1"
       ],
+      "optionen_fa": [
+        "بیماری آدیسون",
+        "سندرم کوشینگ برون‌زاد (یاتروژنیک) به‌دلیل درمان طولانی‌مدت با کورتیزون",
+        "پرکاری تیروئید",
+        "بیماری کوشینگ (آدنوم هیپوفیز)",
+        "دیابت نوع ۱"
+      ],
       "richtig": 1,
       "erklaerung": "Klassisches exogenes (iatrogenes) Cushing-Syndrom durch die Kortison-Langzeittherapie (häufigste Ursache!). Typische Zeichen: Vollmondgesicht, Stammfettsucht mit dünnen Extremitäten, Hypertonie, Striae rubrae, Hyperglykämie. Da Medikamente die Ursache sind, ist es 'exogen/iatrogen' (nicht Morbus Cushing = Hypophysenadenom).",
+      "erklaerung_fa": "سندرم کوشینگ برون‌زاد (یاتروژنیک) کلاسیک به‌دلیل درمان طولانی‌مدت با کورتیزون (شایع‌ترین علت!). نشانه‌های معمول: صورت ماه‌شکل، چاقی مرکزی با اندام‌های لاغر، فشار خون بالا، استریا روبرا، هایپرگلیسمی. از آنجا که داروها علت هستند، «برون‌زاد/یاتروژنیک» است (نه بیماری کوشینگ = آدنوم هیپوفیز).",
       "schwierigkeit": "mittel",
       "tags": [
         "Endokrinologie",
@@ -18860,11 +19242,14 @@
       "seite": 28,
       "lateinisch": "Schilddrüsenkarzinom",
       "deutsch": "Bösartiger Tumor der Schilddrüse",
+      "deutsch_fa": "تومور بدخیم غدهٔ تیروئید",
       "wortart": "Substantiv (n)",
       "kategorie": "Onkologie",
       "herkunft": "gr. karkinos = Krebs",
       "eselsbruecke": "Schilddrüsen-Karzinom = Schilddrüsen-Krebs",
+      "eselsbruecke_fa": "کارسینوم تیروئید = سرطان تیروئید",
       "beispiel": "Das Schilddrüsenkarzinom ist der häufigste Tumor des endokrinen Systems.",
+      "beispiel_fa": "کارسینوم تیروئید شایع‌ترین تومور سیستم غدد درون‌ریز است.",
       "schwierigkeit": "mittel"
     },
     {
@@ -18873,11 +19258,14 @@
       "seite": 28,
       "lateinisch": "papilläres Karzinom",
       "deutsch": "Häufigstes Schilddrüsenkarzinom (60%, gute Prognose)",
+      "deutsch_fa": "شایع‌ترین کارسینوم تیروئید (60٪، پیش‌آگهی خوب)",
       "wortart": "Substantiv (n)",
       "kategorie": "Onkologie",
       "herkunft": "lat. papilla = Warze",
       "eselsbruecke": "Papillär = warzenartig (häufigster, gutartigster Typ)",
+      "eselsbruecke_fa": "پاپیلاری = زگیل‌مانند (شایع‌ترین و کم‌خطرترین نوع)",
       "beispiel": "Das papilläre Karzinom hat eine gute Prognose (>90%).",
+      "beispiel_fa": "کارسینوم پاپیلاری پیش‌آگهی خوبی دارد (> 90٪).",
       "schwierigkeit": "schwer"
     },
     {
@@ -18886,11 +19274,14 @@
       "seite": 28,
       "lateinisch": "follikuläres Karzinom",
       "deutsch": "Zweithäufigstes Schilddrüsenkarzinom (30%)",
+      "deutsch_fa": "دومین کارسینوم شایع تیروئید (30٪)",
       "wortart": "Substantiv (n)",
       "kategorie": "Onkologie",
       "herkunft": "lat. folliculus = Säckchen",
       "eselsbruecke": "Follikulär = aus Follikeln (bei Jodmangel-Regionen)",
+      "eselsbruecke_fa": "فولیکولار = از فولیکول‌ها (در مناطق کمبود ید)",
       "beispiel": "Das follikuläre Karzinom tritt v.a. in Jodmangelgebieten auf.",
+      "beispiel_fa": "کارسینوم فولیکولار به‌ویژه در مناطق کمبود ید بروز می‌کند.",
       "schwierigkeit": "schwer"
     },
     {
@@ -18899,11 +19290,14 @@
       "seite": 28,
       "lateinisch": "anaplastisches Karzinom",
       "deutsch": "Undifferenziertes, aggressives Schilddrüsenkarzinom (5%)",
+      "deutsch_fa": "کارسینوم تیروئید تمایزنیافته و تهاجمی (5٪)",
       "wortart": "Substantiv (n)",
       "kategorie": "Onkologie",
       "herkunft": "gr. ana = zurück; plassein = bilden",
       "eselsbruecke": "Anaplastisch = 'entdifferenziert' (aggressivster Typ)",
+      "eselsbruecke_fa": "آناپلاستیک = «تمایززدایی‌شده» (تهاجمی‌ترین نوع)",
       "beispiel": "Das anaplastische Karzinom hat eine sehr schlechte Prognose (Tod in 6 Monaten).",
+      "beispiel_fa": "کارسینوم آناپلاستیک پیش‌آگهی بسیار بدی دارد (مرگ ظرف ۶ ماه).",
       "schwierigkeit": "schwer"
     },
     {
@@ -18912,11 +19306,14 @@
       "seite": 28,
       "lateinisch": "medulläres Karzinom",
       "deutsch": "Von C-Zellen ausgehendes Karzinom (produziert Calcitonin)",
+      "deutsch_fa": "کارسینوم منشأگرفته از سلول‌های C (تولیدکنندهٔ کلسی‌تونین)",
       "wortart": "Substantiv (n)",
       "kategorie": "Onkologie",
       "herkunft": "lat. medulla = Mark",
       "eselsbruecke": "Medullär = aus C-Zellen (produziert Calcitonin)",
+      "eselsbruecke_fa": "مدولاری = از سلول‌های C (کلسی‌تونین تولید می‌کند)",
       "beispiel": "Das medulläre Karzinom produziert Calcitonin als Tumormarker.",
+      "beispiel_fa": "کارسینوم مدولاری کلسی‌تونین را به‌عنوان نشانگر توموری تولید می‌کند.",
       "schwierigkeit": "schwer"
     },
     {
@@ -18925,11 +19322,14 @@
       "seite": 28,
       "lateinisch": "Horner-Syndrom",
       "deutsch": "Trias: Miosis, Ptosis, Enophthalmus",
+      "deutsch_fa": "سه‌گانه: میوز، پتوز، انوفتالموس",
       "wortart": "Substantiv (n)",
       "kategorie": "Neurologie",
       "herkunft": "nach Johann Friedrich Horner",
       "eselsbruecke": "Horner = Miosis + Ptosis + Enophthalmus (Sympathikus-Ausfall)",
+      "eselsbruecke_fa": "هورنر = میوز + پتوز + انوفتالموس (اختلال سمپاتیک)",
       "beispiel": "Das Horner-Syndrom kann bei Schilddrüsenkarzinom auftreten.",
+      "beispiel_fa": "سندرم هورنر می‌تواند در کارسینوم تیروئید رخ دهد.",
       "schwierigkeit": "schwer"
     },
     {
@@ -18938,11 +19338,14 @@
       "seite": 28,
       "lateinisch": "Miosis",
       "deutsch": "Verengung der Pupille",
+      "deutsch_fa": "تنگ‌شدن مردمک",
       "wortart": "Substantiv (f)",
       "kategorie": "Augenheilkunde",
       "herkunft": "gr. meiosis = Verkleinerung",
       "eselsbruecke": "Miosis = kleine Pupille (mini)",
+      "eselsbruecke_fa": "Miosis = مردمک کوچک (mini)",
       "beispiel": "Miosis ist Teil des Horner-Syndroms.",
+      "beispiel_fa": "میوز بخشی از سندرم هورنر است.",
       "schwierigkeit": "schwer"
     },
     {
@@ -18951,11 +19354,14 @@
       "seite": 28,
       "lateinisch": "Ptosis",
       "deutsch": "Herabhängen des Oberlids",
+      "deutsch_fa": "افتادگی پلک فوقانی",
       "wortart": "Substantiv (f)",
       "kategorie": "Augenheilkunde",
       "herkunft": "gr. ptosis = Fall",
       "eselsbruecke": "Ptosis = das Lid 'fällt' herab",
+      "eselsbruecke_fa": "Ptosis = پلک «می‌افتد»",
       "beispiel": "Ptosis ist ein Zeichen des Horner-Syndroms.",
+      "beispiel_fa": "پتوز یکی از نشانه‌های سندرم هورنر است.",
       "schwierigkeit": "schwer"
     },
     {
@@ -18964,11 +19370,14 @@
       "seite": 28,
       "lateinisch": "Thyreoidektomie",
       "deutsch": "Operative Entfernung der Schilddrüse",
+      "deutsch_fa": "برداشتن جراحی غدهٔ تیروئید",
       "wortart": "Substantiv (f)",
       "kategorie": "Medizinische Fachbegriffe",
       "herkunft": "gr. thyreos = Schild; ektome = Herausschneiden",
       "eselsbruecke": "Thyreoid-Ektomie = Schilddrüse herausschneiden",
+      "eselsbruecke_fa": "Thyreoid-Ektomie = برداشتن غدهٔ تیروئید",
       "beispiel": "Bei Schilddrüsenkarzinom erfolgt eine totale Thyreoidektomie.",
+      "beispiel_fa": "در کارسینوم تیروئید، تیروئیدکتومی کامل انجام می‌شود.",
       "schwierigkeit": "schwer"
     },
     {
@@ -18977,11 +19386,14 @@
       "seite": 28,
       "lateinisch": "Thyreoglobulin",
       "deutsch": "Tumormarker bei papillärem/follikulärem Karzinom",
+      "deutsch_fa": "نشانگر توموری در کارسینوم پاپیلاری/فولیکولار",
       "wortart": "Substantiv (n)",
       "kategorie": "Diagnostik",
       "herkunft": "gr. thyreos = Schild; globulin",
       "eselsbruecke": "Thyreo-Globulin = Schilddrüsen-Eiweiß (Tumormarker)",
+      "eselsbruecke_fa": "Thyreo-Globulin = پروتئین تیروئید (نشانگر توموری)",
       "beispiel": "Thyreoglobulin dient als Tumormarker bei differenzierten Karzinomen.",
+      "beispiel_fa": "تیروگلوبولین به‌عنوان نشانگر توموری در کارسینوم‌های تمایزیافته استفاده می‌شود.",
       "schwierigkeit": "schwer"
     },
     {
@@ -18990,11 +19402,14 @@
       "seite": 29,
       "lateinisch": "Hyperparathyreoidismus",
       "deutsch": "Überfunktion der Nebenschilddrüsen (Parathormon ↑)",
+      "deutsch_fa": "پرکاری غدد پاراتیروئید (افزایش پاراتورمون)",
       "wortart": "Substantiv (m)",
       "kategorie": "Krankheitsbild",
       "herkunft": "gr. hyper + para + thyros + -ismus",
       "eselsbruecke": "Hyper-Para-thyreoidismus = zu viel Parathormon",
+      "eselsbruecke_fa": "Hyper-Para-thyreoidismus = پاراتورمون بیش از حد",
       "beispiel": "Der primäre Hyperparathyreoidismus führt zur Hyperkalzämie.",
+      "beispiel_fa": "هایپرپاراتیروئیدیسم اولیه به هایپرکلسمی منجر می‌شود.",
       "schwierigkeit": "schwer"
     },
     {
@@ -19003,11 +19418,14 @@
       "seite": 29,
       "lateinisch": "Epithelkörperchen",
       "deutsch": "Andere Bezeichnung für Nebenschilddrüsen",
+      "deutsch_fa": "نام دیگر غدد پاراتیروئید",
       "wortart": "Substantiv (n, pl)",
       "kategorie": "Anatomie",
       "herkunft": "gr. epi = auf; thele = Warze",
       "eselsbruecke": "Epithelkörperchen = die Nebenschilddrüsen",
+      "eselsbruecke_fa": "اجسام اپیتلیال = همان غدد پاراتیروئید",
       "beispiel": "Die vier Epithelkörperchen produzieren Parathormon.",
+      "beispiel_fa": "چهار جسم اپیتلیال پاراتورمون تولید می‌کنند.",
       "schwierigkeit": "schwer"
     },
     {
@@ -19016,11 +19434,14 @@
       "seite": 29,
       "lateinisch": "Adenom",
       "deutsch": "Gutartiger Tumor von Drüsengewebe",
+      "deutsch_fa": "تومور خوش‌خیم بافت غددی",
       "wortart": "Substantiv (n)",
       "kategorie": "Onkologie",
       "herkunft": "gr. aden = Drüse; -om = Geschwulst",
       "eselsbruecke": "Aden-om = Drüsen-Geschwulst (gutartig)",
+      "eselsbruecke_fa": "Aden-om = تودهٔ غددی (خوش‌خیم)",
       "beispiel": "Solitäre Adenome sind die häufigste Ursache des Hyperparathyreoidismus.",
+      "beispiel_fa": "آدنوم‌های منفرد شایع‌ترین علت هایپرپاراتیروئیدیسم هستند.",
       "schwierigkeit": "mittel"
     },
     {
@@ -19029,11 +19450,14 @@
       "seite": 29,
       "lateinisch": "Hyperplasie",
       "deutsch": "Vergrößerung durch Zellvermehrung",
+      "deutsch_fa": "بزرگ‌شدن به‌دلیل تکثیر سلولی",
       "wortart": "Substantiv (f)",
       "kategorie": "Pathologie",
       "herkunft": "gr. hyper = über; plasis = Bildung",
       "eselsbruecke": "Hyper-Plasie = ÜBER-mäßige Zellbildung",
+      "eselsbruecke_fa": "Hyper-Plasie = تشکیل بیش از حد سلول",
       "beispiel": "Eine Hyperplasie der Epithelkörperchen kann Hyperparathyreoidismus verursachen.",
+      "beispiel_fa": "هایپرپلازی اجسام اپیتلیال می‌تواند هایپرپاراتیروئیدیسم ایجاد کند.",
       "schwierigkeit": "schwer"
     },
     {
@@ -19042,11 +19466,14 @@
       "seite": 29,
       "lateinisch": "alkalische Phosphatase",
       "deutsch": "Enzym (erhöht bei Knochenumbau)",
+      "deutsch_fa": "آنزیم (در بازسازی استخوان افزایش می‌یابد)",
       "wortart": "Substantiv (f)",
       "kategorie": "Laborwert",
       "herkunft": "arab. al-qaly = Pflanzenasche; phosphat",
       "eselsbruecke": "Alkalische Phosphatase = Knochen-Enzym (bei Umbau ↑)",
+      "eselsbruecke_fa": "آلکالین فسفاتاز = آنزیم استخوان (در بازسازی ↑)",
       "beispiel": "Die alkalische Phosphatase ist beim Hyperparathyreoidismus erhöht.",
+      "beispiel_fa": "آلکالین فسفاتاز در هایپرپاراتیروئیدیسم افزایش می‌یابد.",
       "schwierigkeit": "schwer"
     },
     {
@@ -19055,11 +19482,14 @@
       "seite": 29,
       "lateinisch": "Ulcus ventriculi",
       "deutsch": "Magengeschwür",
+      "deutsch_fa": "زخم معده",
       "wortart": "Substantiv (n)",
       "kategorie": "Krankheitsbild",
       "herkunft": "lat. ulcus = Geschwür; ventriculus = Magen",
       "eselsbruecke": "Ulcus ventriculi = Magen-Geschwür",
+      "eselsbruecke_fa": "Ulcus ventriculi = زخم معده",
       "beispiel": "Beim Hyperparathyreoidismus kann ein Ulcus ventriculi auftreten.",
+      "beispiel_fa": "در هایپرپاراتیروئیدیسم می‌تواند زخم معده رخ دهد.",
       "schwierigkeit": "schwer"
     },
     {
@@ -19068,11 +19498,14 @@
       "seite": 30,
       "lateinisch": "Nebennierenrinde (NNR)",
       "deutsch": "Äußere Schicht der Nebenniere (Hormonproduktion)",
+      "deutsch_fa": "لایهٔ بیرونی غدهٔ فوق‌کلیه (تولید هورمون)",
       "wortart": "Substantiv (f)",
       "kategorie": "Anatomie",
       "herkunft": "deutsch: Nebenniere + Rinde",
       "eselsbruecke": "NNR = Salt, Sugar, Sex (Aldosteron, Cortisol, Androgene)",
+      "eselsbruecke_fa": "NNR = Salt, Sugar, Sex (آلدوسترون، کورتیزول، آندروژن‌ها)",
       "beispiel": "Die Nebennierenrinde produziert Cortisol und Aldosteron.",
+      "beispiel_fa": "قشر غدهٔ فوق‌کلیه کورتیزول و آلدوسترون تولید می‌کند.",
       "schwierigkeit": "mittel"
     },
     {
@@ -19081,11 +19514,14 @@
       "seite": 30,
       "lateinisch": "Morbus Addison",
       "deutsch": "Primäre Nebennierenrindeninsuffizienz",
+      "deutsch_fa": "نارسایی اولیهٔ قشر غدهٔ فوق‌کلیه",
       "wortart": "Substantiv (m)",
       "kategorie": "Krankheitsbild",
       "herkunft": "lat. morbus = Krankheit; nach Thomas Addison",
       "eselsbruecke": "Morbus Addison = 'brauner Addison' (Hyperpigmentierung)",
+      "eselsbruecke_fa": "بیماری آدیسون = «آدیسون قهوه‌ای» (هایپرپیگمانتاسیون)",
       "beispiel": "Morbus Addison führt zu Cortisol- und Aldosteronmangel.",
+      "beispiel_fa": "بیماری آدیسون به کمبود کورتیزول و آلدوسترون منجر می‌شود.",
       "schwierigkeit": "mittel"
     },
     {
@@ -19094,11 +19530,14 @@
       "seite": 30,
       "lateinisch": "NNR-Insuffizienz",
       "deutsch": "Unterfunktion der Nebennierenrinde",
+      "deutsch_fa": "کم‌کاری قشر غدهٔ فوق‌کلیه",
       "wortart": "Substantiv (f)",
       "kategorie": "Krankheitsbild",
       "herkunft": "NNR + lat. insufficientia = Unzulänglichkeit",
       "eselsbruecke": "NNR-Insuffizienz = Nebennierenrinde funktioniert nicht",
+      "eselsbruecke_fa": "نارسایی NNR = قشر فوق‌کلیه کار نمی‌کند",
       "beispiel": "Die NNR-Insuffizienz kann primär, sekundär oder tertiär sein.",
+      "beispiel_fa": "نارسایی قشر فوق‌کلیه می‌تواند اولیه، ثانویه یا ثالثیه باشد.",
       "schwierigkeit": "schwer"
     },
     {
@@ -19107,11 +19546,14 @@
       "seite": 30,
       "lateinisch": "Autoimmunadrenalitis",
       "deutsch": "Autoimmunentzündung der Nebenniere (häufigste Addison-Ursache)",
+      "deutsch_fa": "التهاب خودایمن غدهٔ فوق‌کلیه (شایع‌ترین علت آدیسون)",
       "wortart": "Substantiv (f)",
       "kategorie": "Immunologie",
       "herkunft": "auto + immun + adrenalis + -itis",
       "eselsbruecke": "Autoimmun-Adrenalitis = Immunsystem greift Nebenniere an",
+      "eselsbruecke_fa": "آدرنالیت خودایمن = سیستم ایمنی به غدهٔ فوق‌کلیه حمله می‌کند",
       "beispiel": "Die Autoimmunadrenalitis ist mit 80% die häufigste Ursache des Morbus Addison.",
+      "beispiel_fa": "آدرنالیت خودایمن با 80٪ شایع‌ترین علت بیماری آدیسون است.",
       "schwierigkeit": "schwer"
     },
     {
@@ -19120,11 +19562,14 @@
       "seite": 30,
       "lateinisch": "Hyperpigmentierung",
       "deutsch": "Verstärkte Braunfärbung der Haut",
+      "deutsch_fa": "قهوه‌ای‌شدن شدید پوست",
       "wortart": "Substantiv (f)",
       "kategorie": "Symptom",
       "herkunft": "gr. hyper = über; lat. pigmentum = Farbstoff",
       "eselsbruecke": "Hyper-Pigmentierung = ÜBER-mäßige Braunfärbung",
+      "eselsbruecke_fa": "Hyper-Pigmentierung = رنگدانه‌گذاری بیش از حد",
       "beispiel": "Die Hyperpigmentierung beim braunen Addison wird durch MSH verursacht.",
+      "beispiel_fa": "هایپرپیگمانتاسیون در آدیسون قهوه‌ای توسط MSH ایجاد می‌شود.",
       "schwierigkeit": "schwer"
     },
     {
@@ -19133,11 +19578,14 @@
       "seite": 30,
       "lateinisch": "Addison-Krise",
       "deutsch": "Lebensbedrohliche akute NNR-Insuffizienz",
+      "deutsch_fa": "نارسایی حاد و تهدیدکنندهٔ حیات قشر فوق‌کلیه",
       "wortart": "Substantiv (f)",
       "kategorie": "Notfall",
       "herkunft": "nach Thomas Addison",
       "eselsbruecke": "Addison-Krise = Notfall bei Nebennierenversagen",
+      "eselsbruecke_fa": "بحران آدیسون = اورژانس در نارسایی غدهٔ فوق‌کلیه",
       "beispiel": "Die Addison-Krise führt zu Schock und Koma.",
+      "beispiel_fa": "بحران آدیسون به شوک و کما منجر می‌شود.",
       "schwierigkeit": "schwer"
     },
     {
@@ -19146,11 +19594,14 @@
       "seite": 30,
       "lateinisch": "Waterhouse-Friderichsen-Syndrom",
       "deutsch": "Nebennierenversagen durch Meningokokken-Sepsis",
+      "deutsch_fa": "نارسایی غدهٔ فوق‌کلیه به‌دلیل سپسیس مننگوکوکی",
       "wortart": "Substantiv (n)",
       "kategorie": "Notfall",
       "herkunft": "nach Waterhouse und Friderichsen",
       "eselsbruecke": "Waterhouse-Friderichsen = Nebennierenblutung bei Sepsis",
+      "eselsbruecke_fa": "واترهاوس-فریدریکسن = خونریزی غدهٔ فوق‌کلیه در سپسیس",
       "beispiel": "Das Waterhouse-Friderichsen-Syndrom kann durch Meningokokken ausgelöst werden.",
+      "beispiel_fa": "سندرم واترهاوس-فریدریکسن می‌تواند توسط مننگوکوک ایجاد شود.",
       "schwierigkeit": "schwer"
     },
     {
@@ -19159,11 +19610,14 @@
       "seite": 30,
       "lateinisch": "MSH",
       "deutsch": "Melanozyten-stimulierendes Hormon (Hautpigmentierung)",
+      "deutsch_fa": "هورمون محرک ملانوسیت (رنگدانه‌گذاری پوست)",
       "wortart": "Abkürzung",
       "kategorie": "Hormon",
       "herkunft": "engl. Melanocyte-Stimulating Hormone",
       "eselsbruecke": "MSH = macht die Haut braun (Melanin)",
+      "eselsbruecke_fa": "MSH = پوست را قهوه‌ای می‌کند (ملانین)",
       "beispiel": "Erhöhtes MSH verursacht die Hyperpigmentierung beim Morbus Addison.",
+      "beispiel_fa": "افزایش MSH باعث هایپرپیگمانتاسیون در بیماری آدیسون می‌شود.",
       "schwierigkeit": "schwer"
     },
     {
@@ -19172,11 +19626,14 @@
       "seite": 30,
       "lateinisch": "Dehydratation",
       "deutsch": "Flüssigkeitsmangel (Austrocknung)",
+      "deutsch_fa": "کمبود مایعات (خشکیدگی)",
       "wortart": "Substantiv (f)",
       "kategorie": "Symptom",
       "herkunft": "lat. de = weg; gr. hydor = Wasser",
       "eselsbruecke": "De-Hydratation = Wasser WEG (Austrocknung)",
+      "eselsbruecke_fa": "De-Hydratation = آب از دست رفته (خشک‌شدن)",
       "beispiel": "Dehydratation und Salzhunger sind typisch für Morbus Addison.",
+      "beispiel_fa": "کم‌آبی و اشتیاق به نمک مشخصهٔ بیماری آدیسون هستند.",
       "schwierigkeit": "mittel"
     },
     {
@@ -19185,11 +19642,14 @@
       "seite": 31,
       "lateinisch": "Cushing-Syndrom",
       "deutsch": "Erkrankung mit erhöhtem Cortisol (Hypercortisolismus)",
+      "deutsch_fa": "بیماری همراه با افزایش کورتیزول (هایپرکورتیزولیسم)",
       "wortart": "Substantiv (n)",
       "kategorie": "Krankheitsbild",
       "herkunft": "nach Harvey Cushing",
       "eselsbruecke": "Cushing = Vollmondgesicht + Stammfettsucht + Stiernacken",
+      "eselsbruecke_fa": "کوشینگ = صورت ماه‌شکل + چاقی مرکزی + گردن گاومیشی",
       "beispiel": "Das Cushing-Syndrom ist durch erhöhtes Cortisol charakterisiert.",
+      "beispiel_fa": "سندرم کوشینگ با افزایش کورتیزول مشخص می‌شود.",
       "schwierigkeit": "mittel"
     },
     {
@@ -19198,11 +19658,14 @@
       "seite": 31,
       "lateinisch": "Hypercortisolismus",
       "deutsch": "Zu hohe Cortisolkonzentration",
+      "deutsch_fa": "غلظت بیش از حد بالای کورتیزول",
       "wortart": "Substantiv (m)",
       "kategorie": "Pathophysiologie",
       "herkunft": "gr. hyper = über; cortisol",
       "eselsbruecke": "Hyper-Cortisolismus = ZU VIEL Cortisol",
+      "eselsbruecke_fa": "Hyper-Cortisolismus = کورتیزول بیش از حد",
       "beispiel": "Der Hypercortisolismus verursacht das Cushing-Syndrom.",
+      "beispiel_fa": "هایپرکورتیزولیسم باعث سندرم کوشینگ می‌شود.",
       "schwierigkeit": "schwer"
     },
     {
@@ -19211,11 +19674,14 @@
       "seite": 31,
       "lateinisch": "Morbus Cushing",
       "deutsch": "Cushing durch ACTH-produzierendes Hypophysenadenom",
+      "deutsch_fa": "کوشینگ ناشی از آدنوم هیپوفیز تولیدکنندهٔ ACTH",
       "wortart": "Substantiv (m)",
       "kategorie": "Krankheitsbild",
       "herkunft": "lat. morbus; nach Harvey Cushing",
       "eselsbruecke": "Morbus Cushing = Cushing durch Hypophysenadenom (zentral)",
+      "eselsbruecke_fa": "بیماری کوشینگ = کوشینگ ناشی از آدنوم هیپوفیز (مرکزی)",
       "beispiel": "Beim Morbus Cushing produziert ein Hypophysenadenom zu viel ACTH.",
+      "beispiel_fa": "در بیماری کوشینگ، یک آدنوم هیپوفیز ACTH بیش از حد تولید می‌کند.",
       "schwierigkeit": "schwer"
     },
     {
@@ -19224,11 +19690,14 @@
       "seite": 31,
       "lateinisch": "Stammfettsucht",
       "deutsch": "Fettansammlung am Rumpf (bei dünnen Extremitäten)",
+      "deutsch_fa": "تجمع چربی در تنه (همراه با اندام‌های لاغر)",
       "wortart": "Substantiv (f)",
       "kategorie": "Symptom",
       "herkunft": "deutsch: Stamm + Fett + Sucht",
       "eselsbruecke": "Stammfettsucht = Fett am Stamm (Rumpf), dünne Arme/Beine",
+      "eselsbruecke_fa": "چاقی مرکزی = چربی در تنه، دست‌ها/پاهای لاغر",
       "beispiel": "Die Stammfettsucht ist typisch für das Cushing-Syndrom.",
+      "beispiel_fa": "چاقی مرکزی مشخصهٔ سندرم کوشینگ است.",
       "schwierigkeit": "mittel"
     },
     {
@@ -19237,11 +19706,14 @@
       "seite": 31,
       "lateinisch": "Vollmondgesicht",
       "deutsch": "Rundes, aufgedunsenes Gesicht (bei Cushing)",
+      "deutsch_fa": "صورت گرد و پُف‌کرده (در کوشینگ)",
       "wortart": "Substantiv (n)",
       "kategorie": "Symptom",
       "herkunft": "deutsch: Vollmond + Gesicht",
       "eselsbruecke": "Vollmondgesicht = rund wie der Vollmond",
+      "eselsbruecke_fa": "صورت ماه‌شکل = گرد مانند ماه کامل",
       "beispiel": "Das Vollmondgesicht ist ein Leitsymptom des Cushing-Syndroms.",
+      "beispiel_fa": "صورت ماه‌شکل یکی از علائم اصلی سندرم کوشینگ است.",
       "schwierigkeit": "mittel"
     },
     {
@@ -19250,11 +19722,14 @@
       "seite": 31,
       "lateinisch": "Striae rubrae",
       "deutsch": "Blaurote Dehnungsstreifen der Haut",
+      "deutsch_fa": "خطوط کششی کبود-قرمز پوست",
       "wortart": "Substantiv (f, pl)",
       "kategorie": "Symptom",
       "herkunft": "lat. stria = Streifen; ruber = rot",
       "eselsbruecke": "Striae rubrae = rote Streifen (Dehnungsstreifen)",
+      "eselsbruecke_fa": "Striae rubrae = خطوط قرمز (خطوط کششی)",
       "beispiel": "Striae rubrae entstehen beim Cushing durch Hautatrophie.",
+      "beispiel_fa": "استریا روبرا در کوشینگ به‌دلیل آتروفی پوست ایجاد می‌شود.",
       "schwierigkeit": "schwer"
     },
     {
@@ -19263,11 +19738,14 @@
       "seite": 31,
       "lateinisch": "Hirsutismus",
       "deutsch": "Vermehrte männliche Körperbehaarung bei Frauen",
+      "deutsch_fa": "افزایش موهای بدن به‌الگوی مردانه در زنان",
       "wortart": "Substantiv (m)",
       "kategorie": "Symptom",
       "herkunft": "lat. hirsutus = behaart",
       "eselsbruecke": "Hirsutismus = starke Behaarung (bei Frauen, durch Androgene)",
+      "eselsbruecke_fa": "هیرسوتیسم = پُرمویی (در زنان، به‌دلیل آندروژن‌ها)",
       "beispiel": "Hirsutismus kann beim Cushing-Syndrom bei Frauen auftreten.",
+      "beispiel_fa": "هیرسوتیسم می‌تواند در سندرم کوشینگ در زنان بروز کند.",
       "schwierigkeit": "schwer"
     },
     {
@@ -19276,11 +19754,14 @@
       "seite": 31,
       "lateinisch": "Dexamethason-Hemmtest",
       "deutsch": "Test zur Cushing-Diagnostik (ACTH-Suppression)",
+      "deutsch_fa": "آزمون تشخیصی کوشینگ (سرکوب ACTH)",
       "wortart": "Substantiv (m)",
       "kategorie": "Diagnostik",
       "herkunft": "Dexamethason + Hemmtest",
       "eselsbruecke": "Dexamethason-Test = prüft, ob Cortisol supprimierbar ist",
+      "eselsbruecke_fa": "تست دگزامتازون = بررسی می‌کند آیا کورتیزول قابل سرکوب است",
       "beispiel": "Der Dexamethason-Hemmtest unterscheidet die Cushing-Formen.",
+      "beispiel_fa": "تست مهار دگزامتازون اشکال کوشینگ را از هم تمایز می‌دهد.",
       "schwierigkeit": "schwer"
     },
     {
@@ -19289,11 +19770,14 @@
       "seite": 31,
       "lateinisch": "iatrogen",
       "deutsch": "Durch ärztliche Behandlung verursacht",
+      "deutsch_fa": "ایجادشده در اثر درمان پزشکی",
       "wortart": "Adjektiv",
       "kategorie": "Allgemein",
       "herkunft": "gr. iatros = Arzt; genes = verursacht",
       "eselsbruecke": "Iatrogen = durch den Arzt (z.B. Medikamente) verursacht",
+      "eselsbruecke_fa": "Iatrogen = ایجادشده توسط پزشک (مثلاً داروها)",
       "beispiel": "Das häufigste Cushing-Syndrom ist iatrogen (durch Kortison-Therapie).",
+      "beispiel_fa": "شایع‌ترین سندرم کوشینگ یاتروژنیک است (به‌دلیل درمان با کورتیزون).",
       "schwierigkeit": "schwer"
     },
     {
@@ -19302,11 +19786,14 @@
       "seite": 31,
       "lateinisch": "Insulinantagonist",
       "deutsch": "Gegenspieler von Insulin (erhöht Blutzucker)",
+      "deutsch_fa": "رقیب انسولین (قند خون را افزایش می‌دهد)",
       "wortart": "Substantiv (m)",
       "kategorie": "Biochemie",
       "herkunft": "insulin + gr. antagonistes = Gegner",
       "eselsbruecke": "Insulin-Antagonist = Insulin-Gegner (z.B. Cortisol)",
+      "eselsbruecke_fa": "رقیب انسولین = مخالف انسولین (مثلاً کورتیزول)",
       "beispiel": "Cortisol wirkt als Insulinantagonist und erhöht den Blutzucker.",
+      "beispiel_fa": "کورتیزول به‌عنوان رقیب انسولین عمل می‌کند و قند خون را افزایش می‌دهد.",
       "schwierigkeit": "schwer"
     }
   ]
