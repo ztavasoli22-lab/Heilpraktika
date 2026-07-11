@@ -1,7 +1,7 @@
 {
-  "version": "6.8",
+  "version": "7.2",
   "erstellt_am": "2026-07-11",
-  "beschreibung": "Fragenkatalog + Vokabeltrainer Heilpraktikerprüfung - Seite 3-31. Persische Übersetzung (فارسی): Seiten 3-18 fertig, weitere folgen.",
+  "beschreibung": "Fragenkatalog + Vokabeltrainer Heilpraktikerprüfung - Seite 3-31. Persische Übersetzung (فارسی): Seiten 3-22 fertig, weitere folgen.",
   "fragenkatalog": [
     {
       "id": "STW-003-01",
@@ -8632,6 +8632,7 @@
       "seite": 19,
       "typ": "multiple_choice",
       "frage": "Welche allgemeinen Symptome treten bei Hypokaliämie auf?",
+      "frage_fa": "کدام علائم عمومی در هایپوکالمی بروز می‌کنند؟",
       "optionen": [
         "Müdigkeit, Adynamie",
         "Übelkeit, Erbrechen",
@@ -8639,12 +8640,20 @@
         "Parästhesien um den Mund",
         "Fieber"
       ],
+      "optionen_fa": [
+        "خستگی، بی‌حالی (آدینامی)",
+        "تهوع، استفراغ",
+        "پُرادراری، پُرنوشی",
+        "پارستزی اطراف دهان",
+        "تب"
+      ],
       "richtig": [
         0,
         1,
         2
       ],
       "erklaerung": "Hypokaliämie-Symptome: Müdigkeit/Adynamie, Übelkeit/Erbrechen, Polyurie/Polydipsie. (Parästhesien um Mund + Pelzigwerden der Zunge sind bei Hyperkaliämie.)",
+      "erklaerung_fa": "علائم هایپوکالمی: خستگی/بی‌حالی، تهوع/استفراغ، پُرادراری/پُرنوشی. (پارستزی اطراف دهان + کرختی زبان مربوط به هایپرکالمی است.)",
       "schwierigkeit": "mittel",
       "tags": [
         "Stoffwechsel",
@@ -8660,6 +8669,7 @@
       "seite": 19,
       "typ": "single_choice",
       "frage": "Welche Herzrhythmusstörungen treten bei Hypokaliämie auf?",
+      "frage_fa": "کدام آریتمی‌های قلبی در هایپوکالمی بروز می‌کنند؟",
       "optionen": [
         "Bradykardie, Kammerflimmern",
         "Tachykardie, Extrasystolen, Asystolie",
@@ -8667,8 +8677,16 @@
         "Nur Vorhofflimmern",
         "Keine Herzrhythmusstörungen"
       ],
+      "optionen_fa": [
+        "برادی‌کاردی، فیبریلاسیون بطنی",
+        "تاکی‌کاردی، اکستراسیستول، آسیستول",
+        "فقط ضربان قلب طبیعی",
+        "فقط فیبریلاسیون دهلیزی",
+        "بدون آریتمی قلبی"
+      ],
       "richtig": 1,
       "erklaerung": "Bei Hypokaliämie: Tachykardie, Extrasystolen, Asystolie. Die Digitalisempfindlichkeit ist erhöht!",
+      "erklaerung_fa": "در هایپوکالمی: تاکی‌کاردی، اکستراسیستول، آسیستول. حساسیت به دیژیتال افزایش می‌یابد!",
       "schwierigkeit": "schwer",
       "tags": [
         "Stoffwechsel",
@@ -8684,6 +8702,7 @@
       "seite": 19,
       "typ": "single_choice",
       "frage": "Welche Herzrhythmusstörungen treten bei Hyperkaliämie auf?",
+      "frage_fa": "کدام آریتمی‌های قلبی در هایپرکالمی بروز می‌کنند؟",
       "optionen": [
         "Tachykardie, Extrasystolen",
         "Bradykardie, Kammerflimmern, Asystolie",
@@ -8691,8 +8710,16 @@
         "Keine Herzrhythmusstörungen",
         "Nur Vorhofflimmern"
       ],
+      "optionen_fa": [
+        "تاکی‌کاردی، اکستراسیستول",
+        "برادی‌کاردی، فیبریلاسیون بطنی، آسیستول",
+        "فقط ضربان قلب طبیعی",
+        "بدون آریتمی قلبی",
+        "فقط فیبریلاسیون دهلیزی"
+      ],
       "richtig": 1,
       "erklaerung": "Bei Hyperkaliämie: Bradykardie, Kammerflimmern, Asystolie. Die Digitalisempfindlichkeit ist erniedrigt!",
+      "erklaerung_fa": "در هایپرکالمی: برادی‌کاردی، فیبریلاسیون بطنی، آسیستول. حساسیت به دیژیتال کاهش می‌یابد!",
       "schwierigkeit": "schwer",
       "tags": [
         "Stoffwechsel",
@@ -8708,6 +8735,7 @@
       "seite": 19,
       "typ": "multiple_choice",
       "frage": "Welche Skelettmuskel-Symptome treten bei Hypokaliämie auf?",
+      "frage_fa": "کدام علائم عضلات اسکلتی در هایپوکالمی بروز می‌کنند؟",
       "optionen": [
         "Muskelschwäche bis hin zu Paresen",
         "Wulstbildung beim Beklopfen der Muskulatur",
@@ -8715,12 +8743,20 @@
         "Krampfanfälle nur",
         "Muskelzuckungen"
       ],
+      "optionen_fa": [
+        "ضعف عضلانی تا حد فلج‌های نسبی",
+        "برجستگی عضله هنگام ضربه‌زدن به آن",
+        "کاهش رفلکس‌های عمقی عضلانی",
+        "فقط تشنج",
+        "پرش عضلانی"
+      ],
       "richtig": [
         0,
         1,
         2
       ],
       "erklaerung": "Hypokaliämie-Skelettmuskulatur: Muskelschwäche bis hin zu Paresen, Wulstbildung beim Beklopfen, Muskeleigenreflexe vermindert.",
+      "erklaerung_fa": "عضلات اسکلتی در هایپوکالمی: ضعف عضلانی تا حد فلج‌های نسبی، برجستگی هنگام ضربه‌زدن، کاهش رفلکس‌های عمقی.",
       "schwierigkeit": "schwer",
       "tags": [
         "Stoffwechsel",
@@ -8736,6 +8772,7 @@
       "seite": 19,
       "typ": "multiple_choice",
       "frage": "Welche Skelettmuskel-Symptome treten bei Hyperkaliämie auf?",
+      "frage_fa": "کدام علائم عضلات اسکلتی در هایپرکالمی بروز می‌کنند؟",
       "optionen": [
         "Muskelschwäche bis hin zu Paresen",
         "Muskelzuckungen",
@@ -8743,12 +8780,20 @@
         "Wulstbildung",
         "Verminderte Reflexe von Anfang an"
       ],
+      "optionen_fa": [
+        "ضعف عضلانی تا حد فلج‌های نسبی",
+        "پرش عضلانی",
+        "در ابتدا افزایش رفلکس‌های عمقی، بعداً احتمالاً کاهش/فقدان رفلکس",
+        "برجستگی عضله",
+        "کاهش رفلکس‌ها از همان ابتدا"
+      ],
       "richtig": [
         0,
         1,
         2
       ],
       "erklaerung": "Hyperkaliämie-Skelettmuskulatur: Muskelschwäche bis Paresen, Muskelzuckungen, anfangs Muskeleigenreflexe ↑, später Hypo-/Areflexie.",
+      "erklaerung_fa": "عضلات اسکلتی در هایپرکالمی: ضعف عضلانی تا فلج نسبی، پرش عضلانی، در ابتدا افزایش رفلکس‌های عمقی، بعداً کاهش/فقدان رفلکس.",
       "schwierigkeit": "schwer",
       "tags": [
         "Stoffwechsel",
@@ -8764,6 +8809,7 @@
       "seite": 19,
       "typ": "multiple_choice",
       "frage": "Welche Symptome an der glatten Muskulatur treten bei Hypokaliämie auf?",
+      "frage_fa": "کدام علائم عضلات صاف در هایپوکالمی بروز می‌کنند؟",
       "optionen": [
         "Obstipation bis paralytischer Ileus",
         "Blasenlähmung",
@@ -8771,11 +8817,19 @@
         "Polyurie nur",
         "Normale Funktion"
       ],
+      "optionen_fa": [
+        "یبوست تا حد ایلئوس فلجی",
+        "فلج مثانه",
+        "اسهال",
+        "فقط پُرادراری",
+        "عملکرد طبیعی"
+      ],
       "richtig": [
         0,
         1
       ],
       "erklaerung": "Hypokaliämie an der glatten Muskulatur: Obstipation bis paralytischer Ileus, Blasenlähmung.",
+      "erklaerung_fa": "هایپوکالمی در عضلات صاف: یبوست تا حد ایلئوس فلجی، فلج مثانه.",
       "schwierigkeit": "schwer",
       "tags": [
         "Stoffwechsel",
@@ -8791,6 +8845,7 @@
       "seite": 19,
       "typ": "multiple_choice",
       "frage": "Wie wird eine Hypokaliämie behandelt?",
+      "frage_fa": "هایپوکالمی چگونه درمان می‌شود؟",
       "optionen": [
         "Beseitigung/Behandlung der Ursache",
         "Kaliumsparende Diuretika",
@@ -8798,6 +8853,14 @@
         "Kaliumsubstitution",
         "Kaliumreiche Ernährung",
         "Mehr Schwitzen"
+      ],
+      "optionen_fa": [
+        "برطرف کردن/درمان علت",
+        "دیورتیک‌های نگه‌دارندهٔ پتاسیم",
+        "قطع مصرف ملین‌ها",
+        "جایگزینی پتاسیم",
+        "تغذیهٔ سرشار از پتاسیم",
+        "تعریق بیشتر"
       ],
       "richtig": [
         0,
@@ -8807,6 +8870,7 @@
         4
       ],
       "erklaerung": "Therapie Hypokaliämie: Ursache beseitigen, kaliumsparende Diuretika, Laxanzien absetzen, Kaliumsubstitution, kaliumreiche Ernährung.",
+      "erklaerung_fa": "درمان هایپوکالمی: برطرف کردن علت، دیورتیک‌های نگه‌دارندهٔ پتاسیم، قطع ملین‌ها، جایگزینی پتاسیم، تغذیهٔ سرشار از پتاسیم.",
       "schwierigkeit": "schwer",
       "tags": [
         "Stoffwechsel",
@@ -8822,12 +8886,20 @@
       "seite": 19,
       "typ": "multiple_choice",
       "frage": "Wie wird eine Hyperkaliämie behandelt?",
+      "frage_fa": "هایپرکالمی چگونه درمان می‌شود؟",
       "optionen": [
         "Beseitigung/Behandlung der Ursache",
         "Schleifendiuretika, Insulin + Glukose (bringt Kalium in die Zellen)",
         "Ionenaustauscher, evtl. Dialyse",
         "Kaliumarme Ernährung",
         "Kaliumsubstitution"
+      ],
+      "optionen_fa": [
+        "برطرف کردن/درمان علت",
+        "دیورتیک‌های لوپ، انسولین + گلوکز (پتاسیم را وارد سلول‌ها می‌کند)",
+        "تبادل‌کننده‌های یونی، احتمالاً دیالیز",
+        "تغذیهٔ کم‌پتاسیم",
+        "جایگزینی پتاسیم"
       ],
       "richtig": [
         0,
@@ -8836,6 +8908,7 @@
         3
       ],
       "erklaerung": "Therapie Hyperkaliämie: Ursache beseitigen, Schleifendiuretika, Insulin + Glukose (bringt Kalium in die Zellen), Ionenaustauscher, evtl. Dialyse, kaliumarme Ernährung. KEINE Kaliumsubstitution!",
+      "erklaerung_fa": "درمان هایپرکالمی: برطرف کردن علت، دیورتیک‌های لوپ، انسولین + گلوکز (پتاسیم را وارد سلول‌ها می‌کند)، تبادل‌کننده‌های یونی، احتمالاً دیالیز، تغذیهٔ کم‌پتاسیم. هرگز جایگزینی پتاسیم!",
       "schwierigkeit": "schwer",
       "tags": [
         "Stoffwechsel",
@@ -8851,6 +8924,7 @@
       "seite": 19,
       "typ": "single_choice",
       "frage": "Wie hängen Azidose und Kalium normalerweise zusammen?",
+      "frage_fa": "اسیدوز و پتاسیم معمولاً چه ارتباطی با هم دارند؟",
       "optionen": [
         "Azidose → Hypokaliämie",
         "Azidose → Hyperkaliämie (H+-Ionen sind dort, wo Kalium ist)",
@@ -8858,8 +8932,16 @@
         "Azidose → Hypernatriämie",
         "Azidose → keine Veränderung"
       ],
+      "optionen_fa": [
+        "اسیدوز → هایپوکالمی",
+        "اسیدوز → هایپرکالمی (یون‌های H+ همان‌جایی هستند که پتاسیم است)",
+        "بدون ارتباط",
+        "اسیدوز → هایپرناترمی",
+        "اسیدوز → بدون تغییر"
+      ],
       "richtig": 1,
       "erklaerung": "H+-Ionen sind normalerweise dort, wo Kalium ist. Daher: bei Azidose meist HYPERKALIÄMIE, bei Alkalose meist HYPOKALIÄMIE.",
+      "erklaerung_fa": "یون‌های H+ معمولاً همان‌جایی هستند که پتاسیم است. بنابراین: در اسیدوز معمولاً هایپرکالمی، در آلکالوز معمولاً هایپوکالمی.",
       "schwierigkeit": "schwer",
       "tags": [
         "Stoffwechsel",
@@ -8875,7 +8957,9 @@
       "seite": 19,
       "typ": "fallbeispiel",
       "fallbeschreibung": "Ein 65-jähriger Patient mit chronischer Niereninsuffizienz nimmt einen ACE-Hemmer und kommt mit Bradykardie und Muskelschwäche in die Praxis. Im Labor: Kalium 6,2 mmol/l.",
+      "fallbeschreibung_fa": "یک بیمار ۶۵ ساله با نارسایی مزمن کلیه یک مهارکنندهٔ ACE مصرف می‌کند و با برادی‌کاردی و ضعف عضلانی به مطب مراجعه می‌کند. در آزمایشگاه: پتاسیم 6.2 mmol/l.",
       "frage": "Wie wird der Notfall am besten behandelt?",
+      "frage_fa": "این اورژانس چگونه بهتر درمان می‌شود؟",
       "optionen": [
         "Mehr Kalium zuführen",
         "Insulin + Glukose i.v. (bringt Kalium in die Zellen), Schleifendiuretika, evtl. Dialyse, ACE-Hemmer absetzen",
@@ -8883,8 +8967,16 @@
         "Nur abwarten",
         "Kalium per os geben"
       ],
+      "optionen_fa": [
+        "پتاسیم بیشتر تجویز کنید",
+        "انسولین + گلوکز داخل وریدی (پتاسیم را وارد سلول‌ها می‌کند)، دیورتیک‌های لوپ، احتمالاً دیالیز، قطع مهارکنندهٔ ACE",
+        "تغذیهٔ سرشار از پتاسیم",
+        "فقط انتظار",
+        "پتاسیم خوراکی بدهید"
+      ],
       "richtig": 1,
       "erklaerung": "Bei Hyperkaliämie + Niereninsuffizienz + ACE-Hemmer: Insulin + Glukose (Kalium-Shift in die Zellen), Schleifendiuretika, ggf. Dialyse, ACE-Hemmer absetzen/reduzieren. KEINE Kaliumzufuhr!",
+      "erklaerung_fa": "در هایپرکالمی + نارسایی کلیه + مهارکنندهٔ ACE: انسولین + گلوکز (انتقال پتاسیم به داخل سلول‌ها)، دیورتیک‌های لوپ، در صورت لزوم دیالیز، قطع/کاهش مهارکنندهٔ ACE. هرگز پتاسیم ندهید!",
       "schwierigkeit": "schwer",
       "tags": [
         "Stoffwechsel",
@@ -8901,6 +8993,7 @@
       "seite": 20,
       "typ": "single_choice",
       "frage": "Wo befindet sich der größte Teil des Kalziums im Körper?",
+      "frage_fa": "بیشترین بخش کلسیم بدن در کجا قرار دارد؟",
       "optionen": [
         "Im Blut",
         "Zu 99% in Knochen und Zähnen",
@@ -8908,8 +9001,16 @@
         "In der Leber",
         "In den Nieren"
       ],
+      "optionen_fa": [
+        "در خون",
+        "99٪ در استخوان‌ها و دندان‌ها",
+        "در عضلات",
+        "در کبد",
+        "در کلیه‌ها"
+      ],
       "richtig": 1,
       "erklaerung": "Kalzium (Ca²⁺) ist der häufigste Mineralstoff im menschlichen Körper und kommt zu 99% in Knochen und Zähnen vor.",
+      "erklaerung_fa": "کلسیم (Ca²⁺) فراوان‌ترین مادهٔ معدنی در بدن انسان است و 99٪ آن در استخوان‌ها و دندان‌ها قرار دارد.",
       "schwierigkeit": "leicht",
       "tags": [
         "Stoffwechsel",
@@ -8925,6 +9026,7 @@
       "seite": 20,
       "typ": "multiple_choice",
       "frage": "Wie ist das Kalzium im Blut verteilt?",
+      "frage_fa": "کلسیم در خون چگونه توزیع شده است؟",
       "optionen": [
         "45% an Eiweiße (v.a. Albumine) gebunden",
         "5% bilden Komplexe mit Bikarbonat, Citrat und Phosphat",
@@ -8932,12 +9034,20 @@
         "100% liegen frei vor",
         "Nur an Hämoglobin gebunden"
       ],
+      "optionen_fa": [
+        "45٪ متصل به پروتئین‌ها (به‌ویژه آلبومین‌ها)",
+        "5٪ با بی‌کربنات، سیترات و فسفات کمپلکس تشکیل می‌دهند",
+        "50٪ به‌صورت یون‌های آزاد کلسیم (یونیزه) وجود دارند",
+        "100٪ به‌صورت آزاد وجود دارند",
+        "فقط متصل به هموگلوبین"
+      ],
       "richtig": [
         0,
         1,
         2
       ],
       "erklaerung": "Im Blut sind 45% des Kalziums an Eiweiße (v.a. Albumine) gebunden, 5% bilden Komplexe mit Bikarbonat, Citrat und Phosphat, die restlichen 50% liegen als freie Kalzium-Ionen vor. Das freie (ionisierte) Kalzium ist die biologisch aktive Form.",
+      "erklaerung_fa": "در خون 45٪ کلسیم به پروتئین‌ها (به‌ویژه آلبومین‌ها) متصل است، 5٪ با بی‌کربنات، سیترات و فسفات کمپلکس تشکیل می‌دهند، و 50٪ باقی‌مانده به‌صورت یون‌های آزاد کلسیم هستند. کلسیم آزاد (یونیزه) شکل فعال زیستی است.",
       "schwierigkeit": "schwer",
       "tags": [
         "Stoffwechsel",
@@ -8954,6 +9064,7 @@
       "seite": 20,
       "typ": "single_choice",
       "frage": "Wie hoch ist der empfohlene Tagesbedarf an Kalzium bei Erwachsenen?",
+      "frage_fa": "نیاز روزانهٔ توصیه‌شدهٔ کلسیم در بزرگسالان چقدر است؟",
       "optionen": [
         "500 mg",
         "800 mg",
@@ -8961,8 +9072,16 @@
         "1.500 mg (1,5 g)",
         "2.000 mg (2 g)"
       ],
+      "optionen_fa": [
+        "500 mg",
+        "800 mg",
+        "1.000 mg (1 گرم)",
+        "1.500 mg (1.5 گرم)",
+        "2.000 mg (2 گرم)"
+      ],
       "richtig": 2,
       "erklaerung": "Der empfohlene Tagesbedarf bei Erwachsenen beträgt 1.000 mg (1 g). Bei Schwangeren, Stillenden, Jugendlichen und Senioren werden 1.500 mg (1,5 g) empfohlen.",
+      "erklaerung_fa": "نیاز روزانهٔ توصیه‌شده در بزرگسالان 1.000 mg (1 گرم) است. برای زنان باردار، شیرده، نوجوانان و سالمندان 1.500 mg (1.5 گرم) توصیه می‌شود.",
       "schwierigkeit": "mittel",
       "tags": [
         "Stoffwechsel",
@@ -8978,6 +9097,7 @@
       "seite": 20,
       "typ": "single_choice",
       "frage": "Wie hoch ist der Kalziumtagesbedarf bei Schwangeren, Stillenden, Jugendlichen und Senioren?",
+      "frage_fa": "نیاز روزانهٔ کلسیم در زنان باردار، شیرده، نوجوانان و سالمندان چقدر است؟",
       "optionen": [
         "800 mg",
         "1.000 mg",
@@ -8985,8 +9105,16 @@
         "2.000 mg",
         "3.000 mg"
       ],
+      "optionen_fa": [
+        "800 mg",
+        "1.000 mg",
+        "1.500 mg (1.5 گرم)",
+        "2.000 mg",
+        "3.000 mg"
+      ],
       "richtig": 2,
       "erklaerung": "Bei Schwangeren, Stillenden, Jugendlichen und Senioren werden 1.500 mg (1,5 g) pro Tag empfohlen.",
+      "erklaerung_fa": "برای زنان باردار، شیرده، نوجوانان و سالمندان روزانه 1.500 mg (1.5 گرم) توصیه می‌شود.",
       "schwierigkeit": "mittel",
       "tags": [
         "Stoffwechsel",
@@ -9002,6 +9130,7 @@
       "seite": 20,
       "typ": "multiple_choice",
       "frage": "Welche Nahrungsmittel sind besonders kalziumreich?",
+      "frage_fa": "کدام مواد غذایی به‌ویژه سرشار از کلسیم هستند؟",
       "optionen": [
         "Milch und Milchprodukte",
         "Mineralwasser",
@@ -9009,12 +9138,20 @@
         "Schweinefleisch",
         "Weißbrot"
       ],
+      "optionen_fa": [
+        "شیر و لبنیات",
+        "آب معدنی",
+        "کلم پیچ، اسفناج، بروکلی",
+        "گوشت خوک",
+        "نان سفید"
+      ],
       "richtig": [
         0,
         1,
         2
       ],
       "erklaerung": "Besonders kalziumreich sind Milch und Milchprodukte. Geringere Mengen sind in Mineralwasser, Gemüse (Grünkohl, Spinat, Brokkoli) und diversen anderen Lebensmitteln vorhanden.",
+      "erklaerung_fa": "شیر و لبنیات به‌ویژه سرشار از کلسیم هستند. مقادیر کمتری در آب معدنی، سبزیجات (کلم پیچ، اسفناج، بروکلی) و سایر مواد غذایی وجود دارد.",
       "schwierigkeit": "leicht",
       "tags": [
         "Stoffwechsel",
@@ -9030,6 +9167,7 @@
       "seite": 20,
       "typ": "multiple_choice",
       "frage": "Welche Funktionen erfüllt Kalzium im Körper?",
+      "frage_fa": "کلسیم چه عملکردهایی در بدن دارد؟",
       "optionen": [
         "Bildung von Knochen und Zähnen",
         "Neuromuskuläre Erregbarkeit, Muskelkontraktion",
@@ -9037,6 +9175,14 @@
         "Gefäßabdichtende Wirkung, beteiligt an Blutgerinnung",
         "Cofaktor von Enzymen",
         "Hauptbestandteil von Hämoglobin"
+      ],
+      "optionen_fa": [
+        "ساخت استخوان‌ها و دندان‌ها",
+        "تحریک‌پذیری عصبی-عضلانی، انقباض عضله",
+        "اثر ضدالتهابی و ضدآلرژیک",
+        "اثر تحکیم‌کنندهٔ عروق، دخیل در انعقاد خون",
+        "کوفاکتور آنزیم‌ها",
+        "جزء اصلی هموگلوبین"
       ],
       "richtig": [
         0,
@@ -9046,6 +9192,7 @@
         4
       ],
       "erklaerung": "Kalzium-Funktionen: Bildung von Knochen/Zähnen, neuromuskuläre Erregbarkeit + Muskelkontraktion, antiphlogistische und antiallergische Wirkung, gefäßabdichtende Wirkung (an Blutgerinnung beteiligt), Cofaktor von Enzymen.",
+      "erklaerung_fa": "عملکردهای کلسیم: ساخت استخوان/دندان، تحریک‌پذیری عصبی-عضلانی + انقباض عضله، اثر ضدالتهابی و ضدآلرژیک، اثر تحکیم‌کنندهٔ عروق (دخیل در انعقاد خون)، کوفاکتور آنزیم‌ها.",
       "schwierigkeit": "schwer",
       "tags": [
         "Stoffwechsel",
@@ -9061,6 +9208,7 @@
       "seite": 20,
       "typ": "multiple_choice",
       "frage": "Welche drei Hormone/Substanzen regulieren den Kalziumhaushalt?",
+      "frage_fa": "کدام سه هورمون/ماده تعادل کلسیم را تنظیم می‌کنند؟",
       "optionen": [
         "Parathormon",
         "Calcitonin",
@@ -9068,12 +9216,20 @@
         "Insulin",
         "Aldosteron"
       ],
+      "optionen_fa": [
+        "پاراتورمون (هورمون پاراتیروئید)",
+        "کلسی‌تونین",
+        "ویتامین D (کلسی‌تریول)",
+        "انسولین",
+        "آلدوسترون"
+      ],
       "richtig": [
         0,
         1,
         2
       ],
       "erklaerung": "Die drei wichtigsten Regulatoren des Kalziumhaushalts sind: Parathormon (Nebenschilddrüse), Calcitonin (Schilddrüse) und Vitamin D (Calcitriol).",
+      "erklaerung_fa": "سه تنظیم‌کنندهٔ اصلی تعادل کلسیم عبارت‌اند از: پاراتورمون (غدهٔ پاراتیروئید)، کلسی‌تونین (غدهٔ تیروئید) و ویتامین D (کلسی‌تریول).",
       "schwierigkeit": "mittel",
       "tags": [
         "Stoffwechsel",
@@ -9090,6 +9246,7 @@
       "seite": 20,
       "typ": "single_choice",
       "frage": "Was bewirkt Parathormon (PTH) bei Hypokalzämie?",
+      "frage_fa": "پاراتورمون (PTH) در هایپوکلسمی چه اثری دارد؟",
       "optionen": [
         "Senkung des Kalziumspiegels",
         "Erhöhung des Kalziumspiegels durch Knochenabbau und Steigerung der Kalziumaufnahme",
@@ -9097,8 +9254,16 @@
         "Steigerung der Kalziumausscheidung",
         "Keine Wirkung auf Kalzium"
       ],
+      "optionen_fa": [
+        "کاهش سطح کلسیم",
+        "افزایش سطح کلسیم از طریق تجزیهٔ استخوان و افزایش جذب کلسیم",
+        "مهار استئوکلاست‌ها",
+        "افزایش دفع کلسیم",
+        "بدون اثر بر کلسیم"
+      ],
       "richtig": 1,
       "erklaerung": "Bei Hypokalzämie wird Parathormon (PTH) aus den Nebenschilddrüsen ausgeschüttet → Erhöhung Kalziumspiegel durch: Aktivierung Osteoklasten (Kalzium aus Knochen), Hemmung Kalziumausscheidung, Bildung Calcitriol, Steigerung Kalziumaufnahme im Darm. Merkhilfe: 'Parathormon stellt Kalzium im Blut parat'.",
+      "erklaerung_fa": "در هایپوکلسمی پاراتورمون (PTH) از غدد پاراتیروئید ترشح می‌شود → افزایش سطح کلسیم از طریق: فعال‌سازی استئوکلاست‌ها (کلسیم از استخوان)، مهار دفع کلسیم، ساخت کلسی‌تریول، افزایش جذب کلسیم در روده. یادیار: «پاراتورمون کلسیم را در خون آماده (parat) می‌کند».",
       "schwierigkeit": "schwer",
       "tags": [
         "Stoffwechsel",
@@ -9114,6 +9279,7 @@
       "seite": 20,
       "typ": "multiple_choice",
       "frage": "Welche Wirkungen hat Parathormon?",
+      "frage_fa": "پاراتورمون چه اثراتی دارد؟",
       "optionen": [
         "Aktivierung der Osteoklasten (Kalziumfreisetzung aus Knochen)",
         "Hemmung der Kalziumausscheidung über die Niere",
@@ -9121,6 +9287,14 @@
         "Bildung von Calcitriol in der Niere",
         "Steigerung der Kalziumaufnahme im Darm",
         "Senkung des Kalziumspiegels"
+      ],
+      "optionen_fa": [
+        "فعال‌سازی استئوکلاست‌ها (آزادسازی کلسیم از استخوان)",
+        "مهار دفع کلسیم از طریق کلیه",
+        "افزایش دفع فسفات از طریق کلیه",
+        "ساخت کلسی‌تریول در کلیه",
+        "افزایش جذب کلسیم در روده",
+        "کاهش سطح کلسیم"
       ],
       "richtig": [
         0,
@@ -9130,6 +9304,7 @@
         4
       ],
       "erklaerung": "PTH-Wirkungen: Aktivierung Osteoklasten (Kalzium aus Knochen), Hemmung Kalziumausscheidung + Steigerung Phosphatausscheidung über Niere, Bildung Calcitriol in Niere, Steigerung Kalziumaufnahme im Darm → Serumkalziumspiegel steigt.",
+      "erklaerung_fa": "اثرات PTH: فعال‌سازی استئوکلاست‌ها (کلسیم از استخوان)، مهار دفع کلسیم + افزایش دفع فسفات از طریق کلیه، ساخت کلسی‌تریول در کلیه، افزایش جذب کلسیم در روده ← سطح کلسیم سرم بالا می‌رود.",
       "schwierigkeit": "schwer",
       "tags": [
         "Stoffwechsel",
@@ -9145,6 +9320,7 @@
       "seite": 20,
       "typ": "single_choice",
       "frage": "Was bewirkt Calcitonin bei Hyperkalzämie?",
+      "frage_fa": "کلسی‌تونین در هایپرکلسمی چه اثری دارد؟",
       "optionen": [
         "Erhöhung des Kalziumspiegels",
         "Senkung des Kalziumspiegels - 'bringt das Calcium in die Knochen'",
@@ -9152,8 +9328,16 @@
         "Steigerung der Kalziumaufnahme im Darm",
         "Keine Wirkung"
       ],
+      "optionen_fa": [
+        "افزایش سطح کلسیم",
+        "کاهش سطح کلسیم — «کلسیم را به استخوان‌ها می‌برد»",
+        "فعال‌سازی استئوکلاست‌ها",
+        "افزایش جذب کلسیم در روده",
+        "بدون اثر"
+      ],
       "richtig": 1,
       "erklaerung": "Bei Hyperkalzämie wird Calcitonin aus der Schilddrüse ausgeschüttet → Senkung Kalziumspiegel durch: Hemmung Osteoklasten, Steigerung Kalziumeinbaus in Knochen, Steigerung Ausscheidung Ca + Phosphat über Niere, Hemmung Kalziumaufnahme im Darm. Merkhilfe: 'Calcitonin bringt das Calcium in die Knochen'.",
+      "erklaerung_fa": "در هایپرکلسمی کلسی‌تونین از غدهٔ تیروئید ترشح می‌شود → کاهش سطح کلسیم از طریق: مهار استئوکلاست‌ها، افزایش رسوب کلسیم در استخوان، افزایش دفع کلسیم و فسفات از طریق کلیه، مهار جذب کلسیم در روده. یادیار: «کلسی‌تونین کلسیم را به استخوان‌ها می‌برد».",
       "schwierigkeit": "schwer",
       "tags": [
         "Stoffwechsel",
@@ -9169,6 +9353,7 @@
       "seite": 20,
       "typ": "single_choice",
       "frage": "Wie wird Vitamin D im Körper gebildet?",
+      "frage_fa": "ویتامین D چگونه در بدن ساخته می‌شود؟",
       "optionen": [
         "100% über die Nahrung",
         "Zu 10% über die Nahrung, zu 90% mithilfe UV-Strahlen in der Haut aus Cholesterin",
@@ -9176,8 +9361,16 @@
         "Nur in der Niere",
         "Nur in den Knochen"
       ],
+      "optionen_fa": [
+        "100٪ از طریق غذا",
+        "10٪ از طریق غذا، 90٪ با کمک اشعهٔ UV در پوست از کلسترول",
+        "فقط در کبد",
+        "فقط در کلیه",
+        "فقط در استخوان‌ها"
+      ],
       "richtig": 1,
       "erklaerung": "Vitamin D wird zu 10% über die Nahrung aufgenommen und zu 90% mithilfe von UV-Strahlen in der Haut aus Cholesterin gebildet. Das Cholecalciferol wird in der Leber zu Calcidiol und dann in der Niere (durch PTH-Aktivierung) zu Calcitriol umgewandelt.",
+      "erklaerung_fa": "ویتامین D به میزان 10٪ از طریق غذا دریافت و 90٪ با کمک اشعهٔ UV در پوست از کلسترول ساخته می‌شود. کوله‌کلسیفرول در کبد به کلسی‌دیول و سپس در کلیه (با فعال‌سازی PTH) به کلسی‌تریول تبدیل می‌شود.",
       "schwierigkeit": "schwer",
       "tags": [
         "Stoffwechsel",
@@ -9193,6 +9386,7 @@
       "seite": 20,
       "typ": "multiple_choice",
       "frage": "Welche Wirkungen hat Calcitriol (Vitamin D3)?",
+      "frage_fa": "کلسی‌تریول (ویتامین D3) چه اثراتی دارد؟",
       "optionen": [
         "Steigerung der Kalzium- und Phosphataufnahme im Darm",
         "Hemmung der Ausscheidung von Kalzium und Phosphat über die Niere",
@@ -9200,6 +9394,14 @@
         "Stimulation von Osteoblasten",
         "Förderung der Osteoklastendifferenzierung",
         "Hemmung der Kalziumaufnahme"
+      ],
+      "optionen_fa": [
+        "افزایش جذب کلسیم و فسفات در روده",
+        "مهار دفع کلسیم و فسفات از طریق کلیه",
+        "تقویت معدنی‌سازی، ساخت و بازسازی استخوان",
+        "تحریک استئوبلاست‌ها",
+        "تقویت تمایز استئوکلاست‌ها",
+        "مهار جذب کلسیم"
       ],
       "richtig": [
         0,
@@ -9209,6 +9411,7 @@
         4
       ],
       "erklaerung": "Calcitriol-Wirkungen: Steigerung Ca/Phosphataufnahme im Darm, Hemmung Ausscheidung über Niere, Förderung von Knochenmineralisierung/-aufbau/-umbau durch Ausgleich Ca-/Phosphatspiegels, Stimulation Osteoblasten und Förderung Osteoklastendifferenzierung.",
+      "erklaerung_fa": "اثرات کلسی‌تریول: افزایش جذب کلسیم/فسفات در روده، مهار دفع از طریق کلیه، تقویت معدنی‌سازی/ساخت/بازسازی استخوان با متعادل کردن سطح کلسیم و فسفات، تحریک استئوبلاست‌ها و تقویت تمایز استئوکلاست‌ها.",
       "schwierigkeit": "schwer",
       "tags": [
         "Stoffwechsel",
@@ -9225,6 +9428,7 @@
       "seite": 20,
       "typ": "multiple_choice",
       "frage": "Welche Lebensmittel sind reich an Vitamin D?",
+      "frage_fa": "کدام مواد غذایی سرشار از ویتامین D هستند؟",
       "optionen": [
         "Fetter Fisch",
         "Leber",
@@ -9232,6 +9436,14 @@
         "Speisepilze",
         "Avocados",
         "Zucker"
+      ],
+      "optionen_fa": [
+        "ماهی چرب",
+        "جگر",
+        "زردهٔ تخم‌مرغ",
+        "قارچ خوراکی",
+        "آووکادو",
+        "قند"
       ],
       "richtig": [
         0,
@@ -9241,6 +9453,7 @@
         4
       ],
       "erklaerung": "Vitamin D-reich sind v.a. fetter Fisch; geringere Mengen kommen auch in Leber, Eigelb, Speisepilzen und Avocados vor.",
+      "erklaerung_fa": "به‌ویژه ماهی چرب سرشار از ویتامین D است؛ مقادیر کمتری نیز در جگر، زردهٔ تخم‌مرغ، قارچ خوراکی و آووکادو وجود دارد.",
       "schwierigkeit": "mittel",
       "tags": [
         "Stoffwechsel",
@@ -9256,6 +9469,7 @@
       "seite": 20,
       "typ": "single_choice",
       "frage": "Wie hoch ist der Normwert für Gesamtkalzium im Serum?",
+      "frage_fa": "مقدار طبیعی کلسیم تام سرم چقدر است؟",
       "optionen": [
         "1,0-1,5 mmol/l",
         "2,2-2,6 mmol/l",
@@ -9263,8 +9477,16 @@
         "5,0-6,0 mmol/l",
         "10-12 mmol/l"
       ],
+      "optionen_fa": [
+        "1.0-1.5 mmol/l",
+        "2.2-2.6 mmol/l",
+        "3.0-4.0 mmol/l",
+        "5.0-6.0 mmol/l",
+        "10-12 mmol/l"
+      ],
       "richtig": 1,
       "erklaerung": "Normwerte im Serum: Gesamtkalzium: 2,2-2,6 mmol/l, freies (ionisiertes) Kalzium: 1,1-1,3 mmol/l.",
+      "erklaerung_fa": "مقادیر طبیعی در سرم: کلسیم تام 2.2-2.6 mmol/l، کلسیم آزاد (یونیزه) 1.1-1.3 mmol/l.",
       "schwierigkeit": "mittel",
       "tags": [
         "Stoffwechsel",
@@ -9281,6 +9503,7 @@
       "seite": 20,
       "typ": "single_choice",
       "frage": "Wie hoch ist der Normwert für freies (ionisiertes) Kalzium im Serum?",
+      "frage_fa": "مقدار طبیعی کلسیم آزاد (یونیزه) سرم چقدر است؟",
       "optionen": [
         "0,5-1,0 mmol/l",
         "1,1-1,3 mmol/l",
@@ -9288,8 +9511,16 @@
         "3,0-3,5 mmol/l",
         "5,0-6,0 mmol/l"
       ],
+      "optionen_fa": [
+        "0.5-1.0 mmol/l",
+        "1.1-1.3 mmol/l",
+        "2.0-2.5 mmol/l",
+        "3.0-3.5 mmol/l",
+        "5.0-6.0 mmol/l"
+      ],
       "richtig": 1,
       "erklaerung": "Normwert für freies (ionisiertes) Kalzium: 1,1-1,3 mmol/l. Das ist die biologisch aktive Form.",
+      "erklaerung_fa": "مقدار طبیعی کلسیم آزاد (یونیزه): 1.1-1.3 mmol/l. این شکل فعال زیستی است.",
       "schwierigkeit": "schwer",
       "tags": [
         "Stoffwechsel",
@@ -9305,7 +9536,9 @@
       "seite": 20,
       "typ": "fallbeispiel",
       "fallbeschreibung": "Eine 50-jährige Patientin hat im Labor ein Gesamtkalzium von 1,9 mmol/l. Ihre Nebenschilddrüsen reagieren physiologisch.",
+      "fallbeschreibung_fa": "یک بیمار زن ۵۰ ساله در آزمایشگاه کلسیم تام 1.9 mmol/l دارد. غدد پاراتیروئید او به‌صورت فیزیولوژیک واکنش نشان می‌دهند.",
       "frage": "Was passiert in dieser Situation?",
+      "frage_fa": "در این وضعیت چه اتفاقی می‌افتد؟",
       "optionen": [
         "Calcitonin wird ausgeschüttet, Kalziumspiegel sinkt weiter",
         "Parathormon (PTH) wird ausgeschüttet → Aktivierung der Osteoklasten, Erhöhung des Kalziumspiegels",
@@ -9313,8 +9546,16 @@
         "Es passiert nichts",
         "Die Schilddrüse produziert mehr T3/T4"
       ],
+      "optionen_fa": [
+        "کلسی‌تونین ترشح می‌شود، سطح کلسیم بیشتر کاهش می‌یابد",
+        "پاراتورمون (PTH) ترشح می‌شود ← فعال‌سازی استئوکلاست‌ها، افزایش سطح کلسیم",
+        "ویتامین D تجزیه می‌شود",
+        "هیچ اتفاقی نمی‌افتد",
+        "غدهٔ تیروئید T3/T4 بیشتری تولید می‌کند"
+      ],
       "richtig": 1,
       "erklaerung": "Bei Hypokalzämie (< 2,2 mmol/l) schüttet die Nebenschilddrüse Parathormon (PTH) aus → Aktivierung der Osteoklasten (Kalzium aus den Knochen freisetzen), Hemmung der renalen Kalziumausscheidung, Bildung Calcitriol → Kalziumspiegel steigt. Merkhilfe: 'Parathormon stellt Kalzium im Blut parat'.",
+      "erklaerung_fa": "در هایپوکلسمی (< 2.2 mmol/l) غدهٔ پاراتیروئید پاراتورمون (PTH) ترشح می‌کند ← فعال‌سازی استئوکلاست‌ها (آزادسازی کلسیم از استخوان‌ها)، مهار دفع کلیوی کلسیم، ساخت کلسی‌تریول ← سطح کلسیم بالا می‌رود. یادیار: «پاراتورمون کلسیم را در خون آماده می‌کند».",
       "schwierigkeit": "schwer",
       "tags": [
         "Stoffwechsel",
@@ -9332,6 +9573,7 @@
       "seite": 21,
       "typ": "single_choice",
       "frage": "Ab welchem Wert spricht man von einer Hypokalzämie?",
+      "frage_fa": "از چه مقداری هایپوکلسمی وجود دارد؟",
       "optionen": [
         "Gesamtkalzium < 1,5 mmol/l",
         "Gesamtkalzium < 2,2 mmol/l",
@@ -9339,8 +9581,16 @@
         "Gesamtkalzium > 2,7 mmol/l",
         "Gesamtkalzium > 5,0 mmol/l"
       ],
+      "optionen_fa": [
+        "کلسیم تام < 1.5 mmol/l",
+        "کلسیم تام < 2.2 mmol/l",
+        "کلسیم تام < 3.0 mmol/l",
+        "کلسیم تام > 2.7 mmol/l",
+        "کلسیم تام > 5.0 mmol/l"
+      ],
       "richtig": 1,
       "erklaerung": "Hypokalzämie: Gesamtkalzium im Serum < 2,2 mmol/l, ionisiertes (freies) Kalzium < 1,1 mmol/l.",
+      "erklaerung_fa": "هایپوکلسمی: کلسیم تام سرم < 2.2 mmol/l، کلسیم یونیزه (آزاد) < 1.1 mmol/l.",
       "schwierigkeit": "mittel",
       "tags": [
         "Stoffwechsel",
@@ -9356,6 +9606,7 @@
       "seite": 21,
       "typ": "single_choice",
       "frage": "Ab welchem Wert spricht man von einer Hyperkalzämie?",
+      "frage_fa": "از چه مقداری هایپرکلسمی وجود دارد؟",
       "optionen": [
         "Gesamtkalzium > 2,2 mmol/l",
         "Gesamtkalzium > 2,7 mmol/l, ionisiertes Kalzium > 1,3 mmol/l",
@@ -9363,8 +9614,16 @@
         "Gesamtkalzium < 2,2 mmol/l",
         "Gesamtkalzium > 10,0 mmol/l"
       ],
+      "optionen_fa": [
+        "کلسیم تام > 2.2 mmol/l",
+        "کلسیم تام > 2.7 mmol/l، کلسیم یونیزه > 1.3 mmol/l",
+        "کلسیم تام > 5.0 mmol/l",
+        "کلسیم تام < 2.2 mmol/l",
+        "کلسیم تام > 10.0 mmol/l"
+      ],
       "richtig": 1,
       "erklaerung": "Hyperkalzämie: Gesamtkalzium im Serum > 2,7 mmol/l, ionisiertes (freies) Kalzium > 1,3 mmol/l.",
+      "erklaerung_fa": "هایپرکلسمی: کلسیم تام سرم > 2.7 mmol/l، کلسیم یونیزه (آزاد) > 1.3 mmol/l.",
       "schwierigkeit": "mittel",
       "tags": [
         "Stoffwechsel",
@@ -9380,6 +9639,7 @@
       "seite": 21,
       "typ": "multiple_choice",
       "frage": "Welche Ursachen kann eine Hypokalzämie haben?",
+      "frage_fa": "هایپوکلسمی چه علل‌هایی می‌تواند داشته باشد؟",
       "optionen": [
         "Verminderte Kalziumaufnahme (Mangelernährung, Malabsorptionssyndrom)",
         "Vitamin-D-Mangel (Sonnenlichtmangel, Leber-/Niereninsuffizienz, Alkoholismus)",
@@ -9388,6 +9648,15 @@
         "Hyperventilation",
         "Renale Kalziumverluste, Schleifendiuretika",
         "Hyperparathyreoidismus"
+      ],
+      "optionen_fa": [
+        "کاهش جذب کلسیم (سوءتغذیه، سندرم سوءجذب)",
+        "کمبود ویتامین D (کمبود نور خورشید، نارسایی کبد/کلیه، الکلیسم)",
+        "هایپوپاراتیروئیدیسم",
+        "پانکراتیت حاد",
+        "هایپرونتیلاسیون (تنفس بیش از حد)",
+        "از دست دادن کلیوی کلسیم، دیورتیک‌های لوپ",
+        "هایپرپاراتیروئیدیسم"
       ],
       "richtig": [
         0,
@@ -9398,6 +9667,7 @@
         5
       ],
       "erklaerung": "Hypokalzämie-Ursachen: verminderte Aufnahme, Vitamin-D-Mangel, Hypoparathyreoidismus, akute Pankreatitis (Verseifungsprozesse), Hyperventilation (resp. Alkalose), renale Verluste, Glukokortikoide, Hypalbuminämie. Hyperparathyreoidismus verursacht Hyperkalzämie!",
+      "erklaerung_fa": "علل هایپوکلسمی: کاهش جذب، کمبود ویتامین D، هایپوپاراتیروئیدیسم، پانکراتیت حاد (فرایندهای صابونی‌شدن)، هایپرونتیلاسیون (آلکالوز تنفسی)، از دست دادن کلیوی، گلوکوکورتیکوئیدها، هایپوآلبومینمی. هایپرپاراتیروئیدیسم باعث هایپرکلسمی می‌شود!",
       "schwierigkeit": "schwer",
       "tags": [
         "Stoffwechsel",
@@ -9413,6 +9683,7 @@
       "seite": 21,
       "typ": "multiple_choice",
       "frage": "Welche Ursachen kann eine Hyperkalzämie haben?",
+      "frage_fa": "هایپرکلسمی چه علل‌هایی می‌تواند داشته باشد؟",
       "optionen": [
         "Maligne Tumoren (z.B. Nierenzellkarzinom, Lungenkarzinom)",
         "Hyperparathyreoidismus",
@@ -9421,6 +9692,15 @@
         "Hyperthyreose, Akromegalie",
         "Lange Immobilisation",
         "Vitamin-D-Mangel"
+      ],
+      "optionen_fa": [
+        "تومورهای بدخیم (مثلاً کارسینوم سلول کلیوی، کارسینوم ریه)",
+        "هایپرپاراتیروئیدیسم",
+        "داروها (دیورتیک‌های تیازیدی، تاموکسیفن، لیتیوم)",
+        "مسمومیت با ویتامین D",
+        "پرکاری تیروئید، آکرومگالی",
+        "بی‌حرکتی طولانی",
+        "کمبود ویتامین D"
       ],
       "richtig": [
         0,
@@ -9431,6 +9711,7 @@
         5
       ],
       "erklaerung": "Hyperkalzämie-Ursachen: Maligne Tumoren (Osteolysen oder PTHrP-Synthese), Hyperparathyreoidismus, Medikamente (Thiazide, Tamoxifen, Vitamin-D-Intox, Lithium), gesteigerter Knochenstoffwechsel (Hyperthyreose, Akromegalie), lange Immobilisation, Glukokortikoidmangel (M. Addison), Sarkoidose, Azidose. Vitamin-D-Mangel führt zu HYPOkalzämie!",
+      "erklaerung_fa": "علل هایپرکلسمی: تومورهای بدخیم (استئولیز یا ساخت PTHrP)، هایپرپاراتیروئیدیسم، داروها (تیازیدها، تاموکسیفن، مسمومیت ویتامین D، لیتیوم)، افزایش متابولیسم استخوان (پرکاری تیروئید، آکرومگالی)، بی‌حرکتی طولانی، کمبود گلوکوکورتیکوئید (بیماری آدیسون)، سارکوئیدوز، اسیدوز. کمبود ویتامین D به هایپوکلسمی منجر می‌شود!",
       "schwierigkeit": "schwer",
       "tags": [
         "Stoffwechsel",
@@ -9446,6 +9727,7 @@
       "seite": 21,
       "typ": "multiple_choice",
       "frage": "Welche klinischen Symptome treten bei Hypokalzämie auf?",
+      "frage_fa": "کدام علائم بالینی در هایپوکلسمی بروز می‌کنند؟",
       "optionen": [
         "Tetanie (Parästhesien, Muskelkrämpfe, Chvostek-Zeichen, Trousseau-Zeichen)",
         "Muskelschwäche, Müdigkeit",
@@ -9454,6 +9736,15 @@
         "Diarrhö",
         "Trockene Haut, Haar- und Nagelstörungen",
         "Knochenschmerzen, Obstipation"
+      ],
+      "optionen_fa": [
+        "تتانی (پارستزی، گرفتگی عضلات، علامت شووستک، علامت تروسو)",
+        "ضعف عضلانی، خستگی",
+        "آریتمی قلبی، افت فشار خون",
+        "افزایش رفلکس‌ها (هایپررفلکسی)",
+        "اسهال",
+        "پوست خشک، اختلالات مو و ناخن",
+        "درد استخوان، یبوست"
       ],
       "richtig": [
         0,
@@ -9464,6 +9755,7 @@
         5
       ],
       "erklaerung": "Hypokalzämie-Symptome: Tetanie (Parästhesien, Muskelkrämpfe, Chvostek-/Trousseau-Zeichen), Muskelschwäche, Herzrhythmusstörungen, Hyperreflexie, Diarrhö, trockene Haut/Haar-/Nagelstörungen, Katarakt, Kribbelparästhesien (v.a. perioral, Hände), psychische Symptome, Bewusstseinsstörungen. Knochenschmerzen + Obstipation sind bei HYPERkalzämie.",
+      "erklaerung_fa": "علائم هایپوکلسمی: تتانی (پارستزی، گرفتگی عضلات، علامت شووستک/تروسو)، ضعف عضلانی، آریتمی قلبی، هایپررفلکسی، اسهال، پوست خشک/اختلالات مو و ناخن، آب‌مروارید، گزگز (به‌ویژه اطراف دهان و دست‌ها)، علائم روانی، اختلالات هوشیاری. درد استخوان + یبوست مربوط به هایپرکلسمی است.",
       "schwierigkeit": "schwer",
       "tags": [
         "Stoffwechsel",
@@ -9479,6 +9771,7 @@
       "seite": 21,
       "typ": "single_choice",
       "frage": "Was ist das Chvostek-Zeichen?",
+      "frage_fa": "علامت شووستک (Chvostek) چیست؟",
       "optionen": [
         "Blasse Hautfarbe bei Anämie",
         "Beklopfen des N. facialis im Bereich der Wange (1-2 cm vor dem Ohrläppchen) → Zucken des Mundwinkels und der gleichseitigen Gesichtsmuskulatur",
@@ -9486,8 +9779,16 @@
         "Schmerz bei Druck auf das Sprunggelenk",
         "Hautausschlag bei Allergie"
       ],
+      "optionen_fa": [
+        "رنگ‌پریدگی پوست در کم‌خونی",
+        "ضربه‌زدن به عصب صورتی در ناحیهٔ گونه (1-2 سانتی‌متر جلوی نرمهٔ گوش) ← پرش گوشهٔ دهان و عضلات صورت همان سمت",
+        "افزایش فشار خون در استرس",
+        "درد هنگام فشار بر مفصل مچ پا",
+        "بثورات پوستی در آلرژی"
+      ],
       "richtig": 1,
       "erklaerung": "Chvostek-Zeichen: Beklopfen des N. facialis im Bereich der Wange (1-2 cm vor Ohrläppchen) → Zucken des Mundwinkels und der gleichseitigen Gesichtsmuskulatur. Zeichen für erhöhte neuromuskuläre Erregbarkeit bei Hypokalzämie.",
+      "erklaerung_fa": "علامت شووستک: ضربه‌زدن به عصب صورتی در ناحیهٔ گونه (1-2 سانتی‌متر جلوی نرمهٔ گوش) ← پرش گوشهٔ دهان و عضلات صورت همان سمت. نشانهٔ افزایش تحریک‌پذیری عصبی-عضلانی در هایپوکلسمی.",
       "schwierigkeit": "schwer",
       "tags": [
         "Stoffwechsel",
@@ -9504,6 +9805,7 @@
       "seite": 21,
       "typ": "single_choice",
       "frage": "Was ist das Trousseau-Zeichen?",
+      "frage_fa": "علامت تروسو (Trousseau) چیست؟",
       "optionen": [
         "Zucken der Wangenmuskulatur",
         "Pfötchenstellung der Hand bei Kompression des Oberarms durch eine Blutdruckmanschette",
@@ -9511,8 +9813,16 @@
         "Schmerz im Sprunggelenk",
         "Roter Hautausschlag"
       ],
+      "optionen_fa": [
+        "پرش عضلات گونه",
+        "حالت «دست مامایی» (پنجه‌ای) هنگام فشار بر بازو با کاف فشارسنج",
+        "وزوز گوش",
+        "درد در مفصل مچ پا",
+        "بثورات قرمز پوستی"
+      ],
       "richtig": 1,
       "erklaerung": "Trousseau-Zeichen: Bei Kompression des Oberarms durch eine Blutdruckmanschette kommt es zur Pfötchenstellung der Hand. Zeichen für tetanische Übererregbarkeit bei Hypokalzämie.",
+      "erklaerung_fa": "علامت تروسو: هنگام فشار بر بازو با کاف فشارسنج، دست حالت پنجه‌ای (دست مامایی) پیدا می‌کند. نشانهٔ تحریک‌پذیری تتانیک در هایپوکلسمی.",
       "schwierigkeit": "schwer",
       "tags": [
         "Stoffwechsel",
@@ -9529,6 +9839,7 @@
       "seite": 21,
       "typ": "multiple_choice",
       "frage": "Welche klinischen Symptome treten bei Hyperkalzämie auf? (Merkhilfe 'Stein-Bein-Magenpein')",
+      "frage_fa": "کدام علائم بالینی در هایپرکلسمی بروز می‌کنند؟ (یادیار «سنگ-استخوان-درد معده»)",
       "optionen": [
         "Knochenschmerzen (Bein)",
         "Harn- und Nierensteine (Stein)",
@@ -9537,6 +9848,15 @@
         "Muskelschwäche, Paresen",
         "Herzrhythmusstörungen",
         "Hyperreflexie"
+      ],
+      "optionen_fa": [
+        "درد استخوان (استخوان)",
+        "سنگ ادراری و کلیوی (سنگ)",
+        "شکایات گوارشی: بی‌اشتهایی، تهوع، یبوست، ایجاد زخم (درد معده)",
+        "پُرادراری، پُرنوشی",
+        "ضعف عضلانی، فلج‌های نسبی",
+        "آریتمی قلبی",
+        "افزایش رفلکس‌ها (هایپررفلکسی)"
       ],
       "richtig": [
         0,
@@ -9547,6 +9867,7 @@
         5
       ],
       "erklaerung": "Hyperkalzämie-Symptome (Merkhilfe 'Stein-Bein-Magenpein'): Knochenschmerzen (Bein), Nierensteine (Stein), gastrointestinale Beschwerden (Magenpein), Polyurie/Polydipsie, Muskelschwäche/Paresen, Herzrhythmusstörungen, HYPOreflexie (nicht Hyper-!), Pankreatitis, psychische Symptome.",
+      "erklaerung_fa": "علائم هایپرکلسمی (یادیار آلمانی «Stein-Bein-Magenpein» = سنگ-استخوان-درد معده): درد استخوان، سنگ کلیه، شکایات گوارشی، پُرادراری/پُرنوشی، ضعف عضلانی/فلج نسبی، آریتمی قلبی، کاهش رفلکس‌ها (هایپورفلکسی، نه هایپر!)، پانکراتیت، علائم روانی.",
       "schwierigkeit": "schwer",
       "tags": [
         "Stoffwechsel",
@@ -9563,6 +9884,7 @@
       "seite": 21,
       "typ": "single_choice",
       "frage": "Ab welchem Kalziumwert spricht man von einer hyperkalzämischen Krise?",
+      "frage_fa": "از چه مقدار کلسیمی بحران هایپرکلسمیک وجود دارد؟",
       "optionen": [
         "Ca²⁺ > 2,5 mmol/l",
         "Ca²⁺ > 3,0 mmol/l",
@@ -9570,8 +9892,16 @@
         "Ca²⁺ > 5,0 mmol/l",
         "Ca²⁺ > 10,0 mmol/l"
       ],
+      "optionen_fa": [
+        "Ca²⁺ > 2.5 mmol/l",
+        "Ca²⁺ > 3.0 mmol/l",
+        "Ca²⁺ > 3.5 mmol/l",
+        "Ca²⁺ > 5.0 mmol/l",
+        "Ca²⁺ > 10.0 mmol/l"
+      ],
       "richtig": 2,
       "erklaerung": "Hyperkalzämische Krise: Ca²⁺-Werte > 3,5 mmol/l. Klinik: schwere Exsikkose, Fieber, Niereninsuffizienz, Herzrhythmusstörungen, Somnolenz, Koma. Notfall!",
+      "erklaerung_fa": "بحران هایپرکلسمیک: مقادیر Ca²⁺ > 3.5 mmol/l. تصویر بالینی: کم‌آبی شدید، تب، نارسایی کلیه، آریتمی قلبی، خواب‌آلودگی، کما. اورژانس!",
       "schwierigkeit": "schwer",
       "tags": [
         "Stoffwechsel",
@@ -9588,6 +9918,7 @@
       "seite": 21,
       "typ": "multiple_choice",
       "frage": "Wie wird eine Hypokalzämie behandelt?",
+      "frage_fa": "هایپوکلسمی چگونه درمان می‌شود؟",
       "optionen": [
         "Behandlung der Ursache",
         "Bei psychogener Hyperventilationstetanie: Tütenatmen und Beruhigen",
@@ -9595,6 +9926,14 @@
         "Langzeittherapie: orale Kalziumsubstitution, ggf. Vitamin D3",
         "Cave: keine intravenöse Kalziumsubstitution bei Digitaliseinnahme (Gefahr Kammerflimmern!)",
         "Mehr Kalzium ausscheiden"
+      ],
+      "optionen_fa": [
+        "درمان علت",
+        "در تتانی ناشی از هایپرونتیلاسیون روان‌زاد: تنفس در کیسه و آرام‌سازی",
+        "در تتانی شدید: تماس با اورژانس، کلسیم داخل وریدی (توسط پزشک)",
+        "درمان بلندمدت: جایگزینی خوراکی کلسیم، در صورت لزوم ویتامین D3",
+        "احتیاط: هرگز جایگزینی وریدی کلسیم هنگام مصرف دیژیتال (خطر فیبریلاسیون بطنی!)",
+        "دفع بیشتر کلسیم"
       ],
       "richtig": [
         0,
@@ -9604,6 +9943,7 @@
         4
       ],
       "erklaerung": "Hypokalzämie-Therapie: Ursachenbehandlung, bei Hyperventilationstetanie Tütenatmen, bei starker Tetanie Notruf + Ca i.v., Langzeit: orale Substitution + ggf. Vitamin D3. WICHTIG: KEINE i.v. Kalziumsubstitution bei Digitaliseinnahme → Gefahr Kammerflimmern!",
+      "erklaerung_fa": "درمان هایپوکلسمی: درمان علت، در تتانی هایپرونتیلاسیون تنفس در کیسه، در تتانی شدید تماس با اورژانس + کلسیم وریدی، بلندمدت: جایگزینی خوراکی + در صورت لزوم ویتامین D3. مهم: هرگز جایگزینی وریدی کلسیم هنگام مصرف دیژیتال ← خطر فیبریلاسیون بطنی!",
       "schwierigkeit": "schwer",
       "tags": [
         "Stoffwechsel",
@@ -9619,6 +9959,7 @@
       "seite": 21,
       "typ": "multiple_choice",
       "frage": "Wie wird eine Hyperkalzämie behandelt?",
+      "frage_fa": "هایپرکلسمی چگونه درمان می‌شود؟",
       "optionen": [
         "Behandlung der Ursache",
         "Kalziumzufuhr stoppen (z.B. keine Milch, Mineralwasser, Kalziumpräparate)",
@@ -9627,6 +9968,15 @@
         "Bisphosphonate bei Tumoren → Hemmung Osteoklastentätigkeit",
         "Medikamente: Glukokortikoide, Calcitonin",
         "Mehr Kalzium zuführen"
+      ],
+      "optionen_fa": [
+        "درمان علت",
+        "قطع دریافت کلسیم (مثلاً بدون شیر، آب معدنی، مکمل‌های کلسیم)",
+        "دیورز اجباری: محلول کلرید سدیم + دیورتیک لوپ (فوروزماید) ← دفع Ca²⁺",
+        "در صورت لزوم دیالیز",
+        "بیس‌فسفونات‌ها در تومورها ← مهار فعالیت استئوکلاست‌ها",
+        "داروها: گلوکوکورتیکوئیدها، کلسی‌تونین",
+        "دریافت بیشتر کلسیم"
       ],
       "richtig": [
         0,
@@ -9637,6 +9987,7 @@
         5
       ],
       "erklaerung": "Hyperkalzämie-Therapie: Ursache behandeln, Kalziumzufuhr stoppen, forcierte Diurese (NaCl + Furosemid), Dialyse, Bisphosphonate (bei Tumoren), Glukokortikoide, Calcitonin.",
+      "erklaerung_fa": "درمان هایپرکلسمی: درمان علت، قطع دریافت کلسیم، دیورز اجباری (NaCl + فوروزماید)، دیالیز، بیس‌فسفونات‌ها (در تومورها)، گلوکوکورتیکوئیدها، کلسی‌تونین.",
       "schwierigkeit": "schwer",
       "tags": [
         "Stoffwechsel",
@@ -9652,7 +10003,9 @@
       "seite": 21,
       "typ": "fallbeispiel",
       "fallbeschreibung": "Eine 35-jährige Patientin kommt mit Kribbeln um den Mund und an den Händen in die Praxis. Bei Kompression des Oberarms durch die Blutdruckmanschette stellt sich ihre Hand pfötchenartig. Beim Beklopfen der Wange zuckt der Mundwinkel.",
+      "fallbeschreibung_fa": "یک بیمار زن ۳۵ ساله با گزگز اطراف دهان و در دست‌ها به مطب مراجعه می‌کند. هنگام فشار بر بازو با کاف فشارسنج، دست او حالت پنجه‌ای پیدا می‌کند. با ضربه‌زدن به گونه، گوشهٔ دهان می‌پرد.",
       "frage": "Welche Diagnose ist am wahrscheinlichsten und welche Tests sind positiv?",
+      "frage_fa": "محتمل‌ترین تشخیص کدام است و کدام آزمون‌ها مثبت هستند؟",
       "optionen": [
         "Hyperkalzämie - Chvostek und Trousseau positiv",
         "Hypokalzämie (Tetanie) - Chvostek-Zeichen und Trousseau-Zeichen positiv",
@@ -9660,8 +10013,16 @@
         "Hypothyreose",
         "Diabetes mellitus"
       ],
+      "optionen_fa": [
+        "هایپرکلسمی — شووستک و تروسو مثبت",
+        "هایپوکلسمی (تتانی) — علامت شووستک و علامت تروسو مثبت",
+        "پرکاری تیروئید",
+        "کم‌کاری تیروئید",
+        "دیابت شیرین"
+      ],
       "richtig": 1,
       "erklaerung": "Klassische Hypokalzämie mit Tetanie: Chvostek-Zeichen (Zucken Wange) + Trousseau-Zeichen (Pfötchenstellung) sind positiv. Beide Zeichen zeigen die erhöhte neuromuskuläre Erregbarkeit bei Hypokalzämie.",
+      "erklaerung_fa": "هایپوکلسمی کلاسیک همراه با تتانی: علامت شووستک (پرش گونه) + علامت تروسو (حالت پنجه‌ای) مثبت هستند. هر دو علامت نشان‌دهندهٔ افزایش تحریک‌پذیری عصبی-عضلانی در هایپوکلسمی هستند.",
       "schwierigkeit": "mittel",
       "tags": [
         "Stoffwechsel",
@@ -9678,6 +10039,7 @@
       "seite": 22,
       "typ": "multiple_choice",
       "frage": "Welche Releasing-Hormone werden vom Hypothalamus gebildet?",
+      "frage_fa": "کدام هورمون‌های آزادکننده (Releasing) در هیپوتالاموس ساخته می‌شوند؟",
       "optionen": [
         "TRH (Thyreotropin-Rel.-Hormon)",
         "CRH (Corticotropin-Rel.-Hormon)",
@@ -9686,6 +10048,15 @@
         "SRH (Somatotropin-Rel.-Hormon)",
         "MRH (Melanoliberin)",
         "Insulin"
+      ],
+      "optionen_fa": [
+        "TRH (هورمون آزادکنندهٔ تیروتروپین)",
+        "CRH (هورمون آزادکنندهٔ کورتیکوتروپین)",
+        "GnRH (هورمون آزادکنندهٔ گنادوتروپین)",
+        "PRH (هورمون آزادکنندهٔ پرولاکتین)",
+        "SRH (هورمون آزادکنندهٔ سوماتوتروپین)",
+        "MRH (ملانولیبرین)",
+        "انسولین"
       ],
       "richtig": [
         0,
@@ -9696,6 +10067,7 @@
         5
       ],
       "erklaerung": "Releasing-Hormone des Hypothalamus: TRH (TSH-Ausschüttung), CRH (ACTH), GnRH (FSH/LH), PRH (Prolaktin), SRH (STH), MRH (MSH). Insulin wird im Pankreas gebildet.",
+      "erklaerung_fa": "هورمون‌های آزادکنندهٔ هیپوتالاموس: TRH (ترشح TSH)، CRH (ACTH)، GnRH (FSH/LH)، PRH (پرولاکتین)، SRH (STH)، MRH (MSH). انسولین در لوزالمعده ساخته می‌شود.",
       "schwierigkeit": "schwer",
       "tags": [
         "Hormonsystem",
@@ -9711,10 +10083,18 @@
       "seite": 22,
       "typ": "multiple_choice",
       "frage": "Welche Inhibiting-Hormone werden vom Hypothalamus gebildet?",
+      "frage_fa": "کدام هورمون‌های مهارکننده (Inhibiting) در هیپوتالاموس ساخته می‌شوند؟",
       "optionen": [
         "PIH (Prolaktin-Inhibiting-Hormon)",
         "SIH (Somatostatin)",
         "MIH (Melanostatin)",
+        "TRH",
+        "CRH"
+      ],
+      "optionen_fa": [
+        "PIH (هورمون مهارکنندهٔ پرولاکتین)",
+        "SIH (سوماتوستاتین)",
+        "MIH (ملانواستاتین)",
         "TRH",
         "CRH"
       ],
@@ -9724,6 +10104,7 @@
         2
       ],
       "erklaerung": "Inhibiting-Hormone des Hypothalamus: PIH (Hemmung Prolaktin), SIH/Somatostatin (Hemmung STH), MIH (Hemmung MSH).",
+      "erklaerung_fa": "هورمون‌های مهارکنندهٔ هیپوتالاموس: PIH (مهار پرولاکتین)، SIH/سوماتوستاتین (مهار STH)، MIH (مهار MSH).",
       "schwierigkeit": "schwer",
       "tags": [
         "Hormonsystem",
@@ -9739,9 +10120,17 @@
       "seite": 22,
       "typ": "multiple_choice",
       "frage": "Welche Hormone werden im Hypophysenhinterlappen (HHL) gespeichert?",
+      "frage_fa": "کدام هورمون‌ها در لوب خلفی هیپوفیز (HHL) ذخیره می‌شوند؟",
       "optionen": [
         "Oxytocin",
         "ADH (Adiuretin, Vasopressin, Antidiuretisches Hormon)",
+        "TSH",
+        "ACTH",
+        "FSH"
+      ],
+      "optionen_fa": [
+        "اکسی‌توسین",
+        "ADH (آدیورتین، وازوپرسین، هورمون ضدادراری)",
         "TSH",
         "ACTH",
         "FSH"
@@ -9751,6 +10140,7 @@
         1
       ],
       "erklaerung": "Im HHL werden Oxytocin (Wehen, Milcheinschuss beim Stillen) und ADH (Wasserrückresorption Niere, Vasokonstriktion Arteriolen) gespeichert. Sie werden im Hypothalamus gebildet. TSH, ACTH, FSH sind HVL-Hormone.",
+      "erklaerung_fa": "در لوب خلفی هیپوفیز اکسی‌توسین (انقباضات زایمان، جهش شیر هنگام شیردهی) و ADH (بازجذب آب در کلیه، انقباض آرتریول‌ها) ذخیره می‌شوند. آن‌ها در هیپوتالاموس ساخته می‌شوند. TSH، ACTH، FSH هورمون‌های لوب قدامی هستند.",
       "schwierigkeit": "mittel",
       "tags": [
         "Hormonsystem",
@@ -9768,6 +10158,7 @@
       "seite": 22,
       "typ": "multiple_choice",
       "frage": "Welche Hormone werden im Hypophysenvorderlappen (HVL) produziert?",
+      "frage_fa": "کدام هورمون‌ها در لوب قدامی هیپوفیز (HVL) تولید می‌شوند؟",
       "optionen": [
         "TSH (Thyreoidea-stimul.-Hormon)",
         "ACTH (Adrenocorticotropes Hormon)",
@@ -9777,6 +10168,16 @@
         "Prolaktin",
         "MSH (Melanozyten-stim.-Hormon)",
         "Oxytocin"
+      ],
+      "optionen_fa": [
+        "TSH (هورمون محرک تیروئید)",
+        "ACTH (هورمون آدرنوکورتیکوتروپیک)",
+        "FSH (هورمون محرک فولیکول)",
+        "LH (هورمون لوتئینه‌کننده)",
+        "STH (هورمون سوماتوتروپیک)",
+        "پرولاکتین",
+        "MSH (هورمون محرک ملانوسیت)",
+        "اکسی‌توسین"
       ],
       "richtig": [
         0,
@@ -9788,6 +10189,7 @@
         6
       ],
       "erklaerung": "HVL-Hormone: TSH (Schilddrüse), ACTH (Glukokortikoide Nebennierenrinde), FSH (Follikelreifung/Östrogene, Spermien), LH (Eisprung, Testosteron), STH (Wachstum), Prolaktin (Milchbildung), MSH (Hautpigmentierung). Oxytocin ist HHL.",
+      "erklaerung_fa": "هورمون‌های لوب قدامی: TSH (تیروئید)، ACTH (گلوکوکورتیکوئیدهای قشر فوق‌کلیه)، FSH (بلوغ فولیکول/استروژن، اسپرم)، LH (تخمک‌گذاری، تستوسترون)، STH (رشد)، پرولاکتین (شیرسازی)، MSH (رنگدانه‌سازی پوست). اکسی‌توسین مربوط به لوب خلفی است.",
       "schwierigkeit": "schwer",
       "tags": [
         "Hormonsystem",
@@ -9803,6 +10205,7 @@
       "seite": 22,
       "typ": "single_choice",
       "frage": "Was ist die Funktion von Melatonin (gebildet in der Epiphyse)?",
+      "frage_fa": "عملکرد ملاتونین (ساخته‌شده در اپی‌فیز) چیست؟",
       "optionen": [
         "Steigerung des Stoffwechsels",
         "Steuerung des Tag-/Nachtrhythmus",
@@ -9810,8 +10213,16 @@
         "Blutdrucksenkung",
         "Knochenaufbau"
       ],
+      "optionen_fa": [
+        "افزایش متابولیسم",
+        "تنظیم ریتم شبانه‌روزی",
+        "کاهش قند خون",
+        "کاهش فشار خون",
+        "استخوان‌سازی"
+      ],
       "richtig": 1,
       "erklaerung": "Melatonin wird in der Epiphyse (Zirbeldrüse) gebildet und steuert den Tag-/Nachtrhythmus (Schlaf-Wach-Rhythmus).",
+      "erklaerung_fa": "ملاتونین در اپی‌فیز (غدهٔ صنوبری) ساخته می‌شود و ریتم شبانه‌روزی (چرخهٔ خواب و بیداری) را تنظیم می‌کند.",
       "schwierigkeit": "mittel",
       "tags": [
         "Hormonsystem",
@@ -9827,6 +10238,7 @@
       "seite": 22,
       "typ": "single_choice",
       "frage": "Welche Wirkung haben Thyroxin (T4) und Triiodthyronin (T3)?",
+      "frage_fa": "تیروکسین (T4) و تری‌یدوتیرونین (T3) چه اثری دارند؟",
       "optionen": [
         "Senkung des Stoffwechsels",
         "Steigerung von Stoffwechsel, Wachstum, Wärmeproduktion, Herztätigkeit",
@@ -9834,8 +10246,16 @@
         "Erhöhung des Kalziumspiegels",
         "Blutdrucksenkung"
       ],
+      "optionen_fa": [
+        "کاهش متابولیسم",
+        "افزایش متابولیسم، رشد، تولید گرما و فعالیت قلب",
+        "کاهش قند خون",
+        "افزایش سطح کلسیم",
+        "کاهش فشار خون"
+      ],
       "richtig": 1,
       "erklaerung": "T3 (Triiodthyronin) und T4 (Thyroxin): Steigerung von Stoffwechsel, Wachstum, Wärmeproduktion, Herztätigkeit (alles ↑).",
+      "erklaerung_fa": "T3 (تری‌یدوتیرونین) و T4 (تیروکسین): افزایش متابولیسم، رشد، تولید گرما و فعالیت قلب (همه ↑).",
       "schwierigkeit": "mittel",
       "tags": [
         "Hormonsystem",
@@ -9852,6 +10272,7 @@
       "seite": 22,
       "typ": "single_choice",
       "frage": "Wo wird Calcitonin gebildet und was bewirkt es?",
+      "frage_fa": "کلسی‌تونین در کجا ساخته می‌شود و چه اثری دارد؟",
       "optionen": [
         "Nebenschilddrüse - erhöht Kalziumspiegel",
         "Schilddrüse - senkt Kalziumspiegel ('bringt Kalzium in die Knochen')",
@@ -9859,8 +10280,16 @@
         "Hypophyse - reguliert Wachstum",
         "Pankreas - senkt Blutzucker"
       ],
+      "optionen_fa": [
+        "غدهٔ پاراتیروئید — سطح کلسیم را افزایش می‌دهد",
+        "غدهٔ تیروئید — سطح کلسیم را کاهش می‌دهد («کلسیم را به استخوان‌ها می‌برد»)",
+        "غدهٔ فوق‌کلیه — استرس را تنظیم می‌کند",
+        "هیپوفیز — رشد را تنظیم می‌کند",
+        "لوزالمعده — قند خون را کاهش می‌دهد"
+      ],
       "richtig": 1,
       "erklaerung": "Calcitonin wird in der Schilddrüse gebildet (in den C-Zellen). Es ist Gegenspieler zum Parathormon und 'bringt Kalzium in die Knochen' → Senkung des Kalziumspiegels.",
+      "erklaerung_fa": "کلسی‌تونین در غدهٔ تیروئید ساخته می‌شود (در سلول‌های C). رقیب پاراتورمون است و «کلسیم را به استخوان‌ها می‌برد» ← کاهش سطح کلسیم.",
       "schwierigkeit": "schwer",
       "tags": [
         "Hormonsystem",
@@ -9877,6 +10306,7 @@
       "seite": 22,
       "typ": "single_choice",
       "frage": "Wo wird Parathormon gebildet und was bewirkt es?",
+      "frage_fa": "پاراتورمون در کجا ساخته می‌شود و چه اثری دارد؟",
       "optionen": [
         "Schilddrüse - senkt Kalzium",
         "Nebenschilddrüsen - erhöht Kalziumspiegel ('stellt Kalzium im Blut parat')",
@@ -9884,8 +10314,16 @@
         "Hypophyse - reguliert Wachstum",
         "Pankreas - reguliert Insulin"
       ],
+      "optionen_fa": [
+        "غدهٔ تیروئید — کلسیم را کاهش می‌دهد",
+        "غدد پاراتیروئید — سطح کلسیم را افزایش می‌دهد («کلسیم را در خون آماده می‌کند»)",
+        "غدهٔ فوق‌کلیه — قند خون را تنظیم می‌کند",
+        "هیپوفیز — رشد را تنظیم می‌کند",
+        "لوزالمعده — انسولین را تنظیم می‌کند"
+      ],
       "richtig": 1,
       "erklaerung": "Parathormon (PTH) wird in den Nebenschilddrüsen gebildet. Es 'stellt Kalzium im Blut parat' durch Aktivierung Osteoklasten, Kalziumaufnahme Darm ↑, Kalziumausscheidung Niere ↓.",
+      "erklaerung_fa": "پاراتورمون (PTH) در غدد پاراتیروئید ساخته می‌شود. «کلسیم را در خون آماده می‌کند» از طریق فعال‌سازی استئوکلاست‌ها، افزایش جذب کلسیم در روده و کاهش دفع کلیوی کلسیم.",
       "schwierigkeit": "mittel",
       "tags": [
         "Hormonsystem",
@@ -9901,6 +10339,7 @@
       "seite": 22,
       "typ": "multiple_choice",
       "frage": "Welche Hormone werden in der Nebennierenrinde (NNR) produziert?",
+      "frage_fa": "کدام هورمون‌ها در قشر غدهٔ فوق‌کلیه (NNR) تولید می‌شوند؟",
       "optionen": [
         "Mineralkortikoide (z.B. Aldosteron)",
         "Glukokortikoide (z.B. Cortisol)",
@@ -9908,12 +10347,20 @@
         "Katecholamine (Adrenalin/Noradrenalin)",
         "Insulin"
       ],
+      "optionen_fa": [
+        "مینرالوکورتیکوئیدها (مثلاً آلدوسترون)",
+        "گلوکوکورتیکوئیدها (مثلاً کورتیزول)",
+        "آندروژن‌ها (مثلاً تستوسترون)",
+        "کاتکولامین‌ها (آدرنالین/نورآدرنالین)",
+        "انسولین"
+      ],
       "richtig": [
         0,
         1,
         2
       ],
       "erklaerung": "Nebennierenrinde produziert: Mineralkortikoide (Aldosteron - Wasser/Elektrolyt), Glukokortikoide (Cortisol - Stresshormon), Androgene (Testosteron u.a.). Katecholamine sind im NEBENNIERENMARK.",
+      "erklaerung_fa": "قشر غدهٔ فوق‌کلیه تولید می‌کند: مینرالوکورتیکوئیدها (آلدوسترون — آب/الکترولیت)، گلوکوکورتیکوئیدها (کورتیزول — هورمون استرس)، آندروژن‌ها (تستوسترون و غیره). کاتکولامین‌ها در مغز غدهٔ فوق‌کلیه ساخته می‌شوند.",
       "schwierigkeit": "schwer",
       "tags": [
         "Hormonsystem",
@@ -9928,6 +10375,7 @@
       "seite": 22,
       "typ": "single_choice",
       "frage": "Welche Hormone werden im Nebennierenmark gebildet und was bewirken sie?",
+      "frage_fa": "کدام هورمون‌ها در مغز غدهٔ فوق‌کلیه ساخته می‌شوند و چه اثری دارند؟",
       "optionen": [
         "Aldosteron - Wasserretention",
         "Adrenalin und Noradrenalin - Steigerung Herzfrequenz, Blutdruck, Blutzucker, Bronchienerweiterung, Mydriasis",
@@ -9935,8 +10383,16 @@
         "Cortisol - Stressreaktion",
         "Testosteron - männliche Merkmale"
       ],
+      "optionen_fa": [
+        "آلدوسترون — احتباس آب",
+        "آدرنالین و نورآدرنالین — افزایش ضربان قلب، فشار خون، قند خون، گشادی برونش‌ها، میدریاز",
+        "انسولین — کاهش قند خون",
+        "کورتیزول — واکنش استرس",
+        "تستوسترون — صفات مردانه"
+      ],
       "richtig": 1,
       "erklaerung": "Nebennierenmark produziert Katecholamine (Adrenalin + Noradrenalin): Steigerung Herzfrequenz, Blutdruck, Grundumsatz, Blutzucker, Erweiterung Bronchien, Mydriasis (Pupillenerweiterung), Hemmung Magen-Darm-Peristaltik.",
+      "erklaerung_fa": "مغز غدهٔ فوق‌کلیه کاتکولامین‌ها (آدرنالین + نورآدرنالین) تولید می‌کند: افزایش ضربان قلب، فشار خون، متابولیسم پایه، قند خون، گشادی برونش‌ها، میدریاز (گشادشدگی مردمک)، مهار حرکات دودی گوارشی.",
       "schwierigkeit": "schwer",
       "tags": [
         "Hormonsystem",
@@ -9952,6 +10408,7 @@
       "seite": 22,
       "typ": "multiple_choice",
       "frage": "Welche Wirkungen hat Cortisol?",
+      "frage_fa": "کورتیزول چه اثراتی دارد؟",
       "optionen": [
         "Stresshormon",
         "Erhöhung des Blutzuckers",
@@ -9960,6 +10417,14 @@
         "Senkung des Blutdrucks",
         "Knochenaufbau"
       ],
+      "optionen_fa": [
+        "هورمون استرس",
+        "افزایش قند خون",
+        "سرکوب سیستم ایمنی",
+        "ریتم شبانه‌روزی در ترشح",
+        "کاهش فشار خون",
+        "استخوان‌سازی"
+      ],
       "richtig": [
         0,
         1,
@@ -9967,6 +10432,7 @@
         3
       ],
       "erklaerung": "Cortisol (Glukokortikoid): Stresshormon, Erhöhung Blutzucker, Unterdrückung Immunabwehr u.v.m. Die Ausschüttung unterliegt einer Tagesrhythmik (morgens am höchsten).",
+      "erklaerung_fa": "کورتیزول (گلوکوکورتیکوئید): هورمون استرس، افزایش قند خون، سرکوب سیستم ایمنی و بسیاری اثرات دیگر. ترشح آن از ریتم شبانه‌روزی پیروی می‌کند (صبح‌ها بیشترین مقدار).",
       "schwierigkeit": "mittel",
       "tags": [
         "Hormonsystem",
@@ -9982,7 +10448,9 @@
       "seite": 22,
       "typ": "fallbeispiel",
       "fallbeschreibung": "Ein Patient hat zu wenig Trinken im Sommer und zeigt Anzeichen einer Dehydration. Was passiert physiologisch?",
+      "fallbeschreibung_fa": "یک بیمار در تابستان آب کافی نمی‌نوشد و نشانه‌های کم‌آبی نشان می‌دهد. از نظر فیزیولوژیک چه اتفاقی می‌افتد؟",
       "frage": "Welche Reaktion erfolgt?",
+      "frage_fa": "کدام واکنش رخ می‌دهد؟",
       "optionen": [
         "Mehr Insulin wird ausgeschüttet",
         "ADH wird vermehrt im HHL freigesetzt → Wasserrückresorption in der Niere wird gesteigert",
@@ -9990,8 +10458,16 @@
         "T3/T4 werden erhöht",
         "Calcitonin wird erhöht"
       ],
+      "optionen_fa": [
+        "انسولین بیشتری ترشح می‌شود",
+        "ADH بیشتری از لوب خلفی هیپوفیز آزاد می‌شود ← بازجذب آب در کلیه افزایش می‌یابد",
+        "کورتیزول کاهش می‌یابد",
+        "T3/T4 افزایش می‌یابند",
+        "کلسی‌تونین افزایش می‌یابد"
+      ],
       "richtig": 1,
       "erklaerung": "Bei Dehydration wird ADH (Antidiuretisches Hormon) vom Hypothalamus über den HHL ausgeschüttet → Wasserrückresorption in der Niere wird gesteigert + Vasokonstriktion der Arteriolen → Wasserverlust wird begrenzt.",
+      "erklaerung_fa": "در کم‌آبی، ADH (هورمون ضدادراری) از هیپوتالاموس از طریق لوب خلفی هیپوفیز ترشح می‌شود ← بازجذب آب در کلیه افزایش می‌یابد + انقباض آرتریول‌ها ← از دست دادن آب محدود می‌شود.",
       "schwierigkeit": "mittel",
       "tags": [
         "Hormonsystem",
@@ -16260,11 +16736,14 @@
       "seite": 19,
       "lateinisch": "Polyurie",
       "deutsch": "Übermäßige Urinausscheidung",
+      "deutsch_fa": "دفع بیش از حد ادرار",
       "wortart": "Substantiv (f)",
       "kategorie": "Symptom",
       "herkunft": "gr. poly = viel; ouron = Urin",
       "eselsbruecke": "Poly-Urie = VIEL Urin",
+      "eselsbruecke_fa": "Poly-Urie = ادرار زیاد",
       "beispiel": "Polyurie ist ein Symptom der Hypokaliämie.",
+      "beispiel_fa": "پُرادراری یکی از علائم هایپوکالمی است.",
       "schwierigkeit": "mittel"
     },
     {
@@ -16273,11 +16752,14 @@
       "seite": 19,
       "lateinisch": "Polydipsie",
       "deutsch": "Übermäßiges Durstgefühl",
+      "deutsch_fa": "احساس تشنگی بیش از حد",
       "wortart": "Substantiv (f)",
       "kategorie": "Symptom",
       "herkunft": "gr. poly = viel; dipsa = Durst",
       "eselsbruecke": "Poly-Dipsie = VIEL Durst",
+      "eselsbruecke_fa": "Poly-Dipsie = تشنگی زیاد",
       "beispiel": "Polyurie und Polydipsie treten oft zusammen auf.",
+      "beispiel_fa": "پُرادراری و پُرنوشی اغلب با هم رخ می‌دهند.",
       "schwierigkeit": "mittel"
     },
     {
@@ -16286,11 +16768,14 @@
       "seite": 19,
       "lateinisch": "Parästhesie",
       "deutsch": "Missempfindung (Kribbeln, Pelzigkeit)",
+      "deutsch_fa": "احساس غیرطبیعی (گزگز، کرختی)",
       "wortart": "Substantiv (f)",
       "kategorie": "Symptom",
       "herkunft": "gr. para = neben; aisthesis = Empfindung",
       "eselsbruecke": "Par-Ästhesie = abnorme Empfindung",
+      "eselsbruecke_fa": "Par-Ästhesie = احساس نابهنجار",
       "beispiel": "Parästhesien um den Mund sind ein Hyperkaliämie-Zeichen.",
+      "beispiel_fa": "پارستزی اطراف دهان نشانهٔ هایپرکالمی است.",
       "schwierigkeit": "schwer"
     },
     {
@@ -16299,11 +16784,14 @@
       "seite": 19,
       "lateinisch": "Adynamie",
       "deutsch": "Kraftlosigkeit, allgemeine Schwäche",
+      "deutsch_fa": "بی‌حالی، ضعف عمومی",
       "wortart": "Substantiv (f)",
       "kategorie": "Symptom",
       "herkunft": "gr. a = ohne; dynamis = Kraft",
       "eselsbruecke": "A-Dynamie = OHNE Kraft",
+      "eselsbruecke_fa": "A-Dynamie = بدون نیرو",
       "beispiel": "Adynamie ist ein Symptom bei Kaliumstörungen.",
+      "beispiel_fa": "بی‌حالی یکی از علائم اختلالات پتاسیم است.",
       "schwierigkeit": "mittel"
     },
     {
@@ -16312,11 +16800,14 @@
       "seite": 19,
       "lateinisch": "Bradykardie",
       "deutsch": "Verlangsamter Herzschlag (< 60/min)",
+      "deutsch_fa": "ضربان قلب کند (< 60 در دقیقه)",
       "wortart": "Substantiv (f)",
       "kategorie": "Kardiologie",
       "herkunft": "gr. bradys = langsam; kardia = Herz",
       "eselsbruecke": "Brady-Kardie = LANGSAMES Herz",
+      "eselsbruecke_fa": "Brady-Kardie = قلب کند",
       "beispiel": "Bradykardie kann bei Hyperkaliämie auftreten.",
+      "beispiel_fa": "برادی‌کاردی می‌تواند در هایپرکالمی رخ دهد.",
       "schwierigkeit": "mittel"
     },
     {
@@ -16325,11 +16816,14 @@
       "seite": 19,
       "lateinisch": "Tachykardie",
       "deutsch": "Beschleunigter Herzschlag (> 100/min)",
+      "deutsch_fa": "ضربان قلب سریع (> 100 در دقیقه)",
       "wortart": "Substantiv (f)",
       "kategorie": "Kardiologie",
       "herkunft": "gr. tachys = schnell; kardia = Herz",
       "eselsbruecke": "Tachy-Kardie = SCHNELLES Herz",
+      "eselsbruecke_fa": "Tachy-Kardie = قلب سریع",
       "beispiel": "Tachykardie ist ein Hypokaliämie-Zeichen.",
+      "beispiel_fa": "تاکی‌کاردی نشانهٔ هایپوکالمی است.",
       "schwierigkeit": "mittel"
     },
     {
@@ -16338,11 +16832,14 @@
       "seite": 19,
       "lateinisch": "Asystolie",
       "deutsch": "Herzstillstand (keine Herzaktion mehr)",
+      "deutsch_fa": "ایست قلبی (دیگر هیچ فعالیت قلبی وجود ندارد)",
       "wortart": "Substantiv (f)",
       "kategorie": "Kardiologie",
       "herkunft": "gr. a = ohne; systole = Zusammenziehen",
       "eselsbruecke": "A-Systolie = OHNE Herzschlag",
+      "eselsbruecke_fa": "A-Systolie = بدون ضربان قلب",
       "beispiel": "Asystolie ist die schwerste Komplikation bei Kaliumstörungen.",
+      "beispiel_fa": "آسیستول شدیدترین عارضهٔ اختلالات پتاسیم است.",
       "schwierigkeit": "schwer"
     },
     {
@@ -16351,11 +16848,14 @@
       "seite": 19,
       "lateinisch": "Parese",
       "deutsch": "Unvollständige Lähmung",
+      "deutsch_fa": "فلج ناقص",
       "wortart": "Substantiv (f)",
       "kategorie": "Symptom",
       "herkunft": "gr. paresis = Erschlaffung",
       "eselsbruecke": "Parese = teilweise Lähmung (im Gegensatz zur kompletten Plegie)",
+      "eselsbruecke_fa": "Parese = فلج نسبی (برخلاف فلج کامل/پلژی)",
       "beispiel": "Bei schwerer Hypokaliämie können Paresen auftreten.",
+      "beispiel_fa": "در هایپوکالمی شدید می‌توانند فلج‌های نسبی رخ دهند.",
       "schwierigkeit": "schwer"
     },
     {
@@ -16364,11 +16864,14 @@
       "seite": 19,
       "lateinisch": "Areflexie",
       "deutsch": "Fehlen der Reflexe",
+      "deutsch_fa": "فقدان رفلکس‌ها",
       "wortart": "Substantiv (f)",
       "kategorie": "Symptom",
       "herkunft": "gr. a = ohne; reflexus = zurückwerfen",
       "eselsbruecke": "A-Reflexie = KEINE Reflexe",
+      "eselsbruecke_fa": "A-Reflexie = بدون رفلکس",
       "beispiel": "Bei schwerer Hyperkaliämie kann Areflexie auftreten.",
+      "beispiel_fa": "در هایپرکالمی شدید می‌تواند فقدان رفلکس رخ دهد.",
       "schwierigkeit": "schwer"
     },
     {
@@ -16377,11 +16880,14 @@
       "seite": 19,
       "lateinisch": "Ileus",
       "deutsch": "Darmverschluss",
+      "deutsch_fa": "انسداد روده",
       "wortart": "Substantiv (m)",
       "kategorie": "Krankheitsbild",
       "herkunft": "gr. eileos = einschließen",
       "eselsbruecke": "Ileus = Darm 'eingeschlossen' (Verschluss)",
+      "eselsbruecke_fa": "Ileus = روده «بسته» شده (انسداد)",
       "beispiel": "Bei Hyperkaliämie kann ein Ileus auftreten.",
+      "beispiel_fa": "در هایپرکالمی می‌تواند ایلئوس رخ دهد.",
       "schwierigkeit": "mittel"
     },
     {
@@ -16390,11 +16896,14 @@
       "seite": 19,
       "lateinisch": "kaliumsparende Diuretika",
       "deutsch": "Wassertabletten, die Kalium im Körper behalten",
+      "deutsch_fa": "قرص‌های ادرارآور که پتاسیم را در بدن نگه می‌دارند",
       "wortart": "Substantiv (n, pl)",
       "kategorie": "Medikament",
       "herkunft": "deutsch: kalium + sparen + Diuretika",
       "eselsbruecke": "Kalium-sparende Diuretika = behalten Kalium (z.B. Spironolacton)",
+      "eselsbruecke_fa": "دیورتیک‌های نگه‌دارندهٔ پتاسیم = پتاسیم را حفظ می‌کنند (مثلاً اسپیرونولاکتون)",
       "beispiel": "Kaliumsparende Diuretika werden bei Hypokaliämie eingesetzt.",
+      "beispiel_fa": "دیورتیک‌های نگه‌دارندهٔ پتاسیم در هایپوکالمی استفاده می‌شوند.",
       "schwierigkeit": "schwer"
     },
     {
@@ -16403,11 +16912,14 @@
       "seite": 19,
       "lateinisch": "Schleifendiuretika",
       "deutsch": "Stark wirkende Wassertabletten (z.B. Furosemid)",
+      "deutsch_fa": "قرص‌های ادرارآور قوی (مثلاً فوروزماید)",
       "wortart": "Substantiv (n, pl)",
       "kategorie": "Medikament",
       "herkunft": "deutsch: Schleife (Henle-Schleife) + Diuretika",
       "eselsbruecke": "Schleifen-Diuretika = wirken in der Henle-Schleife der Niere",
+      "eselsbruecke_fa": "دیورتیک‌های لوپ = در قوس هنله در کلیه اثر می‌کنند",
       "beispiel": "Schleifendiuretika werden bei Hyperkaliämie eingesetzt.",
+      "beispiel_fa": "دیورتیک‌های لوپ در هایپرکالمی استفاده می‌شوند.",
       "schwierigkeit": "schwer"
     },
     {
@@ -16416,11 +16928,14 @@
       "seite": 20,
       "lateinisch": "Calcium (Ca²⁺)",
       "deutsch": "Kalzium - häufigster Mineralstoff im Körper",
+      "deutsch_fa": "کلسیم — فراوان‌ترین مادهٔ معدنی بدن",
       "wortart": "Substantiv (n)",
       "kategorie": "Biochemie",
       "herkunft": "lat. calx = Kalk",
       "eselsbruecke": "Calcium = wie Kalk in Knochen",
+      "eselsbruecke_fa": "Calcium = مانند آهک در استخوان‌ها",
       "beispiel": "99% des Kalziums befindet sich in Knochen und Zähnen.",
+      "beispiel_fa": "99٪ کلسیم در استخوان‌ها و دندان‌ها قرار دارد.",
       "schwierigkeit": "leicht"
     },
     {
@@ -16429,11 +16944,14 @@
       "seite": 20,
       "lateinisch": "Calcitriol",
       "deutsch": "Aktive Form von Vitamin D (Vitamin D3)",
+      "deutsch_fa": "شکل فعال ویتامین D (ویتامین D3)",
       "wortart": "Substantiv (n)",
       "kategorie": "Hormon",
       "herkunft": "lat. calx = Kalk; tri = drei",
       "eselsbruecke": "Calci-triol = aktives Vitamin D für Kalziumstoffwechsel",
+      "eselsbruecke_fa": "Calci-triol = ویتامین D فعال برای متابولیسم کلسیم",
       "beispiel": "Calcitriol wird in der Niere aus Calcidiol gebildet.",
+      "beispiel_fa": "کلسی‌تریول در کلیه از کلسی‌دیول ساخته می‌شود.",
       "schwierigkeit": "schwer"
     },
     {
@@ -16442,11 +16960,14 @@
       "seite": 20,
       "lateinisch": "Calcidiol",
       "deutsch": "Vorstufe von Calcitriol (in der Leber gebildet)",
+      "deutsch_fa": "پیش‌سازِ کلسی‌تریول (ساخته‌شده در کبد)",
       "wortart": "Substantiv (n)",
       "kategorie": "Biochemie",
       "herkunft": "lat. calx = Kalk",
       "eselsbruecke": "Calci-diol = Zwischenform in der Leber",
+      "eselsbruecke_fa": "Calci-diol = شکل حدواسط در کبد",
       "beispiel": "Calcidiol wird in der Leber aus Cholecalciferol gebildet.",
+      "beispiel_fa": "کلسی‌دیول در کبد از کوله‌کلسیفرول ساخته می‌شود.",
       "schwierigkeit": "schwer"
     },
     {
@@ -16455,11 +16976,14 @@
       "seite": 20,
       "lateinisch": "Cholecalciferol",
       "deutsch": "Vitamin D3 - in der Haut aus Cholesterin gebildet",
+      "deutsch_fa": "ویتامین D3 — در پوست از کلسترول ساخته می‌شود",
       "wortart": "Substantiv (n)",
       "kategorie": "Biochemie",
       "herkunft": "gr. chole = Galle; calx = Kalk",
       "eselsbruecke": "Chole-calciferol = aus Cholesterin gebildet, dann zu Kalzium-Stoffwechsel",
+      "eselsbruecke_fa": "Chole-calciferol = از کلسترول ساخته می‌شود، سپس به متابولیسم کلسیم",
       "beispiel": "Cholecalciferol entsteht in der Haut durch UV-Strahlung.",
+      "beispiel_fa": "کوله‌کلسیفرول در پوست با اشعهٔ UV ایجاد می‌شود.",
       "schwierigkeit": "schwer"
     },
     {
@@ -16468,11 +16992,14 @@
       "seite": 20,
       "lateinisch": "Osteoklasten",
       "deutsch": "Knochen-abbauende Zellen",
+      "deutsch_fa": "سلول‌های تجزیه‌کنندهٔ استخوان",
       "wortart": "Substantiv (m, pl)",
       "kategorie": "Anatomie",
       "herkunft": "gr. osteon = Knochen; klastos = zerbrochen",
       "eselsbruecke": "Osteo-Klasten = knochen-zerbrechende Zellen (Abbau)",
+      "eselsbruecke_fa": "Osteo-Klasten = سلول‌های «شکنندهٔ» استخوان (تجزیه)",
       "beispiel": "Parathormon aktiviert Osteoklasten zum Knochenabbau.",
+      "beispiel_fa": "پاراتورمون استئوکلاست‌ها را برای تجزیهٔ استخوان فعال می‌کند.",
       "schwierigkeit": "schwer"
     },
     {
@@ -16481,11 +17008,14 @@
       "seite": 20,
       "lateinisch": "Osteoblasten",
       "deutsch": "Knochen-aufbauende Zellen",
+      "deutsch_fa": "سلول‌های سازندهٔ استخوان",
       "wortart": "Substantiv (m, pl)",
       "kategorie": "Anatomie",
       "herkunft": "gr. osteon = Knochen; blastos = Keim",
       "eselsbruecke": "Osteo-Blasten = knochen-bildende Zellen (Aufbau)",
+      "eselsbruecke_fa": "Osteo-Blasten = سلول‌های «سازندهٔ» استخوان",
       "beispiel": "Calcitriol stimuliert die Osteoblasten zum Knochenaufbau.",
+      "beispiel_fa": "کلسی‌تریول استئوبلاست‌ها را برای استخوان‌سازی تحریک می‌کند.",
       "schwierigkeit": "schwer"
     },
     {
@@ -16494,11 +17024,14 @@
       "seite": 20,
       "lateinisch": "Parathormon (PTH)",
       "deutsch": "Hormon der Nebenschilddrüsen, erhöht den Kalziumspiegel",
+      "deutsch_fa": "هورمون غدد پاراتیروئید، سطح کلسیم را افزایش می‌دهد",
       "wortart": "Substantiv (n)",
       "kategorie": "Hormon",
       "herkunft": "gr. para = neben; thyros = Schild",
       "eselsbruecke": "Para-thormon 'stellt Kalzium im Blut parat'",
+      "eselsbruecke_fa": "Para-thormon «کلسیم را در خون آماده (parat) می‌کند»",
       "beispiel": "Bei Hypokalzämie wird Parathormon ausgeschüttet.",
+      "beispiel_fa": "در هایپوکلسمی پاراتورمون ترشح می‌شود.",
       "schwierigkeit": "mittel"
     },
     {
@@ -16507,11 +17040,14 @@
       "seite": 20,
       "lateinisch": "Calcitonin",
       "deutsch": "Hormon der Schilddrüse, senkt den Kalziumspiegel",
+      "deutsch_fa": "هورمون غدهٔ تیروئید، سطح کلسیم را کاهش می‌دهد",
       "wortart": "Substantiv (n)",
       "kategorie": "Hormon",
       "herkunft": "lat. calx = Kalk; gr. tonos = Spannung",
       "eselsbruecke": "Calci-tonin 'bringt das Calcium in die Knochen'",
+      "eselsbruecke_fa": "Calci-tonin «کلسیم را به استخوان‌ها می‌برد»",
       "beispiel": "Calcitonin ist der Gegenspieler zum Parathormon.",
+      "beispiel_fa": "کلسی‌تونین رقیب پاراتورمون است.",
       "schwierigkeit": "mittel"
     },
     {
@@ -16520,11 +17056,14 @@
       "seite": 21,
       "lateinisch": "Hypokalzämie",
       "deutsch": "Erniedrigtes Kalzium im Blut (< 2,2 mmol/l)",
+      "deutsch_fa": "کاهش کلسیم خون (< 2.2 mmol/l)",
       "wortart": "Substantiv (f)",
       "kategorie": "Laborwert",
       "herkunft": "gr. hypo = unter; calx = Kalk",
       "eselsbruecke": "Hypo-Kalzämie = ZU WENIG Kalzium im Blut",
+      "eselsbruecke_fa": "Hypo-Kalzämie = کلسیم بسیار کم در خون",
       "beispiel": "Hypokalzämie kann Tetanie und Muskelkrämpfe verursachen.",
+      "beispiel_fa": "هایپوکلسمی می‌تواند تتانی و گرفتگی عضلات ایجاد کند.",
       "schwierigkeit": "mittel"
     },
     {
@@ -16533,11 +17072,14 @@
       "seite": 21,
       "lateinisch": "Hyperkalzämie",
       "deutsch": "Erhöhtes Kalzium im Blut (> 2,7 mmol/l)",
+      "deutsch_fa": "افزایش کلسیم خون (> 2.7 mmol/l)",
       "wortart": "Substantiv (f)",
       "kategorie": "Laborwert",
       "herkunft": "gr. hyper = über; calx = Kalk",
       "eselsbruecke": "Hyper-Kalzämie = ZU VIEL Kalzium im Blut",
+      "eselsbruecke_fa": "Hyper-Kalzämie = کلسیم بیش از حد در خون",
       "beispiel": "Hyperkalzämie zeigt 'Stein-Bein-Magenpein' Symptome.",
+      "beispiel_fa": "هایپرکلسمی علائم «سنگ-استخوان-درد معده» را نشان می‌دهد.",
       "schwierigkeit": "mittel"
     },
     {
@@ -16546,11 +17088,14 @@
       "seite": 21,
       "lateinisch": "Tetanie",
       "deutsch": "Erhöhte neuromuskuläre Erregbarkeit mit Muskelkrämpfen",
+      "deutsch_fa": "افزایش تحریک‌پذیری عصبی-عضلانی همراه با گرفتگی عضلات",
       "wortart": "Substantiv (f)",
       "kategorie": "Symptom",
       "herkunft": "gr. tetanos = Spannung",
       "eselsbruecke": "Tetanie = totale Anspannung der Muskeln",
+      "eselsbruecke_fa": "Tetanie = انقباض کامل عضلات",
       "beispiel": "Bei Hypokalzämie kann eine Tetanie auftreten.",
+      "beispiel_fa": "در هایپوکلسمی می‌تواند تتانی رخ دهد.",
       "schwierigkeit": "schwer"
     },
     {
@@ -16559,11 +17104,14 @@
       "seite": 21,
       "lateinisch": "Chvostek-Zeichen",
       "deutsch": "Zucken des Mundwinkels bei Beklopfen der Wange (Hypokalzämie)",
+      "deutsch_fa": "پرش گوشهٔ دهان با ضربه‌زدن به گونه (هایپوکلسمی)",
       "wortart": "Substantiv (n)",
       "kategorie": "Diagnostik",
       "herkunft": "nach Franz Chvostek (Arzt)",
       "eselsbruecke": "Chvostek = Klopfen auf Wange = Mundwinkel zuckt",
+      "eselsbruecke_fa": "Chvostek = ضربه به گونه = پرش گوشهٔ دهان",
       "beispiel": "Das Chvostek-Zeichen ist positiv bei Hypokalzämie.",
+      "beispiel_fa": "علامت شووستک در هایپوکلسمی مثبت است.",
       "schwierigkeit": "schwer"
     },
     {
@@ -16572,11 +17120,14 @@
       "seite": 21,
       "lateinisch": "Trousseau-Zeichen",
       "deutsch": "Pfötchenstellung der Hand bei Blutdruckmanschettenkompression",
+      "deutsch_fa": "حالت پنجه‌ای دست هنگام فشار کاف فشارسنج",
       "wortart": "Substantiv (n)",
       "kategorie": "Diagnostik",
       "herkunft": "nach Armand Trousseau (Arzt)",
       "eselsbruecke": "Trousseau = Manschette pressen = Pfötchenstellung",
+      "eselsbruecke_fa": "Trousseau = فشار کاف = حالت پنجه‌ای",
       "beispiel": "Das Trousseau-Zeichen tritt bei Hypokalzämie auf.",
+      "beispiel_fa": "علامت تروسو در هایپوکلسمی بروز می‌کند.",
       "schwierigkeit": "schwer"
     },
     {
@@ -16585,11 +17136,14 @@
       "seite": 21,
       "lateinisch": "Hypoparathyreoidismus",
       "deutsch": "Unterfunktion der Nebenschilddrüsen → Kalziummangel",
+      "deutsch_fa": "کم‌کاری غدد پاراتیروئید ← کمبود کلسیم",
       "wortart": "Substantiv (m)",
       "kategorie": "Krankheitsbild",
       "herkunft": "gr. hypo + para + thyros + -ismus",
       "eselsbruecke": "Hypo-Para-thyreoidismus = zu wenig Parathormon",
+      "eselsbruecke_fa": "Hypo-Para-thyreoidismus = پاراتورمون بسیار کم",
       "beispiel": "Hypoparathyreoidismus kann nach Schilddrüsen-OP entstehen.",
+      "beispiel_fa": "هایپوپاراتیروئیدیسم می‌تواند پس از جراحی تیروئید ایجاد شود.",
       "schwierigkeit": "schwer"
     },
     {
@@ -16598,11 +17152,14 @@
       "seite": 21,
       "lateinisch": "Hyperparathyreoidismus",
       "deutsch": "Überfunktion der Nebenschilddrüsen → Kalziumüberschuss",
+      "deutsch_fa": "پرکاری غدد پاراتیروئید ← فزونی کلسیم",
       "wortart": "Substantiv (m)",
       "kategorie": "Krankheitsbild",
       "herkunft": "gr. hyper + para + thyros + -ismus",
       "eselsbruecke": "Hyper-Para-thyreoidismus = zu viel Parathormon",
+      "eselsbruecke_fa": "Hyper-Para-thyreoidismus = پاراتورمون بیش از حد",
       "beispiel": "Hyperparathyreoidismus führt zu Hyperkalzämie.",
+      "beispiel_fa": "هایپرپاراتیروئیدیسم به هایپرکلسمی منجر می‌شود.",
       "schwierigkeit": "schwer"
     },
     {
@@ -16611,11 +17168,14 @@
       "seite": 21,
       "lateinisch": "PTHrP",
       "deutsch": "Parathormon-related Peptide (von Tumoren gebildet)",
+      "deutsch_fa": "پپتید مرتبط با پاراتورمون (ساخته‌شده توسط تومورها)",
       "wortart": "Abkürzung",
       "kategorie": "Onkologie",
       "herkunft": "engl. Parathyroid Hormone-related Peptide",
       "eselsbruecke": "PTH-rP = wie PTH, aber von Tumoren",
+      "eselsbruecke_fa": "PTH-rP = مانند PTH، اما از تومورها",
       "beispiel": "PTHrP kann bei malignen Tumoren eine Hyperkalzämie verursachen.",
+      "beispiel_fa": "PTHrP می‌تواند در تومورهای بدخیم هایپرکلسمی ایجاد کند.",
       "schwierigkeit": "schwer"
     },
     {
@@ -16624,11 +17184,14 @@
       "seite": 21,
       "lateinisch": "Bisphosphonate",
       "deutsch": "Medikamente, die Osteoklasten hemmen (Knochenabbau ↓)",
+      "deutsch_fa": "داروهایی که استئوکلاست‌ها را مهار می‌کنند (کاهش تجزیهٔ استخوان)",
       "wortart": "Substantiv (n, pl)",
       "kategorie": "Medikament",
       "herkunft": "gr. bis = zweimal; phosphor",
       "eselsbruecke": "Bis-Phosphonate hemmen Knochenabbau",
+      "eselsbruecke_fa": "Bis-Phosphonate تجزیهٔ استخوان را مهار می‌کنند",
       "beispiel": "Bisphosphonate werden bei Tumor-Hyperkalzämie eingesetzt.",
+      "beispiel_fa": "بیس‌فسفونات‌ها در هایپرکلسمی توموری استفاده می‌شوند.",
       "schwierigkeit": "schwer"
     },
     {
@@ -16637,11 +17200,14 @@
       "seite": 21,
       "lateinisch": "Laryngospasmus",
       "deutsch": "Stimmritzenkrampf (Krampf der Kehlkopfmuskulatur)",
+      "deutsch_fa": "اسپاسم حنجره (گرفتگی عضلات حنجره)",
       "wortart": "Substantiv (m)",
       "kategorie": "Notfall",
       "herkunft": "gr. larynx = Kehlkopf; spasmos = Krampf",
       "eselsbruecke": "Laryngo-Spasmus = Kehlkopf-Krampf",
+      "eselsbruecke_fa": "Laryngo-Spasmus = گرفتگی حنجره",
       "beispiel": "Laryngospasmus ist eine Komplikation der Hypokalzämie.",
+      "beispiel_fa": "لارنگواسپاسم یکی از عوارض هایپوکلسمی است.",
       "schwierigkeit": "schwer"
     },
     {
@@ -16650,11 +17216,14 @@
       "seite": 22,
       "lateinisch": "Hypothalamus",
       "deutsch": "Hirnregion, steuert hormonelle und vegetative Funktionen",
+      "deutsch_fa": "ناحیه‌ای از مغز، تنظیم‌کنندهٔ عملکردهای هورمونی و خودمختار",
       "wortart": "Substantiv (m)",
       "kategorie": "Anatomie",
       "herkunft": "gr. hypo = unter; thalamus = Kammer",
       "eselsbruecke": "Hypo-Thalamus = unter dem Thalamus",
+      "eselsbruecke_fa": "Hypo-Thalamus = زیر تالاموس",
       "beispiel": "Der Hypothalamus produziert Releasing- und Inhibiting-Hormone.",
+      "beispiel_fa": "هیپوتالاموس هورمون‌های آزادکننده و مهارکننده تولید می‌کند.",
       "schwierigkeit": "mittel"
     },
     {
@@ -16663,11 +17232,14 @@
       "seite": 22,
       "lateinisch": "Hypophyse",
       "deutsch": "Hirnanhangsdrüse - zentrale Hormondrüse",
+      "deutsch_fa": "غدهٔ هیپوفیز — غدهٔ هورمونی مرکزی",
       "wortart": "Substantiv (f)",
       "kategorie": "Anatomie",
       "herkunft": "gr. hypo = unter; phyein = wachsen",
       "eselsbruecke": "Hypo-Physe = unter dem Gehirn",
+      "eselsbruecke_fa": "Hypo-Physe = زیر مغز",
       "beispiel": "Die Hypophyse besteht aus Vorder- und Hinterlappen.",
+      "beispiel_fa": "هیپوفیز از لوب قدامی و خلفی تشکیل شده است.",
       "schwierigkeit": "mittel"
     },
     {
@@ -16676,11 +17248,14 @@
       "seite": 22,
       "lateinisch": "TRH",
       "deutsch": "Thyreotropin-Releasing-Hormon",
+      "deutsch_fa": "هورمون آزادکنندهٔ تیروتروپین",
       "wortart": "Abkürzung",
       "kategorie": "Hormon",
       "herkunft": "engl. Thyrotropin-Releasing-Hormone",
       "eselsbruecke": "TRH stimuliert TSH-Ausschüttung",
+      "eselsbruecke_fa": "TRH ترشح TSH را تحریک می‌کند",
       "beispiel": "TRH ist das Stimulationshormon für die Schilddrüsenachse.",
+      "beispiel_fa": "TRH هورمون تحریک‌کنندهٔ محور تیروئید است.",
       "schwierigkeit": "mittel"
     },
     {
@@ -16689,11 +17264,14 @@
       "seite": 22,
       "lateinisch": "TSH",
       "deutsch": "Thyreoidea-stimulierendes Hormon (Hypophyse)",
+      "deutsch_fa": "هورمون محرک تیروئید (هیپوفیز)",
       "wortart": "Abkürzung",
       "kategorie": "Hormon",
       "herkunft": "engl. Thyroid-Stimulating-Hormone",
       "eselsbruecke": "TSH stimuliert die Schilddrüse zur T3/T4-Produktion",
+      "eselsbruecke_fa": "TSH غدهٔ تیروئید را برای تولید T3/T4 تحریک می‌کند",
       "beispiel": "TSH ist der wichtigste Laborwert zur Schilddrüsendiagnostik.",
+      "beispiel_fa": "TSH مهم‌ترین مقدار آزمایشگاهی برای تشخیص تیروئید است.",
       "schwierigkeit": "mittel"
     },
     {
@@ -16702,11 +17280,14 @@
       "seite": 22,
       "lateinisch": "ACTH",
       "deutsch": "Adrenocorticotropes Hormon (Hypophyse)",
+      "deutsch_fa": "هورمون آدرنوکورتیکوتروپیک (هیپوفیز)",
       "wortart": "Abkürzung",
       "kategorie": "Hormon",
       "herkunft": "engl. Adrenocorticotropic Hormone",
       "eselsbruecke": "ACTH = Aktivierung der NebennierenRinde",
+      "eselsbruecke_fa": "ACTH = فعال‌سازی قشر غدهٔ فوق‌کلیه",
       "beispiel": "ACTH stimuliert die Nebennierenrinde zur Cortisol-Produktion.",
+      "beispiel_fa": "ACTH قشر غدهٔ فوق‌کلیه را برای تولید کورتیزول تحریک می‌کند.",
       "schwierigkeit": "schwer"
     },
     {
@@ -16715,11 +17296,14 @@
       "seite": 22,
       "lateinisch": "FSH",
       "deutsch": "Follikelstimulierendes Hormon",
+      "deutsch_fa": "هورمون محرک فولیکول",
       "wortart": "Abkürzung",
       "kategorie": "Hormon",
       "herkunft": "engl. Follicle-Stimulating-Hormone",
       "eselsbruecke": "FSH = Follikel-Stimulierendes Hormon (Ei/Sperma)",
+      "eselsbruecke_fa": "FSH = هورمون محرک فولیکول (تخمک/اسپرم)",
       "beispiel": "FSH bewirkt Follikelreifung bei Frauen und Spermienproduktion bei Männern.",
+      "beispiel_fa": "FSH باعث بلوغ فولیکول در زنان و تولید اسپرم در مردان می‌شود.",
       "schwierigkeit": "mittel"
     },
     {
@@ -16728,11 +17312,14 @@
       "seite": 22,
       "lateinisch": "LH",
       "deutsch": "Luteinisierendes Hormon (Eisprung, Testosteron)",
+      "deutsch_fa": "هورمون لوتئینه‌کننده (تخمک‌گذاری، تستوسترون)",
       "wortart": "Abkürzung",
       "kategorie": "Hormon",
       "herkunft": "engl. Luteinizing Hormone",
       "eselsbruecke": "LH = Loslassen (Eisprung) Hormon",
+      "eselsbruecke_fa": "LH = هورمون «رهاسازی» (تخمک‌گذاری)",
       "beispiel": "LH löst den Eisprung aus und stimuliert die Testosteronproduktion.",
+      "beispiel_fa": "LH تخمک‌گذاری را آغاز و تولید تستوسترون را تحریک می‌کند.",
       "schwierigkeit": "mittel"
     },
     {
@@ -16741,11 +17328,14 @@
       "seite": 22,
       "lateinisch": "STH",
       "deutsch": "Somatotropes Hormon (Wachstumshormon)",
+      "deutsch_fa": "هورمون سوماتوتروپیک (هورمون رشد)",
       "wortart": "Abkürzung",
       "kategorie": "Hormon",
       "herkunft": "gr. soma = Körper; tropein = wenden",
       "eselsbruecke": "STH = Somato-Tropes Hormon = Körperwachstum",
+      "eselsbruecke_fa": "STH = هورمون سوماتوتروپیک = رشد بدن",
       "beispiel": "STH steuert das Längenwachstum bei Kindern.",
+      "beispiel_fa": "STH رشد قدی در کودکان را تنظیم می‌کند.",
       "schwierigkeit": "mittel"
     },
     {
@@ -16754,11 +17344,14 @@
       "seite": 22,
       "lateinisch": "Prolaktin",
       "deutsch": "Hormon der Hypophyse - Milchbildung",
+      "deutsch_fa": "هورمون هیپوفیز — شیرسازی",
       "wortart": "Substantiv (n)",
       "kategorie": "Hormon",
       "herkunft": "lat. pro = für; lac = Milch",
       "eselsbruecke": "Pro-Laktin = Pro Milch (Hormon)",
+      "eselsbruecke_fa": "Pro-Laktin = برای شیر (Lakt)",
       "beispiel": "Prolaktin fördert die Milchbildung beim Stillen.",
+      "beispiel_fa": "پرولاکتین شیرسازی هنگام شیردهی را تقویت می‌کند.",
       "schwierigkeit": "mittel"
     },
     {
@@ -16767,11 +17360,14 @@
       "seite": 22,
       "lateinisch": "Oxytocin",
       "deutsch": "Hormon des HHL - Wehen, Milcheinschuss",
+      "deutsch_fa": "هورمون لوب خلفی هیپوفیز — انقباضات زایمان، جهش شیر",
       "wortart": "Substantiv (n)",
       "kategorie": "Hormon",
       "herkunft": "gr. okys = schnell; tokos = Geburt",
       "eselsbruecke": "Oxy-tocin = Beschleunigung der Geburt",
+      "eselsbruecke_fa": "Oxy-tocin = تسریع زایمان",
       "beispiel": "Oxytocin löst Wehen aus und ist wichtig für den Milcheinschuss.",
+      "beispiel_fa": "اکسی‌توسین انقباضات زایمان را آغاز می‌کند و برای جهش شیر مهم است.",
       "schwierigkeit": "mittel"
     },
     {
@@ -16780,11 +17376,14 @@
       "seite": 22,
       "lateinisch": "ADH",
       "deutsch": "Antidiuretisches Hormon (Adiuretin, Vasopressin)",
+      "deutsch_fa": "هورمون ضدادراری (آدیورتین، وازوپرسین)",
       "wortart": "Abkürzung",
       "kategorie": "Hormon",
       "herkunft": "engl. Antidiuretic Hormone",
       "eselsbruecke": "ADH = Anti-Diuretisches Hormon (gegen Wasserausscheidung)",
+      "eselsbruecke_fa": "ADH = هورمون ضد-ادراری (علیه دفع آب)",
       "beispiel": "ADH fördert die Wasserrückresorption in der Niere.",
+      "beispiel_fa": "ADH بازجذب آب در کلیه را تقویت می‌کند.",
       "schwierigkeit": "mittel"
     },
     {
@@ -16793,11 +17392,14 @@
       "seite": 22,
       "lateinisch": "Melatonin",
       "deutsch": "Hormon der Epiphyse - Tag-/Nachtrhythmus",
+      "deutsch_fa": "هورمون اپی‌فیز — ریتم شبانه‌روزی",
       "wortart": "Substantiv (n)",
       "kategorie": "Hormon",
       "herkunft": "gr. melas = schwarz; tonos = Spannung",
       "eselsbruecke": "Mela-Tonin = Hormon der Dunkelheit (Schlaf)",
+      "eselsbruecke_fa": "Mela-Tonin = هورمون تاریکی (خواب)",
       "beispiel": "Melatonin wird nachts ausgeschüttet und steuert den Schlaf.",
+      "beispiel_fa": "ملاتونین شب‌ها ترشح می‌شود و خواب را تنظیم می‌کند.",
       "schwierigkeit": "mittel"
     },
     {
@@ -16806,11 +17408,14 @@
       "seite": 22,
       "lateinisch": "Mineralkortikoide",
       "deutsch": "Hormone der Nebennierenrinde (z.B. Aldosteron)",
+      "deutsch_fa": "هورمون‌های قشر غدهٔ فوق‌کلیه (مثلاً آلدوسترون)",
       "wortart": "Substantiv (n, pl)",
       "kategorie": "Hormon",
       "herkunft": "lat. mineralis + cortex",
       "eselsbruecke": "Mineral-Kortikoide regulieren Salze (Mineralien)",
+      "eselsbruecke_fa": "Mineral-Kortikoide نمک‌ها (مواد معدنی) را تنظیم می‌کنند",
       "beispiel": "Aldosteron ist das wichtigste Mineralkortikoid.",
+      "beispiel_fa": "آلدوسترون مهم‌ترین مینرالوکورتیکوئید است.",
       "schwierigkeit": "schwer"
     },
     {
@@ -16819,11 +17424,14 @@
       "seite": 22,
       "lateinisch": "Glukokortikoide",
       "deutsch": "Hormone der Nebennierenrinde (z.B. Cortisol)",
+      "deutsch_fa": "هورمون‌های قشر غدهٔ فوق‌کلیه (مثلاً کورتیزول)",
       "wortart": "Substantiv (n, pl)",
       "kategorie": "Hormon",
       "herkunft": "gr. glykos = süß; cortex",
       "eselsbruecke": "Gluko-Kortikoide regulieren Zucker (Glukose)",
+      "eselsbruecke_fa": "Gluko-Kortikoide قند (گلوکز) را تنظیم می‌کنند",
       "beispiel": "Cortisol ist das wichtigste Glukokortikoid.",
+      "beispiel_fa": "کورتیزول مهم‌ترین گلوکوکورتیکوئید است.",
       "schwierigkeit": "mittel"
     },
     {
@@ -16832,11 +17440,14 @@
       "seite": 22,
       "lateinisch": "Katecholamine",
       "deutsch": "Adrenalin und Noradrenalin (Nebennierenmark)",
+      "deutsch_fa": "آدرنالین و نورآدرنالین (مغز غدهٔ فوق‌کلیه)",
       "wortart": "Substantiv (n, pl)",
       "kategorie": "Hormon",
       "herkunft": "katechol + amine",
       "eselsbruecke": "Katecholamine = Stresshormone aus dem Nebennierenmark",
+      "eselsbruecke_fa": "کاتکولامین‌ها = هورمون‌های استرس از مغز غدهٔ فوق‌کلیه",
       "beispiel": "Katecholamine bewirken die 'Fight-or-Flight'-Reaktion.",
+      "beispiel_fa": "کاتکولامین‌ها واکنش «جنگ یا گریز» را ایجاد می‌کنند.",
       "schwierigkeit": "schwer"
     },
     {

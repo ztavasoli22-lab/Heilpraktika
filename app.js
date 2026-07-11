@@ -3,7 +3,7 @@
 // ================================================
 
 // 📌 VERSIONS-INFO
-const APP_VERSION = "6.4";
+const APP_VERSION = "6.5";
 const APP_DATUM = "2026-07-11";
 
 let fragenkatalog = [];
@@ -309,26 +309,58 @@ function spreche(text, sprache) {
 // ================================================
 // HAUPTMENÜ
 // ================================================
+let lzOffen = false;
+
+function toggleLesezeichen() {
+    lzOffen = !lzOffen;
+    zeigeHauptmenue();
+}
+
+function lesezeichenAufraeumen() {
+    const anzahl = Object.keys(statistik.lesezeichen || {}).length;
+    if (anzahl === 0) return;
+    const ok = confirm(
+        `Alle ${anzahl} angefangenen Modi löschen?\n\n` +
+        `✅ Dein Lernfortschritt (richtig/falsch, Statistik) bleibt erhalten!\n` +
+        `❌ Nur die Merkpunkte "wo du stehen geblieben bist" werden entfernt.`
+    );
+    if (ok) {
+        statistik.lesezeichen = {};
+        speichereStatistik();
+        zeigeHauptmenue();
+    }
+}
+
 function zeigeHauptmenue() {
     const app = document.getElementById('app');
     const gesamt = statistik.gesamt_richtig + statistik.gesamt_falsch;
     const quote = gesamt > 0 ? ((statistik.gesamt_richtig / gesamt) * 100).toFixed(0) : 0;
 
-    // Lesezeichen-Übersicht
+    // 🔖 Lesezeichen-Übersicht (einklappbar)
     let lesezeichenBox = '';
     const lzKeys = Object.keys(statistik.lesezeichen || {});
     if (lzKeys.length > 0) {
-        lesezeichenBox = `<div class="section-title">🔖 ANGEFANGENE MODI</div><div class="modus-list">`;
-        lzKeys.forEach(modName => {
-            const lz = statistik.lesezeichen[modName];
-            const anz = lz.verbleibende_ids.length;
-            lesezeichenBox += `
-                <div class="lesezeichen-item">
-                    <span>📌 ${modName}: <strong>${anz}</strong> offen</span>
+        const offen = lzOffen;
+        lesezeichenBox = `
+            <div style="display:flex; align-items:center; justify-content:space-between; margin-top:16px;">
+                <div class="section-title" style="margin:0; cursor:pointer; user-select:none;" onclick="toggleLesezeichen()">
+                    ${offen ? '▼' : '▶'}&nbsp; 🔖 ANGEFANGENE MODI (${lzKeys.length})
                 </div>
-            `;
-        });
-        lesezeichenBox += `</div>`;
+                <button onclick="lesezeichenAufraeumen()" style="background:none; border:1px solid rgba(128,128,128,0.5); color:inherit; opacity:0.75; border-radius:8px; padding:5px 12px; font-size:12px; cursor:pointer;">🗑️ Aufräumen</button>
+            </div>`;
+        if (offen) {
+            lesezeichenBox += `<div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(240px, 1fr)); gap:8px; margin-top:8px;">`;
+            lzKeys.forEach(modName => {
+                const lz = statistik.lesezeichen[modName];
+                const anz = lz.verbleibende_ids.length;
+                lesezeichenBox += `
+                    <div class="lesezeichen-item" style="margin:0;">
+                        <span>📌 ${modName}: <strong>${anz}</strong> offen</span>
+                    </div>
+                `;
+            });
+            lesezeichenBox += `</div>`;
+        }
     }
 
     app.innerHTML = `
@@ -348,7 +380,7 @@ function zeigeHauptmenue() {
             ${lesezeichenBox}
 
             <div class="section-title">📝 PRÜFUNGSFRAGEN</div>
-            <div class="modus-list">
+            <div class="modus-list" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(250px, 1fr)); gap:10px;">
                 <button class="modus-btn" onclick="starteZufallsmodus()">
                     <div class="modus-icon">🎲</div>
                     <div class="modus-info"><div class="modus-titel">Zufallsmodus</div><div class="modus-beschreibung">Alle Fragen zufällig</div></div>
@@ -376,7 +408,7 @@ function zeigeHauptmenue() {
             </div>
 
             <div class="section-title">📚 VOKABELTRAINER</div>
-            <div class="modus-list">
+            <div class="modus-list" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(250px, 1fr)); gap:10px;">
                 <button class="modus-btn modus-btn-vokabel" onclick="starteVokabelnAlle()">
                     <div class="modus-icon">🎴</div>
                     <div class="modus-info"><div class="modus-titel">Alle Vokabeln</div><div class="modus-beschreibung">Karteikarten mischen</div></div>
@@ -400,7 +432,7 @@ function zeigeHauptmenue() {
             </div>
 
             <div class="section-title">☁️ STATISTIK SYNCHRONISIEREN</div>
-            <div class="modus-list">
+            <div class="modus-list" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(250px, 1fr)); gap:10px;">
                 <button class="modus-btn" onclick="exportiereStatistik()" style="border-left: 4px solid #4CAF50;">
                     <div class="modus-icon">📤</div>
                     <div class="modus-info"><div class="modus-titel">Statistik exportieren</div><div class="modus-beschreibung">Als Datei für anderes Gerät</div></div>
@@ -412,7 +444,7 @@ function zeigeHauptmenue() {
             </div>
 
             <div class="section-title">📊 ÜBERSICHT</div>
-            <div class="modus-list">
+            <div class="modus-list" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(250px, 1fr)); gap:10px;">
                 <button class="modus-btn" onclick="zeigeStatistik()">
                     <div class="modus-icon">📊</div>
                     <div class="modus-info"><div class="modus-titel">Statistik</div><div class="modus-beschreibung">Lernfortschritt anzeigen</div></div>
