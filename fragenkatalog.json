@@ -1,7 +1,7 @@
 {
-  "version": "7.2",
+  "version": "7.7",
   "erstellt_am": "2026-07-11",
-  "beschreibung": "Fragenkatalog + Vokabeltrainer Heilpraktikerprüfung - Seite 3-31. Persische Übersetzung (فارسی): Seiten 3-22 fertig, weitere folgen.",
+  "beschreibung": "Fragenkatalog + Vokabeltrainer Heilpraktikerprüfung - Seite 3-31. Persische Übersetzung (فارسی): Seiten 3-27 fertig, weitere folgen.",
   "fragenkatalog": [
     {
       "id": "STW-003-01",
@@ -10483,6 +10483,7 @@
       "seite": 23,
       "typ": "single_choice",
       "frage": "Welche Hormone werden im Thymus gebildet und was bewirken sie?",
+      "frage_fa": "کدام هورمون‌ها در تیموس ساخته می‌شوند و چه اثری دارند؟",
       "optionen": [
         "Insulin - Blutzuckersenkung",
         "Thymopoietin I und II, Thymosin - Stimulation der Differenzierung von Thymozyten zu T-Lymphozyten",
@@ -10490,8 +10491,16 @@
         "Östrogene - weibliche Merkmale",
         "Testosteron - männliche Merkmale"
       ],
+      "optionen_fa": [
+        "انسولین — کاهش قند خون",
+        "تیموپویتین I و II، تیموسین — تحریک تمایز تیموسیت‌ها به لنفوسیت‌های T",
+        "آدرنالین — هورمون استرس",
+        "استروژن‌ها — صفات زنانه",
+        "تستوسترون — صفات مردانه"
+      ],
       "richtig": 1,
       "erklaerung": "Thymus bildet Thymopoietin I und II sowie Thymosin → Stimulation der Differenzierung von Thymozyten zu T-Lymphozyten (Immunsystem).",
+      "erklaerung_fa": "تیموس تیموپویتین I و II و همچنین تیموسین می‌سازد ← تحریک تمایز تیموسیت‌ها به لنفوسیت‌های T (سیستم ایمنی).",
       "schwierigkeit": "schwer",
       "tags": [
         "Hormonsystem",
@@ -10507,6 +10516,7 @@
       "seite": 23,
       "typ": "multiple_choice",
       "frage": "Welche Hormone produziert der Pankreas?",
+      "frage_fa": "لوزالمعده کدام هورمون‌ها را تولید می‌کند؟",
       "optionen": [
         "Insulin (Blutzuckersenkung)",
         "Glukagon (Blutzuckererhöhung)",
@@ -10514,12 +10524,20 @@
         "Cortisol",
         "Adrenalin"
       ],
+      "optionen_fa": [
+        "انسولین (کاهش قند خون)",
+        "گلوکاگون (افزایش قند خون)",
+        "سوماتوستاتین (مهار STH، TSH، ACTH، انسولین، گلوکاگون، CCK، گاسترین)",
+        "کورتیزول",
+        "آدرنالین"
+      ],
       "richtig": [
         0,
         1,
         2
       ],
       "erklaerung": "Pankreas-Hormone: Insulin (Blutzuckersenkung), Glukagon (Blutzuckererhöhung), Somatostatin (Hemmung diverser Hormone wie STH, TSH, ACTH, Insulin, Glukagon, CCK, Gastrin).",
+      "erklaerung_fa": "هورمون‌های لوزالمعده: انسولین (کاهش قند خون)، گلوکاگون (افزایش قند خون)، سوماتوستاتین (مهار هورمون‌های متعدد مانند STH، TSH، ACTH، انسولین، گلوکاگون، CCK، گاسترین).",
       "schwierigkeit": "schwer",
       "tags": [
         "Hormonsystem",
@@ -10536,6 +10554,7 @@
       "seite": 23,
       "typ": "multiple_choice",
       "frage": "Welche Wirkungen haben Östrogene (z.B. Estradiol)?",
+      "frage_fa": "استروژن‌ها (مثلاً استرادیول) چه اثراتی دارند؟",
       "optionen": [
         "Knochenaufbau, Blutgerinnung, erhöhte Natrium- und Wasserretention",
         "Wachstum/Prägung weiblicher Sexualorgane und Merkmale",
@@ -10543,6 +10562,14 @@
         "Bildung in Ovarien, Plazenta, Hoden, Nebennierenrinde, Fettgewebe, Leber",
         "Spermienproduktion",
         "Wachstum Prostata"
+      ],
+      "optionen_fa": [
+        "استخوان‌سازی، انعقاد خون، افزایش احتباس سدیم و آب",
+        "رشد/شکل‌گیری اندام‌ها و صفات جنسی زنانه",
+        "ساخت مخاط رحم، بلوغ فولیکول",
+        "ساخت در تخمدان‌ها، جفت، بیضه‌ها، قشر غدهٔ فوق‌کلیه، بافت چربی، کبد",
+        "تولید اسپرم",
+        "رشد پروستات"
       ],
       "richtig": [
         0,
@@ -10552,6 +10579,7 @@
         5
       ],
       "erklaerung": "Östrogene-Wirkung: Knochenaufbau, Blutgerinnung, Na+/Wasserretention, Wachstum/Prägung weiblicher Sexualorgane, Aufbau Gebärmutterschleimhaut, Follikelreifung. Bei Männern: Wachstum Prostata und Samenleiter. Bildung u.a. in Ovarien, Plazenta, Hoden.",
+      "erklaerung_fa": "اثر استروژن‌ها: استخوان‌سازی، انعقاد خون، احتباس سدیم/آب، رشد و شکل‌گیری اندام‌های جنسی زنانه، ساخت مخاط رحم، بلوغ فولیکول. در مردان: رشد پروستات و مجرای اسپرم‌بر. ساخت از جمله در تخمدان‌ها، جفت و بیضه‌ها.",
       "schwierigkeit": "schwer",
       "tags": [
         "Hormonsystem",
@@ -10567,6 +10595,7 @@
       "seite": 23,
       "typ": "single_choice",
       "frage": "Was ist die Hauptfunktion von Progesteron (Gestagen)?",
+      "frage_fa": "عملکرد اصلی پروژسترون (ژستاژن) چیست؟",
       "optionen": [
         "Senkung des Blutzuckers",
         "'Schwangerschaftsschutz-Hormon' - Aufbau Gebärmutterschleimhaut",
@@ -10574,8 +10603,16 @@
         "Senkung des Kalziumspiegels",
         "Wachstum männlicher Sexualorgane"
       ],
+      "optionen_fa": [
+        "کاهش قند خون",
+        "«هورمون محافظ بارداری» — ساخت مخاط رحم",
+        "افزایش ضربان قلب",
+        "کاهش سطح کلسیم",
+        "رشد اندام‌های جنسی مردانه"
+      ],
       "richtig": 1,
       "erklaerung": "Progesteron ist das 'Schwangerschaftsschutz-Hormon' - es baut die Gebärmutterschleimhaut auf und wird im Gelbkörper, in der Plazenta und Nebennierenrinde gebildet.",
+      "erklaerung_fa": "پروژسترون «هورمون محافظ بارداری» است — مخاط رحم را می‌سازد و در جسم زرد، جفت و قشر غدهٔ فوق‌کلیه ساخته می‌شود.",
       "schwierigkeit": "mittel",
       "tags": [
         "Hormonsystem",
@@ -10591,6 +10628,7 @@
       "seite": 23,
       "typ": "multiple_choice",
       "frage": "Welche Wirkungen haben Androgene (v.a. Testosteron)?",
+      "frage_fa": "آندروژن‌ها (به‌ویژه تستوسترون) چه اثراتی دارند؟",
       "optionen": [
         "Wachstum/Prägung männlicher Sexualorgane und Merkmale",
         "Anabole Wirkung auf Muskeln, Knochen, Stoffwechsel, Blutbildung",
@@ -10599,6 +10637,14 @@
         "Senkung Blutzucker",
         "Blutdrucksenkung"
       ],
+      "optionen_fa": [
+        "رشد/شکل‌گیری اندام‌ها و صفات جنسی مردانه",
+        "اثر آنابولیک بر عضلات، استخوان، متابولیسم، خون‌سازی",
+        "اسپرم‌سازی",
+        "ساخت در بیضه‌ها (سلول‌های لیدیگ)، قشر غدهٔ فوق‌کلیه، تخمدان (سلول‌های تِکا)",
+        "کاهش قند خون",
+        "کاهش فشار خون"
+      ],
       "richtig": [
         0,
         1,
@@ -10606,6 +10652,7 @@
         3
       ],
       "erklaerung": "Androgene (Testosteron): Wachstum/Prägung männlicher Merkmale, anabol auf Muskeln/Knochen/Stoffwechsel/Blutbildung, Spermatogenese. Bildung in Hoden (Leydig-Zwischen-Zellen), Nebennierenrinde, Ovar (Theka-Zellen).",
+      "erklaerung_fa": "آندروژن‌ها (تستوسترون): رشد/شکل‌گیری صفات مردانه، اثر آنابولیک بر عضلات/استخوان/متابولیسم/خون‌سازی، اسپرم‌سازی. ساخت در بیضه‌ها (سلول‌های بینابینی لیدیگ)، قشر غدهٔ فوق‌کلیه و تخمدان (سلول‌های تِکا).",
       "schwierigkeit": "schwer",
       "tags": [
         "Hormonsystem",
@@ -10621,6 +10668,7 @@
       "seite": 23,
       "typ": "single_choice",
       "frage": "Welche Funktion hat hCG (humanes Choriongonadotropin)?",
+      "frage_fa": "hCG (گنادوتروپین جفتی انسانی) چه عملکردی دارد؟",
       "optionen": [
         "Schwangerschaftshormon - Stimulation des Gelbkörpers zur Progesteron-Produktion bis Plazenta übernimmt",
         "Senkung des Blutzuckers",
@@ -10628,8 +10676,16 @@
         "Knochenaufbau",
         "Stresshormon"
       ],
+      "optionen_fa": [
+        "هورمون بارداری — تحریک جسم زرد برای تولید پروژسترون تا زمانی که جفت این کار را بر عهده بگیرد",
+        "کاهش قند خون",
+        "افزایش ضربان قلب",
+        "استخوان‌سازی",
+        "هورمون استرس"
+      ],
       "richtig": 0,
       "erklaerung": "hCG (humanes Choriongonadotropin) = Schwangerschaftshormon. Funktion: Stimulation des Gelbkörpers zur Progesteron-Produktion in der Schwangerschaft, bis die Plazenta dies übernimmt. Wird im Schwangerschaftstest nachgewiesen.",
+      "erklaerung_fa": "hCG (گنادوتروپین جفتی انسانی) = هورمون بارداری. عملکرد: تحریک جسم زرد برای تولید پروژسترون در بارداری، تا زمانی که جفت این کار را بر عهده بگیرد. در تست بارداری شناسایی می‌شود.",
       "schwierigkeit": "schwer",
       "tags": [
         "Hormonsystem",
@@ -10645,6 +10701,7 @@
       "seite": 23,
       "typ": "single_choice",
       "frage": "Welche Funktion hat Erythropoetin (aus der Niere)?",
+      "frage_fa": "اریتروپویتین (از کلیه) چه عملکردی دارد؟",
       "optionen": [
         "Senkung des Blutdrucks",
         "Steigerung der Blutbildung im Knochenmark",
@@ -10652,8 +10709,16 @@
         "Stresshormon",
         "Wasserrückresorption"
       ],
+      "optionen_fa": [
+        "کاهش فشار خون",
+        "افزایش خون‌سازی در مغز استخوان",
+        "کاهش قند خون",
+        "هورمون استرس",
+        "بازجذب آب"
+      ],
       "richtig": 1,
       "erklaerung": "Erythropoetin (gebildet in der Niere) → Steigerung der Blutbildung (Erythropoese) im Knochenmark. Wird therapeutisch bei renaler Anämie eingesetzt.",
+      "erklaerung_fa": "اریتروپویتین (ساخته‌شده در کلیه) ← افزایش خون‌سازی (اریتروپویز) در مغز استخوان. به‌صورت درمانی در کم‌خونی کلیوی استفاده می‌شود.",
       "schwierigkeit": "mittel",
       "tags": [
         "Hormonsystem",
@@ -10669,6 +10734,7 @@
       "seite": 23,
       "typ": "single_choice",
       "frage": "Welche Funktion hat Renin?",
+      "frage_fa": "رنین چه عملکردی دارد؟",
       "optionen": [
         "Blutdrucksenkung",
         "Blutdruckerhöhung (siehe RAAS)",
@@ -10676,8 +10742,16 @@
         "Hemmung Insulin",
         "Verdauungshormon"
       ],
+      "optionen_fa": [
+        "کاهش فشار خون",
+        "افزایش فشار خون (نگاه کنید به RAAS)",
+        "کاهش سطح کلسیم",
+        "مهار انسولین",
+        "هورمون گوارشی"
+      ],
       "richtig": 1,
       "erklaerung": "Renin wird in der Niere gebildet → Blutdruckerhöhung über das RAAS-System (Renin-Angiotensin-Aldosteron-System). Eigentlich ein hormonähnliches Enzym.",
+      "erklaerung_fa": "رنین در کلیه ساخته می‌شود ← افزایش فشار خون از طریق سیستم RAAS (رنین-آنژیوتانسین-آلدوسترون). در واقع یک آنزیم شبه‌هورمونی است.",
       "schwierigkeit": "mittel",
       "tags": [
         "Hormonsystem",
@@ -10693,6 +10767,7 @@
       "seite": 23,
       "typ": "multiple_choice",
       "frage": "Welche Funktionen haben die gastrointestinalen Hormone?",
+      "frage_fa": "هورمون‌های گوارشی چه عملکردهایی دارند؟",
       "optionen": [
         "Gastrin: Pepsinogen und Magensäure ↑, Pankreassaft und Magenmotilität ↑",
         "Sekretin: Pankreassaft + Galle ↑, Salzsäure- und Gastrinsekretion ↓",
@@ -10700,12 +10775,20 @@
         "Insulin",
         "Adrenalin"
       ],
+      "optionen_fa": [
+        "گاسترین: افزایش پپسینوژن و اسید معده، افزایش شیرهٔ لوزالمعده و حرکات معده",
+        "سکرتین: افزایش شیرهٔ لوزالمعده + صفرا، کاهش ترشح اسید کلریدریک و گاسترین",
+        "کوله‌سیستوکینین (CCK): افزایش آنزیم‌های لوزالمعده، افزایش انقباض کیسهٔ صفرا",
+        "انسولین",
+        "آدرنالین"
+      ],
       "richtig": [
         0,
         1,
         2
       ],
       "erklaerung": "GI-Hormone: Gastrin (Magensäure↑, Pankreassaft↑), Sekretin (Pankreassaft+Galle↑, Magensäure↓), CCK/Cholecystokinin (Pankreasenzyme↑, Gallenblasenkontraktion↑).",
+      "erklaerung_fa": "هورمون‌های گوارشی: گاسترین (افزایش اسید معده، افزایش شیرهٔ لوزالمعده)، سکرتین (افزایش شیرهٔ لوزالمعده + صفرا، کاهش اسید معده)، CCK/کوله‌سیستوکینین (افزایش آنزیم‌های لوزالمعده، افزایش انقباض کیسهٔ صفرا).",
       "schwierigkeit": "schwer",
       "tags": [
         "Hormonsystem",
@@ -10721,6 +10804,7 @@
       "seite": 23,
       "typ": "single_choice",
       "frage": "Was bewirken ANP und BNP (Herz-Hormone)?",
+      "frage_fa": "ANP و BNP (هورمون‌های قلبی) چه اثری دارند؟",
       "optionen": [
         "Blutdruckerhöhung",
         "Blutdrucksenkung durch Vasodilatation, Förderung der Diurese und Hemmung von ADH, Aldosteron und Renin",
@@ -10728,8 +10812,16 @@
         "Aktivierung der Schilddrüse",
         "Stresshormon"
       ],
+      "optionen_fa": [
+        "افزایش فشار خون",
+        "کاهش فشار خون از طریق گشادی عروق، تقویت دیورز و مهار ADH، آلدوسترون و رنین",
+        "کاهش سطح کلسیم",
+        "فعال‌سازی غدهٔ تیروئید",
+        "هورمون استرس"
+      ],
       "richtig": 1,
       "erklaerung": "ANP und BNP (vom Herz): Blutdrucksenkung durch Vasodilatation, Förderung Diurese, Hemmung von ADH, Aldosteron und Renin. BNP ist ein wichtiger Laborwert für den Verlauf einer Herzinsuffizienz.",
+      "erklaerung_fa": "ANP و BNP (از قلب): کاهش فشار خون از طریق گشادی عروق، تقویت دیورز، مهار ADH، آلدوسترون و رنین. BNP یک مقدار آزمایشگاهی مهم برای پیگیری نارسایی قلبی است.",
       "schwierigkeit": "schwer",
       "tags": [
         "Hormonsystem",
@@ -10747,6 +10839,7 @@
       "seite": 23,
       "typ": "multiple_choice",
       "frage": "Welche Wirkungen haben die Gewebshormone Histamin und Kinine?",
+      "frage_fa": "هورمون‌های بافتی هیستامین و کینین‌ها چه اثراتی دارند؟",
       "optionen": [
         "Histamin: Entzündungs-/Allergiereaktionen, Vasodilatation, erhöhte Gefäßpermeabilität → Schwellung, Ödem, Rötung, Juckreiz, Blutdruckabfall",
         "Kinine (z.B. Bradykinin): Entzündungsreaktionen, Vasodilatation, erhöhte Gefäßpermeabilität, Blutdruckabfall",
@@ -10754,11 +10847,19 @@
         "Beide senken den Blutzucker",
         "Beide stimulieren die Schilddrüse"
       ],
+      "optionen_fa": [
+        "هیستامین: واکنش‌های التهابی/آلرژیک، گشادی عروق، افزایش نفوذپذیری عروق ← تورم، ادم، قرمزی، خارش، افت فشار خون",
+        "کینین‌ها (مثلاً برادی‌کینین): واکنش‌های التهابی، گشادی عروق، افزایش نفوذپذیری عروق، افت فشار خون",
+        "هر دو فشار خون را افزایش می‌دهند",
+        "هر دو قند خون را کاهش می‌دهند",
+        "هر دو غدهٔ تیروئید را تحریک می‌کنند"
+      ],
       "richtig": [
         0,
         1
       ],
       "erklaerung": "Histamin: bei Entzündungen/Allergien → Vasodilatation, Gefäßpermeabilität↑ → Schwellung, Ödem, Rötung, Juckreiz, Blutdruckabfall. Kinine (Bradykinin): ähnliche Wirkungen, Beteiligung an Entzündungen.",
+      "erklaerung_fa": "هیستامین: در التهاب/آلرژی ← گشادی عروق، افزایش نفوذپذیری عروق ← تورم، ادم، قرمزی، خارش، افت فشار خون. کینین‌ها (برادی‌کینین): اثرات مشابه، دخیل در التهاب‌ها.",
       "schwierigkeit": "schwer",
       "tags": [
         "Hormonsystem",
@@ -10775,6 +10876,7 @@
       "seite": 23,
       "typ": "multiple_choice",
       "frage": "Welche Funktionen haben Prostaglandine und Serotonin?",
+      "frage_fa": "پروستاگلاندین‌ها و سروتونین چه عملکردهایی دارند؟",
       "optionen": [
         "Prostaglandine: wichtige Rolle bei Entzündungen, Schmerzen und Fieber",
         "Serotonin: steuert Schlaf-Wach-Rhythmus, Emotionen, Blutdruck, Darmperistaltik, Körpertemperatur",
@@ -10782,11 +10884,19 @@
         "Beide regulieren den Kalziumhaushalt",
         "Beide sind Verdauungshormone"
       ],
+      "optionen_fa": [
+        "پروستاگلاندین‌ها: نقش مهم در التهاب، درد و تب",
+        "سروتونین: تنظیم چرخهٔ خواب و بیداری، احساسات، فشار خون، حرکات روده، دمای بدن",
+        "هر دو استخوان می‌سازند",
+        "هر دو تعادل کلسیم را تنظیم می‌کنند",
+        "هر دو هورمون گوارشی هستند"
+      ],
       "richtig": [
         0,
         1
       ],
       "erklaerung": "Prostaglandine: Entzündungen, Schmerzen, Fieber (deshalb NSAR als COX-Hemmer wirksam). Serotonin: Schlaf-Wach-Rhythmus, Emotionen (Glückshormon), Blutdruck, Darmperistaltik, Körpertemperatur u.a.",
+      "erklaerung_fa": "پروستاگلاندین‌ها: التهاب، درد، تب (به همین دلیل NSARها به‌عنوان مهارکنندهٔ COX مؤثرند). سروتونین: چرخهٔ خواب و بیداری، احساسات (هورمون شادی)، فشار خون، حرکات روده، دمای بدن و غیره.",
       "schwierigkeit": "schwer",
       "tags": [
         "Hormonsystem",
@@ -10802,7 +10912,9 @@
       "seite": 23,
       "typ": "fallbeispiel",
       "fallbeschreibung": "Bei einem 72-jährigen Patienten mit Atemnot und Beinödemen werden Laborwerte abgenommen. Der Arzt fragt insbesondere den BNP-Wert ab.",
+      "fallbeschreibung_fa": "از یک بیمار ۷۲ ساله با تنگی نفس و ادم پاها آزمایش خون گرفته می‌شود. پزشک به‌ویژه مقدار BNP را درخواست می‌کند.",
       "frage": "Wofür wird der BNP-Wert verwendet?",
+      "frage_fa": "مقدار BNP برای چه استفاده می‌شود؟",
       "optionen": [
         "Diabetes-Diagnostik",
         "Wichtiger Laborwert für den Verlauf einer Herzinsuffizienz",
@@ -10810,8 +10922,16 @@
         "Kalziumdiagnostik",
         "Nierenfunktionsdiagnostik"
       ],
+      "optionen_fa": [
+        "تشخیص دیابت",
+        "مقدار آزمایشگاهی مهم برای پیگیری نارسایی قلبی",
+        "تشخیص تیروئید",
+        "تشخیص کلسیم",
+        "تشخیص عملکرد کلیه"
+      ],
       "richtig": 1,
       "erklaerung": "BNP (Brain Natriuretic Peptide) wird vom Herz bei Belastung freigesetzt und ist ein wichtiger Laborwert für die Diagnose und den Verlauf einer Herzinsuffizienz. Je höher der Wert, desto schwerer die Herzinsuffizienz.",
+      "erklaerung_fa": "BNP (پپتید ناتریورتیک مغزی) هنگام فشار بر قلب آزاد می‌شود و مقدار آزمایشگاهی مهمی برای تشخیص و پیگیری نارسایی قلبی است. هرچه مقدار بالاتر باشد، نارسایی قلبی شدیدتر است.",
       "schwierigkeit": "schwer",
       "tags": [
         "Hormonsystem",
@@ -10828,12 +10948,20 @@
       "seite": 24,
       "typ": "multiple_choice",
       "frage": "Wann wird das RAAS-System aktiviert?",
+      "frage_fa": "سیستم RAAS چه زمانی فعال می‌شود؟",
       "optionen": [
         "Bei Natriummangel",
         "Bei Blutdruckabfall",
         "Bei Hypovolämie",
         "Bei Aktivierung des sympathischen Nervensystems",
         "Bei Hyperkalzämie"
+      ],
+      "optionen_fa": [
+        "در کمبود سدیم",
+        "در افت فشار خون",
+        "در کاهش حجم خون (هایپوولمی)",
+        "در فعال‌شدن سیستم عصبی سمپاتیک",
+        "در هایپرکلسمی"
       ],
       "richtig": [
         0,
@@ -10842,6 +10970,7 @@
         3
       ],
       "erklaerung": "RAAS-Aktivierung bei: Natriummangel, Blutdruckabfall, Hypovolämie (verminderter Durchblutung der Nierenkörperchen, Hypotonie), Aktivierung des sympathischen Nervensystems.",
+      "erklaerung_fa": "فعال‌شدن RAAS در: کمبود سدیم، افت فشار خون، هایپوولمی (کاهش خون‌رسانی به گلومرول‌های کلیه، افت فشار خون)، فعال‌شدن سیستم عصبی سمپاتیک.",
       "schwierigkeit": "schwer",
       "tags": [
         "Hormonsystem",
@@ -10856,6 +10985,7 @@
       "seite": 24,
       "typ": "single_choice",
       "frage": "Wo wird Renin freigesetzt und was bewirkt es?",
+      "frage_fa": "رنین در کجا آزاد می‌شود و چه اثری دارد؟",
       "optionen": [
         "In der Leber - hemmt Blutdruck",
         "Im juxtaglomerulären Apparat der Niere - wandelt Angiotensinogen in Angiotensin I um",
@@ -10863,8 +10993,16 @@
         "Im Pankreas - reguliert Insulin",
         "In der Lunge - reguliert Atmung"
       ],
+      "optionen_fa": [
+        "در کبد — فشار خون را مهار می‌کند",
+        "در دستگاه جنب‌گلومرولی کلیه — آنژیوتانسینوژن را به آنژیوتانسین I تبدیل می‌کند",
+        "در معده — گوارش را تنظیم می‌کند",
+        "در لوزالمعده — انسولین را تنظیم می‌کند",
+        "در ریه — تنفس را تنظیم می‌کند"
+      ],
       "richtig": 1,
       "erklaerung": "Renin wird im juxtaglomerulären Apparat der Niere freigesetzt. Es wandelt das im Blut zirkulierende Angiotensinogen (aus der Leber) zu Angiotensin I um.",
+      "erklaerung_fa": "رنین در دستگاه جنب‌گلومرولی کلیه آزاد می‌شود. آنژیوتانسینوژنِ در گردش خون (از کبد) را به آنژیوتانسین I تبدیل می‌کند.",
       "schwierigkeit": "schwer",
       "tags": [
         "Hormonsystem",
@@ -10881,6 +11019,7 @@
       "seite": 24,
       "typ": "single_choice",
       "frage": "Wo wird das Angiotensin-Converting-Enzym (ACE) gebildet und welche Funktion hat es?",
+      "frage_fa": "آنزیم مبدل آنژیوتانسین (ACE) در کجا ساخته می‌شود و چه عملکردی دارد؟",
       "optionen": [
         "In der Niere - wandelt Renin um",
         "In der Lunge - wandelt Angiotensin I in Angiotensin II um",
@@ -10888,8 +11027,16 @@
         "In der Schilddrüse - reguliert Stoffwechsel",
         "In der Leber - bildet Glukose"
       ],
+      "optionen_fa": [
+        "در کلیه — رنین را تبدیل می‌کند",
+        "در ریه — آنژیوتانسین I را به آنژیوتانسین II تبدیل می‌کند",
+        "در لوزالمعده — انسولین را تنظیم می‌کند",
+        "در غدهٔ تیروئید — متابولیسم را تنظیم می‌کند",
+        "در کبد — گلوکز می‌سازد"
+      ],
       "richtig": 1,
       "erklaerung": "Das Angiotensin-Converting-Enzym (ACE) wird in der LUNGE gebildet. Es wandelt Angiotensin I in Angiotensin II um (deshalb sind ACE-Hemmer Blutdruckmedikamente).",
+      "erklaerung_fa": "آنزیم مبدل آنژیوتانسین (ACE) در ریه ساخته می‌شود. آنژیوتانسین I را به آنژیوتانسین II تبدیل می‌کند (به همین دلیل مهارکننده‌های ACE داروی فشار خون هستند).",
       "schwierigkeit": "schwer",
       "tags": [
         "Hormonsystem",
@@ -10905,6 +11052,7 @@
       "seite": 24,
       "typ": "multiple_choice",
       "frage": "Welche Wirkungen hat Angiotensin II?",
+      "frage_fa": "آنژیوتانسین II چه اثراتی دارد؟",
       "optionen": [
         "Freisetzung von Aldosteron aus der Nebennierenrinde → Kaliumausscheidung und Natrium-Rückresorption",
         "Aktivierung der ADH-Sekretion",
@@ -10912,6 +11060,14 @@
         "Vasokonstriktion von Gefäßen",
         "Durstgefühl im Hypothalamus",
         "Vasodilatation - Blutdrucksenkung"
+      ],
+      "optionen_fa": [
+        "آزادسازی آلدوسترون از قشر غدهٔ فوق‌کلیه ← دفع پتاسیم و بازجذب سدیم",
+        "فعال‌سازی ترشح ADH",
+        "فعال‌سازی سیستم سمپاتیک",
+        "انقباض عروق (وازوکنستریکسیون)",
+        "احساس تشنگی در هیپوتالاموس",
+        "گشادی عروق — کاهش فشار خون"
       ],
       "richtig": [
         0,
@@ -10921,6 +11077,7 @@
         4
       ],
       "erklaerung": "Angiotensin II-Wirkungen (alle führen zu Blutdruckerhöhung): Freisetzung Aldosteron (Kaliumausscheidung↑, Na-Rückresorption↑ → Blutvolumen↑), Aktivierung ADH-Sekretion (Blutvolumen↑), Aktivierung Sympathikus, Vasokonstriktion (peripherer Widerstand↑), Durstgefühl (Trinkmenge↑).",
+      "erklaerung_fa": "اثرات آنژیوتانسین II (همه به افزایش فشار خون منجر می‌شوند): آزادسازی آلدوسترون (افزایش دفع پتاسیم، افزایش بازجذب سدیم ← افزایش حجم خون)، فعال‌سازی ترشح ADH (افزایش حجم خون)، فعال‌سازی سمپاتیک، انقباض عروق (افزایش مقاومت محیطی)، احساس تشنگی (افزایش نوشیدن).",
       "schwierigkeit": "schwer",
       "tags": [
         "Hormonsystem",
@@ -10936,6 +11093,7 @@
       "seite": 24,
       "typ": "single_choice",
       "frage": "Was bewirkt Aldosteron beim RAAS?",
+      "frage_fa": "آلدوسترون در RAAS چه اثری دارد؟",
       "optionen": [
         "Natriumausscheidung und Kalium-Rückresorption",
         "Natrium-Rückresorption und Kaliumausscheidung → Wasser folgt dem Natrium → Blutvolumen ↑ → Blutdruck steigt",
@@ -10943,8 +11101,16 @@
         "Hemmung der Wasserretention",
         "Aktivierung der Schilddrüse"
       ],
+      "optionen_fa": [
+        "دفع سدیم و بازجذب پتاسیم",
+        "بازجذب سدیم و دفع پتاسیم ← آب به دنبال سدیم می‌رود ← افزایش حجم خون ← فشار خون بالا می‌رود",
+        "کاهش فشار خون",
+        "مهار احتباس آب",
+        "فعال‌سازی غدهٔ تیروئید"
+      ],
       "richtig": 1,
       "erklaerung": "Aldosteron → Natrium-Rückresorption und Kaliumausscheidung. Wasser folgt dem Natrium → Erhöhung Blutvolumen → Blutdruck steigt. (Daher: Spironolacton/Aldosteron-Antagonisten als Blutdrucksenker)",
+      "erklaerung_fa": "آلدوسترون ← بازجذب سدیم و دفع پتاسیم. آب به دنبال سدیم می‌رود ← افزایش حجم خون ← فشار خون بالا می‌رود. (به همین دلیل اسپیرونولاکتون/آنتاگونیست‌های آلدوسترون به‌عنوان کاهندهٔ فشار خون استفاده می‌شوند.)",
       "schwierigkeit": "schwer",
       "tags": [
         "Hormonsystem",
@@ -10960,6 +11126,7 @@
       "seite": 24,
       "typ": "single_choice",
       "frage": "Wie lautet die korrekte Reihenfolge der RAAS-Aktivierung?",
+      "frage_fa": "ترتیب صحیح فعال‌شدن RAAS چیست؟",
       "optionen": [
         "Aldosteron → Renin → Angiotensin I → Angiotensin II",
         "Renin → Angiotensinogen → Angiotensin I → ACE → Angiotensin II → Aldosteron",
@@ -10967,8 +11134,16 @@
         "ACE → Renin → Angiotensin I → Aldosteron",
         "Aldosteron → ACE → Angiotensin → Renin"
       ],
+      "optionen_fa": [
+        "آلدوسترون ← رنین ← آنژیوتانسین I ← آنژیوتانسین II",
+        "رنین ← آنژیوتانسینوژن ← آنژیوتانسین I ← ACE ← آنژیوتانسین II ← آلدوسترون",
+        "آنژیوتانسین II ← رنین ← ACE ← آلدوسترون",
+        "ACE ← رنین ← آنژیوتانسین I ← آلدوسترون",
+        "آلدوسترون ← ACE ← آنژیوتانسین ← رنین"
+      ],
       "richtig": 1,
       "erklaerung": "RAAS-Kaskade: 1. Bei Hypovolämie/Hypotonie/Na-Mangel/Sympathikusaktivierung → Renin-Freisetzung aus Niere. 2. Renin wandelt Angiotensinogen (Leber) zu Angiotensin I um. 3. ACE (Lunge) wandelt Angiotensin I zu Angiotensin II um. 4. Angiotensin II setzt Aldosteron frei + bewirkt Vasokonstriktion, ADH-Sekretion, Sympathikus, Durstgefühl. 5. Aldosteron → Natrium-Rückresorption, Kaliumausscheidung → Blutdruck steigt.",
+      "erklaerung_fa": "آبشار RAAS: ۱. در هایپوولمی/افت فشار خون/کمبود سدیم/فعال‌شدن سمپاتیک ← آزادسازی رنین از کلیه. ۲. رنین آنژیوتانسینوژن (کبد) را به آنژیوتانسین I تبدیل می‌کند. ۳. ACE (ریه) آنژیوتانسین I را به آنژیوتانسین II تبدیل می‌کند. ۴. آنژیوتانسین II آلدوسترون را آزاد می‌کند + باعث انقباض عروق، ترشح ADH، فعال‌سازی سمپاتیک و احساس تشنگی می‌شود. ۵. آلدوسترون ← بازجذب سدیم، دفع پتاسیم ← فشار خون بالا می‌رود.",
       "schwierigkeit": "schwer",
       "tags": [
         "Hormonsystem",
@@ -10984,7 +11159,9 @@
       "seite": 24,
       "typ": "fallbeispiel",
       "fallbeschreibung": "Ein 65-jähriger Hypertoniker bekommt vom Arzt einen ACE-Hemmer verschrieben.",
+      "fallbeschreibung_fa": "یک بیمار مبتلا به فشار خون بالا (۶۵ ساله) از پزشک یک مهارکنندهٔ ACE دریافت می‌کند.",
       "frage": "Wie wirken ACE-Hemmer pharmakologisch?",
+      "frage_fa": "مهارکننده‌های ACE از نظر دارویی چگونه عمل می‌کنند؟",
       "optionen": [
         "Sie aktivieren das RAAS",
         "Sie hemmen das Angiotensin-Converting-Enzym in der Lunge → Angiotensin I wird nicht zu Angiotensin II umgewandelt → keine Vasokonstriktion, kein Aldosteron → Blutdrucksenkung",
@@ -10992,8 +11169,16 @@
         "Sie erhöhen die Reninausschüttung",
         "Sie wirken nur auf das Herz"
       ],
+      "optionen_fa": [
+        "RAAS را فعال می‌کنند",
+        "آنزیم مبدل آنژیوتانسین را در ریه مهار می‌کنند ← آنژیوتانسین I به آنژیوتانسین II تبدیل نمی‌شود ← بدون انقباض عروق، بدون آلدوسترون ← کاهش فشار خون",
+        "آلدوسترون را فعال می‌کنند",
+        "ترشح رنین را افزایش می‌دهند",
+        "فقط بر قلب اثر می‌کنند"
+      ],
       "richtig": 1,
       "erklaerung": "ACE-Hemmer hemmen das Angiotensin-Converting-Enzym in der Lunge → Angiotensin I kann nicht zu Angiotensin II umgewandelt werden → keine Vasokonstriktion + keine Aldosteron-Freisetzung → Blutdrucksenkung. Beispiele: Ramipril, Enalapril.",
+      "erklaerung_fa": "مهارکننده‌های ACE آنزیم مبدل آنژیوتانسین را در ریه مهار می‌کنند ← آنژیوتانسین I نمی‌تواند به آنژیوتانسین II تبدیل شود ← بدون انقباض عروق + بدون آزادسازی آلدوسترون ← کاهش فشار خون. نمونه‌ها: رامیپریل، انالاپریل.",
       "schwierigkeit": "schwer",
       "tags": [
         "Hormonsystem",
@@ -11010,6 +11195,7 @@
       "seite": 25,
       "typ": "single_choice",
       "frage": "Wie ist die Schilddrüse anatomisch geformt?",
+      "frage_fa": "غدهٔ تیروئید از نظر آناتومیک چه شکلی دارد؟",
       "optionen": [
         "Birnenförmig hinter dem Magen",
         "Schmetterlingsförmig vor der Luftröhre, unterhalb des Schildknorpels",
@@ -11017,8 +11203,16 @@
         "Stabförmig im Hals",
         "Dreieckig im Schädel"
       ],
+      "optionen_fa": [
+        "گلابی‌شکل پشت معده",
+        "پروانه‌شکل جلوی نای، زیر غضروف سپری",
+        "کروی در حفرهٔ شکم",
+        "میله‌ای در گردن",
+        "مثلثی در جمجمه"
+      ],
       "richtig": 1,
       "erklaerung": "Die Schilddrüse liegt schmetterlingsförmig vor der Luftröhre, unterhalb des Schildknorpels. Die rechten und linken Schilddrüsenlappen sind durch einen Isthmus in Höhe des 2.-4. Trachealrings verbunden.",
+      "erklaerung_fa": "غدهٔ تیروئید به‌شکل پروانه جلوی نای، زیر غضروف سپری قرار دارد. لوب‌های راست و چپ تیروئید توسط ایسموس در سطح حلقه‌های ۲ تا ۴ نای به هم متصل‌اند.",
       "schwierigkeit": "leicht",
       "tags": [
         "Endokrinologie",
@@ -11034,6 +11228,7 @@
       "seite": 25,
       "typ": "single_choice",
       "frage": "Wie groß ist die Schilddrüse normalerweise?",
+      "frage_fa": "اندازهٔ طبیعی غدهٔ تیروئید چقدر است؟",
       "optionen": [
         "Gewicht 5-10 g; Volumen 50 ml",
         "Gewicht 20-60 g; Volumen Männer ≤ 25 ml, Frauen ≤ 18 ml",
@@ -11041,8 +11236,16 @@
         "Gewicht 500 g; Volumen 200 ml",
         "Gewicht 1 kg; Volumen 500 ml"
       ],
+      "optionen_fa": [
+        "وزن 5-10 گرم؛ حجم 50 ml",
+        "وزن 20-60 گرم؛ حجم مردان ≤ 25 ml، زنان ≤ 18 ml",
+        "وزن 100-200 گرم؛ حجم 100 ml",
+        "وزن 500 گرم؛ حجم 200 ml",
+        "وزن 1 کیلوگرم؛ حجم 500 ml"
+      ],
       "richtig": 1,
       "erklaerung": "Normalwerte Schilddrüse: Gewicht 20-60 g, Volumen Männer ≤ 25 ml, Frauen ≤ 18 ml.",
+      "erklaerung_fa": "مقادیر طبیعی تیروئید: وزن 20-60 گرم، حجم مردان ≤ 25 ml، زنان ≤ 18 ml.",
       "schwierigkeit": "mittel",
       "tags": [
         "Endokrinologie",
@@ -11059,6 +11262,7 @@
       "seite": 25,
       "typ": "multiple_choice",
       "frage": "Welche Hormone produziert die Schilddrüse?",
+      "frage_fa": "غدهٔ تیروئید کدام هورمون‌ها را تولید می‌کند؟",
       "optionen": [
         "T3 (Triiodthyronin, enthält 3 Iod-Atome)",
         "T4 (Thyroxin, enthält 4 Iod-Atome)",
@@ -11066,12 +11270,20 @@
         "Parathormon",
         "Insulin"
       ],
+      "optionen_fa": [
+        "T3 (تری‌یدوتیرونین، دارای ۳ اتم ید)",
+        "T4 (تیروکسین، دارای ۴ اتم ید)",
+        "کلسی‌تونین (ساخت در سلول‌های C، در مقادیر بالای کلسیم ترشح می‌شود)",
+        "پاراتورمون",
+        "انسولین"
+      ],
       "richtig": [
         0,
         1,
         2
       ],
       "erklaerung": "Schilddrüsenhormone: T3 (Triiodthyronin, 3 Iod-Atome), T4 (Thyroxin, 4 Iod-Atome), Calcitonin (C-Zellen, bei hohen Ca-Werten). Parathormon ist von Nebenschilddrüsen, Insulin von Pankreas.",
+      "erklaerung_fa": "هورمون‌های تیروئید: T3 (تری‌یدوتیرونین، ۳ اتم ید)، T4 (تیروکسین، ۴ اتم ید)، کلسی‌تونین (سلول‌های C، در مقادیر بالای کلسیم). پاراتورمون از غدد پاراتیروئید و انسولین از لوزالمعده است.",
       "schwierigkeit": "mittel",
       "tags": [
         "Endokrinologie",
@@ -11089,6 +11301,7 @@
       "seite": 25,
       "typ": "single_choice",
       "frage": "Wie funktioniert die Regulation der Schilddrüse?",
+      "frage_fa": "تنظیم غدهٔ تیروئید چگونه کار می‌کند؟",
       "optionen": [
         "Direkt durch Insulin",
         "Negative Rückkopplung: Bei hohen T3/T4-Spiegeln schüttet die Hypophyse weniger TSH aus, bei niedrigen mehr TSH",
@@ -11096,8 +11309,16 @@
         "Direkt über die Nieren",
         "Über Aldosteron"
       ],
+      "optionen_fa": [
+        "مستقیماً از طریق انسولین",
+        "بازخورد منفی: در سطوح بالای T3/T4 هیپوفیز TSH کمتری ترشح می‌کند، در سطوح پایین TSH بیشتری",
+        "فقط از طریق سیستم عصبی",
+        "مستقیماً از طریق کلیه‌ها",
+        "از طریق آلدوسترون"
+      ],
       "richtig": 1,
       "erklaerung": "Schilddrüsenregelkreis: Negative Rückkopplung über TSH. Bei hohen T3/T4-Spiegeln im Blut → weniger TSH aus Hypophyse. Bei niedrigen Werten → vermehrt TSH-Ausschüttung. TSH stimuliert dann die Schilddrüse zur T3/T4-Bildung.",
+      "erklaerung_fa": "حلقهٔ تنظیم تیروئید: بازخورد منفی از طریق TSH. در سطوح بالای T3/T4 در خون ← TSH کمتر از هیپوفیز. در مقادیر پایین ← ترشح بیشتر TSH. سپس TSH غدهٔ تیروئید را برای ساخت T3/T4 تحریک می‌کند.",
       "schwierigkeit": "schwer",
       "tags": [
         "Endokrinologie",
@@ -11114,6 +11335,7 @@
       "seite": 25,
       "typ": "single_choice",
       "frage": "Was bedeutet 'Euthyreose'?",
+      "frage_fa": "«یوتیروئیدیسم» (Euthyreose) به چه معناست؟",
       "optionen": [
         "Schilddrüsenüberfunktion",
         "Die Schilddrüsenfunktion ist normal, gemessen an den Blutwerten T3 und T4",
@@ -11121,8 +11343,16 @@
         "Schilddrüsenkrebs",
         "Komplettes Fehlen der Schilddrüse"
       ],
+      "optionen_fa": [
+        "پرکاری تیروئید",
+        "عملکرد تیروئید بر اساس مقادیر خونی T3 و T4 طبیعی است",
+        "کم‌کاری تیروئید",
+        "سرطان تیروئید",
+        "فقدان کامل غدهٔ تیروئید"
+      ],
       "richtig": 1,
       "erklaerung": "Euthyreose = Die Schilddrüsenfunktion ist, gemessen an den Blutwerten T3 und T4, normal. Es treten keine Beschwerden auf, jedoch kann das Schilddrüsengewebe verändert oder eine Struma vorhanden sein.",
+      "erklaerung_fa": "یوتیروئیدیسم = عملکرد غدهٔ تیروئید، بر اساس مقادیر خونی T3 و T4، طبیعی است. هیچ شکایتی بروز نمی‌کند، اما ممکن است بافت تیروئید تغییر کرده باشد یا گواتر (استروما) وجود داشته باشد.",
       "schwierigkeit": "mittel",
       "tags": [
         "Endokrinologie",
@@ -11138,6 +11368,7 @@
       "seite": 25,
       "typ": "single_choice",
       "frage": "Was ist eine Hypothyreose?",
+      "frage_fa": "کم‌کاری تیروئید (هایپوتیروئیدیسم) چیست؟",
       "optionen": [
         "Überfunktion der Schilddrüse",
         "Unterfunktion der Schilddrüse mit Mangel an T3/T4",
@@ -11145,8 +11376,16 @@
         "Entzündung der Schilddrüse",
         "Schilddrüsenkrebs"
       ],
+      "optionen_fa": [
+        "پرکاری غدهٔ تیروئید",
+        "کم‌کاری غدهٔ تیروئید همراه با کمبود T3/T4",
+        "بزرگ‌شدن غدهٔ تیروئید بدون اختلال عملکرد",
+        "التهاب غدهٔ تیروئید",
+        "سرطان تیروئید"
+      ],
       "richtig": 1,
       "erklaerung": "Hypothyreose = Schilddrüsenunterfunktion mit Mangel an T3/T4. Der gesamte Stoffwechsel verlangsamt sich.",
+      "erklaerung_fa": "هایپوتیروئیدیسم = کم‌کاری تیروئید همراه با کمبود T3/T4. کل متابولیسم کند می‌شود.",
       "schwierigkeit": "leicht",
       "tags": [
         "Endokrinologie",
@@ -11162,6 +11401,7 @@
       "seite": 25,
       "typ": "multiple_choice",
       "frage": "Welche Formen der Hypothyreose gibt es?",
+      "frage_fa": "چه اشکالی از کم‌کاری تیروئید وجود دارد؟",
       "optionen": [
         "Primäre Hypothyreose: Erkrankung/Störung der Schilddrüse → T3/T4-Mangel",
         "Sekundäre Hypothyreose: Erkrankung/Störung der Hypophyse → TSH-Mangel → T3/T4-Mangel",
@@ -11169,12 +11409,20 @@
         "Quartäre Hypothyreose: Erkrankung der Nebenniere",
         "Quintäre Hypothyreose: Erkrankung des Pankreas"
       ],
+      "optionen_fa": [
+        "کم‌کاری اولیه: بیماری/اختلال غدهٔ تیروئید ← کمبود T3/T4",
+        "کم‌کاری ثانویه: بیماری/اختلال هیپوفیز ← کمبود TSH ← کمبود T3/T4",
+        "کم‌کاری ثالثیه: بیماری/اختلال هیپوتالاموس ← کمبود TRH ← کمبود TSH ← کمبود T3/T4",
+        "کم‌کاری رباعیه: بیماری غدهٔ فوق‌کلیه",
+        "کم‌کاری خماسیه: بیماری لوزالمعده"
+      ],
       "richtig": [
         0,
         1,
         2
       ],
       "erklaerung": "3 Hypothyreose-Formen: Primär (Schilddrüse selbst gestört → T3/T4↓), Sekundär (Hypophyse → TSH↓ → T3/T4↓), Tertiär (Hypothalamus → TRH↓ → TSH↓ → T3/T4↓).",
+      "erklaerung_fa": "۳ شکل کم‌کاری تیروئید: اولیه (خودِ تیروئید مختل ← کاهش T3/T4)، ثانویه (هیپوفیز ← کاهش TSH ← کاهش T3/T4)، ثالثیه (هیپوتالاموس ← کاهش TRH ← کاهش TSH ← کاهش T3/T4).",
       "schwierigkeit": "schwer",
       "tags": [
         "Endokrinologie",
@@ -11190,6 +11438,7 @@
       "seite": 25,
       "typ": "single_choice",
       "frage": "Wie häufig ist die angeborene Hypothyreose?",
+      "frage_fa": "کم‌کاری مادرزادی تیروئید چقدر شایع است؟",
       "optionen": [
         "1:100 Neugeborene",
         "1:1.000 Neugeborene",
@@ -11197,8 +11446,16 @@
         "1:50.000 Neugeborene",
         "1:1.000.000 Neugeborene"
       ],
+      "optionen_fa": [
+        "1:100 نوزاد",
+        "1:1.000 نوزاد",
+        "1:5.000 نوزاد",
+        "1:50.000 نوزاد",
+        "1:1.000.000 نوزاد"
+      ],
       "richtig": 2,
       "erklaerung": "Angeborene Hypothyreose: Häufigkeit 1:5.000 Neugeborene. Möglich durch komplettes Fehlen (Athyreose) oder Fehlbildungen der Schilddrüse.",
+      "erklaerung_fa": "کم‌کاری مادرزادی تیروئید: شیوع 1:5.000 نوزاد. می‌تواند به‌دلیل فقدان کامل (آتیروئیدیسم) یا ناهنجاری‌های غدهٔ تیروئید باشد.",
       "schwierigkeit": "mittel",
       "tags": [
         "Endokrinologie",
@@ -11214,6 +11471,7 @@
       "seite": 25,
       "typ": "single_choice",
       "frage": "Wie wird die angeborene Hypothyreose diagnostiziert?",
+      "frage_fa": "کم‌کاری مادرزادی تیروئید چگونه تشخیص داده می‌شود؟",
       "optionen": [
         "Ultraschall der Schilddrüse beim Neugeborenen",
         "Beim Neugeborenen-Screening erfolgt die TSH-Bestimmung aus dem Fersenblut",
@@ -11221,8 +11479,16 @@
         "EKG",
         "Bluttest auf T3/T4 erst im 1. Lebensjahr"
       ],
+      "optionen_fa": [
+        "سونوگرافی تیروئید در نوزاد",
+        "در غربالگری نوزادان، اندازه‌گیری TSH از خون پاشنهٔ پا انجام می‌شود",
+        "رادیوگرافی گردن",
+        "نوار قلب",
+        "آزمایش خون T3/T4 تنها در سال اول زندگی"
+      ],
       "richtig": 1,
       "erklaerung": "Diagnose: Beim Neugeborenen-Screening erfolgt die TSH-Bestimmung aus dem Fersenblut. Frühzeitige Diagnose ist wichtig, um Kretinismus zu verhindern.",
+      "erklaerung_fa": "تشخیص: در غربالگری نوزادان، اندازه‌گیری TSH از خون پاشنهٔ پا انجام می‌شود. تشخیص زودهنگام برای پیشگیری از کرتینیسم مهم است.",
       "schwierigkeit": "mittel",
       "tags": [
         "Endokrinologie",
@@ -11239,6 +11505,7 @@
       "seite": 25,
       "typ": "multiple_choice",
       "frage": "Welche erste Anzeichen treten bei der angeborenen Hypothyreose nach der Geburt auf?",
+      "frage_fa": "کدام نشانه‌های اولیه پس از تولد در کم‌کاری مادرزادی تیروئید بروز می‌کنند؟",
       "optionen": [
         "Trinkschwäche/Trinkfaulheit",
         "Bewegungsarmut",
@@ -11246,6 +11513,14 @@
         "Obstipation",
         "Evtl. abgeschwächte Eigenreflexe",
         "Hyperaktivität"
+      ],
+      "optionen_fa": [
+        "ضعف/تنبلی در شیرخوردن",
+        "کم‌تحرکی",
+        "زردی نوزادی (ایکتروس نئوناتوروم)",
+        "یبوست",
+        "احتمالاً کاهش رفلکس‌های عمقی",
+        "بیش‌فعالی"
       ],
       "richtig": [
         0,
@@ -11255,6 +11530,7 @@
         4
       ],
       "erklaerung": "Erste Anzeichen nach Geburt: Trinkschwäche/Trinkfaulheit, Bewegungsarmut, Ikterus neonatorum, Obstipation, evtl. abgeschwächte Eigenreflexe.",
+      "erklaerung_fa": "نشانه‌های اولیه پس از تولد: ضعف/تنبلی در شیرخوردن، کم‌تحرکی، زردی نوزادی، یبوست، احتمالاً کاهش رفلکس‌های عمقی.",
       "schwierigkeit": "schwer",
       "tags": [
         "Endokrinologie",
@@ -11271,6 +11547,7 @@
       "seite": 25,
       "typ": "single_choice",
       "frage": "Was ist Kretinismus?",
+      "frage_fa": "کرتینیسم چیست؟",
       "optionen": [
         "Eine Form der Akromegalie",
         "Vollbild der angeborenen Hypothyreose mit Wachstums- und Entwicklungsrückstand, geistiger Retardierung",
@@ -11278,8 +11555,16 @@
         "Eine Form der Hyperthyreose",
         "Diabetes bei Neugeborenen"
       ],
+      "optionen_fa": [
+        "نوعی آکرومگالی",
+        "تصویر کامل کم‌کاری مادرزادی تیروئید همراه با عقب‌ماندگی رشد و تکامل، عقب‌ماندگی ذهنی",
+        "سرطان تیروئید در کودکان",
+        "نوعی پرکاری تیروئید",
+        "دیابت در نوزادان"
+      ],
       "richtig": 1,
       "erklaerung": "Kretinismus = Vollbild der angeborenen Hypothyreose: Wachstumsrückstand/Minderwuchs, Entwicklungsrückstand, geistige und psychische Retardierung, erniedrigte Intelligenz, Schwerhörigkeit, Sprachstörungen. HEUTE durch Neugeborenenscreening und Hormonsubstitution selten geworden!",
+      "erklaerung_fa": "کرتینیسم = تصویر کامل کم‌کاری مادرزادی تیروئید: عقب‌ماندگی رشد/کوتاهی قد، عقب‌ماندگی تکاملی، عقب‌ماندگی ذهنی و روانی، کاهش هوش، کاهش شنوایی، اختلالات گفتار. امروزه به‌لطف غربالگری نوزادان و جایگزینی هورمونی نادر شده است!",
       "schwierigkeit": "mittel",
       "tags": [
         "Endokrinologie",
@@ -11295,6 +11580,7 @@
       "seite": 25,
       "typ": "single_choice",
       "frage": "Wie wird die angeborene Hypothyreose behandelt?",
+      "frage_fa": "کم‌کاری مادرزادی تیروئید چگونه درمان می‌شود؟",
       "optionen": [
         "Operative Entfernung der Schilddrüse",
         "Lebenslange Substitution von Schilddrüsenhormonen, z.B. L-Thyroxin, Euthyrox",
@@ -11302,8 +11588,16 @@
         "Steroide",
         "Insulin"
       ],
+      "optionen_fa": [
+        "برداشتن جراحی غدهٔ تیروئید",
+        "جایگزینی مادام‌العمر هورمون‌های تیروئید، مثلاً ال-تیروکسین، اویتیروکس",
+        "آنتی‌بیوتیک‌ها",
+        "استروئیدها",
+        "انسولین"
+      ],
       "richtig": 1,
       "erklaerung": "Therapie: Lebenslange Substitution von Schilddrüsenhormonen, z.B. L-Thyroxin, Euthyrox. Kleinwuchs lässt sich durch T4-Substitution noch beeinflussen, Hirnschäden sind jedoch irreversibel.",
+      "erklaerung_fa": "درمان: جایگزینی مادام‌العمر هورمون‌های تیروئید، مثلاً ال-تیروکسین (L-Thyroxin)، اویتیروکس. کوتاهی قد را می‌توان با جایگزینی T4 هنوز اصلاح کرد، اما آسیب‌های مغزی برگشت‌ناپذیرند.",
       "schwierigkeit": "mittel",
       "tags": [
         "Endokrinologie",
@@ -11320,6 +11614,7 @@
       "seite": 26,
       "typ": "multiple_choice",
       "frage": "Welche Ursachen kann eine primäre erworbene Hypothyreose haben?",
+      "frage_fa": "کم‌کاری اولیهٔ اکتسابی تیروئید چه علل‌هایی می‌تواند داشته باشد؟",
       "optionen": [
         "Autoimmunprozesse: z.B. Hashimoto-Thyreoiditis (häufigste Ursache)",
         "Massiver Jodmangel oder Selenmangel",
@@ -11328,6 +11623,14 @@
         "Hyperthyreose",
         "Diabetes"
       ],
+      "optionen_fa": [
+        "فرایندهای خودایمنی: مثلاً تیروئیدیت هاشیموتو (شایع‌ترین علت)",
+        "کمبود شدید ید یا کمبود سلنیوم",
+        "جراحی تیروئید، درمان با ید رادیواکتیو، اشعهٔ ایکس",
+        "داروها: مثلاً داروهای ضدتیروئید، لیتیوم",
+        "پرکاری تیروئید",
+        "دیابت"
+      ],
       "richtig": [
         0,
         1,
@@ -11335,6 +11638,7 @@
         3
       ],
       "erklaerung": "Erworbene primäre Hypothyreose-Ursachen: Autoimmunprozesse (Hashimoto-Thyreoiditis = häufigste Ursache!), Jod-/Selenmangel, Schilddrüsen-OPs/Radiojod/Röntgen, Medikamente (Thyreostatika, Lithium).",
+      "erklaerung_fa": "علل کم‌کاری اولیهٔ اکتسابی: فرایندهای خودایمنی (تیروئیدیت هاشیموتو = شایع‌ترین علت!)، کمبود ید/سلنیوم، جراحی تیروئید/ید رادیواکتیو/اشعهٔ ایکس، داروها (داروهای ضدتیروئید، لیتیوم).",
       "schwierigkeit": "schwer",
       "tags": [
         "Endokrinologie",
@@ -11350,6 +11654,7 @@
       "seite": 26,
       "typ": "single_choice",
       "frage": "Was ist die Hashimoto-Thyreoiditis?",
+      "frage_fa": "تیروئیدیت هاشیموتو چیست؟",
       "optionen": [
         "Eine bakterielle Infektion der Schilddrüse",
         "Eine Autoimmunerkrankung mit chronischer Entzündung der Schilddrüse",
@@ -11357,8 +11662,16 @@
         "Eine Vergrößerung durch Jodmangel",
         "Eine genetische Form des Diabetes"
       ],
+      "optionen_fa": [
+        "یک عفونت باکتریایی غدهٔ تیروئید",
+        "یک بیماری خودایمنی همراه با التهاب مزمن غدهٔ تیروئید",
+        "یک تومور خوش‌خیم",
+        "بزرگ‌شدن به‌دلیل کمبود ید",
+        "شکل ژنتیکی دیابت"
+      ],
       "richtig": 1,
       "erklaerung": "Hashimoto-Thyreoiditis ist eine Autoimmunerkrankung mit chronischer Entzündung der Schilddrüse. Häufigste Ursache der Hypothyreose. Zu Beginn manchmal Hyperthyreose, später durch Schädigung des Schilddrüsengewebes Übergang in Hypothyreose.",
+      "erklaerung_fa": "تیروئیدیت هاشیموتو یک بیماری خودایمنی همراه با التهاب مزمن غدهٔ تیروئید است. شایع‌ترین علت کم‌کاری تیروئید. در ابتدا گاهی پرکاری تیروئید، بعداً به‌دلیل آسیب بافت تیروئید گذار به کم‌کاری تیروئید.",
       "schwierigkeit": "mittel",
       "tags": [
         "Endokrinologie",
@@ -11374,6 +11687,7 @@
       "seite": 26,
       "typ": "multiple_choice",
       "frage": "Welche klinischen Symptome treten bei erworbener Hypothyreose auf?",
+      "frage_fa": "کدام علائم بالینی در کم‌کاری اکتسابی تیروئید بروز می‌کنند؟",
       "optionen": [
         "Antriebsarmut, Müdigkeit, Desinteresse",
         "Gewichtszunahme",
@@ -11384,6 +11698,17 @@
         "Generalisiertes Myxödem (nicht eindrückbar)",
         "Bradykardie, Hypotonie, Herzrhythmusstörungen",
         "Hyperaktivität, Schwitzen"
+      ],
+      "optionen_fa": [
+        "بی‌انگیزگی، خستگی، بی‌علاقگی",
+        "افزایش وزن",
+        "یبوست",
+        "پوست خشک و پوسته‌پوسته، خمیری، رنگ‌پریده",
+        "موی خشک و شکننده، ناخن‌های شکننده",
+        "حساسیت به سرما، احساس سرمای دائمی",
+        "میکسدم منتشر (فرورفتگی‌ناپذیر)",
+        "برادی‌کاردی، افت فشار خون، آریتمی قلبی",
+        "بیش‌فعالی، تعریق"
       ],
       "richtig": [
         0,
@@ -11396,6 +11721,7 @@
         7
       ],
       "erklaerung": "Hypothyreose-Klinik: Verlangsamung des gesamten Stoffwechsels! Antriebsarmut, Müdigkeit, Gewichtszunahme, Obstipation, trockene Haut, sprödes Haar, raue heisere Stimme, evtl. Struma/Kloßgefühl, Kälteempfindlichkeit, generalisiertes Myxödem (nicht eindrückbar), Bradykardie/Hypotonie, Menstruationsbeschwerden. Hyperaktivität/Schwitzen = HYPERthyreose.",
+      "erklaerung_fa": "تصویر بالینی کم‌کاری تیروئید: کندشدن کل متابولیسم! بی‌انگیزگی، خستگی، افزایش وزن، یبوست، پوست خشک، موی شکننده، صدای خشن و گرفته، احتمالاً گواتر/احساس توده در گلو، حساسیت به سرما، میکسدم منتشر (فرورفتگی‌ناپذیر)، برادی‌کاردی/افت فشار خون، مشکلات قاعدگی. بیش‌فعالی/تعریق = پرکاری تیروئید.",
       "schwierigkeit": "schwer",
       "tags": [
         "Endokrinologie",
@@ -11411,6 +11737,7 @@
       "seite": 26,
       "typ": "single_choice",
       "frage": "Was ist das Myxödem-Koma?",
+      "frage_fa": "کمای میکسدمی چیست؟",
       "optionen": [
         "Eine harmlose Schwellung",
         "Notfall - Komplikation der Hypothyreose, ausgelöst durch Infekte, Kälte, Stress oder Sedativa",
@@ -11418,8 +11745,16 @@
         "Schilddrüsenkrebs",
         "Diabetisches Koma"
       ],
+      "optionen_fa": [
+        "یک تورم بی‌خطر",
+        "اورژانس — عارضهٔ کم‌کاری تیروئید، برانگیخته‌شده توسط عفونت، سرما، استرس یا داروهای آرام‌بخش",
+        "نوعی پرکاری تیروئید",
+        "سرطان تیروئید",
+        "کمای دیابتی"
+      ],
       "richtig": 1,
       "erklaerung": "Myxödem-Koma (hypothyreotes Koma) = NOTFALL! Kann bei bestehender Hypothyreose durch Infekte, Kälte, Stress oder Sedativa ausgelöst werden. Symptome: Hypothermie (rektale Temperatur oft nicht mehr messbar), Bradykardie, Hypotonie, Hypoventilation, Elektrolytentgleisungen, Hypoxie/Hyperkapnie, Bewusstseinsveränderungen, Koma. Hohe Letalität!",
+      "erklaerung_fa": "کمای میکسدمی (کمای هایپوتیروئید) = اورژانس! می‌تواند در کم‌کاری موجود تیروئید توسط عفونت، سرما، استرس یا داروهای آرام‌بخش برانگیخته شود. علائم: هایپوترمی (دمای رکتال اغلب دیگر قابل اندازه‌گیری نیست)، برادی‌کاردی، افت فشار خون، هایپوونتیلاسیون، اختلالات الکترولیتی، هیپوکسی/هیپرکاپنی، تغییرات هوشیاری، کما. مرگ‌ومیر بالا!",
       "schwierigkeit": "schwer",
       "tags": [
         "Endokrinologie",
@@ -11436,6 +11771,7 @@
       "seite": 26,
       "typ": "multiple_choice",
       "frage": "Wie wird die erworbene Hypothyreose behandelt?",
+      "frage_fa": "کم‌کاری اکتسابی تیروئید چگونه درمان می‌شود؟",
       "optionen": [
         "Behandlung der Ursache",
         "Substitution von Schilddrüsenhormonen, v.a. L-Thyroxin (Levothyroxin)",
@@ -11443,12 +11779,20 @@
         "Operative Entfernung",
         "Steroide"
       ],
+      "optionen_fa": [
+        "درمان علت",
+        "جایگزینی هورمون‌های تیروئید، به‌ویژه ال-تیروکسین (لووتیروکسین)",
+        "کمای میکسدمی: اقدامات اورژانسی، تجویز مایعات ← درمان در بخش مراقبت‌های ویژه",
+        "برداشتن جراحی",
+        "استروئیدها"
+      ],
       "richtig": [
         0,
         1,
         2
       ],
       "erklaerung": "Hypothyreose-Therapie: Ursachenbehandlung, Substitution von Schilddrüsenhormonen (v.a. L-Thyroxin/Levothyroxin), bei Myxödem-Koma: Notfallmaßnahmen, Volumengabe, intensivmedizinische Behandlung.",
+      "erklaerung_fa": "درمان کم‌کاری تیروئید: درمان علت، جایگزینی هورمون‌های تیروئید (به‌ویژه ال-تیروکسین/لووتیروکسین)، در کمای میکسدمی: اقدامات اورژانسی، تجویز مایعات، درمان در بخش مراقبت‌های ویژه.",
       "schwierigkeit": "schwer",
       "tags": [
         "Endokrinologie",
@@ -11465,6 +11809,7 @@
       "seite": 26,
       "typ": "multiple_choice",
       "frage": "Wie hoch ist der Jod-Tagesbedarf nach DGE (Stand 2025)?",
+      "frage_fa": "نیاز روزانهٔ ید بر اساس DGE (وضعیت 2025) چقدر است؟",
       "optionen": [
         "Erwachsene: 150 µg/Tag",
         "Kinder: 80-200 µg/Tag (je nach Alter)",
@@ -11473,6 +11818,14 @@
         "Erwachsene: 50 µg/Tag",
         "Schwangere: 100 µg/Tag"
       ],
+      "optionen_fa": [
+        "بزرگسالان: 150 µg در روز",
+        "کودکان: 80-200 µg در روز (بسته به سن)",
+        "زنان باردار: 220 µg در روز",
+        "زنان شیرده: 230 µg در روز",
+        "بزرگسالان: 50 µg در روز",
+        "زنان باردار: 100 µg در روز"
+      ],
       "richtig": [
         0,
         1,
@@ -11480,6 +11833,7 @@
         3
       ],
       "erklaerung": "Jod-Tagesbedarf (DGE 2025): Erwachsene 150 µg/Tag, Kinder 80-200 µg/Tag, Schwangere 220 µg/Tag, Stillende 230 µg/Tag.",
+      "erklaerung_fa": "نیاز روزانهٔ ید (DGE 2025): بزرگسالان 150 µg در روز، کودکان 80-200 µg در روز، زنان باردار 220 µg در روز، زنان شیرده 230 µg در روز.",
       "schwierigkeit": "schwer",
       "tags": [
         "Endokrinologie",
@@ -11495,6 +11849,7 @@
       "seite": 26,
       "typ": "multiple_choice",
       "frage": "Welche Lebensmittel sind reich an Jod?",
+      "frage_fa": "کدام مواد غذایی سرشار از ید هستند؟",
       "optionen": [
         "Seefisch",
         "Meeresfrüchte",
@@ -11502,6 +11857,14 @@
         "Jodiertes Speisesalz",
         "Evtl. Milch und Eier (abhängig vom Jodgehalt des Viehfutters)",
         "Zucker"
+      ],
+      "optionen_fa": [
+        "ماهی دریایی",
+        "غذاهای دریایی",
+        "جلبک‌ها",
+        "نمک خوراکی یددار",
+        "احتمالاً شیر و تخم‌مرغ (بسته به میزان ید خوراک دام)",
+        "قند"
       ],
       "richtig": [
         0,
@@ -11511,6 +11874,7 @@
         4
       ],
       "erklaerung": "Jodquellen: Seefisch, Meeresfrüchte, Algen, jodiertes Speisesalz zum Kochen, evtl. Milch und Eier (abhängig vom Jodgehalt des Viehfutters).",
+      "erklaerung_fa": "منابع ید: ماهی دریایی، غذاهای دریایی، جلبک‌ها، نمک خوراکی یددار برای پخت‌وپز، احتمالاً شیر و تخم‌مرغ (بسته به میزان ید خوراک دام).",
       "schwierigkeit": "mittel",
       "tags": [
         "Endokrinologie",
@@ -11526,6 +11890,7 @@
       "seite": 26,
       "typ": "multiple_choice",
       "frage": "Welche Komplikationen können bei Hypothyreose auftreten?",
+      "frage_fa": "کدام عوارض می‌توانند در کم‌کاری تیروئید رخ دهند؟",
       "optionen": [
         "Myxödem-Koma (Notfall!)",
         "Infertilität, erhöhtes Abortrisiko",
@@ -11533,12 +11898,20 @@
         "Diabetes mellitus",
         "Akromegalie"
       ],
+      "optionen_fa": [
+        "کمای میکسدمی (اورژانس!)",
+        "ناباروری، افزایش خطر سقط جنین",
+        "افزایش خطر آترواسکلروز به‌دلیل هایپرکلسترولمی ← افزایش خطر KHK و AVK",
+        "دیابت شیرین",
+        "آکرومگالی"
+      ],
       "richtig": [
         0,
         1,
         2
       ],
       "erklaerung": "Hypothyreose-Komplikationen: Myxödem-Koma (Notfall), Infertilität/Abortrisiko erhöht, erhöhtes Arterioskleroserisiko durch Hypercholesterinämie → erhöhtes KHK/AVK-Risiko.",
+      "erklaerung_fa": "عوارض کم‌کاری تیروئید: کمای میکسدمی (اورژانس)، ناباروری/افزایش خطر سقط، افزایش خطر آترواسکلروز به‌دلیل هایپرکلسترولمی ← افزایش خطر KHK/AVK.",
       "schwierigkeit": "schwer",
       "tags": [
         "Endokrinologie",
@@ -11554,6 +11927,7 @@
       "seite": 26,
       "typ": "single_choice",
       "frage": "Welche Laborwerte zeigen eine primäre Hypothyreose?",
+      "frage_fa": "کدام مقادیر آزمایشگاهی کم‌کاری اولیهٔ تیروئید را نشان می‌دهند؟",
       "optionen": [
         "fT3 und fT4 ↑, TSH ↓",
         "fT3 und fT4 ↓, TSH ↑, TRH-Test überschießend positiv",
@@ -11561,8 +11935,16 @@
         "fT3 normal, fT4 ↑",
         "TSH ↑, fT3/fT4 normal"
       ],
+      "optionen_fa": [
+        "افزایش fT3 و fT4، کاهش TSH",
+        "کاهش fT3 و fT4، افزایش TSH، تست TRH با پاسخ بیش از حد مثبت",
+        "همهٔ مقادیر طبیعی",
+        "fT3 طبیعی، افزایش fT4",
+        "افزایش TSH، fT3/fT4 طبیعی"
+      ],
       "richtig": 1,
       "erklaerung": "Primäre Hypothyreose: fT3 und fT4 erniedrigt (↓), TSH erhöht (↑) (kompensatorisch), TRH-Test überschießend positiv.",
+      "erklaerung_fa": "کم‌کاری اولیهٔ تیروئید: fT3 و fT4 کاهش‌یافته (↓)، TSH افزایش‌یافته (↑) (جبرانی)، تست TRH با پاسخ بیش از حد مثبت.",
       "schwierigkeit": "schwer",
       "tags": [
         "Endokrinologie",
@@ -11579,6 +11961,7 @@
       "seite": 26,
       "typ": "multiple_choice",
       "frage": "Wie unterscheiden sich sekundäre und tertiäre Hypothyreose im Labor?",
+      "frage_fa": "کم‌کاری ثانویه و ثالثیهٔ تیروئید از نظر آزمایشگاهی چه تفاوتی دارند؟",
       "optionen": [
         "Sekundäre Hypothyreose: fT3, fT4 und TSH ↓ - nach TRH-Gabe kein Anstieg von TSH (Hypophyse kann kein TSH produzieren)",
         "Tertiäre Hypothyreose: fT3, fT4, TSH und TRH ↓",
@@ -11586,11 +11969,19 @@
         "Bei beiden alles normal",
         "Bei sekundärer alles ↑"
       ],
+      "optionen_fa": [
+        "کم‌کاری ثانویه: کاهش fT3، fT4 و TSH — پس از تجویز TRH هیچ افزایشی در TSH رخ نمی‌دهد (هیپوفیز نمی‌تواند TSH تولید کند)",
+        "کم‌کاری ثالثیه: کاهش fT3، fT4، TSH و TRH",
+        "در هر دو همه‌چیز ↑",
+        "در هر دو همه‌چیز طبیعی",
+        "در ثانویه همه‌چیز ↑"
+      ],
       "richtig": [
         0,
         1
       ],
       "erklaerung": "Sekundäre Hypothyreose (Hypophyse): fT3, fT4, TSH alle ↓. Nach TRH-Gabe kein TSH-Anstieg. Tertiäre Hypothyreose (Hypothalamus): fT3, fT4, TSH und TRH alle ↓.",
+      "erklaerung_fa": "کم‌کاری ثانویه (هیپوفیز): fT3، fT4، TSH همگی ↓. پس از تجویز TRH افزایش TSH رخ نمی‌دهد. کم‌کاری ثالثیه (هیپوتالاموس): fT3، fT4، TSH و TRH همگی ↓.",
       "schwierigkeit": "schwer",
       "tags": [
         "Endokrinologie",
@@ -11606,6 +11997,7 @@
       "seite": 26,
       "typ": "multiple_choice",
       "frage": "Welche Antikörper sind bei der Hashimoto-Thyreoiditis nachweisbar?",
+      "frage_fa": "کدام آنتی‌بادی‌ها در تیروئیدیت هاشیموتو قابل شناسایی هستند؟",
       "optionen": [
         "TPO-AK (Thyreoid-Peroxidase-Antikörper)",
         "TG-AK (Thyreoglobulin-Antikörper, TAK)",
@@ -11613,11 +12005,19 @@
         "ANA",
         "Rheumafaktor"
       ],
+      "optionen_fa": [
+        "TPO-AK (آنتی‌بادی ضد پراکسیداز تیروئید)",
+        "TG-AK (آنتی‌بادی ضد تیروگلوبولین، TAK)",
+        "آنتی‌بادی ضد گیرندهٔ TSH",
+        "ANA",
+        "فاکتور روماتوئید"
+      ],
       "richtig": [
         0,
         1
       ],
       "erklaerung": "Hashimoto-Thyreoiditis-Antikörper: TPO-AK (Thyreoid-Peroxidase-AK) und TG-AK (Thyreoglobulin-AK, TAK). TSH-Rezeptor-AK sind bei Morbus Basedow (Hyperthyreose).",
+      "erklaerung_fa": "آنتی‌بادی‌های تیروئیدیت هاشیموتو: TPO-AK (آنتی‌بادی ضد پراکسیداز تیروئید) و TG-AK (آنتی‌بادی ضد تیروگلوبولین، TAK). آنتی‌بادی ضد گیرندهٔ TSH مربوط به بیماری گریوز (پرکاری تیروئید) است.",
       "schwierigkeit": "schwer",
       "tags": [
         "Endokrinologie",
@@ -11633,7 +12033,9 @@
       "seite": 26,
       "typ": "fallbeispiel",
       "fallbeschreibung": "Eine 45-jährige Patientin kommt mit Müdigkeit, Gewichtszunahme (10 kg in 6 Monaten), trockener Haut, Kälteempfindlichkeit, Obstipation und Haarausfall in die Praxis. Labor: TSH stark erhöht, fT3 und fT4 erniedrigt. Antikörper-Test: TPO-AK und TG-AK positiv.",
+      "fallbeschreibung_fa": "یک بیمار زن ۴۵ ساله با خستگی، افزایش وزن (۱۰ کیلوگرم در ۶ ماه)، پوست خشک، حساسیت به سرما، یبوست و ریزش مو به مطب مراجعه می‌کند. آزمایشگاه: TSH به‌شدت افزایش‌یافته، fT3 و fT4 کاهش‌یافته. تست آنتی‌بادی: TPO-AK و TG-AK مثبت.",
       "frage": "Welche Diagnose ist am wahrscheinlichsten?",
+      "frage_fa": "محتمل‌ترین تشخیص کدام است؟",
       "optionen": [
         "Hyperthyreose",
         "Primäre Hypothyreose durch Hashimoto-Thyreoiditis",
@@ -11641,8 +12043,16 @@
         "Cushing-Syndrom",
         "Sekundäre Hypothyreose"
       ],
+      "optionen_fa": [
+        "پرکاری تیروئید",
+        "کم‌کاری اولیهٔ تیروئید به‌دلیل تیروئیدیت هاشیموتو",
+        "دیابت شیرین نوع ۲",
+        "سندرم کوشینگ",
+        "کم‌کاری ثانویهٔ تیروئید"
+      ],
       "richtig": 1,
       "erklaerung": "Klassisches Bild der primären Hypothyreose durch Hashimoto-Thyreoiditis: typische Symptome (Müdigkeit, Gewichtszunahme, Kälteempfindlichkeit, Obstipation, trockene Haut), Labor (TSH ↑, fT3/fT4 ↓) und positive Antikörper (TPO-AK, TG-AK) bestätigen die Diagnose.",
+      "erklaerung_fa": "تصویر کلاسیک کم‌کاری اولیهٔ تیروئید به‌دلیل تیروئیدیت هاشیموتو: علائم معمول (خستگی، افزایش وزن، حساسیت به سرما، یبوست، پوست خشک)، آزمایشگاه (افزایش TSH، کاهش fT3/fT4) و آنتی‌بادی‌های مثبت (TPO-AK، TG-AK) تشخیص را تأیید می‌کنند.",
       "schwierigkeit": "mittel",
       "tags": [
         "Endokrinologie",
@@ -11659,7 +12069,9 @@
       "seite": 26,
       "typ": "fallbeispiel",
       "fallbeschreibung": "Eine 75-jährige Patientin mit bekannter Hypothyreose wird im Winter mit Bewusstseinsstörung, kaum messbarer Körpertemperatur, Bradykardie (45/min) und Hypotonie eingeliefert. Sie hatte ihre L-Thyroxin-Medikation seit 2 Wochen abgesetzt.",
+      "fallbeschreibung_fa": "یک بیمار زن ۷۵ ساله با کم‌کاری شناخته‌شدهٔ تیروئید در زمستان با اختلال هوشیاری، دمای بدن به‌سختی قابل اندازه‌گیری، برادی‌کاردی (45 در دقیقه) و افت فشار خون بستری می‌شود. او دو هفته است داروی ال-تیروکسین خود را قطع کرده است.",
       "frage": "Was liegt vor und wie wird behandelt?",
+      "frage_fa": "چه چیزی وجود دارد و چگونه درمان می‌شود؟",
       "optionen": [
         "Diabetisches Koma - Insulin geben",
         "Myxödem-Koma (hypothyreotes Koma) - Notfall! Sofortige Klinikeinweisung, intensivmedizinische Behandlung, Volumengabe, T3/T4-Substitution i.v.",
@@ -11667,8 +12079,16 @@
         "Hyperthyreose-Krise",
         "Normale Müdigkeit - nach Hause schicken"
       ],
+      "optionen_fa": [
+        "کمای دیابتی — تجویز انسولین",
+        "کمای میکسدمی (کمای هایپوتیروئید) — اورژانس! انتقال فوری به بیمارستان، درمان در بخش مراقبت‌های ویژه، تجویز مایعات، جایگزینی وریدی T3/T4",
+        "سکتهٔ مغزی — ترومبولیز",
+        "بحران پرکاری تیروئید",
+        "خستگی طبیعی — به خانه فرستادن"
+      ],
       "richtig": 1,
       "erklaerung": "Myxödem-Koma (hypothyreotes Koma) - NOTFALL! Hohe Letalität! Auslöser: Absetzen der Medikation + Kälte. Klinik: Hypothermie, Bradykardie, Hypotonie, Hypoventilation, Bewusstseinsstörungen. Therapie: Notfallmaßnahmen, Volumengabe, Schilddrüsenhormone i.v., intensivmedizinische Behandlung.",
+      "erklaerung_fa": "کمای میکسدمی (کمای هایپوتیروئید) — اورژانس! مرگ‌ومیر بالا! عامل برانگیزاننده: قطع دارو + سرما. تصویر بالینی: هایپوترمی، برادی‌کاردی، افت فشار خون، هایپوونتیلاسیون، اختلالات هوشیاری. درمان: اقدامات اورژانسی، تجویز مایعات، هورمون‌های تیروئید وریدی، درمان در بخش مراقبت‌های ویژه.",
       "schwierigkeit": "schwer",
       "tags": [
         "Endokrinologie",
@@ -11685,6 +12105,7 @@
       "seite": 27,
       "typ": "single_choice",
       "frage": "Was ist eine Hyperthyreose?",
+      "frage_fa": "پرکاری تیروئید (هایپرتیروئیدیسم) چیست؟",
       "optionen": [
         "Schilddrüsenunterfunktion",
         "Schilddrüsenüberfunktion mit Überschuss an T3/T4",
@@ -11692,8 +12113,16 @@
         "Entzündung der Nebenschilddrüsen",
         "Kalziummangel"
       ],
+      "optionen_fa": [
+        "کم‌کاری تیروئید",
+        "پرکاری غدهٔ تیروئید همراه با فزونی T3/T4",
+        "بزرگ‌شدن غدهٔ تیروئید بدون اختلال عملکرد",
+        "التهاب غدد پاراتیروئید",
+        "کمبود کلسیم"
+      ],
       "richtig": 1,
       "erklaerung": "Hyperthyreose = Schilddrüsenüberfunktion mit Überschuss an Schilddrüsenhormonen (T3/T4). Der gesamte Stoffwechsel wird beschleunigt.",
+      "erklaerung_fa": "هایپرتیروئیدیسم = پرکاری غدهٔ تیروئید همراه با فزونی هورمون‌های تیروئید (T3/T4). کل متابولیسم تسریع می‌شود.",
       "schwierigkeit": "leicht",
       "tags": [
         "Endokrinologie",
@@ -11709,6 +12138,7 @@
       "seite": 27,
       "typ": "multiple_choice",
       "frage": "Welche Ursachen kann eine Hyperthyreose haben?",
+      "frage_fa": "پرکاری تیروئید چه علل‌هایی می‌تواند داشته باشد؟",
       "optionen": [
         "Schilddrüsenautonomie (autonomes Adenom)",
         "Morbus Basedow, Hashimoto-Thyreoiditis und andere Schilddrüsenentzündungen",
@@ -11716,6 +12146,14 @@
         "Schwangerschaftshyperthyreose (hoher hCG-Spiegel in 8.-20. SSW)",
         "Überdosierung von Schilddrüsenhormonen oder Jod",
         "Vitamin-D-Mangel"
+      ],
+      "optionen_fa": [
+        "خودمختاری تیروئید (آدنوم خودمختار)",
+        "بیماری گریوز (بازدو)، تیروئیدیت هاشیموتو و سایر التهاب‌های تیروئید",
+        "کارسینوم تیروئید",
+        "پرکاری تیروئید بارداری (سطح بالای hCG در هفتهٔ ۸ تا ۲۰ بارداری)",
+        "مصرف بیش از حد هورمون‌های تیروئید یا ید",
+        "کمبود ویتامین D"
       ],
       "richtig": [
         0,
@@ -11725,6 +12163,7 @@
         4
       ],
       "erklaerung": "Hyperthyreose-Ursachen: Schilddrüsenautonomie (unifokal/autonomes Adenom, multifokal, disseminiert), Morbus Basedow, Hashimoto (anfangs), Schilddrüsenkarzinom, Schwangerschaftshyperthyreose, Überdosierung von Hormonen/Jod, erhöhte TSH-Sekretion durch Hypophysenadenom.",
+      "erklaerung_fa": "علل پرکاری تیروئید: خودمختاری تیروئید (تک‌کانونی/آدنوم خودمختار، چندکانونی، منتشر)، بیماری گریوز، هاشیموتو (در ابتدا)، کارسینوم تیروئید، پرکاری تیروئید بارداری، مصرف بیش از حد هورمون/ید، افزایش ترشح TSH به‌دلیل آدنوم هیپوفیز.",
       "schwierigkeit": "schwer",
       "tags": [
         "Endokrinologie",
@@ -11740,6 +12179,7 @@
       "seite": 27,
       "typ": "single_choice",
       "frage": "Was bedeutet Schilddrüsenautonomie?",
+      "frage_fa": "خودمختاری تیروئید به چه معناست؟",
       "optionen": [
         "Die Schilddrüse ist entzündet",
         "Ungesteuerte Produktion der Schilddrüsenhormone, unabhängig vom Regelkreis (Hypothalamus-Hypophyse-Schilddrüse)",
@@ -11747,8 +12187,16 @@
         "Ein Tumor der Nebenschilddrüse",
         "Mangel an Jod"
       ],
+      "optionen_fa": [
+        "غدهٔ تیروئید ملتهب است",
+        "تولید بدون کنترل هورمون‌های تیروئید، مستقل از حلقهٔ تنظیم (هیپوتالاموس-هیپوفیز-تیروئید)",
+        "غدهٔ تیروئید بسیار کوچک است",
+        "توموری در غدهٔ پاراتیروئید",
+        "کمبود ید"
+      ],
       "richtig": 1,
       "erklaerung": "Schilddrüsenautonomie = ungesteuerte Produktion der Schilddrüsenhormone, unabhängig vom Regelkreis (Hypothalamus-Hypophyse-Schilddrüse). Kann unifokal (autonomes Adenom), multifokal oder disseminiert sein.",
+      "erklaerung_fa": "خودمختاری تیروئید = تولید بدون کنترل هورمون‌های تیروئید، مستقل از حلقهٔ تنظیم (هیپوتالاموس-هیپوفیز-تیروئید). می‌تواند تک‌کانونی (آدنوم خودمختار)، چندکانونی یا منتشر باشد.",
       "schwierigkeit": "schwer",
       "tags": [
         "Endokrinologie",
@@ -11764,12 +12212,20 @@
       "seite": 27,
       "typ": "multiple_choice",
       "frage": "Welche Herz-Symptome treten bei Hyperthyreose auf?",
+      "frage_fa": "کدام علائم قلبی در پرکاری تیروئید بروز می‌کنند؟",
       "optionen": [
         "Tachykardie",
         "Herzrhythmusstörungen, Extrasystolen",
         "Angina pectoris",
         "Arterielle Hypertonie, große Blutdruckamplitude",
         "Bradykardie"
+      ],
+      "optionen_fa": [
+        "تاکی‌کاردی",
+        "آریتمی قلبی، اکستراسیستول",
+        "آنژین صدری",
+        "فشار خون شریانی بالا، دامنهٔ فشار خون بزرگ",
+        "برادی‌کاردی"
       ],
       "richtig": [
         0,
@@ -11778,6 +12234,7 @@
         3
       ],
       "erklaerung": "Herz-Symptome bei Hyperthyreose: Tachykardie, Herzrhythmusstörungen, Extrasystolen, Angina pectoris, arterielle Hypertonie mit großer Blutdruckamplitude. Bradykardie wäre bei HYPOthyreose.",
+      "erklaerung_fa": "علائم قلبی در پرکاری تیروئید: تاکی‌کاردی، آریتمی قلبی، اکستراسیستول، آنژین صدری، فشار خون شریانی بالا با دامنهٔ فشار خون بزرگ. برادی‌کاردی مربوط به کم‌کاری تیروئید است.",
       "schwierigkeit": "schwer",
       "tags": [
         "Endokrinologie",
@@ -11794,12 +12251,20 @@
       "seite": 27,
       "typ": "multiple_choice",
       "frage": "Welche ZNS-/Psyche-Symptome treten bei Hyperthyreose auf?",
+      "frage_fa": "کدام علائم عصبی/روانی در پرکاری تیروئید بروز می‌کنند؟",
       "optionen": [
         "Psychomotorische Unruhe, Nervosität",
         "Erhöhte Reizbarkeit, seelische Labilität",
         "Schlafstörungen",
         "Gesteigerte Reflexe (Hyperreflexie), feinschlägiger Tremor",
         "Antriebsarmut und Müdigkeit"
+      ],
+      "optionen_fa": [
+        "بی‌قراری روانی-حرکتی، عصبانیت",
+        "افزایش تحریک‌پذیری، بی‌ثباتی روحی",
+        "اختلالات خواب",
+        "افزایش رفلکس‌ها (هایپررفلکسی)، لرزش ظریف",
+        "بی‌انگیزگی و خستگی"
       ],
       "richtig": [
         0,
@@ -11808,6 +12273,7 @@
         3
       ],
       "erklaerung": "ZNS/Psyche bei Hyperthyreose: psychomotorische Unruhe, Nervosität, erhöhte Reizbarkeit, seelische Labilität, Schlafstörungen, gesteigerte Reflexe (Hyperreflexie), feinschlägiger Tremor. Antriebsarmut/Müdigkeit wäre HYPOthyreose.",
+      "erklaerung_fa": "علائم عصبی/روانی در پرکاری تیروئید: بی‌قراری روانی-حرکتی، عصبانیت، افزایش تحریک‌پذیری، بی‌ثباتی روحی، اختلالات خواب، افزایش رفلکس‌ها (هایپررفلکسی)، لرزش ظریف. بی‌انگیزگی/خستگی مربوط به کم‌کاری تیروئید است.",
       "schwierigkeit": "schwer",
       "tags": [
         "Endokrinologie",
@@ -11824,12 +12290,20 @@
       "seite": 27,
       "typ": "multiple_choice",
       "frage": "Welche Stoffwechsel-Symptome treten bei Hyperthyreose auf?",
+      "frage_fa": "کدام علائم متابولیک در پرکاری تیروئید بروز می‌کنند؟",
       "optionen": [
         "Gewichtsabnahme trotz gesteigertem Appetit/Heißhunger",
         "Diarrhö",
         "Pathologische Glukosetoleranz",
         "Wärmeintoleranz, vermehrtes Schwitzen",
         "Gewichtszunahme"
+      ],
+      "optionen_fa": [
+        "کاهش وزن با وجود افزایش اشتها/گرسنگی شدید",
+        "اسهال",
+        "تحمل گلوکز پاتولوژیک",
+        "عدم تحمل گرما، تعریق زیاد",
+        "افزایش وزن"
       ],
       "richtig": [
         0,
@@ -11838,6 +12312,7 @@
         3
       ],
       "erklaerung": "Stoffwechsel bei Hyperthyreose: Gewichtsabnahme trotz Heißhunger, Diarrhö, pathologische Glukosetoleranz, Wärmeintoleranz, vermehrtes Schwitzen. Gewichtszunahme wäre HYPOthyreose.",
+      "erklaerung_fa": "متابولیسم در پرکاری تیروئید: کاهش وزن با وجود گرسنگی شدید، اسهال، تحمل گلوکز پاتولوژیک، عدم تحمل گرما، تعریق زیاد. افزایش وزن مربوط به کم‌کاری تیروئید است.",
       "schwierigkeit": "schwer",
       "tags": [
         "Endokrinologie",
@@ -11853,6 +12328,7 @@
       "seite": 27,
       "typ": "multiple_choice",
       "frage": "Was gehört zur Merseburger Trias (bei Morbus Basedow)?",
+      "frage_fa": "سه‌گانهٔ مرزبورگ (در بیماری گریوز) شامل چه چیزهایی است؟",
       "optionen": [
         "Struma",
         "Exophthalmus (infolge endokriner Orbitopathie)",
@@ -11860,12 +12336,20 @@
         "Bradykardie",
         "Gewichtszunahme"
       ],
+      "optionen_fa": [
+        "گواتر (استروما)",
+        "برون‌زدگی چشم (اگزوفتالموس، در پی اوربیتوپاتی غددی)",
+        "تاکی‌کاردی",
+        "برادی‌کاردی",
+        "افزایش وزن"
+      ],
       "richtig": [
         0,
         1,
         2
       ],
       "erklaerung": "Merseburger Trias bei Morbus Basedow (bei 50%): Struma (Kropf), Exophthalmus (hervortretende Augen infolge endokriner Orbitopathie), Tachykardie.",
+      "erklaerung_fa": "سه‌گانهٔ مرزبورگ در بیماری گریوز (در ۵۰٪ موارد): گواتر، اگزوفتالموس (برون‌زدگی چشم‌ها در پی اوربیتوپاتی غددی)، تاکی‌کاردی.",
       "schwierigkeit": "schwer",
       "tags": [
         "Endokrinologie",
@@ -11882,6 +12366,7 @@
       "seite": 27,
       "typ": "single_choice",
       "frage": "Was ist die thyreotoxische Krise?",
+      "frage_fa": "بحران تیروتوکسیک چیست؟",
       "optionen": [
         "Eine harmlose Verschlechterung",
         "Notfall mit hohem Fieber, Tachykardie, Hautrötung, Schweißausbrüchen, Durchfällen, Bewusstseinsstörungen bis Koma",
@@ -11889,8 +12374,16 @@
         "Ein Kalziummangel",
         "Ein Vitaminmangel"
       ],
+      "optionen_fa": [
+        "یک بدترشدن بی‌خطر",
+        "اورژانس همراه با تب بالا، تاکی‌کاردی، قرمزی پوست، تعریق شدید، اسهال، اختلالات هوشیاری تا حد کما",
+        "نوعی کم‌کاری تیروئید",
+        "کمبود کلسیم",
+        "کمبود ویتامین"
+      ],
       "richtig": 1,
       "erklaerung": "Thyreotoxische Krise = NOTFALL! Symptome: hohes Fieber, Tachykardie, Hautrötung, Schweißausbrüche, Durchfälle, Erbrechen, Exsikkose, Bewusstseinsstörungen bis Koma → intensivmedizinische Behandlung.",
+      "erklaerung_fa": "بحران تیروتوکسیک = اورژانس! علائم: تب بالا، تاکی‌کاردی، قرمزی پوست، تعریق شدید، اسهال، استفراغ، کم‌آبی، اختلالات هوشیاری تا حد کما ← درمان در بخش مراقبت‌های ویژه.",
       "schwierigkeit": "schwer",
       "tags": [
         "Endokrinologie",
@@ -11907,6 +12400,7 @@
       "seite": 27,
       "typ": "single_choice",
       "frage": "Welche Laborwerte zeigt eine typische Hyperthyreose?",
+      "frage_fa": "پرکاری معمول تیروئید کدام مقادیر آزمایشگاهی را نشان می‌دهد؟",
       "optionen": [
         "TSH ↑, fT3 ↓, fT4 ↓",
         "TSH ↓, fT3 ↑, fT4 ↑",
@@ -11914,8 +12408,16 @@
         "TSH ↑, fT3 ↑, fT4 ↑",
         "Nur fT3 erhöht"
       ],
+      "optionen_fa": [
+        "افزایش TSH، کاهش fT3، کاهش fT4",
+        "کاهش TSH، افزایش fT3، افزایش fT4",
+        "همهٔ مقادیر طبیعی",
+        "افزایش TSH، افزایش fT3، افزایش fT4",
+        "فقط fT3 افزایش‌یافته"
+      ],
       "richtig": 1,
       "erklaerung": "Hyperthyreose-Labor: TSH ↓ (supprimiert durch negative Rückkopplung), fT3 ↑, fT4 ↑. Cave: Bei Hyperthyreose durch Hypophysenadenom wäre der TSH erhöht!",
+      "erklaerung_fa": "آزمایشگاه پرکاری تیروئید: کاهش TSH (سرکوب‌شده به‌دلیل بازخورد منفی)، افزایش fT3، افزایش fT4. احتیاط: در پرکاری تیروئید ناشی از آدنوم هیپوفیز، TSH افزایش‌یافته خواهد بود!",
       "schwierigkeit": "schwer",
       "tags": [
         "Endokrinologie",
@@ -11932,6 +12434,7 @@
       "seite": 27,
       "typ": "multiple_choice",
       "frage": "Welche Antikörper sind bei Morbus Basedow nachweisbar?",
+      "frage_fa": "کدام آنتی‌بادی‌ها در بیماری گریوز قابل شناسایی هستند؟",
       "optionen": [
         "TRAK (TSH-Rezeptor-Antikörper)",
         "TG-AK",
@@ -11939,12 +12442,20 @@
         "ANA",
         "Rheumafaktor"
       ],
+      "optionen_fa": [
+        "TRAK (آنتی‌بادی ضد گیرندهٔ TSH)",
+        "TG-AK",
+        "TPO-AK",
+        "ANA",
+        "فاکتور روماتوئید"
+      ],
       "richtig": [
         0,
         1,
         2
       ],
       "erklaerung": "Bei Morbus Basedow: TRAK (TSH-Rezeptor-Antikörper - typisch!), zusätzlich oft TG-AK und TPO-AK. Die TRAK stimulieren den TSH-Rezeptor und verursachen die Überfunktion.",
+      "erklaerung_fa": "در بیماری گریوز: TRAK (آنتی‌بادی ضد گیرندهٔ TSH — مشخصه!)، علاوه بر آن اغلب TG-AK و TPO-AK. TRAKها گیرندهٔ TSH را تحریک می‌کنند و باعث پرکاری می‌شوند.",
       "schwierigkeit": "schwer",
       "tags": [
         "Endokrinologie",
@@ -11961,6 +12472,7 @@
       "seite": 27,
       "typ": "multiple_choice",
       "frage": "Was bedeuten die Szintigrafie-Befunde?",
+      "frage_fa": "یافته‌های اسکن (سینتی‌گرافی) چه معنایی دارند؟",
       "optionen": [
         "Fokale 'heiße Knoten' sind Hinweis auf eine Schilddrüsenautonomie",
         "Gleichmäßige diffuse Verteilung deutet auf Morbus Basedow hin",
@@ -11968,12 +12480,20 @@
         "Heiße Knoten sind immer Krebs",
         "Kalte Knoten sind immer harmlos"
       ],
+      "optionen_fa": [
+        "«گره‌های داغ» کانونی نشانهٔ خودمختاری تیروئید هستند",
+        "توزیع یکنواخت و منتشر به بیماری گریوز اشاره دارد",
+        "«گره‌های سرد» می‌توانند نشانهٔ بدخیمی باشند",
+        "گره‌های داغ همیشه سرطان هستند",
+        "گره‌های سرد همیشه بی‌خطرند"
+      ],
       "richtig": [
         0,
         1,
         2
       ],
       "erklaerung": "Szintigrafie-Befunde: 'Heiße Knoten' (vermehrte Aufnahme) = Schilddrüsenautonomie. Gleichmäßige diffuse Verteilung = Morbus Basedow. 'Kalte Knoten' (verminderte Aufnahme) = Hinweis auf Malignom (müssen abgeklärt werden!).",
+      "erklaerung_fa": "یافته‌های سینتی‌گرافی: «گره‌های داغ» (جذب افزایش‌یافته) = خودمختاری تیروئید. توزیع یکنواخت و منتشر = بیماری گریوز. «گره‌های سرد» (جذب کاهش‌یافته) = نشانهٔ بدخیمی (باید بررسی شوند!).",
       "schwierigkeit": "schwer",
       "tags": [
         "Endokrinologie",
@@ -11990,6 +12510,7 @@
       "seite": 27,
       "typ": "multiple_choice",
       "frage": "Welche Therapiemaßnahmen gibt es bei Hyperthyreose?",
+      "frage_fa": "چه اقدامات درمانی در پرکاری تیروئید وجود دارد؟",
       "optionen": [
         "Meidung von Stress, Entspannungsverfahren, geregelter Tagesablauf",
         "Nikotinverzicht, Koffeinverzicht",
@@ -11997,6 +12518,14 @@
         "Radiojodtherapie (Bestrahlung mit radioaktivem Jod)",
         "Chirurgische Schilddrüsenentfernung",
         "Mehr Jod zuführen"
+      ],
+      "optionen_fa": [
+        "پرهیز از استرس، روش‌های آرام‌سازی، برنامهٔ روزانهٔ منظم",
+        "ترک سیگار، پرهیز از کافئین",
+        "داروها: داروهای ضدتیروئید (مثلاً تیامازول، کاربیمازول)",
+        "درمان با ید رادیواکتیو (پرتودهی با ید رادیواکتیو)",
+        "برداشتن جراحی غدهٔ تیروئید",
+        "دریافت ید بیشتر"
       ],
       "richtig": [
         0,
@@ -12006,6 +12535,7 @@
         4
       ],
       "erklaerung": "Hyperthyreose-Therapie: Stressmeidung, Entspannung, Nikotin-/Koffeinverzicht, kein Aufenthalt in jodhaltiger Meeresluft, Thyreostatika (Thiamazol, Carbimazol), Radiojodtherapie, chirurgische Entfernung. Cave: versehentliche Entfernung der Nebenschilddrüsen → Hypokalzämie/Tetanie.",
+      "erklaerung_fa": "درمان پرکاری تیروئید: پرهیز از استرس، آرام‌سازی، ترک سیگار/کافئین، عدم اقامت در هوای دریایی حاوی ید، داروهای ضدتیروئید (تیامازول، کاربیمازول)، درمان با ید رادیواکتیو، برداشتن جراحی. احتیاط: برداشتن سهوی غدد پاراتیروئید ← هایپوکلسمی/تتانی.",
       "schwierigkeit": "schwer",
       "tags": [
         "Endokrinologie",
@@ -12021,7 +12551,9 @@
       "seite": 27,
       "typ": "fallbeispiel",
       "fallbeschreibung": "Eine 40-jährige Patientin klagt über Herzrasen, Gewichtsverlust trotz Heißhunger, Nervosität und vermehrtes Schwitzen. Auffällig sind hervortretende Augen und eine Struma. Labor: TSH ↓, fT3/fT4 ↑, TRAK positiv.",
+      "fallbeschreibung_fa": "یک بیمار زن ۴۰ ساله از تپش قلب، کاهش وزن با وجود گرسنگی شدید، عصبانیت و تعریق زیاد شکایت دارد. چشم‌های برون‌زده و گواتر قابل توجه هستند. آزمایشگاه: کاهش TSH، افزایش fT3/fT4، TRAK مثبت.",
       "frage": "Welche Diagnose ist am wahrscheinlichsten?",
+      "frage_fa": "محتمل‌ترین تشخیص کدام است؟",
       "optionen": [
         "Hypothyreose",
         "Morbus Basedow (mit Merseburger Trias)",
@@ -12029,8 +12561,16 @@
         "Diabetes mellitus",
         "Cushing-Syndrom"
       ],
+      "optionen_fa": [
+        "کم‌کاری تیروئید",
+        "بیماری گریوز (با سه‌گانهٔ مرزبورگ)",
+        "کارسینوم تیروئید",
+        "دیابت شیرین",
+        "سندرم کوشینگ"
+      ],
       "richtig": 1,
       "erklaerung": "Klassischer Morbus Basedow mit Merseburger Trias: Struma + Exophthalmus (hervortretende Augen) + Tachykardie. Labor bestätigt Hyperthyreose (TSH↓, fT3/fT4↑) und die positiven TRAK sind typisch für Morbus Basedow.",
+      "erklaerung_fa": "بیماری گریوز کلاسیک با سه‌گانهٔ مرزبورگ: گواتر + اگزوفتالموس (چشم‌های برون‌زده) + تاکی‌کاردی. آزمایشگاه پرکاری تیروئید را تأیید می‌کند (کاهش TSH، افزایش fT3/fT4) و TRAK مثبت مشخصهٔ بیماری گریوز است.",
       "schwierigkeit": "mittel",
       "tags": [
         "Endokrinologie",
@@ -17456,11 +17996,14 @@
       "seite": 23,
       "lateinisch": "Thymopoietin",
       "deutsch": "Hormon des Thymus - T-Zell-Reifung",
+      "deutsch_fa": "هورمون تیموس — بلوغ سلول‌های T",
       "wortart": "Substantiv (n)",
       "kategorie": "Immunologie",
       "herkunft": "gr. thymos + poiein = machen",
       "eselsbruecke": "Thymo-poietin macht T-Zellen im Thymus",
+      "eselsbruecke_fa": "Thymo-poietin سلول‌های T را در تیموس می‌سازد",
       "beispiel": "Thymopoietin stimuliert die Differenzierung von T-Lymphozyten.",
+      "beispiel_fa": "تیموپویتین تمایز لنفوسیت‌های T را تحریک می‌کند.",
       "schwierigkeit": "schwer"
     },
     {
@@ -17469,11 +18012,14 @@
       "seite": 23,
       "lateinisch": "Glukagon",
       "deutsch": "Hormon des Pankreas - erhöht Blutzucker",
+      "deutsch_fa": "هورمون لوزالمعده — قند خون را افزایش می‌دهد",
       "wortart": "Substantiv (n)",
       "kategorie": "Hormon",
       "herkunft": "gr. glykos = süß",
       "eselsbruecke": "Glukagon = Gegenspieler zu Insulin (Blutzucker ↑)",
+      "eselsbruecke_fa": "گلوکاگون = رقیب انسولین (افزایش قند خون)",
       "beispiel": "Glukagon wird bei niedrigem Blutzucker ausgeschüttet.",
+      "beispiel_fa": "گلوکاگون در قند خون پایین ترشح می‌شود.",
       "schwierigkeit": "mittel"
     },
     {
@@ -17482,11 +18028,14 @@
       "seite": 23,
       "lateinisch": "Somatostatin",
       "deutsch": "Hormon des Pankreas - hemmt diverse Hormone",
+      "deutsch_fa": "هورمون لوزالمعده — هورمون‌های متعدد را مهار می‌کند",
       "wortart": "Substantiv (n)",
       "kategorie": "Hormon",
       "herkunft": "gr. soma = Körper; stasis = Stillstand",
       "eselsbruecke": "Somato-statin = Stopp für Körperhormone",
+      "eselsbruecke_fa": "Somato-statin = توقف هورمون‌های بدن",
       "beispiel": "Somatostatin hemmt STH, TSH, ACTH, Insulin und Glukagon.",
+      "beispiel_fa": "سوماتوستاتین STH، TSH، ACTH، انسولین و گلوکاگون را مهار می‌کند.",
       "schwierigkeit": "schwer"
     },
     {
@@ -17495,11 +18044,14 @@
       "seite": 23,
       "lateinisch": "Östrogene",
       "deutsch": "Weibliche Sexualhormone (Estradiol, Estron, Estriol)",
+      "deutsch_fa": "هورمون‌های جنسی زنانه (استرادیول، استرون، استریول)",
       "wortart": "Substantiv (n, pl)",
       "kategorie": "Hormon",
       "herkunft": "gr. oistros = Begierde",
       "eselsbruecke": "Östro-Gene = weibliche Hormone (für Östrus = Brunst)",
+      "eselsbruecke_fa": "Östro-Gene = هورمون‌های زنانه",
       "beispiel": "Östrogene werden hauptsächlich in den Ovarien gebildet.",
+      "beispiel_fa": "استروژن‌ها عمدتاً در تخمدان‌ها ساخته می‌شوند.",
       "schwierigkeit": "mittel"
     },
     {
@@ -17508,11 +18060,14 @@
       "seite": 23,
       "lateinisch": "Gestagene",
       "deutsch": "Schwangerschaftshormone (v.a. Progesteron)",
+      "deutsch_fa": "هورمون‌های بارداری (به‌ویژه پروژسترون)",
       "wortart": "Substantiv (n, pl)",
       "kategorie": "Hormon",
       "herkunft": "lat. gestare = tragen",
       "eselsbruecke": "Gesta-gene = Hormone fürs 'Tragen' (Schwangerschaft)",
+      "eselsbruecke_fa": "Gesta-gene = هورمون‌های «حمل» (بارداری)",
       "beispiel": "Progesteron ist das wichtigste Gestagen - 'Schwangerschaftsschutz-Hormon'.",
+      "beispiel_fa": "پروژسترون مهم‌ترین ژستاژن است — «هورمون محافظ بارداری».",
       "schwierigkeit": "schwer"
     },
     {
@@ -17521,11 +18076,14 @@
       "seite": 23,
       "lateinisch": "hCG",
       "deutsch": "Humanes Choriongonadotropin (Schwangerschaftshormon)",
+      "deutsch_fa": "گنادوتروپین جفتی انسانی (هورمون بارداری)",
       "wortart": "Abkürzung",
       "kategorie": "Hormon",
       "herkunft": "human + Chorion + Gonado-Tropin",
       "eselsbruecke": "hCG = Schwangerschaftshormon (im Schwangerschaftstest)",
+      "eselsbruecke_fa": "hCG = هورمون بارداری (در تست بارداری)",
       "beispiel": "hCG ist im Urin von Schwangeren nachweisbar.",
+      "beispiel_fa": "hCG در ادرار زنان باردار قابل شناسایی است.",
       "schwierigkeit": "schwer"
     },
     {
@@ -17534,11 +18092,14 @@
       "seite": 23,
       "lateinisch": "Erythropoetin",
       "deutsch": "Hormon der Niere - Blutbildung",
+      "deutsch_fa": "هورمون کلیه — خون‌سازی",
       "wortart": "Substantiv (n)",
       "kategorie": "Hormon",
       "herkunft": "gr. erythros = rot; poiein = machen",
       "eselsbruecke": "Erythro-poetin macht rote Blutkörperchen",
+      "eselsbruecke_fa": "Erythro-poetin گلبول‌های قرمز می‌سازد",
       "beispiel": "Erythropoetin stimuliert die Erythropoese im Knochenmark.",
+      "beispiel_fa": "اریتروپویتین اریتروپویز را در مغز استخوان تحریک می‌کند.",
       "schwierigkeit": "schwer"
     },
     {
@@ -17547,11 +18108,14 @@
       "seite": 23,
       "lateinisch": "Renin",
       "deutsch": "Hormonähnliches Enzym der Niere (RAAS)",
+      "deutsch_fa": "آنزیم شبه‌هورمونی کلیه (RAAS)",
       "wortart": "Substantiv (n)",
       "kategorie": "Enzym",
       "herkunft": "lat. ren = Niere",
       "eselsbruecke": "Renin = von der Niere (ren = Niere)",
+      "eselsbruecke_fa": "Renin = از کلیه (ren = کلیه)",
       "beispiel": "Renin startet die RAAS-Kaskade zur Blutdruckerhöhung.",
+      "beispiel_fa": "رنین آبشار RAAS را برای افزایش فشار خون آغاز می‌کند.",
       "schwierigkeit": "schwer"
     },
     {
@@ -17560,11 +18124,14 @@
       "seite": 23,
       "lateinisch": "Gastrin",
       "deutsch": "Hormon des Magens - Magensäureproduktion ↑",
+      "deutsch_fa": "هورمون معده — افزایش تولید اسید معده",
       "wortart": "Substantiv (n)",
       "kategorie": "Hormon",
       "herkunft": "gr. gaster = Magen",
       "eselsbruecke": "Gastr-in = Magen-Hormon",
+      "eselsbruecke_fa": "Gastr-in = هورمون معده",
       "beispiel": "Gastrin stimuliert die Salzsäureproduktion im Magen.",
+      "beispiel_fa": "گاسترین تولید اسید کلریدریک در معده را تحریک می‌کند.",
       "schwierigkeit": "schwer"
     },
     {
@@ -17573,11 +18140,14 @@
       "seite": 23,
       "lateinisch": "Sekretin",
       "deutsch": "Hormon des Dünndarms - Pankreassaft + Galle ↑",
+      "deutsch_fa": "هورمون رودهٔ باریک — افزایش شیرهٔ لوزالمعده + صفرا",
       "wortart": "Substantiv (n)",
       "kategorie": "Hormon",
       "herkunft": "lat. secretio = Absonderung",
       "eselsbruecke": "Sekretin sekretiert (Pankreassaft, Galle)",
+      "eselsbruecke_fa": "سکرتین ترشح می‌کند (شیرهٔ لوزالمعده، صفرا)",
       "beispiel": "Sekretin hemmt die Magensäure und fördert Galle/Pankreassaft.",
+      "beispiel_fa": "سکرتین اسید معده را مهار و صفرا/شیرهٔ لوزالمعده را تقویت می‌کند.",
       "schwierigkeit": "schwer"
     },
     {
@@ -17586,11 +18156,14 @@
       "seite": 23,
       "lateinisch": "Cholecystokinin (CCK)",
       "deutsch": "Hormon des Dünndarms - Pankreasenzyme + Gallenkontraktion ↑",
+      "deutsch_fa": "هورمون رودهٔ باریک — افزایش آنزیم‌های لوزالمعده و انقباض صفرا",
       "wortart": "Substantiv (n)",
       "kategorie": "Hormon",
       "herkunft": "gr. chole = Galle; kystis = Blase; kinein = bewegen",
       "eselsbruecke": "Chole-cysto-kinin = Galle-Blase-Bewegung",
+      "eselsbruecke_fa": "Chole-cysto-kinin = حرکت کیسهٔ صفرا",
       "beispiel": "CCK bewirkt die Kontraktion der Gallenblase nach fettreicher Mahlzeit.",
+      "beispiel_fa": "CCK پس از غذای پرچرب باعث انقباض کیسهٔ صفرا می‌شود.",
       "schwierigkeit": "schwer"
     },
     {
@@ -17599,11 +18172,14 @@
       "seite": 23,
       "lateinisch": "ANP/BNP",
       "deutsch": "Hormone des Herzens - Blutdrucksenkung",
+      "deutsch_fa": "هورمون‌های قلب — کاهش فشار خون",
       "wortart": "Abkürzung",
       "kategorie": "Kardiologie",
       "herkunft": "engl. Atrial/Brain Natriuretic Peptide",
       "eselsbruecke": "BNP = Wichtiger Wert für Herzinsuffizienz",
+      "eselsbruecke_fa": "BNP = مقدار مهم برای نارسایی قلبی",
       "beispiel": "BNP wird bei Herzinsuffizienz im Labor bestimmt.",
+      "beispiel_fa": "BNP در نارسایی قلبی در آزمایشگاه اندازه‌گیری می‌شود.",
       "schwierigkeit": "schwer"
     },
     {
@@ -17612,11 +18188,14 @@
       "seite": 23,
       "lateinisch": "Histamin",
       "deutsch": "Gewebshormon - Allergie/Entzündung",
+      "deutsch_fa": "هورمون بافتی — آلرژی/التهاب",
       "wortart": "Substantiv (n)",
       "kategorie": "Immunologie",
       "herkunft": "gr. histos = Gewebe",
       "eselsbruecke": "Hist-amin = Gewebe-Amin (für Allergie/Entzündung)",
+      "eselsbruecke_fa": "Hist-amin = آمین بافتی (برای آلرژی/التهاب)",
       "beispiel": "Histamin verursacht Juckreiz und Schwellung bei Allergien.",
+      "beispiel_fa": "هیستامین در آلرژی‌ها خارش و تورم ایجاد می‌کند.",
       "schwierigkeit": "mittel"
     },
     {
@@ -17625,11 +18204,14 @@
       "seite": 23,
       "lateinisch": "Bradykinin",
       "deutsch": "Kinin - Vasodilatation, Blutdruckabfall, Entzündung",
+      "deutsch_fa": "کینین — گشادی عروق، افت فشار خون، التهاب",
       "wortart": "Substantiv (n)",
       "kategorie": "Biochemie",
       "herkunft": "gr. bradys = langsam; kinein = bewegen",
       "eselsbruecke": "Brady-kinin = langsame Bewegung (verlangsamte Reaktion)",
+      "eselsbruecke_fa": "Brady-kinin = حرکت کند",
       "beispiel": "Bradykinin beteiligt sich an Entzündungsreaktionen.",
+      "beispiel_fa": "برادی‌کینین در واکنش‌های التهابی شرکت می‌کند.",
       "schwierigkeit": "schwer"
     },
     {
@@ -17638,11 +18220,14 @@
       "seite": 23,
       "lateinisch": "Prostaglandine",
       "deutsch": "Gewebshormone - Entzündung, Schmerz, Fieber",
+      "deutsch_fa": "هورمون‌های بافتی — التهاب، درد، تب",
       "wortart": "Substantiv (n, pl)",
       "kategorie": "Biochemie",
       "herkunft": "Prostata + Gland-in",
       "eselsbruecke": "Prosta-Glandine = bei Entzündung, Schmerz, Fieber",
+      "eselsbruecke_fa": "Prosta-Glandine = در التهاب، درد، تب",
       "beispiel": "NSAR hemmen die Bildung von Prostaglandinen.",
+      "beispiel_fa": "NSARها ساخت پروستاگلاندین‌ها را مهار می‌کنند.",
       "schwierigkeit": "schwer"
     },
     {
@@ -17651,11 +18236,14 @@
       "seite": 23,
       "lateinisch": "Serotonin",
       "deutsch": "Gewebshormon - Schlaf, Emotionen, 'Glückshormon'",
+      "deutsch_fa": "هورمون بافتی — خواب، احساسات، «هورمون شادی»",
       "wortart": "Substantiv (n)",
       "kategorie": "Neurologie",
       "herkunft": "lat. serum + tonus = Spannung",
       "eselsbruecke": "Serotonin = das 'Gute-Laune'-Hormon",
+      "eselsbruecke_fa": "سروتونین = هورمون «خوش‌خلقی»",
       "beispiel": "Serotonin-Mangel kann zu Depression führen.",
+      "beispiel_fa": "کمبود سروتونین می‌تواند به افسردگی منجر شود.",
       "schwierigkeit": "mittel"
     },
     {
@@ -17664,11 +18252,14 @@
       "seite": 24,
       "lateinisch": "RAAS",
       "deutsch": "Renin-Angiotensin-Aldosteron-System (Blutdruckregulation)",
+      "deutsch_fa": "سیستم رنین-آنژیوتانسین-آلدوسترون (تنظیم فشار خون)",
       "wortart": "Abkürzung",
       "kategorie": "Pathophysiologie",
       "herkunft": "Renin-Angiotensin-Aldosteron-System",
       "eselsbruecke": "RAAS = Renin Aktiviert Aldosteron-System",
+      "eselsbruecke_fa": "RAAS = رنین سیستم آلدوسترون را فعال می‌کند",
       "beispiel": "Das RAAS reguliert den Blutdruck und Wasserhaushalt.",
+      "beispiel_fa": "RAAS فشار خون و تعادل آب را تنظیم می‌کند.",
       "schwierigkeit": "schwer"
     },
     {
@@ -17677,11 +18268,14 @@
       "seite": 24,
       "lateinisch": "Angiotensinogen",
       "deutsch": "Vorläufer von Angiotensin (gebildet in der Leber)",
+      "deutsch_fa": "پیش‌سازِ آنژیوتانسین (ساخته‌شده در کبد)",
       "wortart": "Substantiv (n)",
       "kategorie": "Biochemie",
       "herkunft": "gr. angeion = Gefäß; tonos = Spannung",
       "eselsbruecke": "Angiotensin-ogen = Vorstufe von Angiotensin",
+      "eselsbruecke_fa": "Angiotensin-ogen = پیش‌مادهٔ آنژیوتانسین",
       "beispiel": "Renin spaltet Angiotensinogen zu Angiotensin I.",
+      "beispiel_fa": "رنین آنژیوتانسینوژن را به آنژیوتانسین I تجزیه می‌کند.",
       "schwierigkeit": "schwer"
     },
     {
@@ -17690,11 +18284,14 @@
       "seite": 24,
       "lateinisch": "Angiotensin II",
       "deutsch": "Vasokonstriktor - erhöht Blutdruck",
+      "deutsch_fa": "منقبض‌کنندهٔ عروق — فشار خون را افزایش می‌دهد",
       "wortart": "Substantiv (n)",
       "kategorie": "Hormon",
       "herkunft": "gr. angeion = Gefäß; tonos = Spannung",
       "eselsbruecke": "Angio-Tensin II = Gefäßspannung erhöhend",
+      "eselsbruecke_fa": "Angio-Tensin II = افزایش‌دهندهٔ تنش عروق",
       "beispiel": "Angiotensin II ist der stärkste Vasokonstriktor des Körpers.",
+      "beispiel_fa": "آنژیوتانسین II قوی‌ترین منقبض‌کنندهٔ عروق بدن است.",
       "schwierigkeit": "schwer"
     },
     {
@@ -17703,11 +18300,14 @@
       "seite": 24,
       "lateinisch": "ACE",
       "deutsch": "Angiotensin-Converting-Enzym (in der Lunge)",
+      "deutsch_fa": "آنزیم مبدل آنژیوتانسین (در ریه)",
       "wortart": "Abkürzung",
       "kategorie": "Enzym",
       "herkunft": "engl. Angiotensin-Converting Enzyme",
       "eselsbruecke": "ACE = wandelt Angiotensin I zu II um",
+      "eselsbruecke_fa": "ACE = آنژیوتانسین I را به II تبدیل می‌کند",
       "beispiel": "ACE-Hemmer wie Ramipril senken den Blutdruck.",
+      "beispiel_fa": "مهارکننده‌های ACE مانند رامیپریل فشار خون را کاهش می‌دهند.",
       "schwierigkeit": "schwer"
     },
     {
@@ -17716,11 +18316,14 @@
       "seite": 24,
       "lateinisch": "Aldosteron",
       "deutsch": "Mineralkortikoid - Na+/K+-Regulation",
+      "deutsch_fa": "مینرالوکورتیکوئید — تنظیم سدیم/پتاسیم",
       "wortart": "Substantiv (n)",
       "kategorie": "Hormon",
       "herkunft": "lat. ald = Aldehyd; sterol",
       "eselsbruecke": "Aldo-steron = Natrium-Sparer, Kalium-Ausscheider",
+      "eselsbruecke_fa": "Aldo-steron = نگه‌دارندهٔ سدیم، دفع‌کنندهٔ پتاسیم",
       "beispiel": "Aldosteron erhöht durch Na+-Retention das Blutvolumen.",
+      "beispiel_fa": "آلدوسترون با احتباس سدیم حجم خون را افزایش می‌دهد.",
       "schwierigkeit": "schwer"
     },
     {
@@ -17729,11 +18332,14 @@
       "seite": 24,
       "lateinisch": "Vasokonstriktion",
       "deutsch": "Verengung der Blutgefäße",
+      "deutsch_fa": "تنگ‌شدن رگ‌های خونی",
       "wortart": "Substantiv (f)",
       "kategorie": "Pathophysiologie",
       "herkunft": "lat. vas = Gefäß; constrictio = Verengung",
       "eselsbruecke": "Vaso-Konstriktion = Gefäß-Verengung",
+      "eselsbruecke_fa": "Vaso-Konstriktion = تنگ‌شدن عروق",
       "beispiel": "Vasokonstriktion erhöht den peripheren Widerstand und damit den Blutdruck.",
+      "beispiel_fa": "انقباض عروق مقاومت محیطی و در نتیجه فشار خون را افزایش می‌دهد.",
       "schwierigkeit": "mittel"
     },
     {
@@ -17742,11 +18348,14 @@
       "seite": 24,
       "lateinisch": "Vasodilatation",
       "deutsch": "Erweiterung der Blutgefäße",
+      "deutsch_fa": "گشادشدن رگ‌های خونی",
       "wortart": "Substantiv (f)",
       "kategorie": "Pathophysiologie",
       "herkunft": "lat. vas = Gefäß; dilatare = erweitern",
       "eselsbruecke": "Vaso-Dilatation = Gefäß-Erweiterung",
+      "eselsbruecke_fa": "Vaso-Dilatation = گشادشدن عروق",
       "beispiel": "Vasodilatation senkt den Blutdruck.",
+      "beispiel_fa": "گشادی عروق فشار خون را کاهش می‌دهد.",
       "schwierigkeit": "mittel"
     },
     {
@@ -17755,11 +18364,14 @@
       "seite": 25,
       "lateinisch": "Schilddrüse (Glandula thyroidea)",
       "deutsch": "Schmetterlingsförmige Hormondrüse vor der Luftröhre",
+      "deutsch_fa": "غدهٔ هورمونی پروانه‌شکل جلوی نای (غدهٔ تیروئید)",
       "wortart": "Substantiv (f)",
       "kategorie": "Anatomie",
       "herkunft": "gr. thyreos = Schild",
       "eselsbruecke": "Schild-Drüse vor dem Schild-Knorpel",
+      "eselsbruecke_fa": "Schild-Drüse جلوی غضروف سپری",
       "beispiel": "Die Schilddrüse produziert T3, T4 und Calcitonin.",
+      "beispiel_fa": "غدهٔ تیروئید T3، T4 و کلسی‌تونین تولید می‌کند.",
       "schwierigkeit": "leicht"
     },
     {
@@ -17768,11 +18380,14 @@
       "seite": 25,
       "lateinisch": "Isthmus",
       "deutsch": "Verbindungsstück (z.B. zwischen den Schilddrüsenlappen)",
+      "deutsch_fa": "قطعهٔ رابط (مثلاً بین لوب‌های تیروئید)",
       "wortart": "Substantiv (m)",
       "kategorie": "Anatomie",
       "herkunft": "gr. isthmos = schmale Landverbindung",
       "eselsbruecke": "Isthmus = schmale Verbindung",
+      "eselsbruecke_fa": "Isthmus = اتصال باریک",
       "beispiel": "Der Isthmus verbindet die beiden Schilddrüsenlappen.",
+      "beispiel_fa": "ایسموس دو لوب تیروئید را به هم متصل می‌کند.",
       "schwierigkeit": "schwer"
     },
     {
@@ -17781,11 +18396,14 @@
       "seite": 25,
       "lateinisch": "T3 (Triiodthyronin)",
       "deutsch": "Schilddrüsenhormon mit 3 Iod-Atomen",
+      "deutsch_fa": "هورمون تیروئید با ۳ اتم ید",
       "wortart": "Abkürzung",
       "kategorie": "Hormon",
       "herkunft": "tri = drei; iod; gr. thyreos = Schild",
       "eselsbruecke": "T-3 = drei Iod-Atome",
+      "eselsbruecke_fa": "T-3 = سه اتم ید",
       "beispiel": "T3 ist die aktivste Form der Schilddrüsenhormone.",
+      "beispiel_fa": "T3 فعال‌ترین شکل هورمون‌های تیروئید است.",
       "schwierigkeit": "mittel"
     },
     {
@@ -17794,11 +18412,14 @@
       "seite": 25,
       "lateinisch": "T4 (Thyroxin)",
       "deutsch": "Schilddrüsenhormon mit 4 Iod-Atomen",
+      "deutsch_fa": "هورمون تیروئید با ۴ اتم ید",
       "wortart": "Abkürzung",
       "kategorie": "Hormon",
       "herkunft": "tetra = vier; iod; gr. thyreos = Schild",
       "eselsbruecke": "T-4 = vier Iod-Atome",
+      "eselsbruecke_fa": "T-4 = چهار اتم ید",
       "beispiel": "T4 wird im Körper zu T3 umgewandelt.",
+      "beispiel_fa": "T4 در بدن به T3 تبدیل می‌شود.",
       "schwierigkeit": "mittel"
     },
     {
@@ -17807,11 +18428,14 @@
       "seite": 25,
       "lateinisch": "Euthyreose",
       "deutsch": "Normale Schilddrüsenfunktion (T3/T4 normal)",
+      "deutsch_fa": "عملکرد طبیعی تیروئید (T3/T4 طبیعی)",
       "wortart": "Substantiv (f)",
       "kategorie": "Endokrinologie",
       "herkunft": "gr. eu = gut; thyreos = Schild",
       "eselsbruecke": "Eu-Thyreose = 'gute' Schilddrüsenfunktion (normal)",
+      "eselsbruecke_fa": "Eu-Thyreose = عملکرد «خوب» تیروئید (طبیعی)",
       "beispiel": "Bei Euthyreose sind die Hormonwerte normal.",
+      "beispiel_fa": "در یوتیروئیدیسم مقادیر هورمونی طبیعی هستند.",
       "schwierigkeit": "mittel"
     },
     {
@@ -17820,11 +18444,14 @@
       "seite": 25,
       "lateinisch": "Hypothyreose",
       "deutsch": "Schilddrüsenunterfunktion (T3/T4 ↓)",
+      "deutsch_fa": "کم‌کاری تیروئید (کاهش T3/T4)",
       "wortart": "Substantiv (f)",
       "kategorie": "Krankheitsbild",
       "herkunft": "gr. hypo = unter; thyreos = Schild",
       "eselsbruecke": "Hypo-Thyreose = ZU WENIG Schilddrüsenhormon",
+      "eselsbruecke_fa": "Hypo-Thyreose = هورمون تیروئید بسیار کم",
       "beispiel": "Hypothyreose verlangsamt den gesamten Stoffwechsel.",
+      "beispiel_fa": "کم‌کاری تیروئید کل متابولیسم را کند می‌کند.",
       "schwierigkeit": "mittel"
     },
     {
@@ -17833,11 +18460,14 @@
       "seite": 25,
       "lateinisch": "Athyreose",
       "deutsch": "Komplettes Fehlen der Schilddrüse (angeboren)",
+      "deutsch_fa": "فقدان کامل غدهٔ تیروئید (مادرزادی)",
       "wortart": "Substantiv (f)",
       "kategorie": "Krankheitsbild",
       "herkunft": "gr. a = ohne; thyreos = Schild",
       "eselsbruecke": "A-Thyreose = OHNE Schilddrüse",
+      "eselsbruecke_fa": "A-Thyreose = بدون غدهٔ تیروئید",
       "beispiel": "Athyreose verursacht eine angeborene Hypothyreose.",
+      "beispiel_fa": "آتیروئیدیسم باعث کم‌کاری مادرزادی تیروئید می‌شود.",
       "schwierigkeit": "schwer"
     },
     {
@@ -17846,11 +18476,14 @@
       "seite": 25,
       "lateinisch": "Struma",
       "deutsch": "Vergrößerung der Schilddrüse (Kropf)",
+      "deutsch_fa": "بزرگ‌شدن غدهٔ تیروئید (گواتر)",
       "wortart": "Substantiv (f)",
       "kategorie": "Krankheitsbild",
       "herkunft": "lat. struma = geschwollene Drüse",
       "eselsbruecke": "Struma = sichtbarer 'Kropf' am Hals",
+      "eselsbruecke_fa": "Struma = «گواتر» قابل مشاهده در گردن",
       "beispiel": "Eine Struma kann durch Jodmangel entstehen.",
+      "beispiel_fa": "استروما (گواتر) می‌تواند به‌دلیل کمبود ید ایجاد شود.",
       "schwierigkeit": "mittel"
     },
     {
@@ -17859,11 +18492,14 @@
       "seite": 25,
       "lateinisch": "Kretinismus",
       "deutsch": "Vollbild der angeborenen Hypothyreose",
+      "deutsch_fa": "تصویر کامل کم‌کاری مادرزادی تیروئید",
       "wortart": "Substantiv (m)",
       "kategorie": "Krankheitsbild",
       "herkunft": "frz. cretin = Tor",
       "eselsbruecke": "Kretinismus = ehemals häufige Folge unerkannter angeborener Hypothyreose",
+      "eselsbruecke_fa": "کرتینیسم = پیامد سابقاً شایع کم‌کاری مادرزادی تشخیص‌داده‌نشده",
       "beispiel": "Durch Neugeborenenscreening ist Kretinismus heute selten geworden.",
+      "beispiel_fa": "به‌لطف غربالگری نوزادان، کرتینیسم امروزه نادر شده است.",
       "schwierigkeit": "schwer"
     },
     {
@@ -17872,11 +18508,14 @@
       "seite": 25,
       "lateinisch": "L-Thyroxin (Levothyroxin)",
       "deutsch": "Künstlich hergestelltes T4 zur Substitution",
+      "deutsch_fa": "T4 مصنوعی برای جایگزینی",
       "wortart": "Substantiv (n)",
       "kategorie": "Medikament",
       "herkunft": "Levo + Thyroxin",
       "eselsbruecke": "L-Thyroxin = das Schilddrüsenhormon zum Schlucken",
+      "eselsbruecke_fa": "L-Thyroxin = هورمون تیروئید خوراکی",
       "beispiel": "Bei Hypothyreose wird L-Thyroxin lebenslang eingenommen.",
+      "beispiel_fa": "در کم‌کاری تیروئید، ال-تیروکسین مادام‌العمر مصرف می‌شود.",
       "schwierigkeit": "mittel"
     },
     {
@@ -17885,11 +18524,14 @@
       "seite": 25,
       "lateinisch": "Ikterus neonatorum",
       "deutsch": "Neugeborenen-Gelbsucht",
+      "deutsch_fa": "زردی نوزادی",
       "wortart": "Substantiv (m)",
       "kategorie": "Pädiatrie",
       "herkunft": "gr. ikteros = Gelbsucht; neonatorum = Neugeborene",
       "eselsbruecke": "Ikterus = Gelbfärbung der Haut",
+      "eselsbruecke_fa": "Ikterus = زردشدن پوست",
       "beispiel": "Ein verlängerter Ikterus neonatorum kann auf angeborene Hypothyreose hinweisen.",
+      "beispiel_fa": "زردی نوزادی طولانی‌مدت می‌تواند نشانهٔ کم‌کاری مادرزادی تیروئید باشد.",
       "schwierigkeit": "schwer"
     },
     {
@@ -17898,11 +18540,14 @@
       "seite": 26,
       "lateinisch": "Hashimoto-Thyreoiditis",
       "deutsch": "Autoimmunentzündung der Schilddrüse",
+      "deutsch_fa": "التهاب خودایمن غدهٔ تیروئید",
       "wortart": "Substantiv (f)",
       "kategorie": "Krankheitsbild",
       "herkunft": "nach H. Hashimoto (japan. Arzt); thyreos + -itis",
       "eselsbruecke": "Hashimoto = häufigste Ursache der Hypothyreose",
+      "eselsbruecke_fa": "هاشیموتو = شایع‌ترین علت کم‌کاری تیروئید",
       "beispiel": "Hashimoto-Thyreoiditis ist die häufigste Ursache der Hypothyreose.",
+      "beispiel_fa": "تیروئیدیت هاشیموتو شایع‌ترین علت کم‌کاری تیروئید است.",
       "schwierigkeit": "mittel"
     },
     {
@@ -17911,11 +18556,14 @@
       "seite": 26,
       "lateinisch": "Myxödem",
       "deutsch": "Teigige, nicht eindrückbare Schwellung (bei Hypothyreose)",
+      "deutsch_fa": "تورم خمیری و فرورفتگی‌ناپذیر (در کم‌کاری تیروئید)",
       "wortart": "Substantiv (n)",
       "kategorie": "Symptom",
       "herkunft": "gr. myxa = Schleim; oidema = Schwellung",
       "eselsbruecke": "Myx-Ödem = schleimige Schwellung",
+      "eselsbruecke_fa": "Myx-Ödem = تورم لزج/مخاطی",
       "beispiel": "Das generalisierte Myxödem ist typisch für eine schwere Hypothyreose.",
+      "beispiel_fa": "میکسدم منتشر مشخصهٔ کم‌کاری شدید تیروئید است.",
       "schwierigkeit": "schwer"
     },
     {
@@ -17924,11 +18572,14 @@
       "seite": 26,
       "lateinisch": "Myxödem-Koma",
       "deutsch": "Lebensbedrohliche Komplikation der Hypothyreose",
+      "deutsch_fa": "عارضهٔ تهدیدکنندهٔ حیات در کم‌کاری تیروئید",
       "wortart": "Substantiv (n)",
       "kategorie": "Notfall",
       "herkunft": "Myxödem + Koma",
       "eselsbruecke": "Myxödem-Koma = NOTFALL bei schwerer Hypothyreose",
+      "eselsbruecke_fa": "کمای میکسدمی = اورژانس در کم‌کاری شدید تیروئید",
       "beispiel": "Das Myxödem-Koma hat eine hohe Letalität.",
+      "beispiel_fa": "کمای میکسدمی مرگ‌ومیر بالایی دارد.",
       "schwierigkeit": "schwer"
     },
     {
@@ -17937,11 +18588,14 @@
       "seite": 26,
       "lateinisch": "TPO-AK",
       "deutsch": "Thyreoid-Peroxidase-Antikörper (bei Hashimoto)",
+      "deutsch_fa": "آنتی‌بادی ضد پراکسیداز تیروئید (در هاشیموتو)",
       "wortart": "Abkürzung",
       "kategorie": "Diagnostik",
       "herkunft": "Thyroid-Peroxidase-AK",
       "eselsbruecke": "TPO-AK = Antikörper gegen Schilddrüsen-Enzym",
+      "eselsbruecke_fa": "TPO-AK = آنتی‌بادی علیه آنزیم تیروئید",
       "beispiel": "TPO-AK sind bei Hashimoto-Thyreoiditis positiv.",
+      "beispiel_fa": "TPO-AK در تیروئیدیت هاشیموتو مثبت است.",
       "schwierigkeit": "schwer"
     },
     {
@@ -17950,11 +18604,14 @@
       "seite": 26,
       "lateinisch": "TG-AK (TAK)",
       "deutsch": "Thyreoglobulin-Antikörper",
+      "deutsch_fa": "آنتی‌بادی ضد تیروگلوبولین",
       "wortart": "Abkürzung",
       "kategorie": "Diagnostik",
       "herkunft": "Thyroglobulin-AK",
       "eselsbruecke": "TG-AK = Antikörper gegen Schilddrüsen-Eiweiß",
+      "eselsbruecke_fa": "TG-AK = آنتی‌بادی علیه پروتئین تیروئید",
       "beispiel": "TG-AK werden bei Hashimoto-Thyreoiditis bestimmt.",
+      "beispiel_fa": "TG-AK در تیروئیدیت هاشیموتو اندازه‌گیری می‌شود.",
       "schwierigkeit": "schwer"
     },
     {
@@ -17963,11 +18620,14 @@
       "seite": 26,
       "lateinisch": "Hypothermie",
       "deutsch": "Unterkühlung (Körpertemperatur erniedrigt)",
+      "deutsch_fa": "افت دمای بدن (کاهش دمای بدن)",
       "wortart": "Substantiv (f)",
       "kategorie": "Notfall",
       "herkunft": "gr. hypo = unter; thermos = warm",
       "eselsbruecke": "Hypo-Thermie = ZU NIEDRIGE Temperatur",
+      "eselsbruecke_fa": "Hypo-Thermie = دمای بسیار پایین",
       "beispiel": "Hypothermie ist ein Leitsymptom des Myxödem-Komas.",
+      "beispiel_fa": "هایپوترمی یکی از علائم اصلی کمای میکسدمی است.",
       "schwierigkeit": "mittel"
     },
     {
@@ -17976,11 +18636,14 @@
       "seite": 26,
       "lateinisch": "Hypoventilation",
       "deutsch": "Verminderte Atmung",
+      "deutsch_fa": "کاهش تنفس",
       "wortart": "Substantiv (f)",
       "kategorie": "Symptom",
       "herkunft": "gr. hypo = unter; lat. ventilare = belüften",
       "eselsbruecke": "Hypo-Ventilation = ZU WENIG Atmung",
+      "eselsbruecke_fa": "Hypo-Ventilation = تنفس بسیار کم",
       "beispiel": "Hypoventilation führt zu Hypoxie und Hyperkapnie.",
+      "beispiel_fa": "هایپوونتیلاسیون به هیپوکسی و هیپرکاپنی منجر می‌شود.",
       "schwierigkeit": "schwer"
     },
     {
@@ -17989,11 +18652,14 @@
       "seite": 26,
       "lateinisch": "Letalität",
       "deutsch": "Tödlichkeit einer Erkrankung",
+      "deutsch_fa": "میزان کشندگی یک بیماری",
       "wortart": "Substantiv (f)",
       "kategorie": "Allgemein",
       "herkunft": "lat. letalis = tödlich",
       "eselsbruecke": "Letalität = wie tödlich eine Krankheit ist",
+      "eselsbruecke_fa": "Letalität = میزان مرگ‌آور بودن یک بیماری",
       "beispiel": "Das Myxödem-Koma hat eine hohe Letalität.",
+      "beispiel_fa": "کمای میکسدمی مرگ‌ومیر بالایی دارد.",
       "schwierigkeit": "schwer"
     },
     {
@@ -18002,11 +18668,14 @@
       "seite": 26,
       "lateinisch": "Glykosaminoglykane",
       "deutsch": "Komplexe Kohlenhydrate (lagern sich bei Myxödem ein)",
+      "deutsch_fa": "کربوهیدرات‌های پیچیده (در میکسدم رسوب می‌کنند)",
       "wortart": "Substantiv (n, pl)",
       "kategorie": "Biochemie",
       "herkunft": "Zucker-Amino-Glykane",
       "eselsbruecke": "Glykos-Amino-Glykane = Zucker-Amino-Verbindungen",
+      "eselsbruecke_fa": "Glykos-Amino-Glykane = ترکیبات قند-آمین",
       "beispiel": "Bei Hypothyreose lagern sich Glykosaminoglykane in der Haut ein → Myxödem.",
+      "beispiel_fa": "در کم‌کاری تیروئید، گلیکوزآمینوگلیکان‌ها در پوست رسوب می‌کنند ← میکسدم.",
       "schwierigkeit": "schwer"
     },
     {
@@ -18015,11 +18684,14 @@
       "seite": 27,
       "lateinisch": "Hyperthyreose",
       "deutsch": "Schilddrüsenüberfunktion (T3/T4 ↑)",
+      "deutsch_fa": "پرکاری تیروئید (افزایش T3/T4)",
       "wortart": "Substantiv (f)",
       "kategorie": "Krankheitsbild",
       "herkunft": "gr. hyper = über; thyreos = Schild",
       "eselsbruecke": "Hyper-Thyreose = ZU VIEL Schilddrüsenhormon",
+      "eselsbruecke_fa": "Hyper-Thyreose = هورمون تیروئید بیش از حد",
       "beispiel": "Hyperthyreose beschleunigt den gesamten Stoffwechsel.",
+      "beispiel_fa": "پرکاری تیروئید کل متابولیسم را تسریع می‌کند.",
       "schwierigkeit": "mittel"
     },
     {
@@ -18028,11 +18700,14 @@
       "seite": 27,
       "lateinisch": "Morbus Basedow",
       "deutsch": "Autoimmune Schilddrüsenüberfunktion",
+      "deutsch_fa": "پرکاری خودایمن تیروئید (بیماری گریوز)",
       "wortart": "Substantiv (m)",
       "kategorie": "Krankheitsbild",
       "herkunft": "lat. morbus = Krankheit; nach Carl von Basedow",
       "eselsbruecke": "Basedow = Merseburger Trias (Struma, Exophthalmus, Tachykardie)",
+      "eselsbruecke_fa": "Basedow = سه‌گانهٔ مرزبورگ (گواتر، اگزوفتالموس، تاکی‌کاردی)",
       "beispiel": "Morbus Basedow ist eine häufige Ursache der Hyperthyreose.",
+      "beispiel_fa": "بیماری گریوز یکی از علل شایع پرکاری تیروئید است.",
       "schwierigkeit": "mittel"
     },
     {
@@ -18041,11 +18716,14 @@
       "seite": 27,
       "lateinisch": "Schilddrüsenautonomie",
       "deutsch": "Ungesteuerte Hormonproduktion unabhängig vom Regelkreis",
+      "deutsch_fa": "تولید بدون کنترل هورمون، مستقل از حلقهٔ تنظیم",
       "wortart": "Substantiv (f)",
       "kategorie": "Pathophysiologie",
       "herkunft": "gr. autos = selbst; nomos = Gesetz",
       "eselsbruecke": "Autonomie = 'selbstständig' produzierende Schilddrüse",
+      "eselsbruecke_fa": "خودمختاری = غدهٔ تیروئیدی که «مستقل» تولید می‌کند",
       "beispiel": "Bei Schilddrüsenautonomie zeigen sich 'heiße Knoten' in der Szintigrafie.",
+      "beispiel_fa": "در خودمختاری تیروئید، «گره‌های داغ» در سینتی‌گرافی دیده می‌شوند.",
       "schwierigkeit": "schwer"
     },
     {
@@ -18054,11 +18732,14 @@
       "seite": 27,
       "lateinisch": "autonomes Adenom",
       "deutsch": "Gutartiger, selbstständig Hormone produzierender Knoten",
+      "deutsch_fa": "گرهٔ خوش‌خیم و مستقلاً هورمون‌ساز",
       "wortart": "Substantiv (n)",
       "kategorie": "Krankheitsbild",
       "herkunft": "gr. autos = selbst; aden = Drüse",
       "eselsbruecke": "Autonomes Adenom = 'eigenständiger' Drüsenknoten",
+      "eselsbruecke_fa": "آدنوم خودمختار = گرهٔ غددی «مستقل»",
       "beispiel": "Ein autonomes Adenom kann eine Hyperthyreose verursachen.",
+      "beispiel_fa": "یک آدنوم خودمختار می‌تواند پرکاری تیروئید ایجاد کند.",
       "schwierigkeit": "schwer"
     },
     {
@@ -18067,11 +18748,14 @@
       "seite": 27,
       "lateinisch": "Merseburger Trias",
       "deutsch": "Struma, Exophthalmus, Tachykardie (bei Morbus Basedow)",
+      "deutsch_fa": "گواتر، اگزوفتالموس، تاکی‌کاردی (در بیماری گریوز)",
       "wortart": "Substantiv (f)",
       "kategorie": "Krankheitsbild",
       "herkunft": "nach der Stadt Merseburg",
       "eselsbruecke": "Merseburger Trias = die 3 Basedow-Zeichen",
+      "eselsbruecke_fa": "سه‌گانهٔ مرزبورگ = ۳ نشانهٔ گریوز",
       "beispiel": "Die Merseburger Trias tritt bei 50% der Basedow-Patienten auf.",
+      "beispiel_fa": "سه‌گانهٔ مرزبورگ در ۵۰٪ بیماران گریوز بروز می‌کند.",
       "schwierigkeit": "schwer"
     },
     {
@@ -18080,11 +18764,14 @@
       "seite": 27,
       "lateinisch": "Exophthalmus",
       "deutsch": "Hervortreten der Augäpfel",
+      "deutsch_fa": "برون‌زدگی کرهٔ چشم",
       "wortart": "Substantiv (m)",
       "kategorie": "Symptom",
       "herkunft": "gr. ex = heraus; ophthalmos = Auge",
       "eselsbruecke": "Ex-Ophthalmus = Auge tritt HERAUS",
+      "eselsbruecke_fa": "Ex-Ophthalmus = چشم بیرون می‌زند",
       "beispiel": "Der Exophthalmus ist typisch für Morbus Basedow.",
+      "beispiel_fa": "اگزوفتالموس مشخصهٔ بیماری گریوز است.",
       "schwierigkeit": "schwer"
     },
     {
@@ -18093,11 +18780,14 @@
       "seite": 27,
       "lateinisch": "Tremor",
       "deutsch": "Zittern (unwillkürliche rhythmische Muskelbewegung)",
+      "deutsch_fa": "لرزش (حرکت غیرارادی و ریتمیک عضله)",
       "wortart": "Substantiv (m)",
       "kategorie": "Symptom",
       "herkunft": "lat. tremere = zittern",
       "eselsbruecke": "Tremor = Zittern (wie 'tremble' im Englischen)",
+      "eselsbruecke_fa": "Tremor = لرزیدن",
       "beispiel": "Feinschlägiger Tremor tritt bei Hyperthyreose auf.",
+      "beispiel_fa": "لرزش ظریف در پرکاری تیروئید بروز می‌کند.",
       "schwierigkeit": "mittel"
     },
     {
@@ -18106,11 +18796,14 @@
       "seite": 27,
       "lateinisch": "thyreotoxische Krise",
       "deutsch": "Lebensbedrohliche Entgleisung der Hyperthyreose",
+      "deutsch_fa": "از کنترل خارج‌شدن تهدیدکنندهٔ حیات پرکاری تیروئید",
       "wortart": "Substantiv (f)",
       "kategorie": "Notfall",
       "herkunft": "gr. thyreos = Schild; toxikon = Gift",
       "eselsbruecke": "Thyreotoxisch = 'Schilddrüsen-Vergiftung' (Notfall)",
+      "eselsbruecke_fa": "تیروتوکسیک = «مسمومیت تیروئیدی» (اورژانس)",
       "beispiel": "Die thyreotoxische Krise ist ein lebensbedrohlicher Notfall.",
+      "beispiel_fa": "بحران تیروتوکسیک یک اورژانس تهدیدکنندهٔ حیات است.",
       "schwierigkeit": "schwer"
     },
     {
@@ -18119,11 +18812,14 @@
       "seite": 27,
       "lateinisch": "TRAK",
       "deutsch": "TSH-Rezeptor-Antikörper (bei Morbus Basedow)",
+      "deutsch_fa": "آنتی‌بادی ضد گیرندهٔ TSH (در بیماری گریوز)",
       "wortart": "Abkürzung",
       "kategorie": "Diagnostik",
       "herkunft": "TSH-Rezeptor-Antikörper",
       "eselsbruecke": "TRAK = Antikörper, die den TSH-Rezeptor stimulieren",
+      "eselsbruecke_fa": "TRAK = آنتی‌بادی‌هایی که گیرندهٔ TSH را تحریک می‌کنند",
       "beispiel": "TRAK sind bei Morbus Basedow positiv.",
+      "beispiel_fa": "TRAK در بیماری گریوز مثبت است.",
       "schwierigkeit": "schwer"
     },
     {
@@ -18132,11 +18828,14 @@
       "seite": 27,
       "lateinisch": "Thyreostatika",
       "deutsch": "Medikamente zur Hemmung der Schilddrüsenhormonproduktion",
+      "deutsch_fa": "داروهای مهارکنندهٔ تولید هورمون تیروئید",
       "wortart": "Substantiv (n, pl)",
       "kategorie": "Medikament",
       "herkunft": "gr. thyreos = Schild; stasis = Stillstand",
       "eselsbruecke": "Thyreo-Statika stoppen die Schilddrüse (z.B. Thiamazol)",
+      "eselsbruecke_fa": "Thyreo-Statika غدهٔ تیروئید را «متوقف» می‌کنند (مثلاً تیامازول)",
       "beispiel": "Thyreostatika wie Thiamazol werden bei Hyperthyreose eingesetzt.",
+      "beispiel_fa": "داروهای ضدتیروئید مانند تیامازول در پرکاری تیروئید استفاده می‌شوند.",
       "schwierigkeit": "schwer"
     },
     {
@@ -18145,11 +18844,14 @@
       "seite": 27,
       "lateinisch": "Szintigrafie",
       "deutsch": "Nuklearmedizinisches Bildgebungsverfahren",
+      "deutsch_fa": "روش تصویربرداری پزشکی هسته‌ای",
       "wortart": "Substantiv (f)",
       "kategorie": "Diagnostik",
       "herkunft": "lat. scintilla = Funke; gr. graphein = schreiben",
       "eselsbruecke": "Szintigrafie = 'Funkenbild' mit radioaktivem Marker",
+      "eselsbruecke_fa": "سینتی‌گرافی = تصویربرداری با نشانگر رادیواکتیو",
       "beispiel": "In der Szintigrafie zeigen sich heiße und kalte Knoten.",
+      "beispiel_fa": "در سینتی‌گرافی گره‌های داغ و سرد دیده می‌شوند.",
       "schwierigkeit": "schwer"
     },
     {
