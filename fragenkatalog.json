@@ -1,7 +1,7 @@
 {
-  "version": "8.1",
-  "erstellt_am": "2026-07-11",
-  "beschreibung": "Fragenkatalog + Vokabeltrainer Heilpraktikerprüfung - Seite 3-31. Persische Übersetzung (فارسی): KOMPLETT - alle Seiten 3-31 übersetzt!",
+  "version": "9.0",
+  "erstellt_am": "2026-07-12",
+  "beschreibung": "Fragenkatalog + Vokabeltrainer Heilpraktikerprüfung - Seite 3-34. Vollständig zweisprachig Deutsch/Persisch (فارسی).",
   "fragenkatalog": [
     {
       "id": "STW-003-01",
@@ -14065,6 +14065,1138 @@
         "Fallbeispiel"
       ],
       "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-032-01",
+      "kapitel": "Endokrinologie",
+      "thema": "Cushing-Syndrom - Therapie",
+      "seite": 32,
+      "typ": "multiple_choice",
+      "frage": "Wie wird das Cushing-Syndrom behandelt?",
+      "frage_fa": "سندرم کوشینگ چگونه درمان می‌شود؟",
+      "optionen": [
+        "Operative Entfernung des Adenoms, Strahlentherapie",
+        "Medikamente: z.B. Ketoconazol, Metyrapon",
+        "Ggf. Medikamentenreduktion von Glukokortikoiden (wenn möglich) bei exogenem Cushing-Syndrom",
+        "Gabe von zusätzlichem Cortisol",
+        "Keine Behandlung nötig"
+      ],
+      "optionen_fa": [
+        "برداشتن جراحی آدنوم، پرتودرمانی",
+        "داروها: مثلاً کتوکونازول، متیراپون",
+        "در صورت امکان کاهش داروی گلوکوکورتیکوئید در سندرم کوشینگ برون‌زاد",
+        "تجویز کورتیزول اضافی",
+        "نیازی به درمان نیست"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Cushing-Therapie: operative Entfernung des Adenoms + Strahlentherapie, Medikamente (Ketoconazol, Metyrapon - hemmen die Cortisolsynthese), bei exogenem Cushing-Syndrom Medikamentenreduktion der Glukokortikoide (wenn möglich, langsam ausschleichen!).",
+      "erklaerung_fa": "درمان کوشینگ: برداشتن جراحی آدنوم + پرتودرمانی، داروها (کتوکونازول، متیراپون — سنتز کورتیزول را مهار می‌کنند)، در سندرم کوشینگ برون‌زاد کاهش داروی گلوکوکورتیکوئید (در صورت امکان، قطع تدریجی!).",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Cushing",
+        "Therapie"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-032-02",
+      "kapitel": "Endokrinologie",
+      "thema": "Conn-Syndrom - Definition",
+      "seite": 32,
+      "typ": "single_choice",
+      "frage": "Was ist das Conn-Syndrom?",
+      "frage_fa": "سندرم کان چیست؟",
+      "optionen": [
+        "Unterfunktion der Nebennierenrinde",
+        "Erkrankung der Nebennierenrinde mit gesteigerter Sekretion von Aldosteron (= primärer Hyperaldosteronismus)",
+        "Eine Schilddrüsenüberfunktion",
+        "Ein Cortisolmangel",
+        "Ein Tumor des Nebennierenmarks"
+      ],
+      "optionen_fa": [
+        "کم‌کاری قشر غدهٔ فوق‌کلیه",
+        "بیماری قشر غدهٔ فوق‌کلیه همراه با افزایش ترشح آلدوسترون (= هایپرآلدوسترونیسم اولیه)",
+        "پرکاری تیروئید",
+        "کمبود کورتیزول",
+        "توموری در مغز غدهٔ فوق‌کلیه"
+      ],
+      "richtig": 1,
+      "erklaerung": "Conn-Syndrom = Erkrankung der Nebennierenrinde, bei der es zu einer gesteigerten Sekretion von Aldosteron kommt. Primärer Hyperaldosteronismus = Conn-Syndrom.",
+      "erklaerung_fa": "سندرم کان = بیماری قشر غدهٔ فوق‌کلیه که در آن افزایش ترشح آلدوسترون رخ می‌دهد. هایپرآلدوسترونیسم اولیه = سندرم کان.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Conn",
+        "Aldosteron"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-032-03",
+      "kapitel": "Endokrinologie",
+      "thema": "Conn-Syndrom - Ätiologie",
+      "seite": 32,
+      "typ": "multiple_choice",
+      "frage": "Welche Ursachen hat das Conn-Syndrom?",
+      "frage_fa": "سندرم کان چه علل‌هایی دارد؟",
+      "optionen": [
+        "Idiopathische Hyperplasie der Nebennierenrinde (2/3 der Fälle)",
+        "Adenome der Nebennierenrinde (1/3 der Fälle)",
+        "Seltene Ursachen: familiärer Hyperaldosteronismus, aldosteronproduzierende Karzinome",
+        "Herzinsuffizienz",
+        "Nierenarterienstenose"
+      ],
+      "optionen_fa": [
+        "هایپرپلازی ایدیوپاتیک قشر غدهٔ فوق‌کلیه (دو سوم موارد)",
+        "آدنوم‌های قشر غدهٔ فوق‌کلیه (یک سوم موارد)",
+        "علل نادر: هایپرآلدوسترونیسم خانوادگی، کارسینوم‌های تولیدکنندهٔ آلدوسترون",
+        "نارسایی قلبی",
+        "تنگی شریان کلیوی"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Conn-Syndrom-Ursachen: idiopathische Hyperplasie der NNR (2/3), Adenome der NNR (1/3), selten familiärer Hyperaldosteronismus oder aldosteronproduzierende Karzinome. Herzinsuffizienz und Nierenarterienstenose verursachen den SEKUNDÄREN Hyperaldosteronismus!",
+      "erklaerung_fa": "علل سندرم کان: هایپرپلازی ایدیوپاتیک قشر فوق‌کلیه (دو سوم)، آدنوم‌های قشر فوق‌کلیه (یک سوم)، به‌ندرت هایپرآلدوسترونیسم خانوادگی یا کارسینوم‌های تولیدکنندهٔ آلدوسترون. نارسایی قلبی و تنگی شریان کلیوی باعث هایپرآلدوسترونیسم ثانویه می‌شوند!",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Conn",
+        "Ätiologie"
+      ],
+      "pruefungsrelevanz": "mittel"
+    },
+    {
+      "id": "STW-032-04",
+      "kapitel": "Endokrinologie",
+      "thema": "Aldosteron - Wirkung",
+      "seite": 32,
+      "typ": "multiple_choice",
+      "frage": "Welche Wirkungen hat Aldosteron?",
+      "frage_fa": "آلدوسترون چه اثراتی دارد؟",
+      "optionen": [
+        "Verstärkte Natriumrückresorption → erhöhtes Plasmavolumen → arterielle Hypertonie",
+        "Vasokonstriktion von Gefäßen → Hypertonie",
+        "Erhöhte Kaliumausscheidung über den Urin",
+        "Verstärkte Kaliumrückresorption",
+        "Senkung des Blutdrucks"
+      ],
+      "optionen_fa": [
+        "افزایش بازجذب سدیم ← افزایش حجم پلاسما ← فشار خون شریانی بالا",
+        "انقباض عروق ← فشار خون بالا",
+        "افزایش دفع پتاسیم از طریق ادرار",
+        "افزایش بازجذب پتاسیم",
+        "کاهش فشار خون"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Wirkung von Aldosteron: verstärkte Natriumrückresorption (→ erhöhtes Plasmavolumen → arterielle Hypertonie), Vasokonstriktion der Gefäße (→ Hypertonie), erhöhte Kaliumausscheidung über den Urin (→ Hypokaliämie). Merke: Natrium REIN, Kalium RAUS!",
+      "erklaerung_fa": "اثر آلدوسترون: افزایش بازجذب سدیم (← افزایش حجم پلاسما ← فشار خون بالا)، انقباض عروق (← فشار خون بالا)، افزایش دفع پتاسیم از طریق ادرار (← هایپوکالمی). به یاد داشته باشید: سدیم داخل، پتاسیم بیرون!",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Aldosteron",
+        "Physiologie"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-032-05",
+      "kapitel": "Endokrinologie",
+      "thema": "Conn-Syndrom - Klinik",
+      "seite": 32,
+      "typ": "multiple_choice",
+      "frage": "Welche Klinik zeigt das Conn-Syndrom?",
+      "frage_fa": "سندرم کان چه تصویر بالینی‌ای نشان می‌دهد؟",
+      "optionen": [
+        "Arterielle Hypertonie, die nur schwer einstellbar ist (Kopfschmerzen, Nasenbluten, Hypervolämie)",
+        "Hypokaliämie (30%) mit metabolischer Alkalose",
+        "Muskelschwäche, Muskelschmerzen, Lähmungen, Müdigkeit",
+        "Obstipation, Polyurie, Nykturie, Proteinurie",
+        "Elektrolytstörungen → Parästhesien, Krämpfe, Tetanie, Herzrhythmusstörungen",
+        "Hyperkaliämie und niedriger Blutdruck"
+      ],
+      "optionen_fa": [
+        "فشار خون شریانی بالا که به‌سختی قابل تنظیم است (سردرد، خون‌دماغ، افزایش حجم خون)",
+        "هایپوکالمی (30٪) همراه با آلکالوز متابولیک",
+        "ضعف عضلانی، درد عضلانی، فلج‌ها، خستگی",
+        "یبوست، پُرادراری، شب‌ادراری، پروتئینوری",
+        "اختلالات الکترولیتی ← پارستزی، گرفتگی عضلات، تتانی، آریتمی قلبی",
+        "هایپرکالمی و فشار خون پایین"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "erklaerung": "Conn-Syndrom-Klinik: schwer einstellbare arterielle Hypertonie (Kopfschmerzen, Nasenbluten, Hypervolämie, Organschäden), Hypokaliämie (30%) mit metabolischer Alkalose, Muskelschwäche/-schmerzen/Lähmungen, Müdigkeit, Obstipation, Polyurie/Nykturie/Proteinurie, Elektrolytstörungen (Parästhesien, Krämpfe, Tetanie, Herzrhythmusstörungen). NICHT Hyperkaliämie - im Gegenteil!",
+      "erklaerung_fa": "تصویر بالینی سندرم کان: فشار خون بالای دیرتنظیم (سردرد، خون‌دماغ، افزایش حجم خون، آسیب اندام‌ها)، هایپوکالمی (30٪) با آلکالوز متابولیک، ضعف/درد عضلانی/فلج، خستگی، یبوست، پُرادراری/شب‌ادراری/پروتئینوری، اختلالات الکترولیتی (پارستزی، گرفتگی، تتانی، آریتمی قلبی). نه هایپرکالمی — برعکس!",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Conn",
+        "Klinik"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-032-06",
+      "kapitel": "Endokrinologie",
+      "thema": "Conn-Syndrom - Diagnostik",
+      "seite": 32,
+      "typ": "multiple_choice",
+      "frage": "Welche Diagnostik erfolgt beim Conn-Syndrom?",
+      "frage_fa": "در سندرم کان چه اقدامات تشخیصی انجام می‌شود؟",
+      "optionen": [
+        "Blutlabor: Hypokaliämie, Hypomagnesiämie",
+        "Sonografie, CT, MRT",
+        "Nur EKG",
+        "Nur Urinuntersuchung",
+        "Lungenfunktionstest"
+      ],
+      "optionen_fa": [
+        "آزمایش خون: هایپوکالمی، هایپومنیزیمی",
+        "سونوگرافی، سی‌تی، ام‌آر‌آی",
+        "فقط نوار قلب",
+        "فقط آزمایش ادرار",
+        "تست عملکرد ریه"
+      ],
+      "richtig": [
+        0,
+        1
+      ],
+      "erklaerung": "Conn-Syndrom-Diagnostik: Blutlabor (Hypokaliämie, Hypomagnesiämie) und bildgebende Verfahren (Sonografie, CT, MRT zur Darstellung von Adenom/Hyperplasie).",
+      "erklaerung_fa": "تشخیص سندرم کان: آزمایش خون (هایپوکالمی، هایپومنیزیمی) و روش‌های تصویربرداری (سونوگرافی، سی‌تی، ام‌آر‌آی برای نمایش آدنوم/هایپرپلازی).",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Conn",
+        "Diagnostik"
+      ],
+      "pruefungsrelevanz": "mittel"
+    },
+    {
+      "id": "STW-032-07",
+      "kapitel": "Endokrinologie",
+      "thema": "Conn-Syndrom - Therapie",
+      "seite": 32,
+      "typ": "multiple_choice",
+      "frage": "Wie wird das Conn-Syndrom behandelt?",
+      "frage_fa": "سندرم کان چگونه درمان می‌شود؟",
+      "optionen": [
+        "Medikamente: Aldosteron-Antagonisten (z.B. Spironolacton) bei Nebennierenrindenhyperplasie",
+        "Operative Entfernung der Nebenniere bei Tumoren/Adenomen",
+        "Gabe von zusätzlichem Aldosteron",
+        "Kaliumarme Ernährung",
+        "Keine Therapie nötig"
+      ],
+      "optionen_fa": [
+        "داروها: آنتاگونیست‌های آلدوسترون (مثلاً اسپیرونولاکتون) در هایپرپلازی قشر غدهٔ فوق‌کلیه",
+        "برداشتن جراحی غدهٔ فوق‌کلیه در تومورها/آدنوم‌ها",
+        "تجویز آلدوسترون اضافی",
+        "رژیم غذایی کم‌پتاسیم",
+        "نیازی به درمان نیست"
+      ],
+      "richtig": [
+        0,
+        1
+      ],
+      "erklaerung": "Conn-Syndrom-Therapie: Aldosteron-Antagonisten (z.B. Spironolacton) bei Nebennierenrindenhyperplasie, operative Entfernung der Nebenniere bei Tumoren/Adenomen.",
+      "erklaerung_fa": "درمان سندرم کان: آنتاگونیست‌های آلدوسترون (مثلاً اسپیرونولاکتون) در هایپرپلازی قشر فوق‌کلیه، برداشتن جراحی غدهٔ فوق‌کلیه در تومورها/آدنوم‌ها.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Conn",
+        "Therapie"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-032-08",
+      "kapitel": "Endokrinologie",
+      "thema": "Sekundärer Hyperaldosteronismus",
+      "seite": 32,
+      "typ": "multiple_choice",
+      "frage": "Welche Ursachen hat der sekundäre Hyperaldosteronismus?",
+      "frage_fa": "هایپرآلدوسترونیسم ثانویه چه علل‌هایی دارد؟",
+      "optionen": [
+        "Verstärkte Aktivierung des RAAS bei Herzinsuffizienz",
+        "Leberzirrhose",
+        "Nierenarterienstenose, Nierenerkrankungen, Phäochromozytom",
+        "Medikamente: Diuretika, Laxanzien, Pille",
+        "ACTH-Überproduktion, z.B. Hypophysenadenom",
+        "Adenom der Nebennierenrinde"
+      ],
+      "optionen_fa": [
+        "فعال‌شدن بیش از حد RAAS در نارسایی قلبی",
+        "سیروز کبدی",
+        "تنگی شریان کلیوی، بیماری‌های کلیوی، فئوکروموسیتوم",
+        "داروها: دیورتیک‌ها، ملین‌ها، قرص ضدبارداری",
+        "تولید بیش از حد ACTH، مثلاً آدنوم هیپوفیز",
+        "آدنوم قشر غدهٔ فوق‌کلیه"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "erklaerung": "Sekundärer Hyperaldosteronismus: verstärkte Aktivierung des RAAS (Renin-Angiotensin-Aldosteron-System) z.B. bei Herzinsuffizienz, Leberzirrhose, Nierenarterienstenose/Nierenerkrankungen/Phäochromozytom, Medikamenten (Diuretika, Laxanzien, Pille), ACTH-Überproduktion. Ein NNR-Adenom wäre die PRIMÄRE Form (Conn-Syndrom)!",
+      "erklaerung_fa": "هایپرآلدوسترونیسم ثانویه: فعال‌شدن بیش از حد RAAS (سیستم رنین-آنژیوتانسین-آلدوسترون)، مثلاً در نارسایی قلبی، سیروز کبدی، تنگی شریان کلیوی/بیماری‌های کلیوی/فئوکروموسیتوم، داروها (دیورتیک‌ها، ملین‌ها، قرص)، تولید بیش از حد ACTH. آدنوم قشر فوق‌کلیه شکل اولیه است (سندرم کان)!",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Hyperaldosteronismus",
+        "RAAS"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-032-09",
+      "kapitel": "Endokrinologie",
+      "thema": "Primär vs. sekundär",
+      "seite": 32,
+      "typ": "single_choice",
+      "frage": "Was ist der wichtigste Unterschied zwischen primärem und sekundärem Hyperaldosteronismus?",
+      "frage_fa": "مهم‌ترین تفاوت بین هایپرآلدوسترونیسم اولیه و ثانویه چیست؟",
+      "optionen": [
+        "Es gibt keinen Unterschied",
+        "Primär (Conn): Ursache in der Nebennierenrinde selbst, Renin ↓. Sekundär: Ursache außerhalb, verstärkte RAAS-Aktivierung, Renin ↑",
+        "Primär betrifft nur Kinder",
+        "Sekundär hat kein Aldosteron",
+        "Primär hat immer niedrigen Blutdruck"
+      ],
+      "optionen_fa": [
+        "تفاوتی وجود ندارد",
+        "اولیه (کان): علت در خودِ قشر غدهٔ فوق‌کلیه، کاهش رنین. ثانویه: علت خارج از غده، فعال‌شدن بیش از حد RAAS، افزایش رنین",
+        "اولیه فقط کودکان را درگیر می‌کند",
+        "ثانویه آلدوسترون ندارد",
+        "اولیه همیشه فشار خون پایین دارد"
+      ],
+      "richtig": 1,
+      "erklaerung": "Primärer Hyperaldosteronismus (Conn-Syndrom): Die Ursache liegt in der Nebennierenrinde selbst (Adenom/Hyperplasie) → Aldosteron ↑, Renin ↓ (durch negative Rückkopplung supprimiert). Sekundärer Hyperaldosteronismus: Die Ursache liegt außerhalb (z.B. Herzinsuffizienz, Nierenarterienstenose) → verstärkte RAAS-Aktivierung → Renin ↑ und Aldosteron ↑.",
+      "erklaerung_fa": "هایپرآلدوسترونیسم اولیه (سندرم کان): علت در خودِ قشر غدهٔ فوق‌کلیه است (آدنوم/هایپرپلازی) ← افزایش آلدوسترون، کاهش رنین (به‌دلیل بازخورد منفی سرکوب می‌شود). هایپرآلدوسترونیسم ثانویه: علت خارج از غده است (مثلاً نارسایی قلبی، تنگی شریان کلیوی) ← فعال‌شدن بیش از حد RAAS ← افزایش رنین و افزایش آلدوسترون.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Hyperaldosteronismus",
+        "Differenzierung"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-032-10",
+      "kapitel": "Endokrinologie",
+      "thema": "Conn-Syndrom - Komplikationen",
+      "seite": 32,
+      "typ": "multiple_choice",
+      "frage": "Welche Komplikationen können beim Conn-Syndrom auftreten?",
+      "frage_fa": "چه عوارضی می‌توانند در سندرم کان رخ دهند؟",
+      "optionen": [
+        "Herzrhythmusstörungen (durch Hypokaliämie)",
+        "Folgeschäden der arteriellen Hypertonie (Organschäden)",
+        "Untergewicht",
+        "Hypoglykämie",
+        "Osteoporose"
+      ],
+      "optionen_fa": [
+        "آریتمی قلبی (به‌دلیل هایپوکالمی)",
+        "آسیب‌های ثانویهٔ فشار خون شریانی بالا (آسیب اندام‌ها)",
+        "کمبود وزن",
+        "هیپوگلیسمی",
+        "پوکی استخوان"
+      ],
+      "richtig": [
+        0,
+        1
+      ],
+      "erklaerung": "Conn-Syndrom-Komplikationen: Herzrhythmusstörungen (durch die Hypokaliämie!) und Folgeschäden der arteriellen Hypertonie (Organschäden an Herz, Niere, Gehirn, Augen).",
+      "erklaerung_fa": "عوارض سندرم کان: آریتمی قلبی (به‌دلیل هایپوکالمی!) و آسیب‌های ثانویهٔ فشار خون شریانی بالا (آسیب اندام‌ها در قلب، کلیه، مغز، چشم).",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Conn",
+        "Komplikationen"
+      ],
+      "pruefungsrelevanz": "mittel"
+    },
+    {
+      "id": "STW-032-F1",
+      "kapitel": "Endokrinologie",
+      "thema": "Conn-Syndrom - Fallbeispiel",
+      "seite": 32,
+      "typ": "fallbeispiel",
+      "fallbeschreibung": "Ein 48-jähriger Patient hat seit Jahren einen Bluthochdruck (175/105 mmHg), der trotz drei blutdrucksenkender Medikamente kaum einstellbar ist. Er klagt über Muskelschwäche, Müdigkeit und häufiges nächtliches Wasserlassen. Labor: Kalium 2.9 mmol/l, metabolische Alkalose, Aldosteron ↑, Renin ↓.",
+      "fallbeschreibung_fa": "یک بیمار ۴۸ ساله سال‌هاست فشار خون بالا دارد (175/105 mmHg) که با وجود سه داروی کاهندهٔ فشار خون به‌سختی قابل تنظیم است. او از ضعف عضلانی، خستگی و تکرر ادرار شبانه شکایت دارد. آزمایشگاه: پتاسیم 2.9 mmol/l، آلکالوز متابولیک، افزایش آلدوسترون، کاهش رنین.",
+      "frage": "Welche Diagnose ist am wahrscheinlichsten?",
+      "frage_fa": "محتمل‌ترین تشخیص کدام است؟",
+      "optionen": [
+        "Sekundärer Hyperaldosteronismus",
+        "Conn-Syndrom (primärer Hyperaldosteronismus)",
+        "Morbus Addison",
+        "Phäochromozytom",
+        "Cushing-Syndrom"
+      ],
+      "optionen_fa": [
+        "هایپرآلدوسترونیسم ثانویه",
+        "سندرم کان (هایپرآلدوسترونیسم اولیه)",
+        "بیماری آدیسون",
+        "فئوکروموسیتوم",
+        "سندرم کوشینگ"
+      ],
+      "richtig": 1,
+      "erklaerung": "Klassisches Conn-Syndrom (primärer Hyperaldosteronismus): schwer einstellbare arterielle Hypertonie, Hypokaliämie (2.9 mmol/l) mit metabolischer Alkalose, Muskelschwäche, Nykturie/Polyurie. Entscheidend: Aldosteron ↑ UND Renin ↓ - das spricht für die primäre Form (beim sekundären wäre Renin ↑).",
+      "erklaerung_fa": "سندرم کان کلاسیک (هایپرآلدوسترونیسم اولیه): فشار خون بالای دیرتنظیم، هایپوکالمی (2.9 mmol/l) با آلکالوز متابولیک، ضعف عضلانی، شب‌ادراری/پُرادراری. نکتهٔ کلیدی: افزایش آلدوسترون و کاهش رنین — این به نفع شکل اولیه است (در ثانویه رنین افزایش می‌یابد).",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Conn",
+        "Fallbeispiel"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-033-01",
+      "kapitel": "Endokrinologie",
+      "thema": "Phäochromozytom - Definition",
+      "seite": 33,
+      "typ": "single_choice",
+      "frage": "Was ist ein Phäochromozytom?",
+      "frage_fa": "فئوکروموسیتوم چیست؟",
+      "optionen": [
+        "Ein Tumor der Nebennierenrinde",
+        "Ein seltener (meist gutartiger) Tumor der chromaffinen Zellen des Nebennierenmarks (85%) oder im Bereich des Truncus sympathicus (Paragangliome)",
+        "Eine Schilddrüsenentzündung",
+        "Ein Kalziummangel",
+        "Eine Autoimmunerkrankung"
+      ],
+      "optionen_fa": [
+        "توموری در قشر غدهٔ فوق‌کلیه",
+        "توموری نادر (معمولاً خوش‌خیم) از سلول‌های کرومافین مغز غدهٔ فوق‌کلیه (85٪) یا در ناحیهٔ تنهٔ سمپاتیک (پاراگانگلیوم)",
+        "التهاب غدهٔ تیروئید",
+        "کمبود کلسیم",
+        "یک بیماری خودایمنی"
+      ],
+      "richtig": 1,
+      "erklaerung": "Phäochromozytom = seltener, meist gutartiger Tumor der chromaffinen Zellen des Nebennierenmarks (85%) oder im Bereich des Truncus sympathicus (paraaortal als sog. Paragangliome). Häufigkeitsgipfel: 30.-50. Lebensjahr.",
+      "erklaerung_fa": "فئوکروموسیتوم = توموری نادر و معمولاً خوش‌خیم از سلول‌های کرومافین مغز غدهٔ فوق‌کلیه (85٪) یا در ناحیهٔ تنهٔ سمپاتیک (پارا-آئورتی به‌نام پاراگانگلیوم). اوج شیوع: ۳۰ تا ۵۰ سالگی.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Phäochromozytom",
+        "Definition"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-033-02",
+      "kapitel": "Endokrinologie",
+      "thema": "Phäochromozytom - Hormone",
+      "seite": 33,
+      "typ": "single_choice",
+      "frage": "Welche Hormone sezerniert das Phäochromozytom?",
+      "frage_fa": "فئوکروموسیتوم کدام هورمون‌ها را ترشح می‌کند؟",
+      "optionen": [
+        "Cortisol und Aldosteron",
+        "Katecholamine: v.a. Adrenalin und Noradrenalin, seltener auch Dopamin → arterielle (anfallsweise) Hypertonie",
+        "Insulin und Glukagon",
+        "T3 und T4",
+        "Parathormon"
+      ],
+      "optionen_fa": [
+        "کورتیزول و آلدوسترون",
+        "کاتکولامین‌ها: به‌ویژه آدرنالین و نورآدرنالین، به‌ندرت دوپامین ← فشار خون شریانی بالا (حمله‌ای)",
+        "انسولین و گلوکاگون",
+        "T3 و T4",
+        "پاراتورمون"
+      ],
+      "richtig": 1,
+      "erklaerung": "Das Phäochromozytom sezerniert Katecholamine: vor allem Adrenalin und Noradrenalin, seltener (bei malignen Phäochromozytomen) auch Dopamin → führt zur arteriellen (anfallsweisen) Hypertonie.",
+      "erklaerung_fa": "فئوکروموسیتوم کاتکولامین‌ها ترشح می‌کند: به‌ویژه آدرنالین و نورآدرنالین، به‌ندرت (در فئوکروموسیتوم‌های بدخیم) دوپامین ← به فشار خون شریانی بالای حمله‌ای منجر می‌شود.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Phäochromozytom",
+        "Katecholamine"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-033-03",
+      "kapitel": "Endokrinologie",
+      "thema": "Phäochromozytom - Ätiologie",
+      "seite": 33,
+      "typ": "multiple_choice",
+      "frage": "Welche Ursachen hat das Phäochromozytom?",
+      "frage_fa": "فئوکروموسیتوم چه علل‌هایی دارد؟",
+      "optionen": [
+        "Meist unbekannt",
+        "Genetische Disposition (z.B. bei MEN-Syndromen, Neurofibromatose, Von-Hippel-Lindau-Syndrom)",
+        "Jodmangel",
+        "Vitamin-D-Mangel",
+        "Bakterielle Infektion"
+      ],
+      "optionen_fa": [
+        "اغلب ناشناخته",
+        "زمینهٔ ژنتیکی (مثلاً در سندرم‌های MEN، نوروفیبروماتوز، سندرم فون هیپل-لیندائو)",
+        "کمبود ید",
+        "کمبود ویتامین D",
+        "عفونت باکتریایی"
+      ],
+      "richtig": [
+        0,
+        1
+      ],
+      "erklaerung": "Phäochromozytom-Ätiologie: meist unbekannt, genetische Disposition (z.B. bei MEN-Syndromen = Multiple Endokrine Neoplasie, Neurofibromatose, Von-Hippel-Lindau-Syndrom).",
+      "erklaerung_fa": "علت‌شناسی فئوکروموسیتوم: اغلب ناشناخته، زمینهٔ ژنتیکی (مثلاً در سندرم‌های MEN = نئوپلازی متعدد غدد درون‌ریز، نوروفیبروماتوز، سندرم فون هیپل-لیندائو).",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Phäochromozytom",
+        "Ätiologie"
+      ],
+      "pruefungsrelevanz": "mittel"
+    },
+    {
+      "id": "STW-033-04",
+      "kapitel": "Endokrinologie",
+      "thema": "Phäochromozytom - Klinik",
+      "seite": 33,
+      "typ": "multiple_choice",
+      "frage": "Welche Klinik zeigt das Phäochromozytom?",
+      "frage_fa": "فئوکروموسیتوم چه تصویر بالینی‌ای نشان می‌دهد؟",
+      "optionen": [
+        "Arterielle Hypertonie (anfallsweise oder persistierend)",
+        "Kopfschmerzen",
+        "Tachykardie, Herzstolpern",
+        "Innere Unruhe, Tremor, Schweißausbrüche",
+        "Blässe ('blasse Hypertonie')",
+        "Gewichtsverlust",
+        "Gesichtsrötung bei Hypertonie"
+      ],
+      "optionen_fa": [
+        "فشار خون شریانی بالا (حمله‌ای یا پایدار)",
+        "سردرد",
+        "تاکی‌کاردی، تپش قلب",
+        "بی‌قراری درونی، لرزش، تعریق ناگهانی",
+        "رنگ‌پریدگی («فشار خون بالای رنگ‌پریده»)",
+        "کاهش وزن",
+        "سرخی صورت در فشار خون بالا"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "erklaerung": "Phäochromozytom-Klinik (auch asymptomatische Verläufe möglich): arterielle Hypertonie (anfallsweise/persistierend), Kopfschmerzen, Tachykardie/Herzstolpern, innere Unruhe/Tremor/Schweißausbrüche, BLÄSSE ('blasse Hypertonie') und Gewichtsverlust. Wichtig: Normalerweise besteht bei starker Hypertonie eine Gesichtsrötung - beim Phäochromozytom aber BLÄSSE durch die gefäßverengende Wirkung von Adrenalin!",
+      "erklaerung_fa": "تصویر بالینی فئوکروموسیتوم (سیر بدون علامت نیز ممکن است): فشار خون شریانی بالا (حمله‌ای/پایدار)، سردرد، تاکی‌کاردی/تپش قلب، بی‌قراری درونی/لرزش/تعریق ناگهانی، رنگ‌پریدگی («فشار خون بالای رنگ‌پریده») و کاهش وزن. مهم: معمولاً در فشار خون شدید سرخی صورت وجود دارد — اما در فئوکروموسیتوم رنگ‌پریدگی، به‌دلیل اثر تنگ‌کنندهٔ عروق آدرنالین!",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Phäochromozytom",
+        "Klinik"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-033-05",
+      "kapitel": "Endokrinologie",
+      "thema": "Phäochromozytom - Blässe",
+      "seite": 33,
+      "typ": "single_choice",
+      "frage": "Warum ist die Blässe beim Phäochromozytom ein wichtiges diagnostisches Merkmal?",
+      "frage_fa": "چرا رنگ‌پریدگی در فئوکروموسیتوم یک نشانهٔ تشخیصی مهم است؟",
+      "optionen": [
+        "Weil sie bei allen Hypertonie-Formen auftritt",
+        "Weil normalerweise bei einer starken Hypertonie eine Gesichtsrötung besteht - die Blässe entsteht durch die gefäßverengende Wirkung von Adrenalin",
+        "Weil sie ein Zeichen für Blutarmut ist",
+        "Weil sie durch Kalziummangel entsteht",
+        "Weil sie auf einen Vitaminmangel hinweist"
+      ],
+      "optionen_fa": [
+        "زیرا در همهٔ اشکال فشار خون بالا رخ می‌دهد",
+        "زیرا معمولاً در فشار خون شدید سرخی صورت وجود دارد — رنگ‌پریدگی به‌دلیل اثر تنگ‌کنندهٔ عروق آدرنالین ایجاد می‌شود",
+        "زیرا نشانهٔ کم‌خونی است",
+        "زیرا به‌دلیل کمبود کلسیم ایجاد می‌شود",
+        "زیرا به کمبود ویتامین اشاره دارد"
+      ],
+      "richtig": 1,
+      "erklaerung": "Die Blässe ist ein wichtiges diagnostisches Merkmal, denn normalerweise besteht bei einer starken Hypertonie eine Gesichtsrötung. Ursache der Blässe ist die gefäßverengende (vasokonstriktorische) Wirkung von Adrenalin. Daher spricht man von der 'blassen Hypertonie'.",
+      "erklaerung_fa": "رنگ‌پریدگی یک نشانهٔ تشخیصی مهم است، زیرا معمولاً در فشار خون شدید سرخی صورت وجود دارد. علت رنگ‌پریدگی، اثر تنگ‌کنندهٔ عروق (وازوکنستریکتور) آدرنالین است. به همین دلیل از «فشار خون بالای رنگ‌پریده» صحبت می‌شود.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Phäochromozytom",
+        "Blässe"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-033-06",
+      "kapitel": "Endokrinologie",
+      "thema": "Phäochromozytom - Cave Palpation",
+      "seite": 33,
+      "typ": "richtig_falsch",
+      "frage": "Eine hypertensive Krise kann beim Phäochromozytom durch Palpation des Abdomens ausgelöst werden.",
+      "frage_fa": "بحران فشار خون بالا در فئوکروموسیتوم می‌تواند با لمس شکم برانگیخته شود.",
+      "richtig": true,
+      "erklaerung": "RICHTIG - CAVE! Eine hypertensive Krise kann durch Palpation des Abdomens ausgelöst werden, da sich das Phäochromozytom auf Druck entleeren kann (massive Katecholamin-Ausschüttung). Deshalb bei Verdacht VORSICHT beim Abtasten!",
+      "erklaerung_fa": "درست است — احتیاط! بحران فشار خون بالا می‌تواند با لمس شکم برانگیخته شود، زیرا فئوکروموسیتوم می‌تواند تحت فشار تخلیه شود (ترشح گستردهٔ کاتکولامین). بنابراین در صورت شک، هنگام لمس احتیاط کنید!",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Phäochromozytom",
+        "Cave"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-033-07",
+      "kapitel": "Endokrinologie",
+      "thema": "Phäochromozytom - Komplikationen",
+      "seite": 33,
+      "typ": "multiple_choice",
+      "frage": "Welche Komplikationen können beim Phäochromozytom auftreten?",
+      "frage_fa": "چه عوارضی می‌توانند در فئوکروموسیتوم رخ دهند؟",
+      "optionen": [
+        "Schlaganfall",
+        "Herzinfarkt, Lungenödem",
+        "Akutes Nierenversagen",
+        "Sekundärer Diabetes mellitus",
+        "Osteoporose"
+      ],
+      "optionen_fa": [
+        "سکتهٔ مغزی",
+        "سکتهٔ قلبی، ادم ریه",
+        "نارسایی حاد کلیه",
+        "دیابت شیرین ثانویه",
+        "پوکی استخوان"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Phäochromozytom-Komplikationen: Schlaganfall, Herzinfarkt, Lungenödem, akutes Nierenversagen, sekundärer Diabetes mellitus (Adrenalin ist ein Insulinantagonist und hat eine blutzuckersteigernde Wirkung).",
+      "erklaerung_fa": "عوارض فئوکروموسیتوم: سکتهٔ مغزی، سکتهٔ قلبی، ادم ریه، نارسایی حاد کلیه، دیابت شیرین ثانویه (آدرنالین رقیب انسولین است و اثر افزایندهٔ قند خون دارد).",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Phäochromozytom",
+        "Komplikationen"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-033-08",
+      "kapitel": "Endokrinologie",
+      "thema": "Phäochromozytom - Diagnostik",
+      "seite": 33,
+      "typ": "multiple_choice",
+      "frage": "Welche Diagnostik erfolgt beim Phäochromozytom?",
+      "frage_fa": "در فئوکروموسیتوم چه اقدامات تشخیصی انجام می‌شود؟",
+      "optionen": [
+        "Blässe der Haut trotz arterieller Hypertonie",
+        "Katecholamine und ihre Abbauprodukte (Metanephrine, Normetanephrine) ↑",
+        "Hyperglykämie, Leukozytose",
+        "Clonidin-Hemmtest",
+        "Sonografie, CT, MRT, Szintigrafie",
+        "Dexamethason-Hemmtest"
+      ],
+      "optionen_fa": [
+        "رنگ‌پریدگی پوست با وجود فشار خون شریانی بالا",
+        "افزایش کاتکولامین‌ها و فراورده‌های تجزیهٔ آن‌ها (متانفرین، نورمتانفرین)",
+        "هایپرگلیسمی، لکوسیتوز",
+        "تست مهار کلونیدین",
+        "سونوگرافی، سی‌تی، ام‌آر‌آی، سینتی‌گرافی",
+        "تست مهار دگزامتازون"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "erklaerung": "Phäochromozytom-Diagnostik: Blässe trotz Hypertonie, Katecholamine und Abbauprodukte (Metanephrine, Normetanephrine) ↑, Hyperglykämie/Leukozytose, Clonidin-Hemmtest, Bildgebung (Sonografie, CT, MRT, Szintigrafie). Der Dexamethason-Hemmtest gehört zur Cushing-Diagnostik!",
+      "erklaerung_fa": "تشخیص فئوکروموسیتوم: رنگ‌پریدگی با وجود فشار خون بالا، افزایش کاتکولامین‌ها و فراورده‌های تجزیه (متانفرین، نورمتانفرین)، هایپرگلیسمی/لکوسیتوز، تست مهار کلونیدین، تصویربرداری (سونوگرافی، سی‌تی، ام‌آر‌آی، سینتی‌گرافی). تست مهار دگزامتازون مربوط به تشخیص کوشینگ است!",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Phäochromozytom",
+        "Diagnostik"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-033-09",
+      "kapitel": "Endokrinologie",
+      "thema": "Clonidin-Hemmtest",
+      "seite": 33,
+      "typ": "single_choice",
+      "frage": "Wie funktioniert der Clonidin-Hemmtest?",
+      "frage_fa": "تست مهار کلونیدین چگونه کار می‌کند؟",
+      "optionen": [
+        "Clonidin erhöht die Katecholamine bei Gesunden",
+        "Clonidin stimuliert α2-Rezeptoren im ZNS → Verminderung der Katecholaminausschüttung. Beim Phäochromozytom erfolgt KEINE Verminderung, da die Sekretion autonom (nicht ZNS-gesteuert) erfolgt",
+        "Clonidin misst den Blutzucker",
+        "Clonidin blockiert das Cortisol",
+        "Clonidin ist ein Kontrastmittel"
+      ],
+      "optionen_fa": [
+        "کلونیدین کاتکولامین‌ها را در افراد سالم افزایش می‌دهد",
+        "کلونیدین گیرنده‌های α2 را در سیستم عصبی مرکزی تحریک می‌کند ← کاهش ترشح کاتکولامین. در فئوکروموسیتوم کاهشی رخ نمی‌دهد، زیرا ترشح خودمختار است (توسط سیستم عصبی مرکزی کنترل نمی‌شود)",
+        "کلونیدین قند خون را اندازه‌گیری می‌کند",
+        "کلونیدین کورتیزول را مسدود می‌کند",
+        "کلونیدین یک مادهٔ حاجب است"
+      ],
+      "richtig": 1,
+      "erklaerung": "Clonidin-Hemmtest: Messung der Katecholamin-Konzentration nach oraler Gabe von Clonidin. Clonidin stimuliert α2-Rezeptoren im ZNS → Verminderung der Katecholaminausschüttung. Beim Phäochromozytom erfolgt KEINE Verminderung, da die Sekretion nicht durch das ZNS gesteuert wird, sondern autonom erfolgt.",
+      "erklaerung_fa": "تست مهار کلونیدین: اندازه‌گیری غلظت کاتکولامین پس از تجویز خوراکی کلونیدین. کلونیدین گیرنده‌های α2 را در سیستم عصبی مرکزی تحریک می‌کند ← کاهش ترشح کاتکولامین. در فئوکروموسیتوم کاهشی رخ نمی‌دهد، زیرا ترشح توسط سیستم عصبی مرکزی کنترل نمی‌شود، بلکه خودمختار انجام می‌شود.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Phäochromozytom",
+        "Clonidin"
+      ],
+      "pruefungsrelevanz": "mittel"
+    },
+    {
+      "id": "STW-033-10",
+      "kapitel": "Endokrinologie",
+      "thema": "Phäochromozytom - Therapie",
+      "seite": 33,
+      "typ": "multiple_choice",
+      "frage": "Wie wird das Phäochromozytom behandelt?",
+      "frage_fa": "فئوکروموسیتوم چگونه درمان می‌شود؟",
+      "optionen": [
+        "Tumorentfernung (operativ)",
+        "Vor der Operation Gabe eines Medikaments, das die α2-Rezeptoren blockiert - damit der Blutdruck nach der OP nicht abrupt niedrig ist",
+        "Blutdrucksenkung bei hypertensiver Krise",
+        "Gabe von zusätzlichem Adrenalin",
+        "Keine Behandlung nötig"
+      ],
+      "optionen_fa": [
+        "برداشتن تومور (جراحی)",
+        "پیش از جراحی تجویز دارویی که گیرنده‌های α2 را مسدود می‌کند — تا فشار خون پس از جراحی به‌طور ناگهانی پایین نیفتد",
+        "کاهش فشار خون در بحران فشار خون بالا",
+        "تجویز آدرنالین اضافی",
+        "نیازی به درمان نیست"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Phäochromozytom-Therapie: Tumorentfernung. Damit der Blutdruck nach der Operation nicht abrupt niedrig ist, wird den Patienten vor der OP ein Medikament gegeben, welches die α2-Rezeptoren blockiert. So kann sich der Körper langsam an den niedrigen Blutdruck gewöhnen. Bei hypertensiver Krise: Blutdrucksenkung.",
+      "erklaerung_fa": "درمان فئوکروموسیتوم: برداشتن تومور. برای اینکه فشار خون پس از جراحی به‌طور ناگهانی پایین نیفتد، پیش از جراحی دارویی به بیمار داده می‌شود که گیرنده‌های α2 را مسدود می‌کند. بدین ترتیب بدن می‌تواند به‌آرامی به فشار خون پایین عادت کند. در بحران فشار خون بالا: کاهش فشار خون.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Phäochromozytom",
+        "Therapie"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-033-F1",
+      "kapitel": "Endokrinologie",
+      "thema": "Phäochromozytom - Fallbeispiel",
+      "seite": 33,
+      "typ": "fallbeispiel",
+      "fallbeschreibung": "Ein 42-jähriger Patient berichtet über anfallsartige Blutdruckkrisen (bis 230/130 mmHg) mit heftigen Kopfschmerzen, Herzrasen, Zittern und starken Schweißausbrüchen. Auffällig: Während der Anfälle ist er auffallend BLASS. Er hat 8 kg abgenommen. Labor: Metanephrine im Urin stark erhöht, Blutzucker erhöht.",
+      "fallbeschreibung_fa": "یک بیمار ۴۲ ساله از بحران‌های حمله‌ای فشار خون (تا 230/130 mmHg) همراه با سردرد شدید، تپش قلب، لرزش و تعریق شدید گزارش می‌دهد. نکتهٔ قابل توجه: در طول حملات به‌طور چشمگیری رنگ‌پریده است. او ۸ کیلوگرم وزن کم کرده است. آزمایشگاه: متانفرین ادرار به‌شدت افزایش‌یافته، قند خون افزایش‌یافته.",
+      "frage": "Welche Diagnose ist am wahrscheinlichsten?",
+      "frage_fa": "محتمل‌ترین تشخیص کدام است؟",
+      "optionen": [
+        "Conn-Syndrom",
+        "Phäochromozytom ('blasse Hypertonie')",
+        "Morbus Addison",
+        "Cushing-Syndrom",
+        "Hyperthyreose"
+      ],
+      "optionen_fa": [
+        "سندرم کان",
+        "فئوکروموسیتوم («فشار خون بالای رنگ‌پریده»)",
+        "بیماری آدیسون",
+        "سندرم کوشینگ",
+        "پرکاری تیروئید"
+      ],
+      "richtig": 1,
+      "erklaerung": "Klassisches Phäochromozytom: anfallsweise arterielle Hypertonie, Kopfschmerzen, Tachykardie, Tremor, Schweißausbrüche, Gewichtsverlust und vor allem die BLÄSSE ('blasse Hypertonie' - durch die gefäßverengende Wirkung von Adrenalin). Erhöhte Metanephrine (Katecholamin-Abbauprodukte) sichern die Diagnose. Die Hyperglykämie entsteht, weil Adrenalin ein Insulinantagonist ist.",
+      "erklaerung_fa": "فئوکروموسیتوم کلاسیک: فشار خون شریانی حمله‌ای، سردرد، تاکی‌کاردی، لرزش، تعریق ناگهانی، کاهش وزن و به‌ویژه رنگ‌پریدگی («فشار خون بالای رنگ‌پریده» — به‌دلیل اثر تنگ‌کنندهٔ عروق آدرنالین). افزایش متانفرین (فراوردهٔ تجزیهٔ کاتکولامین) تشخیص را تأیید می‌کند. هایپرگلیسمی ایجاد می‌شود، زیرا آدرنالین رقیب انسولین است.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Phäochromozytom",
+        "Fallbeispiel"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-034-01",
+      "kapitel": "Endokrinologie",
+      "thema": "Diabetes insipidus - Definition",
+      "seite": 34,
+      "typ": "single_choice",
+      "frage": "Was ist der Diabetes insipidus (Wasserharnruhr)?",
+      "frage_fa": "دیابت بی‌مزه (دیابت اینسیپیدوس) چیست؟",
+      "optionen": [
+        "Eine Form des Diabetes mellitus mit hohem Blutzucker",
+        "Verminderung der Wasserrückresorption in den renalen Sammelrohren und distalen Tubuli infolge ADH-Mangel oder fehlendem Ansprechen der Nieren auf ADH → Urin wird vermehrt ausgeschieden",
+        "Eine Nierenentzündung",
+        "Ein Kalziummangel",
+        "Eine Schilddrüsenerkrankung"
+      ],
+      "optionen_fa": [
+        "شکلی از دیابت شیرین با قند خون بالا",
+        "کاهش بازجذب آب در مجاری جمع‌کنندهٔ کلیه و توبول‌های دیستال در پی کمبود ADH یا عدم پاسخ کلیه‌ها به ADH ← ادرار بیشتری دفع می‌شود",
+        "التهاب کلیه",
+        "کمبود کلسیم",
+        "بیماری تیروئید"
+      ],
+      "richtig": 1,
+      "erklaerung": "Diabetes insipidus (Wasserharnruhr) = Verminderung der Wasserrückresorption in den renalen Sammelrohren und distalen Tubuli infolge ADH-Mangel (zentraler Diabetes insipidus) oder fehlendem Ansprechen der Nieren auf ADH (renaler Diabetes insipidus) → Urin wird vermehrt ausgeschieden. WICHTIG: Kein Zusammenhang mit Diabetes mellitus (Blutzucker)!",
+      "erklaerung_fa": "دیابت بی‌مزه = کاهش بازجذب آب در مجاری جمع‌کنندهٔ کلیه و توبول‌های دیستال در پی کمبود ADH (دیابت بی‌مزهٔ مرکزی) یا عدم پاسخ کلیه‌ها به ADH (دیابت بی‌مزهٔ کلیوی) ← ادرار بیشتری دفع می‌شود. مهم: ارتباطی با دیابت شیرین (قند خون) ندارد!",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Diabetes insipidus",
+        "Definition"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-034-02",
+      "kapitel": "Endokrinologie",
+      "thema": "Diabetes insipidus - Formen",
+      "seite": 34,
+      "typ": "single_choice",
+      "frage": "Welche zwei Formen des Diabetes insipidus gibt es?",
+      "frage_fa": "چه دو شکلی از دیابت بی‌مزه وجود دارد؟",
+      "optionen": [
+        "Typ 1 und Typ 2",
+        "Zentraler Diabetes insipidus (ADH-Mangel) und renaler Diabetes insipidus (ADH-Rezeptor-Resistenz)",
+        "Akut und chronisch",
+        "Primär und tertiär",
+        "Es gibt nur eine Form"
+      ],
+      "optionen_fa": [
+        "نوع ۱ و نوع ۲",
+        "دیابت بی‌مزهٔ مرکزی (کمبود ADH) و دیابت بی‌مزهٔ کلیوی (مقاومت گیرندهٔ ADH)",
+        "حاد و مزمن",
+        "اولیه و ثالثیه",
+        "فقط یک شکل وجود دارد"
+      ],
+      "richtig": 1,
+      "erklaerung": "Zwei Formen: 1) ZENTRALER Diabetes insipidus = ADH-Mangel (die Hypophyse produziert zu wenig ADH). 2) RENALER Diabetes insipidus = ADH-Rezeptor-Resistenz (die Nieren sprechen nicht auf ADH an, obwohl genug vorhanden ist).",
+      "erklaerung_fa": "دو شکل: ۱) دیابت بی‌مزهٔ مرکزی = کمبود ADH (هیپوفیز ADH بسیار کمی تولید می‌کند). ۲) دیابت بی‌مزهٔ کلیوی = مقاومت گیرندهٔ ADH (کلیه‌ها به ADH پاسخ نمی‌دهند، هرچند به‌اندازهٔ کافی موجود است).",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Diabetes insipidus",
+        "Formen"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-034-03",
+      "kapitel": "Endokrinologie",
+      "thema": "Zentraler Diabetes insipidus - Ursachen",
+      "seite": 34,
+      "typ": "multiple_choice",
+      "frage": "Welche Ursachen hat der zentrale Diabetes insipidus (ADH-Mangel)?",
+      "frage_fa": "دیابت بی‌مزهٔ مرکزی (کمبود ADH) چه علل‌هایی دارد؟",
+      "optionen": [
+        "Idiopathisch, evtl. Autoantikörper gegen ADH-produzierende Zellen",
+        "ZNS-Erkrankungen: Hirntumoren, Enzephalitis, Meningitis, Schädel-Hirn-Trauma",
+        "Nierenerkrankungen mit Tubulusschädigung",
+        "Lithiumkarbonat",
+        "Angeborene ADH-Rezeptor-Resistenz"
+      ],
+      "optionen_fa": [
+        "ایدیوپاتیک، احتمالاً اتوآنتی‌بادی علیه سلول‌های تولیدکنندهٔ ADH",
+        "بیماری‌های سیستم عصبی مرکزی: تومورهای مغزی، انسفالیت، مننژیت، تروما به سر و مغز",
+        "بیماری‌های کلیوی همراه با آسیب توبول",
+        "لیتیوم کربنات",
+        "مقاومت مادرزادی گیرندهٔ ADH"
+      ],
+      "richtig": [
+        0,
+        1
+      ],
+      "erklaerung": "Zentraler Diabetes insipidus (ADH-Mangel): idiopathisch (evtl. Autoantikörper gegen ADH-produzierende Zellen), ZNS-Erkrankungen (Hirntumoren, Enzephalitis, Meningitis, Schädel-Hirn-Trauma). Nierenerkrankungen, Lithiumkarbonat und ADH-Rezeptor-Resistenz verursachen den RENALEN Diabetes insipidus!",
+      "erklaerung_fa": "دیابت بی‌مزهٔ مرکزی (کمبود ADH): ایدیوپاتیک (احتمالاً اتوآنتی‌بادی علیه سلول‌های تولیدکنندهٔ ADH)، بیماری‌های سیستم عصبی مرکزی (تومورهای مغزی، انسفالیت، مننژیت، تروما به سر و مغز). بیماری‌های کلیوی، لیتیوم کربنات و مقاومت گیرندهٔ ADH باعث دیابت بی‌مزهٔ کلیوی می‌شوند!",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Diabetes insipidus",
+        "zentral"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-034-04",
+      "kapitel": "Endokrinologie",
+      "thema": "Renaler Diabetes insipidus - Ursachen",
+      "seite": 34,
+      "typ": "multiple_choice",
+      "frage": "Welche Ursachen hat der renale Diabetes insipidus (ADH-Rezeptor-Resistenz)?",
+      "frage_fa": "دیابت بی‌مزهٔ کلیوی (مقاومت گیرندهٔ ADH) چه علل‌هایی دارد؟",
+      "optionen": [
+        "Angeboren oder erworben",
+        "Nierenerkrankungen mit Tubulusschädigung, akutes Nierenversagen (polyurische Phase)",
+        "Hypokaliämie, Hyperkalzämie, Toxine",
+        "Medikamente (z.B. Lithiumkarbonat)",
+        "Hirntumoren"
+      ],
+      "optionen_fa": [
+        "مادرزادی یا اکتسابی",
+        "بیماری‌های کلیوی همراه با آسیب توبول، نارسایی حاد کلیه (فاز پُرادراری)",
+        "هایپوکالمی، هایپرکلسمی، سموم",
+        "داروها (مثلاً لیتیوم کربنات)",
+        "تومورهای مغزی"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Renaler Diabetes insipidus (ADH-Rezeptor-Resistenz): angeboren oder erworben, Nierenerkrankungen mit Tubulusschädigung, akutes Nierenversagen (polyurische Phase), Hypokaliämie/Hyperkalzämie/Toxine, Medikamente (z.B. Lithiumkarbonat). Hirntumoren verursachen den ZENTRALEN Diabetes insipidus!",
+      "erklaerung_fa": "دیابت بی‌مزهٔ کلیوی (مقاومت گیرندهٔ ADH): مادرزادی یا اکتسابی، بیماری‌های کلیوی با آسیب توبول، نارسایی حاد کلیه (فاز پُرادراری)، هایپوکالمی/هایپرکلسمی/سموم، داروها (مثلاً لیتیوم کربنات). تومورهای مغزی باعث دیابت بی‌مزهٔ مرکزی می‌شوند!",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Diabetes insipidus",
+        "renal"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-034-05",
+      "kapitel": "Endokrinologie",
+      "thema": "Diabetes insipidus - Klinik",
+      "seite": 34,
+      "typ": "multiple_choice",
+      "frage": "Welche Klinik zeigt der Diabetes insipidus?",
+      "frage_fa": "دیابت بی‌مزه چه تصویر بالینی‌ای نشان می‌دهد؟",
+      "optionen": [
+        "Polyurie, Nykturie: Urinausscheidung von 5-25 Litern innerhalb 24 Stunden",
+        "Polydipsie (vermehrter Durst)",
+        "Asthenurie (fehlende Harnkonzentration)",
+        "Evtl. neurologische Symptome aufgrund der Hypernatriämie → Verwirrtheit, Muskelschwäche, Lethargie",
+        "Bei Kleinkindern evtl. Diarrhö anstatt der Polyurie",
+        "Oligurie (verminderte Urinmenge)"
+      ],
+      "optionen_fa": [
+        "پُرادراری، شب‌ادراری: دفع 5-25 لیتر ادرار در ۲۴ ساعت",
+        "پُرنوشی (تشنگی افزایش‌یافته)",
+        "آستنوری (فقدان تغلیظ ادرار)",
+        "احتمالاً علائم عصبی به‌دلیل هایپرناترمی ← گیجی، ضعف عضلانی، بی‌حالی",
+        "در کودکان خردسال احتمالاً اسهال به‌جای پُرادراری",
+        "کم‌ادراری (کاهش حجم ادرار)"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "erklaerung": "Diabetes insipidus-Klinik: Polyurie/Nykturie (Urinausscheidung von 5-25 Litern in 24 Stunden!), Polydipsie (vermehrter Durst), Asthenurie (fehlende Harnkonzentration - der Urin ist wässrig-hell), evtl. neurologische Symptome durch Hypernatriämie (Verwirrtheit, Muskelschwäche, Lethargie). Bei Kleinkindern evtl. Diarrhö anstatt Polyurie. NICHT Oligurie - im Gegenteil!",
+      "erklaerung_fa": "تصویر بالینی دیابت بی‌مزه: پُرادراری/شب‌ادراری (دفع 5-25 لیتر ادرار در ۲۴ ساعت!)، پُرنوشی (تشنگی افزایش‌یافته)، آستنوری (فقدان تغلیظ ادرار — ادرار آبکی و روشن است)، احتمالاً علائم عصبی به‌دلیل هایپرناترمی (گیجی، ضعف عضلانی، بی‌حالی). در کودکان خردسال احتمالاً اسهال به‌جای پُرادراری. نه کم‌ادراری — برعکس!",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Diabetes insipidus",
+        "Klinik"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-034-06",
+      "kapitel": "Endokrinologie",
+      "thema": "Diabetes insipidus - Urinmenge",
+      "seite": 34,
+      "typ": "single_choice",
+      "frage": "Wie viel Urin wird beim Diabetes insipidus innerhalb von 24 Stunden ausgeschieden?",
+      "frage_fa": "در دیابت بی‌مزه در ۲۴ ساعت چه مقدار ادرار دفع می‌شود؟",
+      "optionen": [
+        "0.5-1 Liter",
+        "1-2 Liter",
+        "2-3 Liter",
+        "5-25 Liter",
+        "Über 50 Liter"
+      ],
+      "optionen_fa": [
+        "0.5-1 لیتر",
+        "1-2 لیتر",
+        "2-3 لیتر",
+        "5-25 لیتر",
+        "بیش از 50 لیتر"
+      ],
+      "richtig": 3,
+      "erklaerung": "Beim Diabetes insipidus beträgt die Urinausscheidung 5-25 Liter innerhalb von 24 Stunden (normal: ca. 1.5 Liter). Daher der Name 'Wasserharnruhr'.",
+      "erklaerung_fa": "در دیابت بی‌مزه، دفع ادرار 5-25 لیتر در ۲۴ ساعت است (طبیعی: حدود 1.5 لیتر). به همین دلیل نام «آب‌ادراری» را دارد.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Diabetes insipidus",
+        "Polyurie"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-034-07",
+      "kapitel": "Endokrinologie",
+      "thema": "Diabetes insipidus - Komplikationen",
+      "seite": 34,
+      "typ": "multiple_choice",
+      "frage": "Welche Komplikationen können beim Diabetes insipidus auftreten?",
+      "frage_fa": "چه عوارضی می‌توانند در دیابت بی‌مزه رخ دهند؟",
+      "optionen": [
+        "Hypertone Dehydratation → Gefahr der Austrocknung bei unzureichender Flüssigkeitszufuhr",
+        "Elektrolytstörungen",
+        "ZNS-Schädigungen, Wachstumsstörungen bei Kindern",
+        "Übergewicht",
+        "Hypoglykämie"
+      ],
+      "optionen_fa": [
+        "کم‌آبی هایپرتونیک ← خطر خشکیدگی در صورت دریافت ناکافی مایعات",
+        "اختلالات الکترولیتی",
+        "آسیب سیستم عصبی مرکزی، اختلالات رشد در کودکان",
+        "اضافه‌وزن",
+        "هیپوگلیسمی"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Diabetes insipidus-Komplikationen: hypertone Dehydratation (Gefahr der Austrocknung bei unzureichender Flüssigkeitszufuhr!), Elektrolytstörungen, ZNS-Schädigungen und Wachstumsstörungen bei Kindern.",
+      "erklaerung_fa": "عوارض دیابت بی‌مزه: کم‌آبی هایپرتونیک (خطر خشکیدگی در صورت دریافت ناکافی مایعات!)، اختلالات الکترولیتی، آسیب سیستم عصبی مرکزی و اختلالات رشد در کودکان.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Diabetes insipidus",
+        "Komplikationen"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-034-08",
+      "kapitel": "Endokrinologie",
+      "thema": "Diabetes insipidus - Diagnostik",
+      "seite": 34,
+      "typ": "multiple_choice",
+      "frage": "Welche Diagnostik erfolgt beim Diabetes insipidus?",
+      "frage_fa": "در دیابت بی‌مزه چه اقدامات تشخیصی انجام می‌شود؟",
+      "optionen": [
+        "Harnmenge ↑↑",
+        "Urinosmolarität und spezifisches Harngewicht ↓, Blutosmolarität ↑, Hypernatriämie",
+        "Durstversuch und ADH-Test → Differenzierung zwischen zentralem und renalem Diabetes insipidus",
+        "MRT, CT zum Ausschluss eines Hirntumors",
+        "Blutzucker stark erhöht"
+      ],
+      "optionen_fa": [
+        "افزایش شدید حجم ادرار",
+        "کاهش اسمولاریتهٔ ادرار و وزن مخصوص ادرار، افزایش اسمولاریتهٔ خون، هایپرناترمی",
+        "آزمون تشنگی و تست ADH ← تمایز بین دیابت بی‌مزهٔ مرکزی و کلیوی",
+        "ام‌آر‌آی، سی‌تی برای رد تومور مغزی",
+        "قند خون به‌شدت افزایش‌یافته"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Diabetes insipidus-Diagnostik: Harnmenge ↑↑, Urinosmolarität und spezifisches Harngewicht ↓ (verdünnter Urin!), Blutosmolarität ↑, Hypernatriämie, Durstversuch und ADH-Test (zur Differenzierung zentral/renal), MRT/CT zum Ausschluss eines Hirntumors. Der Blutzucker ist NORMAL - das unterscheidet ihn vom Diabetes mellitus!",
+      "erklaerung_fa": "تشخیص دیابت بی‌مزه: افزایش شدید حجم ادرار، کاهش اسمولاریتهٔ ادرار و وزن مخصوص ادرار (ادرار رقیق!)، افزایش اسمولاریتهٔ خون، هایپرناترمی، آزمون تشنگی و تست ADH (برای تمایز مرکزی/کلیوی)، ام‌آر‌آی/سی‌تی برای رد تومور مغزی. قند خون طبیعی است — این آن را از دیابت شیرین متمایز می‌کند!",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Diabetes insipidus",
+        "Diagnostik"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-034-09",
+      "kapitel": "Endokrinologie",
+      "thema": "Diabetes insipidus - Therapie",
+      "seite": 34,
+      "typ": "multiple_choice",
+      "frage": "Wie wird der Diabetes insipidus behandelt?",
+      "frage_fa": "دیابت بی‌مزه چگونه درمان می‌شود؟",
+      "optionen": [
+        "Behandlung der Grunderkrankung",
+        "Korrektur der Wasserbilanz",
+        "Zentraler Diabetes insipidus: antidiuretische Medikamente (z.B. Desmopressin)",
+        "Renaler Diabetes insipidus: Versuch mit Thiaziddiuretika oder NSAR",
+        "Insulin"
+      ],
+      "optionen_fa": [
+        "درمان بیماری زمینه‌ای",
+        "اصلاح تراز آب بدن",
+        "دیابت بی‌مزهٔ مرکزی: داروهای ضدادراری (مثلاً دسموپرسین)",
+        "دیابت بی‌مزهٔ کلیوی: تلاش با دیورتیک‌های تیازیدی یا NSAR",
+        "انسولین"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Diabetes insipidus-Therapie: Behandlung der Grunderkrankung, Korrektur der Wasserbilanz, beim ZENTRALEN Diabetes insipidus antidiuretische Medikamente (z.B. Desmopressin = ADH-Ersatz), beim RENALEN Diabetes insipidus Versuch mit Thiaziddiuretika oder NSAR. Insulin ist beim Diabetes mellitus - nicht hier!",
+      "erklaerung_fa": "درمان دیابت بی‌مزه: درمان بیماری زمینه‌ای، اصلاح تراز آب بدن، در دیابت بی‌مزهٔ مرکزی داروهای ضدادراری (مثلاً دسموپرسین = جایگزین ADH)، در دیابت بی‌مزهٔ کلیوی تلاش با دیورتیک‌های تیازیدی یا NSAR. انسولین مربوط به دیابت شیرین است — نه اینجا!",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Diabetes insipidus",
+        "Therapie"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-034-10",
+      "kapitel": "Endokrinologie",
+      "thema": "Diabetes insipidus vs. mellitus",
+      "seite": 34,
+      "typ": "richtig_falsch",
+      "frage": "Beim Diabetes insipidus ist der Blutzucker erhöht.",
+      "frage_fa": "در دیابت بی‌مزه، قند خون افزایش‌یافته است.",
+      "richtig": false,
+      "erklaerung": "FALSCH - Beim Diabetes insipidus ist der Blutzucker NORMAL! Der Name 'Diabetes' (= Durchfluss) bezieht sich nur auf die große Urinmenge. 'Insipidus' bedeutet 'geschmacklos' (der Urin ist wässrig), während 'mellitus' 'honigsüß' bedeutet (zuckerhaltiger Urin). Beide Erkrankungen haben nichts miteinander zu tun!",
+      "erklaerung_fa": "نادرست — در دیابت بی‌مزه قند خون طبیعی است! نام «دیابت» (= جریان) فقط به حجم زیاد ادرار اشاره دارد. «اینسیپیدوس» به معنای «بی‌مزه» است (ادرار آبکی است)، در حالی که «ملیتوس» به معنای «شیرین مانند عسل» است (ادرار حاوی قند). این دو بیماری هیچ ارتباطی با هم ندارند!",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Diabetes insipidus",
+        "Abgrenzung"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "STW-034-F1",
+      "kapitel": "Endokrinologie",
+      "thema": "Diabetes insipidus - Fallbeispiel",
+      "seite": 34,
+      "typ": "fallbeispiel",
+      "fallbeschreibung": "Ein 30-jähriger Patient hatte vor 3 Monaten ein schweres Schädel-Hirn-Trauma. Seitdem trinkt er ständig (bis zu 12 Liter täglich) und muss enorm viel Wasser lassen - auch nachts mehrfach. Labor: Blutzucker normal, Natrium ↑, Blutosmolarität ↑, Urinosmolarität ↓, spezifisches Harngewicht ↓.",
+      "fallbeschreibung_fa": "یک بیمار ۳۰ ساله سه ماه پیش دچار تروما شدید سر و مغز شد. از آن زمان دائماً می‌نوشد (تا ۱۲ لیتر در روز) و باید مقدار زیادی ادرار کند — شب‌ها نیز چندین بار. آزمایشگاه: قند خون طبیعی، افزایش سدیم، افزایش اسمولاریتهٔ خون، کاهش اسمولاریتهٔ ادرار، کاهش وزن مخصوص ادرار.",
+      "frage": "Welche Diagnose ist am wahrscheinlichsten?",
+      "frage_fa": "محتمل‌ترین تشخیص کدام است؟",
+      "optionen": [
+        "Diabetes mellitus Typ 1",
+        "Zentraler Diabetes insipidus (nach Schädel-Hirn-Trauma → ADH-Mangel)",
+        "Renaler Diabetes insipidus",
+        "Conn-Syndrom",
+        "Niereninsuffizienz"
+      ],
+      "optionen_fa": [
+        "دیابت شیرین نوع ۱",
+        "دیابت بی‌مزهٔ مرکزی (پس از تروما به سر و مغز ← کمبود ADH)",
+        "دیابت بی‌مزهٔ کلیوی",
+        "سندرم کان",
+        "نارسایی کلیه"
+      ],
+      "richtig": 1,
+      "erklaerung": "Klassischer ZENTRALER Diabetes insipidus: Das Schädel-Hirn-Trauma ist eine typische Ursache für den ADH-Mangel (ZNS-Erkrankung). Klinik: massive Polyurie und Polydipsie. Labor: Blutzucker NORMAL (kein Diabetes mellitus!), Hypernatriämie, Blutosmolarität ↑ (eingedickt), Urinosmolarität und Harngewicht ↓ (wässriger Urin = Asthenurie). Therapie: Desmopressin (ADH-Ersatz).",
+      "erklaerung_fa": "دیابت بی‌مزهٔ مرکزی کلاسیک: تروما به سر و مغز یکی از علل معمول کمبود ADH است (بیماری سیستم عصبی مرکزی). تصویر بالینی: پُرادراری و پُرنوشی شدید. آزمایشگاه: قند خون طبیعی (دیابت شیرین نیست!)، هایپرناترمی، افزایش اسمولاریتهٔ خون (غلیظ‌شده)، کاهش اسمولاریته و وزن مخصوص ادرار (ادرار آبکی = آستنوری). درمان: دسموپرسین (جایگزین ADH).",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Diabetes insipidus",
+        "Fallbeispiel"
+      ],
+      "pruefungsrelevanz": "hoch"
     }
   ],
   "vokabeln": [
@@ -19794,6 +20926,486 @@
       "eselsbruecke_fa": "رقیب انسولین = مخالف انسولین (مثلاً کورتیزول)",
       "beispiel": "Cortisol wirkt als Insulinantagonist und erhöht den Blutzucker.",
       "beispiel_fa": "کورتیزول به‌عنوان رقیب انسولین عمل می‌کند و قند خون را افزایش می‌دهد.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-359",
+      "kapitel": "Endokrinologie",
+      "seite": 32,
+      "lateinisch": "Conn-Syndrom",
+      "deutsch": "Primärer Hyperaldosteronismus (Aldosteron ↑ durch NNR-Erkrankung)",
+      "deutsch_fa": "هایپرآلدوسترونیسم اولیه (افزایش آلدوسترون به‌دلیل بیماری قشر فوق‌کلیه)",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "nach dem Entdecker Jerome W. Conn",
+      "eselsbruecke": "Conn = Aldosteron ↑ → Hypertonie + Hypokaliämie",
+      "eselsbruecke_fa": "کان = افزایش آلدوسترون ← فشار خون بالا + هایپوکالمی",
+      "beispiel": "Beim Conn-Syndrom besteht eine schwer einstellbare Hypertonie.",
+      "beispiel_fa": "در سندرم کان فشار خون بالای دیرتنظیم وجود دارد.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-360",
+      "kapitel": "Endokrinologie",
+      "seite": 32,
+      "lateinisch": "Hyperaldosteronismus",
+      "deutsch": "Überproduktion von Aldosteron",
+      "deutsch_fa": "تولید بیش از حد آلدوسترون",
+      "wortart": "Substantiv (m)",
+      "kategorie": "Endokrinologie",
+      "herkunft": "gr. hyper = über + Aldosteron",
+      "eselsbruecke": "Hyper-Aldosteron-ismus = ZU VIEL Aldosteron",
+      "eselsbruecke_fa": "Hyper-Aldosteron-ismus = آلدوسترون بیش از حد",
+      "beispiel": "Der Hyperaldosteronismus kann primär (Conn) oder sekundär sein.",
+      "beispiel_fa": "هایپرآلدوسترونیسم می‌تواند اولیه (کان) یا ثانویه باشد.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-361",
+      "kapitel": "Endokrinologie",
+      "seite": 32,
+      "lateinisch": "idiopathisch",
+      "deutsch": "Ohne erkennbare Ursache (von selbst entstanden)",
+      "deutsch_fa": "بدون علت قابل تشخیص (خودبه‌خود ایجادشده)",
+      "wortart": "Adjektiv",
+      "kategorie": "Medizinische Fachbegriffe",
+      "herkunft": "gr. idios = eigen + pathos = Leiden",
+      "eselsbruecke": "Idiopathisch = Ursache unbekannt ('kommt von selbst')",
+      "eselsbruecke_fa": "ایدیوپاتیک = علت ناشناخته («خودبه‌خود می‌آید»)",
+      "beispiel": "Die idiopathische NNR-Hyperplasie verursacht 2/3 der Conn-Syndrome.",
+      "beispiel_fa": "هایپرپلازی ایدیوپاتیک قشر فوق‌کلیه دو سوم موارد سندرم کان را ایجاد می‌کند.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-362",
+      "kapitel": "Endokrinologie",
+      "seite": 32,
+      "lateinisch": "Hypervolämie",
+      "deutsch": "Erhöhtes Blutvolumen",
+      "deutsch_fa": "افزایش حجم خون",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Pathophysiologie",
+      "herkunft": "gr. hyper = über + lat. volumen = Menge",
+      "eselsbruecke": "Hyper-Vol-ämie = ZU VIEL Volumen im Blut",
+      "eselsbruecke_fa": "Hyper-Vol-ämie = حجم بیش از حد در خون",
+      "beispiel": "Die Hypervolämie beim Conn-Syndrom führt zur Hypertonie.",
+      "beispiel_fa": "افزایش حجم خون در سندرم کان به فشار خون بالا منجر می‌شود.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-363",
+      "kapitel": "Endokrinologie",
+      "seite": 32,
+      "lateinisch": "metabolische Alkalose",
+      "deutsch": "Stoffwechselbedingte Basenüberschuss im Blut (pH ↑)",
+      "deutsch_fa": "فزونی باز در خون به‌دلیل متابولیک (افزایش pH)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Laborwert",
+      "herkunft": "gr. metabole = Umwandlung + arab. al-qali = Pottasche",
+      "eselsbruecke": "Metabolische Alkalose = Blut zu basisch (bei Kaliummangel)",
+      "eselsbruecke_fa": "آلکالوز متابولیک = خون بیش از حد بازی (در کمبود پتاسیم)",
+      "beispiel": "Bei der Hypokaliämie des Conn-Syndroms entsteht eine metabolische Alkalose.",
+      "beispiel_fa": "در هایپوکالمی سندرم کان، آلکالوز متابولیک ایجاد می‌شود.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-364",
+      "kapitel": "Endokrinologie",
+      "seite": 32,
+      "lateinisch": "Nykturie",
+      "deutsch": "Nächtliches Wasserlassen",
+      "deutsch_fa": "ادرار کردن در شب (شب‌ادراری)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Symptom",
+      "herkunft": "gr. nyx = Nacht + ouron = Harn",
+      "eselsbruecke": "Nykt-Urie = nachts (Nyx) Urin lassen",
+      "eselsbruecke_fa": "Nykt-Urie = ادرار کردن در شب (Nyx = شب)",
+      "beispiel": "Nykturie und Polyurie treten beim Conn-Syndrom auf.",
+      "beispiel_fa": "شب‌ادراری و پُرادراری در سندرم کان بروز می‌کنند.",
+      "schwierigkeit": "leicht"
+    },
+    {
+      "id": "VOK-STW-365",
+      "kapitel": "Endokrinologie",
+      "seite": 32,
+      "lateinisch": "Spironolacton",
+      "deutsch": "Aldosteron-Antagonist (kaliumsparendes Diuretikum)",
+      "deutsch_fa": "آنتاگونیست آلدوسترون (دیورتیک نگه‌دارندهٔ پتاسیم)",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Medikament",
+      "herkunft": "Kunstwort (Arzneistoff)",
+      "eselsbruecke": "Spironolacton blockiert Aldosteron → Kalium bleibt im Körper",
+      "eselsbruecke_fa": "اسپیرونولاکتون آلدوسترون را مسدود می‌کند ← پتاسیم در بدن می‌ماند",
+      "beispiel": "Spironolacton wird bei NNR-Hyperplasie im Conn-Syndrom eingesetzt.",
+      "beispiel_fa": "اسپیرونولاکتون در هایپرپلازی قشر فوق‌کلیه در سندرم کان استفاده می‌شود.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-366",
+      "kapitel": "Endokrinologie",
+      "seite": 32,
+      "lateinisch": "Nierenarterienstenose",
+      "deutsch": "Verengung der Nierenarterie",
+      "deutsch_fa": "تنگی شریان کلیوی",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "dt. Niere + gr. stenosis = Verengung",
+      "eselsbruecke": "Nierenarterien-Stenose = Nierenarterie ist eng → RAAS aktiviert",
+      "eselsbruecke_fa": "تنگی شریان کلیوی = شریان کلیه باریک است ← RAAS فعال می‌شود",
+      "beispiel": "Die Nierenarterienstenose verursacht einen sekundären Hyperaldosteronismus.",
+      "beispiel_fa": "تنگی شریان کلیوی باعث هایپرآلدوسترونیسم ثانویه می‌شود.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-367",
+      "kapitel": "Endokrinologie",
+      "seite": 32,
+      "lateinisch": "Ketoconazol",
+      "deutsch": "Medikament, das die Cortisolsynthese hemmt",
+      "deutsch_fa": "دارویی که سنتز کورتیزول را مهار می‌کند",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Medikament",
+      "herkunft": "Kunstwort (Arzneistoff)",
+      "eselsbruecke": "Ketoconazol = bremst die Cortisol-Produktion beim Cushing",
+      "eselsbruecke_fa": "کتوکونازول = تولید کورتیزول را در کوشینگ کند می‌کند",
+      "beispiel": "Ketoconazol und Metyrapon werden beim Cushing-Syndrom eingesetzt.",
+      "beispiel_fa": "کتوکونازول و متیراپون در سندرم کوشینگ استفاده می‌شوند.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-368",
+      "kapitel": "Endokrinologie",
+      "seite": 32,
+      "lateinisch": "Hypomagnesiämie",
+      "deutsch": "Magnesiummangel im Blut",
+      "deutsch_fa": "کمبود منیزیم در خون",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Laborwert",
+      "herkunft": "gr. hypo = unter + Magnesium + haima = Blut",
+      "eselsbruecke": "Hypo-Magnesi-ämie = ZU WENIG Magnesium im Blut",
+      "eselsbruecke_fa": "Hypo-Magnesi-ämie = منیزیم بسیار کم در خون",
+      "beispiel": "Beim Conn-Syndrom finden sich Hypokaliämie und Hypomagnesiämie.",
+      "beispiel_fa": "در سندرم کان، هایپوکالمی و هایپومنیزیمی دیده می‌شود.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-369",
+      "kapitel": "Endokrinologie",
+      "seite": 33,
+      "lateinisch": "Phäochromozytom",
+      "deutsch": "Tumor der chromaffinen Zellen des Nebennierenmarks (Katecholamin-produzierend)",
+      "deutsch_fa": "تومور سلول‌های کرومافین مغز غدهٔ فوق‌کلیه (تولیدکنندهٔ کاتکولامین)",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Onkologie",
+      "herkunft": "gr. phaios = dunkel + chroma = Farbe + kytos = Zelle",
+      "eselsbruecke": "Phäochromozytom = 'dunkel färbende' Zellen → Adrenalin-Tumor",
+      "eselsbruecke_fa": "فئوکروموسیتوم = سلول‌های «تیره‌رنگ» ← تومور آدرنالین",
+      "beispiel": "Das Phäochromozytom verursacht eine anfallsweise Hypertonie mit Blässe.",
+      "beispiel_fa": "فئوکروموسیتوم فشار خون بالای حمله‌ای همراه با رنگ‌پریدگی ایجاد می‌کند.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-370",
+      "kapitel": "Endokrinologie",
+      "seite": 33,
+      "lateinisch": "chromaffine Zellen",
+      "deutsch": "Zellen des Nebennierenmarks (produzieren Katecholamine)",
+      "deutsch_fa": "سلول‌های مغز غدهٔ فوق‌کلیه (کاتکولامین تولید می‌کنند)",
+      "wortart": "Substantiv (f, pl)",
+      "kategorie": "Anatomie",
+      "herkunft": "gr. chroma = Farbe + lat. affinis = verwandt",
+      "eselsbruecke": "Chromaffin = lassen sich mit Chromsalzen anfärben",
+      "eselsbruecke_fa": "کرومافین = با نمک‌های کروم رنگ‌آمیزی می‌شوند",
+      "beispiel": "Die chromaffinen Zellen des Nebennierenmarks produzieren Adrenalin.",
+      "beispiel_fa": "سلول‌های کرومافین مغز غدهٔ فوق‌کلیه آدرنالین تولید می‌کنند.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-371",
+      "kapitel": "Endokrinologie",
+      "seite": 33,
+      "lateinisch": "Nebennierenmark",
+      "deutsch": "Innerer Teil der Nebenniere (Adrenalin/Noradrenalin)",
+      "deutsch_fa": "بخش داخلی غدهٔ فوق‌کلیه (آدرنالین/نورآدرنالین)",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Anatomie",
+      "herkunft": "dt. Nebenniere + Mark",
+      "eselsbruecke": "Nebennieren-MARK (innen) = Adrenalin; Nebennieren-RINDE (außen) = Cortisol",
+      "eselsbruecke_fa": "مغز غدهٔ فوق‌کلیه (داخل) = آدرنالین؛ قشر (بیرون) = کورتیزول",
+      "beispiel": "Das Nebennierenmark produziert Katecholamine.",
+      "beispiel_fa": "مغز غدهٔ فوق‌کلیه کاتکولامین تولید می‌کند.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-372",
+      "kapitel": "Endokrinologie",
+      "seite": 33,
+      "lateinisch": "Truncus sympathicus",
+      "deutsch": "Grenzstrang des Sympathikus (Nervenkette entlang der Wirbelsäule)",
+      "deutsch_fa": "تنهٔ سمپاتیک (زنجیرهٔ عصبی در امتداد ستون فقرات)",
+      "wortart": "Substantiv (m)",
+      "kategorie": "Anatomie",
+      "herkunft": "lat. truncus = Stamm + gr. sympathikos",
+      "eselsbruecke": "Truncus sympathicus = der 'Stamm' des Sympathikus",
+      "eselsbruecke_fa": "تنهٔ سمپاتیک = «تنهٔ» سیستم سمپاتیک",
+      "beispiel": "Paragangliome entstehen im Bereich des Truncus sympathicus.",
+      "beispiel_fa": "پاراگانگلیوم‌ها در ناحیهٔ تنهٔ سمپاتیک ایجاد می‌شوند.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-373",
+      "kapitel": "Endokrinologie",
+      "seite": 33,
+      "lateinisch": "Paragangliom",
+      "deutsch": "Tumor außerhalb der Nebenniere (aus Nervengewebe)",
+      "deutsch_fa": "تومور خارج از غدهٔ فوق‌کلیه (از بافت عصبی)",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Onkologie",
+      "herkunft": "gr. para = neben + ganglion = Knoten",
+      "eselsbruecke": "Para-Gangliom = Tumor NEBEN dem Ganglion (außerhalb der Nebenniere)",
+      "eselsbruecke_fa": "Para-Gangliom = تومور در کنار گانگلیون (خارج از غدهٔ فوق‌کلیه)",
+      "beispiel": "Paragangliome sind extraadrenale Phäochromozytome.",
+      "beispiel_fa": "پاراگانگلیوم‌ها فئوکروموسیتوم‌های خارج از غدهٔ فوق‌کلیه هستند.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-374",
+      "kapitel": "Endokrinologie",
+      "seite": 33,
+      "lateinisch": "Metanephrine",
+      "deutsch": "Abbauprodukte der Katecholamine (Tumormarker beim Phäochromozytom)",
+      "deutsch_fa": "فراورده‌های تجزیهٔ کاتکولامین‌ها (نشانگر توموری در فئوکروموسیتوم)",
+      "wortart": "Substantiv (n, pl)",
+      "kategorie": "Laborwert",
+      "herkunft": "gr. meta = nach + nephros = Niere",
+      "eselsbruecke": "Metanephrine = 'Abfallprodukte' des Adrenalins (im Urin messbar)",
+      "eselsbruecke_fa": "متانفرین = «فراورده‌های زائد» آدرنالین (در ادرار قابل اندازه‌گیری)",
+      "beispiel": "Erhöhte Metanephrine im Urin sichern die Diagnose Phäochromozytom.",
+      "beispiel_fa": "افزایش متانفرین در ادرار تشخیص فئوکروموسیتوم را تأیید می‌کند.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-375",
+      "kapitel": "Endokrinologie",
+      "seite": 33,
+      "lateinisch": "hypertensive Krise",
+      "deutsch": "Lebensbedrohlicher Blutdruckanstieg (Notfall)",
+      "deutsch_fa": "افزایش تهدیدکنندهٔ حیات فشار خون (اورژانس)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Notfall",
+      "herkunft": "gr. hyper = über + tonos = Spannung",
+      "eselsbruecke": "Hypertensive Krise = Blutdruck 'explodiert' → Notfall!",
+      "eselsbruecke_fa": "بحران فشار خون بالا = فشار خون «منفجر می‌شود» ← اورژانس!",
+      "beispiel": "Beim Phäochromozytom kann die Palpation eine hypertensive Krise auslösen.",
+      "beispiel_fa": "در فئوکروموسیتوم، لمس شکم می‌تواند بحران فشار خون بالا ایجاد کند.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-376",
+      "kapitel": "Endokrinologie",
+      "seite": 33,
+      "lateinisch": "Clonidin",
+      "deutsch": "Medikament, das α2-Rezeptoren im ZNS stimuliert (Hemmtest)",
+      "deutsch_fa": "دارویی که گیرنده‌های α2 را در سیستم عصبی مرکزی تحریک می‌کند (تست مهار)",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Medikament",
+      "herkunft": "Kunstwort (Arzneistoff)",
+      "eselsbruecke": "Clonidin-Hemmtest = prüft, ob die Katecholamine hemmbar sind",
+      "eselsbruecke_fa": "تست مهار کلونیدین = بررسی می‌کند آیا کاتکولامین‌ها قابل مهار هستند",
+      "beispiel": "Beim Phäochromozytom sinken die Katecholamine im Clonidin-Test NICHT.",
+      "beispiel_fa": "در فئوکروموسیتوم، کاتکولامین‌ها در تست کلونیدین کاهش نمی‌یابند.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-377",
+      "kapitel": "Endokrinologie",
+      "seite": 33,
+      "lateinisch": "MEN-Syndrom",
+      "deutsch": "Multiple Endokrine Neoplasie (erbliche Tumorerkrankung mehrerer Hormondrüsen)",
+      "deutsch_fa": "نئوپلازی متعدد غدد درون‌ریز (بیماری تومورال ارثی چند غدهٔ هورمونی)",
+      "wortart": "Abkürzung",
+      "kategorie": "Genetik",
+      "herkunft": "Multiple Endokrine Neoplasie",
+      "eselsbruecke": "MEN = Mehrere Endokrine Neubildungen (erblich)",
+      "eselsbruecke_fa": "MEN = چند نئوپلازی غدد درون‌ریز (ارثی)",
+      "beispiel": "Das Phäochromozytom kann im Rahmen eines MEN-Syndroms auftreten.",
+      "beispiel_fa": "فئوکروموسیتوم می‌تواند در چارچوب سندرم MEN رخ دهد.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-378",
+      "kapitel": "Endokrinologie",
+      "seite": 33,
+      "lateinisch": "Leukozytose",
+      "deutsch": "Erhöhte Zahl weißer Blutkörperchen",
+      "deutsch_fa": "افزایش تعداد گلبول‌های سفید خون",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Laborwert",
+      "herkunft": "gr. leukos = weiß + kytos = Zelle",
+      "eselsbruecke": "Leukozyt-ose = ZU VIELE weiße Blutkörperchen",
+      "eselsbruecke_fa": "Leukozyt-ose = گلبول‌های سفید بیش از حد",
+      "beispiel": "Beim Phäochromozytom finden sich Hyperglykämie und Leukozytose.",
+      "beispiel_fa": "در فئوکروموسیتوم، هایپرگلیسمی و لکوسیتوز دیده می‌شود.",
+      "schwierigkeit": "leicht"
+    },
+    {
+      "id": "VOK-STW-379",
+      "kapitel": "Endokrinologie",
+      "seite": 34,
+      "lateinisch": "Diabetes insipidus",
+      "deutsch": "Wasserharnruhr (massive Urinausscheidung durch ADH-Mangel/-Resistenz)",
+      "deutsch_fa": "دیابت بی‌مزه (دفع گستردهٔ ادرار به‌دلیل کمبود/مقاومت ADH)",
+      "wortart": "Substantiv (m)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "gr. diabetes = Durchfluss + lat. insipidus = geschmacklos",
+      "eselsbruecke": "Insipidus = 'geschmacklos' (wässriger Urin) ≠ mellitus = 'honigsüß' (Zucker)",
+      "eselsbruecke_fa": "اینسیپیدوس = «بی‌مزه» (ادرار آبکی) ≠ ملیتوس = «شیرین» (قند)",
+      "beispiel": "Beim Diabetes insipidus werden 5-25 Liter Urin täglich ausgeschieden.",
+      "beispiel_fa": "در دیابت بی‌مزه روزانه 5-25 لیتر ادرار دفع می‌شود.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-380",
+      "kapitel": "Endokrinologie",
+      "seite": 34,
+      "lateinisch": "Asthenurie",
+      "deutsch": "Fehlende Harnkonzentration (Urin bleibt wässrig-verdünnt)",
+      "deutsch_fa": "فقدان تغلیظ ادرار (ادرار آبکی و رقیق می‌ماند)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Symptom",
+      "herkunft": "gr. asthenes = kraftlos + ouron = Harn",
+      "eselsbruecke": "A-Sthen-Urie = 'kraftloser' Urin (kann nicht konzentriert werden)",
+      "eselsbruecke_fa": "A-Sthen-Urie = ادرار «بی‌رمق» (نمی‌تواند تغلیظ شود)",
+      "beispiel": "Die Asthenurie ist ein Leitsymptom des Diabetes insipidus.",
+      "beispiel_fa": "آستنوری یکی از علائم اصلی دیابت بی‌مزه است.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-381",
+      "kapitel": "Endokrinologie",
+      "seite": 34,
+      "lateinisch": "Hypernatriämie",
+      "deutsch": "Erhöhter Natriumspiegel im Blut",
+      "deutsch_fa": "افزایش سطح سدیم خون",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Laborwert",
+      "herkunft": "gr. hyper = über + Natrium + haima = Blut",
+      "eselsbruecke": "Hyper-Natri-ämie = ZU VIEL Natrium im Blut (durch Wasserverlust)",
+      "eselsbruecke_fa": "Hyper-Natri-ämie = سدیم بیش از حد در خون (به‌دلیل از دست دادن آب)",
+      "beispiel": "Die Hypernatriämie beim Diabetes insipidus verursacht Verwirrtheit.",
+      "beispiel_fa": "هایپرناترمی در دیابت بی‌مزه باعث گیجی می‌شود.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-382",
+      "kapitel": "Endokrinologie",
+      "seite": 34,
+      "lateinisch": "hypertone Dehydratation",
+      "deutsch": "Austrocknung mit erhöhter Blutkonzentration (mehr Wasser- als Salzverlust)",
+      "deutsch_fa": "خشکیدگی همراه با افزایش غلظت خون (از دست دادن آب بیشتر از نمک)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Pathophysiologie",
+      "herkunft": "gr. hyper + tonos = Spannung + de-hydratation",
+      "eselsbruecke": "Hyperton = 'zu konzentriert' → mehr Wasser als Salz verloren",
+      "eselsbruecke_fa": "هایپرتونیک = «بیش از حد غلیظ» ← آب بیشتری نسبت به نمک از دست رفته",
+      "beispiel": "Die hypertone Dehydratation droht beim Diabetes insipidus bei zu wenig Trinken.",
+      "beispiel_fa": "کم‌آبی هایپرتونیک در دیابت بی‌مزه هنگام نوشیدن ناکافی تهدید می‌کند.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-383",
+      "kapitel": "Endokrinologie",
+      "seite": 34,
+      "lateinisch": "Desmopressin",
+      "deutsch": "Künstliches ADH (Medikament beim zentralen Diabetes insipidus)",
+      "deutsch_fa": "ADH مصنوعی (داروی دیابت بی‌مزهٔ مرکزی)",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Medikament",
+      "herkunft": "Kunstwort (Arzneistoff)",
+      "eselsbruecke": "Desmopressin = ADH-Ersatz (hält das Wasser im Körper)",
+      "eselsbruecke_fa": "دسموپرسین = جایگزین ADH (آب را در بدن نگه می‌دارد)",
+      "beispiel": "Desmopressin wird beim zentralen Diabetes insipidus eingesetzt.",
+      "beispiel_fa": "دسموپرسین در دیابت بی‌مزهٔ مرکزی استفاده می‌شود.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-384",
+      "kapitel": "Endokrinologie",
+      "seite": 34,
+      "lateinisch": "Sammelrohr",
+      "deutsch": "Endabschnitt des Nierentubulus (Wasserrückresorption durch ADH)",
+      "deutsch_fa": "بخش انتهایی توبول کلیه (بازجذب آب توسط ADH)",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Anatomie",
+      "herkunft": "dt. sammeln + Rohr",
+      "eselsbruecke": "Sammelrohr = hier wird der Urin 'gesammelt' und Wasser zurückgeholt",
+      "eselsbruecke_fa": "مجرای جمع‌کننده = اینجا ادرار «جمع» و آب بازپس گرفته می‌شود",
+      "beispiel": "ADH wirkt in den Sammelrohren und distalen Tubuli der Niere.",
+      "beispiel_fa": "ADH در مجاری جمع‌کننده و توبول‌های دیستال کلیه اثر می‌کند.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-385",
+      "kapitel": "Endokrinologie",
+      "seite": 34,
+      "lateinisch": "Osmolarität",
+      "deutsch": "Konzentration gelöster Teilchen in einer Flüssigkeit",
+      "deutsch_fa": "غلظت ذرات حل‌شده در یک مایع",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Laborwert",
+      "herkunft": "gr. osmos = Stoß, Druck",
+      "eselsbruecke": "Osmolarität = wie 'dicht/konzentriert' eine Flüssigkeit ist",
+      "eselsbruecke_fa": "اسمولاریته = میزان «غلظت» یک مایع",
+      "beispiel": "Beim Diabetes insipidus ist die Urinosmolarität ↓ und die Blutosmolarität ↑.",
+      "beispiel_fa": "در دیابت بی‌مزه، اسمولاریتهٔ ادرار کاهش و اسمولاریتهٔ خون افزایش می‌یابد.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-386",
+      "kapitel": "Endokrinologie",
+      "seite": 34,
+      "lateinisch": "Durstversuch",
+      "deutsch": "Test zur Differenzierung des Diabetes insipidus (Flüssigkeitskarenz + ADH-Gabe)",
+      "deutsch_fa": "آزمونی برای تمایز دیابت بی‌مزه (پرهیز از مایعات + تجویز ADH)",
+      "wortart": "Substantiv (m)",
+      "kategorie": "Diagnostik",
+      "herkunft": "dt. Durst + Versuch",
+      "eselsbruecke": "Durstversuch = kein Trinken → reagiert die Niere auf ADH?",
+      "eselsbruecke_fa": "آزمون تشنگی = بدون نوشیدن ← آیا کلیه به ADH پاسخ می‌دهد؟",
+      "beispiel": "Der Durstversuch unterscheidet zentralen von renalem Diabetes insipidus.",
+      "beispiel_fa": "آزمون تشنگی، دیابت بی‌مزهٔ مرکزی را از کلیوی متمایز می‌کند.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-STW-387",
+      "kapitel": "Endokrinologie",
+      "seite": 34,
+      "lateinisch": "Lethargie",
+      "deutsch": "Krankhafte Schläfrigkeit/Teilnahmslosigkeit",
+      "deutsch_fa": "خواب‌آلودگی/بی‌تفاوتی بیمارگونه",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Symptom",
+      "herkunft": "gr. lethargia = Schlafsucht",
+      "eselsbruecke": "Lethargie = 'schlafsüchtig', teilnahmslos",
+      "eselsbruecke_fa": "بی‌حالی (لتارژی) = «خواب‌آلود»، بی‌تفاوت",
+      "beispiel": "Lethargie kann durch die Hypernatriämie beim Diabetes insipidus entstehen.",
+      "beispiel_fa": "بی‌حالی می‌تواند به‌دلیل هایپرناترمی در دیابت بی‌مزه ایجاد شود.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-STW-388",
+      "kapitel": "Endokrinologie",
+      "seite": 34,
+      "lateinisch": "Thiaziddiuretika",
+      "deutsch": "Harntreibende Medikamente (paradox wirksam beim renalen Diabetes insipidus)",
+      "deutsch_fa": "داروهای ادرارآور (به‌طور متناقض در دیابت بی‌مزهٔ کلیوی مؤثرند)",
+      "wortart": "Substantiv (n, pl)",
+      "kategorie": "Medikament",
+      "herkunft": "Kunstwort (Arzneistoffgruppe)",
+      "eselsbruecke": "Thiazide = wirken beim renalen Diabetes insipidus 'paradox' (senken die Urinmenge)",
+      "eselsbruecke_fa": "تیازیدها = در دیابت بی‌مزهٔ کلیوی «متناقض» عمل می‌کنند (حجم ادرار را کاهش می‌دهند)",
+      "beispiel": "Beim renalen Diabetes insipidus wird ein Versuch mit Thiaziddiuretika gemacht.",
+      "beispiel_fa": "در دیابت بی‌مزهٔ کلیوی، تلاشی با دیورتیک‌های تیازیدی انجام می‌شود.",
       "schwierigkeit": "schwer"
     }
   ]
