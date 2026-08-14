@@ -3,7 +3,7 @@
 // ================================================
 
 // 📌 VERSIONS-INFO
-const APP_VERSION = "6.6";
+const APP_VERSION = "6.9";
 const APP_DATUM = "2026-07-12";
 
 let fragenkatalog = [];

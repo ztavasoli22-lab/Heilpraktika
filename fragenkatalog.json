@@ -1,7 +1,7 @@
 {
-  "version": "9.0",
-  "erstellt_am": "2026-07-12",
-  "beschreibung": "Fragenkatalog + Vokabeltrainer Heilpraktikerprüfung - Seite 3-34. Vollständig zweisprachig Deutsch/Persisch (فارسی).",
+  "version": "9.6",
+  "erstellt_am": "2026-08-14",
+  "beschreibung": "Fragenkatalog + Vokabeltrainer Heilpraktikerprüfung - Stoffwechsel (S.3-34) + Herz (S.35-40). Zweisprachig Deutsch/Persisch (فارسی).",
   "fragenkatalog": [
     {
       "id": "STW-003-01",
@@ -15197,6 +15197,2201 @@
         "Fallbeispiel"
       ],
       "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-035-01",
+      "kapitel": "Herz",
+      "thema": "Herz - Grundaufbau",
+      "seite": 35,
+      "typ": "single_choice",
+      "frage": "Wie ist das Herz grundsätzlich aufgebaut?",
+      "frage_fa": "قلب اساساً چگونه ساختاربندی شده است؟",
+      "optionen": [
+        "Aus einer einzigen Kammer",
+        "Aus einer linken und einer rechten Hälfte, die durch eine Herzscheidewand (Vorhofseptum und Kammerseptum) voneinander getrennt sind",
+        "Aus drei gleichen Teilen",
+        "Nur aus Muskelgewebe ohne Kammern",
+        "Aus zwei Vorhöfen ohne Kammern"
+      ],
+      "optionen_fa": [
+        "از یک حفرهٔ واحد",
+        "از یک نیمهٔ چپ و یک نیمهٔ راست که توسط دیوارهٔ قلبی (سپتوم دهلیزی و سپتوم بطنی) از یکدیگر جدا شده‌اند",
+        "از سه بخش یکسان",
+        "فقط از بافت عضلانی بدون حفره",
+        "از دو دهلیز بدون بطن"
+      ],
+      "richtig": 1,
+      "erklaerung": "Das Herz besteht aus einer linken und einer rechten Hälfte, welche durch eine Herzscheidewand (Vorhofseptum und Kammerseptum) voneinander getrennt sind.",
+      "erklaerung_fa": "قلب از یک نیمهٔ چپ و یک نیمهٔ راست تشکیل شده است که توسط دیوارهٔ قلبی (سپتوم دهلیزی و سپتوم بطنی) از یکدیگر جدا شده‌اند.",
+      "schwierigkeit": "leicht",
+      "tags": [
+        "Herz",
+        "Anatomie"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-035-02",
+      "kapitel": "Herz",
+      "thema": "Rechtes Herz - Aufbau",
+      "seite": 35,
+      "typ": "multiple_choice",
+      "frage": "Wie ist das rechte Herz aufgebaut?",
+      "frage_fa": "قلب راست چگونه ساختاربندی شده است؟",
+      "optionen": [
+        "Rechter Herzvorhof (Atrium dexter)",
+        "Rechte Herzkammer (Ventriculus dexter)",
+        "Trikuspidalklappe: dreizipflige Segelklappe zwischen rechtem Vorhof und rechter Kammer",
+        "Pulmonalklappe: Taschenklappe zwischen rechter Kammer und Truncus pulmonalis",
+        "Mitralklappe zwischen den Kammern"
+      ],
+      "optionen_fa": [
+        "دهلیز راست قلب (Atrium dexter)",
+        "بطن راست قلب (Ventriculus dexter)",
+        "دریچهٔ سه‌لختی: دریچهٔ بادبانی سه‌لختی بین دهلیز راست و بطن راست",
+        "دریچهٔ ریوی: دریچهٔ کیسه‌ای بین بطن راست و تنهٔ ریوی",
+        "دریچهٔ میترال بین بطن‌ها"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Rechtes Herz: rechter Herzvorhof (Atrium dexter), rechte Herzkammer (Ventriculus dexter), Trikuspidalklappe (dreizipflige Segelklappe zwischen rechtem Vorhof und rechter Kammer), Pulmonalklappe (Taschenklappe zwischen rechter Kammer und Truncus pulmonalis). Die Mitralklappe gehört zum LINKEN Herz!",
+      "erklaerung_fa": "قلب راست: دهلیز راست (Atrium dexter)، بطن راست (Ventriculus dexter)، دریچهٔ سه‌لختی (دریچهٔ بادبانی سه‌لختی بین دهلیز و بطن راست)، دریچهٔ ریوی (دریچهٔ کیسه‌ای بین بطن راست و تنهٔ ریوی). دریچهٔ میترال مربوط به قلب چپ است!",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Herz",
+        "rechtes Herz"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-035-03",
+      "kapitel": "Herz",
+      "thema": "Vena cava / Truncus pulmonalis",
+      "seite": 35,
+      "typ": "multiple_choice",
+      "frage": "Welche Gefäße sind mit dem rechten Herzen verbunden?",
+      "frage_fa": "کدام عروق به قلب راست متصل هستند؟",
+      "optionen": [
+        "Eintretende Gefäße in den rechten Vorhof: Vena cava inferior/superior (Sinus coronarius)",
+        "Austretende Gefäße aus der rechten Kammer: Truncus pulmonalis (teilt sich später in linke und rechte Lungenarterien A. pulmonalis sinistra und A. pulmonalis dextra)",
+        "Eintretende Gefäße: 4 Lungenvenen",
+        "Austretende Gefäße: Aorta",
+        "Vena cava führt Blut aus dem Körperkreislauf zum rechten Vorhof"
+      ],
+      "optionen_fa": [
+        "عروق ورودی به دهلیز راست: بزرگ‌سیاهرگ زیرین/زبرین (سینوس کرونر)",
+        "عروق خروجی از بطن راست: تنهٔ ریوی (بعداً به شریان‌های ریوی چپ و راست تقسیم می‌شود: A. pulmonalis sinistra و A. pulmonalis dextra)",
+        "عروق ورودی: ۴ سیاهرگ ریوی",
+        "عروق خروجی: آئورت",
+        "بزرگ‌سیاهرگ خون را از گردش خون بدن به دهلیز راست می‌آورد"
+      ],
+      "richtig": [
+        0,
+        1,
+        4
+      ],
+      "erklaerung": "Rechtes Herz - Gefäße: eintretend in den rechten Vorhof sind Vena cava inferior/superior (+ Sinus coronarius), austretend aus der rechten Kammer ist der Truncus pulmonalis (teilt sich in A. pulmonalis sinistra und dextra). Die Vena cava bringt sauerstoffarmes Blut aus dem Körperkreislauf. Die 4 Lungenvenen und die Aorta gehören zum LINKEN Herz!",
+      "erklaerung_fa": "قلب راست — عروق: ورودی به دهلیز راست بزرگ‌سیاهرگ زیرین/زبرین (+ سینوس کرونر) است، خروجی از بطن راست تنهٔ ریوی است (به A. pulmonalis sinistra و dextra تقسیم می‌شود). بزرگ‌سیاهرگ خون کم‌اکسیژن را از گردش خون بدن می‌آورد. ۴ سیاهرگ ریوی و آئورت مربوط به قلب چپ هستند!",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Herz",
+        "Gefäße"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-035-04",
+      "kapitel": "Herz",
+      "thema": "Linkes Herz - Aufbau",
+      "seite": 35,
+      "typ": "multiple_choice",
+      "frage": "Wie ist das linke Herz aufgebaut?",
+      "frage_fa": "قلب چپ چگونه ساختاربندی شده است؟",
+      "optionen": [
+        "Linker Herzvorhof (Atrium sinister)",
+        "Linke Herzkammer (Ventriculus sinister)",
+        "Mitralklappe: zweizipflige Segelklappe zwischen linkem Vorhof und linker Kammer",
+        "Aortenklappe: Taschenklappe zwischen linker Kammer und Aorta",
+        "Trikuspidalklappe zwischen linkem Vorhof und linker Kammer"
+      ],
+      "optionen_fa": [
+        "دهلیز چپ قلب (Atrium sinister)",
+        "بطن چپ قلب (Ventriculus sinister)",
+        "دریچهٔ میترال: دریچهٔ بادبانی دولختی بین دهلیز چپ و بطن چپ",
+        "دریچهٔ آئورت: دریچهٔ کیسه‌ای بین بطن چپ و آئورت",
+        "دریچهٔ سه‌لختی بین دهلیز چپ و بطن چپ"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Linkes Herz: linker Herzvorhof (Atrium sinister), linke Herzkammer (Ventriculus sinister), Mitralklappe (zweizipflige Segelklappe, trennt linken Vorhof von linker Kammer), Aortenklappe (Taschenklappe zwischen linker Kammer und Aorta). Die Trikuspidalklappe gehört zum RECHTEN Herz!",
+      "erklaerung_fa": "قلب چپ: دهلیز چپ (Atrium sinister)، بطن چپ (Ventriculus sinister)، دریچهٔ میترال (دریچهٔ بادبانی دولختی، دهلیز چپ را از بطن چپ جدا می‌کند)، دریچهٔ آئورت (دریچهٔ کیسه‌ای بین بطن چپ و آئورت). دریچهٔ سه‌لختی مربوط به قلب راست است!",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Herz",
+        "linkes Herz"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-035-05",
+      "kapitel": "Herz",
+      "thema": "Linkes Herz - Gefäße",
+      "seite": 35,
+      "typ": "multiple_choice",
+      "frage": "Welche Gefäße sind mit dem linken Herzen verbunden?",
+      "frage_fa": "کدام عروق به قلب چپ متصل هستند؟",
+      "optionen": [
+        "Eintretende Gefäße in den linken Vorhof: 4 Lungenvenen",
+        "Austretende Gefäße aus der linken Kammer: Aorta",
+        "Eintretende Gefäße: Vena cava",
+        "Austretende Gefäße: Truncus pulmonalis",
+        "Die 4 Lungenvenen bringen sauerstoffreiches Blut aus der Lunge"
+      ],
+      "optionen_fa": [
+        "عروق ورودی به دهلیز چپ: ۴ سیاهرگ ریوی",
+        "عروق خروجی از بطن چپ: آئورت",
+        "عروق ورودی: بزرگ‌سیاهرگ",
+        "عروق خروجی: تنهٔ ریوی",
+        "۴ سیاهرگ ریوی خون پُراکسیژن را از ریه می‌آورند"
+      ],
+      "richtig": [
+        0,
+        1,
+        4
+      ],
+      "erklaerung": "Linkes Herz - Gefäße: eintretend in den linken Vorhof sind die 4 Lungenvenen (bringen sauerstoffreiches Blut aus der Lunge), austretend aus der linken Kammer ist die Aorta. Vena cava und Truncus pulmonalis gehören zum RECHTEN Herz!",
+      "erklaerung_fa": "قلب چپ — عروق: ورودی به دهلیز چپ ۴ سیاهرگ ریوی است (خون پُراکسیژن را از ریه می‌آورند)، خروجی از بطن چپ آئورت است. بزرگ‌سیاهرگ و تنهٔ ریوی مربوط به قلب راست هستند!",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Herz",
+        "Gefäße"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-035-06",
+      "kapitel": "Herz",
+      "thema": "Muskelschicht der Kammern",
+      "seite": 35,
+      "typ": "single_choice",
+      "frage": "Wie unterscheidet sich die Muskelschicht der linken von der rechten Kammer?",
+      "frage_fa": "لایهٔ عضلانی بطن چپ چه تفاوتی با بطن راست دارد؟",
+      "optionen": [
+        "Beide sind gleich dick",
+        "Die Muskelschicht der linken Kammer ist deutlich dicker als die der rechten Kammer",
+        "Die rechte Kammer ist dicker",
+        "Die linke Kammer hat gar keine Muskelschicht",
+        "Die Dicke ist bei jedem Menschen unterschiedlich"
+      ],
+      "optionen_fa": [
+        "هر دو به یک اندازه ضخیم هستند",
+        "لایهٔ عضلانی بطن چپ به‌وضوح ضخیم‌تر از بطن راست است",
+        "بطن راست ضخیم‌تر است",
+        "بطن چپ اصلاً لایهٔ عضلانی ندارد",
+        "ضخامت در هر فرد متفاوت است"
+      ],
+      "richtig": 1,
+      "erklaerung": "Die Muskelschicht der linken Kammer ist deutlich dicker als die der rechten Kammer. Grund: Die linke Kammer muss das Blut in den Hochdruck-Körperkreislauf pumpen, die rechte nur in den Niederdruck-Lungenkreislauf.",
+      "erklaerung_fa": "لایهٔ عضلانی بطن چپ به‌وضوح ضخیم‌تر از بطن راست است. علت: بطن چپ باید خون را به گردش خون پُرفشار بدن پمپ کند، اما بطن راست فقط به گردش خون کم‌فشار ریه.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Herz",
+        "Muskelschicht"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-035-07",
+      "kapitel": "Herz",
+      "thema": "Herzklappen - Merkhilfe",
+      "seite": 35,
+      "typ": "single_choice",
+      "frage": "Wie lautet die Reihenfolge der Herzklappen (Merkhilfe 'Täglich pulsiert meine Aorta')?",
+      "frage_fa": "ترتیب دریچه‌های قلب چیست؟ (یادیار «Täglich pulsiert meine Aorta»)",
+      "optionen": [
+        "Aorten-, Mitral-, Pulmonal-, Trikuspidalklappe",
+        "Trikuspidal-, Pulmonal-, Mitral-, Aortenklappe",
+        "Mitral-, Aorten-, Trikuspidal-, Pulmonalklappe",
+        "Pulmonal-, Trikuspidal-, Aorten-, Mitralklappe",
+        "Alle gleichzeitig"
+      ],
+      "optionen_fa": [
+        "دریچهٔ آئورت، میترال، ریوی، سه‌لختی",
+        "دریچهٔ سه‌لختی، ریوی، میترال، آئورت",
+        "دریچهٔ میترال، آئورت، سه‌لختی، ریوی",
+        "دریچهٔ ریوی، سه‌لختی، آئورت، میترال",
+        "همه هم‌زمان"
+      ],
+      "richtig": 1,
+      "erklaerung": "Merkhilfe für die Reihenfolge der Herzklappen: 'Täglich pulsiert meine Aorta' = Trikuspidalklappe, Pulmonalklappe, Mitralklappe, Aortenklappe. (T-P-M-A)",
+      "erklaerung_fa": "یادیار برای ترتیب دریچه‌های قلب: «Täglich pulsiert meine Aorta» = دریچهٔ سه‌لختی (Trikuspidal)، ریوی (Pulmonal)، میترال (Mitral)، آئورت (Aorta). (T-P-M-A)",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Herz",
+        "Herzklappen",
+        "Merkhilfe"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-035-08",
+      "kapitel": "Herz",
+      "thema": "Herzohren",
+      "seite": 35,
+      "typ": "multiple_choice",
+      "frage": "Was sind die Herzohren und welche klinische Bedeutung haben sie?",
+      "frage_fa": "زائده‌های دهلیزی (گوشک‌های قلب) چه هستند و چه اهمیت بالینی‌ای دارند؟",
+      "optionen": [
+        "Ausbuchtungen aus Muskelgewebe an den Vorhöfen",
+        "Bei verstärkter Vordehnung der Vorhöfe wird das Herzenzym ANP (atriales natriuretisches Peptid) freigesetzt, welches die Wasserausscheidung fördert und den Blutdruck senkt",
+        "90% aller Schlaganfälle entstehen durch Thrombenbildung im linken Herzohr",
+        "Bei Thrombenbildung im rechten Herzohr kann es zu einer Lungenembolie kommen",
+        "Herzohren haben keine Funktion"
+      ],
+      "optionen_fa": [
+        "برجستگی‌هایی از بافت عضلانی روی دهلیزها",
+        "با کشش بیشتر دهلیزها، آنزیم قلبی ANP (پپتید ناتریورتیک دهلیزی) آزاد می‌شود که دفع آب را تقویت و فشار خون را کاهش می‌دهد",
+        "۹۰٪ همهٔ سکته‌های مغزی به‌دلیل تشکیل ترومبوز در گوشک چپ قلب ایجاد می‌شوند",
+        "در تشکیل ترومبوز در گوشک راست قلب می‌تواند آمبولی ریه رخ دهد",
+        "گوشک‌های قلب هیچ عملکردی ندارند"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Herzohren = Ausbuchtungen aus Muskelgewebe an den Vorhöfen. Bei verstärkter Vordehnung wird das Herzenzym ANP (atriales natriuretisches Peptid) freigesetzt → fördert Wasserausscheidung, senkt Blutdruck. 90% aller Schlaganfälle entstehen durch Thrombenbildung im LINKEN Herzohr. Bei Thromben im RECHTEN Herzohr → Lungenembolie möglich.",
+      "erklaerung_fa": "گوشک‌های قلب = برجستگی‌هایی از بافت عضلانی روی دهلیزها. با کشش بیشتر، آنزیم قلبی ANP (پپتید ناتریورتیک دهلیزی) آزاد می‌شود ← دفع آب را تقویت و فشار خون را کاهش می‌دهد. ۹۰٪ سکته‌های مغزی به‌دلیل تشکیل ترومبوز در گوشک چپ ایجاد می‌شوند. با ترومبوز در گوشک راست ← آمبولی ریه ممکن است.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Herz",
+        "Herzohren",
+        "ANP"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-035-09",
+      "kapitel": "Herz",
+      "thema": "Herzskelett",
+      "seite": 35,
+      "typ": "single_choice",
+      "frage": "Was ist das Herzskelett?",
+      "frage_fa": "اسکلت قلب چیست؟",
+      "optionen": [
+        "Ein Knochen im Herzen",
+        "Ein Bindegewebsgerüst, welches Kammern von Vorhöfen trennt und der Klappenbefestigung dient",
+        "Die Muskelschicht des Herzens",
+        "Die äußere Hülle des Herzens",
+        "Ein Teil des Erregungsleitungssystems"
+      ],
+      "optionen_fa": [
+        "استخوانی در قلب",
+        "یک داربست بافت همبند که بطن‌ها را از دهلیزها جدا می‌کند و برای اتصال دریچه‌ها به کار می‌رود",
+        "لایهٔ عضلانی قلب",
+        "پوشش بیرونی قلب",
+        "بخشی از سیستم هدایت تحریک"
+      ],
+      "richtig": 1,
+      "erklaerung": "Das Herzskelett ist ein Bindegewebsgerüst, welches Kammern von Vorhöfen trennt und der Klappenbefestigung dient. Es ist kein echter Knochen, sondern besteht aus festem Bindegewebe.",
+      "erklaerung_fa": "اسکلت قلب یک داربست بافت همبند است که بطن‌ها را از دهلیزها جدا می‌کند و برای اتصال دریچه‌ها به کار می‌رود. استخوان واقعی نیست، بلکه از بافت همبند محکم تشکیل شده است.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Herz",
+        "Herzskelett"
+      ],
+      "pruefungsrelevanz": "mittel"
+    },
+    {
+      "id": "HRZ-035-F1",
+      "kapitel": "Herz",
+      "thema": "Herzaufbau - Fallbeispiel",
+      "seite": 35,
+      "typ": "fallbeispiel",
+      "fallbeschreibung": "Ein Student soll den Blutweg durch das rechte Herz beschreiben. Das sauerstoffarme Blut kommt aus dem Körperkreislauf und tritt in den rechten Vorhof ein.",
+      "fallbeschreibung_fa": "یک دانشجو باید مسیر خون در قلب راست را توصیف کند. خون کم‌اکسیژن از گردش خون بدن می‌آید و وارد دهلیز راست می‌شود.",
+      "frage": "Welche Reihenfolge durchläuft das Blut im rechten Herzen korrekt?",
+      "frage_fa": "خون در قلب راست کدام ترتیب صحیح را طی می‌کند؟",
+      "optionen": [
+        "Vena cava → rechter Vorhof → Mitralklappe → linke Kammer → Aorta",
+        "Vena cava → rechter Vorhof → Trikuspidalklappe → rechte Kammer → Pulmonalklappe → Truncus pulmonalis",
+        "Aorta → linke Kammer → rechter Vorhof → Lunge",
+        "Lungenvenen → rechter Vorhof → rechte Kammer → Aorta",
+        "Truncus pulmonalis → rechter Vorhof → Vena cava"
+      ],
+      "optionen_fa": [
+        "بزرگ‌سیاهرگ ← دهلیز راست ← دریچهٔ میترال ← بطن چپ ← آئورت",
+        "بزرگ‌سیاهرگ ← دهلیز راست ← دریچهٔ سه‌لختی ← بطن راست ← دریچهٔ ریوی ← تنهٔ ریوی",
+        "آئورت ← بطن چپ ← دهلیز راست ← ریه",
+        "سیاهرگ‌های ریوی ← دهلیز راست ← بطن راست ← آئورت",
+        "تنهٔ ریوی ← دهلیز راست ← بزرگ‌سیاهرگ"
+      ],
+      "richtig": 1,
+      "erklaerung": "Korrekter Blutweg im rechten Herzen: Vena cava (inferior/superior) → rechter Vorhof (Atrium dexter) → Trikuspidalklappe (dreizipflige Segelklappe) → rechte Kammer (Ventriculus dexter) → Pulmonalklappe (Taschenklappe) → Truncus pulmonalis → Lunge. Merke: Trikuspidal- und Pulmonalklappe gehören zum rechten Herz, Mitral- und Aortenklappe zum linken.",
+      "erklaerung_fa": "مسیر صحیح خون در قلب راست: بزرگ‌سیاهرگ (زیرین/زبرین) ← دهلیز راست (Atrium dexter) ← دریچهٔ سه‌لختی (دریچهٔ بادبانی سه‌لختی) ← بطن راست (Ventriculus dexter) ← دریچهٔ ریوی (دریچهٔ کیسه‌ای) ← تنهٔ ریوی ← ریه. به یاد داشته باشید: دریچه‌های سه‌لختی و ریوی مربوط به قلب راست، دریچه‌های میترال و آئورت مربوط به قلب چپ هستند.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Herz",
+        "Blutweg",
+        "Fallbeispiel"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-036-01",
+      "kapitel": "Herz",
+      "thema": "Herzschichten",
+      "seite": 36,
+      "typ": "multiple_choice",
+      "frage": "Aus welchen Schichten besteht die Herzwand (von innen nach außen)?",
+      "frage_fa": "دیوارهٔ قلب از کدام لایه‌ها تشکیل شده است (از داخل به خارج)؟",
+      "optionen": [
+        "Endokard: innere Herzhaut, kleidet die Herzinnenräume aus",
+        "Myokard: Herzmuskelschicht (der eigentliche Muskel)",
+        "Epikard: äußere Schicht des Herzens (inneres Blatt des Herzbeutels)",
+        "Perikard: Herzbeutel mit parietalem Blatt und Perikardhöhle",
+        "Diaphragma zwischen den Schichten"
+      ],
+      "optionen_fa": [
+        "اندوکارد: پردهٔ داخلی قلب، فضاهای داخلی قلب را می‌پوشاند",
+        "میوکارد: لایهٔ عضلانی قلب (عضلهٔ اصلی)",
+        "اپیکارد: لایهٔ بیرونی قلب (لایهٔ داخلی کیسهٔ قلب)",
+        "پریکارد: کیسهٔ قلب همراه با لایهٔ جداری و حفرهٔ پریکارد",
+        "دیافراگم بین لایه‌ها"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Herzwand von innen nach außen: Endokard (innere Herzhaut, kleidet Herzinnenräume aus), Myokard (Herzmuskelschicht), Epikard (äußere Schicht = inneres/viszerales Blatt des Herzbeutels), Perikard (Herzbeutel mit parietalem Blatt + dazwischen die Perikardhöhle mit Gleitflüssigkeit).",
+      "erklaerung_fa": "دیوارهٔ قلب از داخل به خارج: اندوکارد (پردهٔ داخلی، فضاهای داخلی قلب را می‌پوشاند)، میوکارد (لایهٔ عضلانی قلب)، اپیکارد (لایهٔ بیرونی = لایهٔ داخلی/احشایی کیسهٔ قلب)، پریکارد (کیسهٔ قلب همراه با لایهٔ جداری + بین آن‌ها حفرهٔ پریکارد با مایع لغزنده).",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Herz",
+        "Herzschichten"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-036-02",
+      "kapitel": "Herz",
+      "thema": "Endokard",
+      "seite": 36,
+      "typ": "single_choice",
+      "frage": "Was ist das Endokard?",
+      "frage_fa": "اندوکارد چیست؟",
+      "optionen": [
+        "Die äußere Schicht des Herzens",
+        "Die innere Herzhaut, die die Herzinnenräume und Herzklappen auskleidet",
+        "Die Herzmuskelschicht",
+        "Der Herzbeutel",
+        "Ein Blutgefäß"
+      ],
+      "optionen_fa": [
+        "لایهٔ بیرونی قلب",
+        "پردهٔ داخلی قلب که فضاهای داخلی قلب و دریچه‌های قلب را می‌پوشاند",
+        "لایهٔ عضلانی قلب",
+        "کیسهٔ قلب",
+        "یک رگ خونی"
+      ],
+      "richtig": 1,
+      "erklaerung": "Das Endokard (endo = innen) ist die innere Herzhaut, die die Herzinnenräume auskleidet und auch die Herzklappen überzieht. Eine Entzündung heißt Endokarditis.",
+      "erklaerung_fa": "اندوکارد (endo = داخل) پردهٔ داخلی قلب است که فضاهای داخلی قلب را می‌پوشاند و دریچه‌های قلب را نیز می‌پوشاند. التهاب آن اندوکاردیت نامیده می‌شود.",
+      "schwierigkeit": "leicht",
+      "tags": [
+        "Herz",
+        "Endokard"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-036-03",
+      "kapitel": "Herz",
+      "thema": "Myokard",
+      "seite": 36,
+      "typ": "single_choice",
+      "frage": "Was ist das Myokard?",
+      "frage_fa": "میوکارد چیست؟",
+      "optionen": [
+        "Die innere Herzhaut",
+        "Die Herzmuskelschicht (der eigentliche Herzmuskel)",
+        "Der Herzbeutel",
+        "Die Herzklappe",
+        "Ein Nerv"
+      ],
+      "optionen_fa": [
+        "پردهٔ داخلی قلب",
+        "لایهٔ عضلانی قلب (عضلهٔ اصلی قلب)",
+        "کیسهٔ قلب",
+        "دریچهٔ قلب",
+        "یک عصب"
+      ],
+      "richtig": 1,
+      "erklaerung": "Das Myokard (myo = Muskel) ist die Herzmuskelschicht - der eigentliche Herzmuskel, der für die Pumpfunktion sorgt. Eine Entzündung heißt Myokarditis, ein Absterben von Muskelgewebe ist der Herzinfarkt (Myokardinfarkt).",
+      "erklaerung_fa": "میوکارد (myo = عضله) لایهٔ عضلانی قلب است — عضلهٔ اصلی قلب که عملکرد پمپاژ را انجام می‌دهد. التهاب آن میوکاردیت و مرگ بافت عضلانی، سکتهٔ قلبی (انفارکتوس میوکارد) نامیده می‌شود.",
+      "schwierigkeit": "leicht",
+      "tags": [
+        "Herz",
+        "Myokard"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-036-04",
+      "kapitel": "Herz",
+      "thema": "Perikard",
+      "seite": 36,
+      "typ": "multiple_choice",
+      "frage": "Was ist der Herzbeutel (Perikard)?",
+      "frage_fa": "کیسهٔ قلب (پریکارد) چیست؟",
+      "optionen": [
+        "Das Epikard bildet das innere (viszerale) Blatt",
+        "Das parietale Blatt bildet die äußere Hülle",
+        "Zwischen beiden Blättern liegt die Perikardhöhle mit etwas Flüssigkeit (ermöglicht reibungsloses Gleiten)",
+        "Der Herzbeutel schützt und fixiert das Herz",
+        "Der Herzbeutel ist Teil der Lunge"
+      ],
+      "optionen_fa": [
+        "اپیکارد لایهٔ داخلی (احشایی) را تشکیل می‌دهد",
+        "لایهٔ جداری پوشش بیرونی را تشکیل می‌دهد",
+        "بین دو لایه، حفرهٔ پریکارد همراه با کمی مایع قرار دارد (لغزش بدون اصطکاک را ممکن می‌سازد)",
+        "کیسهٔ قلب از قلب محافظت و آن را تثبیت می‌کند",
+        "کیسهٔ قلب بخشی از ریه است"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Der Herzbeutel (Perikard) besteht aus zwei Blättern: dem inneren (viszeralen) Blatt = Epikard und dem äußeren parietalen Blatt. Dazwischen liegt die Perikardhöhle mit etwas Flüssigkeit, die ein reibungsloses Gleiten des Herzens ermöglicht. Der Herzbeutel schützt und fixiert das Herz.",
+      "erklaerung_fa": "کیسهٔ قلب (پریکارد) از دو لایه تشکیل شده است: لایهٔ داخلی (احشایی) = اپیکارد و لایهٔ بیرونی جداری. بین آن‌ها حفرهٔ پریکارد همراه با کمی مایع قرار دارد که لغزش بدون اصطکاک قلب را ممکن می‌سازد. کیسهٔ قلب از قلب محافظت و آن را تثبیت می‌کند.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Herz",
+        "Perikard"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-036-05",
+      "kapitel": "Herz",
+      "thema": "Erregungsleitungssystem - Merkhilfe",
+      "seite": 36,
+      "typ": "single_choice",
+      "frage": "Wie lautet die Reihenfolge des Erregungsleitungssystems (Merkhilfe 'Sind Alle Hier Top Fit?')?",
+      "frage_fa": "ترتیب سیستم هدایت تحریک چیست؟ (یادیار «Sind Alle Hier Top Fit?»)",
+      "optionen": [
+        "Purkinje-Fasern → Tawara-Schenkel → HIS-Bündel → AV-Knoten → Sinusknoten",
+        "Sinusknoten → AV-Knoten → HIS-Bündel → Tawara-Schenkel → Purkinje-Fasern",
+        "AV-Knoten → Sinusknoten → HIS-Bündel → Purkinje-Fasern",
+        "Sinusknoten → HIS-Bündel → AV-Knoten → Purkinje-Fasern",
+        "HIS-Bündel → Sinusknoten → AV-Knoten → Tawara-Schenkel"
+      ],
+      "optionen_fa": [
+        "الیاف پورکنژ ← شاخهٔ تاوارا ← دستهٔ هیس ← گرهٔ AV ← گرهٔ سینوسی",
+        "گرهٔ سینوسی ← گرهٔ AV ← دستهٔ هیس ← شاخهٔ تاوارا ← الیاف پورکنژ",
+        "گرهٔ AV ← گرهٔ سینوسی ← دستهٔ هیس ← الیاف پورکنژ",
+        "گرهٔ سینوسی ← دستهٔ هیس ← گرهٔ AV ← الیاف پورکنژ",
+        "دستهٔ هیس ← گرهٔ سینوسی ← گرهٔ AV ← شاخهٔ تاوارا"
+      ],
+      "richtig": 1,
+      "erklaerung": "Merkhilfe 'Sind Alle Hier Top Fit?': Sinusknoten → AV-Knoten → HIS-Bündel → Tawara-Schenkel → Purkinje-Fasern. Dies ist die Reihenfolge, in der die elektrische Erregung durch das Herz geleitet wird.",
+      "erklaerung_fa": "یادیار «Sind Alle Hier Top Fit?»: گرهٔ سینوسی (Sinusknoten) ← گرهٔ AV ← دستهٔ هیس (HIS) ← شاخهٔ تاوارا (Tawara) ← الیاف پورکنژ (Purkinje). این ترتیبی است که تحریک الکتریکی از طریق آن در قلب هدایت می‌شود.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Herz",
+        "Erregungsleitung",
+        "Merkhilfe"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-036-06",
+      "kapitel": "Herz",
+      "thema": "Sinusknoten",
+      "seite": 36,
+      "typ": "single_choice",
+      "frage": "Welche Funktion und Frequenz hat der Sinusknoten?",
+      "frage_fa": "گرهٔ سینوسی چه عملکرد و فرکانسی دارد؟",
+      "optionen": [
+        "Er ist der primäre Schrittmacher des Herzens mit einer Frequenz von 60-80/min",
+        "Er hat eine Frequenz von 20/min",
+        "Er ist nur ein Reservesystem",
+        "Er hat gar keine eigene Frequenz",
+        "Er schlägt 200-mal pro Minute"
+      ],
+      "optionen_fa": [
+        "ضربان‌ساز اولیهٔ قلب با فرکانس 60-80 در دقیقه است",
+        "فرکانس 20 در دقیقه دارد",
+        "فقط یک سیستم ذخیره است",
+        "اصلاً فرکانس خاص خود را ندارد",
+        "200 بار در دقیقه می‌زند"
+      ],
+      "richtig": 0,
+      "erklaerung": "Der Sinusknoten ist der primäre Schrittmacher des Herzens mit einer Eigenfrequenz von 60-80/min. Er gibt normalerweise den Takt für den gesamten Herzschlag vor.",
+      "erklaerung_fa": "گرهٔ سینوسی ضربان‌ساز اولیهٔ قلب با فرکانس ذاتی 60-80 در دقیقه است. معمولاً ریتم کل ضربان قلب را تعیین می‌کند.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Herz",
+        "Sinusknoten"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-036-07",
+      "kapitel": "Herz",
+      "thema": "Frequenzen des Erregungsleitungssystems",
+      "seite": 36,
+      "typ": "multiple_choice",
+      "frage": "Welche Eigenfrequenzen haben die Teile des Erregungsleitungssystems?",
+      "frage_fa": "بخش‌های سیستم هدایت تحریک چه فرکانس‌های ذاتی‌ای دارند؟",
+      "optionen": [
+        "Sinusknoten: 60-80/min",
+        "AV-Knoten: 40-60/min",
+        "HIS-Bündel: 30-40/min",
+        "Purkinje-Fasern/Kammer: ca. 20/min (bzw. 10/min)",
+        "Alle haben 100/min"
+      ],
+      "optionen_fa": [
+        "گرهٔ سینوسی: 60-80 در دقیقه",
+        "گرهٔ AV: 40-60 در دقیقه",
+        "دستهٔ هیس: 30-40 در دقیقه",
+        "الیاف پورکنژ/بطن: حدود 20 در دقیقه (یا 10 در دقیقه)",
+        "همه 100 در دقیقه دارند"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Eigenfrequenzen (nehmen nach unten ab): Sinusknoten 60-80/min (primärer Schrittmacher), AV-Knoten 40-60/min (sekundär), HIS-Bündel 30-40/min (tertiär), Purkinje-Fasern/Kammer ca. 20/min (bzw. 10/min). Je tiefer im System, desto langsamer - als Reserve, falls höhere Zentren ausfallen.",
+      "erklaerung_fa": "فرکانس‌های ذاتی (به سمت پایین کاهش می‌یابند): گرهٔ سینوسی 60-80 در دقیقه (ضربان‌ساز اولیه)، گرهٔ AV 40-60 در دقیقه (ثانویه)، دستهٔ هیس 30-40 در دقیقه (ثالثیه)، الیاف پورکنژ/بطن حدود 20 در دقیقه (یا 10 در دقیقه). هرچه در سیستم پایین‌تر، کندتر — به‌عنوان ذخیره، در صورت از کارافتادن مراکز بالاتر.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Herz",
+        "Frequenzen"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-036-08",
+      "kapitel": "Herz",
+      "thema": "AV-Knoten",
+      "seite": 36,
+      "typ": "single_choice",
+      "frage": "Welche Rolle spielt der AV-Knoten?",
+      "frage_fa": "گرهٔ AV چه نقشی دارد؟",
+      "optionen": [
+        "Er ist der primäre Schrittmacher",
+        "Er ist der sekundäre Schrittmacher (40-60/min) und leitet die Erregung vom Vorhof zur Kammer weiter - kann bei Ausfall des Sinusknotens einspringen",
+        "Er hat keine Funktion",
+        "Er pumpt das Blut",
+        "Er produziert Hormone"
+      ],
+      "optionen_fa": [
+        "ضربان‌ساز اولیه است",
+        "ضربان‌ساز ثانویه (40-60 در دقیقه) است و تحریک را از دهلیز به بطن هدایت می‌کند — در صورت از کارافتادن گرهٔ سینوسی می‌تواند جایگزین شود",
+        "هیچ عملکردی ندارد",
+        "خون را پمپ می‌کند",
+        "هورمون تولید می‌کند"
+      ],
+      "richtig": 1,
+      "erklaerung": "Der AV-Knoten (Atrioventrikularknoten) ist der sekundäre Schrittmacher (40-60/min). Er leitet die Erregung vom Vorhof zur Kammer weiter und verzögert sie kurz (damit sich die Kammern füllen können). Bei Ausfall des Sinusknotens kann er als Ersatzschrittmacher einspringen.",
+      "erklaerung_fa": "گرهٔ AV (گرهٔ دهلیزی-بطنی) ضربان‌ساز ثانویه (40-60 در دقیقه) است. تحریک را از دهلیز به بطن هدایت و آن را کمی به تأخیر می‌اندازد (تا بطن‌ها بتوانند پر شوند). در صورت از کارافتادن گرهٔ سینوسی می‌تواند به‌عنوان ضربان‌ساز جایگزین عمل کند.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Herz",
+        "AV-Knoten"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-036-09",
+      "kapitel": "Herz",
+      "thema": "Autonomie des Herzens",
+      "seite": 36,
+      "typ": "richtig_falsch",
+      "frage": "Das Herz arbeitet autonom, wird aber durch das vegetative Nervensystem moduliert ('Alles-oder-Nichts-Prinzip').",
+      "frage_fa": "قلب خودمختار کار می‌کند، اما توسط سیستم عصبی خودمختار تعدیل می‌شود («اصل همه یا هیچ»).",
+      "richtig": true,
+      "erklaerung": "RICHTIG - Das Herz arbeitet autonom (es hat mit dem Erregungsleitungssystem einen eigenen 'Taktgeber' und schlägt auch ohne Nervenverbindung weiter). Es wird aber durch das vegetative Nervensystem moduliert: Der Sympathikus beschleunigt, der Parasympathikus (N. vagus) verlangsamt den Herzschlag. Die Herzmuskelzellen folgen dem 'Alles-oder-Nichts-Prinzip'.",
+      "erklaerung_fa": "درست است — قلب خودمختار کار می‌کند (با سیستم هدایت تحریک یک «ضربان‌ساز» خاص خود دارد و حتی بدون ارتباط عصبی به تپیدن ادامه می‌دهد). اما توسط سیستم عصبی خودمختار تعدیل می‌شود: سمپاتیک ضربان قلب را تسریع و پاراسمپاتیک (عصب واگ) آن را کند می‌کند. سلول‌های عضلهٔ قلب از «اصل همه یا هیچ» پیروی می‌کنند.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Herz",
+        "Autonomie"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-036-F1",
+      "kapitel": "Herz",
+      "thema": "Erregungsleitung - Fallbeispiel",
+      "seite": 36,
+      "typ": "fallbeispiel",
+      "fallbeschreibung": "Bei einem Patienten fällt der Sinusknoten als primärer Schrittmacher aus. Das Herz schlägt aber langsamer weiter (ca. 45/min).",
+      "fallbeschreibung_fa": "در یک بیمار، گرهٔ سینوسی به‌عنوان ضربان‌ساز اولیه از کار می‌افتد. اما قلب کندتر به تپیدن ادامه می‌دهد (حدود 45 در دقیقه).",
+      "frage": "Welche Struktur hat die Schrittmacherfunktion übernommen?",
+      "frage_fa": "کدام ساختار عملکرد ضربان‌سازی را بر عهده گرفته است؟",
+      "optionen": [
+        "Die Purkinje-Fasern",
+        "Der AV-Knoten (sekundärer Schrittmacher, 40-60/min)",
+        "Das Endokard",
+        "Der Herzbeutel",
+        "Die Aortenklappe"
+      ],
+      "optionen_fa": [
+        "الیاف پورکنژ",
+        "گرهٔ AV (ضربان‌ساز ثانویه، 40-60 در دقیقه)",
+        "اندوکارد",
+        "کیسهٔ قلب",
+        "دریچهٔ آئورت"
+      ],
+      "richtig": 1,
+      "erklaerung": "Bei Ausfall des Sinusknotens springt der AV-Knoten als sekundärer Schrittmacher ein (Eigenfrequenz 40-60/min). Das erklärt die Herzfrequenz von ca. 45/min. Fällt auch der AV-Knoten aus, übernehmen HIS-Bündel (30-40/min) oder Purkinje-Fasern (ca. 20/min) - dann wird es aber lebensbedrohlich langsam.",
+      "erklaerung_fa": "در صورت از کارافتادن گرهٔ سینوسی، گرهٔ AV به‌عنوان ضربان‌ساز ثانویه جایگزین می‌شود (فرکانس ذاتی 40-60 در دقیقه). این ضربان قلب حدود 45 در دقیقه را توضیح می‌دهد. اگر گرهٔ AV نیز از کار بیفتد، دستهٔ هیس (30-40 در دقیقه) یا الیاف پورکنژ (حدود 20 در دقیقه) بر عهده می‌گیرند — اما آنگاه به‌طور تهدیدکنندهٔ حیات کند می‌شود.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Herz",
+        "Erregungsleitung",
+        "Fallbeispiel"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-037-01",
+      "kapitel": "Herz",
+      "thema": "Herzrhythmusstörungen - Definition",
+      "seite": 37,
+      "typ": "single_choice",
+      "frage": "Was ist eine Herzrhythmusstörung (Arrhythmie)?",
+      "frage_fa": "اختلال ریتم قلب (آریتمی) چیست؟",
+      "optionen": [
+        "Immer ein Herzstillstand",
+        "Eine Abweichung von der normalen Herzfrequenz (physiologisch 60-80/min) und/oder das Auftreten von Extrasystolen",
+        "Nur ein zu langsamer Herzschlag",
+        "Eine Herzklappenerkrankung",
+        "Ein Herzinfarkt"
+      ],
+      "optionen_fa": [
+        "همیشه ایست قلبی",
+        "انحراف از ضربان طبیعی قلب (فیزیولوژیک 60-80 در دقیقه) و/یا بروز اکستراسیستول‌ها",
+        "فقط ضربان قلب بسیار کند",
+        "یک بیماری دریچهٔ قلب",
+        "یک سکتهٔ قلبی"
+      ],
+      "richtig": 1,
+      "erklaerung": "Herzrhythmusstörung (Arrhythmie) = Abweichung von der normalen Herzfrequenz (physiologisch 60-80/min) und/oder das Auftreten von Extrasystolen (zusätzliche Herzschläge außerhalb des normalen Rhythmus).",
+      "erklaerung_fa": "اختلال ریتم قلب (آریتمی) = انحراف از ضربان طبیعی قلب (فیزیولوژیک 60-80 در دقیقه) و/یا بروز اکستراسیستول‌ها (ضربان‌های اضافی خارج از ریتم طبیعی).",
+      "schwierigkeit": "leicht",
+      "tags": [
+        "Herz",
+        "Arrhythmie"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-037-02",
+      "kapitel": "Herz",
+      "thema": "Tachykardie vs. Bradykardie",
+      "seite": 37,
+      "typ": "multiple_choice",
+      "frage": "Wie werden Tachykardie und Bradykardie definiert?",
+      "frage_fa": "تاکی‌کاردی و برادی‌کاردی چگونه تعریف می‌شوند؟",
+      "optionen": [
+        "Tachykardie: Herzfrequenz über 100/min",
+        "Bradykardie: Herzfrequenz unter 60/min",
+        "Tachykardie: unter 60/min",
+        "Bradykardie: über 100/min",
+        "Beide bedeuten Herzstillstand"
+      ],
+      "optionen_fa": [
+        "تاکی‌کاردی: ضربان قلب بالای 100 در دقیقه",
+        "برادی‌کاردی: ضربان قلب زیر 60 در دقیقه",
+        "تاکی‌کاردی: زیر 60 در دقیقه",
+        "برادی‌کاردی: بالای 100 در دقیقه",
+        "هر دو به معنای ایست قلبی هستند"
+      ],
+      "richtig": [
+        0,
+        1
+      ],
+      "erklaerung": "Tachykardie = Herzfrequenz über 100/min (zu schnell). Bradykardie = Herzfrequenz unter 60/min (zu langsam). Der Normbereich liegt bei 60-100/min (in Ruhe eher 60-80/min).",
+      "erklaerung_fa": "تاکی‌کاردی = ضربان قلب بالای 100 در دقیقه (بسیار سریع). برادی‌کاردی = ضربان قلب زیر 60 در دقیقه (بسیار کند). محدودهٔ طبیعی 60-100 در دقیقه است (در حالت استراحت بیشتر 60-80 در دقیقه).",
+      "schwierigkeit": "leicht",
+      "tags": [
+        "Herz",
+        "Tachykardie",
+        "Bradykardie"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-037-03",
+      "kapitel": "Herz",
+      "thema": "Vorhof - Frequenzen",
+      "seite": 37,
+      "typ": "multiple_choice",
+      "frage": "Welche Frequenzen haben die Herzrhythmusstörungen der Herzvorhöfe?",
+      "frage_fa": "اختلالات ریتم دهلیزهای قلب چه فرکانس‌هایی دارند؟",
+      "optionen": [
+        "Vorhoftachykardie: 100-250/min",
+        "Vorhofflattern: 250-350/min",
+        "Vorhofflimmern: 350-600/min",
+        "Extrasystolen (zusätzliche Schläge)",
+        "Vorhofflimmern: 20-40/min"
+      ],
+      "optionen_fa": [
+        "تاکی‌کاردی دهلیزی: 100-250 در دقیقه",
+        "فلاتر (بال‌بال‌زدن) دهلیزی: 250-350 در دقیقه",
+        "فیبریلاسیون (لرزش) دهلیزی: 350-600 در دقیقه",
+        "اکستراسیستول‌ها (ضربان‌های اضافی)",
+        "فیبریلاسیون دهلیزی: 20-40 در دقیقه"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Herzrhythmusstörungen der Vorhöfe: Vorhoftachykardie 100-250/min, Vorhofflattern 250-350/min, Vorhofflimmern 350-600/min, sowie Extrasystolen. Je höher die Frequenz, desto 'chaotischer' - beim Vorhofflimmern zittern die Vorhöfe nur noch.",
+      "erklaerung_fa": "اختلالات ریتم دهلیزها: تاکی‌کاردی دهلیزی 100-250 در دقیقه، فلاتر دهلیزی 250-350 در دقیقه، فیبریلاسیون دهلیزی 350-600 در دقیقه، و همچنین اکستراسیستول‌ها. هرچه فرکانس بالاتر، «آشفته‌تر» — در فیبریلاسیون دهلیزی، دهلیزها فقط می‌لرزند.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Herz",
+        "Vorhof"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-037-04",
+      "kapitel": "Herz",
+      "thema": "Kammer - Frequenzen",
+      "seite": 37,
+      "typ": "multiple_choice",
+      "frage": "Welche Frequenzen haben die Herzrhythmusstörungen der Herzkammern?",
+      "frage_fa": "اختلالات ریتم بطن‌های قلب چه فرکانس‌هایی دارند؟",
+      "optionen": [
+        "Kammertachykardie: 100-200/min",
+        "Kammerflattern: 200-350/min",
+        "Kammerflimmern: 350-600/min",
+        "Extrasystolen (zusätzliche Schläge)",
+        "Kammertachykardie: 20-40/min"
+      ],
+      "optionen_fa": [
+        "تاکی‌کاردی بطنی: 100-200 در دقیقه",
+        "فلاتر بطنی: 200-350 در دقیقه",
+        "فیبریلاسیون بطنی: 350-600 در دقیقه",
+        "اکستراسیستول‌ها (ضربان‌های اضافی)",
+        "تاکی‌کاردی بطنی: 20-40 در دقیقه"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Herzrhythmusstörungen der Kammern: Kammertachykardie 100-200/min, Kammerflattern 200-350/min, Kammerflimmern 350-600/min, sowie Extrasystolen. Kammerflimmern ist ein absoluter NOTFALL (funktioneller Herzstillstand) → sofortige Reanimation und Defibrillation!",
+      "erklaerung_fa": "اختلالات ریتم بطن‌ها: تاکی‌کاردی بطنی 100-200 در دقیقه، فلاتر بطنی 200-350 در دقیقه، فیبریلاسیون بطنی 350-600 در دقیقه، و همچنین اکستراسیستول‌ها. فیبریلاسیون بطنی یک اورژانس مطلق است (ایست قلبی عملکردی) ← احیای فوری و دفیبریلاسیون!",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Herz",
+        "Kammer"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-037-05",
+      "kapitel": "Herz",
+      "thema": "Extrasystolen",
+      "seite": 37,
+      "typ": "single_choice",
+      "frage": "Was sind Extrasystolen?",
+      "frage_fa": "اکستراسیستول‌ها چه هستند؟",
+      "optionen": [
+        "Ein kompletter Herzstillstand",
+        "Zusätzliche Herzschläge außerhalb des normalen Grundrhythmus (können in Vorhöfen oder Kammern entstehen)",
+        "Ein zu langsamer Herzschlag",
+        "Eine Herzklappenverengung",
+        "Ein Loch in der Herzscheidewand"
+      ],
+      "optionen_fa": [
+        "ایست کامل قلبی",
+        "ضربان‌های اضافی قلب خارج از ریتم پایهٔ طبیعی (می‌توانند در دهلیزها یا بطن‌ها ایجاد شوند)",
+        "ضربان قلب بسیار کند",
+        "تنگی دریچهٔ قلب",
+        "سوراخی در دیوارهٔ قلب"
+      ],
+      "richtig": 1,
+      "erklaerung": "Extrasystolen sind zusätzliche Herzschläge außerhalb des normalen Grundrhythmus. Sie können in den Vorhöfen (supraventrikuläre Extrasystolen) oder in den Kammern (ventrikuläre Extrasystolen) entstehen. Einzelne Extrasystolen sind meist harmlos.",
+      "erklaerung_fa": "اکستراسیستول‌ها ضربان‌های اضافی قلب خارج از ریتم پایهٔ طبیعی هستند. می‌توانند در دهلیزها (اکستراسیستول‌های فوق‌بطنی) یا در بطن‌ها (اکستراسیستول‌های بطنی) ایجاد شوند. اکستراسیستول‌های منفرد معمولاً بی‌خطرند.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Herz",
+        "Extrasystolen"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-037-06",
+      "kapitel": "Herz",
+      "thema": "Symptome",
+      "seite": 37,
+      "typ": "multiple_choice",
+      "frage": "Welche Symptome können bei Herzrhythmusstörungen auftreten?",
+      "frage_fa": "چه علائمی می‌توانند در اختلالات ریتم قلب بروز کنند؟",
+      "optionen": [
+        "Herzstolpern, Herzrasen, Palpitationen",
+        "Schwindel, Synkopen (kurze Bewusstlosigkeit)",
+        "Leistungsminderung, Luftnot",
+        "Angst, innere Unruhe",
+        "Auch symptomlose Verläufe möglich"
+      ],
+      "optionen_fa": [
+        "تپش قلب، ضربان تند قلب، احساس کوبش قلب",
+        "سرگیجه، سنکوپ (بی‌هوشی کوتاه)",
+        "کاهش عملکرد، تنگی نفس",
+        "اضطراب، بی‌قراری درونی",
+        "سیر بدون علامت نیز ممکن است"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "erklaerung": "Symptome bei Herzrhythmusstörungen: Herzstolpern/Herzrasen/Palpitationen, Schwindel/Synkopen (kurze Bewusstlosigkeit), Leistungsminderung/Luftnot, Angst/innere Unruhe. Es sind aber auch symptomlose Verläufe möglich (v.a. bei Vorhofflimmern).",
+      "erklaerung_fa": "علائم اختلالات ریتم قلب: تپش قلب/ضربان تند/احساس کوبش، سرگیجه/سنکوپ (بی‌هوشی کوتاه)، کاهش عملکرد/تنگی نفس، اضطراب/بی‌قراری درونی. اما سیر بدون علامت نیز ممکن است (به‌ویژه در فیبریلاسیون دهلیزی).",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Herz",
+        "Symptome"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-037-07",
+      "kapitel": "Herz",
+      "thema": "Komplikationen",
+      "seite": 37,
+      "typ": "multiple_choice",
+      "frage": "Welche Komplikationen können Herzrhythmusstörungen verursachen?",
+      "frage_fa": "اختلالات ریتم قلب چه عوارضی می‌توانند ایجاد کنند؟",
+      "optionen": [
+        "ZNS: Synkopen, Adam-Stokes-Anfall (kurzzeitiger Herzstillstand mit Bewusstlosigkeit)",
+        "Verschlechterung der Herzleistung (Herzinsuffizienz)",
+        "Arterielle Embolien → Schlaganfall, Mesenterialinfarkt",
+        "Plötzlicher Herztod (v.a. bei Kammerflimmern)",
+        "Verbesserung der Durchblutung"
+      ],
+      "optionen_fa": [
+        "سیستم عصبی مرکزی: سنکوپ، حملهٔ آدامز-استوکس (ایست کوتاه‌مدت قلب همراه با بی‌هوشی)",
+        "بدترشدن عملکرد قلب (نارسایی قلبی)",
+        "آمبولی‌های شریانی ← سکتهٔ مغزی، انفارکتوس مزانتریک",
+        "مرگ ناگهانی قلبی (به‌ویژه در فیبریلاسیون بطنی)",
+        "بهبود خون‌رسانی"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Komplikationen: ZNS-Symptome (Synkopen, Adam-Stokes-Anfall = kurzzeitiger Herzstillstand mit Bewusstlosigkeit), Verschlechterung der Herzleistung (Herzinsuffizienz), arterielle Embolien (→ Schlaganfall, Mesenterialinfarkt - v.a. bei Vorhofflimmern durch Thrombenbildung), plötzlicher Herztod (bei Kammerflimmern).",
+      "erklaerung_fa": "عوارض: علائم سیستم عصبی مرکزی (سنکوپ، حملهٔ آدامز-استوکس = ایست کوتاه‌مدت قلب همراه با بی‌هوشی)، بدترشدن عملکرد قلب (نارسایی قلبی)، آمبولی‌های شریانی (← سکتهٔ مغزی، انفارکتوس مزانتریک — به‌ویژه در فیبریلاسیون دهلیزی به‌دلیل تشکیل ترومبوز)، مرگ ناگهانی قلبی (در فیبریلاسیون بطنی).",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Herz",
+        "Komplikationen"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-037-08",
+      "kapitel": "Herz",
+      "thema": "Ursachen Tachykardie",
+      "seite": 37,
+      "typ": "multiple_choice",
+      "frage": "Welche Ursachen kann eine Tachykardie (>100/min) haben?",
+      "frage_fa": "تاکی‌کاردی (بیش از 100 در دقیقه) چه علل‌هایی می‌تواند داشته باشد؟",
+      "optionen": [
+        "Physiologisch: körperliche Anstrengung, Aufregung, Stress",
+        "Herz/Kreislauf/Gefäße: Herzinsuffizienz, Herzinfarkt, Bluthochdruck",
+        "Nervensystem/Psyche: Angst, Panik, vegetative Störungen",
+        "Fieber, Hyperthyreose, Blutarmut, Flüssigkeitsmangel",
+        "Immer nur ein Herzinfarkt"
+      ],
+      "optionen_fa": [
+        "فیزیولوژیک: فعالیت بدنی، هیجان، استرس",
+        "قلب/گردش خون/عروق: نارسایی قلبی، سکتهٔ قلبی، فشار خون بالا",
+        "سیستم عصبی/روان: اضطراب، وحشت، اختلالات خودمختار",
+        "تب، پرکاری تیروئید، کم‌خونی، کمبود مایعات",
+        "همیشه فقط سکتهٔ قلبی"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Tachykardie-Ursachen: physiologisch (körperliche Anstrengung, Aufregung, Stress), Herz/Kreislauf/Gefäße (Herzinsuffizienz, Herzinfarkt, Bluthochdruck), Nervensystem/Psyche (Angst, Panik, vegetative Störungen), außerdem Fieber, Hyperthyreose, Blutarmut, Flüssigkeitsmangel.",
+      "erklaerung_fa": "علل تاکی‌کاردی: فیزیولوژیک (فعالیت بدنی، هیجان، استرس)، قلب/گردش خون/عروق (نارسایی قلبی، سکتهٔ قلبی، فشار خون بالا)، سیستم عصبی/روان (اضطراب، وحشت، اختلالات خودمختار)، علاوه بر آن تب، پرکاری تیروئید، کم‌خونی، کمبود مایعات.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Herz",
+        "Tachykardie"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-037-09",
+      "kapitel": "Herz",
+      "thema": "Ursachen Bradykardie",
+      "seite": 37,
+      "typ": "multiple_choice",
+      "frage": "Welche Ursachen kann eine Bradykardie (<60/min) haben?",
+      "frage_fa": "برادی‌کاردی (کمتر از 60 در دقیقه) چه علل‌هایی می‌تواند داشته باشد؟",
+      "optionen": [
+        "Physiologisch: bei trainierten Sportlern (Sportlerherz)",
+        "Herz: Sinusknoten-Syndrom, AV-Block, Herzinfarkt",
+        "Nervensystem/Psyche: erhöhter Vagotonus, Hirndruck",
+        "Hypothyreose, Medikamente (z.B. Betablocker), Hyperkaliämie",
+        "Immer nur Fieber"
+      ],
+      "optionen_fa": [
+        "فیزیولوژیک: در ورزشکاران تمرین‌کرده (قلب ورزشکار)",
+        "قلب: سندرم گرهٔ سینوسی، بلوک AV، سکتهٔ قلبی",
+        "سیستم عصبی/روان: افزایش تونوس واگ، فشار داخل جمجمه",
+        "کم‌کاری تیروئید، داروها (مثلاً بتابلاکرها)، هایپرکالمی",
+        "همیشه فقط تب"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Bradykardie-Ursachen: physiologisch (bei trainierten Sportlern = 'Sportlerherz'), Herz (Sinusknoten-Syndrom, AV-Block, Herzinfarkt), Nervensystem/Psyche (erhöhter Vagotonus, Hirndruck), außerdem Hypothyreose, Medikamente (z.B. Betablocker), Hyperkaliämie.",
+      "erklaerung_fa": "علل برادی‌کاردی: فیزیولوژیک (در ورزشکاران تمرین‌کرده = «قلب ورزشکار»)، قلب (سندرم گرهٔ سینوسی، بلوک AV، سکتهٔ قلبی)، سیستم عصبی/روان (افزایش تونوس واگ، فشار داخل جمجمه)، علاوه بر آن کم‌کاری تیروئید، داروها (مثلاً بتابلاکرها)، هایپرکالمی.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Herz",
+        "Bradykardie"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-037-10",
+      "kapitel": "Herz",
+      "thema": "Therapie",
+      "seite": 37,
+      "typ": "multiple_choice",
+      "frage": "Wie werden Herzrhythmusstörungen behandelt?",
+      "frage_fa": "اختلالات ریتم قلب چگونه درمان می‌شوند؟",
+      "optionen": [
+        "Behandlung der Grunderkrankung",
+        "Medikamente (Antiarrhythmika, bei Vorhofflimmern Gerinnungshemmer zur Schlaganfallprophylaxe)",
+        "Elektrische Kardioversion, Katheterablation",
+        "Herzschrittmacher (bei Bradykardie), Defibrillator/ICD (bei Kammerflimmern)",
+        "Immer nur abwarten"
+      ],
+      "optionen_fa": [
+        "درمان بیماری زمینه‌ای",
+        "داروها (داروهای ضدآریتمی، در فیبریلاسیون دهلیزی داروهای ضدانعقاد برای پیشگیری از سکتهٔ مغزی)",
+        "کاردیوورژن الکتریکی، ابلیشن با کاتتر",
+        "ضربان‌ساز قلبی (در برادی‌کاردی)، دفیبریلاتور/ICD (در فیبریلاسیون بطنی)",
+        "همیشه فقط انتظار کشیدن"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Therapie der Herzrhythmusstörungen: Behandlung der Grunderkrankung, Medikamente (Antiarrhythmika; bei Vorhofflimmern Gerinnungshemmer/Antikoagulanzien zur Schlaganfallprophylaxe!), elektrische Kardioversion/Katheterablation, Herzschrittmacher (bei Bradykardie), Defibrillator/ICD (bei Kammerflimmern lebensrettend).",
+      "erklaerung_fa": "درمان اختلالات ریتم قلب: درمان بیماری زمینه‌ای، داروها (داروهای ضدآریتمی؛ در فیبریلاسیون دهلیزی داروهای ضدانعقاد برای پیشگیری از سکتهٔ مغزی!)، کاردیوورژن الکتریکی/ابلیشن با کاتتر، ضربان‌ساز قلبی (در برادی‌کاردی)، دفیبریلاتور/ICD (در فیبریلاسیون بطنی نجات‌بخش).",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Herz",
+        "Therapie"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-037-F1",
+      "kapitel": "Herz",
+      "thema": "Herzrhythmusstörung - Fallbeispiel",
+      "seite": 37,
+      "typ": "fallbeispiel",
+      "fallbeschreibung": "Eine 72-jährige Patientin klagt über Herzstolpern und gelegentlichen Schwindel. Der Puls ist unregelmäßig und schnell. Im EKG zeigt sich eine ungeordnete Vorhofaktivität mit einer Vorhoffrequenz von ca. 400/min. Die Ärztin verordnet zusätzlich zu einem Antiarrhythmikum einen Gerinnungshemmer.",
+      "fallbeschreibung_fa": "یک بیمار زن ۷۲ ساله از تپش قلب و سرگیجهٔ گاه‌به‌گاه شکایت دارد. نبض نامنظم و سریع است. در نوار قلب، فعالیت نامنظم دهلیزی با فرکانس دهلیزی حدود 400 در دقیقه دیده می‌شود. پزشک علاوه بر داروی ضدآریتمی، یک داروی ضدانعقاد تجویز می‌کند.",
+      "frage": "Welche Herzrhythmusstörung liegt vor und warum der Gerinnungshemmer?",
+      "frage_fa": "کدام اختلال ریتم قلب وجود دارد و چرا داروی ضدانعقاد؟",
+      "optionen": [
+        "Kammerflimmern - sofortige Defibrillation",
+        "Vorhofflimmern (350-600/min) - Gerinnungshemmer zur Schlaganfallprophylaxe (Thrombengefahr im linken Herzohr)",
+        "Bradykardie - Herzschrittmacher",
+        "Normaler Herzrhythmus",
+        "Sportlerherz"
+      ],
+      "optionen_fa": [
+        "فیبریلاسیون بطنی — دفیبریلاسیون فوری",
+        "فیبریلاسیون دهلیزی (350-600 در دقیقه) — داروی ضدانعقاد برای پیشگیری از سکتهٔ مغزی (خطر ترومبوز در گوشک چپ قلب)",
+        "برادی‌کاردی — ضربان‌ساز قلبی",
+        "ریتم طبیعی قلب",
+        "قلب ورزشکار"
+      ],
+      "richtig": 1,
+      "erklaerung": "Vorhofflimmern (Vorhoffrequenz 350-600/min, hier ca. 400/min): unregelmäßiger, oft schneller Puls, Herzstolpern, Schwindel. Der Gerinnungshemmer (Antikoagulans) dient der Schlaganfallprophylaxe: Bei Vorhofflimmern bilden sich leicht Thromben im linken Herzohr (die Vorhöfe 'zittern' nur, das Blut steht) → diese können sich lösen und einen Schlaganfall verursachen. Erinnerung: 90% aller Schlaganfälle entstehen durch Thromben im linken Herzohr.",
+      "erklaerung_fa": "فیبریلاسیون دهلیزی (فرکانس دهلیزی 350-600 در دقیقه، اینجا حدود 400): نبض نامنظم و اغلب سریع، تپش قلب، سرگیجه. داروی ضدانعقاد برای پیشگیری از سکتهٔ مغزی است: در فیبریلاسیون دهلیزی به‌راحتی ترومبوز در گوشک چپ قلب تشکیل می‌شود (دهلیزها فقط «می‌لرزند»، خون راکد می‌ماند) ← این‌ها می‌توانند جدا شوند و سکتهٔ مغزی ایجاد کنند. یادآوری: ۹۰٪ سکته‌های مغزی به‌دلیل ترومبوز در گوشک چپ قلب ایجاد می‌شوند.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Herz",
+        "Vorhofflimmern",
+        "Fallbeispiel"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-038-01",
+      "kapitel": "Herz",
+      "thema": "Tachykardie - hormonelle/Stoffwechsel-Ursachen",
+      "seite": 38,
+      "typ": "multiple_choice",
+      "frage": "Welche hormonellen/Stoffwechsel-Ursachen können eine Tachykardie auslösen?",
+      "frage_fa": "کدام علل هورمونی/متابولیک می‌توانند تاکی‌کاردی ایجاد کنند؟",
+      "optionen": [
+        "Hyperthyreose (Schilddrüsenüberfunktion)",
+        "Phäochromozytom, Addison-Krankheit",
+        "Hypoglykämie (Unterzuckerung)",
+        "Schwangerschaft, Roemheld-Syndrom",
+        "Hypothyreose"
+      ],
+      "optionen_fa": [
+        "پرکاری تیروئید",
+        "فئوکروموسیتوم، بیماری آدیسون",
+        "هیپوگلیسمی (افت قند خون)",
+        "بارداری، سندرم روِمهلد",
+        "کم‌کاری تیروئید"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Tachykardie-Ursachen (Hormonsystem/Stoffwechsel): Hyperthyreose, Phäochromozytom, Addison-Krankheit, Hypoglykämie, Schwangerschaft, Roemheld-Syndrom. Die Hypothyreose (Unterfunktion) verursacht dagegen eine BRADYkardie!",
+      "erklaerung_fa": "علل تاکی‌کاردی (سیستم هورمونی/متابولیسم): پرکاری تیروئید، فئوکروموسیتوم، بیماری آدیسون، هیپوگلیسمی، بارداری، سندرم روِمهلد. اما کم‌کاری تیروئید باعث برادی‌کاردی می‌شود!",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Herz",
+        "Tachykardie",
+        "Ursachen"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-038-02",
+      "kapitel": "Herz",
+      "thema": "Tachykardie - Elektrolytstörungen",
+      "seite": 38,
+      "typ": "multiple_choice",
+      "frage": "Welche Elektrolytstörungen können eine Tachykardie verursachen?",
+      "frage_fa": "کدام اختلالات الکترولیتی می‌توانند تاکی‌کاردی ایجاد کنند؟",
+      "optionen": [
+        "Hypokaliämie (Kaliummangel)",
+        "Hypomagnesiämie (Magnesiummangel)",
+        "Hyperkaliämie",
+        "Hypokalzämie",
+        "Alle Elektrolyte sind normal"
+      ],
+      "optionen_fa": [
+        "هایپوکالمی (کمبود پتاسیم)",
+        "هایپومنیزیمی (کمبود منیزیم)",
+        "هایپرکالمی",
+        "هایپوکلسمی",
+        "همهٔ الکترولیت‌ها طبیعی هستند"
+      ],
+      "richtig": [
+        0,
+        1
+      ],
+      "erklaerung": "Elektrolytstörungen als Tachykardie-Ursache: Hypokaliämie (Kaliummangel) und Hypomagnesiämie (Magnesiummangel). Bei Hyperkaliämie und Hypokalzämie kommt es dagegen eher zur Bradykardie.",
+      "erklaerung_fa": "اختلالات الکترولیتی به‌عنوان علت تاکی‌کاردی: هایپوکالمی (کمبود پتاسیم) و هایپومنیزیمی (کمبود منیزیم). در هایپرکالمی و هایپوکلسمی بیشتر برادی‌کاردی رخ می‌دهد.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Herz",
+        "Tachykardie",
+        "Elektrolyte"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-038-03",
+      "kapitel": "Herz",
+      "thema": "Tachykardie - Medikamente (MADITA)",
+      "seite": 38,
+      "typ": "multiple_choice",
+      "frage": "Welche Medikamente/Substanzen können eine Tachykardie auslösen (Merkhilfe MADITA)?",
+      "frage_fa": "کدام داروها/مواد می‌توانند تاکی‌کاردی ایجاد کنند (یادیار MADITA)؟",
+      "optionen": [
+        "Digitalisintoxikation, Adrenalin, Atropin, β-Sympathomimetika (z.B. Salbutamol)",
+        "Alkohol",
+        "Drogen (z.B. Kokain, Cannabis, Amphetamine, Halluzinogene)",
+        "Noxen: Kaffee, Schwarztee, Nikotin",
+        "Betablocker"
+      ],
+      "optionen_fa": [
+        "مسمومیت با دیژیتال، آدرنالین، آتروپین، بتا-سمپاتومیمتیک‌ها (مثلاً سالبوتامول)",
+        "الکل",
+        "مواد مخدر (مثلاً کوکائین، حشیش، آمفتامین‌ها، توهم‌زاها)",
+        "مواد محرک: قهوه، چای سیاه، نیکوتین",
+        "بتابلاکرها"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Tachykardie durch Medikamente/Noxen (MADITA): Digitalisintoxikation, Adrenalin, Atropin, β-Sympathomimetika (z.B. Salbutamol), Alkohol, Drogen (Kokain, Cannabis, Amphetamine, Halluzinogene), Noxen (Kaffee, Schwarztee, Nikotin). Betablocker senken dagegen die Herzfrequenz (Bradykardie).",
+      "erklaerung_fa": "تاکی‌کاردی به‌دلیل داروها/مواد (MADITA): مسمومیت با دیژیتال، آدرنالین، آتروپین، بتا-سمپاتومیمتیک‌ها (مثلاً سالبوتامول)، الکل، مواد مخدر (کوکائین، حشیش، آمفتامین‌ها، توهم‌زاها)، مواد محرک (قهوه، چای سیاه، نیکوتین). اما بتابلاکرها ضربان قلب را کاهش می‌دهند (برادی‌کاردی).",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Herz",
+        "Tachykardie",
+        "Medikamente"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-038-04",
+      "kapitel": "Herz",
+      "thema": "Tachykardie - Infektionen/Tumoren/Andere",
+      "seite": 38,
+      "typ": "multiple_choice",
+      "frage": "Welche weiteren Ursachen (Infektionen, Tumoren, Andere) können eine Tachykardie auslösen?",
+      "frage_fa": "چه علل دیگری (عفونت‌ها، تومورها، سایر) می‌توانند تاکی‌کاردی ایجاد کنند؟",
+      "optionen": [
+        "Fieber → Herzfrequenzerhöhung um 10 Schläge pro 1 Grad Fiebererhöhung",
+        "Phäochromozytom (Tumor)",
+        "Anämie, Hypovolämie, Hypoxämie",
+        "Allergien, Histaminintoleranz",
+        "Elektrounfälle, Stromstöße",
+        "Hypothermie (Unterkühlung)"
+      ],
+      "optionen_fa": [
+        "تب ← افزایش ضربان قلب به‌ازای هر ۱ درجه افزایش تب، ۱۰ ضربان",
+        "فئوکروموسیتوم (تومور)",
+        "کم‌خونی، کاهش حجم خون، کاهش اکسیژن خون",
+        "آلرژی‌ها، عدم تحمل هیستامین",
+        "برق‌گرفتگی، شوک الکتریکی",
+        "هایپوترمی (افت دمای بدن)"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "erklaerung": "Weitere Tachykardie-Ursachen: Fieber (Herzfrequenzerhöhung um ca. 10 Schläge pro 1 Grad Fieber!), Phäochromozytom, Anämie/Hypovolämie/Hypoxämie, Allergien/Histaminintoleranz, Elektrounfälle/Stromstöße. Die Hypothermie verursacht dagegen eine Bradykardie.",
+      "erklaerung_fa": "سایر علل تاکی‌کاردی: تب (افزایش ضربان قلب حدود ۱۰ ضربان به‌ازای هر ۱ درجه تب!)، فئوکروموسیتوم، کم‌خونی/کاهش حجم خون/کاهش اکسیژن خون، آلرژی‌ها/عدم تحمل هیستامین، برق‌گرفتگی/شوک الکتریکی. اما هایپوترمی باعث برادی‌کاردی می‌شود.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Herz",
+        "Tachykardie",
+        "Fieber"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-038-05",
+      "kapitel": "Herz",
+      "thema": "Bradykardie - Ursachen",
+      "seite": 38,
+      "typ": "multiple_choice",
+      "frage": "Welche Ursachen können eine (relative) Bradykardie auslösen?",
+      "frage_fa": "چه علل‌هایی می‌توانند برادی‌کاردی (نسبی) ایجاد کنند؟",
+      "optionen": [
+        "Hypothyreose, Hypophyseninsuffizienz",
+        "Hyperkaliämie, Hypokalzämie",
+        "Medikamente: Digitalis, Betablocker, Antiarrhythmika, Opioide, Sedativa (z.B. Benzodiazepine)",
+        "Infektionen: z.B. bei Typhus, Brucellose, Gelbfieber, Salmonellose, Lyme-Borreliose (→ AV-Block)",
+        "Hirntumoren → Hirndrucksteigerung, Hypothermie",
+        "Hyperthyreose"
+      ],
+      "optionen_fa": [
+        "کم‌کاری تیروئید، نارسایی هیپوفیز",
+        "هایپرکالمی، هایپوکلسمی",
+        "داروها: دیژیتال، بتابلاکرها، داروهای ضدآریتمی، اپیوئیدها، آرام‌بخش‌ها (مثلاً بنزودیازپین‌ها)",
+        "عفونت‌ها: مثلاً در حصبه، بروسلوز، تب زرد، سالمونلوز، بیماری لایم (← بلوک AV)",
+        "تومورهای مغزی ← افزایش فشار داخل جمجمه، هایپوترمی",
+        "پرکاری تیروئید"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "erklaerung": "Bradykardie-Ursachen: Hypothyreose/Hypophyseninsuffizienz, Hyperkaliämie/Hypokalzämie, Medikamente (Digitalis, Betablocker, Antiarrhythmika, Opioide, Sedativa/Benzodiazepine), Infektionen (Typhus, Brucellose, Gelbfieber, Salmonellose, Lyme-Borreliose → AV-Block), Tumoren (Hirntumoren → Hirndrucksteigerung), Hypothermie. Die Hyperthyreose verursacht dagegen eine TACHYkardie!",
+      "erklaerung_fa": "علل برادی‌کاردی: کم‌کاری تیروئید/نارسایی هیپوفیز، هایپرکالمی/هایپوکلسمی، داروها (دیژیتال، بتابلاکرها، داروهای ضدآریتمی، اپیوئیدها، آرام‌بخش‌ها/بنزودیازپین‌ها)، عفونت‌ها (حصبه، بروسلوز، تب زرد، سالمونلوز، بیماری لایم ← بلوک AV)، تومورها (تومورهای مغزی ← افزایش فشار جمجمه)، هایپوترمی. اما پرکاری تیروئید باعث تاکی‌کاردی می‌شود!",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Herz",
+        "Bradykardie",
+        "Ursachen"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-038-06",
+      "kapitel": "Herz",
+      "thema": "Fieber und Herzfrequenz",
+      "seite": 38,
+      "typ": "single_choice",
+      "frage": "Um wie viele Schläge steigt die Herzfrequenz pro 1 Grad Fiebererhöhung normalerweise?",
+      "frage_fa": "ضربان قلب به‌ازای هر ۱ درجه افزایش تب معمولاً چند ضربان افزایش می‌یابد؟",
+      "optionen": [
+        "Um ca. 2 Schläge",
+        "Um ca. 10 Schläge",
+        "Um ca. 30 Schläge",
+        "Um ca. 50 Schläge",
+        "Die Herzfrequenz bleibt gleich"
+      ],
+      "optionen_fa": [
+        "حدود ۲ ضربان",
+        "حدود ۱۰ ضربان",
+        "حدود ۳۰ ضربان",
+        "حدود ۵۰ ضربان",
+        "ضربان قلب ثابت می‌ماند"
+      ],
+      "richtig": 1,
+      "erklaerung": "Bei Fieber steigt die Herzfrequenz normalerweise um ca. 10 Schläge pro 1 Grad Fiebererhöhung. Eine 'relative Bradykardie' (die Herzfrequenz steigt NICHT adäquat zum Fieber) kann z.B. bei Typhus auftreten.",
+      "erklaerung_fa": "در تب، ضربان قلب معمولاً به‌ازای هر ۱ درجه افزایش تب، حدود ۱۰ ضربان افزایش می‌یابد. «برادی‌کاردی نسبی» (که ضربان قلب متناسب با تب افزایش نمی‌یابد) می‌تواند مثلاً در حصبه رخ دهد.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Herz",
+        "Fieber",
+        "Bradykardie"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-038-07",
+      "kapitel": "Herz",
+      "thema": "Relative Bradykardie",
+      "seite": 38,
+      "typ": "single_choice",
+      "frage": "Was versteht man unter einer 'relativen Bradykardie'?",
+      "frage_fa": "منظور از «برادی‌کاردی نسبی» چیست؟",
+      "optionen": [
+        "Ein kompletter Herzstillstand",
+        "Die Herzfrequenz steigt nicht adäquat zur Fiebererhöhung an (physiol. 8-10 Schläge pro 1 Grad Fieber)",
+        "Ein zu schneller Herzschlag",
+        "Eine Herzfrequenz über 100/min",
+        "Nur bei Sportlern"
+      ],
+      "optionen_fa": [
+        "ایست کامل قلبی",
+        "ضربان قلب متناسب با افزایش تب بالا نمی‌رود (فیزیولوژیک ۸ تا ۱۰ ضربان به‌ازای هر ۱ درجه تب)",
+        "ضربان قلب بسیار سریع",
+        "ضربان قلب بالای ۱۰۰ در دقیقه",
+        "فقط در ورزشکاران"
+      ],
+      "richtig": 1,
+      "erklaerung": "Relative Bradykardie = Die Herzfrequenz steigt nicht adäquat zur Fiebererhöhung an (physiologisch wären 8-10 Schläge pro 1 Grad Fieber). Typisch z.B. bei Typhus, Brucellose, Gelbfieber, Salmonellose.",
+      "erklaerung_fa": "برادی‌کاردی نسبی = ضربان قلب متناسب با افزایش تب بالا نمی‌رود (به‌طور فیزیولوژیک ۸ تا ۱۰ ضربان به‌ازای هر ۱ درجه تب). به‌طور معمول مثلاً در حصبه، بروسلوز، تب زرد، سالمونلوز.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Herz",
+        "relative Bradykardie"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-038-08",
+      "kapitel": "Herz",
+      "thema": "Paroxysmale Tachykardie",
+      "seite": 38,
+      "typ": "single_choice",
+      "frage": "Was ist eine paroxysmale Tachykardie?",
+      "frage_fa": "تاکی‌کاردی حمله‌ای (پاروکسیسمال) چیست؟",
+      "optionen": [
+        "Ein dauerhaft langsamer Herzschlag",
+        "Anfallsweises Herzrasen mit unangenehmen Palpitationen, erhöhte Herzfrequenz von 150-250/min über Minuten bis Stunden möglich",
+        "Ein kompletter Herzstillstand",
+        "Nur ein leichtes Herzstolpern",
+        "Ein normaler Herzrhythmus"
+      ],
+      "optionen_fa": [
+        "ضربان قلب دائماً کند",
+        "ضربان تند حمله‌ای قلب همراه با احساس ناخوشایند کوبش قلب، افزایش ضربان قلب 150-250 در دقیقه که می‌تواند دقایق تا ساعت‌ها طول بکشد",
+        "ایست کامل قلبی",
+        "فقط تپش خفیف قلب",
+        "ریتم طبیعی قلب"
+      ],
+      "richtig": 1,
+      "erklaerung": "Paroxysmale Tachykardie = anfallsweises Herzrasen mit unangenehmen Palpitationen. Erhöhte Herzfrequenz von 150-250/min über Minuten bis Stunden möglich. 'Paroxysmal' bedeutet 'anfallsartig' (plötzlich beginnend und endend).",
+      "erklaerung_fa": "تاکی‌کاردی حمله‌ای = ضربان تند حمله‌ای قلب همراه با احساس ناخوشایند کوبش قلب. افزایش ضربان قلب 150-250 در دقیقه که می‌تواند دقایق تا ساعت‌ها طول بکشد. «پاروکسیسمال» به معنای «حمله‌ای» است (به‌طور ناگهانی آغاز و پایان می‌یابد).",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Herz",
+        "paroxysmale Tachykardie"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-038-09",
+      "kapitel": "Herz",
+      "thema": "Supraventrikuläre vs. ventrikuläre Tachykardie",
+      "seite": 38,
+      "typ": "multiple_choice",
+      "frage": "Was ist der Unterschied zwischen supraventrikulärer und ventrikulärer paroxysmaler Tachykardie?",
+      "frage_fa": "تفاوت بین تاکی‌کاردی حمله‌ای فوق‌بطنی و بطنی چیست؟",
+      "optionen": [
+        "Supraventrikulär: Ursprung oberhalb der Kammern (Vorhoftachykardie, Vorhofflattern, Vorhofflimmern)",
+        "AV-Knoten-Reentry-Tachykardie: kreisende Erregung im AV-Knoten",
+        "AV-Reentry-Tachykardie: zusätzliche Leitungsbahn zwischen Vorhof und Kammer (z.B. Wolff-Parkinson-White-Syndrom)",
+        "Ventrikulär: Ursprung in den Kammern (KHK, Herzinfarkt, Kardiomyopathien, Herzklappenfehler)",
+        "Beide entstehen nur im Sinusknoten"
+      ],
+      "optionen_fa": [
+        "فوق‌بطنی: منشأ در بالای بطن‌ها (تاکی‌کاردی دهلیزی، فلاتر دهلیزی، فیبریلاسیون دهلیزی)",
+        "تاکی‌کاردی چرخشی گرهٔ AV: تحریک چرخشی در گرهٔ AV",
+        "تاکی‌کاردی چرخشی دهلیزی-بطنی: مسیر هدایتی اضافی بین دهلیز و بطن (مثلاً سندرم ولف-پارکینسون-وایت)",
+        "بطنی: منشأ در بطن‌ها (KHK، سکتهٔ قلبی، کاردیومیوپاتی‌ها، نقص دریچهٔ قلب)",
+        "هر دو فقط در گرهٔ سینوسی ایجاد می‌شوند"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Supraventrikuläre paroxysmale Tachykardie (Ursprung oberhalb der Kammern): Vorhoftachykardie, Vorhofflattern, Vorhofflimmern; AV-Knoten-Reentry-Tachykardie (kreisende Erregung im AV-Knoten); AV-Reentry-Tachykardie (zusätzliche Leitungsbahn, z.B. Wolff-Parkinson-White-Syndrom). Ventrikuläre paroxysmale Tachykardie (Ursprung in den Kammern): KHK, Herzinfarkt, Kardiomyopathien, Herzklappenfehler.",
+      "erklaerung_fa": "تاکی‌کاردی حمله‌ای فوق‌بطنی (منشأ در بالای بطن‌ها): تاکی‌کاردی دهلیزی، فلاتر دهلیزی، فیبریلاسیون دهلیزی؛ تاکی‌کاردی چرخشی گرهٔ AV (تحریک چرخشی در گرهٔ AV)؛ تاکی‌کاردی چرخشی دهلیزی-بطنی (مسیر هدایتی اضافی، مثلاً سندرم ولف-پارکینسون-وایت). تاکی‌کاردی حمله‌ای بطنی (منشأ در بطن‌ها): KHK، سکتهٔ قلبی، کاردیومیوپاتی‌ها، نقص دریچهٔ قلب.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Herz",
+        "Tachykardie",
+        "WPW"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-038-10",
+      "kapitel": "Herz",
+      "thema": "Extrasystolen - Ursachen",
+      "seite": 38,
+      "typ": "multiple_choice",
+      "frage": "Welche Ursachen können Extrasystolen haben?",
+      "frage_fa": "اکستراسیستول‌ها چه علل‌هایی می‌توانند داشته باشند؟",
+      "optionen": [
+        "Physiologisch: infolge psychischer Belastung, Übermüdung, Alkohol, Nikotin, Koffein",
+        "Herzerkrankungen: KHK, Herzinfarkt, Herzinsuffizienz, Myokarditis, Perikarditis, Cor pulmonale",
+        "Elektrolytstörungen: Hypokaliämie",
+        "Medikamente: Digitalisintoxikation, Antiarrhythmika, Psychopharmaka",
+        "Sonstiges: Hyperthyreose, Phäochromozytom, Roemheld-Syndrom",
+        "Extrasystolen sind immer lebensbedrohlich"
+      ],
+      "optionen_fa": [
+        "فیزیولوژیک: در پی فشار روانی، خستگی مفرط، الکل، نیکوتین، کافئین",
+        "بیماری‌های قلبی: KHK، سکتهٔ قلبی، نارسایی قلبی، میوکاردیت، پریکاردیت، کور پولمونال",
+        "اختلالات الکترولیتی: هایپوکالمی",
+        "داروها: مسمومیت با دیژیتال، داروهای ضدآریتمی، داروهای روان‌گردان",
+        "سایر: پرکاری تیروئید، فئوکروموسیتوم، سندرم روِمهلد",
+        "اکستراسیستول‌ها همیشه تهدیدکنندهٔ حیات هستند"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "erklaerung": "Extrasystolen-Ursachen: physiologisch (psychische Belastung, Übermüdung, Alkohol, Nikotin, Koffein), Herzerkrankungen (KHK, Herzinfarkt, Herzinsuffizienz, Myokarditis, Perikarditis, Cor pulmonale), Elektrolytstörungen (Hypokaliämie), Medikamente (Digitalisintoxikation, Antiarrhythmika, Psychopharmaka), Sonstiges (Hyperthyreose, Phäochromozytom, Roemheld-Syndrom). Einzelne Extrasystolen sind meist harmlos - NICHT immer lebensbedrohlich.",
+      "erklaerung_fa": "علل اکستراسیستول‌ها: فیزیولوژیک (فشار روانی، خستگی مفرط، الکل، نیکوتین، کافئین)، بیماری‌های قلبی (KHK، سکتهٔ قلبی، نارسایی قلبی، میوکاردیت، پریکاردیت، کور پولمونال)، اختلالات الکترولیتی (هایپوکالمی)، داروها (مسمومیت با دیژیتال، داروهای ضدآریتمی، داروهای روان‌گردان)، سایر (پرکاری تیروئید، فئوکروموسیتوم، سندرم روِمهلد). اکستراسیستول‌های منفرد معمولاً بی‌خطرند — نه همیشه تهدیدکنندهٔ حیات.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Herz",
+        "Extrasystolen",
+        "Ursachen"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-038-F1",
+      "kapitel": "Herz",
+      "thema": "Tachykardie - Fallbeispiel",
+      "seite": 38,
+      "typ": "fallbeispiel",
+      "fallbeschreibung": "Ein 28-jähriger Patient kommt mit plötzlich einsetzendem Herzrasen (Puls 190/min) in die Praxis. Es begann schlagartig vor einer Stunde. Er ist herzgesund, hat aber viel Kaffee getrunken und war gestresst. Nach einem Valsalva-Manöver (Pressen) normalisiert sich der Puls schlagartig.",
+      "fallbeschreibung_fa": "یک بیمار ۲۸ ساله با ضربان تند ناگهانی قلب (نبض ۱۹۰ در دقیقه) به مطب می‌آید. یک ساعت پیش به‌طور ناگهانی آغاز شد. قلب او سالم است، اما قهوهٔ زیادی نوشیده و تحت استرس بوده است. پس از مانور والسالوا (زور زدن)، نبض به‌طور ناگهانی طبیعی می‌شود.",
+      "frage": "Welche Herzrhythmusstörung ist am wahrscheinlichsten?",
+      "frage_fa": "کدام اختلال ریتم قلب محتمل‌ترین است؟",
+      "optionen": [
+        "Kammerflimmern",
+        "Supraventrikuläre paroxysmale Tachykardie (anfallsartig, 150-250/min, durch Valsalva beeinflussbar)",
+        "Bradykardie",
+        "Kompletter Herzstillstand",
+        "Sinusbradykardie"
+      ],
+      "optionen_fa": [
+        "فیبریلاسیون بطنی",
+        "تاکی‌کاردی حمله‌ای فوق‌بطنی (حمله‌ای، 150-250 در دقیقه، قابل تأثیر با والسالوا)",
+        "برادی‌کاردی",
+        "ایست کامل قلبی",
+        "برادی‌کاردی سینوسی"
+      ],
+      "richtig": 1,
+      "erklaerung": "Supraventrikuläre paroxysmale Tachykardie: anfallsartig (paroxysmal) einsetzendes Herzrasen mit 150-250/min, oft bei herzgesunden jungen Menschen, ausgelöst durch Koffein/Stress. Typisch: Sie lässt sich durch ein Valsalva-Manöver (Pressen) oder Karotisdruck (Vagusreiz) beenden, da dies den Parasympathikus aktiviert und die AV-Überleitung bremst.",
+      "erklaerung_fa": "تاکی‌کاردی حمله‌ای فوق‌بطنی: ضربان تند حمله‌ای (پاروکسیسمال) قلب با 150-250 در دقیقه، اغلب در جوانان با قلب سالم، برانگیخته‌شده توسط کافئین/استرس. مشخصه: با مانور والسالوا (زور زدن) یا فشار بر کاروتید (تحریک واگ) می‌توان آن را متوقف کرد، زیرا این کار پاراسمپاتیک را فعال و هدایت AV را کند می‌کند.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Herz",
+        "SVT",
+        "Fallbeispiel"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-039-01",
+      "kapitel": "Herz",
+      "thema": "KHK - Definition",
+      "seite": 39,
+      "typ": "single_choice",
+      "frage": "Was ist die KHK (koronare Herzkrankheit)?",
+      "frage_fa": "KHK (بیماری عروق کرونر قلب) چیست؟",
+      "optionen": [
+        "Eine Herzklappenentzündung",
+        "Koronare Herzerkrankungen, die durch eine primäre Koronarinsuffizienz gekennzeichnet sind und zu einer verminderten Sauerstoffversorgung der Herzmuskulatur führen",
+        "Ein Loch in der Herzscheidewand",
+        "Eine Schilddrüsenerkrankung",
+        "Eine Herzrhythmusstörung"
+      ],
+      "optionen_fa": [
+        "التهاب دریچهٔ قلب",
+        "بیماری‌های عروق کرونر قلب که با نارسایی اولیهٔ کرونر مشخص می‌شوند و به کاهش اکسیژن‌رسانی به عضلهٔ قلب منجر می‌شوند",
+        "سوراخی در دیوارهٔ قلب",
+        "بیماری تیروئید",
+        "اختلال ریتم قلب"
+      ],
+      "richtig": 1,
+      "erklaerung": "KHK (koronare Herzkrankheit) = koronare Herzerkrankungen, welche durch eine primäre Koronarinsuffizienz gekennzeichnet sind und zu einer verminderten Sauerstoffversorgung der Herzmuskulatur führen. Die KHK gehört zu den häufigsten Todesursachen in Industrieländern (v.a. bei Männern > 60 Jahre).",
+      "erklaerung_fa": "KHK (بیماری عروق کرونر قلب) = بیماری‌های عروق کرونر که با نارسایی اولیهٔ کرونر مشخص می‌شوند و به کاهش اکسیژن‌رسانی به عضلهٔ قلب منجر می‌شوند. KHK یکی از شایع‌ترین علل مرگ در کشورهای صنعتی است (به‌ویژه در مردان بالای ۶۰ سال).",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Herz",
+        "KHK",
+        "Definition"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-039-02",
+      "kapitel": "Herz",
+      "thema": "KHK - Häufigkeit",
+      "seite": 39,
+      "typ": "richtig_falsch",
+      "frage": "Die KHK gehört zu den häufigsten Todesursachen in Industrieländern, vor allem bei Männern über 60 Jahre.",
+      "frage_fa": "KHK یکی از شایع‌ترین علل مرگ در کشورهای صنعتی است، به‌ویژه در مردان بالای ۶۰ سال.",
+      "richtig": true,
+      "erklaerung": "RICHTIG - Die KHK gehört zu den häufigsten Todesursachen in Industrieländern, vor allem bei Männern über 60 Jahre. Hauptursache ist die Atherosklerose (Arteriosklerose) der Koronararterien.",
+      "erklaerung_fa": "درست است — KHK یکی از شایع‌ترین علل مرگ در کشورهای صنعتی است، به‌ویژه در مردان بالای ۶۰ سال. علت اصلی، آترواسکلروز (تصلب شرایین) عروق کرونر است.",
+      "schwierigkeit": "leicht",
+      "tags": [
+        "Herz",
+        "KHK",
+        "Epidemiologie"
+      ],
+      "pruefungsrelevanz": "mittel"
+    },
+    {
+      "id": "HRZ-039-03",
+      "kapitel": "Herz",
+      "thema": "KHK - Einteilung",
+      "seite": 39,
+      "typ": "multiple_choice",
+      "frage": "Wie wird die KHK eingeteilt?",
+      "frage_fa": "KHK چگونه دسته‌بندی می‌شود؟",
+      "optionen": [
+        "Chronisches Koronarsyndrom (stabile Angina pectoris)",
+        "Akutes Koronarsyndrom (ACS)",
+        "Instabile Angina pectoris ohne Anstieg von Troponin",
+        "NSTEMI (nicht-ST-Streckenhebungsinfarkt): mit Anstieg von Troponin",
+        "STEMI (ST-Streckenhebungsinfarkt): mit Anstieg von Troponin und persistierender ST-Hebung (>20 Min.)",
+        "Herzklappenfehler"
+      ],
+      "optionen_fa": [
+        "سندرم کرونری مزمن (آنژین صدری پایدار)",
+        "سندرم کرونری حاد (ACS)",
+        "آنژین صدری ناپایدار بدون افزایش تروپونین",
+        "NSTEMI (سکتهٔ قلبی بدون بالارفتن قطعهٔ ST): همراه با افزایش تروپونین",
+        "STEMI (سکتهٔ قلبی با بالارفتن قطعهٔ ST): همراه با افزایش تروپونین و بالارفتن پایدار ST (بیش از ۲۰ دقیقه)",
+        "نقص دریچهٔ قلب"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "erklaerung": "KHK-Einteilung: chronisches Koronarsyndrom (stabile Angina pectoris) und akutes Koronarsyndrom (ACS). Das ACS umfasst: instabile Angina pectoris (ohne Troponin-Anstieg), NSTEMI (nicht-ST-Streckenhebungsinfarkt, mit Troponin-Anstieg), STEMI (ST-Streckenhebungsinfarkt, mit Troponin-Anstieg + persistierender ST-Hebung >20 Min.).",
+      "erklaerung_fa": "دسته‌بندی KHK: سندرم کرونری مزمن (آنژین صدری پایدار) و سندرم کرونری حاد (ACS). ACS شامل: آنژین صدری ناپایدار (بدون افزایش تروپونین)، NSTEMI (سکتهٔ قلبی بدون بالارفتن ST، همراه با افزایش تروپونین)، STEMI (سکتهٔ قلبی با بالارفتن ST، همراه با افزایش تروپونین + بالارفتن پایدار ST بیش از ۲۰ دقیقه).",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Herz",
+        "KHK",
+        "ACS",
+        "STEMI"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-039-04",
+      "kapitel": "Herz",
+      "thema": "Chronisches Koronarsyndrom",
+      "seite": 39,
+      "typ": "single_choice",
+      "frage": "Wie wird die stabile KHK seit den ESC-Leitlinien 2019 auch genannt?",
+      "frage_fa": "KHK پایدار از زمان دستورالعمل‌های ESC در سال ۲۰۱۹ چه نام دیگری دارد؟",
+      "optionen": [
+        "Akutes Koronarsyndrom",
+        "Chronisches Koronarsyndrom (CCS)",
+        "STEMI",
+        "Instabile Angina pectoris",
+        "Herzinfarkt"
+      ],
+      "optionen_fa": [
+        "سندرم کرونری حاد",
+        "سندرم کرونری مزمن (CCS)",
+        "STEMI",
+        "آنژین صدری ناپایدار",
+        "سکتهٔ قلبی"
+      ],
+      "richtig": 1,
+      "erklaerung": "Seit den ESC-Leitlinien 2019 wird die stabile KHK als Chronisches Koronarsyndrom (CCS) bezeichnet. Sie entspricht der stabilen Angina pectoris.",
+      "erklaerung_fa": "از زمان دستورالعمل‌های ESC در سال ۲۰۱۹، KHK پایدار به‌عنوان سندرم کرونری مزمن (CCS) نامیده می‌شود. این معادل آنژین صدری پایدار است.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Herz",
+        "CCS",
+        "KHK"
+      ],
+      "pruefungsrelevanz": "mittel"
+    },
+    {
+      "id": "HRZ-039-05",
+      "kapitel": "Herz",
+      "thema": "KHK - Ätiologie Atherosklerose",
+      "seite": 39,
+      "typ": "single_choice",
+      "frage": "Welche Ursache liegt der KHK in etwa 95% der Fälle zugrunde?",
+      "frage_fa": "چه علتی در حدود ۹۵٪ موارد، زمینه‌ساز KHK است؟",
+      "optionen": [
+        "Herzklappenfehler",
+        "Atherosklerose/Arteriosklerose (95%)",
+        "Herzrhythmusstörungen",
+        "Virusinfektionen",
+        "Angeborene Fehlbildungen"
+      ],
+      "optionen_fa": [
+        "نقص دریچهٔ قلب",
+        "آترواسکلروز/تصلب شرایین (۹۵٪)",
+        "اختلالات ریتم قلب",
+        "عفونت‌های ویروسی",
+        "ناهنجاری‌های مادرزادی"
+      ],
+      "richtig": 1,
+      "erklaerung": "In ca. 95% der Fälle liegt der KHK eine Atherosklerose (Arteriosklerose) der Koronararterien zugrunde - eine Verhärtung und Lumeneinengung der Gefäße durch Ablagerungen (Plaques).",
+      "erklaerung_fa": "در حدود ۹۵٪ موارد، آترواسکلروز (تصلب شرایین) عروق کرونر زمینه‌ساز KHK است — سفت‌شدن و تنگ‌شدن مجرای عروق به‌دلیل رسوبات (پلاک‌ها).",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Herz",
+        "KHK",
+        "Atherosklerose"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-039-06",
+      "kapitel": "Herz",
+      "thema": "KHK - Risikofaktoren",
+      "seite": 39,
+      "typ": "multiple_choice",
+      "frage": "Welche Risikofaktoren begünstigen die Atherosklerose bei der KHK?",
+      "frage_fa": "کدام عوامل خطر، آترواسکلروز را در KHK تسهیل می‌کنند؟",
+      "optionen": [
+        "Lebensalter: Mann > 45 Jahre, Frau > 55 Jahre",
+        "Metabolisches Syndrom: arterielle Hypertonie, Hypercholesterinämie (LDL zu hoch, HDL zu niedrig), Adipositas, Diabetes mellitus",
+        "Rauchen",
+        "Hyperhomocysteinämie",
+        "Familiäre Disposition",
+        "Niedriger Blutdruck"
+      ],
+      "optionen_fa": [
+        "سن: مرد بالای ۴۵ سال، زن بالای ۵۵ سال",
+        "سندرم متابولیک: فشار خون شریانی، هایپرکلسترولمی (LDL بالا، HDL پایین)، چاقی، دیابت شیرین",
+        "سیگار کشیدن",
+        "هایپرهوموسیستئینمی",
+        "زمینهٔ خانوادگی",
+        "فشار خون پایین"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "erklaerung": "KHK-Risikofaktoren: Lebensalter (Mann > 45 Jahre, Frau > 55 Jahre), metabolisches Syndrom (arterielle Hypertonie, Hypercholesterinämie mit LDL zu hoch/HDL zu niedrig, Adipositas, Diabetes mellitus), Rauchen, Hyperhomocysteinämie, familiäre Disposition. Niedriger Blutdruck ist KEIN Risikofaktor.",
+      "erklaerung_fa": "عوامل خطر KHK: سن (مرد بالای ۴۵ سال، زن بالای ۵۵ سال)، سندرم متابولیک (فشار خون شریانی، هایپرکلسترولمی با LDL بالا/HDL پایین، چاقی، دیابت شیرین)، سیگار، هایپرهوموسیستئینمی، زمینهٔ خانوادگی. فشار خون پایین عامل خطر نیست.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Herz",
+        "KHK",
+        "Risikofaktoren"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-039-07",
+      "kapitel": "Herz",
+      "thema": "KHK - weitere Ätiologie",
+      "seite": 39,
+      "typ": "multiple_choice",
+      "frage": "Welche weiteren Ursachen (außer Atherosklerose) kann die KHK haben?",
+      "frage_fa": "KHK چه علل دیگری (به‌جز آترواسکلروز) می‌تواند داشته باشد؟",
+      "optionen": [
+        "Fehlbildungen oder Erkrankungen der Koronararterien",
+        "Koronarspasmen (→ Prinzmetal-Angina)",
+        "Thrombophilie, Antiphospholipid-Syndrom, essenzielle Thrombozythämie",
+        "Schilddrüsenüberfunktion",
+        "Kaliummangel"
+      ],
+      "optionen_fa": [
+        "ناهنجاری‌ها یا بیماری‌های عروق کرونر",
+        "اسپاسم عروق کرونر (← آنژین پرینزمتال)",
+        "ترومبوفیلی، سندرم آنتی‌فسفولیپید، ترومبوسیتمی اساسی",
+        "پرکاری تیروئید",
+        "کمبود پتاسیم"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Weitere KHK-Ursachen (außer Atherosklerose): Fehlbildungen oder Erkrankungen der Koronararterien, Koronarspasmen (→ Prinzmetal-Angina, eine vasospastische Sonderform), Thrombophilie/Antiphospholipid-Syndrom/essenzielle Thrombozythämie (erhöhte Gerinnungsneigung).",
+      "erklaerung_fa": "سایر علل KHK (به‌جز آترواسکلروز): ناهنجاری‌ها یا بیماری‌های عروق کرونر، اسپاسم عروق کرونر (← آنژین پرینزمتال، نوع خاص اسپاسمی)، ترومبوفیلی/سندرم آنتی‌فسفولیپید/ترومبوسیتمی اساسی (افزایش تمایل به انعقاد).",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Herz",
+        "KHK",
+        "Prinzmetal"
+      ],
+      "pruefungsrelevanz": "mittel"
+    },
+    {
+      "id": "HRZ-039-08",
+      "kapitel": "Herz",
+      "thema": "STEMI vs. NSTEMI",
+      "seite": 39,
+      "typ": "multiple_choice",
+      "frage": "Was unterscheidet STEMI und NSTEMI?",
+      "frage_fa": "تفاوت STEMI و NSTEMI در چیست؟",
+      "optionen": [
+        "STEMI: mit ST-Streckenhebung, persistierend >20 Min., Troponin ↑",
+        "NSTEMI: ohne persistierende ST-Streckenhebung, aber Troponin ↑",
+        "Beide zeigen einen Anstieg von Troponin (Herzmuskelschaden)",
+        "STEMI hat kein Troponin",
+        "NSTEMI ist harmloser als eine stabile Angina pectoris"
+      ],
+      "optionen_fa": [
+        "STEMI: همراه با بالارفتن قطعهٔ ST، پایدار بیش از ۲۰ دقیقه، افزایش تروپونین",
+        "NSTEMI: بدون بالارفتن پایدار قطعهٔ ST، اما افزایش تروپونین",
+        "هر دو افزایش تروپونین را نشان می‌دهند (آسیب عضلهٔ قلب)",
+        "STEMI تروپونین ندارد",
+        "NSTEMI بی‌خطرتر از آنژین صدری پایدار است"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "STEMI (ST-Streckenhebungsinfarkt): mit persistierender ST-Streckenhebung (>20 Min.) und Troponin-Anstieg. NSTEMI (nicht-ST-Streckenhebungsinfarkt): ohne persistierende ST-Hebung, aber MIT Troponin-Anstieg. Beide sind echte Herzinfarkte mit Herzmuskelschaden (Troponin ↑) - beide sind Notfälle!",
+      "erklaerung_fa": "STEMI (سکتهٔ قلبی با بالارفتن ST): همراه با بالارفتن پایدار قطعهٔ ST (بیش از ۲۰ دقیقه) و افزایش تروپونین. NSTEMI (سکتهٔ قلبی بدون بالارفتن ST): بدون بالارفتن پایدار ST، اما همراه با افزایش تروپونین. هر دو سکتهٔ قلبی واقعی همراه با آسیب عضلهٔ قلب هستند (افزایش تروپونین) — هر دو اورژانس‌اند!",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Herz",
+        "STEMI",
+        "NSTEMI",
+        "Troponin"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-039-09",
+      "kapitel": "Herz",
+      "thema": "Troponin",
+      "seite": 39,
+      "typ": "single_choice",
+      "frage": "Welche Bedeutung hat das Troponin bei der KHK-Diagnostik?",
+      "frage_fa": "تروپونین در تشخیص KHK چه اهمیتی دارد؟",
+      "optionen": [
+        "Es ist ein Blutzuckerwert",
+        "Es ist ein Herzenzym/Herzmuskelmarker, der bei Herzmuskelschaden (Infarkt) ansteigt",
+        "Es misst den Blutdruck",
+        "Es ist ein Schilddrüsenwert",
+        "Es hat keine Bedeutung"
+      ],
+      "optionen_fa": [
+        "یک مقدار قند خون است",
+        "یک آنزیم قلبی/نشانگر عضلهٔ قلب است که در آسیب عضلهٔ قلب (سکته) افزایش می‌یابد",
+        "فشار خون را اندازه‌گیری می‌کند",
+        "یک مقدار تیروئید است",
+        "هیچ اهمیتی ندارد"
+      ],
+      "richtig": 1,
+      "erklaerung": "Troponin ist ein Herzmuskelmarker (Herzenzym), der bei einem Herzmuskelschaden (Infarkt = Absterben von Herzmuskelgewebe) ins Blut freigesetzt wird und ansteigt. Bei instabiler Angina pectoris ist Troponin negativ, bei NSTEMI und STEMI positiv (erhöht).",
+      "erklaerung_fa": "تروپونین یک نشانگر عضلهٔ قلب (آنزیم قلبی) است که در آسیب عضلهٔ قلب (سکته = مرگ بافت عضلهٔ قلب) به خون آزاد و افزایش می‌یابد. در آنژین صدری ناپایدار، تروپونین منفی و در NSTEMI و STEMI مثبت (افزایش‌یافته) است.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Herz",
+        "Troponin",
+        "Diagnostik"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-039-F1",
+      "kapitel": "Herz",
+      "thema": "KHK - Fallbeispiel",
+      "seite": 39,
+      "typ": "fallbeispiel",
+      "fallbeschreibung": "Ein 68-jähriger Raucher mit Diabetes und Bluthochdruck bekommt seit 30 Minuten anhaltende, drückende Brustschmerzen mit Ausstrahlung in den linken Arm. Im EKG zeigt sich eine persistierende ST-Streckenhebung. Labor: Troponin stark erhöht.",
+      "fallbeschreibung_fa": "یک مرد ۶۸ سالهٔ سیگاری با دیابت و فشار خون بالا، از ۳۰ دقیقه پیش دچار درد فشارندهٔ مداوم قفسهٔ سینه همراه با انتشار به بازوی چپ شده است. در نوار قلب، بالارفتن پایدار قطعهٔ ST دیده می‌شود. آزمایشگاه: تروپونین به‌شدت افزایش‌یافته.",
+      "frage": "Welche Diagnose ist am wahrscheinlichsten?",
+      "frage_fa": "محتمل‌ترین تشخیص کدام است؟",
+      "optionen": [
+        "Stabile Angina pectoris",
+        "STEMI (ST-Streckenhebungsinfarkt) - akutes Koronarsyndrom, Notfall!",
+        "Instabile Angina pectoris ohne Infarkt",
+        "Roemheld-Syndrom",
+        "Harmlose Muskelverspannung"
+      ],
+      "optionen_fa": [
+        "آنژین صدری پایدار",
+        "STEMI (سکتهٔ قلبی با بالارفتن ST) — سندرم کرونری حاد، اورژانس!",
+        "آنژین صدری ناپایدار بدون سکته",
+        "سندرم روِمهلد",
+        "گرفتگی بی‌خطر عضلانی"
+      ],
+      "richtig": 1,
+      "erklaerung": "STEMI (ST-Streckenhebungsinfarkt): typische Risikofaktoren (Rauchen, Diabetes, Hypertonie, Alter), anhaltende (>20 Min.) drückende Brustschmerzen mit Ausstrahlung in den linken Arm, persistierende ST-Streckenhebung im EKG und stark erhöhtes Troponin (Herzmuskelschaden). Das ist ein absoluter Notfall → sofort Notruf!",
+      "erklaerung_fa": "STEMI (سکتهٔ قلبی با بالارفتن ST): عوامل خطر معمول (سیگار، دیابت، فشار خون، سن)، درد فشارندهٔ مداوم (بیش از ۲۰ دقیقه) قفسهٔ سینه همراه با انتشار به بازوی چپ، بالارفتن پایدار قطعهٔ ST در نوار قلب و تروپونین به‌شدت افزایش‌یافته (آسیب عضلهٔ قلب). این یک اورژانس مطلق است ← فوراً تماس اورژانس!",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Herz",
+        "STEMI",
+        "Fallbeispiel"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-040-01",
+      "kapitel": "Herz",
+      "thema": "Angina pectoris - Definition/Ätiologie",
+      "seite": 40,
+      "typ": "single_choice",
+      "frage": "Wodurch entsteht die Angina pectoris?",
+      "frage_fa": "آنژین صدری چگونه ایجاد می‌شود؟",
+      "optionen": [
+        "Durch eine Herzklappenentzündung",
+        "Durch eine Koronarsklerose - die Koronararterien sind verengt, sodass der Herzmuskel bei erhöhtem Sauerstoffbedarf nicht ausreichend versorgt wird",
+        "Durch einen Kaliummangel",
+        "Durch eine Schilddrüsenüberfunktion",
+        "Durch einen Virusinfekt"
+      ],
+      "optionen_fa": [
+        "به‌دلیل التهاب دریچهٔ قلب",
+        "به‌دلیل تصلب عروق کرونر — عروق کرونر تنگ هستند، به‌طوری‌که عضلهٔ قلب هنگام افزایش نیاز به اکسیژن به‌اندازهٔ کافی تغذیه نمی‌شود",
+        "به‌دلیل کمبود پتاسیم",
+        "به‌دلیل پرکاری تیروئید",
+        "به‌دلیل عفونت ویروسی"
+      ],
+      "richtig": 1,
+      "erklaerung": "Angina pectoris ('Brustenge') entsteht durch eine Koronarsklerose (Arteriosklerose der Koronararterien mit Verhärtung und Lumeneinengung). Die verengten Gefäße können den Herzmuskel bei erhöhtem Sauerstoffbedarf nicht mehr ausreichend versorgen → anfallsartige Schmerzen.",
+      "erklaerung_fa": "آنژین صدری («تنگی قفسهٔ سینه») به‌دلیل تصلب عروق کرونر (تصلب شرایین عروق کرونر همراه با سفت‌شدن و تنگ‌شدن مجرا) ایجاد می‌شود. عروق تنگ‌شده نمی‌توانند عضلهٔ قلب را هنگام افزایش نیاز به اکسیژن به‌اندازهٔ کافی تغذیه کنند ← درد حمله‌ای.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Herz",
+        "Angina pectoris",
+        "Ätiologie"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-040-02",
+      "kapitel": "Herz",
+      "thema": "Angina pectoris - Auslöser",
+      "seite": 40,
+      "typ": "multiple_choice",
+      "frage": "Welche typischen Auslöser gibt es für einen Angina-pectoris-Anfall?",
+      "frage_fa": "چه عوامل برانگیزانندهٔ معمولی برای حملهٔ آنژین صدری وجود دارد؟",
+      "optionen": [
+        "Kälte, Alkohol",
+        "Körperliche Anstrengung",
+        "Stress/psychische Belastung",
+        "Schwere Mahlzeiten (Roemheld-Syndrom)",
+        "Ausreichender Schlaf"
+      ],
+      "optionen_fa": [
+        "سرما، الکل",
+        "فعالیت بدنی",
+        "استرس/فشار روانی",
+        "وعده‌های غذایی سنگین (سندرم روِمهلد)",
+        "خواب کافی"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Typische Auslöser eines Angina-pectoris-Anfalls: Kälte, Alkohol, körperliche Anstrengung, Stress/psychische Belastung, schwere Mahlzeiten (Roemheld-Syndrom). All diese Faktoren erhöhen den Sauerstoffbedarf des Herzens bzw. verengen die Gefäße.",
+      "erklaerung_fa": "عوامل برانگیزانندهٔ معمول حملهٔ آنژین صدری: سرما، الکل، فعالیت بدنی، استرس/فشار روانی، وعده‌های غذایی سنگین (سندرم روِمهلد). همهٔ این عوامل نیاز قلب به اکسیژن را افزایش می‌دهند یا عروق را تنگ می‌کنند.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Herz",
+        "Angina pectoris",
+        "Auslöser"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-040-03",
+      "kapitel": "Herz",
+      "thema": "Stabile vs. instabile Angina pectoris",
+      "seite": 40,
+      "typ": "multiple_choice",
+      "frage": "Was unterscheidet die stabile von der instabilen Angina pectoris?",
+      "frage_fa": "تفاوت آنژین صدری پایدار و ناپایدار چیست؟",
+      "optionen": [
+        "Stabile Angina pectoris: Anfälle treten regelmäßig auf, gutes Ansprechen auf Nitropräparate",
+        "Instabile Angina pectoris: jede AP, die erstmals auftritt oder in Ruhe auftritt",
+        "Instabile Angina pectoris: Häufigkeit/Verlauf/Dauer/Intensität nehmen zu → Notfall, erhöhte Herzinfarktgefahr",
+        "Stabile Angina pectoris ist immer ein Notfall",
+        "Beide sind identisch"
+      ],
+      "optionen_fa": [
+        "آنژین صدری پایدار: حملات به‌طور منظم رخ می‌دهند، پاسخ خوب به داروهای نیترات",
+        "آنژین صدری ناپایدار: هر آنژینی که برای اولین بار یا در حالت استراحت رخ دهد",
+        "آنژین صدری ناپایدار: تعداد/سیر/مدت/شدت افزایش می‌یابد ← اورژانس، افزایش خطر سکتهٔ قلبی",
+        "آنژین صدری پایدار همیشه یک اورژانس است",
+        "هر دو یکسان هستند"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Stabile Angina pectoris: Anfälle treten regelmäßig (z.B. bei bestimmter Belastung) auf, gutes Ansprechen auf Nitropräparate. Instabile Angina pectoris: jede AP, die erstmals auftritt oder in Ruhe auftritt, oder bei der Häufigkeit/Verlauf/Dauer/Intensität zunehmen → NOTFALL mit erhöhter Herzinfarktgefahr!",
+      "erklaerung_fa": "آنژین صدری پایدار: حملات به‌طور منظم (مثلاً هنگام فعالیت مشخص) رخ می‌دهند، پاسخ خوب به داروهای نیترات. آنژین صدری ناپایدار: هر آنژینی که برای اولین بار یا در حالت استراحت رخ دهد، یا تعداد/سیر/مدت/شدت آن افزایش یابد ← اورژانس همراه با افزایش خطر سکتهٔ قلبی!",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Herz",
+        "Angina pectoris",
+        "instabil"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-040-04",
+      "kapitel": "Herz",
+      "thema": "Angina pectoris - Klinik",
+      "seite": 40,
+      "typ": "multiple_choice",
+      "frage": "Welche Klinik zeigt die Angina pectoris?",
+      "frage_fa": "آنژین صدری چه تصویر بالینی‌ای نشان می‌دهد؟",
+      "optionen": [
+        "Retrosternale Schmerzen mit gürtelartigem Engegefühl über 5-15 Minuten",
+        "Ausstrahlung in Kiefer, Oberbauch, rechten Arm, Rücken möglich",
+        "Vernichtungsgefühl mit Todesangst, Kaltschweißigkeit, Übelkeit, Erbrechen",
+        "Dyspnoe, Blässe (evtl. Zyanose), evtl. Herzrhythmusstörungen",
+        "Bei Frauen oft unspezifisch (Müdigkeit, Kurzatmigkeit, Oberbauchbeschwerden)",
+        "Immer völlige Beschwerdefreiheit"
+      ],
+      "optionen_fa": [
+        "درد پشت جناغ همراه با احساس تنگی کمربندمانند به‌مدت ۵ تا ۱۵ دقیقه",
+        "انتشار احتمالی به فک، بالای شکم، بازوی راست، پشت",
+        "احساس نابودی همراه با ترس از مرگ، عرق سرد، تهوع، استفراغ",
+        "تنگی نفس، رنگ‌پریدگی (احتمالاً سیانوز)، احتمالاً اختلالات ریتم قلب",
+        "در زنان اغلب غیراختصاصی (خستگی، تنگی نفس، شکایات بالای شکم)",
+        "همیشه فقدان کامل شکایات"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "erklaerung": "Angina-pectoris-Klinik: retrosternale Schmerzen mit gürtelartigem Engegefühl über 5-15 Minuten, Ausstrahlung möglich (Kiefer, Oberbauch, rechter Arm, Rücken), Vernichtungsgefühl mit Todesangst/Kaltschweißigkeit/Übelkeit/Erbrechen, Dyspnoe/Blässe (evtl. Zyanose)/Herzrhythmusstörungen. Bei Frauen oft unspezifisch (Müdigkeit, Kurzatmigkeit, Oberbauchbeschwerden)!",
+      "erklaerung_fa": "تصویر بالینی آنژین صدری: درد پشت جناغ همراه با احساس تنگی کمربندمانند به‌مدت ۵ تا ۱۵ دقیقه، انتشار احتمالی (فک، بالای شکم، بازوی راست، پشت)، احساس نابودی همراه با ترس از مرگ/عرق سرد/تهوع/استفراغ، تنگی نفس/رنگ‌پریدگی (احتمالاً سیانوز)/اختلالات ریتم قلب. در زنان اغلب غیراختصاصی (خستگی، تنگی نفس، شکایات بالای شکم)!",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Herz",
+        "Angina pectoris",
+        "Klinik"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-040-05",
+      "kapitel": "Herz",
+      "thema": "Angina pectoris bei Frauen",
+      "seite": 40,
+      "typ": "richtig_falsch",
+      "frage": "Bei Frauen zeigt sich die Angina pectoris oft unspezifisch (z.B. Müdigkeit, Kurzatmigkeit, Oberbauchbeschwerden).",
+      "frage_fa": "در زنان، آنژین صدری اغلب به‌صورت غیراختصاصی بروز می‌کند (مثلاً خستگی، تنگی نفس، شکایات بالای شکم).",
+      "richtig": true,
+      "erklaerung": "RICHTIG - Bei Frauen zeigt sich die Angina pectoris (und der Herzinfarkt) oft unspezifisch: Müdigkeit, Kurzatmigkeit, Oberbauchbeschwerden statt der 'typischen' retrosternalen Schmerzen. Deshalb werden Herzinfarkte bei Frauen häufiger übersehen!",
+      "erklaerung_fa": "درست است — در زنان، آنژین صدری (و سکتهٔ قلبی) اغلب به‌صورت غیراختصاصی بروز می‌کند: خستگی، تنگی نفس، شکایات بالای شکم به‌جای درد «معمول» پشت جناغ. به همین دلیل سکته‌های قلبی در زنان بیشتر نادیده گرفته می‌شوند!",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Herz",
+        "Angina pectoris",
+        "Frauen"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-040-06",
+      "kapitel": "Herz",
+      "thema": "Angina pectoris - Komplikation",
+      "seite": 40,
+      "typ": "single_choice",
+      "frage": "Welche wichtige Komplikation kann aus der Angina pectoris entstehen?",
+      "frage_fa": "چه عارضهٔ مهمی می‌تواند از آنژین صدری ایجاد شود؟",
+      "optionen": [
+        "Ein Kaliummangel",
+        "Der Herzinfarkt",
+        "Eine Schilddrüsenüberfunktion",
+        "Ein Diabetes mellitus",
+        "Eine Lungenentzündung"
+      ],
+      "optionen_fa": [
+        "کمبود پتاسیم",
+        "سکتهٔ قلبی",
+        "پرکاری تیروئید",
+        "دیابت شیرین",
+        "ذات‌الریه"
+      ],
+      "richtig": 1,
+      "erklaerung": "Die wichtigste Komplikation der Angina pectoris ist der Herzinfarkt (Myokardinfarkt). Vor allem die instabile Angina pectoris hat eine stark erhöhte Herzinfarktgefahr.",
+      "erklaerung_fa": "مهم‌ترین عارضهٔ آنژین صدری، سکتهٔ قلبی (انفارکتوس میوکارد) است. به‌ویژه آنژین صدری ناپایدار خطر سکتهٔ قلبی به‌شدت افزایش‌یافته‌ای دارد.",
+      "schwierigkeit": "leicht",
+      "tags": [
+        "Herz",
+        "Angina pectoris",
+        "Herzinfarkt"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-040-07",
+      "kapitel": "Herz",
+      "thema": "Angina pectoris - Diagnostik",
+      "seite": 40,
+      "typ": "multiple_choice",
+      "frage": "Welche Diagnostik erfolgt bei der Angina pectoris?",
+      "frage_fa": "در آنژین صدری چه اقدامات تشخیصی انجام می‌شود؟",
+      "optionen": [
+        "Ausschluss eines Herzinfarkts durch EKG und Herzenzymbestimmung",
+        "Bei AP keine Enzymveränderungen (im Gegensatz zum Herzinfarkt!)",
+        "Pulsoxymetrie",
+        "Koronarangiografie/Herzkatheter, Myokardszintigrafie",
+        "Nur eine Blutzuckermessung"
+      ],
+      "optionen_fa": [
+        "رد سکتهٔ قلبی از طریق نوار قلب و اندازه‌گیری آنزیم‌های قلبی",
+        "در آنژین صدری تغییرات آنزیمی وجود ندارد (برخلاف سکتهٔ قلبی!)",
+        "پالس‌اکسیمتری",
+        "آنژیوگرافی عروق کرونر/کاتتر قلب، اسکن میوکارد",
+        "فقط اندازه‌گیری قند خون"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Angina-pectoris-Diagnostik: Ausschluss eines Herzinfarkts durch EKG und Herzenzymbestimmung (bei AP KEINE Enzymveränderungen im Gegensatz zum Herzinfarkt - Troponin negativ!), Pulsoxymetrie, Koronarangiografie/Herzkatheter, Myokardszintigrafie.",
+      "erklaerung_fa": "تشخیص آنژین صدری: رد سکتهٔ قلبی از طریق نوار قلب و اندازه‌گیری آنزیم‌های قلبی (در آنژین صدری تغییرات آنزیمی وجود ندارد، برخلاف سکتهٔ قلبی — تروپونین منفی!)، پالس‌اکسیمتری، آنژیوگرافی عروق کرونر/کاتتر قلب، اسکن میوکارد.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Herz",
+        "Angina pectoris",
+        "Diagnostik"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-040-08",
+      "kapitel": "Herz",
+      "thema": "AP vs. Herzinfarkt - Enzyme",
+      "seite": 40,
+      "typ": "single_choice",
+      "frage": "Was ist der entscheidende Laborunterschied zwischen Angina pectoris und Herzinfarkt?",
+      "frage_fa": "تفاوت آزمایشگاهی تعیین‌کننده بین آنژین صدری و سکتهٔ قلبی چیست؟",
+      "optionen": [
+        "Bei der Angina pectoris ist der Blutzucker erhöht",
+        "Bei der Angina pectoris gibt es keine Enzymveränderungen (Troponin negativ), beim Herzinfarkt steigen die Herzenzyme an (Troponin positiv)",
+        "Es gibt keinen Unterschied",
+        "Bei der Angina pectoris ist das Kalium erhöht",
+        "Beim Herzinfarkt ist der Blutzucker niedrig"
+      ],
+      "optionen_fa": [
+        "در آنژین صدری قند خون افزایش‌یافته است",
+        "در آنژین صدری تغییرات آنزیمی وجود ندارد (تروپونین منفی)، در سکتهٔ قلبی آنزیم‌های قلبی افزایش می‌یابند (تروپونین مثبت)",
+        "تفاوتی وجود ندارد",
+        "در آنژین صدری پتاسیم افزایش‌یافته است",
+        "در سکتهٔ قلبی قند خون پایین است"
+      ],
+      "richtig": 1,
+      "erklaerung": "Der entscheidende Laborunterschied: Bei der Angina pectoris gibt es KEINE Enzymveränderungen (Troponin negativ), da kein Herzmuskelgewebe abstirbt. Beim Herzinfarkt steigen die Herzenzyme an (Troponin positiv), da Herzmuskelgewebe zugrunde geht. Deshalb ist die Herzenzymbestimmung so wichtig!",
+      "erklaerung_fa": "تفاوت آزمایشگاهی تعیین‌کننده: در آنژین صدری تغییرات آنزیمی وجود ندارد (تروپونین منفی)، زیرا بافت عضلهٔ قلب نمی‌میرد. در سکتهٔ قلبی آنزیم‌های قلبی افزایش می‌یابند (تروپونین مثبت)، زیرا بافت عضلهٔ قلب از بین می‌رود. به همین دلیل اندازه‌گیری آنزیم‌های قلبی بسیار مهم است!",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Herz",
+        "Angina pectoris",
+        "Troponin"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-040-09",
+      "kapitel": "Herz",
+      "thema": "Angina pectoris - Akutmaßnahmen",
+      "seite": 40,
+      "typ": "multiple_choice",
+      "frage": "Welche Maßnahmen ergreift man beim akuten Angina-pectoris-Anfall?",
+      "frage_fa": "در حملهٔ حاد آنژین صدری چه اقداماتی انجام می‌شود؟",
+      "optionen": [
+        "Notruf bei Verdacht auf Herzinfarkt/instabile AP",
+        "Regelmäßige Vitalzeichenkontrolle, venösen Zugang legen (keine Volumengabe)",
+        "Oberkörperhochlagerung 30°, beengende Kleidung entfernen, Fenster öffnen, Patient beruhigen",
+        "1-2 Hübe Nitrospray sublingual (nur wenn systolischer Blutdruck >100 mmHg)",
+        "Sofort viel Wasser trinken lassen und flach hinlegen"
+      ],
+      "optionen_fa": [
+        "تماس با اورژانس در صورت شک به سکتهٔ قلبی/آنژین ناپایدار",
+        "کنترل منظم علائم حیاتی، برقراری راه وریدی (بدون تجویز حجم مایعات)",
+        "بالا قراردادن بالاتنه ۳۰ درجه، برداشتن لباس تنگ، بازکردن پنجره، آرام‌کردن بیمار",
+        "۱ تا ۲ پاف اسپری نیترات زیرزبانی (فقط اگر فشار خون سیستولیک بیش از ۱۰۰ mmHg باشد)",
+        "فوراً نوشیدن آب زیاد و دراز کشیدن به‌صورت صاف"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Akutmaßnahmen bei Angina pectoris: Notruf (bei Verdacht auf Herzinfarkt/instabile AP), regelmäßige Vitalzeichenkontrolle + venösen Zugang legen (keine Volumengabe!), Oberkörperhochlagerung 30° (NICHT flach!) + beengende Kleidung entfernen + Fenster öffnen + Patient beruhigen, 1-2 Hübe Nitrospray sublingual (nur wenn systolischer Blutdruck >100 mmHg - den Patienten sein eigenes Nitro nehmen lassen).",
+      "erklaerung_fa": "اقدامات حاد در آنژین صدری: تماس با اورژانس (در صورت شک به سکتهٔ قلبی/آنژین ناپایدار)، کنترل منظم علائم حیاتی + برقراری راه وریدی (بدون تجویز حجم مایعات!)، بالا قراردادن بالاتنه ۳۰ درجه (نه صاف!) + برداشتن لباس تنگ + بازکردن پنجره + آرام‌کردن بیمار، ۱ تا ۲ پاف اسپری نیترات زیرزبانی (فقط اگر فشار خون سیستولیک بیش از ۱۰۰ mmHg باشد — بگذارید بیمار نیترات خودش را مصرف کند).",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Herz",
+        "Angina pectoris",
+        "Notfall"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-040-10",
+      "kapitel": "Herz",
+      "thema": "Nitrospray - Voraussetzung",
+      "seite": 40,
+      "typ": "single_choice",
+      "frage": "Unter welcher Voraussetzung darf beim Angina-pectoris-Anfall Nitrospray gegeben werden?",
+      "frage_fa": "نیترات‌اسپری در حملهٔ آنژین صدری تحت چه شرطی می‌تواند تجویز شود؟",
+      "optionen": [
+        "Immer, unabhängig vom Blutdruck",
+        "Nur wenn der systolische Blutdruck über 100 mmHg liegt",
+        "Nur wenn der Blutzucker niedrig ist",
+        "Nur bei Bewusstlosigkeit",
+        "Nie, Nitro ist verboten"
+      ],
+      "optionen_fa": [
+        "همیشه، بدون توجه به فشار خون",
+        "فقط اگر فشار خون سیستولیک بالای ۱۰۰ mmHg باشد",
+        "فقط اگر قند خون پایین باشد",
+        "فقط در بی‌هوشی",
+        "هرگز، نیترات ممنوع است"
+      ],
+      "richtig": 1,
+      "erklaerung": "Nitrospray darf nur gegeben werden, wenn der systolische Blutdruck über 100 mmHg liegt. Grund: Nitro erweitert die Gefäße und senkt den Blutdruck - bei bereits niedrigem Blutdruck droht ein gefährlicher Blutdruckabfall. Am besten den Patienten sein eigenes Nitrospray nehmen lassen.",
+      "erklaerung_fa": "نیترات‌اسپری فقط زمانی می‌تواند تجویز شود که فشار خون سیستولیک بالای ۱۰۰ mmHg باشد. علت: نیترات عروق را گشاد و فشار خون را کاهش می‌دهد — در فشار خون از پیش پایین، افت خطرناک فشار خون تهدید می‌کند. بهتر است بگذارید بیمار نیترات‌اسپری خودش را مصرف کند.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Herz",
+        "Angina pectoris",
+        "Nitro"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-040-F1",
+      "kapitel": "Herz",
+      "thema": "Angina pectoris - Fallbeispiel",
+      "seite": 40,
+      "typ": "fallbeispiel",
+      "fallbeschreibung": "Ein 60-jähriger Patient bekommt beim Schneeschaufeln (Kälte + Anstrengung) drückende Brustschmerzen mit Engegefühl, die in den linken Arm ausstrahlen. Nach 10 Minuten Ruhe und einem Hub seines eigenen Nitrosprays verschwinden die Beschwerden vollständig. Solche Anfälle kennt er bei Belastung schon länger.",
+      "fallbeschreibung_fa": "یک بیمار ۶۰ ساله هنگام پارو کردن برف (سرما + فعالیت) دچار درد فشارندهٔ قفسهٔ سینه همراه با احساس تنگی می‌شود که به بازوی چپ انتشار می‌یابد. پس از ۱۰ دقیقه استراحت و یک پاف از نیترات‌اسپری خودش، شکایات به‌طور کامل ناپدید می‌شوند. او این‌گونه حملات را هنگام فعالیت از مدت‌ها پیش می‌شناسد.",
+      "frage": "Welche Form der Angina pectoris liegt am wahrscheinlichsten vor?",
+      "frage_fa": "کدام شکل آنژین صدری محتمل‌ترین است؟",
+      "optionen": [
+        "Instabile Angina pectoris (Notfall)",
+        "Stabile Angina pectoris (regelmäßige Anfälle bei Belastung, gutes Ansprechen auf Nitro)",
+        "Ein akuter Herzinfarkt (STEMI)",
+        "Ein Roemheld-Syndrom",
+        "Eine harmlose Muskelverspannung"
+      ],
+      "optionen_fa": [
+        "آنژین صدری ناپایدار (اورژانس)",
+        "آنژین صدری پایدار (حملات منظم هنگام فعالیت، پاسخ خوب به نیترات)",
+        "سکتهٔ قلبی حاد (STEMI)",
+        "سندرم روِمهلد",
+        "گرفتگی بی‌خطر عضلانی"
+      ],
+      "richtig": 1,
+      "erklaerung": "Stabile Angina pectoris: Die Anfälle treten regelmäßig bei Belastung auf (hier Kälte + Anstrengung beim Schneeschaufeln), sind dem Patienten bekannt und sprechen gut auf Nitropräparate an (Beschwerden verschwinden nach Ruhe + Nitro). Wichtig: Würden die Anfälle neu auftreten, in Ruhe auftreten oder an Häufigkeit/Intensität zunehmen, wäre es eine INSTABILE Angina pectoris (Notfall).",
+      "erklaerung_fa": "آنژین صدری پایدار: حملات به‌طور منظم هنگام فعالیت رخ می‌دهند (اینجا سرما + فعالیت هنگام پارو کردن برف)، برای بیمار شناخته‌شده هستند و به داروهای نیترات پاسخ خوب می‌دهند (شکایات پس از استراحت + نیترات ناپدید می‌شوند). مهم: اگر حملات به‌تازگی رخ دهند، در حالت استراحت رخ دهند یا از نظر تعداد/شدت افزایش یابند، آنژین صدری ناپایدار خواهد بود (اورژانس).",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Herz",
+        "Angina pectoris",
+        "Fallbeispiel"
+      ],
+      "pruefungsrelevanz": "hoch"
     }
   ],
   "vokabeln": [
@@ -21407,6 +23602,966 @@
       "beispiel": "Beim renalen Diabetes insipidus wird ein Versuch mit Thiaziddiuretika gemacht.",
       "beispiel_fa": "در دیابت بی‌مزهٔ کلیوی، تلاشی با دیورتیک‌های تیازیدی انجام می‌شود.",
       "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-HRZ-001",
+      "kapitel": "Herz",
+      "seite": 35,
+      "lateinisch": "Atrium (dexter/sinister)",
+      "deutsch": "Herzvorhof (rechter/linker)",
+      "deutsch_fa": "دهلیز قلب (راست/چپ)",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Anatomie",
+      "herkunft": "lat. atrium = Vorhof, Eingangshalle",
+      "eselsbruecke": "Atrium = 'Vorhalle' des Herzens (Vorhof)",
+      "eselsbruecke_fa": "Atrium = «تالار ورودی» قلب (دهلیز)",
+      "beispiel": "Das Atrium dexter ist der rechte Herzvorhof.",
+      "beispiel_fa": "Atrium dexter دهلیز راست قلب است.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-HRZ-002",
+      "kapitel": "Herz",
+      "seite": 35,
+      "lateinisch": "Ventriculus (dexter/sinister)",
+      "deutsch": "Herzkammer (rechte/linke)",
+      "deutsch_fa": "بطن قلب (راست/چپ)",
+      "wortart": "Substantiv (m)",
+      "kategorie": "Anatomie",
+      "herkunft": "lat. ventriculus = kleiner Bauch, Kammer",
+      "eselsbruecke": "Ventrikel = die Kammer (pumpt das Blut heraus)",
+      "eselsbruecke_fa": "بطن (Ventrikel) = حفره‌ای که خون را بیرون پمپ می‌کند",
+      "beispiel": "Der Ventriculus sinister hat die dickste Muskelschicht.",
+      "beispiel_fa": "Ventriculus sinister ضخیم‌ترین لایهٔ عضلانی را دارد.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-HRZ-003",
+      "kapitel": "Herz",
+      "seite": 35,
+      "lateinisch": "Trikuspidalklappe",
+      "deutsch": "Dreizipflige Segelklappe (zwischen rechtem Vorhof und rechter Kammer)",
+      "deutsch_fa": "دریچهٔ سه‌لختی (بین دهلیز راست و بطن راست)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Anatomie",
+      "herkunft": "lat. tri = drei + cuspis = Zipfel, Spitze",
+      "eselsbruecke": "Tri-Kuspidal = DREI Zipfel (rechtes Herz)",
+      "eselsbruecke_fa": "Tri-Kuspidal = سه لَخته/لَت (قلب راست)",
+      "beispiel": "Die Trikuspidalklappe trennt rechten Vorhof und rechte Kammer.",
+      "beispiel_fa": "دریچهٔ سه‌لختی دهلیز راست و بطن راست را جدا می‌کند.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-HRZ-004",
+      "kapitel": "Herz",
+      "seite": 35,
+      "lateinisch": "Mitralklappe",
+      "deutsch": "Zweizipflige Segelklappe (zwischen linkem Vorhof und linker Kammer)",
+      "deutsch_fa": "دریچهٔ میترال، دریچهٔ بادبانی دولختی (بین دهلیز چپ و بطن چپ)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Anatomie",
+      "herkunft": "lat. mitra = Bischofsmütze (ähnliche Form)",
+      "eselsbruecke": "Mitralklappe = ZWEI Zipfel wie eine Bischofsmütze (linkes Herz)",
+      "eselsbruecke_fa": "دریچهٔ میترال = دو لَت مانند کلاه اسقف (قلب چپ)",
+      "beispiel": "Die Mitralklappe trennt linken Vorhof und linke Kammer.",
+      "beispiel_fa": "دریچهٔ میترال دهلیز چپ و بطن چپ را جدا می‌کند.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-HRZ-005",
+      "kapitel": "Herz",
+      "seite": 35,
+      "lateinisch": "Pulmonalklappe",
+      "deutsch": "Taschenklappe zwischen rechter Kammer und Truncus pulmonalis",
+      "deutsch_fa": "دریچهٔ ریوی، دریچهٔ کیسه‌ای بین بطن راست و تنهٔ ریوی",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Anatomie",
+      "herkunft": "lat. pulmo = Lunge",
+      "eselsbruecke": "Pulmonalklappe = Tor zur Lunge (Pulmo = Lunge)",
+      "eselsbruecke_fa": "دریچهٔ ریوی = دروازهٔ ریه (Pulmo = ریه)",
+      "beispiel": "Die Pulmonalklappe liegt zwischen rechter Kammer und Truncus pulmonalis.",
+      "beispiel_fa": "دریچهٔ ریوی بین بطن راست و تنهٔ ریوی قرار دارد.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-HRZ-006",
+      "kapitel": "Herz",
+      "seite": 35,
+      "lateinisch": "Aortenklappe",
+      "deutsch": "Taschenklappe zwischen linker Kammer und Aorta",
+      "deutsch_fa": "دریچهٔ آئورت، دریچهٔ کیسه‌ای بین بطن چپ و آئورت",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Anatomie",
+      "herkunft": "gr. aorte = Hauptschlagader",
+      "eselsbruecke": "Aortenklappe = Tor zur Aorta (Hauptschlagader, linkes Herz)",
+      "eselsbruecke_fa": "دریچهٔ آئورت = دروازهٔ آئورت (سرخرگ اصلی، قلب چپ)",
+      "beispiel": "Die Aortenklappe liegt zwischen linker Kammer und Aorta.",
+      "beispiel_fa": "دریچهٔ آئورت بین بطن چپ و آئورت قرار دارد.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-HRZ-007",
+      "kapitel": "Herz",
+      "seite": 35,
+      "lateinisch": "Vena cava (superior/inferior)",
+      "deutsch": "Obere/untere Hohlvene (führt sauerstoffarmes Blut zum rechten Vorhof)",
+      "deutsch_fa": "بزرگ‌سیاهرگ زبرین/زیرین (خون کم‌اکسیژن را به دهلیز راست می‌آورد)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Anatomie",
+      "herkunft": "lat. vena = Vene + cava = hohl",
+      "eselsbruecke": "Vena cava = die große 'hohle Vene' (bringt Blut zum Herzen)",
+      "eselsbruecke_fa": "Vena cava = «سیاهرگ توخالی» بزرگ (خون را به قلب می‌آورد)",
+      "beispiel": "Die Vena cava mündet in den rechten Vorhof.",
+      "beispiel_fa": "بزرگ‌سیاهرگ به دهلیز راست می‌ریزد.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-HRZ-008",
+      "kapitel": "Herz",
+      "seite": 35,
+      "lateinisch": "Truncus pulmonalis",
+      "deutsch": "Lungenstamm (führt Blut von der rechten Kammer zur Lunge)",
+      "deutsch_fa": "تنهٔ ریوی (خون را از بطن راست به ریه می‌برد)",
+      "wortart": "Substantiv (m)",
+      "kategorie": "Anatomie",
+      "herkunft": "lat. truncus = Stamm + pulmo = Lunge",
+      "eselsbruecke": "Truncus pulmonalis = 'Lungenstamm', teilt sich in beide Lungenarterien",
+      "eselsbruecke_fa": "تنهٔ ریوی = «تنهٔ ریه»، به هر دو شریان ریوی تقسیم می‌شود",
+      "beispiel": "Der Truncus pulmonalis teilt sich in A. pulmonalis sinistra und dextra.",
+      "beispiel_fa": "تنهٔ ریوی به A. pulmonalis sinistra و dextra تقسیم می‌شود.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-HRZ-009",
+      "kapitel": "Herz",
+      "seite": 35,
+      "lateinisch": "ANP (atriales natriuretisches Peptid)",
+      "deutsch": "Herzhormon der Vorhöfe (fördert Wasserausscheidung, senkt Blutdruck)",
+      "deutsch_fa": "هورمون قلبی دهلیزها (دفع آب را تقویت، فشار خون را کاهش می‌دهد)",
+      "wortart": "Abkürzung",
+      "kategorie": "Hormon",
+      "herkunft": "atrial + lat. natrium + gr. ouron = Harn",
+      "eselsbruecke": "ANP = Atrium-Hormon, treibt Natrium/Wasser aus → Blutdruck sinkt",
+      "eselsbruecke_fa": "ANP = هورمون دهلیز، سدیم/آب را دفع می‌کند ← فشار خون کاهش می‌یابد",
+      "beispiel": "Bei Vordehnung der Herzohren wird ANP freigesetzt.",
+      "beispiel_fa": "با کشش گوشک‌های قلب، ANP آزاد می‌شود.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-HRZ-010",
+      "kapitel": "Herz",
+      "seite": 35,
+      "lateinisch": "Herzskelett",
+      "deutsch": "Bindegewebsgerüst (trennt Kammern/Vorhöfe, befestigt Klappen)",
+      "deutsch_fa": "داربست بافت همبند (بطن‌ها/دهلیزها را جدا و دریچه‌ها را تثبیت می‌کند)",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Anatomie",
+      "herkunft": "dt. Herz + gr. skeletos = ausgetrocknet",
+      "eselsbruecke": "Herzskelett = bindegewebiges 'Gerüst' (kein echter Knochen)",
+      "eselsbruecke_fa": "اسکلت قلب = «داربست» بافت همبند (استخوان واقعی نیست)",
+      "beispiel": "Das Herzskelett dient der Klappenbefestigung.",
+      "beispiel_fa": "اسکلت قلب برای اتصال دریچه‌ها به کار می‌رود.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-HRZ-011",
+      "kapitel": "Herz",
+      "seite": 36,
+      "lateinisch": "Endokard",
+      "deutsch": "Innere Herzhaut (kleidet Herzinnenräume und Klappen aus)",
+      "deutsch_fa": "پردهٔ داخلی قلب (فضاهای داخلی و دریچه‌ها را می‌پوشاند)",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Anatomie",
+      "herkunft": "gr. endon = innen + kardia = Herz",
+      "eselsbruecke": "Endo-kard = INNEN im Herz",
+      "eselsbruecke_fa": "Endo-kard = داخلِ قلب",
+      "beispiel": "Eine Entzündung des Endokards heißt Endokarditis.",
+      "beispiel_fa": "التهاب اندوکارد، اندوکاردیت نامیده می‌شود.",
+      "schwierigkeit": "leicht"
+    },
+    {
+      "id": "VOK-HRZ-012",
+      "kapitel": "Herz",
+      "seite": 36,
+      "lateinisch": "Myokard",
+      "deutsch": "Herzmuskelschicht (der eigentliche Herzmuskel)",
+      "deutsch_fa": "لایهٔ عضلانی قلب (عضلهٔ اصلی قلب)",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Anatomie",
+      "herkunft": "gr. mys = Muskel + kardia = Herz",
+      "eselsbruecke": "Myo-kard = MUSKEL des Herzens",
+      "eselsbruecke_fa": "Myo-kard = عضلهٔ قلب",
+      "beispiel": "Der Herzinfarkt ist ein Absterben von Myokard.",
+      "beispiel_fa": "سکتهٔ قلبی مرگ بافت میوکارد است.",
+      "schwierigkeit": "leicht"
+    },
+    {
+      "id": "VOK-HRZ-013",
+      "kapitel": "Herz",
+      "seite": 36,
+      "lateinisch": "Epikard",
+      "deutsch": "Äußere Herzschicht (inneres/viszerales Blatt des Herzbeutels)",
+      "deutsch_fa": "لایهٔ بیرونی قلب (لایهٔ داخلی/احشایی کیسهٔ قلب)",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Anatomie",
+      "herkunft": "gr. epi = auf + kardia = Herz",
+      "eselsbruecke": "Epi-kard = AUF dem Herz (außen)",
+      "eselsbruecke_fa": "Epi-kard = رویِ قلب (بیرون)",
+      "beispiel": "Das Epikard ist das innere Blatt des Herzbeutels.",
+      "beispiel_fa": "اپیکارد لایهٔ داخلی کیسهٔ قلب است.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-HRZ-014",
+      "kapitel": "Herz",
+      "seite": 36,
+      "lateinisch": "Perikard",
+      "deutsch": "Herzbeutel (schützt und fixiert das Herz)",
+      "deutsch_fa": "کیسهٔ قلب (از قلب محافظت و آن را تثبیت می‌کند)",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Anatomie",
+      "herkunft": "gr. peri = um herum + kardia = Herz",
+      "eselsbruecke": "Peri-kard = UM das Herz herum (Beutel)",
+      "eselsbruecke_fa": "Peri-kard = دورِ قلب (کیسه)",
+      "beispiel": "Das Perikard umgibt das Herz als Herzbeutel.",
+      "beispiel_fa": "پریکارد قلب را به‌عنوان کیسهٔ قلب احاطه می‌کند.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-HRZ-015",
+      "kapitel": "Herz",
+      "seite": 36,
+      "lateinisch": "Perikardhöhle",
+      "deutsch": "Spalt zwischen Epikard und parietalem Blatt (mit Gleitflüssigkeit)",
+      "deutsch_fa": "شکاف بین اپیکارد و لایهٔ جداری (با مایع لغزنده)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Anatomie",
+      "herkunft": "Perikard + Höhle",
+      "eselsbruecke": "Perikardhöhle = 'Gleitspalt' zwischen den Herzbeutel-Blättern",
+      "eselsbruecke_fa": "حفرهٔ پریکارد = «شکاف لغزنده» بین لایه‌های کیسهٔ قلب",
+      "beispiel": "In der Perikardhöhle ermöglicht Flüssigkeit reibungsloses Gleiten.",
+      "beispiel_fa": "در حفرهٔ پریکارد، مایع لغزش بدون اصطکاک را ممکن می‌سازد.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-HRZ-016",
+      "kapitel": "Herz",
+      "seite": 36,
+      "lateinisch": "Sinusknoten",
+      "deutsch": "Primärer Schrittmacher des Herzens (60-80/min)",
+      "deutsch_fa": "ضربان‌ساز اولیهٔ قلب (60-80 در دقیقه)",
+      "wortart": "Substantiv (m)",
+      "kategorie": "Anatomie",
+      "herkunft": "lat. sinus = Bucht + Knoten",
+      "eselsbruecke": "Sinusknoten = der 'Taktgeber' des Herzens (schnellster)",
+      "eselsbruecke_fa": "گرهٔ سینوسی = «ضرب‌آهنگ‌ساز» قلب (سریع‌ترین)",
+      "beispiel": "Der Sinusknoten gibt normalerweise den Herzrhythmus vor.",
+      "beispiel_fa": "گرهٔ سینوسی معمولاً ریتم قلب را تعیین می‌کند.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-HRZ-017",
+      "kapitel": "Herz",
+      "seite": 36,
+      "lateinisch": "AV-Knoten (Atrioventrikularknoten)",
+      "deutsch": "Sekundärer Schrittmacher (40-60/min), leitet Erregung Vorhof → Kammer",
+      "deutsch_fa": "ضربان‌ساز ثانویه (40-60 در دقیقه)، تحریک را از دهلیز به بطن هدایت می‌کند",
+      "wortart": "Substantiv (m)",
+      "kategorie": "Anatomie",
+      "herkunft": "lat. atrium = Vorhof + ventriculus = Kammer",
+      "eselsbruecke": "AV = Atrium-Ventrikel-Knoten (Verbindung Vorhof zu Kammer)",
+      "eselsbruecke_fa": "AV = گرهٔ دهلیز-بطن (اتصال دهلیز به بطن)",
+      "beispiel": "Der AV-Knoten springt bei Ausfall des Sinusknotens ein.",
+      "beispiel_fa": "گرهٔ AV در صورت از کارافتادن گرهٔ سینوسی جایگزین می‌شود.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-HRZ-018",
+      "kapitel": "Herz",
+      "seite": 36,
+      "lateinisch": "HIS-Bündel",
+      "deutsch": "Teil des Erregungsleitungssystems (30-40/min)",
+      "deutsch_fa": "بخشی از سیستم هدایت تحریک (30-40 در دقیقه)",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Anatomie",
+      "herkunft": "nach dem Anatomen Wilhelm His",
+      "eselsbruecke": "HIS-Bündel = leitet die Erregung weiter zu den Tawara-Schenkeln",
+      "eselsbruecke_fa": "دستهٔ هیس = تحریک را به شاخه‌های تاوارا هدایت می‌کند",
+      "beispiel": "Das HIS-Bündel liegt in der Kammerscheidewand.",
+      "beispiel_fa": "دستهٔ هیس در دیوارهٔ بین‌بطنی قرار دارد.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-HRZ-019",
+      "kapitel": "Herz",
+      "seite": 36,
+      "lateinisch": "Tawara-Schenkel",
+      "deutsch": "Leitungsbahnen in der Kammerscheidewand (Kammerschenkel)",
+      "deutsch_fa": "مسیرهای هدایتی در دیوارهٔ بین‌بطنی (شاخه‌های بطنی)",
+      "wortart": "Substantiv (m)",
+      "kategorie": "Anatomie",
+      "herkunft": "nach dem Anatomen Sunao Tawara",
+      "eselsbruecke": "Tawara-Schenkel = teilen sich in linken und rechten 'Schenkel'",
+      "eselsbruecke_fa": "شاخهٔ تاوارا = به «شاخه»‌های چپ و راست تقسیم می‌شوند",
+      "beispiel": "Die Tawara-Schenkel leiten die Erregung zu den Purkinje-Fasern.",
+      "beispiel_fa": "شاخه‌های تاوارا تحریک را به الیاف پورکنژ هدایت می‌کنند.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-HRZ-020",
+      "kapitel": "Herz",
+      "seite": 36,
+      "lateinisch": "Purkinje-Fasern",
+      "deutsch": "Letzte Fasern des Erregungsleitungssystems (ca. 20/min)",
+      "deutsch_fa": "آخرین الیاف سیستم هدایت تحریک (حدود 20 در دقیقه)",
+      "wortart": "Substantiv (f, pl)",
+      "kategorie": "Anatomie",
+      "herkunft": "nach dem Physiologen Jan E. Purkinje",
+      "eselsbruecke": "Purkinje-Fasern = verteilen die Erregung im Kammermuskel",
+      "eselsbruecke_fa": "الیاف پورکنژ = تحریک را در عضلهٔ بطن پخش می‌کنند",
+      "beispiel": "Die Purkinje-Fasern erregen die Herzmuskelzellen der Kammern.",
+      "beispiel_fa": "الیاف پورکنژ سلول‌های عضلهٔ بطن‌ها را تحریک می‌کنند.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-HRZ-021",
+      "kapitel": "Herz",
+      "seite": 37,
+      "lateinisch": "Arrhythmie",
+      "deutsch": "Herzrhythmusstörung (Abweichung vom normalen Herzrhythmus)",
+      "deutsch_fa": "اختلال ریتم قلب (انحراف از ریتم طبیعی قلب)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Kardiologie",
+      "herkunft": "gr. a = ohne + rhythmos = Takt",
+      "eselsbruecke": "A-Rrhythmie = OHNE (regelmäßigen) Rhythmus",
+      "eselsbruecke_fa": "A-Rrhythmie = بدون ریتم (منظم)",
+      "beispiel": "Vorhofflimmern ist eine häufige Arrhythmie.",
+      "beispiel_fa": "فیبریلاسیون دهلیزی یک آریتمی شایع است.",
+      "schwierigkeit": "leicht"
+    },
+    {
+      "id": "VOK-HRZ-022",
+      "kapitel": "Herz",
+      "seite": 37,
+      "lateinisch": "Tachykardie",
+      "deutsch": "Zu schneller Herzschlag (über 100/min)",
+      "deutsch_fa": "ضربان قلب بسیار سریع (بالای 100 در دقیقه)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Symptom",
+      "herkunft": "gr. tachys = schnell + kardia = Herz",
+      "eselsbruecke": "Tachy-Kardie = schnelles Herz (Tacho = Geschwindigkeit)",
+      "eselsbruecke_fa": "Tachy-Kardie = قلب سریع (Tacho = سرعت)",
+      "beispiel": "Bei Fieber tritt oft eine Tachykardie auf.",
+      "beispiel_fa": "در تب اغلب تاکی‌کاردی رخ می‌دهد.",
+      "schwierigkeit": "leicht"
+    },
+    {
+      "id": "VOK-HRZ-023",
+      "kapitel": "Herz",
+      "seite": 37,
+      "lateinisch": "Bradykardie",
+      "deutsch": "Zu langsamer Herzschlag (unter 60/min)",
+      "deutsch_fa": "ضربان قلب بسیار کند (زیر 60 در دقیقه)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Symptom",
+      "herkunft": "gr. bradys = langsam + kardia = Herz",
+      "eselsbruecke": "Brady-Kardie = langsames Herz",
+      "eselsbruecke_fa": "Brady-Kardie = قلب کند",
+      "beispiel": "Trainierte Sportler haben oft eine Bradykardie.",
+      "beispiel_fa": "ورزشکاران تمرین‌کرده اغلب برادی‌کاردی دارند.",
+      "schwierigkeit": "leicht"
+    },
+    {
+      "id": "VOK-HRZ-024",
+      "kapitel": "Herz",
+      "seite": 37,
+      "lateinisch": "Extrasystole",
+      "deutsch": "Zusätzlicher Herzschlag außerhalb des Grundrhythmus",
+      "deutsch_fa": "ضربان اضافی قلب خارج از ریتم پایه",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Symptom",
+      "herkunft": "lat. extra = zusätzlich + gr. systole = Zusammenziehung",
+      "eselsbruecke": "Extra-Systole = EXTRA (zusätzlicher) Herzschlag",
+      "eselsbruecke_fa": "Extra-Systole = ضربان اضافیِ قلب",
+      "beispiel": "Einzelne Extrasystolen sind meist harmlos.",
+      "beispiel_fa": "اکستراسیستول‌های منفرد معمولاً بی‌خطرند.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-HRZ-025",
+      "kapitel": "Herz",
+      "seite": 37,
+      "lateinisch": "Vorhofflimmern",
+      "deutsch": "Ungeordnete Vorhoferregung (350-600/min), Thrombengefahr",
+      "deutsch_fa": "تحریک نامنظم دهلیزی (350-600 در دقیقه)، خطر ترومبوز",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "dt. Vorhof + flimmern",
+      "eselsbruecke": "Vorhofflimmern = Vorhöfe 'zittern' nur → Thrombengefahr → Schlaganfall",
+      "eselsbruecke_fa": "فیبریلاسیون دهلیزی = دهلیزها فقط «می‌لرزند» ← خطر ترومبوز ← سکتهٔ مغزی",
+      "beispiel": "Bei Vorhofflimmern droht ein Schlaganfall durch Thromben.",
+      "beispiel_fa": "در فیبریلاسیون دهلیزی، سکتهٔ مغزی به‌دلیل ترومبوز تهدید می‌کند.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-HRZ-026",
+      "kapitel": "Herz",
+      "seite": 37,
+      "lateinisch": "Kammerflimmern",
+      "deutsch": "Ungeordnete Kammererregung (350-600/min), funktioneller Herzstillstand - NOTFALL",
+      "deutsch_fa": "تحریک نامنظم بطنی (350-600 در دقیقه)، ایست قلبی عملکردی — اورژانس",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Notfall",
+      "herkunft": "dt. Kammer + flimmern",
+      "eselsbruecke": "Kammerflimmern = Kammern pumpen nicht mehr → Reanimation + Defibrillation!",
+      "eselsbruecke_fa": "فیبریلاسیون بطنی = بطن‌ها دیگر پمپ نمی‌کنند ← احیا + دفیبریلاسیون!",
+      "beispiel": "Kammerflimmern erfordert sofortige Defibrillation.",
+      "beispiel_fa": "فیبریلاسیون بطنی نیازمند دفیبریلاسیون فوری است.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-HRZ-027",
+      "kapitel": "Herz",
+      "seite": 37,
+      "lateinisch": "Synkope",
+      "deutsch": "Kurze Bewusstlosigkeit (Ohnmacht durch Minderdurchblutung des Gehirns)",
+      "deutsch_fa": "بی‌هوشی کوتاه (غش به‌دلیل کاهش خون‌رسانی مغز)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Symptom",
+      "herkunft": "gr. synkope = Zusammenbruch",
+      "eselsbruecke": "Synkope = kurze Ohnmacht ('das Gehirn setzt kurz aus')",
+      "eselsbruecke_fa": "سنکوپ = غش کوتاه («مغز لحظه‌ای از کار می‌افتد»)",
+      "beispiel": "Herzrhythmusstörungen können Synkopen auslösen.",
+      "beispiel_fa": "اختلالات ریتم قلب می‌توانند سنکوپ ایجاد کنند.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-HRZ-028",
+      "kapitel": "Herz",
+      "seite": 37,
+      "lateinisch": "Adam-Stokes-Anfall",
+      "deutsch": "Kurzzeitiger Herzstillstand mit Bewusstlosigkeit",
+      "deutsch_fa": "ایست کوتاه‌مدت قلب همراه با بی‌هوشی",
+      "wortart": "Substantiv (m)",
+      "kategorie": "Notfall",
+      "herkunft": "nach den Ärzten Adams und Stokes",
+      "eselsbruecke": "Adam-Stokes = Herz setzt kurz aus → Bewusstlosigkeit",
+      "eselsbruecke_fa": "آدامز-استوکس = قلب لحظه‌ای می‌ایستد ← بی‌هوشی",
+      "beispiel": "Ein Adam-Stokes-Anfall entsteht durch einen kurzen Herzstillstand.",
+      "beispiel_fa": "حملهٔ آدامز-استوکس به‌دلیل ایست کوتاه قلب ایجاد می‌شود.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-HRZ-029",
+      "kapitel": "Herz",
+      "seite": 37,
+      "lateinisch": "Mesenterialinfarkt",
+      "deutsch": "Verschluss einer Darmarterie (durch Embolie)",
+      "deutsch_fa": "انسداد شریان روده (به‌دلیل آمبولی)",
+      "wortart": "Substantiv (m)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "gr. mesenterion = Gekröse + lat. infarcire",
+      "eselsbruecke": "Mesenterial-Infarkt = Darmarterie verstopft (durch Embolie)",
+      "eselsbruecke_fa": "انفارکتوس مزانتریک = شریان روده مسدود می‌شود (به‌دلیل آمبولی)",
+      "beispiel": "Arterielle Embolien können einen Mesenterialinfarkt verursachen.",
+      "beispiel_fa": "آمبولی‌های شریانی می‌توانند انفارکتوس مزانتریک ایجاد کنند.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-HRZ-030",
+      "kapitel": "Herz",
+      "seite": 37,
+      "lateinisch": "Antiarrhythmikum",
+      "deutsch": "Medikament gegen Herzrhythmusstörungen",
+      "deutsch_fa": "دارو علیه اختلالات ریتم قلب",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Medikament",
+      "herkunft": "gr. anti = gegen + Arrhythmie",
+      "eselsbruecke": "Anti-Arrhythmikum = GEGEN Rhythmusstörungen",
+      "eselsbruecke_fa": "Anti-Arrhythmikum = علیه اختلالات ریتم",
+      "beispiel": "Antiarrhythmika stabilisieren den Herzrhythmus.",
+      "beispiel_fa": "داروهای ضدآریتمی ریتم قلب را تثبیت می‌کنند.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-HRZ-031",
+      "kapitel": "Herz",
+      "seite": 38,
+      "lateinisch": "paroxysmal",
+      "deutsch": "Anfallsartig (plötzlich beginnend und endend)",
+      "deutsch_fa": "حمله‌ای (به‌طور ناگهانی آغاز و پایان می‌یابد)",
+      "wortart": "Adjektiv",
+      "kategorie": "Medizinische Fachbegriffe",
+      "herkunft": "gr. paroxysmos = Anfall",
+      "eselsbruecke": "Paroxysmal = kommt und geht 'anfallsartig' (plötzlich)",
+      "eselsbruecke_fa": "پاروکسیسمال = «حمله‌ای» می‌آید و می‌رود (ناگهانی)",
+      "beispiel": "Die paroxysmale Tachykardie beginnt und endet schlagartig.",
+      "beispiel_fa": "تاکی‌کاردی حمله‌ای به‌طور ناگهانی آغاز و پایان می‌یابد.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-HRZ-032",
+      "kapitel": "Herz",
+      "seite": 38,
+      "lateinisch": "Palpitationen",
+      "deutsch": "Herzklopfen (spürbares/unangenehmes Herzschlagen)",
+      "deutsch_fa": "احساس کوبش قلب (تپش قلبِ محسوس/ناخوشایند)",
+      "wortart": "Substantiv (f, pl)",
+      "kategorie": "Symptom",
+      "herkunft": "lat. palpitare = zucken, klopfen",
+      "eselsbruecke": "Palpitationen = spürbares 'Klopfen' des Herzens",
+      "eselsbruecke_fa": "Palpitationen = «کوبش» محسوس قلب",
+      "beispiel": "Bei der paroxysmalen Tachykardie treten Palpitationen auf.",
+      "beispiel_fa": "در تاکی‌کاردی حمله‌ای، احساس کوبش قلب رخ می‌دهد.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-HRZ-033",
+      "kapitel": "Herz",
+      "seite": 38,
+      "lateinisch": "supraventrikulär",
+      "deutsch": "Oberhalb der Herzkammern gelegen (Vorhof/AV-Knoten)",
+      "deutsch_fa": "واقع در بالای بطن‌های قلب (دهلیز/گرهٔ AV)",
+      "wortart": "Adjektiv",
+      "kategorie": "Anatomie",
+      "herkunft": "lat. supra = über + ventriculus = Kammer",
+      "eselsbruecke": "Supra-Ventrikulär = ÜBER der Kammer (Vorhof)",
+      "eselsbruecke_fa": "Supra-Ventrikulär = بالای بطن (دهلیز)",
+      "beispiel": "Die supraventrikuläre Tachykardie entsteht oberhalb der Kammern.",
+      "beispiel_fa": "تاکی‌کاردی فوق‌بطنی در بالای بطن‌ها ایجاد می‌شود.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-HRZ-034",
+      "kapitel": "Herz",
+      "seite": 38,
+      "lateinisch": "ventrikulär",
+      "deutsch": "Die Herzkammer betreffend",
+      "deutsch_fa": "مربوط به بطن قلب",
+      "wortart": "Adjektiv",
+      "kategorie": "Anatomie",
+      "herkunft": "lat. ventriculus = Kammer",
+      "eselsbruecke": "Ventrikulär = von der Kammer (Ventrikel)",
+      "eselsbruecke_fa": "Ventrikulär = از بطن (Ventrikel)",
+      "beispiel": "Die ventrikuläre Tachykardie entsteht in den Kammern.",
+      "beispiel_fa": "تاکی‌کاردی بطنی در بطن‌ها ایجاد می‌شود.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-HRZ-035",
+      "kapitel": "Herz",
+      "seite": 38,
+      "lateinisch": "Reentry",
+      "deutsch": "Kreisende Erregung (Wiedereintritt der elektrischen Erregung)",
+      "deutsch_fa": "تحریک چرخشی (ورود مجدد تحریک الکتریکی)",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Kardiologie",
+      "herkunft": "engl. re-entry = Wiedereintritt",
+      "eselsbruecke": "Reentry = die Erregung 'kreist' immer wieder ein",
+      "eselsbruecke_fa": "Reentry = تحریک بارها و بارها «می‌چرخد»",
+      "beispiel": "Bei der AV-Knoten-Reentry-Tachykardie kreist die Erregung im AV-Knoten.",
+      "beispiel_fa": "در تاکی‌کاردی چرخشی گرهٔ AV، تحریک در گرهٔ AV می‌چرخد.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-HRZ-036",
+      "kapitel": "Herz",
+      "seite": 38,
+      "lateinisch": "Wolff-Parkinson-White-Syndrom",
+      "deutsch": "Herzrhythmusstörung durch zusätzliche Leitungsbahn (WPW-Syndrom)",
+      "deutsch_fa": "اختلال ریتم قلب به‌دلیل مسیر هدایتی اضافی (سندرم WPW)",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "nach den Ärzten Wolff, Parkinson und White",
+      "eselsbruecke": "WPW = eine 'Extra-Leitung' zwischen Vorhof und Kammer",
+      "eselsbruecke_fa": "WPW = یک «مسیر اضافی» بین دهلیز و بطن",
+      "beispiel": "Beim WPW-Syndrom besteht eine zusätzliche Leitungsbahn.",
+      "beispiel_fa": "در سندرم WPW یک مسیر هدایتی اضافی وجود دارد.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-HRZ-037",
+      "kapitel": "Herz",
+      "seite": 38,
+      "lateinisch": "Roemheld-Syndrom",
+      "deutsch": "Herzbeschwerden durch Gasansammlung im Magen-Darm-Trakt (Reflex über Zwerchfell)",
+      "deutsch_fa": "شکایات قلبی به‌دلیل تجمع گاز در دستگاه گوارش (رفلکس از طریق دیافراگم)",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "nach dem Arzt Ludwig von Roemheld",
+      "eselsbruecke": "Roemheld = 'Gas im Bauch' drückt aufs Herz → Herzstolpern",
+      "eselsbruecke_fa": "روِمهلد = «گاز در شکم» به قلب فشار می‌آورد ← تپش قلب",
+      "beispiel": "Das Roemheld-Syndrom kann Herzstolpern und Tachykardie auslösen.",
+      "beispiel_fa": "سندرم روِمهلد می‌تواند تپش قلب و تاکی‌کاردی ایجاد کند.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-HRZ-038",
+      "kapitel": "Herz",
+      "seite": 38,
+      "lateinisch": "Digitalisintoxikation",
+      "deutsch": "Vergiftung mit Digitalis (Herzglykosid)",
+      "deutsch_fa": "مسمومیت با دیژیتال (گلیکوزید قلبی)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Pharmakologie",
+      "herkunft": "lat. digitalis = Fingerhut + Intoxikation",
+      "eselsbruecke": "Digitalis-Intoxikation = Vergiftung mit dem Fingerhut-Wirkstoff",
+      "eselsbruecke_fa": "مسمومیت با دیژیتال = مسمومیت با مادهٔ مؤثر گیاه گل انگشتانه",
+      "beispiel": "Eine Digitalisintoxikation kann Herzrhythmusstörungen auslösen.",
+      "beispiel_fa": "مسمومیت با دیژیتال می‌تواند اختلالات ریتم قلب ایجاد کند.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-HRZ-039",
+      "kapitel": "Herz",
+      "seite": 38,
+      "lateinisch": "β-Sympathomimetika",
+      "deutsch": "Medikamente, die den Sympathikus nachahmen (z.B. Salbutamol)",
+      "deutsch_fa": "داروهایی که از سیستم سمپاتیک تقلید می‌کنند (مثلاً سالبوتامول)",
+      "wortart": "Substantiv (n, pl)",
+      "kategorie": "Medikament",
+      "herkunft": "gr. sympathikos + mimetikos = nachahmend",
+      "eselsbruecke": "Sympatho-mimetika = 'ahmen den Sympathikus nach' → Herz schneller",
+      "eselsbruecke_fa": "Sympatho-mimetika = «از سمپاتیک تقلید می‌کنند» ← قلب سریع‌تر",
+      "beispiel": "β-Sympathomimetika wie Salbutamol können eine Tachykardie auslösen.",
+      "beispiel_fa": "بتا-سمپاتومیمتیک‌ها مانند سالبوتامول می‌توانند تاکی‌کاردی ایجاد کنند.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-HRZ-040",
+      "kapitel": "Herz",
+      "seite": 38,
+      "lateinisch": "Cor pulmonale",
+      "deutsch": "Rechtsherzbelastung/-vergrößerung durch Lungenerkrankung",
+      "deutsch_fa": "فشار/بزرگ‌شدن قلب راست به‌دلیل بیماری ریه",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "lat. cor = Herz + pulmo = Lunge",
+      "eselsbruecke": "Cor pulmonale = 'Lungenherz' (Rechtsherz leidet unter der Lunge)",
+      "eselsbruecke_fa": "Cor pulmonale = «قلبِ ریوی» (قلب راست از ریه آسیب می‌بیند)",
+      "beispiel": "Ein Cor pulmonale kann Extrasystolen verursachen.",
+      "beispiel_fa": "کور پولمونال می‌تواند اکستراسیستول ایجاد کند.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-HRZ-041",
+      "kapitel": "Herz",
+      "seite": 39,
+      "lateinisch": "KHK (koronare Herzkrankheit)",
+      "deutsch": "Verminderte Sauerstoffversorgung des Herzens durch Koronarinsuffizienz",
+      "deutsch_fa": "کاهش اکسیژن‌رسانی به قلب به‌دلیل نارسایی عروق کرونر",
+      "wortart": "Abkürzung",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "lat. corona = Kranz (Herzkranzgefäße)",
+      "eselsbruecke": "KHK = Herzkranzgefäße verengt → Herz bekommt zu wenig Sauerstoff",
+      "eselsbruecke_fa": "KHK = عروق کرونر تنگ ← قلب اکسیژن کافی دریافت نمی‌کند",
+      "beispiel": "Die KHK ist eine der häufigsten Todesursachen in Industrieländern.",
+      "beispiel_fa": "KHK یکی از شایع‌ترین علل مرگ در کشورهای صنعتی است.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-HRZ-042",
+      "kapitel": "Herz",
+      "seite": 39,
+      "lateinisch": "Koronararterien",
+      "deutsch": "Herzkranzgefäße (versorgen den Herzmuskel mit Blut)",
+      "deutsch_fa": "عروق کرونر (عضلهٔ قلب را با خون تغذیه می‌کنند)",
+      "wortart": "Substantiv (f, pl)",
+      "kategorie": "Anatomie",
+      "herkunft": "lat. corona = Kranz + arteria = Schlagader",
+      "eselsbruecke": "Koronar-Arterien = 'Kranz'-Gefäße um das Herz",
+      "eselsbruecke_fa": "عروق کرونر = عروق «تاجی» دور قلب",
+      "beispiel": "Die Koronararterien versorgen den Herzmuskel mit Sauerstoff.",
+      "beispiel_fa": "عروق کرونر عضلهٔ قلب را با اکسیژن تغذیه می‌کنند.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-HRZ-043",
+      "kapitel": "Herz",
+      "seite": 39,
+      "lateinisch": "Koronarinsuffizienz",
+      "deutsch": "Ungenügende Durchblutung der Herzkranzgefäße",
+      "deutsch_fa": "خون‌رسانی ناکافی عروق کرونر",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Pathophysiologie",
+      "herkunft": "lat. corona + insufficientia = Unzulänglichkeit",
+      "eselsbruecke": "Koronar-Insuffizienz = Herzkranzgefäße 'reichen nicht aus'",
+      "eselsbruecke_fa": "نارسایی کرونر = عروق کرونر «کافی نیستند»",
+      "beispiel": "Die Koronarinsuffizienz führt zur Sauerstoffunterversorgung des Herzens.",
+      "beispiel_fa": "نارسایی کرونر به کمبود اکسیژن‌رسانی به قلب منجر می‌شود.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-HRZ-044",
+      "kapitel": "Herz",
+      "seite": 39,
+      "lateinisch": "Atherosklerose",
+      "deutsch": "Arterienverkalkung (Verhärtung/Verengung der Gefäße durch Plaques)",
+      "deutsch_fa": "تصلب شرایین (سفت/تنگ‌شدن عروق به‌دلیل پلاک‌ها)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "gr. athere = Brei + skleros = hart",
+      "eselsbruecke": "Athero-Sklerose = 'Brei' (Plaques) macht die Arterien hart",
+      "eselsbruecke_fa": "Athero-Sklerose = «خمیر» (پلاک) شریان‌ها را سفت می‌کند",
+      "beispiel": "Die Atherosklerose ist die Hauptursache der KHK (95%).",
+      "beispiel_fa": "آترواسکلروز علت اصلی KHK است (۹۵٪).",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-HRZ-045",
+      "kapitel": "Herz",
+      "seite": 39,
+      "lateinisch": "akutes Koronarsyndrom (ACS)",
+      "deutsch": "Oberbegriff für instabile Angina pectoris, NSTEMI und STEMI",
+      "deutsch_fa": "اصطلاح کلی برای آنژین صدری ناپایدار، NSTEMI و STEMI",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "lat. acutus = scharf + corona",
+      "eselsbruecke": "ACS = der 'akute Notfall' der KHK (Infarkt-Spektrum)",
+      "eselsbruecke_fa": "ACS = «اورژانس حاد» KHK (طیف سکته)",
+      "beispiel": "Das akute Koronarsyndrom umfasst instabile Angina, NSTEMI und STEMI.",
+      "beispiel_fa": "سندرم کرونری حاد شامل آنژین ناپایدار، NSTEMI و STEMI است.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-HRZ-046",
+      "kapitel": "Herz",
+      "seite": 39,
+      "lateinisch": "STEMI",
+      "deutsch": "ST-Streckenhebungsinfarkt (mit persistierender ST-Hebung im EKG)",
+      "deutsch_fa": "سکتهٔ قلبی با بالارفتن قطعهٔ ST (همراه با بالارفتن پایدار ST در نوار قلب)",
+      "wortart": "Abkürzung",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "engl. ST-Elevation Myocardial Infarction",
+      "eselsbruecke": "STEMI = ST steigt (Elevation) → schwerer Infarkt",
+      "eselsbruecke_fa": "STEMI = قطعهٔ ST بالا می‌رود (Elevation) ← سکتهٔ شدید",
+      "beispiel": "Beim STEMI ist die ST-Strecke im EKG dauerhaft gehoben.",
+      "beispiel_fa": "در STEMI، قطعهٔ ST در نوار قلب به‌طور پایدار بالا رفته است.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-HRZ-047",
+      "kapitel": "Herz",
+      "seite": 39,
+      "lateinisch": "NSTEMI",
+      "deutsch": "Nicht-ST-Streckenhebungsinfarkt (Troponin ↑, aber keine persistierende ST-Hebung)",
+      "deutsch_fa": "سکتهٔ قلبی بدون بالارفتن قطعهٔ ST (افزایش تروپونین، اما بدون بالارفتن پایدار ST)",
+      "wortart": "Abkürzung",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "engl. Non-ST-Elevation Myocardial Infarction",
+      "eselsbruecke": "N-STEMI = NICHT-ST-Hebung, aber Troponin trotzdem hoch",
+      "eselsbruecke_fa": "N-STEMI = بدون بالارفتن ST، اما تروپونین با این حال بالا",
+      "beispiel": "Beim NSTEMI ist Troponin erhöht, aber die ST-Strecke nicht persistierend gehoben.",
+      "beispiel_fa": "در NSTEMI، تروپونین افزایش‌یافته، اما قطعهٔ ST به‌طور پایدار بالا نرفته است.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-HRZ-048",
+      "kapitel": "Herz",
+      "seite": 39,
+      "lateinisch": "Troponin",
+      "deutsch": "Herzmuskelmarker (steigt bei Herzinfarkt an)",
+      "deutsch_fa": "نشانگر عضلهٔ قلب (در سکتهٔ قلبی افزایش می‌یابد)",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Laborwert",
+      "herkunft": "Kunstwort (Muskelprotein)",
+      "eselsbruecke": "Troponin ↑ = Herzmuskel geht kaputt (Infarkt)",
+      "eselsbruecke_fa": "افزایش تروپونین = عضلهٔ قلب آسیب می‌بیند (سکته)",
+      "beispiel": "Troponin steigt bei NSTEMI und STEMI an, nicht bei instabiler Angina.",
+      "beispiel_fa": "تروپونین در NSTEMI و STEMI افزایش می‌یابد، نه در آنژین ناپایدار.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-HRZ-049",
+      "kapitel": "Herz",
+      "seite": 39,
+      "lateinisch": "Hypercholesterinämie",
+      "deutsch": "Erhöhter Cholesterinspiegel (LDL zu hoch, HDL zu niedrig)",
+      "deutsch_fa": "افزایش سطح کلسترول (LDL بالا، HDL پایین)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Laborwert",
+      "herkunft": "gr. hyper = über + Cholesterin + haima = Blut",
+      "eselsbruecke": "Hyper-Cholesterin-ämie = ZU VIEL Cholesterin im Blut",
+      "eselsbruecke_fa": "Hyper-Cholesterin-ämie = کلسترول بیش از حد در خون",
+      "beispiel": "Die Hypercholesterinämie ist ein wichtiger Risikofaktor der KHK.",
+      "beispiel_fa": "هایپرکلسترولمی یک عامل خطر مهم KHK است.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-HRZ-050",
+      "kapitel": "Herz",
+      "seite": 39,
+      "lateinisch": "Prinzmetal-Angina",
+      "deutsch": "Angina pectoris durch Koronarspasmus (Gefäßkrampf)",
+      "deutsch_fa": "آنژین صدری به‌دلیل اسپاسم عروق کرونر (گرفتگی عروق)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "nach dem Kardiologen Myron Prinzmetal",
+      "eselsbruecke": "Prinzmetal = Angina durch 'Krampf' der Koronargefäße (Spasmus)",
+      "eselsbruecke_fa": "پرینزمتال = آنژین به‌دلیل «گرفتگی» عروق کرونر (اسپاسم)",
+      "beispiel": "Die Prinzmetal-Angina entsteht durch einen Koronarspasmus.",
+      "beispiel_fa": "آنژین پرینزمتال به‌دلیل اسپاسم عروق کرونر ایجاد می‌شود.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-HRZ-051",
+      "kapitel": "Herz",
+      "seite": 40,
+      "lateinisch": "Angina pectoris",
+      "deutsch": "Brustenge (anfallsartige Schmerzen durch Sauerstoffmangel des Herzens)",
+      "deutsch_fa": "تنگی قفسهٔ سینه (درد حمله‌ای به‌دلیل کمبود اکسیژن قلب)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "lat. angina = Enge + pectus = Brust",
+      "eselsbruecke": "Angina pectoris = 'Enge in der Brust' (Herz bekommt zu wenig O2)",
+      "eselsbruecke_fa": "آنژین صدری = «تنگی در قفسهٔ سینه» (قلب اکسیژن کافی دریافت نمی‌کند)",
+      "beispiel": "Die Angina pectoris äußert sich in retrosternalen Schmerzen.",
+      "beispiel_fa": "آنژین صدری به‌صورت درد پشت جناغ بروز می‌کند.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-HRZ-052",
+      "kapitel": "Herz",
+      "seite": 40,
+      "lateinisch": "Koronarsklerose",
+      "deutsch": "Arteriosklerose der Herzkranzgefäße",
+      "deutsch_fa": "تصلب شرایین عروق کرونر",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "lat. corona = Kranz + gr. skleros = hart",
+      "eselsbruecke": "Koronar-Sklerose = 'Verhärtung' der Herzkranzgefäße",
+      "eselsbruecke_fa": "تصلب کرونر = «سفت‌شدن» عروق کرونر",
+      "beispiel": "Die Koronarsklerose ist die Ursache der Angina pectoris.",
+      "beispiel_fa": "تصلب عروق کرونر علت آنژین صدری است.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-HRZ-053",
+      "kapitel": "Herz",
+      "seite": 40,
+      "lateinisch": "retrosternal",
+      "deutsch": "Hinter dem Brustbein gelegen",
+      "deutsch_fa": "واقع در پشت جناغ سینه",
+      "wortart": "Adjektiv",
+      "kategorie": "Anatomie",
+      "herkunft": "lat. retro = hinter + sternum = Brustbein",
+      "eselsbruecke": "Retro-Sternal = HINTER dem Brustbein (Sternum)",
+      "eselsbruecke_fa": "Retro-Sternal = پشت جناغ سینه (Sternum)",
+      "beispiel": "Der Angina-pectoris-Schmerz ist typisch retrosternal.",
+      "beispiel_fa": "درد آنژین صدری به‌طور معمول پشت جناغ است.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-HRZ-054",
+      "kapitel": "Herz",
+      "seite": 40,
+      "lateinisch": "instabile Angina pectoris",
+      "deutsch": "Jede erstmalige/zunehmende/Ruhe-AP (Notfall, Infarktgefahr)",
+      "deutsch_fa": "هر آنژین صدری اولین‌بار/فزاینده/در استراحت (اورژانس، خطر سکته)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "lat. instabilis = nicht standfest",
+      "eselsbruecke": "Instabil = 'unberechenbar' → Notfall mit Herzinfarktgefahr",
+      "eselsbruecke_fa": "ناپایدار = «غیرقابل‌پیش‌بینی» ← اورژانس با خطر سکتهٔ قلبی",
+      "beispiel": "Die instabile Angina pectoris ist ein Notfall.",
+      "beispiel_fa": "آنژین صدری ناپایدار یک اورژانس است.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-HRZ-055",
+      "kapitel": "Herz",
+      "seite": 40,
+      "lateinisch": "Nitrospray/Nitropräparate",
+      "deutsch": "Gefäßerweiterndes Notfallmedikament bei Angina pectoris",
+      "deutsch_fa": "داروی اورژانسی گشادکنندهٔ عروق در آنژین صدری",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Medikament",
+      "herkunft": "Nitroglycerin",
+      "eselsbruecke": "Nitro = erweitert die Gefäße → Herz bekommt mehr Sauerstoff",
+      "eselsbruecke_fa": "نیترات = عروق را گشاد می‌کند ← قلب اکسیژن بیشتری دریافت می‌کند",
+      "beispiel": "Nitrospray wird nur bei systolischem Blutdruck über 100 mmHg gegeben.",
+      "beispiel_fa": "نیترات‌اسپری فقط در فشار خون سیستولیک بالای ۱۰۰ mmHg تجویز می‌شود.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-HRZ-056",
+      "kapitel": "Herz",
+      "seite": 40,
+      "lateinisch": "Vernichtungsgefühl",
+      "deutsch": "Extremes Angst-/Bedrohungsgefühl (typisch bei Herzinfarkt/AP)",
+      "deutsch_fa": "احساس شدید ترس/تهدید (معمول در سکتهٔ قلبی/آنژین صدری)",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Symptom",
+      "herkunft": "dt. Vernichtung + Gefühl",
+      "eselsbruecke": "Vernichtungsgefühl = 'Todesangst' beim Herzanfall",
+      "eselsbruecke_fa": "احساس نابودی = «ترس از مرگ» هنگام حملهٔ قلبی",
+      "beispiel": "Ein Vernichtungsgefühl mit Todesangst ist typisch für die Angina pectoris.",
+      "beispiel_fa": "احساس نابودی همراه با ترس از مرگ برای آنژین صدری معمول است.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-HRZ-057",
+      "kapitel": "Herz",
+      "seite": 40,
+      "lateinisch": "Koronarangiografie",
+      "deutsch": "Röntgendarstellung der Herzkranzgefäße (Herzkatheter)",
+      "deutsch_fa": "تصویربرداری رادیولوژیک عروق کرونر (کاتتر قلب)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Diagnostik",
+      "herkunft": "lat. corona + gr. angeion = Gefäß + graphein = schreiben",
+      "eselsbruecke": "Koronar-Angiografie = 'Bild' der Herzkranzgefäße per Katheter",
+      "eselsbruecke_fa": "آنژیوگرافی کرونر = «تصویر» عروق کرونر با کاتتر",
+      "beispiel": "Mit der Koronarangiografie werden Gefäßverengungen dargestellt.",
+      "beispiel_fa": "با آنژیوگرافی کرونر، تنگی‌های عروق نشان داده می‌شوند.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-HRZ-058",
+      "kapitel": "Herz",
+      "seite": 40,
+      "lateinisch": "Myokardszintigrafie",
+      "deutsch": "Nuklearmedizinische Darstellung der Herzmuskeldurchblutung",
+      "deutsch_fa": "تصویربرداری پزشکی هسته‌ای خون‌رسانی عضلهٔ قلب",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Diagnostik",
+      "herkunft": "gr. mys = Muskel + kardia + lat. scintilla = Funke",
+      "eselsbruecke": "Myokard-Szintigrafie = zeigt, wo der Herzmuskel schlecht durchblutet ist",
+      "eselsbruecke_fa": "اسکن میوکارد = نشان می‌دهد کجای عضلهٔ قلب خون‌رسانی ضعیفی دارد",
+      "beispiel": "Die Myokardszintigrafie zeigt Durchblutungsstörungen des Herzmuskels.",
+      "beispiel_fa": "اسکن میوکارد اختلالات خون‌رسانی عضلهٔ قلب را نشان می‌دهد.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-HRZ-059",
+      "kapitel": "Herz",
+      "seite": 40,
+      "lateinisch": "Pulsoxymetrie",
+      "deutsch": "Messung der Sauerstoffsättigung im Blut (über die Haut)",
+      "deutsch_fa": "اندازه‌گیری اشباع اکسیژن خون (از طریق پوست)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Diagnostik",
+      "herkunft": "lat. pulsus + oxygenium + gr. metron = Maß",
+      "eselsbruecke": "Puls-Oxy-metrie = misst den 'Sauerstoff' am Finger (Clip)",
+      "eselsbruecke_fa": "پالس-اکسی-متری = «اکسیژن» را روی انگشت اندازه می‌گیرد (گیره)",
+      "beispiel": "Die Pulsoxymetrie misst die Sauerstoffsättigung am Finger.",
+      "beispiel_fa": "پالس‌اکسیمتری اشباع اکسیژن را روی انگشت اندازه می‌گیرد.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-HRZ-060",
+      "kapitel": "Herz",
+      "seite": 40,
+      "lateinisch": "sublingual",
+      "deutsch": "Unter die Zunge (Applikationsform, z.B. Nitrospray)",
+      "deutsch_fa": "زیر زبان (شکل تجویز، مثلاً نیترات‌اسپری)",
+      "wortart": "Adjektiv",
+      "kategorie": "Pharmakologie",
+      "herkunft": "lat. sub = unter + lingua = Zunge",
+      "eselsbruecke": "Sub-Lingual = UNTER die Zunge (schnelle Aufnahme)",
+      "eselsbruecke_fa": "Sub-Lingual = زیرِ زبان (جذب سریع)",
+      "beispiel": "Nitrospray wird sublingual (unter die Zunge) gegeben.",
+      "beispiel_fa": "نیترات‌اسپری به‌صورت زیرزبانی تجویز می‌شود.",
+      "schwierigkeit": "mittel"
     }
   ]
 }
