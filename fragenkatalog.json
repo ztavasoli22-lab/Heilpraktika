@@ -1,7 +1,7 @@
 {
-  "version": "9.6",
-  "erstellt_am": "2026-08-14",
-  "beschreibung": "Fragenkatalog + Vokabeltrainer Heilpraktikerprüfung - Stoffwechsel (S.3-34) + Herz (S.35-40). Zweisprachig Deutsch/Persisch (فارسی).",
+  "version": "10.1",
+  "erstellt_am": "2026-08-21",
+  "beschreibung": "Fragenkatalog + Vokabeltrainer Heilpraktikerprüfung - Stoffwechsel (S.3-34) + Herz (S.35-45). Zweisprachig Deutsch/Persisch (فارسی).",
   "fragenkatalog": [
     {
       "id": "STW-003-01",
@@ -17392,6 +17392,1945 @@
         "Fallbeispiel"
       ],
       "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-041-01",
+      "kapitel": "Herz",
+      "thema": "Herzinfarkt - Definition",
+      "seite": 41,
+      "typ": "single_choice",
+      "frage": "Was ist ein Herzinfarkt (Myokardinfarkt)?",
+      "frage_fa": "سکتهٔ قلبی (انفارکتوس میوکارد) چیست؟",
+      "optionen": [
+        "Eine vorübergehende Minderdurchblutung ohne Schaden",
+        "Eine irreversible Herzmuskelnekrose infolge akuten Verschlusses einer Herzkranzarterie - dadurch stirbt das von dieser Koronararterie nicht mehr versorgte Herzmuskelgewebe ab",
+        "Eine Herzklappenentzündung",
+        "Eine Herzrhythmusstörung ohne Gewebeschaden",
+        "Ein zu langsamer Herzschlag"
+      ],
+      "optionen_fa": [
+        "کاهش موقت خون‌رسانی بدون آسیب",
+        "نکروز برگشت‌ناپذیر عضلهٔ قلب در پی انسداد حاد یک شریان کرونر — در نتیجه بافت عضلهٔ قلب که دیگر توسط این شریان کرونر تغذیه نمی‌شود، از بین می‌رود",
+        "التهاب دریچهٔ قلب",
+        "اختلال ریتم قلب بدون آسیب بافتی",
+        "ضربان قلب بسیار کند"
+      ],
+      "richtig": 1,
+      "erklaerung": "Herzinfarkt (Myokardinfarkt) = irreversible Herzmuskelnekrose infolge akuten Verschlusses einer Herzkranzarterie. Dadurch stirbt das von dieser Koronararterie nicht mehr versorgte Herzmuskelgewebe ab. Im Gegensatz zur Angina pectoris (reversibel, keine Nekrose) entsteht hier ein bleibender Schaden.",
+      "erklaerung_fa": "سکتهٔ قلبی (انفارکتوس میوکارد) = نکروز برگشت‌ناپذیر عضلهٔ قلب در پی انسداد حاد یک شریان کرونر. در نتیجه بافت عضلهٔ قلب که دیگر توسط این شریان کرونر تغذیه نمی‌شود، از بین می‌رود. برخلاف آنژین صدری (برگشت‌پذیر، بدون نکروز)، اینجا آسیب ماندگار ایجاد می‌شود.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Herz",
+        "Herzinfarkt",
+        "Definition"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-041-02",
+      "kapitel": "Herz",
+      "thema": "Herzinfarkt - Ätiologie",
+      "seite": 41,
+      "typ": "multiple_choice",
+      "frage": "Welche Ursachen hat der Herzinfarkt?",
+      "frage_fa": "سکتهٔ قلبی چه علل‌هایی دارد؟",
+      "optionen": [
+        "Koronarsklerose mit thrombotischem Gefäßverschluss durch arteriosklerotische Plaque-Ruptur",
+        "Arterieller Embolus aus dem linken Herz",
+        "Evtl. durch länger dauernden Gefäßspasmus bei einer Prinzmetal-Angina",
+        "Eine Schilddrüsenüberfunktion",
+        "Ein Kaliummangel"
+      ],
+      "optionen_fa": [
+        "تصلب عروق کرونر همراه با انسداد ترومبوتیک عروق به‌دلیل پارگی پلاک آترواسکلروتیک",
+        "آمبولی شریانی از قلب چپ",
+        "احتمالاً به‌دلیل اسپاسم طولانی‌مدت عروق در آنژین پرینزمتال",
+        "پرکاری تیروئید",
+        "کمبود پتاسیم"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Herzinfarkt-Ätiologie: Koronarsklerose mit thrombotischem Gefäßverschluss durch arteriosklerotische Plaque-Ruptur (häufigste Ursache!), arterieller Embolus aus dem linken Herz, evtl. durch länger dauernden Gefäßspasmus bei einer Prinzmetal-Angina. Risikofaktoren: Rauchen, arterielle Hypertonie, Fettstoffwechselstörungen, Diabetes mellitus, Bewegungsmangel.",
+      "erklaerung_fa": "علت‌شناسی سکتهٔ قلبی: تصلب عروق کرونر همراه با انسداد ترومبوتیک عروق به‌دلیل پارگی پلاک آترواسکلروتیک (شایع‌ترین علت!)، آمبولی شریانی از قلب چپ، احتمالاً به‌دلیل اسپاسم طولانی‌مدت عروق در آنژین پرینزمتال. عوامل خطر: سیگار، فشار خون شریانی، اختلالات چربی خون، دیابت شیرین، کم‌تحرکی.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Herz",
+        "Herzinfarkt",
+        "Ätiologie"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-041-03",
+      "kapitel": "Herz",
+      "thema": "Herzinfarkt - Risikofaktoren",
+      "seite": 41,
+      "typ": "multiple_choice",
+      "frage": "Welche Risikofaktoren begünstigen den Herzinfarkt?",
+      "frage_fa": "کدام عوامل خطر، سکتهٔ قلبی را تسهیل می‌کنند؟",
+      "optionen": [
+        "Rauchen",
+        "Arterielle Hypertonie",
+        "Fettstoffwechselstörungen",
+        "Diabetes mellitus",
+        "Bewegungsmangel",
+        "Niedriger Blutdruck"
+      ],
+      "optionen_fa": [
+        "سیگار کشیدن",
+        "فشار خون شریانی",
+        "اختلالات چربی خون",
+        "دیابت شیرین",
+        "کم‌تحرکی",
+        "فشار خون پایین"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "erklaerung": "Herzinfarkt-Risikofaktoren: Rauchen, arterielle Hypertonie, Fettstoffwechselstörungen (Hypercholesterinämie), Diabetes mellitus, Bewegungsmangel. Dies sind dieselben Risikofaktoren wie bei der KHK/Atherosklerose. Niedriger Blutdruck ist KEIN Risikofaktor.",
+      "erklaerung_fa": "عوامل خطر سکتهٔ قلبی: سیگار، فشار خون شریانی، اختلالات چربی خون (هایپرکلسترولمی)، دیابت شیرین، کم‌تحرکی. این‌ها همان عوامل خطر KHK/آترواسکلروز هستند. فشار خون پایین عامل خطر نیست.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Herz",
+        "Herzinfarkt",
+        "Risikofaktoren"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-041-04",
+      "kapitel": "Herz",
+      "thema": "Herzinfarkt - stumme Infarkte",
+      "seite": 41,
+      "typ": "richtig_falsch",
+      "frage": "Herzinfarkte können auch stumm (ohne typische Schmerzen) verlaufen, z.B. bei Diabetes mellitus oder bei älteren Menschen.",
+      "frage_fa": "سکته‌های قلبی می‌توانند به‌صورت خاموش (بدون درد معمول) نیز رخ دهند، مثلاً در دیابت شیرین یا در افراد مسن.",
+      "richtig": true,
+      "erklaerung": "RICHTIG - CAVE: Herzinfarkte können auch stumm verlaufen, z.B. bei Diabetes mellitus (durch die diabetische Neuropathie ist das Schmerzempfinden gestört) oder bei älteren Menschen. Deshalb werden solche Infarkte oft übersehen!",
+      "erklaerung_fa": "درست است — احتیاط: سکته‌های قلبی می‌توانند به‌صورت خاموش رخ دهند، مثلاً در دیابت شیرین (به‌دلیل نوروپاتی دیابتی، حس درد مختل است) یا در افراد مسن. به همین دلیل چنین سکته‌هایی اغلب نادیده گرفته می‌شوند!",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Herz",
+        "Herzinfarkt",
+        "stumm"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-041-05",
+      "kapitel": "Herz",
+      "thema": "Herzinfarkt - Klinik bei Frauen",
+      "seite": 41,
+      "typ": "multiple_choice",
+      "frage": "Wie äußert sich der Herzinfarkt bei Frauen und bei Hinterwandinfarkten?",
+      "frage_fa": "سکتهٔ قلبی در زنان و در سکته‌های دیوارهٔ خلفی چگونه بروز می‌کند؟",
+      "optionen": [
+        "Bei Frauen oft unspezifisch (Müdigkeit, Kurzatmigkeit, Oberbauchbeschwerden)",
+        "Hinterwandinfarkte haben ebenfalls häufig atypische Beschwerden (Übelkeit, Erbrechen, epigastrisches Druckgefühl)",
+        "Immer nur klassische retrosternale Schmerzen",
+        "Bei Frauen niemals Beschwerden",
+        "Hinterwandinfarkte sind immer schmerzlos"
+      ],
+      "optionen_fa": [
+        "در زنان اغلب غیراختصاصی (خستگی، تنگی نفس، شکایات بالای شکم)",
+        "سکته‌های دیوارهٔ خلفی نیز اغلب شکایات غیرمعمول دارند (تهوع، استفراغ، احساس فشار در ناحیهٔ اپی‌گاستر)",
+        "همیشه فقط درد معمول پشت جناغ",
+        "در زنان هرگز شکایتی وجود ندارد",
+        "سکته‌های دیوارهٔ خلفی همیشه بدون درد هستند"
+      ],
+      "richtig": [
+        0,
+        1
+      ],
+      "erklaerung": "Bei Frauen bestehen oft nur unspezifische Symptome wie Müdigkeit, Kurzatmigkeit und Oberbauchbeschwerden. Hinterwandinfarkte haben ebenfalls häufig atypische Beschwerden (Übelkeit, Erbrechen, epigastrisches Druckgefühl) und werden daher oft fehlgedeutet.",
+      "erklaerung_fa": "در زنان اغلب فقط علائم غیراختصاصی مانند خستگی، تنگی نفس و شکایات بالای شکم وجود دارد. سکته‌های دیوارهٔ خلفی نیز اغلب شکایات غیرمعمول دارند (تهوع، استفراغ، احساس فشار در ناحیهٔ اپی‌گاستر) و به همین دلیل اغلب اشتباه تفسیر می‌شوند.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Herz",
+        "Herzinfarkt",
+        "Frauen"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-041-06",
+      "kapitel": "Herz",
+      "thema": "Herzinfarkt - Leitsymptome",
+      "seite": 41,
+      "typ": "multiple_choice",
+      "frage": "Welche typischen Symptome zeigt der Herzinfarkt?",
+      "frage_fa": "سکتهٔ قلبی چه علائم معمولی نشان می‌دهد؟",
+      "optionen": [
+        "Retrosternale Schmerzen mit gürtelartigem Engegefühl über 20 Minuten",
+        "Schmerzausstrahlung typischerweise in die linke Schulter und den linken Arm (Kleinfingerseite); auch in Kiefer, Oberbauch, rechten Arm oder Rücken möglich",
+        "Vernichtungsgefühl mit Todesangst, Kaltschweißigkeit, Übelkeit und Erbrechen",
+        "Dyspnoe, Blässe (im weiteren Verlauf auch Zyanose)",
+        "Herzrhythmusstörungen (Kammerflattern, Kammerflimmern)",
+        "Beschwerden verschwinden nach 2 Minuten Ruhe komplett"
+      ],
+      "optionen_fa": [
+        "درد پشت جناغ همراه با احساس تنگی کمربندمانند بیش از ۲۰ دقیقه",
+        "انتشار درد به‌طور معمول به شانه و بازوی چپ (سمت انگشت کوچک)؛ همچنین احتمال انتشار به فک، بالای شکم، بازوی راست یا پشت",
+        "احساس نابودی همراه با ترس از مرگ، عرق سرد، تهوع و استفراغ",
+        "تنگی نفس، رنگ‌پریدگی (در سیر بعدی سیانوز نیز)",
+        "اختلالات ریتم قلب (فلاتر بطنی، فیبریلاسیون بطنی)",
+        "شکایات پس از ۲ دقیقه استراحت به‌طور کامل ناپدید می‌شوند"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "erklaerung": "Herzinfarkt-Leitsymptome: retrosternale Schmerzen mit gürtelartigem Engegefühl über 20 Minuten, Schmerzausstrahlung (typisch linke Schulter/linker Arm/Kleinfingerseite, auch Kiefer/Oberbauch/rechter Arm/Rücken), Vernichtungsgefühl mit Todesangst/Kaltschweißigkeit/Übelkeit/Erbrechen, Dyspnoe/Blässe (später Zyanose), Herzrhythmusstörungen (Kammerflattern/-flimmern), Zeichen einer Linksherzinsuffizienz, oft Blutdruckabfall (aber auch normal/hoch möglich!). Anders als bei der Angina pectoris verschwinden die Beschwerden NICHT durch Ruhe/Nitro.",
+      "erklaerung_fa": "علائم اصلی سکتهٔ قلبی: درد پشت جناغ همراه با احساس تنگی کمربندمانند بیش از ۲۰ دقیقه، انتشار درد (معمولاً شانه/بازوی چپ/سمت انگشت کوچک، همچنین فک/بالای شکم/بازوی راست/پشت)، احساس نابودی همراه با ترس از مرگ/عرق سرد/تهوع/استفراغ، تنگی نفس/رنگ‌پریدگی (بعداً سیانوز)، اختلالات ریتم قلب (فلاتر/فیبریلاسیون بطنی)، نشانه‌های نارسایی قلب چپ، اغلب افت فشار خون (اما ممکن است طبیعی/بالا نیز باشد!). برخلاف آنژین صدری، شکایات با استراحت/نیترات ناپدید نمی‌شوند.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Herz",
+        "Herzinfarkt",
+        "Klinik"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-041-07",
+      "kapitel": "Herz",
+      "thema": "Herzinfarkt - Blutdruck",
+      "seite": 41,
+      "typ": "single_choice",
+      "frage": "Wie verhält sich der Blutdruck beim Herzinfarkt?",
+      "frage_fa": "فشار خون در سکتهٔ قلبی چگونه است؟",
+      "optionen": [
+        "Der Blutdruck ist immer stark erhöht",
+        "Oft Blutdruckabfall, aber der Blutdruck kann auch zu hoch oder normal sein - der Puls kann normal, tachykard oder bradykard sein",
+        "Der Blutdruck ist immer normal",
+        "Der Blutdruck ist immer sehr niedrig",
+        "Der Blutdruck spielt keine Rolle"
+      ],
+      "optionen_fa": [
+        "فشار خون همیشه به‌شدت افزایش‌یافته است",
+        "اغلب افت فشار خون، اما فشار خون می‌تواند بالا یا طبیعی نیز باشد — نبض می‌تواند طبیعی، تاکی‌کارد یا برادی‌کارد باشد",
+        "فشار خون همیشه طبیعی است",
+        "فشار خون همیشه بسیار پایین است",
+        "فشار خون اهمیتی ندارد"
+      ],
+      "richtig": 1,
+      "erklaerung": "Beim Herzinfarkt kommt es oft zum Blutdruckabfall, aber der Blutdruck kann auch zu hoch oder normal sein. Auch der Puls kann normal, tachykard oder bradykard sein. Der Blutdruck ist also KEIN sicheres Zeichen - das macht die Diagnose so schwierig!",
+      "erklaerung_fa": "در سکتهٔ قلبی اغلب افت فشار خون رخ می‌دهد، اما فشار خون می‌تواند بالا یا طبیعی نیز باشد. نبض نیز می‌تواند طبیعی، تاکی‌کارد یا برادی‌کارد باشد. بنابراین فشار خون نشانهٔ مطمئنی نیست — این تشخیص را دشوار می‌کند!",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Herz",
+        "Herzinfarkt",
+        "Blutdruck"
+      ],
+      "pruefungsrelevanz": "mittel"
+    },
+    {
+      "id": "HRZ-041-08",
+      "kapitel": "Herz",
+      "thema": "Herzinfarkt - Auftreten/Todesursache",
+      "seite": 41,
+      "typ": "multiple_choice",
+      "frage": "Was ist über das Auftreten und die Gefährlichkeit des Herzinfarkts bekannt?",
+      "frage_fa": "دربارهٔ زمان بروز و خطرناکی سکتهٔ قلبی چه می‌دانیم؟",
+      "optionen": [
+        "Herzinfarkte treten häufig in den Morgenstunden oder bei psychisch belastenden Situationen auf",
+        "Kammerflimmern ist die häufigste Pumpversagen die zweithäufigste Todesursache nach einem Herzinfarkt",
+        "Herzinfarkte treten nur nachts auf",
+        "Herzinfarkte sind immer harmlos",
+        "Kammerflimmern spielt keine Rolle"
+      ],
+      "optionen_fa": [
+        "سکته‌های قلبی اغلب در ساعات صبح یا در موقعیت‌های پرفشار روانی رخ می‌دهند",
+        "فیبریلاسیون بطنی شایع‌ترین و نارسایی پمپاژ دومین علت شایع مرگ پس از سکتهٔ قلبی است",
+        "سکته‌های قلبی فقط در شب رخ می‌دهند",
+        "سکته‌های قلبی همیشه بی‌خطرند",
+        "فیبریلاسیون بطنی اهمیتی ندارد"
+      ],
+      "richtig": [
+        0,
+        1
+      ],
+      "erklaerung": "Herzinfarkte treten häufig in den Morgenstunden oder bei psychisch belastenden Situationen auf. Kammerflimmern ist die häufigste, Pumpversagen die zweithäufigste Todesursache nach einem Herzinfarkt.",
+      "erklaerung_fa": "سکته‌های قلبی اغلب در ساعات صبح یا در موقعیت‌های پرفشار روانی رخ می‌دهند. فیبریلاسیون بطنی شایع‌ترین و نارسایی پمپاژ دومین علت شایع مرگ پس از سکتهٔ قلبی است.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Herz",
+        "Herzinfarkt",
+        "Todesursache"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-041-09",
+      "kapitel": "Herz",
+      "thema": "AP vs. Herzinfarkt - Abgrenzung",
+      "seite": 41,
+      "typ": "single_choice",
+      "frage": "Warum ist die Unterscheidung zwischen Angina pectoris und Herzinfarkt oft schwierig?",
+      "frage_fa": "چرا تمایز بین آنژین صدری و سکتهٔ قلبی اغلب دشوار است؟",
+      "optionen": [
+        "Weil sie völlig unterschiedliche Symptome haben",
+        "Weil Schmerzen, Ausstrahlung und Symptome sehr ähnlich sind - ohne Nachweis von Herzenzymen und EKG ist KEINE sichere Diagnose möglich. Im Zweifel immer von einem Herzinfarkt ausgehen und den Notruf tätigen!",
+        "Weil die Angina pectoris immer schlimmer ist",
+        "Weil der Herzinfarkt keine Schmerzen macht",
+        "Die Unterscheidung ist immer einfach"
+      ],
+      "optionen_fa": [
+        "زیرا علائم کاملاً متفاوتی دارند",
+        "زیرا درد، انتشار و علائم بسیار مشابه هستند — بدون اثبات آنزیم‌های قلبی و نوار قلب، تشخیص مطمئنی ممکن نیست. در صورت شک همیشه سکتهٔ قلبی را فرض کنید و با اورژانس تماس بگیرید!",
+        "زیرا آنژین صدری همیشه بدتر است",
+        "زیرا سکتهٔ قلبی درد ایجاد نمی‌کند",
+        "تمایز همیشه آسان است"
+      ],
+      "richtig": 1,
+      "erklaerung": "CAVE: Wichtig ist, die Angina pectoris vom Herzinfarkt zu unterscheiden, da die Schmerzen, Ausstrahlung und die Symptome sehr ähnlich sind! Ohne Nachweis von Herzenzymen (Troponin) und EKG ist KEINE sichere Diagnose möglich. Im Zweifel immer von einem Herzinfarkt ausgehen und den Notruf tätigen!!!",
+      "erklaerung_fa": "احتیاط: مهم است که آنژین صدری را از سکتهٔ قلبی تشخیص دهیم، زیرا درد، انتشار و علائم بسیار مشابه هستند! بدون اثبات آنزیم‌های قلبی (تروپونین) و نوار قلب، تشخیص مطمئنی ممکن نیست. در صورت شک همیشه سکتهٔ قلبی را فرض کنید و با اورژانس تماس بگیرید!!!",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Herz",
+        "Herzinfarkt",
+        "Abgrenzung"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-041-F1",
+      "kapitel": "Herz",
+      "thema": "Herzinfarkt - Fallbeispiel",
+      "seite": 41,
+      "typ": "fallbeispiel",
+      "fallbeschreibung": "Eine 58-jährige Diabetikerin klagt seit 40 Minuten über Übelkeit, Erbrechen, Kurzatmigkeit und ein Druckgefühl im Oberbauch. Sie ist blass und kaltschweißig. Klassische Brustschmerzen fehlen. Der Ehemann möchte abwarten, ob es von selbst besser wird.",
+      "fallbeschreibung_fa": "یک بیمار زن ۵۸ سالهٔ دیابتی از ۴۰ دقیقه پیش از تهوع، استفراغ، تنگی نفس و احساس فشار در بالای شکم شکایت دارد. رنگ‌پریده و دچار عرق سرد است. درد معمول قفسهٔ سینه وجود ندارد. همسرش می‌خواهد صبر کند تا ببیند آیا خودبه‌خود بهتر می‌شود.",
+      "frage": "Wie ist die Situation einzuschätzen?",
+      "frage_fa": "این وضعیت چگونه باید ارزیابی شود؟",
+      "optionen": [
+        "Harmlose Magenverstimmung - abwarten",
+        "Verdacht auf (stummen/atypischen) Herzinfarkt - bei Diabetikern und Frauen oft atypisch! Im Zweifel immer Notruf tätigen!",
+        "Nur eine Angina pectoris - Nitro geben und warten",
+        "Ein Roemheld-Syndrom - nichts tun",
+        "Eine Lebensmittelvergiftung"
+      ],
+      "optionen_fa": [
+        "ناراحتی بی‌خطر معده — انتظار",
+        "شک به سکتهٔ قلبی (خاموش/غیرمعمول) — در دیابتی‌ها و زنان اغلب غیرمعمول! در صورت شک همیشه با اورژانس تماس بگیرید!",
+        "فقط یک آنژین صدری — نیترات بدهید و صبر کنید",
+        "سندرم روِمهلد — کاری نکنید",
+        "مسمومیت غذایی"
+      ],
+      "richtig": 1,
+      "erklaerung": "Verdacht auf einen atypischen/stummen Herzinfarkt! Bei Diabetikern (diabetische Neuropathie) und Frauen verläuft der Infarkt oft atypisch: statt der klassischen Brustschmerzen bestehen unspezifische Symptome wie Übelkeit, Erbrechen, Kurzatmigkeit, Oberbauchdruck, Blässe und Kaltschweißigkeit. CAVE: Im Zweifel immer von einem Herzinfarkt ausgehen und sofort den Notruf tätigen - keinesfalls abwarten!",
+      "erklaerung_fa": "شک به سکتهٔ قلبی غیرمعمول/خاموش! در دیابتی‌ها (نوروپاتی دیابتی) و زنان، سکته اغلب غیرمعمول است: به‌جای درد معمول قفسهٔ سینه، علائم غیراختصاصی مانند تهوع، استفراغ، تنگی نفس، فشار بالای شکم، رنگ‌پریدگی و عرق سرد وجود دارد. احتیاط: در صورت شک همیشه سکتهٔ قلبی را فرض کنید و فوراً با اورژانس تماس بگیرید — به‌هیچ‌وجه صبر نکنید!",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Herz",
+        "Herzinfarkt",
+        "Fallbeispiel"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-042-01",
+      "kapitel": "Herz",
+      "thema": "Herzinfarkt - gefährlichster Zeitraum",
+      "seite": 42,
+      "typ": "single_choice",
+      "frage": "Wann ist der gefährlichste Zeitraum nach einem Herzinfarkt?",
+      "frage_fa": "خطرناک‌ترین بازهٔ زمانی پس از سکتهٔ قلبی چه زمانی است؟",
+      "optionen": [
+        "Innerhalb der ersten Stunde",
+        "Innerhalb der ersten 48 Stunden",
+        "Erst nach einer Woche",
+        "Erst nach einem Monat",
+        "Es gibt keinen gefährlichen Zeitraum"
+      ],
+      "optionen_fa": [
+        "در طول اولین ساعت",
+        "در طول ۴۸ ساعت اول",
+        "فقط پس از یک هفته",
+        "فقط پس از یک ماه",
+        "بازهٔ خطرناکی وجود ندارد"
+      ],
+      "richtig": 1,
+      "erklaerung": "Der gefährlichste Zeitraum nach einem Herzinfarkt ist innerhalb der ersten 48 Stunden. In dieser Zeit treten die meisten lebensbedrohlichen Komplikationen (v.a. Herzrhythmusstörungen wie Kammerflimmern) auf.",
+      "erklaerung_fa": "خطرناک‌ترین بازهٔ زمانی پس از سکتهٔ قلبی، در طول ۴۸ ساعت اول است. در این مدت، بیشتر عوارض تهدیدکنندهٔ حیات (به‌ویژه اختلالات ریتم قلب مانند فیبریلاسیون بطنی) رخ می‌دهند.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Herz",
+        "Herzinfarkt",
+        "Komplikationen"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-042-02",
+      "kapitel": "Herz",
+      "thema": "Herzinfarkt - Komplikationen",
+      "seite": 42,
+      "typ": "multiple_choice",
+      "frage": "Welche Komplikationen können nach einem Herzinfarkt auftreten?",
+      "frage_fa": "چه عوارضی می‌توانند پس از سکتهٔ قلبی رخ دهند؟",
+      "optionen": [
+        "Herzrhythmusstörungen: AV-Block, Kammerflimmern (häufigste Todesursache bei Herzinfarkt)",
+        "Herztod, kardiogener Schock",
+        "Herzinsuffizienz (v.a. Linksherzinsuffizienz)",
+        "Herzwandaneurysma und -ruptur, Septumschäden, Klappenfehler, Papillarmuskelabriss",
+        "Perikarditis, kardiogene Thrombenbildung mit arterieller Embolie (z.B. Schlaganfall)",
+        "Resorptionsfieber (beginnt ca. 2 Tage nach Herzinfarkt)"
+      ],
+      "optionen_fa": [
+        "اختلالات ریتم قلب: بلوک AV، فیبریلاسیون بطنی (شایع‌ترین علت مرگ در سکتهٔ قلبی)",
+        "مرگ قلبی، شوک کاردیوژنیک",
+        "نارسایی قلبی (به‌ویژه نارسایی قلب چپ)",
+        "آنوریسم و پارگی دیوارهٔ قلب، آسیب سپتوم، نقص دریچه، پارگی عضلهٔ پاپیلاری",
+        "پریکاردیت، تشکیل ترومبوز قلبی همراه با آمبولی شریانی (مثلاً سکتهٔ مغزی)",
+        "تب جذبی (حدود ۲ روز پس از سکتهٔ قلبی آغاز می‌شود)"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "erklaerung": "Herzinfarkt-Komplikationen (gefährlichster Zeitraum: 48 Stunden): Herzrhythmusstörungen (AV-Block, Kammerflimmern = häufigste Todesursache!), Herztod/kardiogener Schock, Herzinsuffizienz (v.a. Linksherzinsuffizienz), Herzwandaneurysma und -ruptur/Septumschäden/Klappenfehler/Papillarmuskelabriss, Perikarditis, kardiogene Thrombenbildung mit arterieller Embolie (z.B. Schlaganfall), Resorptionsfieber (ab ca. 2 Tage nach Infarkt).",
+      "erklaerung_fa": "عوارض سکتهٔ قلبی (خطرناک‌ترین بازه: ۴۸ ساعت): اختلالات ریتم قلب (بلوک AV، فیبریلاسیون بطنی = شایع‌ترین علت مرگ!)، مرگ قلبی/شوک کاردیوژنیک، نارسایی قلبی (به‌ویژه نارسایی قلب چپ)، آنوریسم و پارگی دیوارهٔ قلب/آسیب سپتوم/نقص دریچه/پارگی عضلهٔ پاپیلاری، پریکاردیت، تشکیل ترومبوز قلبی همراه با آمبولی شریانی (مثلاً سکتهٔ مغزی)، تب جذبی (از حدود ۲ روز پس از سکته).",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Herz",
+        "Herzinfarkt",
+        "Komplikationen"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-042-03",
+      "kapitel": "Herz",
+      "thema": "Herzinfarkt - Diagnostik EKG/Inspektion",
+      "seite": 42,
+      "typ": "multiple_choice",
+      "frage": "Welche Befunde zeigen sich bei der Herzinfarkt-Diagnostik (Inspektion, Blutdruck/Puls, EKG)?",
+      "frage_fa": "در تشخیص سکتهٔ قلبی چه یافته‌هایی دیده می‌شوند (معاینه، فشار خون/نبض، نوار قلب)؟",
+      "optionen": [
+        "Inspektion: Blässe, Zyanose, Kaltschweißigkeit",
+        "Blutdruck/Puls: Hypotonie, Tachykardie (jedoch können Blutdruck und Puls auch normal oder zu hoch/niedrig sein!)",
+        "EKG: ST-Hebungs-Infarkt (STEMI) oder Nicht-ST-Hebungs-Infarkt (NSTEMI)",
+        "Inspektion immer völlig unauffällig",
+        "EKG immer normal"
+      ],
+      "optionen_fa": [
+        "معاینه: رنگ‌پریدگی، سیانوز، عرق سرد",
+        "فشار خون/نبض: افت فشار خون، تاکی‌کاردی (اما فشار خون و نبض می‌توانند طبیعی یا بالا/پایین نیز باشند!)",
+        "نوار قلب: سکتهٔ با بالارفتن ST (STEMI) یا بدون بالارفتن ST (NSTEMI)",
+        "معاینه همیشه کاملاً طبیعی",
+        "نوار قلب همیشه طبیعی"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Herzinfarkt-Diagnostik: Inspektion (Blässe, Zyanose, Kaltschweißigkeit), Blutdruck/Puls (Hypotonie, Tachykardie - jedoch können Blutdruck und Puls auch normal oder zu hoch/niedrig sein!), EKG (ST-Hebungs-Infarkt STEMI oder Nicht-ST-Hebungs-Infarkt NSTEMI).",
+      "erklaerung_fa": "تشخیص سکتهٔ قلبی: معاینه (رنگ‌پریدگی، سیانوز، عرق سرد)، فشار خون/نبض (افت فشار خون، تاکی‌کاردی — اما فشار خون و نبض می‌توانند طبیعی یا بالا/پایین نیز باشند!)، نوار قلب (سکتهٔ با بالارفتن ST یعنی STEMI یا بدون بالارفتن ST یعنی NSTEMI).",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Herz",
+        "Herzinfarkt",
+        "Diagnostik"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-042-04",
+      "kapitel": "Herz",
+      "thema": "Herzinfarkt - Troponin",
+      "seite": 42,
+      "typ": "single_choice",
+      "frage": "Wann ist Troponin T und I nach einem Herzinfarkt nachweisbar?",
+      "frage_fa": "تروپونین T و I چه زمانی پس از سکتهٔ قلبی قابل شناسایی است؟",
+      "optionen": [
+        "Sofort und nur für 1 Stunde",
+        "Ca. 1-3 Stunden nach Herzinfarkt, bis 1-2 Wochen danach nachweisbar",
+        "Erst nach einer Woche",
+        "Troponin ist nie nachweisbar",
+        "Nur nach 6-12 Stunden"
+      ],
+      "optionen_fa": [
+        "فوراً و فقط به‌مدت ۱ ساعت",
+        "حدود ۱ تا ۳ ساعت پس از سکتهٔ قلبی، تا ۱ تا ۲ هفته پس از آن قابل شناسایی",
+        "فقط پس از یک هفته",
+        "تروپونین هرگز قابل شناسایی نیست",
+        "فقط پس از ۶ تا ۱۲ ساعت"
+      ],
+      "richtig": 1,
+      "erklaerung": "Troponin T und I: ca. 1-3 Stunden nach Herzinfarkt nachweisbar, bis 1-2 Wochen danach. Troponin ist der wichtigste und spezifischste Marker der Herzinfarkt-Diagnostik (betrifft nur das Herz).",
+      "erklaerung_fa": "تروپونین T و I: حدود ۱ تا ۳ ساعت پس از سکتهٔ قلبی قابل شناسایی، تا ۱ تا ۲ هفته پس از آن. تروپونین مهم‌ترین و اختصاصی‌ترین نشانگر تشخیص سکتهٔ قلبی است (فقط قلب را در بر می‌گیرد).",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Herz",
+        "Herzinfarkt",
+        "Troponin"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-042-05",
+      "kapitel": "Herz",
+      "thema": "Herzinfarkt - Laborwerte/Enzyme",
+      "seite": 42,
+      "typ": "multiple_choice",
+      "frage": "Welche Laborwerte/Herzenzyme sind bei der Herzinfarkt-Diagnostik wichtig?",
+      "frage_fa": "کدام مقادیر آزمایشگاهی/آنزیم‌های قلبی در تشخیص سکتهٔ قلبی مهم هستند؟",
+      "optionen": [
+        "Troponin T und I: ca. 1-3 Stunden nach Herzinfarkt, bis 1-2 Wochen nachweisbar",
+        "Myoglobin: ca. 2-4 Stunden nach Herzinfarkt, unspezifischer Marker (betrifft nicht nur das Herz)",
+        "CK-MB: ca. 3-12 Stunden nach Herzinfarkt, Leitmarker der Herzinfarkt-Diagnostik",
+        "CK: ca. 3-12 Stunden nach Herzinfarkt, unspezifischer Marker",
+        "AST (GOT): ca. 6-12 Stunden nach Herzinfarkt, deutet auf erhöhten Gewebezerfall hin",
+        "Blutzucker ist der wichtigste Infarktmarker"
+      ],
+      "optionen_fa": [
+        "تروپونین T و I: حدود ۱ تا ۳ ساعت پس از سکته، تا ۱ تا ۲ هفته قابل شناسایی",
+        "میوگلوبین: حدود ۲ تا ۴ ساعت پس از سکته، نشانگر غیراختصاصی (فقط قلب را در بر نمی‌گیرد)",
+        "CK-MB: حدود ۳ تا ۱۲ ساعت پس از سکته، نشانگر اصلی تشخیص سکتهٔ قلبی",
+        "CK: حدود ۳ تا ۱۲ ساعت پس از سکته، نشانگر غیراختصاصی",
+        "AST (GOT): حدود ۶ تا ۱۲ ساعت پس از سکته، به تجزیهٔ افزایش‌یافتهٔ بافت اشاره دارد",
+        "قند خون مهم‌ترین نشانگر سکته است"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "erklaerung": "Herzinfarkt-Laborwerte: Troponin T und I (1-3 h, spezifischster Marker), Myoglobin (2-4 h, unspezifisch), CK-MB (3-12 h, Leitmarker der Herzinfarkt-Diagnostik), CK (3-12 h, unspezifisch), AST/GOT (6-12 h, deutet auf erhöhten Gewebezerfall hin). Weitere: LDH, BSG und CRP erhöht, Leukozytose, Hyperglykämie. Der Blutzucker ist KEIN Infarktmarker.",
+      "erklaerung_fa": "مقادیر آزمایشگاهی سکتهٔ قلبی: تروپونین T و I (۱ تا ۳ ساعت، اختصاصی‌ترین نشانگر)، میوگلوبین (۲ تا ۴ ساعت، غیراختصاصی)، CK-MB (۳ تا ۱۲ ساعت، نشانگر اصلی تشخیص)، CK (۳ تا ۱۲ ساعت، غیراختصاصی)، AST/GOT (۶ تا ۱۲ ساعت، به تجزیهٔ بافت اشاره دارد). سایر: افزایش LDH، BSG و CRP، لکوسیتوز، هایپرگلیسمی. قند خون نشانگر سکته نیست.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Herz",
+        "Herzinfarkt",
+        "Laborwerte"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-042-06",
+      "kapitel": "Herz",
+      "thema": "CK-MB als Leitmarker",
+      "seite": 42,
+      "typ": "single_choice",
+      "frage": "Welcher Wert gilt als Leitmarker der Herzinfarkt-Diagnostik (herzspezifisch)?",
+      "frage_fa": "کدام مقدار به‌عنوان نشانگر اصلی تشخیص سکتهٔ قلبی (اختصاصی قلب) در نظر گرفته می‌شود؟",
+      "optionen": [
+        "Myoglobin",
+        "CK-MB",
+        "AST (GOT)",
+        "Blutzucker",
+        "LDH"
+      ],
+      "optionen_fa": [
+        "میوگلوبین",
+        "CK-MB",
+        "AST (GOT)",
+        "قند خون",
+        "LDH"
+      ],
+      "richtig": 1,
+      "erklaerung": "CK-MB (die herzspezifische Untergruppe der Kreatinkinase) gilt als Leitmarker der Herzinfarkt-Diagnostik, nachweisbar ca. 3-12 Stunden nach dem Infarkt. Troponin ist noch spezifischer und früher nachweisbar. Myoglobin und CK sind unspezifisch (betreffen auch die Skelettmuskulatur).",
+      "erklaerung_fa": "CK-MB (زیرگروه اختصاصی قلبِ کراتین‌کیناز) به‌عنوان نشانگر اصلی تشخیص سکتهٔ قلبی در نظر گرفته می‌شود، حدود ۳ تا ۱۲ ساعت پس از سکته قابل شناسایی است. تروپونین حتی اختصاصی‌تر و زودتر قابل شناسایی است. میوگلوبین و CK غیراختصاصی هستند (عضلهٔ اسکلتی را نیز در بر می‌گیرند).",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Herz",
+        "Herzinfarkt",
+        "CK-MB"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-042-07",
+      "kapitel": "Herz",
+      "thema": "Herzinfarkt - Akutmaßnahmen",
+      "seite": 42,
+      "typ": "multiple_choice",
+      "frage": "Welche Akutmaßnahmen ergreift man beim Herzinfarkt (Heilpraktiker/Ersthelfer)?",
+      "frage_fa": "در سکتهٔ قلبی چه اقدامات حادی انجام می‌شود (درمانگر/امدادگر اولیه)؟",
+      "optionen": [
+        "Notruf bei Verdacht auf Herzinfarkt",
+        "Regelmäßige Vitalzeichenkontrolle und ggf. Reanimation",
+        "Venösen Zugang legen (keine Volumengabe!)",
+        "Oberkörperhochlagerung 30°, beengende Kleidung entfernen, Fenster zur Sauerstoffzufuhr öffnen, Patient beruhigen",
+        "Pulsoxymetrie, Sauerstoffgabe bei Sauerstoffsättigung < 90%",
+        "Keine i.m.-Injektion wegen Enzymverfälschung",
+        "Patient flach hinlegen und viel trinken lassen"
+      ],
+      "optionen_fa": [
+        "تماس با اورژانس در صورت شک به سکتهٔ قلبی",
+        "کنترل منظم علائم حیاتی و در صورت لزوم احیا",
+        "برقراری راه وریدی (بدون تجویز حجم مایعات!)",
+        "بالا قراردادن بالاتنه ۳۰ درجه، برداشتن لباس تنگ، بازکردن پنجره برای رساندن اکسیژن، آرام‌کردن بیمار",
+        "پالس‌اکسیمتری، تجویز اکسیژن در اشباع اکسیژن کمتر از ۹۰٪",
+        "بدون تزریق عضلانی به‌دلیل مخدوش‌شدن آنزیم‌ها",
+        "بیمار را به‌صورت صاف بخوابانید و آب زیاد بنوشانید"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "erklaerung": "Herzinfarkt-Akutmaßnahmen: Notruf, regelmäßige Vitalzeichenkontrolle + ggf. Reanimation, venösen Zugang legen (keine Volumengabe!), Oberkörperhochlagerung 30° + beengende Kleidung entfernen + Fenster öffnen + Patient beruhigen, Pulsoxymetrie + Sauerstoffgabe bei Sättigung < 90%, keine i.m.-Injektion (verfälscht die Herzenzyme!). Der Patient soll NICHT flach liegen und NICHT trinken.",
+      "erklaerung_fa": "اقدامات حاد سکتهٔ قلبی: تماس با اورژانس، کنترل منظم علائم حیاتی + در صورت لزوم احیا، برقراری راه وریدی (بدون تجویز حجم مایعات!)، بالا قراردادن بالاتنه ۳۰ درجه + برداشتن لباس تنگ + بازکردن پنجره + آرام‌کردن بیمار، پالس‌اکسیمتری + تجویز اکسیژن در اشباع کمتر از ۹۰٪، بدون تزریق عضلانی (آنزیم‌های قلبی را مخدوش می‌کند!). بیمار نباید صاف بخوابد و نباید آب بنوشد.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Herz",
+        "Herzinfarkt",
+        "Notfall"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-042-08",
+      "kapitel": "Herz",
+      "thema": "MONA(S)-BH-Schema",
+      "seite": 42,
+      "typ": "multiple_choice",
+      "frage": "Wofür steht die Merkhilfe 'MONA(S)-BH' bei den ärztlichen Maßnahmen des Herzinfarkts?",
+      "frage_fa": "یادیار «MONA(S)-BH» در اقدامات پزشکی سکتهٔ قلبی مخفف چیست؟",
+      "optionen": [
+        "M = Morphin",
+        "O = Oxygen (bei Sauerstoffsättigung < 90%)",
+        "N = Nitroglycerin",
+        "A = ASS (Acetylsalicylsäure)",
+        "(S) = Statine; B = Beta-Blocker; H = Heparin",
+        "M = Magnesium"
+      ],
+      "optionen_fa": [
+        "M = مورفین",
+        "O = اکسیژن (در اشباع اکسیژن کمتر از ۹۰٪)",
+        "N = نیتروگلیسرین",
+        "A = ASS (اسید استیل‌سالیسیلیک)",
+        "(S) = استاتین‌ها؛ B = بتابلاکر؛ H = هپارین",
+        "M = منیزیم"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "erklaerung": "MONA(S)-BH (ärztliche Maßnahmen beim Herzinfarkt): M = Morphin, O = Oxygen (Sauerstoff bei Sättigung < 90%), N = Nitroglycerin, A = ASS, (S) = Statine, B = Beta-Blocker, H = Heparin. Cave: Je nach Patient und Situation muss die Behandlung entsprechend angepasst werden! M steht für Morphin, nicht für Magnesium.",
+      "erklaerung_fa": "MONA(S)-BH (اقدامات پزشکی در سکتهٔ قلبی): M = مورفین، O = اکسیژن (در اشباع کمتر از ۹۰٪)، N = نیتروگلیسرین، A = ASS، (S) = استاتین‌ها، B = بتابلاکر، H = هپارین. احتیاط: بسته به بیمار و وضعیت، درمان باید متناسب تنظیم شود! M مخفف مورفین است، نه منیزیم.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Herz",
+        "Herzinfarkt",
+        "MONA",
+        "Merkhilfe"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-042-09",
+      "kapitel": "Herz",
+      "thema": "Nitroglycerin - Cave",
+      "seite": 42,
+      "typ": "multiple_choice",
+      "frage": "Was ist bei der Gabe von Nitroglycerin zu beachten (Cave)?",
+      "frage_fa": "در تجویز نیتروگلیسرین چه نکاتی باید رعایت شود (احتیاط)؟",
+      "optionen": [
+        "Nitroglycerin darf nur angewandt werden, wenn der systolische Blutdruck > 100 mmHg ist",
+        "Kontraindikation für Nitro besteht auch bei Einnahme von Potenzmitteln (Viagra)",
+        "Vorsicht auch bei Rechtsherzinfarkt - hier kann es zu einem starken Blutdruckabfall kommen",
+        "Nitro darf immer und bei jedem gegeben werden",
+        "Nitro erhöht den Blutdruck"
+      ],
+      "optionen_fa": [
+        "نیتروگلیسرین فقط زمانی می‌تواند تجویز شود که فشار خون سیستولیک بیش از ۱۰۰ mmHg باشد",
+        "منع مصرف نیترات در صورت مصرف داروهای تقویت جنسی (ویاگرا) نیز وجود دارد",
+        "احتیاط در سکتهٔ قلب راست نیز — اینجا می‌تواند افت شدید فشار خون رخ دهد",
+        "نیترات همیشه و برای هر کسی می‌تواند تجویز شود",
+        "نیترات فشار خون را افزایش می‌دهد"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "CAVE bei Nitroglycerin: darf nur angewandt werden, wenn der systolische Blutdruck > 100 mmHg ist (Nitro senkt den Blutdruck!). Kontraindikation besteht auch bei Einnahme von Potenzmitteln (Viagra - Gefahr eines lebensbedrohlichen Blutdruckabfalls). Vorsicht auch bei Rechtsherzinfarkt: hier kann es zu einem starken Blutdruckabfall kommen.",
+      "erklaerung_fa": "احتیاط در نیتروگلیسرین: فقط زمانی می‌تواند تجویز شود که فشار خون سیستولیک بیش از ۱۰۰ mmHg باشد (نیترات فشار خون را کاهش می‌دهد!). منع مصرف در صورت مصرف داروهای تقویت جنسی (ویاگرا — خطر افت تهدیدکنندهٔ حیات فشار خون) نیز وجود دارد. احتیاط در سکتهٔ قلب راست نیز: اینجا می‌تواند افت شدید فشار خون رخ دهد.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Herz",
+        "Herzinfarkt",
+        "Nitro"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-042-10",
+      "kapitel": "Herz",
+      "thema": "Herzinfarkt - ärztliche Therapie",
+      "seite": 42,
+      "typ": "multiple_choice",
+      "frage": "Welche ärztliche Therapie erfolgt beim Herzinfarkt?",
+      "frage_fa": "چه درمان پزشکی در سکتهٔ قلبی انجام می‌شود؟",
+      "optionen": [
+        "Intensivmedizinische Betreuung: EKG, Fibrinolyse, Herzkatheter-Untersuchung, ggf. Stentimplantation und/oder Bypass-Operation",
+        "Acetylsalicylsäure (z.B. ASS 100) oder Marcumar",
+        "Beta-Blocker → Verminderung von Herzfrequenz und Blutdruck",
+        "ACE-Hemmer oder Sartane → Blutdrucksenkung durch vermindertes Plasmavolumen",
+        "Diuretika → Ausschwemmung von Ödemen; Statine → Cholesterinsenkung → verringertes Arteriosklerose-Risiko",
+        "Nur Bettruhe ohne Medikamente"
+      ],
+      "optionen_fa": [
+        "مراقبت‌های ویژه: نوار قلب، فیبرینولیز، بررسی با کاتتر قلب، در صورت لزوم کارگذاری استنت و/یا جراحی بای‌پس",
+        "اسید استیل‌سالیسیلیک (مثلاً ASS 100) یا مارکومار",
+        "بتابلاکر ← کاهش ضربان قلب و فشار خون",
+        "مهارکنندهٔ ACE یا سارتان‌ها ← کاهش فشار خون از طریق کاهش حجم پلاسما",
+        "دیورتیک‌ها ← دفع ادم‌ها؛ استاتین‌ها ← کاهش کلسترول ← کاهش خطر آترواسکلروز",
+        "فقط استراحت در بستر بدون دارو"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "erklaerung": "Ärztliche Herzinfarkt-Therapie: intensivmedizinische Betreuung (EKG, Fibrinolyse, Herzkatheter, ggf. Stentimplantation/Bypass-OP), Acetylsalicylsäure (ASS 100) oder Marcumar, Beta-Blocker (Herzfrequenz/Blutdruck ↓), ACE-Hemmer/Sartane (Blutdrucksenkung), Diuretika (Ödemausschwemmung), Statine (Cholesterinsenkung → weniger Arteriosklerose-Risiko).",
+      "erklaerung_fa": "درمان پزشکی سکتهٔ قلبی: مراقبت‌های ویژه (نوار قلب، فیبرینولیز، کاتتر قلب، در صورت لزوم کارگذاری استنت/جراحی بای‌پس)، اسید استیل‌سالیسیلیک (ASS 100) یا مارکومار، بتابلاکر (کاهش ضربان قلب/فشار خون)، مهارکنندهٔ ACE/سارتان‌ها (کاهش فشار خون)، دیورتیک‌ها (دفع ادم)، استاتین‌ها (کاهش کلسترول ← کاهش خطر آترواسکلروز).",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Herz",
+        "Herzinfarkt",
+        "Therapie"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-042-F1",
+      "kapitel": "Herz",
+      "thema": "Herzinfarkt - Fallbeispiel Notfall",
+      "seite": 42,
+      "typ": "fallbeispiel",
+      "fallbeschreibung": "Ein 62-jähriger Mann bricht mit stärksten retrosternalen Schmerzen zusammen, ist blass und kaltschweißig. Der Heilpraktiker vermutet einen Herzinfarkt. Der Patient nimmt seit Jahren ein Potenzmittel (Viagra) und fragt, ob er sein Nitrospray nehmen soll.",
+      "fallbeschreibung_fa": "یک مرد ۶۲ ساله با شدیدترین درد پشت جناغ فرو می‌ریزد، رنگ‌پریده و دچار عرق سرد است. درمانگر به سکتهٔ قلبی مشکوک است. بیمار سال‌هاست یک داروی تقویت جنسی (ویاگرا) مصرف می‌کند و می‌پرسد آیا باید نیترات‌اسپری خود را مصرف کند.",
+      "frage": "Wie ist zu handeln?",
+      "frage_fa": "چگونه باید عمل کرد؟",
+      "optionen": [
+        "Sofort Nitrospray geben",
+        "KEIN Nitro geben (Kontraindikation bei Potenzmitteln/Viagra - Gefahr eines lebensbedrohlichen Blutdruckabfalls!). Notruf, Oberkörperhochlagerung 30°, beruhigen, Vitalzeichen überwachen",
+        "Patient flach hinlegen und abwarten",
+        "Eine i.m.-Spritze geben",
+        "Viel Wasser trinken lassen"
+      ],
+      "optionen_fa": [
+        "فوراً نیترات‌اسپری بدهید",
+        "نیترات ندهید (منع مصرف در داروهای تقویت جنسی/ویاگرا — خطر افت تهدیدکنندهٔ حیات فشار خون!). تماس با اورژانس، بالا قراردادن بالاتنه ۳۰ درجه، آرام‌کردن، پایش علائم حیاتی",
+        "بیمار را صاف بخوابانید و صبر کنید",
+        "یک تزریق عضلانی بدهید",
+        "آب زیاد بنوشانید"
+      ],
+      "richtig": 1,
+      "erklaerung": "KEIN Nitro geben! Bei gleichzeitiger Einnahme von Potenzmitteln (Viagra) besteht eine absolute Kontraindikation für Nitroglycerin - es droht ein lebensbedrohlicher Blutdruckabfall. Stattdessen: sofort Notruf, Oberkörperhochlagerung 30°, beengende Kleidung entfernen, Patient beruhigen, Vitalzeichen überwachen, keine i.m.-Injektion (Enzymverfälschung), Patient NICHT flach lagern und NICHT trinken lassen.",
+      "erklaerung_fa": "نیترات ندهید! در صورت مصرف هم‌زمان داروهای تقویت جنسی (ویاگرا)، منع مطلق مصرف نیتروگلیسرین وجود دارد — خطر افت تهدیدکنندهٔ حیات فشار خون. در عوض: فوراً تماس با اورژانس، بالا قراردادن بالاتنه ۳۰ درجه، برداشتن لباس تنگ، آرام‌کردن بیمار، پایش علائم حیاتی، بدون تزریق عضلانی (مخدوش‌شدن آنزیم)، بیمار را صاف نخوابانید و آب ننوشانید.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Herz",
+        "Herzinfarkt",
+        "Nitro",
+        "Fallbeispiel"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-043-01",
+      "kapitel": "Herz",
+      "thema": "Herzinsuffizienz - Definition",
+      "seite": 43,
+      "typ": "single_choice",
+      "frage": "Was ist eine Herzinsuffizienz?",
+      "frage_fa": "نارسایی قلبی چیست؟",
+      "optionen": [
+        "Ein Herzinfarkt",
+        "Das Unvermögen des Herzens, den Organismus optimal mit Blut bzw. Sauerstoff zu versorgen",
+        "Eine Herzklappenentzündung",
+        "Eine Herzrhythmusstörung",
+        "Eine Überfunktion des Herzens"
+      ],
+      "optionen_fa": [
+        "یک سکتهٔ قلبی",
+        "ناتوانی قلب در تأمین بهینهٔ خون یا اکسیژن برای بدن",
+        "التهاب دریچهٔ قلب",
+        "اختلال ریتم قلب",
+        "پرکاری قلب"
+      ],
+      "richtig": 1,
+      "erklaerung": "Herzinsuffizienz = das Unvermögen des Herzens, den Organismus optimal mit Blut bzw. Sauerstoff zu versorgen. Das Herz kann seine Pumpleistung nicht mehr ausreichend erbringen.",
+      "erklaerung_fa": "نارسایی قلبی = ناتوانی قلب در تأمین بهینهٔ خون یا اکسیژن برای بدن. قلب دیگر نمی‌تواند عملکرد پمپاژ خود را به‌اندازهٔ کافی انجام دهد.",
+      "schwierigkeit": "leicht",
+      "tags": [
+        "Herz",
+        "Herzinsuffizienz",
+        "Definition"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-043-02",
+      "kapitel": "Herz",
+      "thema": "Kompensiert vs. dekompensiert",
+      "seite": 43,
+      "typ": "multiple_choice",
+      "frage": "Was bedeutet kompensierte und dekompensierte Herzinsuffizienz?",
+      "frage_fa": "نارسایی قلبی جبران‌شده و جبران‌نشده به چه معناست؟",
+      "optionen": [
+        "Kompensierte Herzinsuffizienz = Beschwerden nur unter Belastung",
+        "Dekompensierte Herzinsuffizienz = Beschwerden bereits in Ruhe",
+        "Die Herzinsuffizienz kann akut oder chronisch auftreten, die Häufigkeit steigt im Alter an",
+        "Kompensiert = Beschwerden in Ruhe",
+        "Dekompensiert = gar keine Beschwerden"
+      ],
+      "optionen_fa": [
+        "نارسایی قلبی جبران‌شده = شکایات فقط هنگام فعالیت",
+        "نارسایی قلبی جبران‌نشده = شکایات از پیش در حالت استراحت",
+        "نارسایی قلبی می‌تواند حاد یا مزمن رخ دهد، شیوع آن با افزایش سن بالا می‌رود",
+        "جبران‌شده = شکایات در حالت استراحت",
+        "جبران‌نشده = اصلاً شکایتی وجود ندارد"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Kompensierte Herzinsuffizienz = Beschwerden nur unter Belastung. Dekompensierte Herzinsuffizienz = Beschwerden bereits in Ruhe. Die Herzinsuffizienz kann akut oder chronisch auftreten, die Häufigkeit steigt im Alter an.",
+      "erklaerung_fa": "نارسایی قلبی جبران‌شده = شکایات فقط هنگام فعالیت. نارسایی قلبی جبران‌نشده = شکایات از پیش در حالت استراحت. نارسایی قلبی می‌تواند حاد یا مزمن رخ دهد، شیوع آن با افزایش سن بالا می‌رود.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Herz",
+        "Herzinsuffizienz",
+        "kompensiert"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-043-03",
+      "kapitel": "Herz",
+      "thema": "NYHA-Einteilung",
+      "seite": 43,
+      "typ": "multiple_choice",
+      "frage": "Wie erfolgt die NYHA-Einteilung der Herzinsuffizienz?",
+      "frage_fa": "دسته‌بندی NYHA نارسایی قلبی چگونه است؟",
+      "optionen": [
+        "NYHA I: Herzerkrankung bekannt, aber keine Einschränkung der körperlichen Leistungsfähigkeit",
+        "NYHA II: körperliche Leistungsfähigkeit leicht eingeschränkt ab einer mittelschweren Belastung",
+        "NYHA III: Leistungsfähigkeit stark eingeschränkt bei geringer Belastung, in Ruhe keine Beschwerden",
+        "NYHA IV: Beschwerden bereits in Ruhe",
+        "NYHA V: Herztod"
+      ],
+      "optionen_fa": [
+        "NYHA I: بیماری قلبی شناخته‌شده، اما بدون محدودیت توان جسمانی",
+        "NYHA II: توان جسمانی کمی محدود از یک فعالیت متوسط به بعد",
+        "NYHA III: توان به‌شدت محدود در فعالیت کم، در حالت استراحت بدون شکایت",
+        "NYHA IV: شکایات از پیش در حالت استراحت",
+        "NYHA V: مرگ قلبی"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "NYHA-Einteilung (New York Heart Association): NYHA I = Herzerkrankung bekannt, aber keine Einschränkung der körperlichen Leistungsfähigkeit. NYHA II = leicht eingeschränkt ab mittelschwerer Belastung. NYHA III = stark eingeschränkt bei geringer Belastung, in Ruhe keine Beschwerden. NYHA IV = Beschwerden bereits in Ruhe. Ein NYHA V existiert nicht!",
+      "erklaerung_fa": "دسته‌بندی NYHA (انجمن قلب نیویورک): NYHA I = بیماری قلبی شناخته‌شده، اما بدون محدودیت توان جسمانی. NYHA II = کمی محدود از فعالیت متوسط به بعد. NYHA III = به‌شدت محدود در فعالیت کم، در حالت استراحت بدون شکایت. NYHA IV = شکایات از پیش در حالت استراحت. NYHA V وجود ندارد!",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Herz",
+        "Herzinsuffizienz",
+        "NYHA"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-043-04",
+      "kapitel": "Herz",
+      "thema": "Akute Herzinsuffizienz - Ätiologie",
+      "seite": 43,
+      "typ": "multiple_choice",
+      "frage": "Welche Ursachen hat die akute Herzinsuffizienz?",
+      "frage_fa": "نارسایی حاد قلبی چه علل‌هایی دارد؟",
+      "optionen": [
+        "Kardiogener Schock, Herzinfarkt, Lungenembolie",
+        "Perikardtamponade (→ Behinderung der Ventrikelfüllung), Myokarditis",
+        "Herzrhythmusstörungen: extreme Tachykardie oder Bradykardie, nach Elektrounfall",
+        "Chronische KHK über Jahre",
+        "Langsame Herzklappenverkalkung"
+      ],
+      "optionen_fa": [
+        "شوک کاردیوژنیک، سکتهٔ قلبی، آمبولی ریه",
+        "تامپوناد پریکارد (← اختلال در پرشدن بطن)، میوکاردیت",
+        "اختلالات ریتم قلب: تاکی‌کاردی یا برادی‌کاردی شدید، پس از برق‌گرفتگی",
+        "KHK مزمن در طول سال‌ها",
+        "تصلب آهستهٔ دریچهٔ قلب"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Akute Herzinsuffizienz - Ätiologie: kardiogener Schock, Herzinfarkt, Lungenembolie, Perikardtamponade (→ Behinderung der Ventrikelfüllung), Myokarditis, Herzrhythmusstörungen (extreme Tachykardie oder Bradykardie), nach Elektrounfall. Die chronische KHK und langsame Klappenverkalkung führen zur CHRONISCHEN Herzinsuffizienz.",
+      "erklaerung_fa": "نارسایی حاد قلبی — علت‌شناسی: شوک کاردیوژنیک، سکتهٔ قلبی، آمبولی ریه، تامپوناد پریکارد (← اختلال در پرشدن بطن)، میوکاردیت، اختلالات ریتم قلب (تاکی‌کاردی یا برادی‌کاردی شدید)، پس از برق‌گرفتگی. KHK مزمن و تصلب آهستهٔ دریچه به نارسایی مزمن قلبی منجر می‌شوند.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Herz",
+        "Herzinsuffizienz",
+        "akut"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-043-05",
+      "kapitel": "Herz",
+      "thema": "Chronische Herzinsuffizienz - Ätiologie",
+      "seite": 43,
+      "typ": "multiple_choice",
+      "frage": "Welche Ursachen hat die chronische Herzinsuffizienz?",
+      "frage_fa": "نارسایی مزمن قلبی چه علل‌هایی دارد؟",
+      "optionen": [
+        "KHK",
+        "Pulmonale und arterielle Hypertonie",
+        "Kardiomyopathien, Herzhypertrophie und -dilatation",
+        "Herzklappenfehler, Septumdefekte, Perikarditis constrictiva",
+        "Herzrhythmusstörungen",
+        "Nur ein akuter Herzinfarkt"
+      ],
+      "optionen_fa": [
+        "KHK",
+        "فشار خون ریوی و شریانی",
+        "کاردیومیوپاتی‌ها، هیپرتروفی و اتساع قلب",
+        "نقص دریچهٔ قلب، نقص سپتوم، پریکاردیت فشارنده",
+        "اختلالات ریتم قلب",
+        "فقط یک سکتهٔ حاد قلبی"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "erklaerung": "Chronische Herzinsuffizienz - Ätiologie: KHK, pulmonale und arterielle Hypertonie, Kardiomyopathien/Herzhypertrophie und -dilatation, Herzklappenfehler/Septumdefekte/Perikarditis constrictiva, Herzrhythmusstörungen. Weitere extrakardiale Ursachen: Hyperthyreose, Elektrolytstörungen (v.a. Kalium), Medikamente, Noxen, Hypovolämie, Anämie, Vitaminmangel- oder Speicherkrankheiten, Cor pulmonale (→ Rechtsherzinsuffizienz).",
+      "erklaerung_fa": "نارسایی مزمن قلبی — علت‌شناسی: KHK، فشار خون ریوی و شریانی، کاردیومیوپاتی‌ها/هیپرتروفی و اتساع قلب، نقص دریچه/نقص سپتوم/پریکاردیت فشارنده، اختلالات ریتم قلب. سایر علل خارج‌قلبی: پرکاری تیروئید، اختلالات الکترولیتی (به‌ویژه پتاسیم)، داروها، سموم، کاهش حجم خون، کم‌خونی، بیماری‌های کمبود ویتامین یا ذخیره‌ای، کور پولمونال (← نارسایی قلب راست).",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Herz",
+        "Herzinsuffizienz",
+        "chronisch"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-043-06",
+      "kapitel": "Herz",
+      "thema": "Rechtsherzinsuffizienz",
+      "seite": 43,
+      "typ": "multiple_choice",
+      "frage": "Welche Symptome zeigt die Rechtsherzinsuffizienz (Blut-Rückstau in den venösen Körperkreislauf)?",
+      "frage_fa": "نارسایی قلب راست (پس‌زدن خون به گردش خون وریدی بدن) چه علائمی نشان می‌دهد؟",
+      "optionen": [
+        "Ödembildung (Knöchel, Beine, Aszites), Gewichtszunahme, Nykturie",
+        "Venöse Stauungen: Stauung Unterzungenvenen und Halsvenen",
+        "Stauungsleber (Hepatosplenomegalie) → Druckgefühl, Ikterus, Anstieg Transaminasen, kardiale Zirrhose, Pfortaderstau, Aszites",
+        "Stauungsgastritis → Appetitverlust, Meteorismus; Stauungsnieren → verminderte Urinproduktion, prärenale Proteinurie",
+        "Pleuraerguss, Leistungsabfall, Schwächegefühl, Dyspnoe, Tachykardie",
+        "Stauungslunge mit Lungenödem"
+      ],
+      "optionen_fa": [
+        "تشکیل ادم (قوزک، پاها، آسیت)، افزایش وزن، شب‌ادراری",
+        "احتقان وریدی: احتقان وریدهای زیرزبانی و وریدهای گردنی",
+        "احتقان کبد (بزرگی کبد و طحال) ← احساس فشار، یرقان، افزایش ترانس‌آمینازها، سیروز قلبی، احتقان ورید باب، آسیت",
+        "گاستریت احتقانی ← بی‌اشتهایی، نفخ؛ کلیه‌های احتقانی ← کاهش تولید ادرار، پروتئینوری پیش‌کلیوی",
+        "افیوژن پلور، افت توان، احساس ضعف، تنگی نفس، تاکی‌کاردی",
+        "احتقان ریه همراه با ادم ریه"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "erklaerung": "Rechtsherzinsuffizienz (Blut-Rückstau in den venösen Körperkreislauf): Ödembildung (Knöchel, Beine, Aszites), Gewichtszunahme, Nykturie, venöse Stauungen (Unterzungen-/Halsvenen), Stauungsleber/Hepatosplenomegalie (→ Druckgefühl, Ikterus, Transaminasen ↑, kardiale Zirrhose, Pfortaderstau, Aszites), Splenomegalie, Stauungsgastritis (→ Appetitverlust, Meteorismus), Stauungsnieren (→ verminderte Urinproduktion, prärenale Proteinurie), Pleuraerguss, Leistungsabfall/Schwäche/Dyspnoe/Tachykardie. Die Stauungslunge gehört zur LINKSherzinsuffizienz!",
+      "erklaerung_fa": "نارسایی قلب راست (پس‌زدن خون به گردش خون وریدی بدن): تشکیل ادم (قوزک، پاها، آسیت)، افزایش وزن، شب‌ادراری، احتقان وریدی (وریدهای زیرزبانی/گردنی)، احتقان کبد/بزرگی کبد و طحال (← احساس فشار، یرقان، افزایش ترانس‌آمینازها، سیروز قلبی، احتقان ورید باب، آسیت)، بزرگی طحال، گاستریت احتقانی (← بی‌اشتهایی، نفخ)، کلیه‌های احتقانی (← کاهش تولید ادرار، پروتئینوری پیش‌کلیوی)، افیوژن پلور، افت توان/ضعف/تنگی نفس/تاکی‌کاردی. احتقان ریه مربوط به نارسایی قلب چپ است!",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Herz",
+        "Rechtsherzinsuffizienz"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-043-07",
+      "kapitel": "Herz",
+      "thema": "Linksherzinsuffizienz",
+      "seite": 43,
+      "typ": "multiple_choice",
+      "frage": "Welche Symptome zeigt die Linksherzinsuffizienz (Blut-Rückstau in den Lungenkreislauf)?",
+      "frage_fa": "نارسایی قلب چپ (پس‌زدن خون به گردش خون ریوی) چه علائمی نشان می‌دهد؟",
+      "optionen": [
+        "Stauungslunge: Dyspnoe, Asthma cardiale, Stauungsbronchitis, Orthopnoe, Tachypnoe, schlechte Sauerstoffsättigung",
+        "Lungenödem mit Rasselgeräuschen → Patient schläft mit erhöhtem Oberkörper (mehrere Kissen) und hat nächtlichen Husten",
+        "Zyanose",
+        "Leistungsminderung, Schwächegefühl, Kachexie, Tachykardie, Nykturie",
+        "Ödeme an Knöcheln und Beinen als erstes Symptom",
+        "Aszites und Stauungsleber"
+      ],
+      "optionen_fa": [
+        "احتقان ریه: تنگی نفس، آسم قلبی، برونشیت احتقانی، ارتوپنه، تاکی‌پنه، اشباع اکسیژن ضعیف",
+        "ادم ریه همراه با خس‌خس ← بیمار با بالاتنهٔ بالا (چند بالش) می‌خوابد و سرفهٔ شبانه دارد",
+        "سیانوز",
+        "کاهش توان، احساس ضعف، کاشکسی، تاکی‌کاردی، شب‌ادراری",
+        "ادم قوزک و پاها به‌عنوان اولین علامت",
+        "آسیت و احتقان کبد"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Linksherzinsuffizienz (Blut-Rückstau in den Lungenkreislauf, Blutmangel im Körperkreislauf): Stauungslunge (Dyspnoe, Asthma cardiale, Stauungsbronchitis, Orthopnoe, Tachypnoe, schlechte Sauerstoffsättigung), Lungenödem mit Rasselgeräuschen (→ Patient schläft mit erhöhtem Oberkörper/mehreren Kissen, nächtlicher Husten), Zyanose, Leistungsminderung/Schwäche/Kachexie/Tachykardie, Nykturie. Ödeme/Aszites/Stauungsleber gehören zur RECHTSherzinsuffizienz!",
+      "erklaerung_fa": "نارسایی قلب چپ (پس‌زدن خون به گردش خون ریوی، کمبود خون در گردش خون بدن): احتقان ریه (تنگی نفس، آسم قلبی، برونشیت احتقانی، ارتوپنه، تاکی‌پنه، اشباع اکسیژن ضعیف)، ادم ریه همراه با خس‌خس (← بیمار با بالاتنهٔ بالا/چند بالش می‌خوابد، سرفهٔ شبانه)، سیانوز، کاهش توان/ضعف/کاشکسی/تاکی‌کاردی، شب‌ادراری. ادم/آسیت/احتقان کبد مربوط به نارسایی قلب راست است!",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Herz",
+        "Linksherzinsuffizienz"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-043-08",
+      "kapitel": "Herz",
+      "thema": "Asthma cardiale",
+      "seite": 43,
+      "typ": "single_choice",
+      "frage": "Was ist das Asthma cardiale ('Herzasthma')?",
+      "frage_fa": "آسم قلبی («آسم قلب») چیست؟",
+      "optionen": [
+        "Ein allergisches Asthma",
+        "Asthmaähnliche Symptome durch Linksherzinsuffizienz/Mitralklappenstenose (Dyspnoe, Orthopnoe, nächtlicher Husten aufgrund der Stauungslunge)",
+        "Eine Lungenentzündung",
+        "Ein Bronchialkarzinom",
+        "Eine Herzklappenentzündung"
+      ],
+      "optionen_fa": [
+        "یک آسم آلرژیک",
+        "علائم شبه‌آسم به‌دلیل نارسایی قلب چپ/تنگی دریچهٔ میترال (تنگی نفس، ارتوپنه، سرفهٔ شبانه به‌دلیل احتقان ریه)",
+        "یک ذات‌الریه",
+        "سرطان برونش",
+        "التهاب دریچهٔ قلب"
+      ],
+      "richtig": 1,
+      "erklaerung": "Asthma cardiale ('Herzasthma') = asthmaähnliche Symptome, die aufgrund der Stauungslunge infolge einer Linksherzinsuffizienz oder Mitralklappenstenose auftreten (Dyspnoe, Orthopnoe, nächtlicher Husten). Die Ursache ist also das Herz, nicht die Lunge/Allergie!",
+      "erklaerung_fa": "آسم قلبی («آسم قلب») = علائم شبه‌آسم که به‌دلیل احتقان ریه در پی نارسایی قلب چپ یا تنگی دریچهٔ میترال رخ می‌دهند (تنگی نفس، ارتوپنه، سرفهٔ شبانه). بنابراین علت، قلب است، نه ریه/آلرژی!",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Herz",
+        "Asthma cardiale"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-043-09",
+      "kapitel": "Herz",
+      "thema": "Globalinsuffizienz",
+      "seite": 43,
+      "typ": "single_choice",
+      "frage": "Wie entsteht eine Globalinsuffizienz?",
+      "frage_fa": "نارسایی کلی (گلوبال) چگونه ایجاد می‌شود؟",
+      "optionen": [
+        "Durch einen einzelnen Herzinfarkt",
+        "Linksherzinsuffizienz → Rückstau in Lunge → pulmonale Hypertonie → Rechtsherzbelastung → Rückstau in den Körperkreislauf → Globalinsuffizienz (Symptome der Links- UND Rechtsherzinsuffizienz)",
+        "Nur durch eine Rechtsherzinsuffizienz",
+        "Durch eine Schilddrüsenüberfunktion",
+        "Durch Kaliummangel"
+      ],
+      "optionen_fa": [
+        "به‌دلیل یک سکتهٔ قلبی منفرد",
+        "نارسایی قلب چپ ← پس‌زدن به ریه ← فشار خون ریوی ← فشار بر قلب راست ← پس‌زدن به گردش خون بدن ← نارسایی کلی (علائم نارسایی قلب چپ و راست)",
+        "فقط به‌دلیل نارسایی قلب راست",
+        "به‌دلیل پرکاری تیروئید",
+        "به‌دلیل کمبود پتاسیم"
+      ],
+      "richtig": 1,
+      "erklaerung": "Globalinsuffizienz: Die Linksherzinsuffizienz führt über einen Rückstau in die Lunge → pulmonale Hypertonie → Rechtsherzbelastung → Rückstau in den Körperkreislauf → schließlich zur Globalinsuffizienz mit Symptomen der Links- UND Rechtsherzinsuffizienz.",
+      "erklaerung_fa": "نارسایی کلی: نارسایی قلب چپ از طریق پس‌زدن به ریه ← فشار خون ریوی ← فشار بر قلب راست ← پس‌زدن به گردش خون بدن ← سرانجام به نارسایی کلی همراه با علائم نارسایی قلب چپ و راست منجر می‌شود.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Herz",
+        "Globalinsuffizienz"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-043-10",
+      "kapitel": "Herz",
+      "thema": "Herzinsuffizienz - Komplikationen",
+      "seite": 43,
+      "typ": "multiple_choice",
+      "frage": "Welche Komplikationen können bei der Herzinsuffizienz auftreten?",
+      "frage_fa": "چه عوارضی می‌توانند در نارسایی قلبی رخ دهند؟",
+      "optionen": [
+        "Herzrhythmusstörungen (Vorhofflimmern/Kammerflimmern) → plötzlicher Herztod",
+        "Kardiogener Schock mit akutem Vorwärtsversagen",
+        "Lungenödem",
+        "Thromboembolien (z.B. Apoplex) infolge Vorhofflimmern, vermindertem Blutfluss und herabgesetzter Mobilität",
+        "Vollständige Heilung ohne Folgen"
+      ],
+      "optionen_fa": [
+        "اختلالات ریتم قلب (فیبریلاسیون دهلیزی/بطنی) ← مرگ ناگهانی قلبی",
+        "شوک کاردیوژنیک همراه با نارسایی حاد روبه‌جلو",
+        "ادم ریه",
+        "ترومبوآمبولی (مثلاً سکتهٔ مغزی) در پی فیبریلاسیون دهلیزی، کاهش جریان خون و کاهش تحرک",
+        "بهبود کامل بدون عارضه"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Herzinsuffizienz-Komplikationen: Herzrhythmusstörungen (Vorhofflimmern/Kammerflimmern) → plötzlicher Herztod, kardiogener Schock mit akutem Vorwärtsversagen, Lungenödem, Thromboembolien (z.B. Apoplex/Schlaganfall) infolge Vorhofflimmern, vermindertem Blutfluss und herabgesetzter Mobilität.",
+      "erklaerung_fa": "عوارض نارسایی قلبی: اختلالات ریتم قلب (فیبریلاسیون دهلیزی/بطنی) ← مرگ ناگهانی قلبی، شوک کاردیوژنیک همراه با نارسایی حاد روبه‌جلو، ادم ریه، ترومبوآمبولی (مثلاً سکتهٔ مغزی) در پی فیبریلاسیون دهلیزی، کاهش جریان خون و کاهش تحرک.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Herz",
+        "Herzinsuffizienz",
+        "Komplikationen"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-043-F1",
+      "kapitel": "Herz",
+      "thema": "Herzinsuffizienz - Fallbeispiel",
+      "seite": 43,
+      "typ": "fallbeispiel",
+      "fallbeschreibung": "Ein 70-jähriger Patient klagt über zunehmende Luftnot, besonders nachts im Liegen - er schläft inzwischen mit drei Kissen und hat nächtlichen Husten. Tagsüber hustet er weniger. Bei der Untersuchung hört man Rasselgeräusche über der Lunge, die Sauerstoffsättigung ist niedrig.",
+      "fallbeschreibung_fa": "یک بیمار ۷۰ ساله از تنگی نفس فزاینده، به‌ویژه شب‌ها در حالت درازکش، شکایت دارد — او اکنون با سه بالش می‌خوابد و سرفهٔ شبانه دارد. در طول روز کمتر سرفه می‌کند. در معاینه، خس‌خس روی ریه شنیده می‌شود، اشباع اکسیژن پایین است.",
+      "frage": "Welche Form der Herzinsuffizienz liegt am wahrscheinlichsten vor?",
+      "frage_fa": "کدام شکل نارسایی قلبی محتمل‌ترین است؟",
+      "optionen": [
+        "Rechtsherzinsuffizienz mit Beinödemen",
+        "Linksherzinsuffizienz mit Stauungslunge (Orthopnoe, nächtlicher Husten, Rasselgeräusche, Schlafen mit mehreren Kissen)",
+        "Ein akuter Herzinfarkt",
+        "Eine Perikarditis",
+        "Ein Vorhofflimmern"
+      ],
+      "optionen_fa": [
+        "نارسایی قلب راست همراه با ادم پاها",
+        "نارسایی قلب چپ همراه با احتقان ریه (ارتوپنه، سرفهٔ شبانه، خس‌خس، خوابیدن با چند بالش)",
+        "یک سکتهٔ حاد قلبی",
+        "یک پریکاردیت",
+        "یک فیبریلاسیون دهلیزی"
+      ],
+      "richtig": 1,
+      "erklaerung": "Linksherzinsuffizienz mit Stauungslunge: typisch sind Dyspnoe/Orthopnoe (Luftnot im Liegen), nächtlicher Husten, Rasselgeräusche über der Lunge und die niedrige Sauerstoffsättigung. Der Patient schläft mit erhöhtem Oberkörper (mehrere Kissen), um die Atemnot zu lindern. Bei der Linksherzinsuffizienz staut sich das Blut in den Lungenkreislauf zurück.",
+      "erklaerung_fa": "نارسایی قلب چپ همراه با احتقان ریه: تنگی نفس/ارتوپنه (تنگی نفس در حالت درازکش)، سرفهٔ شبانه، خس‌خس روی ریه و اشباع اکسیژن پایین معمول هستند. بیمار با بالاتنهٔ بالا (چند بالش) می‌خوابد تا تنگی نفس را کاهش دهد. در نارسایی قلب چپ، خون به گردش خون ریوی پس می‌زند.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Herz",
+        "Linksherzinsuffizienz",
+        "Fallbeispiel"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-044-01",
+      "kapitel": "Herz",
+      "thema": "Herzinsuffizienz - Diagnostik",
+      "seite": 44,
+      "typ": "multiple_choice",
+      "frage": "Welche Diagnostik erfolgt bei der Herzinsuffizienz?",
+      "frage_fa": "در نارسایی قلبی چه اقدامات تشخیصی انجام می‌شود؟",
+      "optionen": [
+        "Anamnese: Leistungsfähigkeit, Dyspnoe, Ödeme, nächtliches Wasserlassen, Schlafen mit mehreren Kissen",
+        "Inspektion: periphere Zyanose, gestaute Hals-/Unterzungenvenen, Ödeme bei Rechtsherzinsuffizienz",
+        "Palpation: Herzspitzenstoß nach unten lateral verlagert bei Herzvergrößerung; Perkussion: Herzvergrößerung",
+        "Auskultation: evtl. Herzrhythmusstörungen, Herzgeräusche, Rasselgeräusche über Lunge bei Lungenödem",
+        "EKG, Echokardiografie, Röntgen-Thorax; Labor: BNP und NT-proBNP (diagnostische Marker)",
+        "Nur eine Blutzuckermessung"
+      ],
+      "optionen_fa": [
+        "شرح‌حال: توان جسمانی، تنگی نفس، ادم‌ها، ادرار شبانه، خوابیدن با چند بالش",
+        "معاینه: سیانوز محیطی، وریدهای گردنی/زیرزبانی احتقان‌یافته، ادم در نارسایی قلب راست",
+        "لمس: ضربهٔ نوک قلب به‌سمت پایین و خارج جابه‌جاشده در بزرگ‌شدن قلب؛ دق: بزرگ‌شدن قلب",
+        "سمع: احتمالاً اختلالات ریتم قلب، صداهای قلبی، خس‌خس روی ریه در ادم ریه",
+        "نوار قلب، اکوکاردیوگرافی، رادیوگرافی قفسهٔ سینه؛ آزمایشگاه: BNP و NT-proBNP (نشانگرهای تشخیصی)",
+        "فقط اندازه‌گیری قند خون"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "erklaerung": "Herzinsuffizienz-Diagnostik: Anamnese (Leistungsfähigkeit, Dyspnoe, Ödeme, Nykturie, Schlafen mit mehreren Kissen), Inspektion (periphere Zyanose, gestaute Hals-/Unterzungenvenen, Ödeme), Palpation (Herzspitzenstoß nach unten lateral verlagert), Perkussion (Herzvergrößerung), Auskultation (Herzrhythmusstörungen, Herzgeräusche, Rasselgeräusche bei Lungenödem), EKG/Echokardiografie/Röntgen-Thorax, Labor (BNP und NT-proBNP = diagnostische Marker der Herzinsuffizienz).",
+      "erklaerung_fa": "تشخیص نارسایی قلبی: شرح‌حال (توان جسمانی، تنگی نفس، ادم‌ها، شب‌ادراری، خوابیدن با چند بالش)، معاینه (سیانوز محیطی، وریدهای گردنی/زیرزبانی احتقان‌یافته، ادم)، لمس (ضربهٔ نوک قلب به پایین و خارج جابه‌جاشده)، دق (بزرگ‌شدن قلب)، سمع (اختلالات ریتم، صداهای قلبی، خس‌خس در ادم ریه)، نوار قلب/اکوکاردیوگرافی/رادیوگرافی، آزمایشگاه (BNP و NT-proBNP = نشانگرهای تشخیصی نارسایی قلبی).",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Herz",
+        "Herzinsuffizienz",
+        "Diagnostik"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-044-02",
+      "kapitel": "Herz",
+      "thema": "BNP/NT-proBNP",
+      "seite": 44,
+      "typ": "single_choice",
+      "frage": "Welche Bedeutung haben BNP und NT-proBNP?",
+      "frage_fa": "BNP و NT-proBNP چه اهمیتی دارند؟",
+      "optionen": [
+        "Sie sind Herzinfarkt-Marker",
+        "Sie sind diagnostische Marker einer Herzinsuffizienz",
+        "Sie messen den Blutzucker",
+        "Sie sind Schilddrüsenwerte",
+        "Sie haben keine Bedeutung"
+      ],
+      "optionen_fa": [
+        "نشانگرهای سکتهٔ قلبی هستند",
+        "نشانگرهای تشخیصی نارسایی قلبی هستند",
+        "قند خون را اندازه‌گیری می‌کنند",
+        "مقادیر تیروئید هستند",
+        "هیچ اهمیتی ندارند"
+      ],
+      "richtig": 1,
+      "erklaerung": "BNP (Brain Natriuretic Peptide) und NT-proBNP sind diagnostische Marker einer Herzinsuffizienz. Sie werden bei Dehnung/Belastung der Herzkammern freigesetzt und steigen bei der Herzinsuffizienz an.",
+      "erklaerung_fa": "BNP (پپتید ناتریورتیک مغزی) و NT-proBNP نشانگرهای تشخیصی نارسایی قلبی هستند. آن‌ها هنگام کشش/فشار بطن‌های قلب آزاد می‌شوند و در نارسایی قلبی افزایش می‌یابند.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Herz",
+        "BNP",
+        "Herzinsuffizienz"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-044-03",
+      "kapitel": "Herz",
+      "thema": "Herzinsuffizienz - Therapie allgemein",
+      "seite": 44,
+      "typ": "multiple_choice",
+      "frage": "Welche allgemeinen Therapiemaßnahmen gibt es bei der Herzinsuffizienz?",
+      "frage_fa": "چه اقدامات درمانی عمومی در نارسایی قلبی وجود دارد؟",
+      "optionen": [
+        "Ursachen beseitigen, Risikofaktoren minimieren (Nikotinverzicht, Gewichtsreduktion bei Adipositas)",
+        "Ernährung: kochsalzarm, kaliumreich, kleine fettarme Mahlzeiten, reduzierte Trinkmenge",
+        "Bewegung: kompensiert (NYHA I+II) herzfreundliche Bewegungstherapie in einer Herzsportgruppe",
+        "Bewegung: dekompensiert (NYHA III+IV) Ruhe, evtl. Sauerstoffgabe",
+        "Thromboseprophylaxe",
+        "Möglichst viel Kochsalz und große Mahlzeiten"
+      ],
+      "optionen_fa": [
+        "رفع علل، به حداقل رساندن عوامل خطر (ترک نیکوتین، کاهش وزن در چاقی)",
+        "تغذیه: کم‌نمک، پرپتاسیم، وعده‌های کوچک کم‌چرب، کاهش مقدار نوشیدنی",
+        "فعالیت: جبران‌شده (NYHA I+II) ورزش‌درمانی مناسب قلب در گروه ورزش قلبی",
+        "فعالیت: جبران‌نشده (NYHA III+IV) استراحت، در صورت لزوم تجویز اکسیژن",
+        "پیشگیری از ترومبوز",
+        "تا حد امکان نمک زیاد و وعده‌های بزرگ"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "erklaerung": "Herzinsuffizienz-Therapie (allgemein): Ursachen beseitigen, Risikofaktoren minimieren (Nikotinverzicht, Gewichtsreduktion), Ernährung (kochsalzarm, kaliumreich, kleine fettarme Mahlzeiten, reduzierte Trinkmenge), Bewegung (kompensiert NYHA I+II: herzfreundliche Bewegungstherapie in Herzsportgruppe; dekompensiert NYHA III+IV: Ruhe, evtl. Sauerstoffgabe), Thromboseprophylaxe.",
+      "erklaerung_fa": "درمان نارسایی قلبی (عمومی): رفع علل، به حداقل رساندن عوامل خطر (ترک نیکوتین، کاهش وزن)، تغذیه (کم‌نمک، پرپتاسیم، وعده‌های کوچک کم‌چرب، کاهش نوشیدنی)، فعالیت (جبران‌شده NYHA I+II: ورزش‌درمانی در گروه ورزش قلبی؛ جبران‌نشده NYHA III+IV: استراحت، در صورت لزوم اکسیژن)، پیشگیری از ترومبوز.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Herz",
+        "Herzinsuffizienz",
+        "Therapie"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-044-04",
+      "kapitel": "Herz",
+      "thema": "Herzinsuffizienz - Medikamente",
+      "seite": 44,
+      "typ": "multiple_choice",
+      "frage": "Welche Medikamente werden bei der Herzinsuffizienz eingesetzt?",
+      "frage_fa": "چه داروهایی در نارسایی قلبی استفاده می‌شوند؟",
+      "optionen": [
+        "ACE-Hemmer oder Sartane",
+        "Beta-Blocker",
+        "Mineralokortikoidrezeptor-Antagonisten, Diuretika, evtl. Antiarrhythmika",
+        "Digitalis (seltener wegen geringer therapeutischer Breite)",
+        "Phytotherapie: Weißdorn (nur bei leichter Herzinsuffizienz, begleitend zur ärztlichen Therapie)",
+        "Nur Schmerzmittel"
+      ],
+      "optionen_fa": [
+        "مهارکنندهٔ ACE یا سارتان‌ها",
+        "بتابلاکرها",
+        "آنتاگونیست‌های گیرندهٔ مینرالوکورتیکوئید، دیورتیک‌ها، در صورت لزوم داروهای ضدآریتمی",
+        "دیژیتال (کمتر، به‌دلیل محدودهٔ درمانی کم)",
+        "گیاه‌درمانی: زالزالک (فقط در نارسایی خفیف قلبی، به‌عنوان مکمل درمان پزشکی)",
+        "فقط مسکن"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "erklaerung": "Herzinsuffizienz-Medikamente: ACE-Hemmer oder Sartane, Beta-Blocker, Mineralokortikoidrezeptor-Antagonisten, Diuretika, evtl. Antiarrhythmika, Digitalis (wird aufgrund der geringen therapeutischen Breite deutlich seltener eingesetzt als früher). Phytotherapie: Weißdorn (nur bei leichter Herzinsuffizienz und nur begleitend zur ärztlichen Therapie!).",
+      "erklaerung_fa": "داروهای نارسایی قلبی: مهارکنندهٔ ACE یا سارتان‌ها، بتابلاکرها، آنتاگونیست‌های گیرندهٔ مینرالوکورتیکوئید، دیورتیک‌ها، در صورت لزوم داروهای ضدآریتمی، دیژیتال (به‌دلیل محدودهٔ درمانی کم، بسیار کمتر از گذشته استفاده می‌شود). گیاه‌درمانی: زالزالک (فقط در نارسایی خفیف قلبی و فقط به‌عنوان مکمل درمان پزشکی!).",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Herz",
+        "Herzinsuffizienz",
+        "Medikamente"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-044-05",
+      "kapitel": "Herz",
+      "thema": "Weißdorn - Phytotherapie",
+      "seite": 44,
+      "typ": "richtig_falsch",
+      "frage": "Weißdorn darf bei Herzinsuffizienz nur bei leichter Ausprägung und nur begleitend zur ärztlichen Therapie eingesetzt werden.",
+      "frage_fa": "زالزالک در نارسایی قلبی فقط در موارد خفیف و فقط به‌عنوان مکمل درمان پزشکی می‌تواند استفاده شود.",
+      "richtig": true,
+      "erklaerung": "RICHTIG - Weißdorn (Phytotherapie) darf bei Herzinsuffizienz nur bei leichter Ausprägung und nur begleitend zur ärztlichen Therapie eingesetzt werden. Er ersetzt keine schulmedizinische Behandlung - gerade für Heilpraktiker ein wichtiger Merksatz!",
+      "erklaerung_fa": "درست است — زالزالک (گیاه‌درمانی) در نارسایی قلبی فقط در موارد خفیف و فقط به‌عنوان مکمل درمان پزشکی می‌تواند استفاده شود. جایگزین درمان پزشکی رسمی نیست — به‌ویژه برای درمانگران یک نکتهٔ مهم!",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Herz",
+        "Weißdorn",
+        "Phytotherapie"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-044-06",
+      "kapitel": "Herz",
+      "thema": "Angeborene Herzfehler - Ätiologie",
+      "seite": 44,
+      "typ": "multiple_choice",
+      "frage": "Welche Ursachen haben angeborene Herzfehler?",
+      "frage_fa": "نقص‌های مادرزادی قلب چه علل‌هایی دارند؟",
+      "optionen": [
+        "Genetische Faktoren: z.B. Down-Syndrom, Turner-Syndrom",
+        "Noxen in der Schwangerschaft: z.B. Röteln, Diabetes mellitus, Alkohol, Medikamente",
+        "Ein Herzinfarkt im Erwachsenenalter",
+        "Rauchen erst nach der Geburt",
+        "Bluthochdruck im Alter"
+      ],
+      "optionen_fa": [
+        "عوامل ژنتیکی: مثلاً سندرم داون، سندرم ترنر",
+        "سموم در بارداری: مثلاً سرخجه، دیابت شیرین، الکل، داروها",
+        "یک سکتهٔ قلبی در بزرگسالی",
+        "سیگار کشیدن فقط پس از تولد",
+        "فشار خون بالا در سالمندی"
+      ],
+      "richtig": [
+        0,
+        1
+      ],
+      "erklaerung": "Angeborene Herzfehler - Ätiologie: genetische Faktoren (z.B. Down-Syndrom, Turner-Syndrom) und Noxen in der Schwangerschaft (z.B. Röteln, Diabetes mellitus, Alkohol, Medikamente). Sie sind angeboren, entstehen also NICHT durch Herzinfarkt, Rauchen oder Bluthochdruck im späteren Leben.",
+      "erklaerung_fa": "نقص‌های مادرزادی قلب — علت‌شناسی: عوامل ژنتیکی (مثلاً سندرم داون، سندرم ترنر) و سموم در بارداری (مثلاً سرخجه، دیابت شیرین، الکل، داروها). آن‌ها مادرزادی هستند، بنابراین به‌دلیل سکتهٔ قلبی، سیگار یا فشار خون در زندگی بعدی ایجاد نمی‌شوند.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Herz",
+        "angeborene Herzfehler",
+        "Ätiologie"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-044-07",
+      "kapitel": "Herz",
+      "thema": "Angeborene Herzfehler - Liste",
+      "seite": 44,
+      "typ": "multiple_choice",
+      "frage": "Welche angeborenen Herzfehler gibt es?",
+      "frage_fa": "چه نقص‌های مادرزادی قلبی وجود دارد؟",
+      "optionen": [
+        "Kammerseptumdefekt (VSD), Vorhofseptumdefekt (ASD)",
+        "Pulmonalklappenstenose, offener Ductus arteriosus Botalli",
+        "Aortenbogenanomalien, Aortenisthmusstenose",
+        "Fallot'sche Tetralogie, Transposition der großen Gefäße",
+        "Herzinfarkt und Angina pectoris"
+      ],
+      "optionen_fa": [
+        "نقص سپتوم بطنی (VSD)، نقص سپتوم دهلیزی (ASD)",
+        "تنگی دریچهٔ ریوی، مجرای شریانی باز (داکتوس آرتریوزوس بوتالی)",
+        "ناهنجاری‌های قوس آئورت، تنگی تنگهٔ آئورت",
+        "تترالوژی فالو، جابه‌جایی عروق بزرگ",
+        "سکتهٔ قلبی و آنژین صدری"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Angeborene Herzfehler: Kammerseptumdefekt (VSD), Vorhofseptumdefekt (ASD), Pulmonalklappenstenose, offener Ductus arteriosus Botalli, Aortenbogenanomalien/Aortenisthmusstenose, Fallot'sche Tetralogie, Transposition der großen Gefäße. Herzinfarkt und Angina pectoris sind KEINE angeborenen Herzfehler (sie sind erworben).",
+      "erklaerung_fa": "نقص‌های مادرزادی قلب: نقص سپتوم بطنی (VSD)، نقص سپتوم دهلیزی (ASD)، تنگی دریچهٔ ریوی، مجرای شریانی باز (بوتالی)، ناهنجاری‌های قوس آئورت/تنگی تنگهٔ آئورت، تترالوژی فالو، جابه‌جایی عروق بزرگ. سکتهٔ قلبی و آنژین صدری نقص مادرزادی نیستند (اکتسابی‌اند).",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Herz",
+        "angeborene Herzfehler"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-044-08",
+      "kapitel": "Herz",
+      "thema": "Shunt - Definition",
+      "seite": 44,
+      "typ": "multiple_choice",
+      "frage": "Was ist ein Shunt?",
+      "frage_fa": "شانت چیست؟",
+      "optionen": [
+        "Das Blut nimmt einen verkürzten 'falschen' Weg: Links-Rechts-Shunt = Blut fließt direkt vom linken ins rechte Herz",
+        "Rechts-Links-Shunt = Blut fließt vom rechten ins linke Herz mit Umgehung der Lunge",
+        "Die Fließrichtung geht vom Ort höheren Drucks zum Ort niedrigeren Drucks",
+        "Eine Shuntumkehr ist möglich",
+        "Ein Shunt ist immer eine Herzklappenentzündung"
+      ],
+      "optionen_fa": [
+        "خون مسیر کوتاه‌شدهٔ «اشتباه» را طی می‌کند: شانت چپ-به-راست = خون مستقیماً از قلب چپ به راست جریان می‌یابد",
+        "شانت راست-به-چپ = خون از قلب راست به چپ با دور زدن ریه جریان می‌یابد",
+        "جهت جریان از محل فشار بالاتر به محل فشار پایین‌تر است",
+        "برگشت شانت ممکن است",
+        "شانت همیشه التهاب دریچهٔ قلب است"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Shunt: Das Blut nimmt einen verkürzten 'falschen' Weg. Links-Rechts-Shunt = Blut fließt direkt vom linken ins rechte Herz. Rechts-Links-Shunt = vom rechten ins linke Herz mit Umgehung der Lunge. Die Fließrichtung geht vom Ort höheren Drucks zum Ort niedrigeren Drucks; eine Shuntumkehr ist möglich.",
+      "erklaerung_fa": "شانت: خون مسیر کوتاه‌شدهٔ «اشتباه» را طی می‌کند. شانت چپ-به-راست = خون مستقیماً از قلب چپ به راست. شانت راست-به-چپ = از قلب راست به چپ با دور زدن ریه. جهت جریان از محل فشار بالاتر به محل فشار پایین‌تر است؛ برگشت شانت ممکن است.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Herz",
+        "Shunt"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-044-09",
+      "kapitel": "Herz",
+      "thema": "Shunt - Einteilung",
+      "seite": 44,
+      "typ": "multiple_choice",
+      "frage": "Wie werden die angeborenen Herzfehler nach Shunt eingeteilt?",
+      "frage_fa": "نقص‌های مادرزادی قلب بر اساس شانت چگونه دسته‌بندی می‌شوند؟",
+      "optionen": [
+        "Herzfehler OHNE Shunt (20-30%): Pulmonalklappenstenose, Aortenklappenstenose, Aortenisthmusstenose, Anomalien Aortenbogen, Mitralklappenprolaps",
+        "Herzfehler MIT Links-Rechts-Shunt (50%): Vorhofseptumdefekt, Ventrikelseptumdefekt, offener Ductus arteriosus Botalli",
+        "Herzfehler MIT Rechts-Links-Shunt (20-30%): Fallot-Tetralogie, Transposition der großen Arterien",
+        "Alle Herzfehler haben einen Shunt",
+        "Es gibt keine Einteilung"
+      ],
+      "optionen_fa": [
+        "نقص‌های قلبی بدون شانت (۲۰ تا ۳۰٪): تنگی دریچهٔ ریوی، تنگی دریچهٔ آئورت، تنگی تنگهٔ آئورت، ناهنجاری‌های قوس آئورت، پرولاپس دریچهٔ میترال",
+        "نقص‌های قلبی با شانت چپ-به-راست (۵۰٪): نقص سپتوم دهلیزی، نقص سپتوم بطنی، مجرای شریانی باز بوتالی",
+        "نقص‌های قلبی با شانت راست-به-چپ (۲۰ تا ۳۰٪): تترالوژی فالو، جابه‌جایی شریان‌های بزرگ",
+        "همهٔ نقص‌های قلبی شانت دارند",
+        "دسته‌بندی وجود ندارد"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Einteilung nach Shunt: Herzfehler OHNE Shunt (20-30%): Pulmonalklappenstenose, Aortenklappenstenose, Aortenisthmusstenose, Anomalien Aortenbogen, Mitralklappenprolaps. MIT Links-Rechts-Shunt (50%): Vorhofseptumdefekt, Ventrikelseptumdefekt, offener Ductus arteriosus Botalli. MIT Rechts-Links-Shunt (20-30%): Fallot-Tetralogie, Transposition der großen Arterien.",
+      "erklaerung_fa": "دسته‌بندی بر اساس شانت: نقص بدون شانت (۲۰ تا ۳۰٪): تنگی دریچهٔ ریوی، تنگی دریچهٔ آئورت، تنگی تنگهٔ آئورت، ناهنجاری‌های قوس آئورت، پرولاپس دریچهٔ میترال. با شانت چپ-به-راست (۵۰٪): نقص سپتوم دهلیزی، نقص سپتوم بطنی، مجرای شریانی باز بوتالی. با شانت راست-به-چپ (۲۰ تا ۳۰٪): تترالوژی فالو، جابه‌جایی شریان‌های بزرگ.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Herz",
+        "Shunt",
+        "Einteilung"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-044-10",
+      "kapitel": "Herz",
+      "thema": "Links-Rechts-Shunt häufigste",
+      "seite": 44,
+      "typ": "single_choice",
+      "frage": "Welche Shunt-Art ist bei den angeborenen Herzfehlern am häufigsten (50%)?",
+      "frage_fa": "کدام نوع شانت در نقص‌های مادرزادی قلب شایع‌ترین است (۵۰٪)؟",
+      "optionen": [
+        "Herzfehler ohne Shunt",
+        "Herzfehler mit Links-Rechts-Shunt (z.B. VSD, ASD, offener Ductus arteriosus Botalli)",
+        "Herzfehler mit Rechts-Links-Shunt",
+        "Es gibt keinen häufigsten Shunt",
+        "Alle sind gleich häufig"
+      ],
+      "optionen_fa": [
+        "نقص قلبی بدون شانت",
+        "نقص قلبی با شانت چپ-به-راست (مثلاً VSD، ASD، مجرای شریانی باز بوتالی)",
+        "نقص قلبی با شانت راست-به-چپ",
+        "شایع‌ترین شانتی وجود ندارد",
+        "همه به یک اندازه شایع‌اند"
+      ],
+      "richtig": 1,
+      "erklaerung": "Am häufigsten (50%) sind die Herzfehler mit Links-Rechts-Shunt: Vorhofseptumdefekt (ASD), Ventrikelseptumdefekt (VSD) und offener Ductus arteriosus Botalli. Herzfehler ohne Shunt und mit Rechts-Links-Shunt machen jeweils 20-30% aus.",
+      "erklaerung_fa": "شایع‌ترین (۵۰٪) نقص‌های قلبی با شانت چپ-به-راست هستند: نقص سپتوم دهلیزی (ASD)، نقص سپتوم بطنی (VSD) و مجرای شریانی باز بوتالی. نقص بدون شانت و با شانت راست-به-چپ هرکدام ۲۰ تا ۳۰٪ را تشکیل می‌دهند.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Herz",
+        "Shunt",
+        "Links-Rechts"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-044-F1",
+      "kapitel": "Herz",
+      "thema": "Herzinsuffizienz-Therapie - Fallbeispiel",
+      "seite": 44,
+      "typ": "fallbeispiel",
+      "fallbeschreibung": "Ein Heilpraktiker wird von einem Patienten mit leichter Herzinsuffizienz (NYHA II) gefragt, ob er ihm ein pflanzliches Mittel gegen seine Herzschwäche geben kann. Der Patient ist bereits ärztlich mit ACE-Hemmer und Beta-Blocker eingestellt.",
+      "fallbeschreibung_fa": "یک درمانگر توسط بیماری با نارسایی خفیف قلبی (NYHA II) پرسیده می‌شود که آیا می‌تواند به او یک داروی گیاهی برای ضعف قلبش بدهد. بیمار از پیش تحت درمان پزشکی با مهارکنندهٔ ACE و بتابلاکر است.",
+      "frage": "Wie sollte der Heilpraktiker vorgehen?",
+      "frage_fa": "درمانگر چگونه باید عمل کند؟",
+      "optionen": [
+        "Die ärztlichen Medikamente absetzen und nur Weißdorn geben",
+        "Weißdorn kann nur BEGLEITEND zur ärztlichen Therapie und nur bei leichter Herzinsuffizienz gegeben werden - die ärztliche Behandlung wird fortgesetzt",
+        "Gar nichts tun",
+        "Sofort hohe Dosen Digitalis geben",
+        "Die Trinkmenge stark erhöhen"
+      ],
+      "optionen_fa": [
+        "داروهای پزشکی را قطع کند و فقط زالزالک بدهد",
+        "زالزالک فقط به‌عنوان مکمل درمان پزشکی و فقط در نارسایی خفیف قلبی می‌تواند داده شود — درمان پزشکی ادامه می‌یابد",
+        "اصلاً کاری نکند",
+        "فوراً دوزهای بالای دیژیتال بدهد",
+        "مقدار نوشیدنی را به‌شدت افزایش دهد"
+      ],
+      "richtig": 1,
+      "erklaerung": "Weißdorn (Phytotherapie) darf nur BEGLEITEND zur ärztlichen Therapie und nur bei leichter Herzinsuffizienz eingesetzt werden. Der Heilpraktiker darf keinesfalls die ärztlichen Medikamente (ACE-Hemmer, Beta-Blocker) absetzen - die schulmedizinische Behandlung wird fortgesetzt, Weißdorn kann nur unterstützend ergänzt werden.",
+      "erklaerung_fa": "زالزالک (گیاه‌درمانی) فقط به‌عنوان مکمل درمان پزشکی و فقط در نارسایی خفیف قلبی می‌تواند استفاده شود. درمانگر به‌هیچ‌وجه نباید داروهای پزشکی (مهارکنندهٔ ACE، بتابلاکر) را قطع کند — درمان پزشکی ادامه می‌یابد، زالزالک فقط می‌تواند به‌عنوان حمایتی اضافه شود.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Herz",
+        "Weißdorn",
+        "Fallbeispiel"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-045-01",
+      "kapitel": "Herz",
+      "thema": "Vorhofseptumdefekt (ASD) - Definition",
+      "seite": 45,
+      "typ": "single_choice",
+      "frage": "Was ist ein Vorhofseptumdefekt (ASD)?",
+      "frage_fa": "نقص سپتوم دهلیزی (ASD) چیست؟",
+      "optionen": [
+        "Ein Loch zwischen linker und rechter Herzkammer",
+        "Eine offene Verbindung zwischen rechtem und linkem Vorhof → Links-Rechts-Shunt durch erhöhten Druck im linken Vorhof",
+        "Eine Herzklappenentzündung",
+        "Ein Verschluss der Herzkranzgefäße",
+        "Eine Erkrankung der Herzhinterwand"
+      ],
+      "optionen_fa": [
+        "سوراخی بین بطن چپ و راست قلب",
+        "یک ارتباط باز بین دهلیز راست و چپ ← شانت چپ-به-راست به‌دلیل افزایش فشار در دهلیز چپ",
+        "التهاب دریچهٔ قلب",
+        "انسداد عروق کرونر",
+        "بیماری دیوارهٔ خلفی قلب"
+      ],
+      "richtig": 1,
+      "erklaerung": "Vorhofseptumdefekt (ASD) = offene Verbindung zwischen rechtem und linkem Vorhof → Links-Rechts-Shunt durch den erhöhten Druck im linken Vorhof. Dadurch fehlt Blut im Körperkreislauf und es ist zu viel Blut im Lungenkreislauf. Oftmals kommt es zum Spontanverschluss bis zum 6. Lebensjahr.",
+      "erklaerung_fa": "نقص سپتوم دهلیزی (ASD) = ارتباط باز بین دهلیز راست و چپ ← شانت چپ-به-راست به‌دلیل افزایش فشار در دهلیز چپ. در نتیجه خون در گردش خون بدن کم و در گردش خون ریوی زیاد است. اغلب تا ۶ سالگی بسته‌شدن خودبه‌خودی رخ می‌دهد.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Herz",
+        "ASD",
+        "Definition"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-045-02",
+      "kapitel": "Herz",
+      "thema": "ASD - Eisenmenger-Reaktion",
+      "seite": 45,
+      "typ": "multiple_choice",
+      "frage": "Wie entsteht die Eisenmenger-Reaktion beim Vorhofseptumdefekt?",
+      "frage_fa": "واکنش آیزنمنگر در نقص سپتوم دهلیزی چگونه ایجاد می‌شود؟",
+      "optionen": [
+        "Zu viel Blut im Lungenkreislauf → Eisenmenger-Reaktion → pulmonale Hypertonie",
+        "Pulmonale Hypertonie → erhöhte Rechtsherzbelastung → Rechtsherzhypertrophie",
+        "Shuntumkehr durch erhöhten Druck im rechten Herzen",
+        "Der Blutzucker steigt an",
+        "Die Schilddrüse wird überaktiv"
+      ],
+      "optionen_fa": [
+        "خون بیش از حد در گردش خون ریوی ← واکنش آیزنمنگر ← فشار خون ریوی",
+        "فشار خون ریوی ← افزایش فشار بر قلب راست ← هیپرتروفی قلب راست",
+        "برگشت شانت به‌دلیل افزایش فشار در قلب راست",
+        "قند خون افزایش می‌یابد",
+        "تیروئید پرکار می‌شود"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Eisenmenger-Reaktion beim ASD: Durch den Links-Rechts-Shunt ist zu viel Blut im Lungenkreislauf → Eisenmenger-Reaktion → pulmonale Hypertonie → erhöhte Rechtsherzbelastung → Rechtsherzhypertrophie → schließlich Shuntumkehr durch den erhöhten Druck im rechten Herzen (aus dem Links-Rechts-Shunt wird ein Rechts-Links-Shunt).",
+      "erklaerung_fa": "واکنش آیزنمنگر در ASD: به‌دلیل شانت چپ-به-راست، خون بیش از حد در گردش خون ریوی است ← واکنش آیزنمنگر ← فشار خون ریوی ← افزایش فشار بر قلب راست ← هیپرتروفی قلب راست ← سرانجام برگشت شانت به‌دلیل افزایش فشار در قلب راست (شانت چپ-به-راست به راست-به-چپ تبدیل می‌شود).",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Herz",
+        "ASD",
+        "Eisenmenger"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-045-03",
+      "kapitel": "Herz",
+      "thema": "ASD - Ätiologie (Foramen ovale)",
+      "seite": 45,
+      "typ": "multiple_choice",
+      "frage": "Welche Ätiologie hat der Vorhofseptumdefekt?",
+      "frage_fa": "نقص سپتوم دهلیزی چه علت‌شناسی‌ای دارد؟",
+      "optionen": [
+        "Angeborene Fehlbildung",
+        "Persistierendes Foramen ovale (im fetalen Kreislauf physiologische Öffnung für den Blutübertritt vom rechten in den linken Vorhof)",
+        "Das Foramen ovale schließt sich physiologisch innerhalb der ersten Lebenstage",
+        "Ein Herzinfarkt im Erwachsenenalter",
+        "Rauchen im Erwachsenenalter"
+      ],
+      "optionen_fa": [
+        "ناهنجاری مادرزادی",
+        "سوراخ بیضی پایدار (در گردش خون جنینی، سوراخ فیزیولوژیک برای عبور خون از دهلیز راست به چپ)",
+        "سوراخ بیضی به‌طور فیزیولوژیک در طول اولین روزهای زندگی بسته می‌شود",
+        "یک سکتهٔ قلبی در بزرگسالی",
+        "سیگار کشیدن در بزرگسالی"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "ASD-Ätiologie: angeborene Fehlbildung. Ursache ist ein persistierendes (offen bleibendes) Foramen ovale - im fetalen Kreislauf ist dies eine physiologische Öffnung für den Blutübertritt vom rechten in den linken Vorhof (die Lunge wird umgangen). Normalerweise schließt sich das Foramen ovale physiologisch innerhalb der ersten Lebenstage.",
+      "erklaerung_fa": "علت‌شناسی ASD: ناهنجاری مادرزادی. علت، سوراخ بیضی پایدار (باقی‌ماندهٔ باز) است — در گردش خون جنینی این یک سوراخ فیزیولوژیک برای عبور خون از دهلیز راست به چپ است (ریه دور زده می‌شود). معمولاً سوراخ بیضی به‌طور فیزیولوژیک در طول اولین روزهای زندگی بسته می‌شود.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Herz",
+        "ASD",
+        "Foramen ovale"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-045-04",
+      "kapitel": "Herz",
+      "thema": "ASD - Klinik",
+      "seite": 45,
+      "typ": "multiple_choice",
+      "frage": "Welche Klinik zeigt der Vorhofseptumdefekt?",
+      "frage_fa": "نقص سپتوم دهلیزی چه تصویر بالینی‌ای نشان می‌دهد؟",
+      "optionen": [
+        "Kleine Defekte oft beschwerdefrei",
+        "Größere Defekte: Leistungsminderung, Schwäche, Blässe, Dyspnoe, Zyanose, Polyglobulie",
+        "Herzrhythmusstörungen, Symptome der Rechtsherzinsuffizienz",
+        "Neigung zu bronchopulmonalen Infekten",
+        "Immer völlige Beschwerdefreiheit bei jedem Defekt"
+      ],
+      "optionen_fa": [
+        "نقص‌های کوچک اغلب بدون علامت",
+        "نقص‌های بزرگ‌تر: کاهش توان، ضعف، رنگ‌پریدگی، تنگی نفس، سیانوز، پلی‌گلوبولی",
+        "اختلالات ریتم قلب، علائم نارسایی قلب راست",
+        "تمایل به عفونت‌های برونش-ریوی",
+        "همیشه فقدان کامل شکایات در هر نقصی"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "ASD-Klinik: kleine Defekte sind oft beschwerdefrei. Größere Defekte: Leistungsminderung, Schwäche, Blässe, Dyspnoe, Zyanose, Polyglobulie (Vermehrung roter Blutkörperchen), Herzrhythmusstörungen, Symptome der Rechtsherzinsuffizienz, Neigung zu bronchopulmonalen Infekten.",
+      "erklaerung_fa": "تصویر بالینی ASD: نقص‌های کوچک اغلب بدون علامت هستند. نقص‌های بزرگ‌تر: کاهش توان، ضعف، رنگ‌پریدگی، تنگی نفس، سیانوز، پلی‌گلوبولی (افزایش گلبول‌های قرمز)، اختلالات ریتم قلب، علائم نارسایی قلب راست، تمایل به عفونت‌های برونش-ریوی.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Herz",
+        "ASD",
+        "Klinik"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-045-05",
+      "kapitel": "Herz",
+      "thema": "ASD - Diagnostik/Therapie",
+      "seite": 45,
+      "typ": "multiple_choice",
+      "frage": "Wie werden Diagnostik und Therapie beim Vorhofseptumdefekt durchgeführt?",
+      "frage_fa": "تشخیص و درمان در نقص سپتوم دهلیزی چگونه انجام می‌شود؟",
+      "optionen": [
+        "Diagnostik: gespaltener 2. Herzton",
+        "Diagnostik: Systolikum im 2. ICR (Interkostalraum) parasternal links",
+        "Therapie: wenn nötig operativer Verschluss",
+        "Therapie: immer nur abwarten, nie operieren",
+        "Diagnostik: nur Blutzuckermessung"
+      ],
+      "optionen_fa": [
+        "تشخیص: صدای دوم قلب دوشاخه",
+        "تشخیص: سوفل سیستولیک در دومین فضای بین‌دنده‌ای، کنار جناغ سمت چپ",
+        "درمان: در صورت نیاز بستن جراحی",
+        "درمان: همیشه فقط انتظار، هرگز جراحی نه",
+        "تشخیص: فقط اندازه‌گیری قند خون"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "ASD-Diagnostik: gespaltener 2. Herzton, Systolikum im 2. ICR (Interkostalraum/Zwischenrippenraum) parasternal links. Therapie: wenn nötig operativer Verschluss des Defekts.",
+      "erklaerung_fa": "تشخیص ASD: صدای دوم قلب دوشاخه، سوفل سیستولیک در دومین فضای بین‌دنده‌ای کنار جناغ سمت چپ. درمان: در صورت نیاز بستن جراحی نقص.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Herz",
+        "ASD",
+        "Therapie"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-045-06",
+      "kapitel": "Herz",
+      "thema": "Kammerseptumdefekt (VSD) - Definition",
+      "seite": 45,
+      "typ": "single_choice",
+      "frage": "Was ist ein Kammerseptumdefekt (VSD)?",
+      "frage_fa": "نقص سپتوم بطنی (VSD) چیست؟",
+      "optionen": [
+        "Eine offene Verbindung zwischen rechter und linker Kammer → Links-Rechts-Shunt durch erhöhten Druck in der linken Kammer",
+        "Ein Loch zwischen den Vorhöfen",
+        "Eine Herzklappenentzündung",
+        "Ein Verschluss der Aorta",
+        "Eine Schilddrüsenerkrankung"
+      ],
+      "optionen_fa": [
+        "یک ارتباط باز بین بطن راست و چپ ← شانت چپ-به-راست به‌دلیل افزایش فشار در بطن چپ",
+        "سوراخی بین دهلیزها",
+        "التهاب دریچهٔ قلب",
+        "انسداد آئورت",
+        "بیماری تیروئید"
+      ],
+      "richtig": 0,
+      "erklaerung": "Kammerseptumdefekt (VSD) = offene Verbindung zwischen rechter und linker Kammer → Links-Rechts-Shunt durch den erhöhten Druck in der linken Kammer. Dadurch fehlt Blut im Körperkreislauf und es ist zu viel Blut im Lungenkreislauf. Der VSD ist der häufigste angeborene Herzfehler! Oftmals Spontanverschluss bis zum 7. Lebensjahr.",
+      "erklaerung_fa": "نقص سپتوم بطنی (VSD) = ارتباط باز بین بطن راست و چپ ← شانت چپ-به-راست به‌دلیل افزایش فشار در بطن چپ. در نتیجه خون در گردش خون بدن کم و در گردش خون ریوی زیاد است. VSD شایع‌ترین نقص مادرزادی قلب است! اغلب تا ۷ سالگی بسته‌شدن خودبه‌خودی رخ می‌دهد.",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Herz",
+        "VSD",
+        "Definition"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-045-07",
+      "kapitel": "Herz",
+      "thema": "VSD - häufigster Herzfehler",
+      "seite": 45,
+      "typ": "richtig_falsch",
+      "frage": "Der Kammerseptumdefekt (VSD) ist der häufigste angeborene Herzfehler.",
+      "frage_fa": "نقص سپتوم بطنی (VSD) شایع‌ترین نقص مادرزادی قلب است.",
+      "richtig": true,
+      "erklaerung": "RICHTIG - Der Kammerseptumdefekt (VSD) ist der häufigste angeborene Herzfehler. Oftmals kommt es zum Spontanverschluss bis zum 7. Lebensjahr.",
+      "erklaerung_fa": "درست است — نقص سپتوم بطنی (VSD) شایع‌ترین نقص مادرزادی قلب است. اغلب تا ۷ سالگی بسته‌شدن خودبه‌خودی رخ می‌دهد.",
+      "schwierigkeit": "leicht",
+      "tags": [
+        "Herz",
+        "VSD",
+        "Häufigkeit"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-045-08",
+      "kapitel": "Herz",
+      "thema": "VSD - Ätiologie",
+      "seite": 45,
+      "typ": "multiple_choice",
+      "frage": "Welche Ätiologie hat der Kammerseptumdefekt?",
+      "frage_fa": "نقص سپتوم بطنی چه علت‌شناسی‌ای دارد؟",
+      "optionen": [
+        "Meist angeborene Entwicklungsstörung",
+        "Evtl. erworben nach Herzinfarkt oder Trauma",
+        "Immer nur durch Rauchen",
+        "Durch Kaliummangel",
+        "Durch eine Schilddrüsenüberfunktion"
+      ],
+      "optionen_fa": [
+        "اغلب اختلال رشدی مادرزادی",
+        "احتمالاً اکتسابی پس از سکتهٔ قلبی یا تروما",
+        "همیشه فقط به‌دلیل سیگار",
+        "به‌دلیل کمبود پتاسیم",
+        "به‌دلیل پرکاری تیروئید"
+      ],
+      "richtig": [
+        0,
+        1
+      ],
+      "erklaerung": "VSD-Ätiologie: meist angeborene Entwicklungsstörung. Evtl. auch erworben nach einem Herzinfarkt oder Trauma (z.B. wenn nach einem Infarkt die Kammerscheidewand einreißt).",
+      "erklaerung_fa": "علت‌شناسی VSD: اغلب اختلال رشدی مادرزادی. احتمالاً اکتسابی پس از سکتهٔ قلبی یا تروما (مثلاً وقتی پس از سکته، دیوارهٔ بین‌بطنی پاره می‌شود).",
+      "schwierigkeit": "mittel",
+      "tags": [
+        "Herz",
+        "VSD",
+        "Ätiologie"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-045-09",
+      "kapitel": "Herz",
+      "thema": "VSD - Klinik",
+      "seite": 45,
+      "typ": "multiple_choice",
+      "frage": "Welche Klinik zeigt der Kammerseptumdefekt?",
+      "frage_fa": "نقص سپتوم بطنی چه تصویر بالینی‌ای نشان می‌دهد؟",
+      "optionen": [
+        "Kleiner VSD häufig asymptomatisch",
+        "Mittelgroßer bis großer VSD: Wachstums-/Entwicklungsverzögerung, Leistungsminderung, Schwäche, Belastungsdyspnoe, Neigung zu bronchopulmonalen Infekten, Herzrhythmusstörungen/Herzinsuffizienz",
+        "Eisenmenger-VSD: Zyanose, Leistungsminderung, Dyspnoe, Herzrhythmusstörungen, Synkopen + Symptome der Rechtsherzinsuffizienz",
+        "Jeder VSD ist immer beschwerdefrei",
+        "Ein VSD verursacht nur Kopfschmerzen"
+      ],
+      "optionen_fa": [
+        "VSD کوچک اغلب بدون علامت",
+        "VSD متوسط تا بزرگ: تأخیر رشد/تکامل، کاهش توان، ضعف، تنگی نفس هنگام فعالیت، تمایل به عفونت‌های برونش-ریوی، اختلالات ریتم قلب/نارسایی قلبی",
+        "VSD آیزنمنگر: سیانوز، کاهش توان، تنگی نفس، اختلالات ریتم قلب، سنکوپ + علائم نارسایی قلب راست",
+        "هر VSD همیشه بدون علامت است",
+        "VSD فقط سردرد ایجاد می‌کند"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "VSD-Klinik: kleiner VSD häufig asymptomatisch. Mittelgroßer bis großer VSD: Wachstums-/Entwicklungsverzögerung, Leistungsminderung, Schwäche, Belastungsdyspnoe, Neigung zu bronchopulmonalen Infekten, Herzrhythmusstörungen/Herzinsuffizienz. Eisenmenger-VSD (nach Shuntumkehr): Zyanose, Leistungsminderung, Dyspnoe, Herzrhythmusstörungen, Synkopen + Symptome der Rechtsherzinsuffizienz.",
+      "erklaerung_fa": "تصویر بالینی VSD: VSD کوچک اغلب بدون علامت. VSD متوسط تا بزرگ: تأخیر رشد/تکامل، کاهش توان، ضعف، تنگی نفس هنگام فعالیت، تمایل به عفونت‌های برونش-ریوی، اختلالات ریتم قلب/نارسایی قلبی. VSD آیزنمنگر (پس از برگشت شانت): سیانوز، کاهش توان، تنگی نفس، اختلالات ریتم قلب، سنکوپ + علائم نارسایی قلب راست.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Herz",
+        "VSD",
+        "Klinik"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-045-10",
+      "kapitel": "Herz",
+      "thema": "VSD - Diagnostik/Therapie",
+      "seite": 45,
+      "typ": "multiple_choice",
+      "frage": "Wie werden Diagnostik und Therapie beim Kammerseptumdefekt durchgeführt?",
+      "frage_fa": "تشخیص و درمان در نقص سپتوم بطنی چگونه انجام می‌شود؟",
+      "optionen": [
+        "Inspektion: Herzbuckel, evtl. Zyanose mit Uhrglasnägeln/Trommelschlägelfingern und Polyglobulie",
+        "Palpation: Schwirren am linken unteren Sternumrand, verlagerter Herzspitzenstoß nach unten/außen",
+        "Auskultation: Systolikum 3.-4. ICR links parasternal (wird mit zunehmender Defektgröße leiser), gespaltener 2. Herzton",
+        "EKG, Röntgen, Echokardiografie, Herzkatheter",
+        "Therapie: Endokarditis-Prophylaxe, operativer VSD-Verschluss",
+        "Therapie: nur Blutzuckersenkung"
+      ],
+      "optionen_fa": [
+        "معاینه: برجستگی قفسهٔ سینه، احتمالاً سیانوز همراه با ناخن‌های ساعت‌شنی/انگشتان چماقی و پلی‌گلوبولی",
+        "لمس: لرزش در لبهٔ پایینی چپ جناغ، ضربهٔ نوک قلب جابه‌جاشده به پایین/خارج",
+        "سمع: سوفل سیستولیک در سومین تا چهارمین فضای بین‌دنده‌ای چپ کنار جناغ (با افزایش اندازهٔ نقص آهسته‌تر می‌شود)، صدای دوم قلب دوشاخه",
+        "نوار قلب، رادیوگرافی، اکوکاردیوگرافی، کاتتر قلب",
+        "درمان: پیشگیری از اندوکاردیت، بستن جراحی VSD",
+        "درمان: فقط کاهش قند خون"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "erklaerung": "VSD-Diagnostik: Inspektion (Herzbuckel, evtl. Zyanose mit Uhrglasnägeln/Trommelschlägelfingern und Polyglobulie), Palpation (Schwirren am linken unteren Sternumrand, verlagerter Herzspitzenstoß nach unten/außen), Auskultation (Systolikum 3.-4. ICR links parasternal, wird mit zunehmender Defektgröße leiser; gespaltener 2. Herzton), EKG/Röntgen/Echokardiografie/Herzkatheter. Therapie: Endokarditis-Prophylaxe, operativer VSD-Verschluss.",
+      "erklaerung_fa": "تشخیص VSD: معاینه (برجستگی قفسهٔ سینه، احتمالاً سیانوز همراه با ناخن‌های ساعت‌شنی/انگشتان چماقی و پلی‌گلوبولی)، لمس (لرزش در لبهٔ پایینی چپ جناغ، ضربهٔ نوک قلب جابه‌جاشده به پایین/خارج)، سمع (سوفل سیستولیک در سومین تا چهارمین فضای بین‌دنده‌ای چپ کنار جناغ، با افزایش اندازهٔ نقص آهسته‌تر می‌شود؛ صدای دوم قلب دوشاخه)، نوار قلب/رادیوگرافی/اکوکاردیوگرافی/کاتتر قلب. درمان: پیشگیری از اندوکاردیت، بستن جراحی VSD.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Herz",
+        "VSD",
+        "Diagnostik",
+        "Therapie"
+      ],
+      "pruefungsrelevanz": "hoch"
+    },
+    {
+      "id": "HRZ-045-F1",
+      "kapitel": "Herz",
+      "thema": "Septumdefekt - Fallbeispiel",
+      "seite": 45,
+      "typ": "fallbeispiel",
+      "fallbeschreibung": "Bei einem Säugling fällt bei der Vorsorgeuntersuchung ein lautes Systolikum am linken unteren Sternumrand auf. Das Kind bleibt im Wachstum zurück, ist bei Belastung (Trinken) schnell erschöpft und hat wiederholt bronchopulmonale Infekte. Im Herzkatheter zeigt sich eine offene Verbindung zwischen den beiden Herzkammern.",
+      "fallbeschreibung_fa": "در یک نوزاد، در معاینهٔ غربالگری یک سوفل سیستولیک بلند در لبهٔ پایینی چپ جناغ به گوش می‌رسد. کودک در رشد عقب می‌ماند، هنگام فعالیت (نوشیدن) سریع خسته می‌شود و به‌طور مکرر عفونت‌های برونش-ریوی دارد. در کاتتر قلب، یک ارتباط باز بین دو بطن قلب دیده می‌شود.",
+      "frage": "Welcher angeborene Herzfehler liegt am wahrscheinlichsten vor?",
+      "frage_fa": "کدام نقص مادرزادی قلب محتمل‌ترین است؟",
+      "optionen": [
+        "Vorhofseptumdefekt (ASD)",
+        "Kammerseptumdefekt (VSD) - häufigster angeborener Herzfehler, Systolikum 3.-4. ICR links, Links-Rechts-Shunt",
+        "Ein Herzinfarkt",
+        "Eine Angina pectoris",
+        "Eine Aortenisthmusstenose ohne Shunt"
+      ],
+      "optionen_fa": [
+        "نقص سپتوم دهلیزی (ASD)",
+        "نقص سپتوم بطنی (VSD) — شایع‌ترین نقص مادرزادی قلب، سوفل سیستولیک در سومین تا چهارمین فضای بین‌دنده‌ای چپ، شانت چپ-به-راست",
+        "یک سکتهٔ قلبی",
+        "یک آنژین صدری",
+        "تنگی تنگهٔ آئورت بدون شانت"
+      ],
+      "richtig": 1,
+      "erklaerung": "Kammerseptumdefekt (VSD): Die offene Verbindung zwischen den beiden KAMMERN (nicht Vorhöfen) spricht für einen VSD - den häufigsten angeborenen Herzfehler. Typisch: Systolikum am linken unteren Sternumrand (3.-4. ICR links parasternal), Wachstums-/Entwicklungsverzögerung, Belastungsdyspnoe (schnelle Erschöpfung beim Trinken) und die Neigung zu bronchopulmonalen Infekten. Es besteht ein Links-Rechts-Shunt.",
+      "erklaerung_fa": "نقص سپتوم بطنی (VSD): ارتباط باز بین دو بطن (نه دهلیزها) به نفع VSD است — شایع‌ترین نقص مادرزادی قلب. مشخصه: سوفل سیستولیک در لبهٔ پایینی چپ جناغ (سومین تا چهارمین فضای بین‌دنده‌ای چپ کنار جناغ)، تأخیر رشد/تکامل، تنگی نفس هنگام فعالیت (خستگی سریع هنگام نوشیدن) و تمایل به عفونت‌های برونش-ریوی. یک شانت چپ-به-راست وجود دارد.",
+      "schwierigkeit": "schwer",
+      "tags": [
+        "Herz",
+        "VSD",
+        "Fallbeispiel"
+      ],
+      "pruefungsrelevanz": "hoch"
     }
   ],
   "vokabeln": [
@@ -24562,6 +26501,806 @@
       "beispiel": "Nitrospray wird sublingual (unter die Zunge) gegeben.",
       "beispiel_fa": "نیترات‌اسپری به‌صورت زیرزبانی تجویز می‌شود.",
       "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-HRZ-061",
+      "kapitel": "Herz",
+      "seite": 41,
+      "lateinisch": "Myokardinfarkt",
+      "deutsch": "Herzinfarkt (Absterben von Herzmuskelgewebe durch Gefäßverschluss)",
+      "deutsch_fa": "سکتهٔ قلبی (مرگ بافت عضلهٔ قلب به‌دلیل انسداد عروق)",
+      "wortart": "Substantiv (m)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "gr. mys = Muskel + kardia + lat. infarcire = hineinstopfen",
+      "eselsbruecke": "Myokard-Infarkt = Herzmuskel stirbt ab (Gefäß verstopft)",
+      "eselsbruecke_fa": "انفارکتوس میوکارد = عضلهٔ قلب می‌میرد (عروق مسدود می‌شود)",
+      "beispiel": "Der Myokardinfarkt entsteht durch Verschluss einer Koronararterie.",
+      "beispiel_fa": "انفارکتوس میوکارد به‌دلیل انسداد یک شریان کرونر ایجاد می‌شود.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-HRZ-062",
+      "kapitel": "Herz",
+      "seite": 41,
+      "lateinisch": "Nekrose",
+      "deutsch": "Absterben von Gewebe/Zellen",
+      "deutsch_fa": "مرگ بافت/سلول‌ها",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Pathologie",
+      "herkunft": "gr. nekros = tot",
+      "eselsbruecke": "Nekrose = Gewebe 'stirbt' ab (nekros = tot)",
+      "eselsbruecke_fa": "نکروز = بافت «می‌میرد» (nekros = مرده)",
+      "beispiel": "Beim Herzinfarkt entsteht eine Herzmuskelnekrose.",
+      "beispiel_fa": "در سکتهٔ قلبی، نکروز عضلهٔ قلب ایجاد می‌شود.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-HRZ-063",
+      "kapitel": "Herz",
+      "seite": 41,
+      "lateinisch": "irreversibel",
+      "deutsch": "Nicht rückgängig zu machen (bleibend)",
+      "deutsch_fa": "غیرقابل‌برگشت (ماندگار)",
+      "wortart": "Adjektiv",
+      "kategorie": "Medizinische Fachbegriffe",
+      "herkunft": "lat. in = nicht + reversibilis = umkehrbar",
+      "eselsbruecke": "Ir-Reversibel = NICHT umkehrbar (bleibt für immer)",
+      "eselsbruecke_fa": "Ir-Reversibel = غیرقابل‌برگشت (برای همیشه می‌ماند)",
+      "beispiel": "Die Herzmuskelnekrose beim Infarkt ist irreversibel.",
+      "beispiel_fa": "نکروز عضلهٔ قلب در سکته غیرقابل‌برگشت است.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-HRZ-064",
+      "kapitel": "Herz",
+      "seite": 41,
+      "lateinisch": "Plaque-Ruptur",
+      "deutsch": "Aufreißen einer arteriosklerotischen Ablagerung (löst Thrombus aus)",
+      "deutsch_fa": "پارگی یک رسوب آترواسکلروتیک (ترومبوز ایجاد می‌کند)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Pathophysiologie",
+      "herkunft": "frz. plaque = Platte + lat. ruptura = Bruch",
+      "eselsbruecke": "Plaque-Ruptur = Ablagerung 'platzt' → Blutgerinnsel verstopft das Gefäß",
+      "eselsbruecke_fa": "پارگی پلاک = رسوب «می‌ترکد» ← لختهٔ خون عروق را مسدود می‌کند",
+      "beispiel": "Die Plaque-Ruptur ist die häufigste Ursache des Herzinfarkts.",
+      "beispiel_fa": "پارگی پلاک شایع‌ترین علت سکتهٔ قلبی است.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-HRZ-065",
+      "kapitel": "Herz",
+      "seite": 41,
+      "lateinisch": "Embolus",
+      "deutsch": "Verschleppter Gefäßpfropf (z.B. Blutgerinnsel)",
+      "deutsch_fa": "لختهٔ منتقل‌شدهٔ عروقی (مثلاً لختهٔ خون)",
+      "wortart": "Substantiv (m)",
+      "kategorie": "Pathophysiologie",
+      "herkunft": "gr. embolos = Pfropf, Keil",
+      "eselsbruecke": "Embolus = 'wandernder Pfropf', der ein Gefäß verstopft",
+      "eselsbruecke_fa": "آمبولوس = «لختهٔ سرگردان» که عروق را مسدود می‌کند",
+      "beispiel": "Ein arterieller Embolus aus dem linken Herz kann einen Infarkt auslösen.",
+      "beispiel_fa": "یک آمبولی شریانی از قلب چپ می‌تواند سکته ایجاد کند.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-HRZ-066",
+      "kapitel": "Herz",
+      "seite": 41,
+      "lateinisch": "Vernichtungsschmerz",
+      "deutsch": "Extrem starker Schmerz mit Todesangst (typisch beim Herzinfarkt)",
+      "deutsch_fa": "درد بسیار شدید همراه با ترس از مرگ (معمول در سکتهٔ قلبی)",
+      "wortart": "Substantiv (m)",
+      "kategorie": "Symptom",
+      "herkunft": "dt. Vernichtung + Schmerz",
+      "eselsbruecke": "Vernichtungsschmerz = 'todbringender' Schmerz beim Infarkt",
+      "eselsbruecke_fa": "درد نابودکننده = درد «مرگبار» در سکته",
+      "beispiel": "Der Vernichtungsschmerz mit Todesangst ist typisch für den Herzinfarkt.",
+      "beispiel_fa": "درد نابودکننده همراه با ترس از مرگ برای سکتهٔ قلبی معمول است.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-HRZ-067",
+      "kapitel": "Herz",
+      "seite": 41,
+      "lateinisch": "Hinterwandinfarkt",
+      "deutsch": "Herzinfarkt der Herzhinterwand (oft atypische Beschwerden)",
+      "deutsch_fa": "سکتهٔ قلبی دیوارهٔ خلفی قلب (اغلب شکایات غیرمعمول)",
+      "wortart": "Substantiv (m)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "dt. Hinterwand + Infarkt",
+      "eselsbruecke": "Hinterwandinfarkt = Infarkt 'hinten' → oft Übelkeit statt Brustschmerz",
+      "eselsbruecke_fa": "سکتهٔ دیوارهٔ خلفی = سکته در «پشت» ← اغلب تهوع به‌جای درد قفسهٔ سینه",
+      "beispiel": "Der Hinterwandinfarkt äußert sich oft mit Übelkeit und Oberbauchbeschwerden.",
+      "beispiel_fa": "سکتهٔ دیوارهٔ خلفی اغلب با تهوع و شکایات بالای شکم بروز می‌کند.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-HRZ-068",
+      "kapitel": "Herz",
+      "seite": 41,
+      "lateinisch": "epigastrisch",
+      "deutsch": "Im Oberbauch (oberhalb des Nabels) gelegen",
+      "deutsch_fa": "واقع در بالای شکم (بالای ناف)",
+      "wortart": "Adjektiv",
+      "kategorie": "Anatomie",
+      "herkunft": "gr. epi = auf + gaster = Magen",
+      "eselsbruecke": "Epi-Gastrisch = über dem Magen (Oberbauch)",
+      "eselsbruecke_fa": "Epi-Gastrisch = بالای معده (بالای شکم)",
+      "beispiel": "Ein epigastrisches Druckgefühl kann auf einen Hinterwandinfarkt hinweisen.",
+      "beispiel_fa": "احساس فشار در ناحیهٔ اپی‌گاستر می‌تواند به سکتهٔ دیوارهٔ خلفی اشاره کند.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-HRZ-069",
+      "kapitel": "Herz",
+      "seite": 41,
+      "lateinisch": "stummer Infarkt",
+      "deutsch": "Herzinfarkt ohne typische Schmerzen (z.B. bei Diabetikern)",
+      "deutsch_fa": "سکتهٔ قلبی بدون درد معمول (مثلاً در دیابتی‌ها)",
+      "wortart": "Substantiv (m)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "dt. stumm + Infarkt",
+      "eselsbruecke": "Stummer Infarkt = Herzinfarkt 'ohne Schmerz-Alarm'",
+      "eselsbruecke_fa": "سکتهٔ خاموش = سکتهٔ قلبی «بدون هشدار درد»",
+      "beispiel": "Bei Diabetikern kann ein stummer Infarkt auftreten.",
+      "beispiel_fa": "در دیابتی‌ها می‌تواند سکتهٔ خاموش رخ دهد.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-HRZ-070",
+      "kapitel": "Herz",
+      "seite": 41,
+      "lateinisch": "Kammerflattern",
+      "deutsch": "Sehr schnelle, geordnete Kammererregung (200-350/min)",
+      "deutsch_fa": "تحریک بطنی بسیار سریع و منظم (200-350 در دقیقه)",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "dt. Kammer + flattern",
+      "eselsbruecke": "Kammerflattern = Kammer 'flattert' schnell → Vorstufe zum Kammerflimmern",
+      "eselsbruecke_fa": "فلاتر بطنی = بطن سریع «بال‌بال می‌زند» ← مرحلهٔ پیش از فیبریلاسیون بطنی",
+      "beispiel": "Kammerflattern kann als Komplikation des Herzinfarkts auftreten.",
+      "beispiel_fa": "فلاتر بطنی می‌تواند به‌عنوان عارضهٔ سکتهٔ قلبی رخ دهد.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-HRZ-071",
+      "kapitel": "Herz",
+      "seite": 42,
+      "lateinisch": "kardiogener Schock",
+      "deutsch": "Kreislaufversagen durch Pumpversagen des Herzens",
+      "deutsch_fa": "نارسایی گردش خون به‌دلیل نارسایی پمپاژ قلب",
+      "wortart": "Substantiv (m)",
+      "kategorie": "Notfall",
+      "herkunft": "gr. kardia = Herz + genes = verursachend",
+      "eselsbruecke": "Kardiogener Schock = Schock, weil das Herz nicht mehr pumpt",
+      "eselsbruecke_fa": "شوک کاردیوژنیک = شوک، زیرا قلب دیگر پمپ نمی‌کند",
+      "beispiel": "Der kardiogene Schock ist eine gefürchtete Komplikation des Herzinfarkts.",
+      "beispiel_fa": "شوک کاردیوژنیک یک عارضهٔ خطرناک سکتهٔ قلبی است.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-HRZ-072",
+      "kapitel": "Herz",
+      "seite": 42,
+      "lateinisch": "Herzwandaneurysma",
+      "deutsch": "Aussackung der Herzwand (nach Infarkt)",
+      "deutsch_fa": "برجستگی کیسه‌مانند دیوارهٔ قلب (پس از سکته)",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "dt. Herzwand + gr. aneurysma = Erweiterung",
+      "eselsbruecke": "Herzwand-Aneurysma = 'Ausbeulung' der geschwächten Herzwand",
+      "eselsbruecke_fa": "آنوریسم دیوارهٔ قلب = «برجستگی» دیوارهٔ ضعیف‌شدهٔ قلب",
+      "beispiel": "Ein Herzwandaneurysma kann nach einem Infarkt entstehen.",
+      "beispiel_fa": "آنوریسم دیوارهٔ قلب می‌تواند پس از سکته ایجاد شود.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-HRZ-073",
+      "kapitel": "Herz",
+      "seite": 42,
+      "lateinisch": "Papillarmuskelabriss",
+      "deutsch": "Abriss der Muskeln, die die Segelklappen halten",
+      "deutsch_fa": "پارگی عضلاتی که دریچه‌های بادبانی را نگه می‌دارند",
+      "wortart": "Substantiv (m)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "lat. papilla = Warze + Muskel + Abriss",
+      "eselsbruecke": "Papillarmuskel = hält die Klappen; reißt er ab → Klappe undicht",
+      "eselsbruecke_fa": "عضلهٔ پاپیلاری = دریچه‌ها را نگه می‌دارد؛ اگر پاره شود ← دریچه نشت می‌کند",
+      "beispiel": "Ein Papillarmuskelabriss ist eine schwere Infarktkomplikation.",
+      "beispiel_fa": "پارگی عضلهٔ پاپیلاری یک عارضهٔ شدید سکته است.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-HRZ-074",
+      "kapitel": "Herz",
+      "seite": 42,
+      "lateinisch": "Resorptionsfieber",
+      "deutsch": "Fieber durch Abbau von abgestorbenem Gewebe (ca. 2 Tage nach Infarkt)",
+      "deutsch_fa": "تب به‌دلیل تجزیهٔ بافت مرده (حدود ۲ روز پس از سکته)",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Symptom",
+      "herkunft": "lat. resorbere = aufsaugen + Fieber",
+      "eselsbruecke": "Resorptionsfieber = Körper 'räumt' totes Gewebe auf → Fieber",
+      "eselsbruecke_fa": "تب جذبی = بدن بافت مرده را «پاک‌سازی» می‌کند ← تب",
+      "beispiel": "Das Resorptionsfieber beginnt ca. 2 Tage nach dem Herzinfarkt.",
+      "beispiel_fa": "تب جذبی حدود ۲ روز پس از سکتهٔ قلبی آغاز می‌شود.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-HRZ-075",
+      "kapitel": "Herz",
+      "seite": 42,
+      "lateinisch": "Troponin T und I",
+      "deutsch": "Herzspezifischer Marker (1-3 h nach Infarkt, bis 1-2 Wochen nachweisbar)",
+      "deutsch_fa": "نشانگر اختصاصی قلب (۱ تا ۳ ساعت پس از سکته، تا ۱ تا ۲ هفته قابل شناسایی)",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Laborwert",
+      "herkunft": "Muskelprotein (Kunstwort)",
+      "eselsbruecke": "Troponin = der spezifischste Infarkt-Marker (nur das Herz)",
+      "eselsbruecke_fa": "تروپونین = اختصاصی‌ترین نشانگر سکته (فقط قلب)",
+      "beispiel": "Troponin ist 1-3 Stunden nach dem Infarkt nachweisbar.",
+      "beispiel_fa": "تروپونین ۱ تا ۳ ساعت پس از سکته قابل شناسایی است.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-HRZ-076",
+      "kapitel": "Herz",
+      "seite": 42,
+      "lateinisch": "Myoglobin",
+      "deutsch": "Unspezifischer Frühmarker (2-4 h nach Infarkt)",
+      "deutsch_fa": "نشانگر زودرس غیراختصاصی (۲ تا ۴ ساعت پس از سکته)",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Laborwert",
+      "herkunft": "gr. mys = Muskel + lat. globus = Kugel",
+      "eselsbruecke": "Myoglobin = früh, aber unspezifisch (auch aus Skelettmuskel)",
+      "eselsbruecke_fa": "میوگلوبین = زودرس، اما غیراختصاصی (از عضلهٔ اسکلتی نیز)",
+      "beispiel": "Myoglobin steigt 2-4 Stunden nach dem Infarkt an, ist aber unspezifisch.",
+      "beispiel_fa": "میوگلوبین ۲ تا ۴ ساعت پس از سکته افزایش می‌یابد، اما غیراختصاصی است.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-HRZ-077",
+      "kapitel": "Herz",
+      "seite": 42,
+      "lateinisch": "CK-MB",
+      "deutsch": "Herzspezifische Kreatinkinase (Leitmarker, 3-12 h nach Infarkt)",
+      "deutsch_fa": "کراتین‌کیناز اختصاصی قلب (نشانگر اصلی، ۳ تا ۱۲ ساعت پس از سکته)",
+      "wortart": "Abkürzung",
+      "kategorie": "Laborwert",
+      "herkunft": "Creatinkinase Muscle-Brain",
+      "eselsbruecke": "CK-MB = die 'Herz-Variante' der Kreatinkinase (Leitmarker)",
+      "eselsbruecke_fa": "CK-MB = «نوع قلبیِ» کراتین‌کیناز (نشانگر اصلی)",
+      "beispiel": "CK-MB ist der Leitmarker der Herzinfarkt-Diagnostik.",
+      "beispiel_fa": "CK-MB نشانگر اصلی تشخیص سکتهٔ قلبی است.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-HRZ-078",
+      "kapitel": "Herz",
+      "seite": 42,
+      "lateinisch": "Fibrinolyse",
+      "deutsch": "Medikamentöse Auflösung eines Blutgerinnsels",
+      "deutsch_fa": "حل‌کردن دارویی یک لختهٔ خون",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Therapie",
+      "herkunft": "Fibrin + gr. lysis = Auflösung",
+      "eselsbruecke": "Fibrino-Lyse = das Gerinnsel (Fibrin) wird 'aufgelöst'",
+      "eselsbruecke_fa": "فیبرینو-لیز = لخته (فیبرین) «حل می‌شود»",
+      "beispiel": "Mit der Fibrinolyse wird das Blutgerinnsel im Infarktgefäß aufgelöst.",
+      "beispiel_fa": "با فیبرینولیز، لختهٔ خون در عروق سکته حل می‌شود.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-HRZ-079",
+      "kapitel": "Herz",
+      "seite": 42,
+      "lateinisch": "Stent",
+      "deutsch": "Gefäßstütze zur Offenhaltung eines verengten Gefäßes",
+      "deutsch_fa": "نگه‌دارندهٔ عروقی برای باز نگه‌داشتن یک عروق تنگ‌شده",
+      "wortart": "Substantiv (m)",
+      "kategorie": "Therapie",
+      "herkunft": "nach dem Zahnarzt Charles Stent",
+      "eselsbruecke": "Stent = kleines 'Röhrchen', das das Gefäß offen hält",
+      "eselsbruecke_fa": "استنت = «لولهٔ» کوچکی که عروق را باز نگه می‌دارد",
+      "beispiel": "Beim Herzkatheter kann ein Stent in die Koronararterie eingesetzt werden.",
+      "beispiel_fa": "در کاتتر قلب می‌توان یک استنت در شریان کرونر کار گذاشت.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-HRZ-080",
+      "kapitel": "Herz",
+      "seite": 42,
+      "lateinisch": "MONA(S)-BH",
+      "deutsch": "Merkhilfe für die ärztliche Herzinfarkt-Therapie",
+      "deutsch_fa": "یادیار برای درمان پزشکی سکتهٔ قلبی",
+      "wortart": "Abkürzung",
+      "kategorie": "Therapie",
+      "herkunft": "Morphin-Oxygen-Nitro-ASS-(Statine)-Betablocker-Heparin",
+      "eselsbruecke": "MONA(S)-BH = Morphin, Oxygen, Nitro, ASS, (Statine), Betablocker, Heparin",
+      "eselsbruecke_fa": "MONA(S)-BH = مورفین، اکسیژن، نیترات، ASS، (استاتین)، بتابلاکر، هپارین",
+      "beispiel": "Das MONA(S)-BH-Schema fasst die Herzinfarkt-Medikamente zusammen.",
+      "beispiel_fa": "طرح MONA(S)-BH داروهای سکتهٔ قلبی را خلاصه می‌کند.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-HRZ-081",
+      "kapitel": "Herz",
+      "seite": 43,
+      "lateinisch": "Herzinsuffizienz",
+      "deutsch": "Unvermögen des Herzens, den Körper ausreichend mit Blut/Sauerstoff zu versorgen",
+      "deutsch_fa": "ناتوانی قلب در تأمین کافی خون/اکسیژن برای بدن",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "dt. Herz + lat. insufficientia = Unzulänglichkeit",
+      "eselsbruecke": "Herz-Insuffizienz = das Herz 'reicht nicht mehr aus'",
+      "eselsbruecke_fa": "نارسایی قلبی = قلب «دیگر کافی نیست»",
+      "beispiel": "Die Herzinsuffizienz wird nach NYHA in vier Stadien eingeteilt.",
+      "beispiel_fa": "نارسایی قلبی طبق NYHA به چهار مرحله تقسیم می‌شود.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-HRZ-082",
+      "kapitel": "Herz",
+      "seite": 43,
+      "lateinisch": "NYHA-Klassifikation",
+      "deutsch": "Einteilung der Herzinsuffizienz in 4 Schweregrade (New York Heart Association)",
+      "deutsch_fa": "دسته‌بندی نارسایی قلبی به ۴ درجهٔ شدت (انجمن قلب نیویورک)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Diagnostik",
+      "herkunft": "engl. New York Heart Association",
+      "eselsbruecke": "NYHA I-IV = von 'keine Einschränkung' bis 'Beschwerden in Ruhe'",
+      "eselsbruecke_fa": "NYHA I تا IV = از «بدون محدودیت» تا «شکایات در استراحت»",
+      "beispiel": "NYHA IV bedeutet Beschwerden bereits in Ruhe.",
+      "beispiel_fa": "NYHA IV به معنای شکایات از پیش در حالت استراحت است.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-HRZ-083",
+      "kapitel": "Herz",
+      "seite": 43,
+      "lateinisch": "dekompensiert",
+      "deutsch": "Nicht mehr ausgeglichen (Beschwerden bereits in Ruhe)",
+      "deutsch_fa": "دیگر جبران‌نشده (شکایات از پیش در حالت استراحت)",
+      "wortart": "Adjektiv",
+      "kategorie": "Medizinische Fachbegriffe",
+      "herkunft": "lat. de = weg + compensare = ausgleichen",
+      "eselsbruecke": "De-Kompensiert = der Körper kann NICHT mehr ausgleichen",
+      "eselsbruecke_fa": "De-Kompensiert = بدن دیگر نمی‌تواند جبران کند",
+      "beispiel": "Bei dekompensierter Herzinsuffizienz bestehen Beschwerden schon in Ruhe.",
+      "beispiel_fa": "در نارسایی قلبی جبران‌نشده، شکایات از پیش در حالت استراحت وجود دارد.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-HRZ-084",
+      "kapitel": "Herz",
+      "seite": 43,
+      "lateinisch": "Perikardtamponade",
+      "deutsch": "Herzbeuteltamponade (Flüssigkeit im Herzbeutel behindert die Ventrikelfüllung)",
+      "deutsch_fa": "تامپوناد پریکارد (مایع در کیسهٔ قلب مانع پرشدن بطن می‌شود)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Notfall",
+      "herkunft": "Perikard + frz. tampon = Pfropf",
+      "eselsbruecke": "Perikard-Tamponade = Herzbeutel 'gefüllt' → Herz kann sich nicht füllen",
+      "eselsbruecke_fa": "تامپوناد پریکارد = کیسهٔ قلب «پر» ← قلب نمی‌تواند پر شود",
+      "beispiel": "Die Perikardtamponade behindert die Ventrikelfüllung.",
+      "beispiel_fa": "تامپوناد پریکارد مانع پرشدن بطن می‌شود.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-HRZ-085",
+      "kapitel": "Herz",
+      "seite": 43,
+      "lateinisch": "Aszites",
+      "deutsch": "Bauchwassersucht (Flüssigkeitsansammlung in der Bauchhöhle)",
+      "deutsch_fa": "آب‌آوردن شکم (تجمع مایع در حفرهٔ شکم)",
+      "wortart": "Substantiv (m)",
+      "kategorie": "Symptom",
+      "herkunft": "gr. askites = Wassersucht",
+      "eselsbruecke": "Aszites = 'Wasserbauch' (bei Rechtsherzinsuffizienz)",
+      "eselsbruecke_fa": "آسیت = «شکم آبکی» (در نارسایی قلب راست)",
+      "beispiel": "Aszites tritt bei der Rechtsherzinsuffizienz auf.",
+      "beispiel_fa": "آسیت در نارسایی قلب راست رخ می‌دهد.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-HRZ-086",
+      "kapitel": "Herz",
+      "seite": 43,
+      "lateinisch": "Stauungsleber",
+      "deutsch": "Blutstau in der Leber (bei Rechtsherzinsuffizienz)",
+      "deutsch_fa": "احتقان خون در کبد (در نارسایی قلب راست)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Pathophysiologie",
+      "herkunft": "dt. Stauung + Leber",
+      "eselsbruecke": "Stauungsleber = Blut 'staut' sich in die Leber zurück",
+      "eselsbruecke_fa": "کبد احتقانی = خون در کبد «پس می‌زند»",
+      "beispiel": "Die Stauungsleber kann zur kardialen Zirrhose führen.",
+      "beispiel_fa": "کبد احتقانی می‌تواند به سیروز قلبی منجر شود.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-HRZ-087",
+      "kapitel": "Herz",
+      "seite": 43,
+      "lateinisch": "Orthopnoe",
+      "deutsch": "Atemnot im Liegen, Besserung durch aufrechtes Sitzen",
+      "deutsch_fa": "تنگی نفس در حالت درازکش، بهبود با نشستن صاف",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Symptom",
+      "herkunft": "gr. orthos = aufrecht + pnoe = Atmung",
+      "eselsbruecke": "Ortho-Pnoe = nur 'aufrecht' bekommt man gut Luft",
+      "eselsbruecke_fa": "Ortho-Pnoe = فقط «صاف» می‌توان خوب نفس کشید",
+      "beispiel": "Bei Linksherzinsuffizienz besteht oft eine Orthopnoe.",
+      "beispiel_fa": "در نارسایی قلب چپ اغلب ارتوپنه وجود دارد.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-HRZ-088",
+      "kapitel": "Herz",
+      "seite": 43,
+      "lateinisch": "Asthma cardiale",
+      "deutsch": "Herzasthma (asthmaähnliche Symptome durch Linksherzinsuffizienz)",
+      "deutsch_fa": "آسم قلبی (علائم شبه‌آسم به‌دلیل نارسایی قلب چپ)",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Symptom",
+      "herkunft": "gr. asthma = Atemnot + lat. cardialis = das Herz betreffend",
+      "eselsbruecke": "Asthma cardiale = 'Herz'-Asthma (Ursache ist das Herz, nicht die Lunge)",
+      "eselsbruecke_fa": "آسم قلبی = آسمِ «قلبی» (علت قلب است، نه ریه)",
+      "beispiel": "Das Asthma cardiale entsteht durch die Stauungslunge.",
+      "beispiel_fa": "آسم قلبی به‌دلیل احتقان ریه ایجاد می‌شود.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-HRZ-089",
+      "kapitel": "Herz",
+      "seite": 43,
+      "lateinisch": "Kachexie",
+      "deutsch": "Starke Abmagerung/Auszehrung",
+      "deutsch_fa": "لاغری شدید/تحلیل بدن",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Symptom",
+      "herkunft": "gr. kakos = schlecht + hexis = Zustand",
+      "eselsbruecke": "Kachexie = 'schlechter Zustand' mit starker Abmagerung",
+      "eselsbruecke_fa": "کاشکسی = «وضعیت بد» همراه با لاغری شدید",
+      "beispiel": "Bei fortgeschrittener Herzinsuffizienz kann eine Kachexie auftreten.",
+      "beispiel_fa": "در نارسایی قلبی پیشرفته می‌تواند کاشکسی رخ دهد.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-HRZ-090",
+      "kapitel": "Herz",
+      "seite": 43,
+      "lateinisch": "Globalinsuffizienz",
+      "deutsch": "Kombinierte Links- und Rechtsherzinsuffizienz",
+      "deutsch_fa": "نارسایی ترکیبی قلب چپ و راست",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "lat. globus = Kugel/gesamt + Insuffizienz",
+      "eselsbruecke": "Global-Insuffizienz = das 'gesamte' Herz versagt (links + rechts)",
+      "eselsbruecke_fa": "نارسایی کلی = «کل» قلب از کار می‌افتد (چپ + راست)",
+      "beispiel": "Aus einer Linksherzinsuffizienz kann sich eine Globalinsuffizienz entwickeln.",
+      "beispiel_fa": "از نارسایی قلب چپ می‌تواند نارسایی کلی ایجاد شود.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-HRZ-091",
+      "kapitel": "Herz",
+      "seite": 44,
+      "lateinisch": "BNP (Brain Natriuretic Peptide)",
+      "deutsch": "Diagnostischer Marker der Herzinsuffizienz",
+      "deutsch_fa": "نشانگر تشخیصی نارسایی قلبی",
+      "wortart": "Abkürzung",
+      "kategorie": "Laborwert",
+      "herkunft": "engl. Brain Natriuretic Peptide",
+      "eselsbruecke": "BNP ↑ = das Herz ist überlastet (Herzinsuffizienz-Marker)",
+      "eselsbruecke_fa": "افزایش BNP = قلب تحت فشار است (نشانگر نارسایی قلبی)",
+      "beispiel": "BNP und NT-proBNP steigen bei der Herzinsuffizienz an.",
+      "beispiel_fa": "BNP و NT-proBNP در نارسایی قلبی افزایش می‌یابند.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-HRZ-092",
+      "kapitel": "Herz",
+      "seite": 44,
+      "lateinisch": "Weißdorn (Crataegus)",
+      "deutsch": "Heilpflanze bei leichter Herzinsuffizienz (nur begleitend)",
+      "deutsch_fa": "گیاه دارویی در نارسایی خفیف قلبی (فقط به‌عنوان مکمل)",
+      "wortart": "Substantiv (m)",
+      "kategorie": "Medikament",
+      "herkunft": "lat. Crataegus",
+      "eselsbruecke": "Weißdorn = pflanzliche 'Herzstärkung' (nur begleitend bei leichter HI)",
+      "eselsbruecke_fa": "زالزالک = «تقویت قلب» گیاهی (فقط مکمل در نارسایی خفیف)",
+      "beispiel": "Weißdorn wird nur begleitend zur ärztlichen Therapie eingesetzt.",
+      "beispiel_fa": "زالزالک فقط به‌عنوان مکمل درمان پزشکی استفاده می‌شود.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-HRZ-093",
+      "kapitel": "Herz",
+      "seite": 44,
+      "lateinisch": "ACE-Hemmer",
+      "deutsch": "Blutdrucksenker (hemmt Angiotensin-Converting-Enzym)",
+      "deutsch_fa": "کاهندهٔ فشار خون (آنزیم مبدل آنژیوتانسین را مهار می‌کند)",
+      "wortart": "Substantiv (m)",
+      "kategorie": "Medikament",
+      "herkunft": "engl. Angiotensin Converting Enzyme",
+      "eselsbruecke": "ACE-Hemmer = 'bremst' das blutdrucksteigernde Enzym",
+      "eselsbruecke_fa": "مهارکنندهٔ ACE = آنزیم افزایندهٔ فشار خون را «متوقف» می‌کند",
+      "beispiel": "ACE-Hemmer gehören zur Standardtherapie der Herzinsuffizienz.",
+      "beispiel_fa": "مهارکننده‌های ACE جزو درمان استاندارد نارسایی قلبی هستند.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-HRZ-094",
+      "kapitel": "Herz",
+      "seite": 44,
+      "lateinisch": "Diuretika",
+      "deutsch": "Harntreibende Medikamente (schwemmen Ödeme aus)",
+      "deutsch_fa": "داروهای ادرارآور (ادم‌ها را دفع می‌کنند)",
+      "wortart": "Substantiv (n, pl)",
+      "kategorie": "Medikament",
+      "herkunft": "gr. diuretikos = harntreibend",
+      "eselsbruecke": "Diuretika = 'entwässern' den Körper → weniger Ödeme",
+      "eselsbruecke_fa": "دیورتیک‌ها = بدن را «آب‌گیری» می‌کنند ← ادم کمتر",
+      "beispiel": "Diuretika schwemmen bei Herzinsuffizienz die Ödeme aus.",
+      "beispiel_fa": "دیورتیک‌ها در نارسایی قلبی ادم‌ها را دفع می‌کنند.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-HRZ-095",
+      "kapitel": "Herz",
+      "seite": 44,
+      "lateinisch": "angeborener Herzfehler",
+      "deutsch": "Von Geburt an bestehende Fehlbildung des Herzens",
+      "deutsch_fa": "ناهنجاری قلب که از بدو تولد وجود دارد",
+      "wortart": "Substantiv (m)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "dt. angeboren + Herzfehler",
+      "eselsbruecke": "Angeborener Herzfehler = 'von Geburt an' (nicht erworben)",
+      "eselsbruecke_fa": "نقص مادرزادی قلب = «از بدو تولد» (اکتسابی نیست)",
+      "beispiel": "Der VSD ist der häufigste angeborene Herzfehler.",
+      "beispiel_fa": "VSD شایع‌ترین نقص مادرزادی قلب است.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-HRZ-096",
+      "kapitel": "Herz",
+      "seite": 44,
+      "lateinisch": "Shunt",
+      "deutsch": "Kurzschlussverbindung (Blut nimmt einen 'falschen' Weg)",
+      "deutsch_fa": "اتصال میان‌بر (خون مسیر «اشتباه» را طی می‌کند)",
+      "wortart": "Substantiv (m)",
+      "kategorie": "Pathophysiologie",
+      "herkunft": "engl. shunt = Nebenschluss",
+      "eselsbruecke": "Shunt = 'Abkürzung' zwischen linkem und rechtem Herz",
+      "eselsbruecke_fa": "شانت = «میان‌بر» بین قلب چپ و راست",
+      "beispiel": "Beim VSD besteht ein Links-Rechts-Shunt.",
+      "beispiel_fa": "در VSD یک شانت چپ-به-راست وجود دارد.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-HRZ-097",
+      "kapitel": "Herz",
+      "seite": 44,
+      "lateinisch": "Ductus arteriosus Botalli",
+      "deutsch": "Fetale Gefäßverbindung zwischen Aorta und Lungenschlagader",
+      "deutsch_fa": "اتصال عروقی جنینی بین آئورت و شریان ریوی",
+      "wortart": "Substantiv (m)",
+      "kategorie": "Anatomie",
+      "herkunft": "lat. ductus = Gang + nach Leonardo Botallo",
+      "eselsbruecke": "Ductus Botalli = fetaler 'Kurzschluss', der sich normal nach Geburt schließt",
+      "eselsbruecke_fa": "مجرای بوتالی = «میان‌بر» جنینی که معمولاً پس از تولد بسته می‌شود",
+      "beispiel": "Ein offener Ductus arteriosus Botalli ist ein angeborener Herzfehler.",
+      "beispiel_fa": "مجرای شریانی باز بوتالی یک نقص مادرزادی قلب است.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-HRZ-098",
+      "kapitel": "Herz",
+      "seite": 44,
+      "lateinisch": "Fallot'sche Tetralogie",
+      "deutsch": "Kombination aus 4 Herzfehlern (Rechts-Links-Shunt, Zyanose)",
+      "deutsch_fa": "ترکیبی از ۴ نقص قلبی (شانت راست-به-چپ، سیانوز)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "nach dem Arzt Étienne-Louis Fallot + gr. tetra = vier",
+      "eselsbruecke": "Fallot-TETRAlogie = VIER Fehler zusammen (Rechts-Links-Shunt)",
+      "eselsbruecke_fa": "تترالوژی فالو = چهار نقص با هم (شانت راست-به-چپ)",
+      "beispiel": "Die Fallot'sche Tetralogie verursacht einen Rechts-Links-Shunt mit Zyanose.",
+      "beispiel_fa": "تترالوژی فالو یک شانت راست-به-چپ همراه با سیانوز ایجاد می‌کند.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-HRZ-099",
+      "kapitel": "Herz",
+      "seite": 44,
+      "lateinisch": "Aortenisthmusstenose",
+      "deutsch": "Verengung der Aorta an der Enge (Isthmus)",
+      "deutsch_fa": "تنگی آئورت در ناحیهٔ تنگه (ایسموس)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "Aorta + gr. isthmos = Enge + stenosis",
+      "eselsbruecke": "Aortenisthmus-Stenose = 'Engstelle' der Aorta (ohne Shunt)",
+      "eselsbruecke_fa": "تنگی تنگهٔ آئورت = «نقطهٔ تنگ» آئورت (بدون شانت)",
+      "beispiel": "Die Aortenisthmusstenose ist ein Herzfehler ohne Shunt.",
+      "beispiel_fa": "تنگی تنگهٔ آئورت یک نقص قلبی بدون شانت است.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-HRZ-100",
+      "kapitel": "Herz",
+      "seite": 44,
+      "lateinisch": "Shuntumkehr",
+      "deutsch": "Umkehr der Blutflussrichtung im Shunt (z.B. Links-Rechts → Rechts-Links)",
+      "deutsch_fa": "برگشت جهت جریان خون در شانت (مثلاً چپ-به-راست ← راست-به-چپ)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Pathophysiologie",
+      "herkunft": "dt. Shunt + Umkehr",
+      "eselsbruecke": "Shuntumkehr = die Fließrichtung 'dreht sich um' (Eisenmenger)",
+      "eselsbruecke_fa": "برگشت شانت = جهت جریان «برعکس می‌شود» (آیزنمنگر)",
+      "beispiel": "Bei erhöhtem Druck im rechten Herzen kann es zur Shuntumkehr kommen.",
+      "beispiel_fa": "در افزایش فشار در قلب راست می‌تواند برگشت شانت رخ دهد.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-HRZ-101",
+      "kapitel": "Herz",
+      "seite": 45,
+      "lateinisch": "Vorhofseptumdefekt (ASD)",
+      "deutsch": "Loch in der Vorhofscheidewand (offene Verbindung der Vorhöfe)",
+      "deutsch_fa": "سوراخ در دیوارهٔ بین دهلیزی (ارتباط باز دهلیزها)",
+      "wortart": "Substantiv (m)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "dt. Vorhof + lat. septum = Scheidewand + defectus = Fehler",
+      "eselsbruecke": "ASD = Atrium-Septum-Defekt (Loch zwischen den Vorhöfen)",
+      "eselsbruecke_fa": "ASD = نقص سپتوم دهلیزی (سوراخ بین دهلیزها)",
+      "beispiel": "Beim ASD besteht ein Links-Rechts-Shunt zwischen den Vorhöfen.",
+      "beispiel_fa": "در ASD یک شانت چپ-به-راست بین دهلیزها وجود دارد.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-HRZ-102",
+      "kapitel": "Herz",
+      "seite": 45,
+      "lateinisch": "Kammerseptumdefekt (VSD)",
+      "deutsch": "Loch in der Kammerscheidewand (häufigster angeborener Herzfehler)",
+      "deutsch_fa": "سوراخ در دیوارهٔ بین بطنی (شایع‌ترین نقص مادرزادی قلب)",
+      "wortart": "Substantiv (m)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "dt. Kammer + lat. septum = Scheidewand + defectus",
+      "eselsbruecke": "VSD = Ventrikel-Septum-Defekt (Loch zwischen den Kammern)",
+      "eselsbruecke_fa": "VSD = نقص سپتوم بطنی (سوراخ بین بطن‌ها)",
+      "beispiel": "Der VSD ist der häufigste angeborene Herzfehler.",
+      "beispiel_fa": "VSD شایع‌ترین نقص مادرزادی قلب است.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-HRZ-103",
+      "kapitel": "Herz",
+      "seite": 45,
+      "lateinisch": "Foramen ovale",
+      "deutsch": "Fetale Öffnung zwischen den Vorhöfen (schließt sich normal nach Geburt)",
+      "deutsch_fa": "سوراخ جنینی بین دهلیزها (معمولاً پس از تولد بسته می‌شود)",
+      "wortart": "Substantiv (n)",
+      "kategorie": "Anatomie",
+      "herkunft": "lat. foramen = Loch + ovalis = eiförmig",
+      "eselsbruecke": "Foramen ovale = 'ovales Loch' im fetalen Kreislauf (umgeht die Lunge)",
+      "eselsbruecke_fa": "سوراخ بیضی = «سوراخ بیضی‌شکل» در گردش خون جنینی (ریه را دور می‌زند)",
+      "beispiel": "Ein persistierendes Foramen ovale kann einen ASD verursachen.",
+      "beispiel_fa": "سوراخ بیضی پایدار می‌تواند ASD ایجاد کند.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-HRZ-104",
+      "kapitel": "Herz",
+      "seite": 45,
+      "lateinisch": "Eisenmenger-Reaktion",
+      "deutsch": "Shuntumkehr (Links-Rechts → Rechts-Links) durch pulmonale Hypertonie",
+      "deutsch_fa": "برگشت شانت (چپ-به-راست ← راست-به-چپ) به‌دلیل فشار خون ریوی",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Pathophysiologie",
+      "herkunft": "nach dem Arzt Victor Eisenmenger",
+      "eselsbruecke": "Eisenmenger = zu viel Lungendruck → Shunt 'dreht sich um' → Zyanose",
+      "eselsbruecke_fa": "آیزنمنگر = فشار ریوی زیاد ← شانت «برعکس می‌شود» ← سیانوز",
+      "beispiel": "Die Eisenmenger-Reaktion führt zur Shuntumkehr mit Zyanose.",
+      "beispiel_fa": "واکنش آیزنمنگر به برگشت شانت همراه با سیانوز منجر می‌شود.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-HRZ-105",
+      "kapitel": "Herz",
+      "seite": 45,
+      "lateinisch": "pulmonale Hypertonie",
+      "deutsch": "Bluthochdruck im Lungenkreislauf",
+      "deutsch_fa": "فشار خون بالا در گردش خون ریوی",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Krankheitsbild",
+      "herkunft": "lat. pulmo = Lunge + gr. hyper = über + tonos = Spannung",
+      "eselsbruecke": "Pulmonale Hypertonie = hoher Druck in der 'Lunge' (Pulmo)",
+      "eselsbruecke_fa": "فشار خون ریوی = فشار بالا در «ریه» (Pulmo)",
+      "beispiel": "Die pulmonale Hypertonie belastet das rechte Herz.",
+      "beispiel_fa": "فشار خون ریوی به قلب راست فشار می‌آورد.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-HRZ-106",
+      "kapitel": "Herz",
+      "seite": 45,
+      "lateinisch": "Polyglobulie",
+      "deutsch": "Vermehrung der roten Blutkörperchen",
+      "deutsch_fa": "افزایش گلبول‌های قرمز خون",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Laborwert",
+      "herkunft": "gr. poly = viel + lat. globulus = Kügelchen",
+      "eselsbruecke": "Poly-Globulie = 'viele' rote Blutkörperchen (Sauerstoffmangel-Ausgleich)",
+      "eselsbruecke_fa": "Poly-Globulie = گلبول‌های قرمز «زیاد» (جبران کمبود اکسیژن)",
+      "beispiel": "Bei chronischem Sauerstoffmangel entsteht eine Polyglobulie.",
+      "beispiel_fa": "در کمبود مزمن اکسیژن، پلی‌گلوبولی ایجاد می‌شود.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-HRZ-107",
+      "kapitel": "Herz",
+      "seite": 45,
+      "lateinisch": "Trommelschlägelfinger",
+      "deutsch": "Kolbenförmige Auftreibung der Fingerendglieder (bei chron. Sauerstoffmangel)",
+      "deutsch_fa": "برجستگی چماقی‌شکل بند انتهایی انگشتان (در کمبود مزمن اکسیژن)",
+      "wortart": "Substantiv (m, pl)",
+      "kategorie": "Symptom",
+      "herkunft": "dt. Trommelschlägel + Finger",
+      "eselsbruecke": "Trommelschlägelfinger = Finger wie 'Trommelstöcke' (O2-Mangel)",
+      "eselsbruecke_fa": "انگشتان چماقی = انگشتان مانند «چوب طبل» (کمبود اکسیژن)",
+      "beispiel": "Trommelschlägelfinger sind ein Zeichen für chronischen Sauerstoffmangel.",
+      "beispiel_fa": "انگشتان چماقی نشانهٔ کمبود مزمن اکسیژن هستند.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-HRZ-108",
+      "kapitel": "Herz",
+      "seite": 45,
+      "lateinisch": "Uhrglasnägel",
+      "deutsch": "Gewölbte, vergrößerte Fingernägel (bei chron. Sauerstoffmangel)",
+      "deutsch_fa": "ناخن‌های محدب و بزرگ‌شده (در کمبود مزمن اکسیژن)",
+      "wortart": "Substantiv (m, pl)",
+      "kategorie": "Symptom",
+      "herkunft": "dt. Uhrglas + Nägel",
+      "eselsbruecke": "Uhrglasnägel = Nägel gewölbt wie ein 'Uhrglas' (O2-Mangel)",
+      "eselsbruecke_fa": "ناخن‌های ساعت‌شنی = ناخن‌ها محدب مانند «شیشهٔ ساعت» (کمبود اکسیژن)",
+      "beispiel": "Uhrglasnägel treten zusammen mit Trommelschlägelfingern auf.",
+      "beispiel_fa": "ناخن‌های ساعت‌شنی همراه با انگشتان چماقی بروز می‌کنند.",
+      "schwierigkeit": "schwer"
+    },
+    {
+      "id": "VOK-HRZ-109",
+      "kapitel": "Herz",
+      "seite": 45,
+      "lateinisch": "Interkostalraum (ICR)",
+      "deutsch": "Zwischenrippenraum (Raum zwischen zwei Rippen)",
+      "deutsch_fa": "فضای بین‌دنده‌ای (فضای بین دو دنده)",
+      "wortart": "Substantiv (m)",
+      "kategorie": "Anatomie",
+      "herkunft": "lat. inter = zwischen + costa = Rippe",
+      "eselsbruecke": "Inter-Kostal-Raum = Raum ZWISCHEN den Rippen (Costa)",
+      "eselsbruecke_fa": "فضای بین‌دنده‌ای = فضای بین دنده‌ها (Costa)",
+      "beispiel": "Das Systolikum beim VSD hört man im 3.-4. ICR links parasternal.",
+      "beispiel_fa": "سوفل سیستولیک VSD در سومین تا چهارمین فضای بین‌دنده‌ای چپ شنیده می‌شود.",
+      "schwierigkeit": "mittel"
+    },
+    {
+      "id": "VOK-HRZ-110",
+      "kapitel": "Herz",
+      "seite": 45,
+      "lateinisch": "Endokarditis-Prophylaxe",
+      "deutsch": "Vorbeugung einer Herzinnenhautentzündung (z.B. mit Antibiotika vor Eingriffen)",
+      "deutsch_fa": "پیشگیری از التهاب پردهٔ داخلی قلب (مثلاً با آنتی‌بیوتیک پیش از اقدامات)",
+      "wortart": "Substantiv (f)",
+      "kategorie": "Therapie",
+      "herkunft": "Endokard + gr. prophylaxis = Vorbeugung",
+      "eselsbruecke": "Endokarditis-Prophylaxe = 'Schutz' der Herzinnenhaut vor Entzündung",
+      "eselsbruecke_fa": "پیشگیری از اندوکاردیت = «محافظت» از پردهٔ داخلی قلب در برابر التهاب",
+      "beispiel": "Bei einem VSD ist eine Endokarditis-Prophylaxe wichtig.",
+      "beispiel_fa": "در VSD پیشگیری از اندوکاردیت مهم است.",
+      "schwierigkeit": "schwer"
     }
   ]
 }

@@ -3,7 +3,7 @@
 // ================================================
 
 // 📌 VERSIONS-INFO
-const APP_VERSION = "6.9";
+const APP_VERSION = "7.1";
 const APP_DATUM = "2026-07-12";
 
 let fragenkatalog = [];
@@ -428,6 +428,10 @@ function zeigeHauptmenue() {
                 <button class="modus-btn modus-btn-vokabel" onclick="starteVokabelnDeLat()">
                     <div class="modus-icon">🔄</div>
                     <div class="modus-info"><div class="modus-titel">Deutsch → Latein</div><div class="modus-beschreibung">Andere Richtung üben</div></div>
+                </button>
+                <button class="modus-btn modus-btn-vokabel" onclick="zeigePdfExport()">
+                    <div class="modus-icon">📄</div>
+                    <div class="modus-info"><div class="modus-titel">Vokabeln als PDF</div><div class="modus-beschreibung">Kategorie wählen & exportieren</div></div>
                 </button>
             </div>
 
@@ -891,6 +895,153 @@ function starteVokabelKategorie(kategorie) {
     rundenRichtig = 0; rundenFalsch = 0;
     karteUmgedreht = false;
     zeigeVokabelKarte();
+}
+
+// ================================================
+// PDF-EXPORT der Vokabeln nach Kategorie
+// ================================================
+function zeigePdfExport() {
+    const app = document.getElementById('app');
+    const kategorien = {};
+    vokabeln.forEach(v => {
+        const k = v.kategorie || "Sonstige";
+        kategorien[k] = (kategorien[k] || 0) + 1;
+    });
+
+    let optionen = `<option value="__ALLE__">Alle Kategorien (${vokabeln.length})</option>`;
+    Object.keys(kategorien).sort().forEach(k => {
+        optionen += `<option value="${k}">${k} (${kategorien[k]})</option>`;
+    });
+
+    app.innerHTML = `
+        <div class="container">
+            <button class="zurueck-btn" onclick="zeigeHauptmenue()">← Zurück</button>
+            <div class="section-title" style="margin-top:16px;">📄 Vokabeln als PDF exportieren</div>
+            <p style="color:var(--text-muted, #888); margin:8px 0 20px; line-height:1.5;">
+                Kategorie wählen – die PDF-Tabelle enthält <strong>Lateinisch</strong>, <strong>Deutsch</strong> und <strong>Persisch (فارسی)</strong>.
+            </p>
+            <div style="display:flex; flex-direction:column; gap:14px; max-width:460px;">
+                <label style="font-weight:bold;">Kategorie:
+                    <select id="pdfKategorie" style="width:100%; padding:10px; margin-top:6px; border-radius:8px; font-size:15px;">
+                        ${optionen}
+                    </select>
+                </label>
+                <button id="pdfExportBtn" onclick="exportiereVokabelnPdf()"
+                    style="background:var(--erfolg, #2e7d32); color:#fff; border:none; border-radius:10px; padding:14px; font-size:16px; font-weight:bold; cursor:pointer;">
+                    📄 Als PDF exportieren
+                </button>
+                <p id="pdfStatus" style="color:var(--text-muted, #888); font-size:13px;"></p>
+            </div>
+            <p style="color:var(--text-muted, #888); font-size:13px; margin-top:20px;">
+                💡 Tipp: Die PDF eignet sich gut zum Ausdrucken und Offline-Lernen.
+            </p>
+        </div>
+    `;
+}
+
+// Lädt ein Script dynamisch nach (nur beim ersten Mal)
+function ladeScript(src) {
+    return new Promise((resolve, reject) => {
+        if (document.querySelector(`script[src="${src}"]`)) { resolve(); return; }
+        const s = document.createElement('script');
+        s.src = src;
+        s.onload = resolve;
+        s.onerror = () => reject(new Error("Konnte nicht laden: " + src));
+        document.head.appendChild(s);
+    });
+}
+
+let _vazirFontBase64 = null;
+
+async function exportiereVokabelnPdf() {
+    const status = document.getElementById('pdfStatus');
+    const btn = document.getElementById('pdfExportBtn');
+    const setStatus = (t) => { if (status) status.textContent = t; };
+
+    try {
+        btn.disabled = true;
+        setStatus("⏳ Lade PDF-Bibliotheken ...");
+
+        // jsPDF + autoTable laden
+        await ladeScript("https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js");
+        await ladeScript("https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.8.2/jspdf.plugin.autotable.min.js");
+
+        // Persisch-Schrift (Vazirmatn) einmalig laden und als Base64 einbetten
+        if (!_vazirFontBase64) {
+            setStatus("⏳ Lade persische Schrift ...");
+            const fontUrl = "https://cdn.jsdelivr.net/npm/vazirmatn@33.0.3/fonts/ttf/Vazirmatn-Regular.ttf";
+            const resp = await fetch(fontUrl);
+            if (!resp.ok) throw new Error("Schrift konnte nicht geladen werden");
+            const buffer = await resp.arrayBuffer();
+            // ArrayBuffer → Base64
+            let binary = '';
+            const bytes = new Uint8Array(buffer);
+            for (let i = 0; i < bytes.length; i++) binary += String.fromCharCode(bytes[i]);
+            _vazirFontBase64 = btoa(binary);
+        }
+
+        setStatus("⏳ Erstelle PDF ...");
+
+        // Kategorie-Auswahl
+        const auswahl = document.getElementById('pdfKategorie').value;
+        let liste, titelKat;
+        if (auswahl === "__ALLE__") {
+            liste = vokabeln.slice();
+            titelKat = "Alle Kategorien";
+        } else {
+            liste = vokabeln.filter(v => (v.kategorie || "Sonstige") === auswahl);
+            titelKat = auswahl;
+        }
+        if (liste.length === 0) { setStatus("⚠️ Keine Vokabeln in dieser Kategorie."); btn.disabled = false; return; }
+
+        // Alphabetisch nach Lateinisch
+        liste.sort((a, b) => (a.lateinisch || "").toLowerCase().localeCompare((b.lateinisch || "").toLowerCase()));
+
+        const { jsPDF } = window.jspdf;
+        const doc = new jsPDF({ orientation: "landscape", format: "a4" });
+
+        // Schrift registrieren
+        doc.addFileToVFS("Vazirmatn.ttf", _vazirFontBase64);
+        doc.addFont("Vazirmatn.ttf", "Vazir", "normal");
+        doc.setFont("Vazir");
+
+        // Titel
+        doc.setFontSize(16);
+        doc.text(`Vokabeln – ${titelKat}`, 14, 16);
+        doc.setFontSize(10);
+        doc.setTextColor(120);
+        const heute = new Date().toLocaleDateString('de-DE');
+        doc.text(`${liste.length} Vokabeln  ·  Heilpraktiker-Lern-App  ·  ${heute}`, 14, 23);
+        doc.setTextColor(0);
+
+        // Tabelle
+        const rows = liste.map(v => [v.lateinisch || "", v.deutsch || "", v.deutsch_fa || ""]);
+        doc.autoTable({
+            head: [["Lateinisch", "Deutsch", "فارسی"]],
+            body: rows,
+            startY: 28,
+            styles: { font: "Vazir", fontSize: 10, cellPadding: 2, overflow: "linebreak" },
+            headStyles: { fillColor: [200, 30, 45], textColor: 255, fontStyle: "normal" },
+            alternateRowStyles: { fillColor: [248, 240, 241] },
+            columnStyles: {
+                0: { cellWidth: 70 },
+                1: { cellWidth: 110 },
+                2: { cellWidth: 88, halign: "right" }
+            },
+            didParseCell: function (data) {
+                // Persische Spalte rechtsbündig
+                if (data.column.index === 2) data.cell.styles.halign = "right";
+            }
+        });
+
+        const dateiname = `Vokabeln_${titelKat.replace(/[ \/]/g, "_")}.pdf`;
+        doc.save(dateiname);
+        setStatus(`✅ PDF erstellt: ${liste.length} Vokabeln aus "${titelKat}"`);
+    } catch (e) {
+        setStatus("❌ Fehler: " + e.message + " (Internetverbindung nötig beim ersten Export)");
+    } finally {
+        btn.disabled = false;
+    }
 }
 
 // ================================================
